@@ -1,0 +1,5246 @@
+[
+    {
+        "video": "6H78U.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the blanket.",
+        "candidates": [
+            "Put down the blanket.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T3_5",
+        "start": 16.6,
+        "end": 25.6
+    },
+    {
+        "video": "OY3LS.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the laptop.",
+        "candidates": [
+            "Closed the laptop.",
+            "Threw the clothes."
+        ],
+        "question_id": "Sequence_T3_49",
+        "start": 7.0,
+        "end": 23.8
+    },
+    {
+        "video": "OY3LS.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the laptop.",
+        "candidates": [
+            "Threw the clothes.",
+            "Opened the laptop."
+        ],
+        "question_id": "Sequence_T3_50",
+        "start": 2.5,
+        "end": 23.8
+    },
+    {
+        "video": "OY3LS.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the blanket.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Took the blanket."
+        ],
+        "question_id": "Sequence_T3_53",
+        "start": 34.7,
+        "end": 41.4
+    },
+    {
+        "video": "KQDX6.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T3_100",
+        "start": 4.0,
+        "end": 25.0
+    },
+    {
+        "video": "GKH0F.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the phone/camera.",
+        "candidates": [
+            "Took the phone/camera.",
+            "Put down the bag."
+        ],
+        "question_id": "Sequence_T3_109",
+        "start": 23.4,
+        "end": 31.6
+    },
+    {
+        "video": "H0L5S.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Took the towel.",
+            "Sat on the floor."
+        ],
+        "question_id": "Sequence_T3_146",
+        "start": 0.0,
+        "end": 27.5
+    },
+    {
+        "video": "E002I.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the pillow.",
+        "candidates": [
+            "Lied on the bed.",
+            "Put down the pillow."
+        ],
+        "question_id": "Sequence_T3_184",
+        "start": 4.1,
+        "end": 14.1
+    },
+    {
+        "video": "WX8N8.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the towel.",
+        "candidates": [
+            "Threw the clothes.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T3_191",
+        "start": 6.2,
+        "end": 10.8
+    },
+    {
+        "video": "VIN5T.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Sat on the floor.",
+            "Put down the pillow."
+        ],
+        "question_id": "Sequence_T3_231",
+        "start": 0.0,
+        "end": 6.0
+    },
+    {
+        "video": "YB67Z.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the box.",
+        "candidates": [
+            "Tidied up the table.",
+            "Opened the box."
+        ],
+        "question_id": "Sequence_T3_244",
+        "start": 5.4,
+        "end": 19.1
+    },
+    {
+        "video": "A2X7Q.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the door.",
+        "candidates": [
+            "Took the bag.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T3_285",
+        "start": 3.8,
+        "end": 10.7
+    },
+    {
+        "video": "3XL0K.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T3_293",
+        "start": 0.0,
+        "end": 4.5
+    },
+    {
+        "video": "ATV2F.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the clothes.",
+        "candidates": [
+            "Put down the blanket.",
+            "Took the clothes."
+        ],
+        "question_id": "Sequence_T3_310",
+        "start": 0.0,
+        "end": 13.9
+    },
+    {
+        "video": "ATV2F.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the blanket.",
+        "candidates": [
+            "Put down the blanket.",
+            "Opened the laptop."
+        ],
+        "question_id": "Sequence_T3_312",
+        "start": 7.3,
+        "end": 14.5
+    },
+    {
+        "video": "IWTWJ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Threw the clothes.",
+        "candidates": [
+            "Threw the clothes.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T3_320",
+        "start": 4.4,
+        "end": 20.8
+    },
+    {
+        "video": "TRHT1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Put down the pillow."
+        ],
+        "question_id": "Sequence_T3_351",
+        "start": 0.0,
+        "end": 6.3
+    },
+    {
+        "video": "5NG6Q.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Put down the dish.",
+            "Tidied up the table."
+        ],
+        "question_id": "Sequence_T3_362",
+        "start": 13.8,
+        "end": 25.6
+    },
+    {
+        "video": "C1DK7.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Closed the laptop.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_377",
+        "start": 0.0,
+        "end": 10.2
+    },
+    {
+        "video": "C1DK7.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Closed the laptop.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_378",
+        "start": 0.0,
+        "end": 10.2
+    },
+    {
+        "video": "V0ZD9.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Put down the dish.",
+            "Took the clothes."
+        ],
+        "question_id": "Sequence_T3_401",
+        "start": 4.6,
+        "end": 28.5
+    },
+    {
+        "video": "YJ1KW.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Put down the food.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_416",
+        "start": 9.5,
+        "end": 15.8
+    },
+    {
+        "video": "PH5VU.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the book.",
+        "candidates": [
+            "Opened the book.",
+            "Took the paper/notebook."
+        ],
+        "question_id": "Sequence_T3_418",
+        "start": 30.5,
+        "end": 36.0
+    },
+    {
+        "video": "5C4EK.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the book.",
+        "candidates": [
+            "Took the paper/notebook.",
+            "Closed the book."
+        ],
+        "question_id": "Sequence_T3_429",
+        "start": 2.2,
+        "end": 11.4
+    },
+    {
+        "video": "NW0KT.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the paper/notebook.",
+        "candidates": [
+            "Took the paper/notebook.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T3_437",
+        "start": 4.9,
+        "end": 48.1
+    },
+    {
+        "video": "NYHD7.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Took the phone/camera.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_448",
+        "start": 0.0,
+        "end": 26.9
+    },
+    {
+        "video": "SS3IL.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Held the food.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T3_507",
+        "start": 1.7,
+        "end": 9.3
+    },
+    {
+        "video": "ON2Z4.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the blanket.",
+        "candidates": [
+            "Closed the book.",
+            "Took the blanket."
+        ],
+        "question_id": "Sequence_T3_573",
+        "start": 8.4,
+        "end": 23.7
+    },
+    {
+        "video": "U5T4M.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the food.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Took the food."
+        ],
+        "question_id": "Sequence_T3_593",
+        "start": 7.0,
+        "end": 14.1
+    },
+    {
+        "video": "U5T4M.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Held the food.",
+            "Closed the refrigerator."
+        ],
+        "question_id": "Sequence_T3_594",
+        "start": 7.5,
+        "end": 14.1
+    },
+    {
+        "video": "43CCM.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the door.",
+        "candidates": [
+            "Opened the door.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T3_621",
+        "start": 0.1,
+        "end": 25.5
+    },
+    {
+        "video": "G6ZOB.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the door.",
+        "candidates": [
+            "Put down the book.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T3_658",
+        "start": 7.0,
+        "end": 31.2
+    },
+    {
+        "video": "03PRW.mp4",
+        "question": "What did the person do first?",
+        "answer": "Ate the sandwich.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Ate the sandwich."
+        ],
+        "question_id": "Sequence_T3_670",
+        "start": 10.0,
+        "end": 33.2
+    },
+    {
+        "video": "03PRW.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Held the food."
+        ],
+        "question_id": "Sequence_T3_672",
+        "start": 0.0,
+        "end": 33.2
+    },
+    {
+        "video": "WXBEO.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the cup/glass/bottle.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Took the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T3_754",
+        "start": 15.7,
+        "end": 23.7
+    },
+    {
+        "video": "OQ54Y.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_801",
+        "start": 19.6,
+        "end": 31.1
+    },
+    {
+        "video": "BEAAA.mp4",
+        "question": "What did the person do first?",
+        "answer": "Ate the sandwich.",
+        "candidates": [
+            "Ate the sandwich.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T3_850",
+        "start": 0.0,
+        "end": 11.8
+    },
+    {
+        "video": "999BP.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Took the bag.",
+            "Held the food."
+        ],
+        "question_id": "Sequence_T3_957",
+        "start": 1.8,
+        "end": 7.7
+    },
+    {
+        "video": "IOGR7.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Sat on the floor.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T3_1009",
+        "start": 15.8,
+        "end": 21.9
+    },
+    {
+        "video": "BI6Y4.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Sat at the table.",
+            "Drank from the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T3_1016",
+        "start": 4.6,
+        "end": 33.1
+    },
+    {
+        "video": "4BEZX.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the door.",
+        "candidates": [
+            "Closed the door.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T3_1031",
+        "start": 15.8,
+        "end": 23.5
+    },
+    {
+        "video": "8XXNK.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Opened the box.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T3_1033",
+        "start": 0.0,
+        "end": 9.0
+    },
+    {
+        "video": "8XXNK.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the box.",
+        "candidates": [
+            "Held the food.",
+            "Opened the box."
+        ],
+        "question_id": "Sequence_T3_1035",
+        "start": 0.0,
+        "end": 9.0
+    },
+    {
+        "video": "Q5YDL.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Closed the laptop."
+        ],
+        "question_id": "Sequence_T3_1225",
+        "start": 0.0,
+        "end": 17.8
+    },
+    {
+        "video": "IIW0F.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the blanket.",
+        "candidates": [
+            "Took the towel.",
+            "Put down the blanket."
+        ],
+        "question_id": "Sequence_T3_1248",
+        "start": 7.0,
+        "end": 13.2
+    },
+    {
+        "video": "VS7VS.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the paper/notebook.",
+        "candidates": [
+            "Put down the book.",
+            "Took the paper/notebook."
+        ],
+        "question_id": "Sequence_T3_1336",
+        "start": 3.1,
+        "end": 19.1
+    },
+    {
+        "video": "5INX3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Put down the towel.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_1347",
+        "start": 0.0,
+        "end": 35.1
+    },
+    {
+        "video": "BFH78.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the book.",
+        "candidates": [
+            "Opened the book.",
+            "Took the paper/notebook."
+        ],
+        "question_id": "Sequence_T3_1359",
+        "start": 14.4,
+        "end": 22.4
+    },
+    {
+        "video": "3T785.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Put down the towel."
+        ],
+        "question_id": "Sequence_T3_1363",
+        "start": 0.0,
+        "end": 8.0
+    },
+    {
+        "video": "3T785.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the clothes.",
+        "candidates": [
+            "Took the laptop.",
+            "Took the clothes."
+        ],
+        "question_id": "Sequence_T3_1364",
+        "start": 2.1,
+        "end": 7.2
+    },
+    {
+        "video": "U33ZS.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the book.",
+        "candidates": [
+            "Took the book.",
+            "Opened the laptop."
+        ],
+        "question_id": "Sequence_T3_1368",
+        "start": 2.3,
+        "end": 14.8
+    },
+    {
+        "video": "V3SOF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the closet/cabinet.",
+        "candidates": [
+            "Closed the closet/cabinet.",
+            "Took the dish."
+        ],
+        "question_id": "Sequence_T3_1406",
+        "start": 4.0,
+        "end": 13.8
+    },
+    {
+        "video": "ZVRBL.mp4",
+        "question": "What did the person do first?",
+        "answer": "Tidied up the table.",
+        "candidates": [
+            "Tidied up the table.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T3_1426",
+        "start": 0.0,
+        "end": 16.6
+    },
+    {
+        "video": "2KGV3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the food.",
+        "candidates": [
+            "Closed the book.",
+            "Put down the food."
+        ],
+        "question_id": "Sequence_T3_1441",
+        "start": 7.9,
+        "end": 22.5
+    },
+    {
+        "video": "LUQWY.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Closed the laptop."
+        ],
+        "question_id": "Sequence_T3_1463",
+        "start": 5.3,
+        "end": 33.1
+    },
+    {
+        "video": "LD6TD.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Closed the book."
+        ],
+        "question_id": "Sequence_T3_1471",
+        "start": 0.0,
+        "end": 18.3
+    },
+    {
+        "video": "RQRRD.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the clothes.",
+        "candidates": [
+            "Opened the box.",
+            "Took the clothes."
+        ],
+        "question_id": "Sequence_T3_1501",
+        "start": 5.2,
+        "end": 11.1
+    },
+    {
+        "video": "UY0SK.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the paper/notebook.",
+        "candidates": [
+            "Put down the paper/notebook.",
+            "Took the dish."
+        ],
+        "question_id": "Sequence_T3_1549",
+        "start": 10.9,
+        "end": 18.0
+    },
+    {
+        "video": "FQS7O.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Sat on the floor.",
+            "Closed the book."
+        ],
+        "question_id": "Sequence_T3_1568",
+        "start": 0.0,
+        "end": 11.5
+    },
+    {
+        "video": "FQS7O.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Closed the book."
+        ],
+        "question_id": "Sequence_T3_1569",
+        "start": 0.0,
+        "end": 11.5
+    },
+    {
+        "video": "FQS7O.mp4",
+        "question": "What did the person do first?",
+        "answer": "Tidied up the table.",
+        "candidates": [
+            "Put down the book.",
+            "Tidied up the table."
+        ],
+        "question_id": "Sequence_T3_1570",
+        "start": 9.1,
+        "end": 20.0
+    },
+    {
+        "video": "K9UXS.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Put down the clothes.",
+            "Sat on the floor."
+        ],
+        "question_id": "Sequence_T3_1581",
+        "start": 0.0,
+        "end": 11.7
+    },
+    {
+        "video": "1FIGA.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the door.",
+        "candidates": [
+            "Opened the door.",
+            "Put down the book."
+        ],
+        "question_id": "Sequence_T3_1676",
+        "start": 12.3,
+        "end": 23.7
+    },
+    {
+        "video": "1FIGA.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the book.",
+        "candidates": [
+            "Took the book.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T3_1677",
+        "start": 4.8,
+        "end": 13.8
+    },
+    {
+        "video": "YMGGV.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Took the blanket."
+        ],
+        "question_id": "Sequence_T3_1819",
+        "start": 0.0,
+        "end": 17.9
+    },
+    {
+        "video": "HOI88.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T3_1823",
+        "start": 2.6,
+        "end": 21.6
+    },
+    {
+        "video": "AEZDA.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Put down the bag.",
+            "Held the food."
+        ],
+        "question_id": "Sequence_T3_1824",
+        "start": 0.0,
+        "end": 13.6
+    },
+    {
+        "video": "WOD0G.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the towel.",
+        "candidates": [
+            "Put down the towel.",
+            "Threw the clothes."
+        ],
+        "question_id": "Sequence_T3_1834",
+        "start": 10.8,
+        "end": 19.9
+    },
+    {
+        "video": "RXLKF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Opened the book."
+        ],
+        "question_id": "Sequence_T3_1866",
+        "start": 1.8,
+        "end": 15.2
+    },
+    {
+        "video": "NEM29.mp4",
+        "question": "What did the person do first?",
+        "answer": "Threw the clothes.",
+        "candidates": [
+            "Threw the clothes.",
+            "Took the bag."
+        ],
+        "question_id": "Sequence_T3_1886",
+        "start": 7.7,
+        "end": 18.9
+    },
+    {
+        "video": "78R4Y.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the food.",
+        "candidates": [
+            "Took the food.",
+            "Put down the bag."
+        ],
+        "question_id": "Sequence_T3_1983",
+        "start": 3.3,
+        "end": 15.6
+    },
+    {
+        "video": "78R4Y.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Held the food.",
+            "Put down the bag."
+        ],
+        "question_id": "Sequence_T3_1984",
+        "start": 5.4,
+        "end": 15.6
+    },
+    {
+        "video": "STAFD.mp4",
+        "question": "What did the person do first?",
+        "answer": "Lied on the bed.",
+        "candidates": [
+            "Lied on the bed.",
+            "Ate the sandwich."
+        ],
+        "question_id": "Sequence_T3_1985",
+        "start": 0.0,
+        "end": 12.0
+    },
+    {
+        "video": "P2HZG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Closed the laptop."
+        ],
+        "question_id": "Sequence_T3_2004",
+        "start": 0.0,
+        "end": 10.2
+    },
+    {
+        "video": "2Q3ZJ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Opened the closet/cabinet.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_2033",
+        "start": 18.2,
+        "end": 25.8
+    },
+    {
+        "video": "2Q3ZJ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the clothes.",
+        "candidates": [
+            "Took the clothes.",
+            "Opened the closet/cabinet."
+        ],
+        "question_id": "Sequence_T3_2034",
+        "start": 0.0,
+        "end": 25.8
+    },
+    {
+        "video": "PDRVY.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the closet/cabinet.",
+        "candidates": [
+            "Opened the closet/cabinet.",
+            "Took the bag."
+        ],
+        "question_id": "Sequence_T3_2036",
+        "start": 4.0,
+        "end": 16.4
+    },
+    {
+        "video": "AZMVM.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the closet/cabinet.",
+        "candidates": [
+            "Put down the pillow.",
+            "Opened the closet/cabinet."
+        ],
+        "question_id": "Sequence_T3_2049",
+        "start": 17.4,
+        "end": 28.0
+    },
+    {
+        "video": "01ZWG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the laptop.",
+        "candidates": [
+            "Sat at the table.",
+            "Opened the laptop."
+        ],
+        "question_id": "Sequence_T3_2057",
+        "start": 4.9,
+        "end": 13.5
+    },
+    {
+        "video": "IO712.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the book.",
+        "candidates": [
+            "Took the book.",
+            "Sat on the floor."
+        ],
+        "question_id": "Sequence_T3_2074",
+        "start": 1.9,
+        "end": 11.6
+    },
+    {
+        "video": "FM078.mp4",
+        "question": "What did the person do first?",
+        "answer": "Tidied up the table.",
+        "candidates": [
+            "Tidied up the table.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T3_2145",
+        "start": 0.2,
+        "end": 7.3
+    },
+    {
+        "video": "X5YL3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the food.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Put down the food."
+        ],
+        "question_id": "Sequence_T3_2189",
+        "start": 5.4,
+        "end": 19.0
+    },
+    {
+        "video": "X5YL3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Held the food.",
+            "Closed the refrigerator."
+        ],
+        "question_id": "Sequence_T3_2191",
+        "start": 5.7,
+        "end": 19.0
+    },
+    {
+        "video": "LH6LE.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the closet/cabinet.",
+        "candidates": [
+            "Opened the closet/cabinet.",
+            "Took the dish."
+        ],
+        "question_id": "Sequence_T3_2231",
+        "start": 3.5,
+        "end": 12.2
+    },
+    {
+        "video": "6UMSJ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the food.",
+        "candidates": [
+            "Took the phone/camera.",
+            "Put down the food."
+        ],
+        "question_id": "Sequence_T3_2269",
+        "start": 3.4,
+        "end": 13.7
+    },
+    {
+        "video": "H8UJ3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Opened the book.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_2296",
+        "start": 11.6,
+        "end": 23.1
+    },
+    {
+        "video": "2NV6L.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the bag.",
+        "candidates": [
+            "Took the pillow.",
+            "Put down the bag."
+        ],
+        "question_id": "Sequence_T3_2331",
+        "start": 9.6,
+        "end": 27.8
+    },
+    {
+        "video": "RRZU3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the laptop.",
+        "candidates": [
+            "Opened the laptop.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T3_2375",
+        "start": 3.3,
+        "end": 22.2
+    },
+    {
+        "video": "ANA5N.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the closet/cabinet.",
+        "candidates": [
+            "Put down the towel.",
+            "Opened the closet/cabinet."
+        ],
+        "question_id": "Sequence_T3_2481",
+        "start": 14.2,
+        "end": 21.8
+    },
+    {
+        "video": "JBJGX.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Closed the laptop."
+        ],
+        "question_id": "Sequence_T3_2513",
+        "start": 0.0,
+        "end": 19.9
+    },
+    {
+        "video": "JBJGX.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the clothes.",
+        "candidates": [
+            "Put down the clothes.",
+            "Opened the laptop."
+        ],
+        "question_id": "Sequence_T3_2515",
+        "start": 23.4,
+        "end": 31.5
+    },
+    {
+        "video": "9335E.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Opened the closet/cabinet.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T3_2520",
+        "start": 19.1,
+        "end": 43.0
+    },
+    {
+        "video": "WLA52.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the clothes.",
+        "candidates": [
+            "Took the clothes.",
+            "Put down the blanket."
+        ],
+        "question_id": "Sequence_T3_2532",
+        "start": 0.6,
+        "end": 23.0
+    },
+    {
+        "video": "N2GFQ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the door.",
+        "candidates": [
+            "Closed the door.",
+            "Put down the bag."
+        ],
+        "question_id": "Sequence_T3_2543",
+        "start": 1.6,
+        "end": 13.5
+    },
+    {
+        "video": "AWITI.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the door.",
+        "candidates": [
+            "Took the pillow.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T3_2581",
+        "start": 2.3,
+        "end": 15.9
+    },
+    {
+        "video": "9PXC0.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Opened the book.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_2596",
+        "start": 16.2,
+        "end": 31.0
+    },
+    {
+        "video": "M704T.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the door.",
+        "candidates": [
+            "Closed the door.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T3_2641",
+        "start": 9.8,
+        "end": 19.6
+    },
+    {
+        "video": "Q7RK6.mp4",
+        "question": "What did the person do first?",
+        "answer": "Threw the clothes.",
+        "candidates": [
+            "Threw the clothes.",
+            "Put down the pillow."
+        ],
+        "question_id": "Sequence_T3_2682",
+        "start": 2.2,
+        "end": 13.4
+    },
+    {
+        "video": "K87AC.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the door.",
+        "candidates": [
+            "Closed the door.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T3_2735",
+        "start": 0.7,
+        "end": 16.4
+    },
+    {
+        "video": "ABHC6.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the closet/cabinet.",
+        "candidates": [
+            "Opened the closet/cabinet.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T3_2738",
+        "start": 2.5,
+        "end": 10.2
+    },
+    {
+        "video": "ABHC6.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the closet/cabinet.",
+        "candidates": [
+            "Opened the closet/cabinet.",
+            "Took the clothes."
+        ],
+        "question_id": "Sequence_T3_2739",
+        "start": 3.0,
+        "end": 15.2
+    },
+    {
+        "video": "WBS4I.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the paper/notebook.",
+        "candidates": [
+            "Closed the closet/cabinet.",
+            "Took the paper/notebook."
+        ],
+        "question_id": "Sequence_T3_2750",
+        "start": 5.7,
+        "end": 15.5
+    },
+    {
+        "video": "OO4FE.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Opened the book."
+        ],
+        "question_id": "Sequence_T3_2758",
+        "start": 10.6,
+        "end": 18.6
+    },
+    {
+        "video": "52WDV.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the clothes.",
+        "candidates": [
+            "Opened the book.",
+            "Took the clothes."
+        ],
+        "question_id": "Sequence_T3_2761",
+        "start": 1.2,
+        "end": 26.7
+    },
+    {
+        "video": "KU656.mp4",
+        "question": "What did the person do first?",
+        "answer": "Lied on the bed.",
+        "candidates": [
+            "Took the towel.",
+            "Lied on the bed."
+        ],
+        "question_id": "Sequence_T3_2825",
+        "start": 0.0,
+        "end": 12.8
+    },
+    {
+        "video": "TK76G.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the food.",
+        "candidates": [
+            "Took the food.",
+            "Put down the towel."
+        ],
+        "question_id": "Sequence_T3_2852",
+        "start": 0.0,
+        "end": 16.0
+    },
+    {
+        "video": "3IRHH.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Put down the dish.",
+            "Opened the book."
+        ],
+        "question_id": "Sequence_T3_2870",
+        "start": 14.6,
+        "end": 28.8
+    },
+    {
+        "video": "NCRCW.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Took the pillow.",
+            "Sat on the floor."
+        ],
+        "question_id": "Sequence_T3_2906",
+        "start": 3.7,
+        "end": 10.2
+    },
+    {
+        "video": "4MFE0.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Took the book.",
+            "Held the food."
+        ],
+        "question_id": "Sequence_T3_2923",
+        "start": 0.0,
+        "end": 27.2
+    },
+    {
+        "video": "LGS4C.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T3_2936",
+        "start": 0.0,
+        "end": 24.5
+    },
+    {
+        "video": "FL6DF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Opened the laptop."
+        ],
+        "question_id": "Sequence_T3_2974",
+        "start": 0.9,
+        "end": 8.1
+    },
+    {
+        "video": "PQYWB.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Put down the towel.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_3050",
+        "start": 0.0,
+        "end": 10.7
+    },
+    {
+        "video": "NKCXF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Put down the pillow."
+        ],
+        "question_id": "Sequence_T3_3100",
+        "start": 0.0,
+        "end": 15.3
+    },
+    {
+        "video": "40309.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the door.",
+        "candidates": [
+            "Closed the closet/cabinet.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T3_3129",
+        "start": 22.4,
+        "end": 32.0
+    },
+    {
+        "video": "9X208.mp4",
+        "question": "What did the person do first?",
+        "answer": "Lied on the bed.",
+        "candidates": [
+            "Lied on the bed.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T3_3158",
+        "start": 0.0,
+        "end": 26.8
+    },
+    {
+        "video": "RJCNV.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Opened the book."
+        ],
+        "question_id": "Sequence_T3_3161",
+        "start": 11.5,
+        "end": 17.9
+    },
+    {
+        "video": "RJCNV.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the door.",
+        "candidates": [
+            "Opened the book.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T3_3162",
+        "start": 3.2,
+        "end": 17.9
+    },
+    {
+        "video": "2I871.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Took the bag.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_3191",
+        "start": 0.0,
+        "end": 16.6
+    },
+    {
+        "video": "3FEYY.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the cup/glass/bottle.",
+        "candidates": [
+            "Took the cup/glass/bottle.",
+            "Put down the towel."
+        ],
+        "question_id": "Sequence_T3_3210",
+        "start": 12.0,
+        "end": 17.3
+    },
+    {
+        "video": "34J80.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Took the food."
+        ],
+        "question_id": "Sequence_T3_3247",
+        "start": 2.9,
+        "end": 26.6
+    },
+    {
+        "video": "M52K2.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Put down the food.",
+            "Sat on the floor."
+        ],
+        "question_id": "Sequence_T3_3303",
+        "start": 1.7,
+        "end": 22.8
+    },
+    {
+        "video": "XLR4B.mp4",
+        "question": "What did the person do first?",
+        "answer": "Ate the sandwich.",
+        "candidates": [
+            "Ate the sandwich.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_3304",
+        "start": 5.3,
+        "end": 30.9
+    },
+    {
+        "video": "XLR4B.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Held the food.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_3306",
+        "start": 0.4,
+        "end": 30.9
+    },
+    {
+        "video": "JCNHL.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the box.",
+        "candidates": [
+            "Opened the box.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T3_3318",
+        "start": 19.1,
+        "end": 26.8
+    },
+    {
+        "video": "QXT9W.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Opened the book.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_3329",
+        "start": 10.7,
+        "end": 24.2
+    },
+    {
+        "video": "CLW8L.mp4",
+        "question": "What did the person do first?",
+        "answer": "Lied on the bed.",
+        "candidates": [
+            "Took the pillow.",
+            "Lied on the bed."
+        ],
+        "question_id": "Sequence_T3_3347",
+        "start": 0.0,
+        "end": 13.1
+    },
+    {
+        "video": "17RPG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Threw the clothes.",
+        "candidates": [
+            "Threw the clothes.",
+            "Ate the sandwich."
+        ],
+        "question_id": "Sequence_T3_3348",
+        "start": 24.1,
+        "end": 33.0
+    },
+    {
+        "video": "HONL7.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the book.",
+        "candidates": [
+            "Took the book.",
+            "Put down the paper/notebook."
+        ],
+        "question_id": "Sequence_T3_3379",
+        "start": 0.1,
+        "end": 11.0
+    },
+    {
+        "video": "X9WTR.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Took the book."
+        ],
+        "question_id": "Sequence_T3_3399",
+        "start": 22.5,
+        "end": 33.0
+    },
+    {
+        "video": "QRWQ3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Put down the dish.",
+            "Opened the box."
+        ],
+        "question_id": "Sequence_T3_3407",
+        "start": 13.0,
+        "end": 33.3
+    },
+    {
+        "video": "AFTMI.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Took the pillow.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T3_3487",
+        "start": 0.0,
+        "end": 37.8
+    },
+    {
+        "video": "969Z9.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Sat at the table.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_3488",
+        "start": 0.0,
+        "end": 7.4
+    },
+    {
+        "video": "H51V5.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Held the food.",
+            "Took the dish."
+        ],
+        "question_id": "Sequence_T3_3544",
+        "start": 10.8,
+        "end": 18.0
+    },
+    {
+        "video": "F0ZPW.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Took the dish.",
+            "Drank from the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T3_3548",
+        "start": 22.6,
+        "end": 31.3
+    },
+    {
+        "video": "GMMVC.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the book.",
+        "candidates": [
+            "Put down the paper/notebook.",
+            "Closed the book."
+        ],
+        "question_id": "Sequence_T3_3563",
+        "start": 10.6,
+        "end": 17.4
+    },
+    {
+        "video": "E0ZBC.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Took the book.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T3_3569",
+        "start": 0.0,
+        "end": 38.1
+    },
+    {
+        "video": "E0ZBC.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Took the book.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_3570",
+        "start": 0.0,
+        "end": 38.1
+    },
+    {
+        "video": "81YUE.mp4",
+        "question": "What did the person do first?",
+        "answer": "Lied on the bed.",
+        "candidates": [
+            "Lied on the bed.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T3_3585",
+        "start": 10.6,
+        "end": 30.6
+    },
+    {
+        "video": "D87LI.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Closed the laptop."
+        ],
+        "question_id": "Sequence_T3_3587",
+        "start": 0.0,
+        "end": 19.6
+    },
+    {
+        "video": "D87LI.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Closed the laptop.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T3_3588",
+        "start": 0.0,
+        "end": 19.6
+    },
+    {
+        "video": "2RTH2.mp4",
+        "question": "What did the person do first?",
+        "answer": "Tidied up the table.",
+        "candidates": [
+            "Put down the towel.",
+            "Tidied up the table."
+        ],
+        "question_id": "Sequence_T3_3653",
+        "start": 0.0,
+        "end": 17.0
+    },
+    {
+        "video": "R9NRA.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Took the dish.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T3_3680",
+        "start": 0.0,
+        "end": 16.0
+    },
+    {
+        "video": "8IPWO.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Opened the book."
+        ],
+        "question_id": "Sequence_T3_3701",
+        "start": 1.8,
+        "end": 14.4
+    },
+    {
+        "video": "DHR83.mp4",
+        "question": "What did the person do first?",
+        "answer": "Ate the sandwich.",
+        "candidates": [
+            "Put down the paper/notebook.",
+            "Ate the sandwich."
+        ],
+        "question_id": "Sequence_T3_3783",
+        "start": 0.0,
+        "end": 5.4
+    },
+    {
+        "video": "DHR83.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Put down the paper/notebook.",
+            "Held the food."
+        ],
+        "question_id": "Sequence_T3_3784",
+        "start": 0.0,
+        "end": 5.4
+    },
+    {
+        "video": "XPDI1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T3_3827",
+        "start": 0.0,
+        "end": 10.0
+    },
+    {
+        "video": "VGAMG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the cup/glass/bottle.",
+        "candidates": [
+            "Took the cup/glass/bottle.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T3_3915",
+        "start": 4.0,
+        "end": 15.6
+    },
+    {
+        "video": "4P13T.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the bag.",
+        "candidates": [
+            "Put down the book.",
+            "Took the bag."
+        ],
+        "question_id": "Sequence_T3_3923",
+        "start": 0.0,
+        "end": 17.0
+    },
+    {
+        "video": "G87XG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Put down the book."
+        ],
+        "question_id": "Sequence_T3_3959",
+        "start": 8.7,
+        "end": 22.5
+    },
+    {
+        "video": "AS7SG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Ate the sandwich.",
+        "candidates": [
+            "Opened the laptop.",
+            "Ate the sandwich."
+        ],
+        "question_id": "Sequence_T3_4003",
+        "start": 18.8,
+        "end": 31.0
+    },
+    {
+        "video": "B57IW.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the door.",
+        "candidates": [
+            "Took the phone/camera.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T3_4045",
+        "start": 4.2,
+        "end": 17.1
+    },
+    {
+        "video": "8W31Y.mp4",
+        "question": "What did the person do first?",
+        "answer": "Lied on the bed.",
+        "candidates": [
+            "Lied on the bed.",
+            "Took the food."
+        ],
+        "question_id": "Sequence_T3_4056",
+        "start": 0.0,
+        "end": 7.2
+    },
+    {
+        "video": "MVPQF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the closet/cabinet.",
+        "candidates": [
+            "Opened the closet/cabinet.",
+            "Put down the bag."
+        ],
+        "question_id": "Sequence_T3_4073",
+        "start": 0.1,
+        "end": 10.7
+    },
+    {
+        "video": "G4NOT.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Closed the door.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_4104",
+        "start": 0.0,
+        "end": 28.3
+    },
+    {
+        "video": "BDWIX.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the towel.",
+        "candidates": [
+            "Put down the blanket.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T3_4151",
+        "start": 8.6,
+        "end": 22.2
+    },
+    {
+        "video": "92UB5.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Put down the pillow."
+        ],
+        "question_id": "Sequence_T3_4199",
+        "start": 0.0,
+        "end": 32.0
+    },
+    {
+        "video": "K47J5.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Put down the dish.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_4203",
+        "start": 0.0,
+        "end": 28.8
+    },
+    {
+        "video": "KO80I.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Put down the pillow.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_4222",
+        "start": 0.0,
+        "end": 23.1
+    },
+    {
+        "video": "KO80I.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Sat on the floor.",
+            "Put down the pillow."
+        ],
+        "question_id": "Sequence_T3_4223",
+        "start": 0.0,
+        "end": 23.1
+    },
+    {
+        "video": "52MV9.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the door.",
+        "candidates": [
+            "Put down the dish.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T3_4229",
+        "start": 5.1,
+        "end": 21.4
+    },
+    {
+        "video": "NLWBW.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the door.",
+        "candidates": [
+            "Put down the bag.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T3_4261",
+        "start": 0.0,
+        "end": 8.5
+    },
+    {
+        "video": "5FDHU.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the food.",
+        "candidates": [
+            "Ate the sandwich.",
+            "Took the food."
+        ],
+        "question_id": "Sequence_T3_4284",
+        "start": 0.0,
+        "end": 6.1
+    },
+    {
+        "video": "3MLVF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the cup/glass/bottle.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Took the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T3_4298",
+        "start": 15.5,
+        "end": 21.2
+    },
+    {
+        "video": "HOZ76.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Took the book.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_4317",
+        "start": 0.0,
+        "end": 25.0
+    },
+    {
+        "video": "V9XR6.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Opened the closet/cabinet.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_4430",
+        "start": 0.0,
+        "end": 34.0
+    },
+    {
+        "video": "EXPOA.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T3_4465",
+        "start": 12.3,
+        "end": 27.3
+    },
+    {
+        "video": "EXPOA.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Put down the clothes.",
+            "Drank from the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T3_4466",
+        "start": 0.3,
+        "end": 27.3
+    },
+    {
+        "video": "TAGS2.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T3_4474",
+        "start": 0.0,
+        "end": 21.2
+    },
+    {
+        "video": "YLE12.mp4",
+        "question": "What did the person do first?",
+        "answer": "Tidied up the table.",
+        "candidates": [
+            "Took the paper/notebook.",
+            "Tidied up the table."
+        ],
+        "question_id": "Sequence_T3_4526",
+        "start": 0.0,
+        "end": 9.6
+    },
+    {
+        "video": "I4N6K.mp4",
+        "question": "What did the person do first?",
+        "answer": "Tidied up the table.",
+        "candidates": [
+            "Took the book.",
+            "Tidied up the table."
+        ],
+        "question_id": "Sequence_T3_4531",
+        "start": 14.9,
+        "end": 24.3
+    },
+    {
+        "video": "M2XIS.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Opened the laptop.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T3_4533",
+        "start": 2.7,
+        "end": 9.4
+    },
+    {
+        "video": "024PD.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Put down the book."
+        ],
+        "question_id": "Sequence_T3_4560",
+        "start": 0.0,
+        "end": 10.6
+    },
+    {
+        "video": "VTIUW.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Took the phone/camera.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_4578",
+        "start": 0.0,
+        "end": 15.8
+    },
+    {
+        "video": "EO6OI.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the blanket.",
+        "candidates": [
+            "Put down the blanket.",
+            "Threw the clothes."
+        ],
+        "question_id": "Sequence_T3_4725",
+        "start": 4.1,
+        "end": 12.2
+    },
+    {
+        "video": "A0ZW3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Sat on the floor.",
+            "Opened the laptop."
+        ],
+        "question_id": "Sequence_T3_4782",
+        "start": 17.3,
+        "end": 26.2
+    },
+    {
+        "video": "L8Y8D.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Drank from the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T3_4794",
+        "start": 43.7,
+        "end": 56.0
+    },
+    {
+        "video": "6VF2L.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Took the blanket.",
+            "Drank from the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T3_4798",
+        "start": 14.3,
+        "end": 30.9
+    },
+    {
+        "video": "WBATR.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the food.",
+        "candidates": [
+            "Took the clothes.",
+            "Put down the food."
+        ],
+        "question_id": "Sequence_T3_4855",
+        "start": 26.1,
+        "end": 34.0
+    },
+    {
+        "video": "KFC28.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Closed the closet/cabinet."
+        ],
+        "question_id": "Sequence_T3_4865",
+        "start": 0.4,
+        "end": 35.0
+    },
+    {
+        "video": "CSLEP.mp4",
+        "question": "What did the person do first?",
+        "answer": "Lied on the bed.",
+        "candidates": [
+            "Took the clothes.",
+            "Lied on the bed."
+        ],
+        "question_id": "Sequence_T3_4881",
+        "start": 0.0,
+        "end": 13.2
+    },
+    {
+        "video": "8VWV2.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the food.",
+        "candidates": [
+            "Took the food.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T3_4897",
+        "start": 6.9,
+        "end": 58.3
+    },
+    {
+        "video": "NE37I.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the food.",
+        "candidates": [
+            "Took the pillow.",
+            "Put down the food."
+        ],
+        "question_id": "Sequence_T3_4999",
+        "start": 0.0,
+        "end": 22.2
+    },
+    {
+        "video": "J4RPL.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the paper/notebook.",
+        "candidates": [
+            "Put down the paper/notebook.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T3_5021",
+        "start": 16.5,
+        "end": 26.8
+    },
+    {
+        "video": "JOYAJ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the door.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T3_5062",
+        "start": 6.7,
+        "end": 19.4
+    },
+    {
+        "video": "JOYAJ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Held the food.",
+            "Closed the refrigerator."
+        ],
+        "question_id": "Sequence_T3_5063",
+        "start": 9.1,
+        "end": 19.4
+    },
+    {
+        "video": "I562C.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Took the dish.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_5084",
+        "start": 13.8,
+        "end": 19.9
+    },
+    {
+        "video": "I562C.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the door.",
+        "candidates": [
+            "Took the dish.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T3_5085",
+        "start": 8.6,
+        "end": 19.9
+    },
+    {
+        "video": "GPR89.mp4",
+        "question": "What did the person do first?",
+        "answer": "Tidied up the table.",
+        "candidates": [
+            "Tidied up the table.",
+            "Put down the paper/notebook."
+        ],
+        "question_id": "Sequence_T3_5093",
+        "start": 0.0,
+        "end": 56.9
+    },
+    {
+        "video": "GPR89.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the book.",
+        "candidates": [
+            "Put down the paper/notebook.",
+            "Took the book."
+        ],
+        "question_id": "Sequence_T3_5094",
+        "start": 42.6,
+        "end": 56.9
+    },
+    {
+        "video": "9OMY1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Opened the box.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_5118",
+        "start": 0.0,
+        "end": 6.3
+    },
+    {
+        "video": "9OMY1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the box.",
+        "candidates": [
+            "Opened the box.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T3_5119",
+        "start": 1.2,
+        "end": 28.0
+    },
+    {
+        "video": "JLGLU.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the door.",
+        "candidates": [
+            "Opened the door.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T3_5120",
+        "start": 0.0,
+        "end": 22.9
+    },
+    {
+        "video": "IZ2XX.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the door.",
+        "candidates": [
+            "Closed the door.",
+            "Put down the book."
+        ],
+        "question_id": "Sequence_T3_5124",
+        "start": 2.9,
+        "end": 14.2
+    },
+    {
+        "video": "1HGEX.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Took the book."
+        ],
+        "question_id": "Sequence_T3_5144",
+        "start": 0.0,
+        "end": 21.1
+    },
+    {
+        "video": "2GQDN.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the box.",
+        "candidates": [
+            "Opened the box.",
+            "Took the food."
+        ],
+        "question_id": "Sequence_T3_5163",
+        "start": 10,
+        "end": 24.0
+    },
+    {
+        "video": "9M5UE.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Took the dish.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_5278",
+        "start": 0.0,
+        "end": 16.9
+    },
+    {
+        "video": "9M5UE.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Took the dish.",
+            "Drank from the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T3_5279",
+        "start": 11.1,
+        "end": 16.9
+    },
+    {
+        "video": "9M5UE.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Took the dish."
+        ],
+        "question_id": "Sequence_T3_5280",
+        "start": 0.0,
+        "end": 16.9
+    },
+    {
+        "video": "Y7WEK.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Closed the book."
+        ],
+        "question_id": "Sequence_T3_5336",
+        "start": 0.0,
+        "end": 29.2
+    },
+    {
+        "video": "GC1Q1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the door.",
+        "candidates": [
+            "Opened the door.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T3_5385",
+        "start": 0.0,
+        "end": 11.5
+    },
+    {
+        "video": "0OE6M.mp4",
+        "question": "What did the person do first?",
+        "answer": "Threw the clothes.",
+        "candidates": [
+            "Took the towel.",
+            "Threw the clothes."
+        ],
+        "question_id": "Sequence_T3_5393",
+        "start": 3.4,
+        "end": 11.9
+    },
+    {
+        "video": "8BBX0.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the door.",
+        "candidates": [
+            "Opened the door.",
+            "Took the bag."
+        ],
+        "question_id": "Sequence_T3_5432",
+        "start": 12.3,
+        "end": 25.1
+    },
+    {
+        "video": "DGMDT.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Held the food.",
+            "Put down the bag."
+        ],
+        "question_id": "Sequence_T3_5470",
+        "start": 7.6,
+        "end": 26.8
+    },
+    {
+        "video": "5O31N.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the door.",
+        "candidates": [
+            "Closed the door.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T3_5471",
+        "start": 2.1,
+        "end": 42.0
+    },
+    {
+        "video": "O7OD2.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Held the food.",
+            "Ate the sandwich."
+        ],
+        "question_id": "Sequence_T3_5504",
+        "start": 0.5,
+        "end": 16.1
+    },
+    {
+        "video": "YH70K.mp4",
+        "question": "What did the person do first?",
+        "answer": "Tidied up the table.",
+        "candidates": [
+            "Put down the dish.",
+            "Tidied up the table."
+        ],
+        "question_id": "Sequence_T3_5505",
+        "start": 0.0,
+        "end": 26.8
+    },
+    {
+        "video": "5GPOJ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Closed the book.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T3_5540",
+        "start": 0.0,
+        "end": 13.5
+    },
+    {
+        "video": "5GPOJ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the book.",
+        "candidates": [
+            "Put down the book.",
+            "Closed the book."
+        ],
+        "question_id": "Sequence_T3_5541",
+        "start": 8.5,
+        "end": 14.4
+    },
+    {
+        "video": "MY5CQ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Closed the laptop."
+        ],
+        "question_id": "Sequence_T3_5555",
+        "start": 0.0,
+        "end": 17.4
+    },
+    {
+        "video": "MY5CQ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the laptop.",
+        "candidates": [
+            "Opened the book.",
+            "Closed the laptop."
+        ],
+        "question_id": "Sequence_T3_5556",
+        "start": 11.5,
+        "end": 19.6
+    },
+    {
+        "video": "MYZLT.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T3_5576",
+        "start": 0.6,
+        "end": 38.7
+    },
+    {
+        "video": "V70F7.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Opened the closet/cabinet.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_5635",
+        "start": 0.0,
+        "end": 18.9
+    },
+    {
+        "video": "U3ANG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the closet/cabinet.",
+        "candidates": [
+            "Put down the book.",
+            "Opened the closet/cabinet."
+        ],
+        "question_id": "Sequence_T3_5651",
+        "start": 0.4,
+        "end": 35.6
+    },
+    {
+        "video": "ZX1R7.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Took the pillow.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_5660",
+        "start": 0.0,
+        "end": 20.0
+    },
+    {
+        "video": "KZODG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Closed the laptop."
+        ],
+        "question_id": "Sequence_T3_5687",
+        "start": 0.0,
+        "end": 22.9
+    },
+    {
+        "video": "3DO95.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the pillow.",
+        "candidates": [
+            "Took the book.",
+            "Put down the pillow."
+        ],
+        "question_id": "Sequence_T3_5689",
+        "start": 13.6,
+        "end": 28.1
+    },
+    {
+        "video": "3ND23.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the book.",
+        "candidates": [
+            "Put down the book.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T3_5690",
+        "start": 1.4,
+        "end": 13.9
+    },
+    {
+        "video": "3ND23.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Took the blanket."
+        ],
+        "question_id": "Sequence_T3_5692",
+        "start": 8.1,
+        "end": 19.9
+    },
+    {
+        "video": "27JQL.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T3_5726",
+        "start": 0.0,
+        "end": 12.1
+    },
+    {
+        "video": "56XKK.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the door.",
+        "candidates": [
+            "Put down the bag.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T3_5740",
+        "start": 0.0,
+        "end": 14.3
+    },
+    {
+        "video": "9207X.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Opened the closet/cabinet."
+        ],
+        "question_id": "Sequence_T3_5753",
+        "start": 1.1,
+        "end": 16.0
+    },
+    {
+        "video": "MDG2T.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Took the towel.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T3_5754",
+        "start": 6.0,
+        "end": 14.1
+    },
+    {
+        "video": "KXCSL.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the food.",
+        "candidates": [
+            "Put down the food.",
+            "Closed the refrigerator."
+        ],
+        "question_id": "Sequence_T3_5790",
+        "start": 1.6,
+        "end": 9.5
+    },
+    {
+        "video": "WV9FZ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Took the food.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_5805",
+        "start": 0.0,
+        "end": 30.0
+    },
+    {
+        "video": "HL5OP.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the dish.",
+        "candidates": [
+            "Tidied up the table.",
+            "Took the dish."
+        ],
+        "question_id": "Sequence_T3_5881",
+        "start": 28.5,
+        "end": 37.0
+    },
+    {
+        "video": "9AFSH.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Put down the pillow."
+        ],
+        "question_id": "Sequence_T3_5944",
+        "start": 0.0,
+        "end": 7.2
+    },
+    {
+        "video": "CR5G1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Took the blanket.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_5969",
+        "start": 0.0,
+        "end": 18.6
+    },
+    {
+        "video": "CR5G1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Took the blanket.",
+            "Sat on the floor."
+        ],
+        "question_id": "Sequence_T3_5970",
+        "start": 10.9,
+        "end": 18.6
+    },
+    {
+        "video": "VS5IY.mp4",
+        "question": "What did the person do first?",
+        "answer": "Tidied up the table.",
+        "candidates": [
+            "Put down the paper/notebook.",
+            "Tidied up the table."
+        ],
+        "question_id": "Sequence_T3_5972",
+        "start": 3.6,
+        "end": 10.2
+    },
+    {
+        "video": "VS5IY.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the book.",
+        "candidates": [
+            "Put down the book.",
+            "Took the clothes."
+        ],
+        "question_id": "Sequence_T3_5974",
+        "start": 9.4,
+        "end": 18.1
+    },
+    {
+        "video": "74DPG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Put down the dish.",
+            "Drank from the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T3_5976",
+        "start": 20.7,
+        "end": 40.0
+    },
+    {
+        "video": "TVCQF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_5993",
+        "start": 4.7,
+        "end": 13.9
+    },
+    {
+        "video": "TVCQF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Opened the box.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_5994",
+        "start": 6.5,
+        "end": 17.0
+    },
+    {
+        "video": "XFRYR.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the food.",
+        "candidates": [
+            "Took the food.",
+            "Closed the closet/cabinet."
+        ],
+        "question_id": "Sequence_T3_6020",
+        "start": 6.8,
+        "end": 16.2
+    },
+    {
+        "video": "XYGU1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Opened the book."
+        ],
+        "question_id": "Sequence_T3_6053",
+        "start": 4.7,
+        "end": 20.5
+    },
+    {
+        "video": "9O0HH.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the closet/cabinet.",
+        "candidates": [
+            "Put down the food.",
+            "Closed the closet/cabinet."
+        ],
+        "question_id": "Sequence_T3_6066",
+        "start": 1.5,
+        "end": 30.4
+    },
+    {
+        "video": "OKYYQ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the paper/notebook.",
+        "candidates": [
+            "Closed the book.",
+            "Put down the paper/notebook."
+        ],
+        "question_id": "Sequence_T3_6088",
+        "start": 2.3,
+        "end": 8.5
+    },
+    {
+        "video": "306S9.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Put down the food.",
+            "Sat on the floor."
+        ],
+        "question_id": "Sequence_T3_6101",
+        "start": 1.3,
+        "end": 9.4
+    },
+    {
+        "video": "M7BD4.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the closet/cabinet.",
+        "candidates": [
+            "Closed the laptop.",
+            "Opened the closet/cabinet."
+        ],
+        "question_id": "Sequence_T3_6137",
+        "start": 18.0,
+        "end": 26.2
+    },
+    {
+        "video": "MQ4YR.mp4",
+        "question": "What did the person do first?",
+        "answer": "Lied on the bed.",
+        "candidates": [
+            "Lied on the bed.",
+            "Took the bag."
+        ],
+        "question_id": "Sequence_T3_6149",
+        "start": 0.0,
+        "end": 24.9
+    },
+    {
+        "video": "V9W9C.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Tidied up the table.",
+            "Drank from the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T3_6164",
+        "start": 29.2,
+        "end": 37.0
+    },
+    {
+        "video": "V9W9C.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the cup/glass/bottle.",
+        "candidates": [
+            "Tidied up the table.",
+            "Took the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T3_6165",
+        "start": 27.7,
+        "end": 37.0
+    },
+    {
+        "video": "9632M.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Held the food.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T3_6167",
+        "start": 4.9,
+        "end": 32.0
+    },
+    {
+        "video": "S3TZ1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the food.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Put down the food."
+        ],
+        "question_id": "Sequence_T3_6212",
+        "start": 4.9,
+        "end": 13.0
+    },
+    {
+        "video": "S3TZ1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Held the food."
+        ],
+        "question_id": "Sequence_T3_6214",
+        "start": 5.4,
+        "end": 13.0
+    },
+    {
+        "video": "ZOL0R.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the door.",
+        "candidates": [
+            "Threw the clothes.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T3_6225",
+        "start": 3.7,
+        "end": 14.8
+    },
+    {
+        "video": "OK2AF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the door.",
+        "candidates": [
+            "Took the book.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T3_6232",
+        "start": 13.5,
+        "end": 30.0
+    },
+    {
+        "video": "UEP20.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the paper/notebook.",
+        "candidates": [
+            "Put down the paper/notebook.",
+            "Took the food."
+        ],
+        "question_id": "Sequence_T3_6254",
+        "start": 12.6,
+        "end": 23.1
+    },
+    {
+        "video": "5X5DT.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the laptop.",
+        "candidates": [
+            "Closed the laptop.",
+            "Took the bag."
+        ],
+        "question_id": "Sequence_T3_6261",
+        "start": 10.6,
+        "end": 19.5
+    },
+    {
+        "video": "VKXLL.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the box.",
+        "candidates": [
+            "Opened the box.",
+            "Put down the paper/notebook."
+        ],
+        "question_id": "Sequence_T3_6273",
+        "start": 22.1,
+        "end": 36.2
+    },
+    {
+        "video": "F9YMU.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the door.",
+        "candidates": [
+            "Took the paper/notebook.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T3_6289",
+        "start": 0.0,
+        "end": 16.5
+    },
+    {
+        "video": "F9YMU.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Took the paper/notebook."
+        ],
+        "question_id": "Sequence_T3_6290",
+        "start": 9.3,
+        "end": 16.5
+    },
+    {
+        "video": "XZ9C0.mp4",
+        "question": "What did the person do first?",
+        "answer": "Lied on the bed.",
+        "candidates": [
+            "Lied on the bed.",
+            "Took the bag."
+        ],
+        "question_id": "Sequence_T3_6291",
+        "start": 0.0,
+        "end": 14.9
+    },
+    {
+        "video": "3XKBC.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Opened the laptop.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_6302",
+        "start": 18.8,
+        "end": 24.7
+    },
+    {
+        "video": "3XKBC.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the clothes.",
+        "candidates": [
+            "Opened the laptop.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T3_6303",
+        "start": 11.9,
+        "end": 28.1
+    },
+    {
+        "video": "983K8.mp4",
+        "question": "What did the person do first?",
+        "answer": "Ate the sandwich.",
+        "candidates": [
+            "Ate the sandwich.",
+            "Took the blanket."
+        ],
+        "question_id": "Sequence_T3_6327",
+        "start": 0.0,
+        "end": 12.5
+    },
+    {
+        "video": "983K8.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Took the blanket.",
+            "Held the food."
+        ],
+        "question_id": "Sequence_T3_6328",
+        "start": 0.0,
+        "end": 12.5
+    },
+    {
+        "video": "L9J5I.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the food.",
+        "candidates": [
+            "Put down the food.",
+            "Took the paper/notebook."
+        ],
+        "question_id": "Sequence_T3_6357",
+        "start": 0.0,
+        "end": 16.7
+    },
+    {
+        "video": "C61BE.mp4",
+        "question": "What did the person do first?",
+        "answer": "Ate the sandwich.",
+        "candidates": [
+            "Ate the sandwich.",
+            "Took the blanket."
+        ],
+        "question_id": "Sequence_T3_6372",
+        "start": 0.0,
+        "end": 10.0
+    },
+    {
+        "video": "34OT4.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Put down the pillow.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_6379",
+        "start": 0.0,
+        "end": 33.1
+    },
+    {
+        "video": "34OT4.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Put down the pillow.",
+            "Drank from the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T3_6380",
+        "start": 16.2,
+        "end": 33.1
+    },
+    {
+        "video": "34OT4.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Put down the pillow.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_6381",
+        "start": 0.0,
+        "end": 33.1
+    },
+    {
+        "video": "CJ58B.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Held the food.",
+            "Put down the bag."
+        ],
+        "question_id": "Sequence_T3_6401",
+        "start": 17.4,
+        "end": 27.4
+    },
+    {
+        "video": "Z6LYG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the food.",
+        "candidates": [
+            "Took the food.",
+            "Closed the refrigerator."
+        ],
+        "question_id": "Sequence_T3_6422",
+        "start": 10.8,
+        "end": 42.0
+    },
+    {
+        "video": "Z6LYG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T3_6423",
+        "start": 30.5,
+        "end": 42.0
+    },
+    {
+        "video": "8DSGI.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the clothes.",
+        "candidates": [
+            "Opened the book.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T3_6436",
+        "start": 9.6,
+        "end": 20.0
+    },
+    {
+        "video": "0CG15.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put on the clothes.",
+        "candidates": [
+            "Put on the clothes.",
+            "Opened the closet/cabinet."
+        ],
+        "question_id": "Sequence_T3_6457",
+        "start": 19.7,
+        "end": 29.7
+    },
+    {
+        "video": "ACJBD.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the clothes.",
+        "candidates": [
+            "Put down the blanket.",
+            "Took the clothes."
+        ],
+        "question_id": "Sequence_T3_6483",
+        "start": 13.7,
+        "end": 35.2
+    },
+    {
+        "video": "G4AJK.mp4",
+        "question": "What did the person do first?",
+        "answer": "Ate the sandwich.",
+        "candidates": [
+            "Ate the sandwich.",
+            "Put down the food."
+        ],
+        "question_id": "Sequence_T3_6484",
+        "start": 9.0,
+        "end": 40.7
+    },
+    {
+        "video": "1E7VU.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Closed the closet/cabinet.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T3_6486",
+        "start": 2.1,
+        "end": 18.5
+    },
+    {
+        "video": "EG1XK.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T3_6491",
+        "start": 13.9,
+        "end": 32.9
+    },
+    {
+        "video": "HPAYB.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the bag.",
+        "candidates": [
+            "Put down the bag.",
+            "Took the clothes."
+        ],
+        "question_id": "Sequence_T3_6507",
+        "start": 5.6,
+        "end": 16.4
+    },
+    {
+        "video": "194WK.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Closed the book.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T3_6559",
+        "start": 0.0,
+        "end": 10.2
+    },
+    {
+        "video": "Z97SD.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Held the food.",
+            "Closed the refrigerator."
+        ],
+        "question_id": "Sequence_T3_6583",
+        "start": 24.3,
+        "end": 30.7
+    },
+    {
+        "video": "21MI8.mp4",
+        "question": "What did the person do first?",
+        "answer": "Drank from the cup/glass/bottle.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Opened the laptop."
+        ],
+        "question_id": "Sequence_T3_6586",
+        "start": 0.0,
+        "end": 10.1
+    },
+    {
+        "video": "5657O.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the phone/camera.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T3_6587",
+        "start": 0.0,
+        "end": 13.8
+    },
+    {
+        "video": "OZSB3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Took the pillow."
+        ],
+        "question_id": "Sequence_T3_6600",
+        "start": 0.0,
+        "end": 27.8
+    },
+    {
+        "video": "MOQIU.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Took the phone/camera.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T3_6603",
+        "start": 0.0,
+        "end": 20.0
+    },
+    {
+        "video": "MOQIU.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Took the phone/camera."
+        ],
+        "question_id": "Sequence_T3_6604",
+        "start": 0.0,
+        "end": 20.0
+    },
+    {
+        "video": "NUKJ0.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the paper/notebook.",
+        "candidates": [
+            "Took the paper/notebook.",
+            "Closed the book."
+        ],
+        "question_id": "Sequence_T4_98",
+        "start": 11.0,
+        "end": 26.6
+    },
+    {
+        "video": "GKH0F.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the bag.",
+        "candidates": [
+            "Put down the bag.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T4_105",
+        "start": 24.0,
+        "end": 34.0
+    },
+    {
+        "video": "H0L5S.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the towel.",
+        "candidates": [
+            "Opened the door.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T4_133",
+        "start": 20.4,
+        "end": 29.4
+    },
+    {
+        "video": "E002I.mp4",
+        "question": "What did the person do first?",
+        "answer": "Lied on the bed.",
+        "candidates": [
+            "Lied on the bed.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T4_167",
+        "start": 4.7,
+        "end": 19.7
+    },
+    {
+        "video": "1L5D3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the pillow.",
+        "candidates": [
+            "Put down the pillow.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T4_230",
+        "start": 13.6,
+        "end": 32.0
+    },
+    {
+        "video": "1L5D3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the pillow.",
+        "candidates": [
+            "Took the phone/camera.",
+            "Put down the pillow."
+        ],
+        "question_id": "Sequence_T4_231",
+        "start": 13.6,
+        "end": 32.0
+    },
+    {
+        "video": "S572F.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the towel.",
+        "candidates": [
+            "Took the blanket.",
+            "Put down the towel."
+        ],
+        "question_id": "Sequence_T4_244",
+        "start": 0.6,
+        "end": 21.0
+    },
+    {
+        "video": "3Q6N1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the laptop.",
+        "candidates": [
+            "Ate the sandwich.",
+            "Opened the laptop."
+        ],
+        "question_id": "Sequence_T4_386",
+        "start": 0.0,
+        "end": 8.6
+    },
+    {
+        "video": "3Q6N1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the laptop.",
+        "candidates": [
+            "Put down the food.",
+            "Opened the laptop."
+        ],
+        "question_id": "Sequence_T4_387",
+        "start": 0.0,
+        "end": 9.5
+    },
+    {
+        "video": "3Q6N1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the laptop.",
+        "candidates": [
+            "Held the food.",
+            "Opened the laptop."
+        ],
+        "question_id": "Sequence_T4_388",
+        "start": 0.0,
+        "end": 9.4
+    },
+    {
+        "video": "9MNZ5.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the box.",
+        "candidates": [
+            "Put down the food.",
+            "Opened the box."
+        ],
+        "question_id": "Sequence_T4_416",
+        "start": 10.4,
+        "end": 23.3
+    },
+    {
+        "video": "ON2Z4.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the blanket.",
+        "candidates": [
+            "Opened the book.",
+            "Took the blanket."
+        ],
+        "question_id": "Sequence_T4_454",
+        "start": 8.4,
+        "end": 23.4
+    },
+    {
+        "video": "OVFR0.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the book.",
+        "candidates": [
+            "Put down the book.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T4_548",
+        "start": 0.0,
+        "end": 17.3
+    },
+    {
+        "video": "93REJ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the clothes.",
+        "candidates": [
+            "Took the clothes.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T4_775",
+        "start": 8.8,
+        "end": 14.9
+    },
+    {
+        "video": "93REJ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the clothes.",
+        "candidates": [
+            "Put down the clothes.",
+            "Sat on the floor."
+        ],
+        "question_id": "Sequence_T4_777",
+        "start": 10.2,
+        "end": 32.0
+    },
+    {
+        "video": "FO24A.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T4_778",
+        "start": 0.0,
+        "end": 9.0
+    },
+    {
+        "video": "8XXNK.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the box.",
+        "candidates": [
+            "Put down the food.",
+            "Opened the box."
+        ],
+        "question_id": "Sequence_T4_807",
+        "start": 3.0,
+        "end": 14.4
+    },
+    {
+        "video": "HOYUT.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the closet/cabinet.",
+        "candidates": [
+            "Took the towel.",
+            "Closed the closet/cabinet."
+        ],
+        "question_id": "Sequence_T4_814",
+        "start": 12.3,
+        "end": 20.1
+    },
+    {
+        "video": "QCVZN.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the book.",
+        "candidates": [
+            "Put down the book.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T4_827",
+        "start": 12.8,
+        "end": 26.0
+    },
+    {
+        "video": "QCVZN.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the book.",
+        "candidates": [
+            "Sat at the table.",
+            "Put down the book."
+        ],
+        "question_id": "Sequence_T4_828",
+        "start": 12.8,
+        "end": 26.0
+    },
+    {
+        "video": "727IZ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the paper/notebook.",
+        "candidates": [
+            "Took the paper/notebook.",
+            "Closed the closet/cabinet."
+        ],
+        "question_id": "Sequence_T4_909",
+        "start": 5.3,
+        "end": 14.7
+    },
+    {
+        "video": "Q5YDL.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the laptop.",
+        "candidates": [
+            "Closed the laptop.",
+            "Took the food."
+        ],
+        "question_id": "Sequence_T4_926",
+        "start": 13.0,
+        "end": 20.1
+    },
+    {
+        "video": "EEGGA.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the blanket.",
+        "candidates": [
+            "Took the food.",
+            "Put down the blanket."
+        ],
+        "question_id": "Sequence_T4_939",
+        "start": 0.0,
+        "end": 8.9
+    },
+    {
+        "video": "X8JVY.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the book.",
+        "candidates": [
+            "Put down the food.",
+            "Took the book."
+        ],
+        "question_id": "Sequence_T4_941",
+        "start": 4.4,
+        "end": 30.0
+    },
+    {
+        "video": "BFH78.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the phone/camera.",
+        "candidates": [
+            "Took the phone/camera.",
+            "Opened the book."
+        ],
+        "question_id": "Sequence_T4_1036",
+        "start": 7.7,
+        "end": 19.9
+    },
+    {
+        "video": "BFH78.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the paper/notebook.",
+        "candidates": [
+            "Put down the paper/notebook.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T4_1039",
+        "start": 19.3,
+        "end": 25.0
+    },
+    {
+        "video": "LD6TD.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the book.",
+        "candidates": [
+            "Took the cup/glass/bottle.",
+            "Closed the book."
+        ],
+        "question_id": "Sequence_T4_1120",
+        "start": 12.2,
+        "end": 36.0
+    },
+    {
+        "video": "TDGNE.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the food.",
+        "candidates": [
+            "Put down the food.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T4_1128",
+        "start": 6.1,
+        "end": 27.8
+    },
+    {
+        "video": "3CLVI.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the closet/cabinet.",
+        "candidates": [
+            "Threw the clothes.",
+            "Closed the closet/cabinet."
+        ],
+        "question_id": "Sequence_T4_1158",
+        "start": 18.9,
+        "end": 29.3
+    },
+    {
+        "video": "J7BOV.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the dish.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Took the dish."
+        ],
+        "question_id": "Sequence_T4_1164",
+        "start": 8.4,
+        "end": 29.4
+    },
+    {
+        "video": "DPLMM.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Sat on the floor.",
+            "Put down the pillow."
+        ],
+        "question_id": "Sequence_T4_1196",
+        "start": 0.0,
+        "end": 13.2
+    },
+    {
+        "video": "FQS7O.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the book.",
+        "candidates": [
+            "Closed the book.",
+            "Tidied up the table."
+        ],
+        "question_id": "Sequence_T4_1213",
+        "start": 6.9,
+        "end": 23.6
+    },
+    {
+        "video": "35ZZP.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the closet/cabinet.",
+        "candidates": [
+            "Closed the closet/cabinet.",
+            "Put down the food."
+        ],
+        "question_id": "Sequence_T4_1238",
+        "start": 3.5,
+        "end": 12.4
+    },
+    {
+        "video": "1FIGA.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the book.",
+        "candidates": [
+            "Closed the door.",
+            "Put down the book."
+        ],
+        "question_id": "Sequence_T4_1297",
+        "start": 15.5,
+        "end": 24.9
+    },
+    {
+        "video": "2PREF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Opened the closet/cabinet.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T4_1340",
+        "start": 0.0,
+        "end": 15.1
+    },
+    {
+        "video": "2PREF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Put down the dish.",
+            "Took the food."
+        ],
+        "question_id": "Sequence_T4_1342",
+        "start": 0.0,
+        "end": 14.4
+    },
+    {
+        "video": "MD6P2.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the box.",
+        "candidates": [
+            "Opened the box.",
+            "Tidied up the table."
+        ],
+        "question_id": "Sequence_T4_1404",
+        "start": 5.0,
+        "end": 29.3
+    },
+    {
+        "video": "WXUZK.mp4",
+        "question": "What did the person do first?",
+        "answer": "Threw the clothes.",
+        "candidates": [
+            "Lied on the bed.",
+            "Threw the clothes."
+        ],
+        "question_id": "Sequence_T4_1417",
+        "start": 1.9,
+        "end": 31.0
+    },
+    {
+        "video": "NVGDG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Took the blanket.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T4_1450",
+        "start": 9.8,
+        "end": 17.3
+    },
+    {
+        "video": "K71S1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the box.",
+        "candidates": [
+            "Opened the box.",
+            "Sat on the floor."
+        ],
+        "question_id": "Sequence_T4_1463",
+        "start": 0.0,
+        "end": 24.3
+    },
+    {
+        "video": "STAFD.mp4",
+        "question": "What did the person do first?",
+        "answer": "Ate the sandwich.",
+        "candidates": [
+            "Threw the clothes.",
+            "Ate the sandwich."
+        ],
+        "question_id": "Sequence_T4_1543",
+        "start": 3.3,
+        "end": 46.4
+    },
+    {
+        "video": "YFI1M.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the clothes.",
+        "candidates": [
+            "Took the phone/camera.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T4_1553",
+        "start": 14.2,
+        "end": 26.1
+    },
+    {
+        "video": "P2HZG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the laptop.",
+        "candidates": [
+            "Closed the laptop.",
+            "Opened the closet/cabinet."
+        ],
+        "question_id": "Sequence_T4_1567",
+        "start": 4.0,
+        "end": 18.4
+    },
+    {
+        "video": "PDRVY.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the bag.",
+        "candidates": [
+            "Closed the closet/cabinet.",
+            "Took the bag."
+        ],
+        "question_id": "Sequence_T4_1596",
+        "start": 9.0,
+        "end": 24.6
+    },
+    {
+        "video": "IO712.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Sat on the floor.",
+            "Opened the book."
+        ],
+        "question_id": "Sequence_T4_1633",
+        "start": 3.7,
+        "end": 14.3
+    },
+    {
+        "video": "6PL9Z.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Took the blanket.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T4_1705",
+        "start": 0.0,
+        "end": 9.5
+    },
+    {
+        "video": "DRGKV.mp4",
+        "question": "What did the person do first?",
+        "answer": "Threw the clothes.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Threw the clothes."
+        ],
+        "question_id": "Sequence_T4_1717",
+        "start": 12.4,
+        "end": 30.6
+    },
+    {
+        "video": "ICL1M.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the book.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Closed the book."
+        ],
+        "question_id": "Sequence_T4_1726",
+        "start": 16.1,
+        "end": 26.2
+    },
+    {
+        "video": "BWG9B.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the cup/glass/bottle.",
+        "candidates": [
+            "Took the cup/glass/bottle.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T4_1750",
+        "start": 0.0,
+        "end": 32.0
+    },
+    {
+        "video": "5OIQ7.mp4",
+        "question": "What did the person do first?",
+        "answer": "Lied on the bed.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Lied on the bed."
+        ],
+        "question_id": "Sequence_T4_1751",
+        "start": 0.0,
+        "end": 27.1
+    },
+    {
+        "video": "LH6LE.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Closed the closet/cabinet.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T4_1775",
+        "start": 15.2,
+        "end": 26.9
+    },
+    {
+        "video": "RRZU3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the laptop.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Opened the laptop."
+        ],
+        "question_id": "Sequence_T4_1869",
+        "start": 3.3,
+        "end": 21.6
+    },
+    {
+        "video": "2544C.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the towel.",
+        "candidates": [
+            "Tidied up the table.",
+            "Put down the towel."
+        ],
+        "question_id": "Sequence_T4_1925",
+        "start": 10.6,
+        "end": 45.0
+    },
+    {
+        "video": "43FG9.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the closet/cabinet.",
+        "candidates": [
+            "Closed the closet/cabinet.",
+            "Put down the clothes."
+        ],
+        "question_id": "Sequence_T4_1979",
+        "start": 0.7,
+        "end": 8.7
+    },
+    {
+        "video": "WRW74.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the box.",
+        "candidates": [
+            "Opened the box.",
+            "Took the dish."
+        ],
+        "question_id": "Sequence_T4_2003",
+        "start": 3.7,
+        "end": 24.9
+    },
+    {
+        "video": "XXIT4.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Ate the sandwich."
+        ],
+        "question_id": "Sequence_T4_2023",
+        "start": 0.0,
+        "end": 18.9
+    },
+    {
+        "video": "9BCZU.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the clothes.",
+        "candidates": [
+            "Took the clothes.",
+            "Put down the blanket."
+        ],
+        "question_id": "Sequence_T4_2026",
+        "start": 21.3,
+        "end": 32.1
+    },
+    {
+        "video": "HJM82.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the phone/camera.",
+        "candidates": [
+            "Took the phone/camera.",
+            "Drank from the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T4_2028",
+        "start": 0.0,
+        "end": 30.7
+    },
+    {
+        "video": "9PXC0.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the box.",
+        "candidates": [
+            "Opened the box.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T4_2030",
+        "start": 11.2,
+        "end": 26.3
+    },
+    {
+        "video": "BCONW.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the refrigerator.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Drank from the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T4_2056",
+        "start": 5.5,
+        "end": 29.0
+    },
+    {
+        "video": "FETME.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the paper/notebook.",
+        "candidates": [
+            "Took the paper/notebook.",
+            "Opened the book."
+        ],
+        "question_id": "Sequence_T4_2073",
+        "start": 7.4,
+        "end": 15.7
+    },
+    {
+        "video": "J6TVB.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Took the phone/camera.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T4_2080",
+        "start": 10.5,
+        "end": 25.3
+    },
+    {
+        "video": "P4DL9.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the refrigerator.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Took the phone/camera."
+        ],
+        "question_id": "Sequence_T4_2163",
+        "start": 0.0,
+        "end": 32.2
+    },
+    {
+        "video": "OCVY4.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the bag.",
+        "candidates": [
+            "Took the food.",
+            "Put down the bag."
+        ],
+        "question_id": "Sequence_T4_2197",
+        "start": 0.0,
+        "end": 8.1
+    },
+    {
+        "video": "3IRHH.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the paper/notebook.",
+        "candidates": [
+            "Put down the dish.",
+            "Took the paper/notebook."
+        ],
+        "question_id": "Sequence_T4_2249",
+        "start": 0.7,
+        "end": 21.3
+    },
+    {
+        "video": "7SXQS.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the blanket.",
+        "candidates": [
+            "Sat at the table.",
+            "Took the blanket."
+        ],
+        "question_id": "Sequence_T4_2254",
+        "start": 11.0,
+        "end": 32.0
+    },
+    {
+        "video": "R1RDT.mp4",
+        "question": "What did the person do first?",
+        "answer": "Lied on the bed.",
+        "candidates": [
+            "Lied on the bed.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T4_2327",
+        "start": 5.0,
+        "end": 26.1
+    },
+    {
+        "video": "R1RDT.mp4",
+        "question": "What did the person do first?",
+        "answer": "Lied on the bed.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Lied on the bed."
+        ],
+        "question_id": "Sequence_T4_2328",
+        "start": 5.0,
+        "end": 26.3
+    },
+    {
+        "video": "YGQ7E.mp4",
+        "question": "What did the person do first?",
+        "answer": "Tidied up the table.",
+        "candidates": [
+            "Tidied up the table.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T4_2365",
+        "start": 8.9,
+        "end": 22.0
+    },
+    {
+        "video": "BGQIF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Put down the pillow."
+        ],
+        "question_id": "Sequence_T4_2372",
+        "start": 1.6,
+        "end": 9.4
+    },
+    {
+        "video": "BGQIF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the pillow.",
+        "candidates": [
+            "Held the food.",
+            "Put down the pillow."
+        ],
+        "question_id": "Sequence_T4_2373",
+        "start": 2.9,
+        "end": 17.7
+    },
+    {
+        "video": "APVAD.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the book.",
+        "candidates": [
+            "Opened the door.",
+            "Took the book."
+        ],
+        "question_id": "Sequence_T4_2375",
+        "start": 17.3,
+        "end": 26.2
+    },
+    {
+        "video": "PQYWB.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the towel.",
+        "candidates": [
+            "Opened the door.",
+            "Put down the towel."
+        ],
+        "question_id": "Sequence_T4_2387",
+        "start": 6.1,
+        "end": 36.1
+    },
+    {
+        "video": "X8XQE.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the closet/cabinet.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Closed the closet/cabinet."
+        ],
+        "question_id": "Sequence_T4_2421",
+        "start": 7.9,
+        "end": 38.8
+    },
+    {
+        "video": "NKCXF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the pillow.",
+        "candidates": [
+            "Put down the pillow.",
+            "Took the phone/camera."
+        ],
+        "question_id": "Sequence_T4_2432",
+        "start": 9.8,
+        "end": 16.8
+    },
+    {
+        "video": "9X208.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the towel.",
+        "candidates": [
+            "Took the towel.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T4_2474",
+        "start": 22.2,
+        "end": 30.4
+    },
+    {
+        "video": "Q3HZI.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the pillow.",
+        "candidates": [
+            "Opened the door.",
+            "Took the pillow."
+        ],
+        "question_id": "Sequence_T4_2488",
+        "start": 0.0,
+        "end": 17.7
+    },
+    {
+        "video": "2YJUQ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Drank from the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T4_2490",
+        "start": 4.3,
+        "end": 22.8
+    },
+    {
+        "video": "FTG07.mp4",
+        "question": "What did the person do first?",
+        "answer": "Tidied up the table.",
+        "candidates": [
+            "Took the cup/glass/bottle.",
+            "Tidied up the table."
+        ],
+        "question_id": "Sequence_T4_2541",
+        "start": 0.9,
+        "end": 9.6
+    },
+    {
+        "video": "TOOYI.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the box.",
+        "candidates": [
+            "Opened the box.",
+            "Took the blanket."
+        ],
+        "question_id": "Sequence_T4_2548",
+        "start": 0.0,
+        "end": 5.7
+    },
+    {
+        "video": "QXT9W.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the book.",
+        "candidates": [
+            "Took the book.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T4_2609",
+        "start": 3.2,
+        "end": 43.1
+    },
+    {
+        "video": "TETZ7.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the phone/camera.",
+        "candidates": [
+            "Opened the door.",
+            "Took the phone/camera."
+        ],
+        "question_id": "Sequence_T4_2646",
+        "start": 12.5,
+        "end": 20.6
+    },
+    {
+        "video": "XQDQ4.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the cup/glass/bottle.",
+        "candidates": [
+            "Opened the box.",
+            "Took the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T4_2715",
+        "start": 7.4,
+        "end": 27.1
+    },
+    {
+        "video": "6B93R.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the food.",
+        "candidates": [
+            "Put down the food.",
+            "Took the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T4_2717",
+        "start": 6.8,
+        "end": 33.9
+    },
+    {
+        "video": "F5TL0.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the refrigerator.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Took the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T4_2724",
+        "start": 8.8,
+        "end": 21.9
+    },
+    {
+        "video": "GTK8W.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the book.",
+        "candidates": [
+            "Closed the book.",
+            "Took the food."
+        ],
+        "question_id": "Sequence_T4_2783",
+        "start": 18.8,
+        "end": 30.7
+    },
+    {
+        "video": "D87LI.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the laptop.",
+        "candidates": [
+            "Took the phone/camera.",
+            "Closed the laptop."
+        ],
+        "question_id": "Sequence_T4_2788",
+        "start": 14.9,
+        "end": 20.7
+    },
+    {
+        "video": "2RTH2.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the towel.",
+        "candidates": [
+            "Took the cup/glass/bottle.",
+            "Put down the towel."
+        ],
+        "question_id": "Sequence_T4_2834",
+        "start": 11.6,
+        "end": 17.6
+    },
+    {
+        "video": "VT64S.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the bag.",
+        "candidates": [
+            "Took the bag.",
+            "Held the food."
+        ],
+        "question_id": "Sequence_T4_2844",
+        "start": 3.6,
+        "end": 33.0
+    },
+    {
+        "video": "9LHP3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Sat on the sofa/couch.",
+            "Held the phone/camera."
+        ],
+        "question_id": "Sequence_T4_2922",
+        "start": 6.4,
+        "end": 32.2
+    },
+    {
+        "video": "BZ1TH.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the book.",
+        "candidates": [
+            "Took the cup/glass/bottle.",
+            "Opened the book."
+        ],
+        "question_id": "Sequence_T4_2924",
+        "start": 0.0,
+        "end": 7.9
+    },
+    {
+        "video": "QL92H.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the book.",
+        "candidates": [
+            "Took the book.",
+            "Closed the closet/cabinet."
+        ],
+        "question_id": "Sequence_T4_2945",
+        "start": 13.1,
+        "end": 19.9
+    },
+    {
+        "video": "RCD08.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the blanket.",
+        "candidates": [
+            "Put down the clothes.",
+            "Took the blanket."
+        ],
+        "question_id": "Sequence_T4_3132",
+        "start": 6.7,
+        "end": 30.1
+    },
+    {
+        "video": "MVPQF.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the bag.",
+        "candidates": [
+            "Put down the bag.",
+            "Took the food."
+        ],
+        "question_id": "Sequence_T4_3153",
+        "start": 1.7,
+        "end": 18.5
+    },
+    {
+        "video": "52MV9.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Ate the sandwich.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T4_3260",
+        "start": 13.9,
+        "end": 32.7
+    },
+    {
+        "video": "52MV9.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Held the food.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T4_3263",
+        "start": 13.9,
+        "end": 72.0
+    },
+    {
+        "video": "WCERV.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the blanket.",
+        "candidates": [
+            "Took the paper/notebook.",
+            "Put down the blanket."
+        ],
+        "question_id": "Sequence_T4_3265",
+        "start": 1.4,
+        "end": 23.0
+    },
+    {
+        "video": "NLWBW.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the bag.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Put down the bag."
+        ],
+        "question_id": "Sequence_T4_3298",
+        "start": 6.8,
+        "end": 44.0
+    },
+    {
+        "video": "3V2HJ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the bag.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Put down the bag."
+        ],
+        "question_id": "Sequence_T4_3325",
+        "start": 4.8,
+        "end": 23.0
+    },
+    {
+        "video": "JBY4E.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the blanket.",
+        "candidates": [
+            "Took the dish.",
+            "Put down the blanket."
+        ],
+        "question_id": "Sequence_T4_3328",
+        "start": 2.8,
+        "end": 10.4
+    },
+    {
+        "video": "75KQ6.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Held the food.",
+            "Put down the dish."
+        ],
+        "question_id": "Sequence_T4_3360",
+        "start": 8.8,
+        "end": 22.0
+    },
+    {
+        "video": "3W6TL.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the pillow.",
+        "candidates": [
+            "Put down the pillow.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T4_3393",
+        "start": 8.4,
+        "end": 19.9
+    },
+    {
+        "video": "YCGJS.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Held the food."
+        ],
+        "question_id": "Sequence_T4_3394",
+        "start": 8.0,
+        "end": 32.0
+    },
+    {
+        "video": "I4N6K.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the book.",
+        "candidates": [
+            "Closed the book.",
+            "Tidied up the table."
+        ],
+        "question_id": "Sequence_T4_3511",
+        "start": 14.6,
+        "end": 26.1
+    },
+    {
+        "video": "P2UBC.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the sofa/couch.",
+        "candidates": [
+            "Opened the door.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T4_3551",
+        "start": 6.0,
+        "end": 29.3
+    },
+    {
+        "video": "CII5H.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the blanket.",
+        "candidates": [
+            "Put down the blanket.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T4_3572",
+        "start": 11.6,
+        "end": 23.9
+    },
+    {
+        "video": "6N7G6.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Took the blanket.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T4_3632",
+        "start": 0.2,
+        "end": 32.6
+    },
+    {
+        "video": "TWZA4.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the book.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Opened the book."
+        ],
+        "question_id": "Sequence_T4_3650",
+        "start": 0.5,
+        "end": 18.3
+    },
+    {
+        "video": "M1GW9.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the pillow.",
+        "candidates": [
+            "Opened the door.",
+            "Took the pillow."
+        ],
+        "question_id": "Sequence_T4_3651",
+        "start": 0.2,
+        "end": 9.9
+    },
+    {
+        "video": "L7HA6.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the phone/camera.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Took the phone/camera."
+        ],
+        "question_id": "Sequence_T4_3673",
+        "start": 0.0,
+        "end": 26.7
+    },
+    {
+        "video": "R9382.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the refrigerator.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Ate the sandwich."
+        ],
+        "question_id": "Sequence_T4_3719",
+        "start": 13.4,
+        "end": 29.0
+    },
+    {
+        "video": "8DL54.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the dish.",
+        "candidates": [
+            "Put down the dish.",
+            "Closed the refrigerator."
+        ],
+        "question_id": "Sequence_T4_3787",
+        "start": 17.1,
+        "end": 27.8
+    },
+    {
+        "video": "HFTEO.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the clothes.",
+        "candidates": [
+            "Put down the clothes.",
+            "Sat on the floor."
+        ],
+        "question_id": "Sequence_T4_3805",
+        "start": 6.1,
+        "end": 32.0
+    },
+    {
+        "video": "HCM5Y.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Opened the door.",
+            "Sat on the floor."
+        ],
+        "question_id": "Sequence_T4_3850",
+        "start": 0.0,
+        "end": 18.4
+    },
+    {
+        "video": "C69Y1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the closet/cabinet.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Closed the closet/cabinet."
+        ],
+        "question_id": "Sequence_T4_3866",
+        "start": 11.0,
+        "end": 42.5
+    },
+    {
+        "video": "59KH0.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the clothes.",
+        "candidates": [
+            "Took the clothes.",
+            "Sat at the table."
+        ],
+        "question_id": "Sequence_T4_3897",
+        "start": 7.7,
+        "end": 35.0
+    },
+    {
+        "video": "JLGLU.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the towel.",
+        "candidates": [
+            "Closed the door.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T4_3997",
+        "start": 15.4,
+        "end": 28.3
+    },
+    {
+        "video": "UMT5R.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the bag.",
+        "candidates": [
+            "Opened the closet/cabinet.",
+            "Took the bag."
+        ],
+        "question_id": "Sequence_T4_4009",
+        "start": 0.0,
+        "end": 24.6
+    },
+    {
+        "video": "OE751.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the blanket.",
+        "candidates": [
+            "Closed the door.",
+            "Took the blanket."
+        ],
+        "question_id": "Sequence_T4_4017",
+        "start": 18.4,
+        "end": 34.0
+    },
+    {
+        "video": "OE751.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the blanket.",
+        "candidates": [
+            "Closed the closet/cabinet.",
+            "Took the blanket."
+        ],
+        "question_id": "Sequence_T4_4018",
+        "start": 18.4,
+        "end": 33.4
+    },
+    {
+        "video": "EDXBD.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat at the table.",
+        "candidates": [
+            "Sat at the table.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T4_4024",
+        "start": 0.0,
+        "end": 14.0
+    },
+    {
+        "video": "B7LO8.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the clothes.",
+        "candidates": [
+            "Put down the clothes.",
+            "Took the phone/camera."
+        ],
+        "question_id": "Sequence_T4_4063",
+        "start": 2.9,
+        "end": 19.0
+    },
+    {
+        "video": "IU5TH.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the laptop.",
+        "candidates": [
+            "Took the food.",
+            "Closed the laptop."
+        ],
+        "question_id": "Sequence_T4_4072",
+        "start": 6.6,
+        "end": 17.6
+    },
+    {
+        "video": "SMVKB.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the pillow.",
+        "candidates": [
+            "Opened the closet/cabinet.",
+            "Took the pillow."
+        ],
+        "question_id": "Sequence_T4_4192",
+        "start": 0.0,
+        "end": 22.8
+    },
+    {
+        "video": "5ZDNU.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the clothes.",
+        "candidates": [
+            "Put down the clothes.",
+            "Took the book."
+        ],
+        "question_id": "Sequence_T4_4213",
+        "start": 4.1,
+        "end": 21.4
+    },
+    {
+        "video": "1HAYV.mp4",
+        "question": "What did the person do first?",
+        "answer": "Ate the sandwich.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Ate the sandwich."
+        ],
+        "question_id": "Sequence_T4_4231",
+        "start": 0.0,
+        "end": 8.2
+    },
+    {
+        "video": "1HAYV.mp4",
+        "question": "What did the person do first?",
+        "answer": "Ate the sandwich.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Ate the sandwich."
+        ],
+        "question_id": "Sequence_T4_4232",
+        "start": 10.0,
+        "end": 26.4
+    },
+    {
+        "video": "8BBX0.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the bag.",
+        "candidates": [
+            "Opened the door.",
+            "Put down the bag."
+        ],
+        "question_id": "Sequence_T4_4257",
+        "start": 8.1,
+        "end": 19.3
+    },
+    {
+        "video": "8BBX0.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the bag.",
+        "candidates": [
+            "Took the bag.",
+            "Closed the door."
+        ],
+        "question_id": "Sequence_T4_4259",
+        "start": 18.5,
+        "end": 25.5
+    },
+    {
+        "video": "DGMDT.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the bag.",
+        "candidates": [
+            "Put down the bag.",
+            "Took the phone/camera."
+        ],
+        "question_id": "Sequence_T4_4285",
+        "start": 20.8,
+        "end": 30.0
+    },
+    {
+        "video": "DGMDT.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the bag.",
+        "candidates": [
+            "Took the bag.",
+            "Held the food."
+        ],
+        "question_id": "Sequence_T4_4286",
+        "start": 3.9,
+        "end": 23.8
+    },
+    {
+        "video": "JXNEN.mp4",
+        "question": "What did the person do first?",
+        "answer": "Ate the sandwich.",
+        "candidates": [
+            "Ate the sandwich.",
+            "Held the food."
+        ],
+        "question_id": "Sequence_T4_4394",
+        "start": 10.4,
+        "end": 27.0
+    },
+    {
+        "video": "JXNEN.mp4",
+        "question": "What did the person do first?",
+        "answer": "Ate the sandwich.",
+        "candidates": [
+            "Ate the sandwich.",
+            "Sat on the sofa/couch."
+        ],
+        "question_id": "Sequence_T4_4395",
+        "start": 10.4,
+        "end": 27.0
+    },
+    {
+        "video": "J6P6H.mp4",
+        "question": "What did the person do first?",
+        "answer": "Ate the sandwich.",
+        "candidates": [
+            "Ate the sandwich.",
+            "Took the food."
+        ],
+        "question_id": "Sequence_T4_4435",
+        "start": 9.5,
+        "end": 18.4
+    },
+    {
+        "video": "KZODG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the laptop.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Closed the laptop."
+        ],
+        "question_id": "Sequence_T4_4462",
+        "start": 15.3,
+        "end": 32.0
+    },
+    {
+        "video": "56XKK.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the bag.",
+        "candidates": [
+            "Opened the door.",
+            "Put down the bag."
+        ],
+        "question_id": "Sequence_T4_4502",
+        "start": 4.3,
+        "end": 20.8
+    },
+    {
+        "video": "MDG2T.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the cup/glass/bottle.",
+        "candidates": [
+            "Took the cup/glass/bottle.",
+            "Took the towel."
+        ],
+        "question_id": "Sequence_T4_4517",
+        "start": 0.0,
+        "end": 13.0
+    },
+    {
+        "video": "TAGEG.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the dish.",
+        "candidates": [
+            "Opened the closet/cabinet.",
+            "Took the dish."
+        ],
+        "question_id": "Sequence_T4_4551",
+        "start": 8.7,
+        "end": 17.8
+    },
+    {
+        "video": "Z6HEA.mp4",
+        "question": "What did the person do first?",
+        "answer": "Sat on the floor.",
+        "candidates": [
+            "Took the food.",
+            "Sat on the floor."
+        ],
+        "question_id": "Sequence_T4_4589",
+        "start": 9.1,
+        "end": 21.8
+    },
+    {
+        "video": "ZFQNZ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Held the food.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Held the food."
+        ],
+        "question_id": "Sequence_T4_4597",
+        "start": 8.9,
+        "end": 18.3
+    },
+    {
+        "video": "DBT6E.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the bag.",
+        "candidates": [
+            "Put down the bag.",
+            "Sat on the floor."
+        ],
+        "question_id": "Sequence_T4_4663",
+        "start": 8.6,
+        "end": 33.0
+    },
+    {
+        "video": "LLOGB.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the phone/camera.",
+        "candidates": [
+            "Took the phone/camera.",
+            "Lied on the bed."
+        ],
+        "question_id": "Sequence_T4_4694",
+        "start": 8.7,
+        "end": 31.0
+    },
+    {
+        "video": "6ALEL.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the towel.",
+        "candidates": [
+            "Took the food.",
+            "Put down the towel."
+        ],
+        "question_id": "Sequence_T4_4697",
+        "start": 11.6,
+        "end": 24.2
+    },
+    {
+        "video": "NV4FC.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the paper/notebook.",
+        "candidates": [
+            "Took the paper/notebook.",
+            "Opened the book."
+        ],
+        "question_id": "Sequence_T4_4702",
+        "start": 21.5,
+        "end": 26.8
+    },
+    {
+        "video": "XFRYR.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the closet/cabinet.",
+        "candidates": [
+            "Held the food.",
+            "Closed the closet/cabinet."
+        ],
+        "question_id": "Sequence_T4_4708",
+        "start": 8.8,
+        "end": 16.9
+    },
+    {
+        "video": "XYGU1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the book.",
+        "candidates": [
+            "Drank from the cup/glass/bottle.",
+            "Opened the book."
+        ],
+        "question_id": "Sequence_T4_4735",
+        "start": 11.8,
+        "end": 20.9
+    },
+    {
+        "video": "9O0HH.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the closet/cabinet.",
+        "candidates": [
+            "Closed the closet/cabinet.",
+            "Held the food."
+        ],
+        "question_id": "Sequence_T4_4744",
+        "start": 1.5,
+        "end": 37.0
+    },
+    {
+        "video": "OKYYQ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the book.",
+        "candidates": [
+            "Closed the book.",
+            "Opened the closet/cabinet."
+        ],
+        "question_id": "Sequence_T4_4756",
+        "start": 2.5,
+        "end": 15.6
+    },
+    {
+        "video": "XPWYQ.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the book.",
+        "candidates": [
+            "Held the phone/camera.",
+            "Put down the book."
+        ],
+        "question_id": "Sequence_T4_4774",
+        "start": 16.0,
+        "end": 26.0
+    },
+    {
+        "video": "UDGRS.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the phone/camera.",
+        "candidates": [
+            "Took the phone/camera.",
+            "Tidied up the table."
+        ],
+        "question_id": "Sequence_T4_4777",
+        "start": 16.5,
+        "end": 29.8
+    },
+    {
+        "video": "0JB3D.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the refrigerator.",
+        "candidates": [
+            "Closed the refrigerator.",
+            "Drank from the cup/glass/bottle."
+        ],
+        "question_id": "Sequence_T4_4838",
+        "start": 5.4,
+        "end": 15.8
+    },
+    {
+        "video": "S3TZ1.mp4",
+        "question": "What did the person do first?",
+        "answer": "Closed the refrigerator.",
+        "candidates": [
+            "Opened the closet/cabinet.",
+            "Closed the refrigerator."
+        ],
+        "question_id": "Sequence_T4_4854",
+        "start": 5.9,
+        "end": 17.0
+    },
+    {
+        "video": "V54TI.mp4",
+        "question": "What did the person do first?",
+        "answer": "Took the pillow.",
+        "candidates": [
+            "Took the pillow.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T4_4989",
+        "start": 10.0,
+        "end": 28.7
+    },
+    {
+        "video": "0BZAD.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the book.",
+        "candidates": [
+            "Opened the book.",
+            "Took the food."
+        ],
+        "question_id": "Sequence_T4_4992",
+        "start": 7.5,
+        "end": 31.0
+    },
+    {
+        "video": "0BZAD.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the book.",
+        "candidates": [
+            "Opened the book.",
+            "Held the food."
+        ],
+        "question_id": "Sequence_T4_4993",
+        "start": 7.5,
+        "end": 32.0
+    },
+    {
+        "video": "8DSGI.mp4",
+        "question": "What did the person do first?",
+        "answer": "Opened the book.",
+        "candidates": [
+            "Sat on the floor.",
+            "Opened the book."
+        ],
+        "question_id": "Sequence_T4_5032",
+        "start": 13.4,
+        "end": 32.0
+    },
+    {
+        "video": "0QES3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the book.",
+        "candidates": [
+            "Closed the door.",
+            "Put down the book."
+        ],
+        "question_id": "Sequence_T4_5037",
+        "start": 0.1,
+        "end": 20.2
+    },
+    {
+        "video": "0QES3.mp4",
+        "question": "What did the person do first?",
+        "answer": "Put down the book.",
+        "candidates": [
+            "Put down the book.",
+            "Opened the door."
+        ],
+        "question_id": "Sequence_T4_5038",
+        "start": 0.1,
+        "end": 20.1
+    }
+]
