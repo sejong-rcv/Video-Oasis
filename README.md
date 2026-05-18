@@ -35,8 +35,8 @@
 
 ## Data
 
-## Diagnosis (Video-Oasis)
+## Video-Oasis
 
-## Evaluation (Video-Native-Challenges)
+## Evaluation 
 
 
