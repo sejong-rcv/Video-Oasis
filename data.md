@@ -24,6 +24,28 @@ if __name__ == '__main__':
      * [MINERVA](https://github.com/google-deepmind/neptune) 
 
 
+## QA Format
+
+* All provided `.json` files already follow this format. However, when adding a new benchmark, you must ensure it adheres to the structure below:
+
+```json
+{
+    "question": "<String: The question to be asked>",
+    "video": "<String: The video file name (e.g., video_id.mp4)>",
+    "options": [
+        "A. <String: First option text>",
+        "B. <String: Second option text>",
+        "C. <String: Third option text>",
+        "D. <String: Fourth option text>"
+    ],
+    "answer": "<String: Correct option letter (e.g., 'A', 'B', 'C', 'D')>",
+    "answer_text": "<String: The exact text of the correct answer>",
+    "db": "<String: Name of the source benchmark (e.g., ImplicitQA, LVBench, MINERVA)>",
+    "qid": "<String: Unique identifier for the question>",
+    "video_path": "<String: Absolute path to the video file>",
+}
+```
+
 ## Getting the Models
 * Download the Video-LLMs you want. (Hugging face supported)
 ```python
@@ -39,9 +61,6 @@ if __name__ == '__main__':
     snapshot_download(repo_id="Qwen/Qwen2.5-VL-7B-Instruct", local_dir="./Qwen2.5-VL-7B-Instruct", local_dir_use_symlinks=False, resume_download=True)
     ...
 ```
-
-## Preprocess
-
 
 ## Overal Structure
 
