@@ -1,34 +1,42 @@
 # 🎞 Data Preparation
 ## Getting the Dataset
-* Download the raw video dataset you want. The supported options are:
-    * [CC_WEB_VIDEO](http://vireo.cs.cityu.edu.hk/webvideo/)
-    * [VCDB](https://fvl.fudan.edu.cn/dataset/vcdb/list.htm)
-    * [FIVR](http://ndd.iti.gr/fivr/)  
-    * [EVVE](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6619162)  
+* Download the Video QA Benchmark you want. (Hugging face supported)
+```python
 
+import os
+from huggingface_hub import snapshot_download
 
-* You should contact the author about the missing video that occurs during the download process.
-* The raw video data should be located like the structure below. 
+os.environ["HF_HUB_DOWNLOAD_TIMEOUT"] = "120"
+os.environ["HF_HUB_DOWNLOAD_RETRY"] = "5"
 
-* **But preparing raw video is not essential. We provide the features, we used.**
+# {'ImplicitQA', 'VCR-Bench', 'RTV-Bench', 'CG-Bench', 'LongVideoBench', 'VSI-Bench', 'Video-MME', 'MINERVA', 'LVBench', 'MLVU_Test'}
+
+if __name__ == '__main__':
+    snapshot_download("lmms-lab/Video-MME", repo_type='dataset', local_dir="./video-mme")
+    ...
+```
+
+* [LVBench](https://github.com/zai-org/LVBench), [ImplicitQA](https://github.com/UCF-CRCV/VRR-QA), and [MINERVA](https://github.com/google-deepmind/neptune) require direct downloads from YouTube.
+
+* We have provided a download script to facilitate this.
 
 ~~~~
-├── videos
-   ├── fivr
-      └── videos
-         ├── video_1
-         ├── video_2
-         └── ...
-   ├── cc_web
-      └── videos
-         ├── video_1
-         ├── video_2
-         └── ...
-   ├── evve
-      └── videos
-         ├── video_1
-         ├── video_2
-         └── ...
+├── benchmarks
+   ├── annos
+      └── dataset 1
+      └── dataset 2
+      └── dataset 3
+      └── ...
+   ├── audio
+      └── dataset 1
+      └── dataset 2
+      └── dataset 3
+      └── ...
+   ├── videos
+      └── dataset 1
+      └── dataset 2
+      └── dataset 3
+      └── ...
 ~~~~
   
 
