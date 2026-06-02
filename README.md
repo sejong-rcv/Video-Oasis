@@ -17,7 +17,7 @@
 </div>
 
 
-> **TL;DR.** The Video-Oasis diagnosis reveals the core spatio-temporal challenges: (i) leveraging visual–temporal decoupling tests to suppress unintended shortcuts and highlight video-native challenges such as temporal continuity, causal interaction, and multi-event narratives; (ii) mitigating bias and uncertainty via a cross-model consensus mechanism; and (iii) resolving inherent ambiguity in video QA through a rigorous human-in-the-loop verification.
+> **TL;DR.** Video-Oasis rethinks the current benchmark landscape by examining whether proliferating video benchmarks truly satisfy shared criteria for genuine video understanding.
 
 
 
