@@ -24,7 +24,9 @@ def get_files_by_extension(root_path):
 
 if __name__ == '__main__':
     buffer = []
-    root_dir = "/mnt/users/gtlim/workspace/src/benchmark/annos"
+    root_dir = "../benchmarks/annos"
+    db_list = os.listdir(root_dir)
+
     result_files = get_files_by_extension(root_dir)
     Total_QA = dict()
     cnt = 0
@@ -34,21 +36,24 @@ if __name__ == '__main__':
         if ext == '.json':
             with open(file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-
         elif ext == '.jsonl':
             data = []
             with open(file_path, 'r', encoding='utf-8') as f:
                 for line in f:
                     if line.strip():
                         data.append(json.loads(line))
-
         elif ext == '.parquet':
             data = pd.read_parquet(file_path, engine='pyarrow')
-
         elif ext == '.tsv':
             data = pd.read_csv(file_path, sep='\t')
+        else:
+            import pdb;pdb.set_trace()
 
-        db = file_path.split('/')[8]
+        for item in file_path.split('/'):
+            if item in db_list:
+                db = item
+                break
+
         if db not in Total_QA.keys():
             Total_QA[db] = dict()
 
@@ -191,7 +196,6 @@ if __name__ == '__main__':
                     sample['candidates'][idx] = chr(idx + 65) + '. ' + opt
                     if opt == sample['answer']:
                         answer = chr(idx + 65)
-                import pdb;pdb.set_trace()
 
                 meta_info = f'Options of QA : {option_txt}'
                 Total_QA[db][sample['video']] = {
