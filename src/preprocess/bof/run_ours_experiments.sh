@@ -10,11 +10,11 @@
 set -e
 
 # Default values
-GPUS="0,1,2,3,4,5,6,7" # 0, 1, 2, 3 등 병렬 처리 가능 -> infer 속도가 빨라서 큰 차이 없음
-DATA_PATH="/mnt/users/gtlim/workspace/src/lmms_eval/vqa_total_nonlocal.json" # 근택님 json경로로
-FEATURES_DIR="/mnt/gtlim_data/users/gtlim/features" # 근택님이 추출한 feature 경로로
-OUTPUT_DIR="./json" # 실험 결과 json 저장 
-MODELS="siglip-l" # 요건 미리 feature 추출한 모델이랑 동일하게 (nosense_qa_ours.py -> ModelConfig 참고) siglip2 같은 경우 기본이 giant인데 수정해서 사용하면 됨
+GPUS="0,1,2,3,4,5,6,7" 
+DATA_PATH="/mnt/users/gtlim/workspace/src/lmms_eval/vqa_total_nonlocal.json" 
+FEATURES_DIR="/mnt/gtlim_data/users/gtlim/features" 
+OUTPUT_DIR="./json" 
+MODELS="siglip-l"
 TOP_KS="32,128"
 AGGREGATIONS="mean,max"
 

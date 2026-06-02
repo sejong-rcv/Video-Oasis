@@ -41,7 +41,6 @@ def get_sorted_video_list(anno, rank, model_id, output_folder):
     for item in tqdm.tqdm(anno):
         if 'db' in item and 'video_path' in item:
             vidname = item['video_path'].split('/')[-1]
-            # 이미 처리된 파일인지 체크
             save_path = os.path.join(output_folder, model_id, item['db'] + '**@@**' + vidname + '.pt')
             if not os.path.isfile(save_path):
                 vid_key = item['db'] + '**@@**' + item['video_path']
@@ -121,7 +120,6 @@ def main():
     model_key = MODEL_NAMES[args.model_id]
     is_longclip = (args.model_id == 'longclip')
 
-    # 모델 로드 분기
     if is_longclip:
         model, processor = longclip.load(model_key, device=device)
     elif args.model_id == 'eva':
@@ -158,7 +156,6 @@ def main():
                 
                 pixel_values = batch_data['pixel_values'].to(device)
 
-                # Long-CLIP/EVA는 FP16을 주로 사용하므로 맞춰줌
                 dtype = torch.float16 if (is_longclip or args.model_id == 'eva') else torch.bfloat16
                 pixel_values = pixel_values.to(dtype)
                 
