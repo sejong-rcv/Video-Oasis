@@ -23,19 +23,7 @@
 
 ## Release
 - [x] Release the paper on <a href="https://arxiv.org/abs/2603.29616">arXiv</a> <br>
+- [x] Release the Video-Native Challenges on <a href="https://github.com/sejong-rcv/Video-Oasis/blob/main/src/lmms_eval/video_oasis.json">link</a> <br>
 - [ ] Release the code for Video-Oasis <br>
-
-## Environments
-* CUDA : 12.8
-* Python : 3.12.3
-* torch : 2.8.0
-* transformers : 4.57.0
-* vllm : 0.11.0
-
-## Data
-
-## Diagnosis (Video-Oasis)
-
-## Evaluation (Video-Native-Challenges)
 
 
