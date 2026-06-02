@@ -1,0 +1,34 @@
+{
+    "video_id": "9KCy9ZKK2Nc.mp4.mp3",
+    "transcript": " Make sure to disconnect the power and remove the battery before changing the screen. Start with removing the bezel. Begin on one side and move to the top, gently prying the plastic away from the screen. Carefully snap out the hinge covers at the bottom, directing force away from the screen. Next, remove four mounting screws attaching the LCD panel to the top cover. Once all the screws are removed, place the screen on the keyboard. Gently lift the tape securing the video connector and pull out the video cable. Set the video cable aside. Discard the old panel. Take the new screen out of the anti-static bag and place the bag on the keyboard. Then put the new screen on top of the bag to protect it from scratching. Reconnect the video cable by gently sliding it into the video connector. Please be extra careful during this procedure. Both connectors are very fragile. Secure the video connector with the tape. Bend out the protective film tabs, lift the screen up, line it up with the frame and remove the film. Replace the four mounting screws to secure the LCD panel. Before you continue, test the new screen. Connect the AC adapter and turn on the laptop. If the startup image appears, the screen is installed correctly. Cancel the boot up by pressing and holding the power button. Now you can replace the bezel. Snap in the hinge covers on the bottom first, then move along the sides to the top. Flip the laptop over and snap in the bottom edge of the bezel. Put the battery back in, reconnect the power, and you're done.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                89.22
+            ],
+            "text": " Make sure to disconnect the power and remove the battery before changing the screen. Start with removing the bezel. Begin on one side and move to the top, gently prying the plastic away from the screen. Carefully snap out the hinge covers at the bottom, directing force away from the screen. Next, remove four mounting screws attaching the LCD panel to the top cover. Once all the screws are removed, place the screen on the keyboard. Gently lift the tape securing the video connector and pull out the video cable. Set the video cable aside. Discard the old panel. Take the new screen out of the anti-static bag and place the bag on the keyboard. Then put the new screen on top of the bag to protect it from scratching. Reconnect the video cable by gently sliding it into the video connector. Please be extra careful during this procedure. Both connectors are very fragile. Secure the video connector with the tape. Bend out the protective film tabs, lift the screen up, line it up with the frame and remove the film. Replace the four mounting screws to secure the LCD panel. Before you continue, test the new screen. Connect the AC adapter and turn on the laptop. If the startup image appears, the screen is installed correctly. Cancel the boot up by pressing and holding the power button. Now you can"
+        },
+        {
+            "timestamp": [
+                89.22,
+                93.44
+            ],
+            "text": " replace the bezel. Snap in the hinge covers on the bottom first, then move"
+        },
+        {
+            "timestamp": [
+                93.44,
+                98.32
+            ],
+            "text": " along the sides to the top. Flip the laptop over and snap in the bottom edge"
+        },
+        {
+            "timestamp": [
+                98.32,
+                null
+            ],
+            "text": " of the bezel. Put the battery back in, reconnect the power, and you're done."
+        }
+    ]
+}

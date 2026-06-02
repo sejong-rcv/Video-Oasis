@@ -1,0 +1,41 @@
+{
+    "video_id": "Happy Valentine's Day.mp4.mp3",
+    "transcript": " I can't help falling in love with you I wonder if I'm ever on her mind, like she's on mine Probably not, swear I never seen a girl so fine She probably got tons of guys tryna hit her line And take her time, I could",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                7.96
+            ],
+            "text": " I can't help falling in love with you"
+        },
+        {
+            "timestamp": [
+                7.96,
+                11.26
+            ],
+            "text": " I wonder if I'm ever on her mind, like she's on mine"
+        },
+        {
+            "timestamp": [
+                11.26,
+                14.1
+            ],
+            "text": " Probably not, swear I never seen a girl so fine"
+        },
+        {
+            "timestamp": [
+                14.1,
+                17.08
+            ],
+            "text": " She probably got tons of guys tryna hit her line"
+        },
+        {
+            "timestamp": [
+                17.08,
+                18.5
+            ],
+            "text": " And take her time, I could"
+        }
+    ]
+}

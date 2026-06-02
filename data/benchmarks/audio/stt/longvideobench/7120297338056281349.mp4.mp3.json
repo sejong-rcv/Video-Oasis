@@ -1,0 +1,34 @@
+{
+    "video_id": "7120297338056281349.mp4.mp3",
+    "transcript": " The gods envy us. They envy us because we're mortal. Because any moment might be our last. Everything's more beautiful because we do it.",
+    "timestamps": [
+        {
+            "timestamp": [
+                1.0,
+                3.0
+            ],
+            "text": " The gods envy us."
+        },
+        {
+            "timestamp": [
+                5.0,
+                7.0
+            ],
+            "text": " They envy us because we're mortal."
+        },
+        {
+            "timestamp": [
+                9.0,
+                11.0
+            ],
+            "text": " Because any moment might be our last."
+        },
+        {
+            "timestamp": [
+                12.0,
+                15.0
+            ],
+            "text": " Everything's more beautiful because we do it."
+        }
+    ]
+}

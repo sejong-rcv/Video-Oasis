@@ -1,0 +1,27 @@
+{
+    "video_id": "IBWAW.mp4.mp3",
+    "transcript": " 1.5 kg mackerel 2.5 kg mackerel Takk for at du så med. Thank you for watching.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                10.0
+            ],
+            "text": " 1.5 kg mackerel"
+        },
+        {
+            "timestamp": [
+                10.0,
+                20.0
+            ],
+            "text": " 2.5 kg mackerel"
+        },
+        {
+            "timestamp": [
+                20.0,
+                30.76
+            ],
+            "text": " Takk for at du så med. Thank you for watching."
+        }
+    ]
+}

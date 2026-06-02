@@ -1,0 +1,41 @@
+{
+    "video_id": "Mission.Impossible.III.2006__#01-31-37_01-32-20_label_B2-B6-0.mp4.mp3",
+    "transcript": " I'm sorry. Put pressure on it. Tell me when you get a signal. What are you doing? I've got to say no! Hit redial.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.0
+            ],
+            "text": " I'm sorry."
+        },
+        {
+            "timestamp": [
+                9.0,
+                10.0
+            ],
+            "text": " Put pressure on it."
+        },
+        {
+            "timestamp": [
+                11.0,
+                12.0
+            ],
+            "text": " Tell me when you get a signal."
+        },
+        {
+            "timestamp": [
+                13.0,
+                34.52
+            ],
+            "text": " What are you doing? I've got to say no!"
+        },
+        {
+            "timestamp": [
+                39.52,
+                40.18
+            ],
+            "text": " Hit redial."
+        }
+    ]
+}

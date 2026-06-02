@@ -1,0 +1,55 @@
+{
+    "video_id": "3ND23.mp4.mp3",
+    "transcript": " I'm going to show you guys how to make an easy-to-eat pizza. I'm going to show you guys how to make an easy-to-eat pizza. I'm going to show you guys how to make an easy-to-eat pizza. I'm going to show you guys how to make an easy-to-eat pizza. I'm going to show you guys how to make an easy. What did I tell you? I'm watching the program. This is my fantasy. I'm watching.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " I'm going to show you guys how to make an easy-to-eat pizza."
+        },
+        {
+            "timestamp": [
+                5.0,
+                10.0
+            ],
+            "text": " I'm going to show you guys how to make an easy-to-eat pizza."
+        },
+        {
+            "timestamp": [
+                10.0,
+                15.0
+            ],
+            "text": " I'm going to show you guys how to make an easy-to-eat pizza."
+        },
+        {
+            "timestamp": [
+                15.0,
+                20.0
+            ],
+            "text": " I'm going to show you guys how to make an easy-to-eat pizza."
+        },
+        {
+            "timestamp": [
+                20.0,
+                26.36
+            ],
+            "text": " I'm going to show you guys how to make an easy. What did I tell you? I'm watching the program."
+        },
+        {
+            "timestamp": [
+                28.0,
+                28.52
+            ],
+            "text": " This is my fantasy."
+        },
+        {
+            "timestamp": [
+                30.1,
+                null
+            ],
+            "text": " I'm watching."
+        }
+    ]
+}

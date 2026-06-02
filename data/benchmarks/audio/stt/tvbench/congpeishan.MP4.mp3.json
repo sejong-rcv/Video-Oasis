@@ -1,0 +1,41 @@
+{
+    "video_id": "congpeishan.MP4.mp3",
+    "transcript": " Hello everyone, welcome to my channel. Today I will show you how to make a simple and delicious recipe for breakfast. I will show you how to make a simple and delicious recipe for breakfast. I will show you how to make a simple and delicious Thank you for watching and see you in the next video.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " Hello everyone, welcome to my channel."
+        },
+        {
+            "timestamp": [
+                5.0,
+                10.0
+            ],
+            "text": " Today I will show you how to make a simple and delicious"
+        },
+        {
+            "timestamp": [
+                10.0,
+                15.0
+            ],
+            "text": " recipe for breakfast."
+        },
+        {
+            "timestamp": [
+                15.0,
+                20.0
+            ],
+            "text": " I will show you how to make a simple and delicious"
+        },
+        {
+            "timestamp": [
+                20.0,
+                30.0
+            ],
+            "text": " recipe for breakfast. I will show you how to make a simple and delicious Thank you for watching and see you in the next video."
+        }
+    ]
+}

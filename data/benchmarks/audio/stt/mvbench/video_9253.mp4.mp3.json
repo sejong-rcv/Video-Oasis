@@ -1,0 +1,27 @@
+{
+    "video_id": "video_9253.mp4.mp3",
+    "transcript": " 1.5 tsk vanilleekstrakt 1.5 tsk vanilleekstrakt 1.5 tsk vanilleekstrakt",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                10.0
+            ],
+            "text": " 1.5 tsk vanilleekstrakt"
+        },
+        {
+            "timestamp": [
+                10.0,
+                19.0
+            ],
+            "text": " 1.5 tsk vanilleekstrakt"
+        },
+        {
+            "timestamp": [
+                19.0,
+                25.48
+            ],
+            "text": " 1.5 tsk vanilleekstrakt"
+        }
+    ]
+}

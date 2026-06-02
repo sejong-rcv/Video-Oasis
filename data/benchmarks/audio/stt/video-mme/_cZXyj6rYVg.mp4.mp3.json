@@ -1,0 +1,48 @@
+{
+    "video_id": "_cZXyj6rYVg.mp4.mp3",
+    "transcript": " There's no need to get frustrated. People learn at different rates. Unlike objects falling in a vacuum, which... M-A equals M-G... Squared? No. Aristotle? No. Five? Oh, then I don't know. Why are you crying? Because I'm stupid. Well, that's no reason to cry. One cries because one is sad. For example, I cry because others are stupid and it makes me sad.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                25.82
+            ],
+            "text": " There's no need to get frustrated. People learn at different rates. Unlike objects falling in a vacuum, which... M-A equals M-G... Squared? No. Aristotle? No. Five? Oh, then I don't know."
+        },
+        {
+            "timestamp": [
+                27.04,
+                27.08
+            ],
+            "text": " Why are you crying?"
+        },
+        {
+            "timestamp": [
+                28.36,
+                29.74
+            ],
+            "text": " Because I'm stupid."
+        },
+        {
+            "timestamp": [
+                31.16,
+                33.14
+            ],
+            "text": " Well, that's no reason to cry."
+        },
+        {
+            "timestamp": [
+                35.04,
+                35.26
+            ],
+            "text": " One cries because one is sad."
+        },
+        {
+            "timestamp": [
+                38.7,
+                null
+            ],
+            "text": " For example, I cry because others are stupid and it makes me sad."
+        }
+    ]
+}

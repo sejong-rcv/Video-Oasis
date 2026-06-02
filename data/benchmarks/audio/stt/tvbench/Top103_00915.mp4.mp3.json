@@ -1,0 +1,55 @@
+{
+    "video_id": "Top103_00915.mp4.mp3",
+    "transcript": " Wednesday, Tuesday. Tuesday. Tuesday. It will be a good time for you to come back and get lost. Okay, goodbye. Sorry. Tuesday.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.12
+            ],
+            "text": " Wednesday, Tuesday."
+        },
+        {
+            "timestamp": [
+                1.62,
+                1.96
+            ],
+            "text": " Tuesday."
+        },
+        {
+            "timestamp": [
+                2.12,
+                2.28
+            ],
+            "text": " Tuesday."
+        },
+        {
+            "timestamp": [
+                2.28,
+                5.22
+            ],
+            "text": " It will be a good time for you to come back and get lost."
+        },
+        {
+            "timestamp": [
+                5.48,
+                6.2
+            ],
+            "text": " Okay, goodbye."
+        },
+        {
+            "timestamp": [
+                6.9,
+                7.42
+            ],
+            "text": " Sorry."
+        },
+        {
+            "timestamp": [
+                9.9,
+                10.38
+            ],
+            "text": " Tuesday."
+        }
+    ]
+}

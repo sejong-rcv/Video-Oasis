@@ -1,0 +1,27 @@
+{
+    "video_id": "SS3IL.mp4.mp3",
+    "transcript": " Hey. Ha, ha, ha, ha. Ha, ha, ha, ha.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.0
+            ],
+            "text": " Hey."
+        },
+        {
+            "timestamp": [
+                17.0,
+                19.0
+            ],
+            "text": " Ha, ha, ha, ha."
+        },
+        {
+            "timestamp": [
+                20.0,
+                21.0
+            ],
+            "text": " Ha, ha, ha, ha."
+        }
+    ]
+}

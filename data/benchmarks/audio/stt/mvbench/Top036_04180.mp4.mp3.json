@@ -1,0 +1,41 @@
+{
+    "video_id": "Top036_04180.mp4.mp3",
+    "transcript": " et merci pour l'album. Ouf, non, c'est bon. J'ai un peu de temps, je vais lui ramener moi-même à la Foire du Trône. Ah, mais comme vous voulez, hein. La chenille des Carpathes, demandez Nino qu'un camp poids, comme la rue.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                0.9
+            ],
+            "text": " et merci pour l'album."
+        },
+        {
+            "timestamp": [
+                1.12,
+                2.06
+            ],
+            "text": " Ouf, non, c'est bon."
+        },
+        {
+            "timestamp": [
+                2.72,
+                4.8
+            ],
+            "text": " J'ai un peu de temps, je vais lui ramener moi-même à la Foire du Trône."
+        },
+        {
+            "timestamp": [
+                4.88,
+                5.74
+            ],
+            "text": " Ah, mais comme vous voulez, hein."
+        },
+        {
+            "timestamp": [
+                5.74,
+                8.58
+            ],
+            "text": " La chenille des Carpathes, demandez Nino qu'un camp poids, comme la rue."
+        }
+    ]
+}

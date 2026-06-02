@@ -1,0 +1,27 @@
+{
+    "video_id": "Top042_05585.mp4.mp3",
+    "transcript": " The throne of Gondor. He turned from that path a long time ago. He has chosen exile.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.34
+            ],
+            "text": " The throne of Gondor."
+        },
+        {
+            "timestamp": [
+                3.28,
+                5.66
+            ],
+            "text": " He turned from that path a long time ago."
+        },
+        {
+            "timestamp": [
+                7.54,
+                8.78
+            ],
+            "text": " He has chosen exile."
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "video_id": "Top014_01990.mp4.mp3",
+    "transcript": " Come on. Come on, boy. Come on. Come on. Mom? Yeah, sweetie, I'm in here. Hey, hi. Hi. You got the chips? Oh, thanks.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " Come on."
+        },
+        {
+            "timestamp": [
+                2.0,
+                4.0
+            ],
+            "text": " Come on, boy."
+        },
+        {
+            "timestamp": [
+                4.0,
+                6.0
+            ],
+            "text": " Come on."
+        },
+        {
+            "timestamp": [
+                6.0,
+                8.0
+            ],
+            "text": " Come on."
+        },
+        {
+            "timestamp": [
+                8.0,
+                10.0
+            ],
+            "text": " Mom?"
+        },
+        {
+            "timestamp": [
+                10.0,
+                12.0
+            ],
+            "text": " Yeah, sweetie, I'm in here."
+        },
+        {
+            "timestamp": [
+                12.0,
+                14.0
+            ],
+            "text": " Hey, hi."
+        },
+        {
+            "timestamp": [
+                14.0,
+                16.0
+            ],
+            "text": " Hi."
+        },
+        {
+            "timestamp": [
+                16.0,
+                18.0
+            ],
+            "text": " You got the chips?"
+        },
+        {
+            "timestamp": [
+                18.0,
+                20.0
+            ],
+            "text": " Oh, thanks."
+        }
+    ]
+}

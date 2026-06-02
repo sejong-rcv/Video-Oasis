@@ -1,0 +1,209 @@
+{
+    "video_id": "test_ego_1.mp4.mp3",
+    "transcript": " Yeah, cool. Later. Later, dude. Let's go to the ATM. All right. Party. Let's get that party on. Hello. Hi, how are you doing? Good. Excuse me. Thank you. Wow, how many calories? Um, two packs, but a little higher, but it's loaded. It's loaded. Good. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's self-energize. It's cool. We are getting lunches for breakfast. Well, what would you like to eat? I mean, this is perfect. I'm ready to break with you, dude. So, should we double this? Yeah, let's grab two of those. I'd like to have one for each day. Okay, so wait, are these yours? Yeah. Thank you. I don't know what that means. We are in the store. I'm going to get it out. Yuki. Yeah. We're not eating enough soup, but we think we should get some soup. Yeah, I think so. That's cute. Hmm. Thank you. Well, I think I'm going to get this done another time. I don't know, we've got to, we've got to, like, we still need to go to the shop and get the clothes. Thank you. I don't know. And then did we decide what we want to do for Jerry and Marilyn's 50th romantic dinner party? Maybe we do like a nice vegetable sauté and... Let me check this thing and see. All right. Can you grow the salad or... Yeah, maybe, what do you think, Ron? No, I think that works great. All right. I'm not sure I see the right stuff. Yeah, right. Apples and grapes, I don't think about that. All right, let's do potatoes for the salad. And then, what else do you think? How about some peppers? Oh, yeah, I think the peppers are very good. They're colored. Thank you. Storbritannia Oops, sorry. Thank you. Oh, we just saw you in the store. You ended up getting the outfit. Yeah, well, the shirt wasn't big enough, but I got everything else. Yeah, you guys come in next week. I think I'll have it. All right.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.74
+            ],
+            "text": " Yeah, cool. Later."
+        },
+        {
+            "timestamp": [
+                1.92,
+                2.46
+            ],
+            "text": " Later, dude."
+        },
+        {
+            "timestamp": [
+                4.62,
+                65.38
+            ],
+            "text": " Let's go to the ATM. All right. Party. Let's get that party on."
+        },
+        {
+            "timestamp": [
+                65.72,
+                66.68
+            ],
+            "text": " Hello."
+        },
+        {
+            "timestamp": [
+                67.18,
+                68.48
+            ],
+            "text": " Hi, how are you doing?"
+        },
+        {
+            "timestamp": [
+                69.08,
+                70.1
+            ],
+            "text": " Good."
+        },
+        {
+            "timestamp": [
+                70.1,
+                72.1
+            ],
+            "text": " Excuse me."
+        },
+        {
+            "timestamp": [
+                173.14,
+                174.1
+            ],
+            "text": " Thank you. Wow, how many calories? Um, two packs, but a little higher, but it's loaded. It's loaded. Good. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's loaded. It's self-energize. It's cool. We are getting lunches for breakfast. Well, what would you like to eat? I mean, this is perfect. I'm ready to break with you, dude. So, should we double this? Yeah, let's grab two of those. I'd like to have one for each day. Okay, so wait, are these yours? Yeah. Thank you. I don't know what that means. We are in the store. I'm going to get it out. Yuki."
+        },
+        {
+            "timestamp": [
+                176.92,
+                234.86
+            ],
+            "text": " Yeah. We're not eating enough soup, but we think we should get some soup. Yeah, I think so. That's cute. Hmm. Thank you. Well, I think I'm going to get this done another time."
+        },
+        {
+            "timestamp": [
+                242.18,
+                246.56
+            ],
+            "text": " I don't know, we've got to, we've got to, like, we still need to go to the shop and get the clothes."
+        },
+        {
+            "timestamp": [
+                247.12,
+                246.56
+            ],
+            "text": ""
+        },
+        {
+            "timestamp": [
+                286.0,
+                290.0
+            ],
+            "text": " Thank you. I don't know. And then did we decide what we want to do for Jerry and Marilyn's 50th romantic dinner party?"
+        },
+        {
+            "timestamp": [
+                345.08,
+                345.52
+            ],
+            "text": " Maybe we do like a nice vegetable sauté and... Let me check this thing and see. All right. Can you grow the salad or... Yeah, maybe, what do you think, Ron?"
+        },
+        {
+            "timestamp": [
+                346.84,
+                347.1
+            ],
+            "text": " No, I think that works great."
+        },
+        {
+            "timestamp": [
+                347.64,
+                347.78
+            ],
+            "text": " All right."
+        },
+        {
+            "timestamp": [
+                349.14,
+                350.68
+            ],
+            "text": " I'm not sure I see the right stuff."
+        },
+        {
+            "timestamp": [
+                351.7,
+                351.74
+            ],
+            "text": " Yeah, right."
+        },
+        {
+            "timestamp": [
+                353.5,
+                357.32
+            ],
+            "text": " Apples and grapes, I don't think about that. All right, let's do potatoes for the salad."
+        },
+        {
+            "timestamp": [
+                359.38,
+                361.98
+            ],
+            "text": " And then, what else do you think?"
+        },
+        {
+            "timestamp": [
+                361.98,
+                362.9
+            ],
+            "text": " How about some peppers?"
+        },
+        {
+            "timestamp": [
+                363.22,
+                365.16
+            ],
+            "text": " Oh, yeah, I think the peppers are very good."
+        },
+        {
+            "timestamp": [
+                365.62,
+                366.46
+            ],
+            "text": " They're colored."
+        },
+        {
+            "timestamp": [
+                367.96,
+                366.46
+            ],
+            "text": ""
+        },
+        {
+            "timestamp": [
+                466.62,
+                467.4
+            ],
+            "text": " Thank you. Storbritannia Oops, sorry. Thank you. Oh, we just saw you in the store."
+        },
+        {
+            "timestamp": [
+                468.78,
+                468.98
+            ],
+            "text": " You ended up getting the outfit."
+        },
+        {
+            "timestamp": [
+                473.64,
+                474.5
+            ],
+            "text": " Yeah, well, the shirt wasn't big enough, but I got everything else."
+        },
+        {
+            "timestamp": [
+                476.26,
+                476.34
+            ],
+            "text": " Yeah, you guys come in next week."
+        },
+        {
+            "timestamp": [
+                477.02,
+                477.8
+            ],
+            "text": " I think I'll have it."
+        },
+        {
+            "timestamp": [
+                478.56,
+                null
+            ],
+            "text": " All right."
+        }
+    ]
+}

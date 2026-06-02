@@ -1,0 +1,27 @@
+{
+    "video_id": "Top009_03460.mp4.mp3",
+    "transcript": "伊娜王莉巡航速度",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": "伊娜"
+        },
+        {
+            "timestamp": [
+                2.0,
+                4.0
+            ],
+            "text": "王莉"
+        },
+        {
+            "timestamp": [
+                18.0,
+                20.0
+            ],
+            "text": "巡航速度"
+        }
+    ]
+}

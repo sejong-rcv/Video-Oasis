@@ -1,0 +1,20 @@
+{
+    "video_id": "Top019_07810.mp4.mp3",
+    "transcript": " O domani. Prego.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.2
+            ],
+            "text": " O domani."
+        },
+        {
+            "timestamp": [
+                10.2,
+                12.4
+            ],
+            "text": " Prego."
+        }
+    ]
+}

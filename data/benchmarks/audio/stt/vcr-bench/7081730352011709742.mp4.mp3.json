@@ -1,0 +1,34 @@
+{
+    "video_id": "7081730352011709742.mp4.mp3",
+    "transcript": " Rice krispies are a fast digesting carb that gives you energy before your workout and I feel like this recipe is proof that every food has a purpose. You may look at this as an unhealthy food but these actually fuel your body and give it energy so that you can have a good workout.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                4.34
+            ],
+            "text": " Rice krispies are a fast digesting carb that gives you energy before your workout and I"
+        },
+        {
+            "timestamp": [
+                4.34,
+                7.52
+            ],
+            "text": " feel like this recipe is proof that every food has a purpose."
+        },
+        {
+            "timestamp": [
+                7.52,
+                11.34
+            ],
+            "text": " You may look at this as an unhealthy food but these actually fuel your body and give"
+        },
+        {
+            "timestamp": [
+                11.34,
+                12.88
+            ],
+            "text": " it energy so that you can have a good workout."
+        }
+    ]
+}

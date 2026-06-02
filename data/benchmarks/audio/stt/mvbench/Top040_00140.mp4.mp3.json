@@ -1,0 +1,20 @@
+{
+    "video_id": "Top040_00140.mp4.mp3",
+    "transcript": " Here comes the silent alarm, and there it goes. That's funny, it didn't dial out.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                11.62
+            ],
+            "text": " Here comes the silent alarm, and there it goes."
+        },
+        {
+            "timestamp": [
+                18.84,
+                20.0
+            ],
+            "text": " That's funny, it didn't dial out."
+        }
+    ]
+}

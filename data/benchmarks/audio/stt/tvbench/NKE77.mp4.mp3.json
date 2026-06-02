@@ -1,0 +1,27 @@
+{
+    "video_id": "NKE77.mp4.mp3",
+    "transcript": " Look at that. Boy, boy. Play back. Thank you for watching.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                4.0
+            ],
+            "text": " Look at that."
+        },
+        {
+            "timestamp": [
+                4.0,
+                8.0
+            ],
+            "text": " Boy, boy."
+        },
+        {
+            "timestamp": [
+                12.0,
+                30.78
+            ],
+            "text": " Play back. Thank you for watching."
+        }
+    ]
+}

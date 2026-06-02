@@ -1,0 +1,20 @@
+{
+    "video_id": "YLE12.mp4.mp3",
+    "transcript": " No, no te van a ver. Ya te perdí, mío. Thank you.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                4.64
+            ],
+            "text": " No, no te van a ver."
+        },
+        {
+            "timestamp": [
+                5.74,
+                30.56
+            ],
+            "text": " Ya te perdí, mío. Thank you."
+        }
+    ]
+}

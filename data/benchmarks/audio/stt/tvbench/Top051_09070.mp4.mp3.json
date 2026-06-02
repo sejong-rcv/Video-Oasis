@@ -1,0 +1,34 @@
+{
+    "video_id": "Top051_09070.mp4.mp3",
+    "transcript": " your purification. Your Highness. I will see the prisoner. We've got orders from the king that nobody... The king will be dead in a month and his son is a weakling.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " your purification."
+        },
+        {
+            "timestamp": [
+                14.0,
+                16.0
+            ],
+            "text": " Your Highness. I will see the prisoner."
+        },
+        {
+            "timestamp": [
+                16.0,
+                18.0
+            ],
+            "text": " We've got orders from the king that nobody... The king will be dead"
+        },
+        {
+            "timestamp": [
+                18.0,
+                20.0
+            ],
+            "text": " in a month and his son is a weakling."
+        }
+    ]
+}

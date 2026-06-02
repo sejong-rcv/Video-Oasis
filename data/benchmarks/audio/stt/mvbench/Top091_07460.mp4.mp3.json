@@ -1,0 +1,27 @@
+{
+    "video_id": "Top091_07460.mp4.mp3",
+    "transcript": " I'm sorry, Jack. They've done what's right by them. Can't expect more than that.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                3.68
+            ],
+            "text": " I'm sorry, Jack."
+        },
+        {
+            "timestamp": [
+                6.68,
+                8.46
+            ],
+            "text": " They've done what's right by them."
+        },
+        {
+            "timestamp": [
+                9.26,
+                10.68
+            ],
+            "text": " Can't expect more than that."
+        }
+    ]
+}

@@ -1,0 +1,587 @@
+{
+    "video_id": "z7SoAIq20lA.mp4.mp3",
+    "transcript": " We're going to be discussing Precise Editing Made Simple using Nick Paveza. Now, this is the stuff we're going to be discussing precise editing made simple using Nick Vivesa. Now this is the stuff we're going to talk about basically today and you know in a nutshell we're talking about controlling light and color using Vivesa. We can do this globally so then we're adjusting the entire image all at once and we can do it selectively in on particular objects or in particular areas based upon where we place control points. If you're brand new to the Nick collection no worries we're going to be discussing what a control point is kind of how it works and we'll get some examples of that and if you're a seasoned vet of the Nick Collection, hopefully you'll learn a couple new little tips and tricks, and we will be covering the new interface within the new version of Viveza. Now, usually I would be utilizing raw files, and before I would process the raw file, I'm sorry, before I would go into VVASA, I would utilize my RAW processor. So, PhotoLab 4, or maybe Adobe Camera RAW, or Lightroom, and so on and so forth. And I would typically make some adjustments. Now, those adjustments depend upon the image itself. In this case, I have actually a TIFF file. So if you follow my cursor into the lower left file, I'm sorry, lower left corner, you'll see that this is a TIFF file. And I actually can't exactly recall why this file is TIFF. So there's that. But it doesn't really matter. We'll see you next time. actually can't exactly recall why this file is TIFF, so there's that. But it doesn't really matter because it's going to work the same way. One of the beauties of working from a raw file and or from TIFF files is that we can easily go back afterwards and reprocess the image if we want to. Now that's a that's sort of a side note. Let's go ahead and just jump into the VEZA because we have plenty to talk about. Note that I am going to be launching from Photo Lab 4. I'm also going to launch the VEZA from Photoshop, the most recent version of Photoshop, uh, Adobe Photoshop, Creative Cloud Photoshop, and I am on a Mac, so I should just mention all of those things as we begin. So we're here in PhotoLab. We are ready to launch our image into Vivesa. To do that, you follow my cursor into the lower right corner here, click on the Nick Collection button, and from the Nick Collection button, we're able to simply move into our plugin selector and access whichever of the Nick plugins we want to utilize. So we'll click on Vivesa 3, and a couple things are going to happen as I click on that. The first thing that's going to happen is PhotoLab is going to make a duplicate copy of our image, and then Viveza, or whichever of the Nick collection we're using, is going to launch. Now, this is sort of the option that I was just talking about. It's a relatively new feature in the Nick collection, and that is we can work in a non-destructive process, which means when we're done with Viveza or ColorFX or SilverFX, whatever software we happen to be using, when we're all done editing with the tool, we're actually able to save the file and then come back a day later or a week later or a year later or whatever, open up the NIC collection again and reprocess. Move control points, make control point adjustments, make global adjustments around, you know, whatever we might want to do to reprocess the image. It's a really nice feature and that's what this little dialogue is going to say. Now once you see and know what these dialogues are telling you, you can actually just click this little checkbox that says do Do not show again, click OK, and then it's not going to show up again. I leave these dialogues on, so every time we launch, we're going to kind of have to deal with this, and that's because I want you as a visitor for this webinar to kind of see what's going to happen maybe the first time you ever launch the software. But's what this option is saying it says jpeg or tiff things to know when you're working from our duplicated tiff file is that we can work in a non-destructive process okay i'm going to click the okay button um now we launched into viveza and in this case The last time I used Vivesa, I ended up on this split or side-by-side preview so that I could view the image side-by-side, the before and the after. Right now, it's not going to make much sense because there's no difference between the before and after. So I'm going to go ahead and just move into the upper sort of quadrant, left quadrant of the interface. And I'm going to click on the single image view view up here so if you follow me up there we click on single image view and we just get a larger representation of our image so it you know it makes it so we can kind of see what's happening a little bit better we will visit these three options up here we'll talk a little bit about the zoom features as well but for now we're going to stick with that single image view and I want to cover a little bit of the zoom features as well. But for now, we're going to stick with that single image view. And I want to cover a little bit of the stuff in the interface before we jump into controlling color. For anybody who maybe is brand new, or maybe you haven't updated the software in a while, and you're seeing VVASA for the first time, or maybe the second or third or whatever. Now, one of the great new features within Vivesa 3 are presets. For those of you familiar with other NIC tools, we have presets built into numerous other versions of the NIC plugins, and we have them now within Vivesa 3. One of the very cool features within the presets is that you can actually save control points, which is really quite wonderful. Now, presets. The neutral preset here is sort of the reset button. If you ever click on the neutral button, it just resets your image back to how you opened it up into Vivesa. But if you follow me into our different presets, if we click on one of them, like golden hour, and we say, yep, we know that adding a preset is going to replace the parameters, basically, by clicking on a preset, it's going to make some of the adjustments to the tools on the right-hand side of the interface that we have yet to talk about, and it's just telling us, yeah, it's going to make some changes. So we're going to click yes, and instantly, our larger preview image looks like our small sort of heads-up display preview. So these are really cool. It comes with 10 presets built in. Sorry, it actually comes with 19 presets built in. Nope. What am I talking about? It comes with 10 presets. Let me see something. yeah it's the 10 presets and then neutral I'm sorry I'm confusing myself now so it comes with 10 presets in total built in but you can create your own presets I'm just clicking on a couple of these presets to kind of show you you know what what they're doing for us now I use these presets as starting points And so I'll go and click on one like high contrast and say, okay, yeah, that's pretty nice. It's maybe a little bit more contrast than I want on this image, but it gives me an idea and it points me in the right direction and sends me off in it. Now, if you like what the preset's doing, you can actually just click the save button or the apply button in the lower right corner. So if it does exactly what you need it to, great, you're done. But oftentimes when you click on a preset, you're going to want to go over into your global adjustments, which would usually be open by default. I had him closed a minute ago. And you can make changes. So let's say it's too much contrast overall. I can start to reduce that contrast and say, okay, yeah, that's great, or whatever. I'll quickly move back over to the left-hand side of the interface. By the way, I know I'm jumping around right now. We're going to talk about those tools over on the right-hand side. I just want to kind of knock out the left-hand side of the interface first, and then we'll move into the specifics and the tools within. So back over to the left hand side of the interface here I've actually just created two custom presets so if you click on the custom presets yours might be empty right now if you haven't created your own here are two of mine that you know I play with the color infrared sort of preset that I've created and then I have a high key preset so if I click on color infrared and I click yes well here is a sort of false color infrared representation of this image it's not real or true at all it's just me kind of playing with the software but it does create a kind of interesting aesthetic now if I go click on my high key and then I click yes, we have our high key representation. Maybe I say, OK, well, that's too high key. I can take my highlights back down. I can go over to the right side of the interface, that is, and I can make some changes to really dial it in where I want it to be. Now, a couple more cool features. Whenever you create your own presets, you can, of course, export them. So back over to the left-hand side of the interface, if I wanted to export this and put it on another one of my computers or if I wanted to share it with somebody or put it on my website or something like that, I can click the export button and I can save it and then do whatever I might want I can trash the preset so we can get rid of it you don't want it anymore we can delete it we're using the little trashcan icon there on the left side of the interface and or you can re-up or update the preset so let's say I prefer the settings that we've just made to the original settings. Well, if I click this update button, it's going to say, are you sure? And I'm just going to say yes, and voila, now I've updated my high-key preset. Good to go. If you ever download recipes or presets, you can, of course, import them. or let's's say you make a couple presets that you really like and you use on maybe your desktop computer at home and you have a laptop and you want to also share it with the laptop, you'd create your custom recipe or preset, you'd export it using the export button, and then you'd go into your other computer after transmitting your preset from one computer to the other, and you can import them. All right. Now, we're going to hide the presets over here on the left side. Before I do that, I'm actually going to go back to neutral. So I'll scroll to the top, hit neutral, say yes. The image is a little bit flat in this case and you know one of the things that I like about this photograph is that it is a little bit flat but I want to create a little color contrast right so photographically there there isn't any direct area of interest the subject itself is kind of the entire image there are some distracting elements with the kind of dead sticks and so on I probably should clean those up but I want to create some more depth in the photograph the the image has no foreground or middle ground background it's this two-dimensional plane and in our case here to create some really nice depth in the image, we're going to create color contrast. So we'll use control points to affect the green areas, make them more green, make them maybe a little bit darker, have some contrast. And then we'll go into some of the warmer toned flowers and we will warm them up a little bit more. And we will create some separation using that warmth compared to the green which will make cooler so instead of you know creating a whole lot of sort of luminosity contrast or contrast between the tones the brightness levels we'll do that using color so let's jet over to the right-hand side of the interface when you initially open the interface up it it's probably going to look something like this. You'll have the loop feature that's going to be open and that loop in the upper right corner follows your cursor around as you go. And then you also, I'm going to close that down just so it's not so distracting. You also are going to have a histogram and it's a sort of live histogram. As you make changes, you'll see that histogram also change as you make changes to, let's say, the global adjustments or something. You'll see that change. And you can also look at your histogram based upon your RGB values, which shows all channels. You can look at your red, your green, and your blue channels separately, should you want to do that. And then you can also click on L, and this shows you your luminance channel, sort of the brightness. So it's a nice feature, and then lastly, also in the histogram, you do have the ability to see any clipped shadows. So as I turn, if I click the little button in the upper left corner on, this is going to indicate anything that shows up with magenta or blue, those are clipped in those channels, which basically means we don't have any information in those very, very dark shadow areas in here, which we're not going to because it's the void of darkness behind the plants there. If we have any highlights that are blown out or clipped, if you click on that little button the upper right corner it's going to show you it's going to give you those indicators. In this case it actually does look like I have a couple little highlights that are blown out right here in these flowers. Probably not a big deal in this case. You can see that turn on and off. It's very small and it might be hard to see via the webinar okay so moving past our histogram let's jump into our global adjustments our global adjustments give us the ability to adjust the entire image all at once so you have brightness contrast saturation structure we're going to talk about that a shadow adjustments tool warmth red green blue hue and And then we also have the sort of luminance values broken down into highlights mid-tones shadows and blacks underneath the sort of main global adjustments so these four sliders they're new and it gives us the ability to sort of globally brighten or darken the highlights brighten or or darken the mid-tones, and so on. So it's a nice additional feature. I'm just going to attempt to double-click. Maybe I'm clicking too fast. That's strange. I should be able to double-click on my slider there, and it will readjust itself back to its home, in this case, zero. Anyways, those are your selective tone adjustments. And then brand new within Vivesa 3 is a white balance adjustment. Should you want to make adjustments to your white balance you have to check this little check box on it's the only of the global adjustments the only tools of the global adjustments they have to kind of turn on separately and then you have a color picker or a temperature slider and the radius here I'm not even showing you anything but the the radius slider is the radius of your color picker so if I set that to five pixels I go and click on my color picker and then I go and click on a neutral tone within the image I'll be able to basically neutralize to that tone. Now if I click on something like this green color it's going to give us this really you know dynamically changed white balance. This isn't technically correct but it could be really interesting to do being able to control your white balance right here within Viveza. In our case the white balance of this image is already basically where I want it to be, so I'm not going to use that tool. But what I do want to do is add a little bit of contrast, luminosity contrast, overall, maybe 10 or 12 percent, and then I'm also just going to boost the saturation a little bit in the image. these are going to be relatively subtle adjustments because I've already gone into my my raw adjustment tool photo lab and I've kind of made a lot of these global adjustments already so I want to utilize viveza for its selective capabilities using control points let's take a look at that I'm going to hide the global adjustments and we're going to open up our selective adjustments Thanks for watching. capabilities using control points. Let's take a look at that. I'm going to hide the global adjustments and we're gonna open up our selective adjustments. So by clicking on a control point, and mind you this is in my in my mind the most powerful aspect of basically any of the NIC tools, but in Vivesa absolutely this is this is the sort of creme de la creme of tools. Control points are going to allow us to basically select out everything that's green in this case, because that's what we're going to do in this particular image, and then everything that is of these tones and colors of the flowers, and separate them in terms of control, right? So if I click on control points, I click on this little button with the target and the plus button over here on the right side, and then I just place the control point on the object that I want to adjust, this is going to give us the ability to selectively control anything that the control point is making the selection up. We're gonna talk, you know, about how these selections are being made throughout the webinar, but the key to this is basically placing the point on the object that you want to adjust and then you size the area of influence, the circle that's going around the control point itself, you size that to encompass the entire object that you want to adjust. So you literally click on the slider here that's to the right, in this case of the control point, and encompass the entire object. In a minute, we're going to go ahead and just slide this all the way around all of our green stuff. But for now, I'm going to leave this a little bit smaller, and we're going to make a couple changes to the image, and then I want to show you what the selection is actually doing. So we've placed our control point. Follow me over to the right-hand side of the interface. Our control point is listed right here in the control points list. There's only one, so you only see one in the list on the right-hand side of the interface here. I'm actually going to rename this control point. It's one of the new features within Vivesit 3. So to rename, you just double-click on the control point itself, and then you can name it. So I'm going to call this leaves. Right. So I've got my control point. I've named it leaves. Let's go in and make some adjustments. I know I'm going to want to darken down all the stuff that's green just by a few percent. I know I'm going to want to add a little bit of contrast and I'm doing that. I can actually see it occurring on the area that the control point is adjusting. It's just I'm making relatively subtle, small adjustments. So you have to really pay attention to kind of what's happening there. Now let's say we want to scroll down a little bit and adjust some of the color because this webinar is primarily about controlling color. I've adjusted brightness, contrast, saturation, and structure. We also have the ability to adjust the overall warmth that the control point is affecting, and then red, green, blue, and hue. Now, I have a feeling that a lot of folks either avoid or don't really use the red, green, and blue sliders all that often, and they are a key facet in controlling your overall color within any image. So if I open Vivesa, it's actually usually to use these three sliders with control points. What they do is they allow you to either add blue, right? If I take that blue slider to the right, it adds blue. Or if I want to, I can remove blue by sliding the blue slider to the left the left right so what we're doing here if I slide blue into the negative it's removing blue and therefore actually adding yellow right so these these sliders do call for a small sort of knowledge of color theory and understanding kind of the color wheel. But here's the cheat sheet. Red and cyan work against each other. So if I click on the red slider and I start adding red, what I'm doing is I'm removing cyan. And if I actually slide this slider to the left, the area that my leaves are being affected or the control points are controlling, it's going to be adding cyan in there, right? So you can see that shift and change. Now, green, so if red works with cyan, I wonder why my, for some reason when I double-click on my slider, it's not homing. It's not going back to its default, so that's a little bit strange. Green, if I adjust green, what it's doing is either adding green by sliding that slider to the right or it's removing green which would be adding magenta right so if I take my green slider all the way over the left it's removing green it's adding magenta you can actually see that so we going to play with these ideas throughout this webinar. And in this case, I want to kind of cool down the green stuff and I want to warm up the warm stuff. So we're going to go into the blue slider and I'm going to add, I don't know, 10 or 15 percent green. I'm sorry, 10 or 15 percent blue. And we're going to go into green and I'm going to add a little bit of that as well and that is going to cool right because we're sort of pushing the color towards the cool end of the color wheel or color spectrum and therefore those greens are going to be a little bit cooler. Now if you're wondering what we're actually affecting with that control point we're going to scroll back up now that we've made some adjustments and we're gonna click on our control points list on the little box that has a circle in it right in this little box that has a little circle in it that's going to actually show us our selection so when we click on it what you're gonna see is anything that's white is being selected and therefore our adjustment is being applied to that selection and anything that's black is not being selected. So the control points want to make a very photographic selection, if you will, and therefore it recognizes that maybe these adjustments shouldn't just be sort of stuck within the circle, within the area of influence. So you can see how the bulk of the adjustment are on the leaves that we've dropped the point on but it also selects out some of this stuff as well and I like to show this because depending upon what you place the control point on you're going to get a very different selection later in the webinar I'm going to show you, we're gonna place a control point on a red barn and it's basically gonna cut the red out. There'll be hard edge lines. Here the control point recognizes that you know it's green all around our object and therefore it should be selecting out all of those matching tones colors and textures. So what I just did is I expanded our selection by taking that little area of influence slider and I expanded that out so now it's encompassing the entire image now from there to kind of get to know these control points it's actually kind of important to click on it and sort of slide it around, right? And you can see how the selection actually changes in real time. If I go and place my control point in some of these shadow areas, you can see now all of those shadows are being selected, but maybe the leaves themselves are not. If I go place it back on the leaf, I'm going to be able to see that I'm making a selection of those leaves. Now, some folks use this option quite a lot, I think. According to, you know, when I talk to folks, they tend to use this tool quite a lot. I find myself using it to kind of check my own work, but what I find is that I leave the option off, and what I do is I make my adjustments, and I just make sure that it looks the way I want it to look right because if it looks the way that I want it to look and I don't have any you know strange aberrations or anything weird going on I'm good I'm happy I get I'm getting the effect that I want and also as I click on the point while I'm not in that selection mode you can actually see in real time how my adjustment changes based upon where the selection is. So it's a really cool feature to be able to turn that on. But in my mind, I find myself not using it all that often for, you know, actual application. And the beauty of that is because I don't need to check the selection, it's faster. I don't have to worry about it. Now there is a way to hone in your selections even more, and that's using these color selectivity tools. I'm going to show you that with the next control point. I'm pretty happy with the effect that we've got here. I actually think I'm going to reduce the saturation a little bit. I've kind of overclocked it a little more than I meant to. So I'll go into my saturation and just bring that back down. And we're going to add another control point. So follow me to the right side here. We click on the little crosshair with the plus button. And I'm going to just place a control point on some of our flowers. And what's going to happen now is the control point that I've placed on the flowers will make a selection of those flowers right and what's going to happen now is the control point that I've placed on the flowers will make a selection of those flowers and these control points kind of communicate with each other so as I'm adding more and more control points here within the VEZA each of the control points kind of gets smarter it recognizes more of what it should be selecting and what it shouldn't be selecting based upon what we've placed the points on. Right. So let's actually look at this selection with that tool. So we'll go over to the right hand side of the interface. We're on control points to I'm going to call this one flowers. Right. And I know that that's sort of a broad term, but it's going to work well for us, I think. So we've got our leaves and our flowers labeled. I'll click on that little box again. It's going to show us what's being selected. So you can see it's doing a nice job to kind of cut out just the flowers. If I expand this out, oops, I got to click on the slider itself. It's going to do a really nice job to select just the flowers basically and so based upon where I place the point we'll get slightly different selections and what we're going to do with this control point is warm and add some red and yellow to those points so we place the control point in this case we size the area because we know we wanted to kind of adjust the entire thing I'm going to add a little bit of structure which which is a texture adjustment. I'm actually going to show you exactly what that does on the next image. And then I'm going to go into my blue slider and I'm going to remove blue, right? So with our green leaves, I added blue and I added green. In this case, we're going to go into our blue and we're going to remove blue and we're going to remove green. And what that's going to do is it's going to kind of warm those flowers up a little bit more. You know, we can take it way too far. We basically make them red or magenta if we wanted to. And because because the control point makes that very photographic looking selection, it generally looks good. Now, this technique, you know, I'm not going to suggest that you slide the green slider all the way over to negative 100, probably almost ever. It is interesting. It probably works with some images, but it probably works with fewer images than if you're a little bit more subtle. But it's entirely up to you. And that's the beauty of this software. It opens up all sorts of really interesting capabilities. Once you kind of get to know how these control points are working and then how each of those individual sliders are gonna go ahead and work for you. Now, I've warmed those flowers. We've cooled the green parts, the leaves themselves. Let's actually take a look at the before and after. We've just used two control points and a couple of global adjustments. I'm going to hide our tools palette on the right. And we're going to take a look at the before and after a couple of ways. First of all, if you follow my cursor into the upper sort of quadrant, upper third of the image or interface, if I press and hold the compare button, you'll see the original image. And if I let go of the compare button, you'll see the enhanced image. And I know I've definitely overclocked those the flower color a little bit. But if we it's for demonstration purposes. So I think it works pretty well. And what I've done this time is I clicked on our side-by-side preview here I'm just clicking around I'm not telling you what I'm doing I clicked on my side-by-side preview and then I made it go side-by-side for some reason they were on top of each other because these images are horizontal orientation or landscape if you will I want to do a landscape side-by-side. So click on the twirler in between the two images and on the left you'll see the original image and on the right you'll see the enhanced image. If you kind of lean back in your chair and you look, your eye should kind of be pulled towards the right side because we've got on this added contrast and added color contrast that we've that we've added to the image utilizing these these photographic looking selections and you know it's we could probably play with this image add some control points here and there to create more depth within the photo but for the sake of time we actually talked about this image for about 30 minutes I'm gonna click the apply button in the corner of the interface, and we're going to jet forward on this because I've got more images to show you and more tools to kind of explain and walk you through. So I click the Apply button. That brings us back to our host piece of software. We have our original image, and then saved in our sort of film strip within PhotoLab, or maybe if you're an Adobe Lightroom user it's gonna work the same way your image is going to be saved into the same folder and it'll show up right next to I guess it depends in Lightroom how you organize but for by default your images will show up right next to each other in Adobe Lightroom or photo lab okay let's jump right in our next image, here's another photograph that could use some layering, right? So this image has a sort of foreground, middle ground, background, but there's no real strong foreground element. And the overall contrast is a little bit flat. And I think we can probably get a lot more out of these clouds because there's a lot of texture in there. It's just because of the atmospheric conditions and the contrast of the scene we don't have a lot of tonal contrast. So let's just jump right in. Let's add some control points. I'm going to add one large control point into the sky and let's just let's just boom out the structure so the structure tool here is going to bring that texture that's the bring out the contrast in the texture that is in the cloud we're just accentuating it right so again rarely are you going to add control points and add 90% structure that's not going to happen on most images but and maybe it's not even a good idea for it to happen on this image but for the sake of our demonstration it does add quite a lot of impact that detail is already in the cloud so let's just bump it out we're going to add a little bit of saturation and we're then going to move scroll down a little bit and I think I'm going to actually add a little bit of red. And what adding red is going to do is it's going to remove cyan, and it'll actually make those clouds look a little bit more kind of neutral. But we'll get what looks to me more like what I remember the scene looking like. so because I bumped up that saturation to 54% the clouds are going to be accentuated by adding a little bit of the red we we get a little warmth back into the sky and we still have our additional saturation it's just a kind of nice technique to to bring out those tones if we wanted, let's see what would happen if we duplicate this control point and place it in a couple places in our clouds. There are a few ways to duplicate control points. The way that I'm going to do it right now on my Mac is I'm going to hold down my option key on my keyboard, click on my control point, and drag. So option on a Mac, or if you hold alt, if you're on a PC, click and drag, and that's going to give you an exact duplicate, and this is just going to allow us to kind of place some points into some of the other areas within our clouds to get maybe a little bit more impact. Now, if it's too much, and we wanted to maybe control all three of these control points at one time, we can actually group these together and then make adjustments to the group of control points at once, right? Now to do that, you have to highlight your control points. So I'm going to click on this first one and then I'm going to actually just hold the shift key down. So this is a shortcut with a lot of applications if you hold the shift key down and you click on multiple files or in this case multiple control points we can activate them all I know they're active because they're highlighted in gold and you can move over to the right hand of the right hand side of the interface here where there's a little folder and then a little crosshair and this is our group button if you like shortcuts you can just hit command G on your keyboard and that's going to group them as well but click on that button that groups them now when I make adjustments to this one control point it's going to adjust all of those control points so that's a really nice feature that's here built into our Beveza and actually almost all of the NIC plugins have the ability to group. Alright we've got our control points in our skies. Let's keep moving. I want to create a little bit of layering in our trees here so I'm going to do that the exact same way we did in that last image. I'm going to darken down some of the shadow areas just a touch and I'm going to make them a little bit cooler. In this case, instead of using red, green, and blue, I'll just move to the warmth slider and I'll remove some warmth. Kind of does something similar just with a little bit less control. You know, your red, green, and blue sliders give you tons of control. The warmth is easy and fast. So depending upon what you're doing, you probably want to try all of those things. Okay, so now I've got some areas that are, you know, some deciduous trees here that are behind this line here right on the kind of coastline or the beach. And I want to separate them. So we'll cool down and darken down this area and then we'll warm up and sort of brighten up the foreground or sorry the those deciduous trees back there and that's going to give us that really nice kind of contrast color contrast between the trees on the beach and the trees in the background. We use our duplicate control point trick again so So option, option, click and drag. I'll put another one here. And then option, click and drag. And I'll put another one maybe back here. So these are all duplicates of these control points. And then I'll maybe do the same thing here, right? And so now we're accentuating the photographic layering in the image, which is generally a good thing to do if we want more depth within the photograph. Now here's our, I'm not going to call it coup de gras, but one of the great features and capabilities here in Vivesa is the ability to completely change the color of an object or an area. Now this works best when the control point can make a really clean selection and in this case we have this red barn and the control point is going to be able to make a really nice clean selection. So if I place a control point on the barn I might need to size the area of influence but we'll do that in a second. I'm going to look at the selection that's being made. It's pretty good. It's sort of selecting some of the green in in the foreground and maybe I don't want it to so maybe what we'll do is make the control point slightly smaller and just make sure we're placing it on the exact area we want it and then from there to make a more precise selection we'll use our color selectivity sliders these sliders are brand new within the newest version of Avesa here and we're able to hone in on the selection that the control point is making. Now to use them you can either tell the control point to kind of broaden the luminance value that it's looking at. So luminance would be brightness for folks maybe not familiar with the term and chrominance would be the color values so if you take the luminance slider and you start sliding it to the right the control point is going to hone in more so it's gonna you can see the selection is smaller let me actually double click here I'm to zoom in one to two and we can actually zoom in a little bit more to get a better idea of the selection. So if I slide this luminance slider here over to the right, it's going to say, okay, only these brightness levels should be selected. If I slide the luminance sliders to the left, it broadens out the selection. It makes it the sort of tolerance is a little bit wider with that selective tool. So depending upon what you're selecting and how you're selecting it, you'll use a combination of these sliders. So here I'm actually pretty happy with what's happening. I'm using the luminance slider and then I'm also using the chrominance slider to really hone in the selection and then once I've got the selection that I want I'm going to go let's actually zoom back out let's fit to screen once I've got the selection that I want I can go into this area that says color picker and I can actually either either use an eyedropper and click on a color that's in the image and change that barn to that color or whatever the control point is selecting to that color, or we can actually click on this little color swatch that's to the right of the color picker label, and then I can choose whatever color I want. now if you're on a Mac you're depending upon the operating system that you're using your color picker is going to look like this or this or this or this because these are all the different options for the Mac based color picker if you're on a PC it's going to look different than this but the tool does the same thing it allows you to kind of hunt and peck so you know no one i don't know how many blue barns i've ever seen in my life um but there's probably a couple out there and there maybe there's particular areas in the world where barns are only blue um this barn was red we're going to make it blue and we're just going to see what happens uh it is easy to choose a color that doesn't work really well. But it's really kind of fun to do this as well. And mind you, where I tend to use this technique is oftentimes to to slightly shift the color of some object. Usually it's not to change a red barn to blue, but this is how you could do any of those things, so we choose the color, we click okay, and then, you know, we check the work, we make sure it does what we want it to do, so I'm going to click outside of that control point, it's doing a pretty good job, I can actually see a couple small areas that are red, this area, that area, and this area, let's see what happens if we just duplicate this control point point place it into some of these other things that we want blue option click and drag let's stick it on the blue of the or the red and then I think I'm still missing it but we should zoom in to see I'll zoom in one to two and I'll just move my control point so it does exactly what I want it to do now one of the things that we might need to do is kind of hone those luminance values and chrominance values I showed you how that tool was working when we were looking at the selection not at the object itself and I think in this case we actually need to be looking at the object itself, the barn itself, to kind of get the exact area selected and adjusted where we want it to be. But that's how we could, you know, dramatically change the color of a barn if we wanted to, or of any object, you know, that it's negligible. It doesn't matter what the thing is. It's just a technique. And it works pretty it works pretty well all right fit to screen we got a blue barn now you know I think to finish this image I would probably bring this into color effects Pro and add maybe a gradient and a few little flourishes using some of the filters and color effects for the sake of time we're gonna click the apply button the lower right corner. I have one more image that I really wanted to get to because these two images that we've just sort of processed, we made some really dramatic adjustments to them and we covered a ton of different things within Vivesa. I'm going to jump over into Photoshop. I'm going to just take a sip of my water as well, my throat's getting dry. Okay, and this is an outdoor photograph so it applies. It is an outdoor photograph that's being illuminated using a strobe flash, right, a large flash actually, it's a Profoto head I think. If you follow me to the right side we're net we're over here in Photoshop so I switched the the host software and this is the light source that's actually illuminating the model here this is a photograph that was shot by my friend and colleague David Turner he's a really amazing teacher this was for one of the main media workshops which is a really great series of workshops that happen in Maine. Anyways, David from time to time teaches portrait lighting. And this is a technique where you set your camera white balance to an incandescent light source. And then you take a flash like this and you gel it using what's called a CTO, color temperature orange. It's basically an orange piece of gel, an orange piece of plastic that the light can be illuminated through. David did this to create this kind of interesting separation between the subject and the background. Now what we're going to do in Vivesa is kind of refine the colors a little bit more. And what I've done here with layer one is I just used the clone stamp and got rid of that light source. I just wanted to show you kind of a little bit of behind the scenes for the image. So what we're going to do is jump into Vivesa from here. We're going to use the Nick Selective tool, which is how you access one of the ways to access the Nick plugins from Photoshop. And it looks like this for anyone who's not familiar. And I'm just going to click on Vivesa. So I'm going to access the software the other way. The other way to access the NIC plugins from Photoshop is to go up to the filter drop-down menu in the top portion of the interface, go down to the NIC collection, and then you can just click right on Vivesa 3. You know, before I do that, I'm going to flatten my image just so I don't run into any problems. Evase at three. And it'll launch. The software is going to look exactly the same as it did when we were within the sort of photo lab version. They're the same thing. And in this case, we're just going to sort of massage the color a little bit. So I'm gonna drop a control point right here on the subject's face. In this case I think she's a little bit warmer than intended, so we'll make some subtle little adjustments here. I'm gonna remove a little bit of the warmth. If I remove too much, her skin's gonna kind of go gray, and that is not what David was after with this technique. He wanted there to be like a nice color separation. So I'm gonna go ahead and just remove a little bit of warmth, and Thank you. is not what David was after with this technique he wanted there to be like a nice color separation so I'm gonna go ahead and just remove a little bit of warmth maybe go into the red slider and remove a little bit of red if I take it too far it'll be very apparent that we've shifted these colors and I don't I don't want to do that so I want to be careful and then let's drop a couple points we've got a couple minutes to kind of play in here i'll drop a point um onto uh her dress or skirt oops you know what i actually just made a mistake i added a third control point here i don't want this third or fourth control point i don't want the fourth control point there so i need to delete it to delete a control point um you make sure it's active so I know that one's active because it's highlighted in gold or yellow compared to this one which was you know not activated and when you've got an active control point you just move over to the right-hand side of the tools palette click the delete button and that's gonna delete it for you. The delete key on your keyboard should work as well. That's the shortcut for it. So let's add a little structure. Structure, again, it's basically a texture adjustment. What's happening when you add structure is it's a contrast adjustment, but it's a very precise and specific contrast adjustment that aims to separate the darker tones from the lighter tones and increase that separation and sort of texture it's a really wonderful tool I'm still removing too much warmth on her skin let's even brighten her up just a little bit there we go just 10% and then drop a control point maybe in the blue sky let's see what happens if we add some structure to the blue sky just a little maybe darken down the background just a touch but the the idea of this technique is to have a dramatic color difference using white balance basically as the kind of trick but using white balance because if you set your camera white balance to incandescent and then you use an orange gel light the skin tone is going to be near correct depending upon which gel you use which saturation of or which series of the CTO that you're using and then the background is going to go blue like this right in camera So this is an in-camera sort of color trick and what we're doing here with the VASA It's just kind of honing in the tool, but you know You get the best that you can out of the camera You shoot in raw if that's possible And then you bring your images into your post processing and you can massage those tones to get exactly what you want in this case let's use the third and final compare button so we've you take a look at the before and after using the compare button we took a look at the before and after using side by side and here let's just split the preview so we click on the split preview this allows us to have a complete split preview and you can slide that back and forth so you can see exactly what's happening so she had a really nice skin tone originally we kind of just neutralized a little bit of it to create a little more separation I bet you if we added one more control point I'm gonna zoom in just a little bit let's go to one two three add a control into her hair. And let's see what happens if we add some structure into her hair. There we go. So her hair starts to separate. And then, you know, if it's too warm, we can maybe remove a little bit of red. I like the color personally. And I love this technique. It's a really interesting technique. It's very specific. So, you know, it doesn't work for every single image. I think traditionally it was used a lot for sort of like CEO portraits back in the day. But it's a really interesting tool to use to be able to control color and light right in camera and then, you know, really control light and color afterwards using your Vivesa application. OK, I'm going to click apply in the lower right corner and I'm going to call that our day, Laurie. So if there are any questions that are sort of aimed towards me, I'll take those. OK, great. Got a couple for you. Alan's asking, when would you use Vivesa instead of color effects? oh yeah yeah that's a very good question. It's a difficult question because it kind of comes down to what you prefer. So, Alan, if you like, you know, doing similar kinds of effects with color effects to what we've done here, you could probably get away with using just color effects. I find the control points within viveza 3 and then the you know the warmth red green and blue um features to give me tons of very specific control so i personally use viveza when i need to get you know into the very specific objects or areas I still do that with color effects but usually color effects in my mind I use for like overall aesthetic changes personally and then also for um uh you know certain kinds of contrast things that don't exist within the VASA. I hope that helps. That's great. Okay, let's see here. Gary's asking, are there negative control points still? I see. So in the VASA, there are no negative control points, but there also never have been. The way that you would have a negative control point in Vivesa is you just add another control point, right? And what that means is if I take a point here on John's photograph, and I go in and I add, we're going to really bump this up. So I'm going to add a ton of saturation. And with that ton of saturation, this control point is going in and affecting this area a little bit. If I don't want that control point to affect that area, I take another control point. I place it in that area and watch what happens. As soon as I drop this point, that building should kind of neutralize a little bit. Right. And if I take that point, maybe drop another one up in here, that tone will neutralize. So I would call these constrictive control points instead of negative control points. Now, we can go down a rabbit hole here because in Color Effects Pro, where you're applying individual filters, you are able to do that using plus control points and minus control points using color effects, right? Because you're either putting the filter in or you're taking it out. Here with Vivesa, you use these kind of constricting control points to hone in the selections because these control points, they're not just negative, they're able to make other adjustments. So I can go in and just remove saturation from this building, right? We can create some really interesting layering by removing saturation from this building and that building, but maybe adding saturation into this one. Maybe I'm going to shrink that control point and then place one over here, right. And now what we're doing is kind of creating this checkerboarding effect where this building is highly saturated. This one is not. This one is. This one is not. And they are working with each other. The control points are kind of working with each other. And they're also kind of working against each other. Because as you add more and more of the control points each point gets smarter and I kind of call them constricting points as opposed to negative control points here anyways ladies and gentlemen have an absolutely lovely and wonderful weekend enjoy your software enjoy photography and hopefully we'll see you again soon at our next webinar. Thanks a lot. Bye-bye.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                26.62
+            ],
+            "text": " We're going to be discussing Precise Editing Made Simple using Nick Paveza. Now, this is the stuff we're going to be discussing precise editing made simple using Nick Vivesa."
+        },
+        {
+            "timestamp": [
+                26.62,
+                107.98
+            ],
+            "text": " Now this is the stuff we're going to talk about basically today and you know in a nutshell we're talking about controlling light and color using Vivesa. We can do this globally so then we're adjusting the entire image all at once and we can do it selectively in on particular objects or in particular areas based upon where we place control points. If you're brand new to the Nick collection no worries we're going to be discussing what a control point is kind of how it works and we'll get some examples of that and if you're a seasoned vet of the Nick Collection, hopefully you'll learn a couple new little tips and tricks, and we will be covering the new interface within the new version of Viveza. Now, usually I would be utilizing raw files, and before I would process the raw file, I'm sorry, before I would go into VVASA, I would utilize my RAW processor. So, PhotoLab 4, or maybe Adobe Camera RAW, or Lightroom, and so on and so forth. And I would typically make some adjustments. Now, those adjustments depend upon the image itself."
+        },
+        {
+            "timestamp": [
+                108.88,
+                111.78
+            ],
+            "text": " In this case, I have actually a TIFF file."
+        },
+        {
+            "timestamp": [
+                111.78,
+                118.6
+            ],
+            "text": " So if you follow my cursor into the lower left file, I'm sorry, lower left corner, you'll see that this is a TIFF file."
+        },
+        {
+            "timestamp": [
+                119.14,
+                124.32
+            ],
+            "text": " And I actually can't exactly recall why this file is TIFF."
+        },
+        {
+            "timestamp": [
+                126.24,
+                127.4
+            ],
+            "text": " So there's that."
+        },
+        {
+            "timestamp": [
+                127.74,
+                129.26
+            ],
+            "text": " But it doesn't really matter."
+        },
+        {
+            "timestamp": [
+                129.96,
+                129.26
+            ],
+            "text": ""
+        },
+        {
+            "timestamp": [
+                205.28,
+                225.02
+            ],
+            "text": " We'll see you next time. actually can't exactly recall why this file is TIFF, so there's that. But it doesn't really matter because it's going to work the same way. One of the beauties of working from a raw file and or from TIFF files is that we can easily go back afterwards and reprocess the image if we want to. Now that's a that's sort of a side note. Let's go ahead and just jump into the VEZA because we have plenty to talk about. Note that I am going to be launching from Photo Lab 4. I'm also going to launch the VEZA from Photoshop, the most recent version of Photoshop, uh, Adobe Photoshop, Creative Cloud Photoshop, and I am on a Mac, so I should just mention all of those things as we begin. So we're here in PhotoLab. We are ready to launch our image into Vivesa. To do that, you follow my cursor into the lower right corner here, click on the Nick Collection button, and from the Nick Collection button, we're able to simply move into our plugin selector and access whichever of the Nick plugins we want to utilize. So we'll click on Vivesa 3, and a couple things are going to happen as I click on that. The first thing that's going to happen is PhotoLab is going to make a duplicate copy of our image, and then Viveza, or whichever of the Nick collection we're using, is going to launch. Now, this is sort of the option that I was just talking about. It's a relatively new feature in the Nick collection, and that is we can work in a non-destructive"
+        },
+        {
+            "timestamp": [
+                225.02,
+                249.88
+            ],
+            "text": " process, which means when we're done with Viveza or ColorFX or SilverFX, whatever software we happen to be using, when we're all done editing with the tool, we're actually able to save the file and then come back a day later or a week later or a year later or whatever, open up the NIC collection again and reprocess. Move control points, make control point"
+        },
+        {
+            "timestamp": [
+                249.88,
+                254.04
+            ],
+            "text": " adjustments, make global adjustments around, you know, whatever we might want"
+        },
+        {
+            "timestamp": [
+                254.04,
+                257.58
+            ],
+            "text": " to do to reprocess the image. It's a really nice feature and that's what this"
+        },
+        {
+            "timestamp": [
+                257.58,
+                263.76
+            ],
+            "text": " little dialogue is going to say. Now once you see and know what these dialogues"
+        },
+        {
+            "timestamp": [
+                263.76,
+                267.42
+            ],
+            "text": " are telling you, you can actually just click this little checkbox that says do"
+        },
+        {
+            "timestamp": [
+                267.42,
+                386.36
+            ],
+            "text": " Do not show again, click OK, and then it's not going to show up again. I leave these dialogues on, so every time we launch, we're going to kind of have to deal with this, and that's because I want you as a visitor for this webinar to kind of see what's going to happen maybe the first time you ever launch the software. But's what this option is saying it says jpeg or tiff things to know when you're working from our duplicated tiff file is that we can work in a non-destructive process okay i'm going to click the okay button um now we launched into viveza and in this case The last time I used Vivesa, I ended up on this split or side-by-side preview so that I could view the image side-by-side, the before and the after. Right now, it's not going to make much sense because there's no difference between the before and after. So I'm going to go ahead and just move into the upper sort of quadrant, left quadrant of the interface. And I'm going to click on the single image view view up here so if you follow me up there we click on single image view and we just get a larger representation of our image so it you know it makes it so we can kind of see what's happening a little bit better we will visit these three options up here we'll talk a little bit about the zoom features as well but for now we're going to stick with that single image view and I want to cover a little bit of the zoom features as well. But for now, we're going to stick with that single image view. And I want to cover a little bit of the stuff in the interface before we jump into controlling color. For anybody who maybe is brand new, or maybe you haven't updated the software in a while, and you're seeing VVASA for the first time, or maybe the second or third or whatever. Now, one of the great new features within Vivesa 3 are presets. For those of you familiar with other NIC tools, we have presets built into numerous other versions of the NIC plugins, and we have them now within Vivesa 3. One of the very cool features within the presets is that you can actually save control points, which is really quite wonderful. Now,"
+        },
+        {
+            "timestamp": [
+                386.36,
+                487.7
+            ],
+            "text": " presets. The neutral preset here is sort of the reset button. If you ever click on the neutral button, it just resets your image back to how you opened it up into Vivesa. But if you follow me into our different presets, if we click on one of them, like golden hour, and we say, yep, we know that adding a preset is going to replace the parameters, basically, by clicking on a preset, it's going to make some of the adjustments to the tools on the right-hand side of the interface that we have yet to talk about, and it's just telling us, yeah, it's going to make some changes. So we're going to click yes, and instantly, our larger preview image looks like our small sort of heads-up display preview. So these are really cool. It comes with 10 presets built in. Sorry, it actually comes with 19 presets built in. Nope. What am I talking about? It comes with 10 presets. Let me see something. yeah it's the 10 presets and then neutral I'm sorry I'm confusing myself now so it comes with 10 presets in total built in but you can create your own presets I'm just clicking on a couple of these presets to kind of show you you know what what they're doing for us now I use these presets as starting points And so I'll go and click on one like high contrast and say, okay, yeah, that's pretty nice. It's maybe a little bit more contrast than I want on this image, but it gives me an idea and it points me in the right direction and sends me off in it. Now, if you like what the preset's doing, you can actually just click the save button or the apply button in the lower right corner."
+        },
+        {
+            "timestamp": [
+                488.04,
+                491.12
+            ],
+            "text": " So if it does exactly what you need it to, great, you're done."
+        },
+        {
+            "timestamp": [
+                491.48,
+                499.36
+            ],
+            "text": " But oftentimes when you click on a preset, you're going to want to go over into your global adjustments, which would usually be open by default."
+        },
+        {
+            "timestamp": [
+                499.5,
+                500.76
+            ],
+            "text": " I had him closed a minute ago."
+        },
+        {
+            "timestamp": [
+                501.22,
+                502.26
+            ],
+            "text": " And you can make changes."
+        },
+        {
+            "timestamp": [
+                502.42,
+                504.62
+            ],
+            "text": " So let's say it's too much contrast overall."
+        },
+        {
+            "timestamp": [
+                504.62,
+                507.08
+            ],
+            "text": " I can start to reduce that contrast and say,"
+        },
+        {
+            "timestamp": [
+                507.08,
+                510.08
+            ],
+            "text": " okay, yeah, that's great, or whatever."
+        },
+        {
+            "timestamp": [
+                511.86,
+                513.6
+            ],
+            "text": " I'll quickly move back over"
+        },
+        {
+            "timestamp": [
+                513.6,
+                516.4
+            ],
+            "text": " to the left-hand side of the interface."
+        },
+        {
+            "timestamp": [
+                516.4,
+                518.76
+            ],
+            "text": " By the way, I know I'm jumping around right now."
+        },
+        {
+            "timestamp": [
+                518.76,
+                520.32
+            ],
+            "text": " We're going to talk about those tools"
+        },
+        {
+            "timestamp": [
+                520.32,
+                521.94
+            ],
+            "text": " over on the right-hand side."
+        },
+        {
+            "timestamp": [
+                521.94,
+                523.96
+            ],
+            "text": " I just want to kind of knock out the left-hand side"
+        },
+        {
+            "timestamp": [
+                523.96,
+                548.4
+            ],
+            "text": " of the interface first, and then we'll move into the specifics and the tools within. So back over to the left hand side of the interface here I've actually just created two custom presets so if you click on the custom presets yours might be empty right now if you haven't created your own here are two of mine that you know I play with the color infrared sort of preset that I've created and then I have a high key"
+        },
+        {
+            "timestamp": [
+                548.4,
+                555.18
+            ],
+            "text": " preset so if I click on color infrared and I click yes well here is a sort of"
+        },
+        {
+            "timestamp": [
+                555.18,
+                559.86
+            ],
+            "text": " false color infrared representation of this image it's not real or true at all"
+        },
+        {
+            "timestamp": [
+                559.86,
+                563.64
+            ],
+            "text": " it's just me kind of playing with the software but it does create a kind of"
+        },
+        {
+            "timestamp": [
+                563.64,
+                705.64
+            ],
+            "text": " interesting aesthetic now if I go click on my high key and then I click yes, we have our high key representation. Maybe I say, OK, well, that's too high key. I can take my highlights back down. I can go over to the right side of the interface, that is, and I can make some changes to really dial it in where I want it to be. Now, a couple more cool features. Whenever you create your own presets, you can, of course, export them. So back over to the left-hand side of the interface, if I wanted to export this and put it on another one of my computers or if I wanted to share it with somebody or put it on my website or something like that, I can click the export button and I can save it and then do whatever I might want I can trash the preset so we can get rid of it you don't want it anymore we can delete it we're using the little trashcan icon there on the left side of the interface and or you can re-up or update the preset so let's say I prefer the settings that we've just made to the original settings. Well, if I click this update button, it's going to say, are you sure? And I'm just going to say yes, and voila, now I've updated my high-key preset. Good to go. If you ever download recipes or presets, you can, of course, import them. or let's's say you make a couple presets that you really like and you use on maybe your desktop computer at home and you have a laptop and you want to also share it with the laptop, you'd create your custom recipe or preset, you'd export it using the export button, and then you'd go into your other computer after transmitting your preset from one computer to the other, and you can import them. All right. Now, we're going to hide the presets over here on the left side. Before I do that, I'm actually going to go back to neutral. So I'll scroll to the top, hit neutral, say yes. The image is a little bit flat in this case and you know one of the things that I like about this photograph is that it is a little bit flat but I want to create a little color contrast right so photographically there there isn't any direct area of interest the subject itself is kind of the entire image there are some distracting elements with the"
+        },
+        {
+            "timestamp": [
+                705.64,
+                789.74
+            ],
+            "text": " kind of dead sticks and so on I probably should clean those up but I want to create some more depth in the photograph the the image has no foreground or middle ground background it's this two-dimensional plane and in our case here to create some really nice depth in the image, we're going to create color contrast. So we'll use control points to affect the green areas, make them more green, make them maybe a little bit darker, have some contrast. And then we'll go into some of the warmer toned flowers and we will warm them up a little bit more. And we will create some separation using that warmth compared to the green which will make cooler so instead of you know creating a whole lot of sort of luminosity contrast or contrast between the tones the brightness levels we'll do that using color so let's jet over to the right-hand side of the interface when you initially open the interface up it it's probably going to look something like this. You'll have the loop feature that's going to be open and that loop in the upper right corner follows your cursor around as you go. And then you also, I'm going to close that down just so it's not so distracting. You also are going to have a histogram and it's a sort of live histogram. As you make changes, you'll see that histogram also change as you make changes to, let's say, the global adjustments or something."
+        },
+        {
+            "timestamp": [
+                789.78,
+                790.34
+            ],
+            "text": " You'll see that change."
+        },
+        {
+            "timestamp": [
+                790.88,
+                798.88
+            ],
+            "text": " And you can also look at your histogram based upon your RGB values, which shows all channels."
+        },
+        {
+            "timestamp": [
+                799.34,
+                804.66
+            ],
+            "text": " You can look at your red, your green, and your blue channels separately, should you want to do that."
+        },
+        {
+            "timestamp": [
+                804.98,
+                906.22
+            ],
+            "text": " And then you can also click on L, and this shows you your luminance channel, sort of the brightness. So it's a nice feature, and then lastly, also in the histogram, you do have the ability to see any clipped shadows. So as I turn, if I click the little button in the upper left corner on, this is going to indicate anything that shows up with magenta or blue, those are clipped in those channels, which basically means we don't have any information in those very, very dark shadow areas in here, which we're not going to because it's the void of darkness behind the plants there. If we have any highlights that are blown out or clipped, if you click on that little button the upper right corner it's going to show you it's going to give you those indicators. In this case it actually does look like I have a couple little highlights that are blown out right here in these flowers. Probably not a big deal in this case. You can see that turn on and off. It's very small and it might be hard to see via the webinar okay so moving past our histogram let's jump into our global adjustments our global adjustments give us the ability to adjust the entire image all at once so you have brightness contrast saturation structure we're going to talk about that a shadow adjustments tool warmth red green blue hue and And then we also have the sort of luminance values broken down into highlights mid-tones shadows and blacks underneath the sort of main global adjustments so these four sliders they're new and it gives us the ability to sort of globally brighten or darken the highlights brighten or or darken the mid-tones, and so on."
+        },
+        {
+            "timestamp": [
+                906.28,
+                908.2
+            ],
+            "text": " So it's a nice additional feature."
+        },
+        {
+            "timestamp": [
+                909.14,
+                910.88
+            ],
+            "text": " I'm just going to attempt to double-click."
+        },
+        {
+            "timestamp": [
+                912.46,
+                913.68
+            ],
+            "text": " Maybe I'm clicking too fast."
+        },
+        {
+            "timestamp": [
+                914.58,
+                915.24
+            ],
+            "text": " That's strange."
+        },
+        {
+            "timestamp": [
+                915.82,
+                918.16
+            ],
+            "text": " I should be able to double-click on my slider there,"
+        },
+        {
+            "timestamp": [
+                918.64,
+                922.12
+            ],
+            "text": " and it will readjust itself back to its home, in this case, zero."
+        },
+        {
+            "timestamp": [
+                922.9,
+                1008.68
+            ],
+            "text": " Anyways, those are your selective tone adjustments. And then brand new within Vivesa 3 is a white balance adjustment. Should you want to make adjustments to your white balance you have to check this little check box on it's the only of the global adjustments the only tools of the global adjustments they have to kind of turn on separately and then you have a color picker or a temperature slider and the radius here I'm not even showing you anything but the the radius slider is the radius of your color picker so if I set that to five pixels I go and click on my color picker and then I go and click on a neutral tone within the image I'll be able to basically neutralize to that tone. Now if I click on something like this green color it's going to give us this really you know dynamically changed white balance. This isn't technically correct but it could be really interesting to do being able to control your white balance right here within Viveza. In our case the white balance of this image is already basically where I want it to be, so I'm not going to use that tool. But what I do want to do is add a little bit of contrast, luminosity contrast, overall, maybe 10 or 12 percent, and then I'm also just going to boost the saturation a little bit in the image. these are going to be relatively subtle adjustments because I've already gone"
+        },
+        {
+            "timestamp": [
+                1008.68,
+                1014.88
+            ],
+            "text": " into my my raw adjustment tool photo lab and I've kind of made a lot of these"
+        },
+        {
+            "timestamp": [
+                1014.88,
+                1019.98
+            ],
+            "text": " global adjustments already so I want to utilize viveza for its selective"
+        },
+        {
+            "timestamp": [
+                1019.98,
+                1025.08
+            ],
+            "text": " capabilities using control points let's take a look at that I'm going to hide"
+        },
+        {
+            "timestamp": [
+                1025.08,
+                1029.64
+            ],
+            "text": " the global adjustments and we're going to open up our selective adjustments"
+        },
+        {
+            "timestamp": [
+                1029.64,
+                1325.38
+            ],
+            "text": " Thanks for watching. capabilities using control points. Let's take a look at that. I'm going to hide the global adjustments and we're gonna open up our selective adjustments. So by clicking on a control point, and mind you this is in my in my mind the most powerful aspect of basically any of the NIC tools, but in Vivesa absolutely this is this is the sort of creme de la creme of tools. Control points are going to allow us to basically select out everything that's green in this case, because that's what we're going to do in this particular image, and then everything that is of these tones and colors of the flowers, and separate them in terms of control, right? So if I click on control points, I click on this little button with the target and the plus button over here on the right side, and then I just place the control point on the object that I want to adjust, this is going to give us the ability to selectively control anything that the control point is making the selection up. We're gonna talk, you know, about how these selections are being made throughout the webinar, but the key to this is basically placing the point on the object that you want to adjust and then you size the area of influence, the circle that's going around the control point itself, you size that to encompass the entire object that you want to adjust. So you literally click on the slider here that's to the right, in this case of the control point, and encompass the entire object. In a minute, we're going to go ahead and just slide this all the way around all of our green stuff. But for now, I'm going to leave this a little bit smaller, and we're going to make a couple changes to the image, and then I want to show you what the selection is actually doing. So we've placed our control point. Follow me over to the right-hand side of the interface. Our control point is listed right here in the control points list. There's only one, so you only see one in the list on the right-hand side of the interface here. I'm actually going to rename this control point. It's one of the new features within Vivesit 3. So to rename, you just double-click on the control point itself, and then you can name it. So I'm going to call this leaves. Right. So I've got my control point. I've named it leaves. Let's go in and make some adjustments. I know I'm going to want to darken down all the stuff that's green just by a few percent. I know I'm going to want to add a little bit of contrast and I'm doing that. I can actually see it occurring on the area that the control point is adjusting. It's just I'm making relatively subtle, small adjustments. So you have to really pay attention to kind of what's happening there. Now let's say we want to scroll down a little bit and adjust some of the color because this webinar is primarily about controlling color. I've adjusted brightness, contrast, saturation, and structure. We also have the ability to adjust the overall warmth that the control point is affecting, and then red, green, blue, and hue. Now, I have a feeling that a lot of folks either avoid or don't really use the red, green, and blue sliders all that often, and they are a key facet in controlling your overall color within any image. So if I open Vivesa, it's actually usually to use these three sliders with control points. What they do is they allow you to either add blue, right? If I take that blue slider to the right, it adds blue. Or if I want to, I can remove blue by sliding the blue slider to the left the left right so what we're doing here if I slide blue into the negative it's removing blue and therefore actually adding yellow right so these these sliders do call for a small sort of knowledge of color theory and understanding kind of the color wheel. But here's the cheat sheet. Red and cyan work against each other. So if I click on the red slider and I start adding red, what I'm doing is I'm removing cyan. And if I actually slide this slider to the left, the area that my leaves are being affected or the control points are controlling, it's going to be adding cyan in there, right? So you can see that shift and change. Now, green, so if red works with cyan, I wonder why my, for some reason when I double-click on my slider, it's not homing. It's not going back to its default, so that's a little bit strange. Green, if I adjust green, what it's doing is either adding green by sliding that slider to the right or it's removing green which would be adding magenta right so if I take my green slider all the way over the left it's removing green it's adding magenta you can actually see that so we going to play with these ideas throughout this webinar."
+        },
+        {
+            "timestamp": [
+                1446.44,
+                1465.98
+            ],
+            "text": " And in this case, I want to kind of cool down the green stuff and I want to warm up the warm stuff. So we're going to go into the blue slider and I'm going to add, I don't know, 10 or 15 percent green. I'm sorry, 10 or 15 percent blue. And we're going to go into green and I'm going to add a little bit of that as well and that is going to cool right because we're sort of pushing the color towards the cool end of the color wheel or color spectrum and therefore those greens are going to be a little bit cooler. Now if you're wondering what we're actually affecting with that control point we're going to scroll back up now that we've made some adjustments and we're gonna click on our control points list on the little box that has a circle in it right in this little box that has a little circle in it that's going to actually show us our selection so when we click on it what you're gonna see is anything that's white is being selected and therefore our adjustment is being applied to that selection and anything that's black is not being selected. So the control points want to make a very photographic selection, if you will, and therefore it recognizes that maybe these adjustments shouldn't just be sort of stuck within the circle, within the area of influence. So you can see how the bulk of the adjustment are on the leaves that we've dropped the point on but it also selects out some of this stuff as well and I like to show this because depending upon what you place the control point on you're going to get a very different selection later in the webinar I'm going to show you, we're gonna place a control point on a red barn and it's basically gonna cut the red out. There'll be hard edge lines. Here the control point recognizes that you know it's green all around our object and therefore it should be selecting out all of those matching tones colors and textures. So what I just did is I expanded our selection by taking that little area of influence slider and I expanded that out so now it's encompassing the entire image now from there to kind of get to know these control points it's actually kind of important to click on it and sort of slide it around, right? And you can see how the"
+        },
+        {
+            "timestamp": [
+                1465.98,
+                1585.4
+            ],
+            "text": " selection actually changes in real time. If I go and place my control point in some of these shadow areas, you can see now all of those shadows are being selected, but maybe the leaves themselves are not. If I go place it back on the leaf, I'm going to be able to see that I'm making a selection of those leaves. Now, some folks use this option quite a lot, I think. According to, you know, when I talk to folks, they tend to use this tool quite a lot. I find myself using it to kind of check my own work, but what I find is that I leave the option off, and what I do is I make my adjustments, and I just make sure that it looks the way I want it to look right because if it looks the way that I want it to look and I don't have any you know strange aberrations or anything weird going on I'm good I'm happy I get I'm getting the effect that I want and also as I click on the point while I'm not in that selection mode you can actually see in real time how my adjustment changes based upon where the selection is. So it's a really cool feature to be able to turn that on. But in my mind, I find myself not using it all that often for, you know, actual application. And the beauty of that is because I don't need to check the selection, it's faster. I don't have to worry about it. Now there is a way to hone in your selections even more, and that's using these color selectivity tools. I'm going to show you that with the next control point. I'm pretty happy with the effect that we've got here. I actually think I'm going to reduce the saturation a little bit. I've kind of overclocked it a little more than I meant to. So I'll go into my saturation and just bring that back down. And we're going to add another control point. So follow me to the right side here. We click on the little crosshair with the plus button. And I'm going to just place a control point on some of our flowers. And what's going to happen now is the control point that I've placed on the flowers will make a selection of those flowers right and what's going to happen now is the control point"
+        },
+        {
+            "timestamp": [
+                1585.4,
+                1646.78
+            ],
+            "text": " that I've placed on the flowers will make a selection of those flowers and these control points kind of communicate with each other so as I'm adding more and more control points here within the VEZA each of the control points kind of gets smarter it recognizes more of what it should be selecting and what it shouldn't be selecting based upon what we've placed the points on. Right. So let's actually look at this selection with that tool. So we'll go over to the right hand side of the interface. We're on control points to I'm going to call this one flowers. Right. And I know that that's sort of a broad term, but it's going to work well for us, I think. So we've got our leaves and our flowers labeled. I'll click on that little box again. It's going to show us what's being selected. So you can see it's doing a nice job to kind of cut out just the flowers. If I expand this out, oops, I got to click on the slider itself. It's going to do a really nice job to select just the flowers basically and so based upon where I"
+        },
+        {
+            "timestamp": [
+                1646.78,
+                1652.36
+            ],
+            "text": " place the point we'll get slightly different selections and what we're going to do with this"
+        },
+        {
+            "timestamp": [
+                1652.36,
+                1661.1
+            ],
+            "text": " control point is warm and add some red and yellow to those points so we place the control point"
+        },
+        {
+            "timestamp": [
+                1661.1,
+                1665.8
+            ],
+            "text": " in this case we size the area because we know we wanted to kind of adjust the entire thing"
+        },
+        {
+            "timestamp": [
+                1665.8,
+                1747.7
+            ],
+            "text": " I'm going to add a little bit of structure which which is a texture adjustment. I'm actually going to show you exactly what that does on the next image. And then I'm going to go into my blue slider and I'm going to remove blue, right? So with our green leaves, I added blue and I added green. In this case, we're going to go into our blue and we're going to remove blue and we're going to remove green. And what that's going to do is it's going to kind of warm those flowers up a little bit more. You know, we can take it way too far. We basically make them red or magenta if we wanted to. And because because the control point makes that very photographic looking selection, it generally looks good. Now, this technique, you know, I'm not going to suggest that you slide the green slider all the way over to negative 100, probably almost ever. It is interesting. It probably works with some images, but it probably works with fewer images than if you're a little bit more subtle. But it's entirely up to you. And that's the beauty of this software. It opens up all sorts of really interesting capabilities. Once you kind of get to know how these control points are working and then how each of those individual sliders are gonna go ahead and work for you. Now, I've warmed those flowers. We've cooled the green parts, the leaves themselves."
+        },
+        {
+            "timestamp": [
+                1748.1,
+                1750.24
+            ],
+            "text": " Let's actually take a look at the before and after."
+        },
+        {
+            "timestamp": [
+                1750.34,
+                1753.72
+            ],
+            "text": " We've just used two control points and a couple of global adjustments."
+        },
+        {
+            "timestamp": [
+                1754.22,
+                1756.44
+            ],
+            "text": " I'm going to hide our tools palette on the right."
+        },
+        {
+            "timestamp": [
+                1757.46,
+                1759.72
+            ],
+            "text": " And we're going to take a look at the before and after a couple of ways."
+        },
+        {
+            "timestamp": [
+                1759.98,
+                2066.0
+            ],
+            "text": " First of all, if you follow my cursor into the upper sort of quadrant, upper third of the image or interface, if I press and hold the compare button, you'll see the original image. And if I let go of the compare button, you'll see the enhanced image. And I know I've definitely overclocked those the flower color a little bit. But if we it's for demonstration purposes. So I think it works pretty well. And what I've done this time is I clicked on our side-by-side preview here I'm just clicking around I'm not telling you what I'm doing I clicked on my side-by-side preview and then I made it go side-by-side for some reason they were on top of each other because these images are horizontal orientation or landscape if you will I want to do a landscape side-by-side. So click on the twirler in between the two images and on the left you'll see the original image and on the right you'll see the enhanced image. If you kind of lean back in your chair and you look, your eye should kind of be pulled towards the right side because we've got on this added contrast and added color contrast that we've that we've added to the image utilizing these these photographic looking selections and you know it's we could probably play with this image add some control points here and there to create more depth within the photo but for the sake of time we actually talked about this image for about 30 minutes I'm gonna click the apply button in the corner of the interface, and we're going to jet forward on this because I've got more images to show you and more tools to kind of explain and walk you through. So I click the Apply button. That brings us back to our host piece of software. We have our original image, and then saved in our sort of film strip within PhotoLab, or maybe if you're an Adobe Lightroom user it's gonna work the same way your image is going to be saved into the same folder and it'll show up right next to I guess it depends in Lightroom how you organize but for by default your images will show up right next to each other in Adobe Lightroom or photo lab okay let's jump right in our next image, here's another photograph that could use some layering, right? So this image has a sort of foreground, middle ground, background, but there's no real strong foreground element. And the overall contrast is a little bit flat. And I think we can probably get a lot more out of these clouds because there's a lot of texture in there. It's just because of the atmospheric conditions and the contrast of the scene we don't have a lot of tonal contrast. So let's just jump right in. Let's add some control points. I'm going to add one large control point into the sky and let's just let's just boom out the structure so the structure tool here is going to bring that texture that's the bring out the contrast in the texture that is in the cloud we're just accentuating it right so again rarely are you going to add control points and add 90% structure that's not going to happen on most images but and maybe it's not even a good idea for it to happen on this image but for the sake of our demonstration it does add quite a lot of impact that detail is already in the cloud so let's just bump it out we're going to add a little bit of saturation and we're then going to move scroll down a little bit and I think I'm going to actually add a little bit of red. And what adding red is going to do is it's going to remove cyan, and it'll actually make those clouds look a little bit more kind of neutral. But we'll get what looks to me more like what I remember the scene looking like. so because I bumped up that saturation to 54% the clouds are going to be accentuated by adding a little bit of the red we we get a little warmth back into the sky and we still have our additional saturation it's just a kind of nice technique to to bring out those tones if we wanted, let's see what would happen if we duplicate this control point and place it in a couple places in our clouds. There are a few ways to duplicate control points. The way that I'm going to do it right now on my Mac is I'm going to hold down my option key on my keyboard, click on my control point, and drag. So option on a Mac, or if you hold alt, if you're on a PC, click and drag, and that's going to give you an exact duplicate, and this is just going to allow us to kind of place some points into some of the other areas within our clouds to get maybe a little bit more impact. Now, if it's too much, and we wanted to maybe control all three of these control points at one time, we can actually group these together and then make adjustments to the group of control points at once, right? Now to do that, you have to highlight your control points. So I'm going to click on this first one and then I'm going to actually just hold the shift key down. So this is a shortcut with a lot of applications if you hold the shift key"
+        },
+        {
+            "timestamp": [
+                2066.0,
+                2645.96
+            ],
+            "text": " down and you click on multiple files or in this case multiple control points we can activate them all I know they're active because they're highlighted in gold and you can move over to the right hand of the right hand side of the interface here where there's a little folder and then a little crosshair and this is our group button if you like shortcuts you can just hit command G on your keyboard and that's going to group them as well but click on that button that groups them now when I make adjustments to this one control point it's going to adjust all of those control points so that's a really nice feature that's here built into our Beveza and actually almost all of the NIC plugins have the ability to group. Alright we've got our control points in our skies. Let's keep moving. I want to create a little bit of layering in our trees here so I'm going to do that the exact same way we did in that last image. I'm going to darken down some of the shadow areas just a touch and I'm going to make them a little bit cooler. In this case, instead of using red, green, and blue, I'll just move to the warmth slider and I'll remove some warmth. Kind of does something similar just with a little bit less control. You know, your red, green, and blue sliders give you tons of control. The warmth is easy and fast. So depending upon what you're doing, you probably want to try all of those things. Okay, so now I've got some areas that are, you know, some deciduous trees here that are behind this line here right on the kind of coastline or the beach. And I want to separate them. So we'll cool down and darken down this area and then we'll warm up and sort of brighten up the foreground or sorry the those deciduous trees back there and that's going to give us that really nice kind of contrast color contrast between the trees on the beach and the trees in the background. We use our duplicate control point trick again so So option, option, click and drag. I'll put another one here. And then option, click and drag. And I'll put another one maybe back here. So these are all duplicates of these control points. And then I'll maybe do the same thing here, right? And so now we're accentuating the photographic layering in the image, which is generally a good thing to do if we want more depth within the photograph. Now here's our, I'm not going to call it coup de gras, but one of the great features and capabilities here in Vivesa is the ability to completely change the color of an object or an area. Now this works best when the control point can make a really clean selection and in this case we have this red barn and the control point is going to be able to make a really nice clean selection. So if I place a control point on the barn I might need to size the area of influence but we'll do that in a second. I'm going to look at the selection that's being made. It's pretty good. It's sort of selecting some of the green in in the foreground and maybe I don't want it to so maybe what we'll do is make the control point slightly smaller and just make sure we're placing it on the exact area we want it and then from there to make a more precise selection we'll use our color selectivity sliders these sliders are brand new within the newest version of Avesa here and we're able to hone in on the selection that the control point is making. Now to use them you can either tell the control point to kind of broaden the luminance value that it's looking at. So luminance would be brightness for folks maybe not familiar with the term and chrominance would be the color values so if you take the luminance slider and you start sliding it to the right the control point is going to hone in more so it's gonna you can see the selection is smaller let me actually double click here I'm to zoom in one to two and we can actually zoom in a little bit more to get a better idea of the selection. So if I slide this luminance slider here over to the right, it's going to say, okay, only these brightness levels should be selected. If I slide the luminance sliders to the left, it broadens out the selection. It makes it the sort of tolerance is a little bit wider with that selective tool. So depending upon what you're selecting and how you're selecting it, you'll use a combination of these sliders. So here I'm actually pretty happy with what's happening. I'm using the luminance slider and then I'm also using the chrominance slider to really hone in the selection and then once I've got the selection that I want I'm going to go let's actually zoom back out let's fit to screen once I've got the selection that I want I can go into this area that says color picker and I can actually either either use an eyedropper and click on a color that's in the image and change that barn to that color or whatever the control point is selecting to that color, or we can actually click on this little color swatch that's to the right of the color picker label, and then I can choose whatever color I want. now if you're on a Mac you're depending upon the operating system that you're using your color picker is going to look like this or this or this or this because these are all the different options for the Mac based color picker if you're on a PC it's going to look different than this but the tool does the same thing it allows you to kind of hunt and peck so you know no one i don't know how many blue barns i've ever seen in my life um but there's probably a couple out there and there maybe there's particular areas in the world where barns are only blue um this barn was red we're going to make it blue and we're just going to see what happens uh it is easy to choose a color that doesn't work really well. But it's really kind of fun to do this as well. And mind you, where I tend to use this technique is oftentimes to to slightly shift the color of some object. Usually it's not to change a red barn to blue, but this is how you could do any of those things, so we choose the color, we click okay, and then, you know, we check the work, we make sure it does what we want it to do, so I'm going to click outside of that control point, it's doing a pretty good job, I can actually see a couple small areas that are red, this area, that area, and this area, let's see what happens if we just duplicate this control point point place it into some of these other things that we want blue option click and drag let's stick it on the blue of the or the red and then I think I'm still missing it but we should zoom in to see I'll zoom in one to two and I'll just move my control point so it does exactly what I want it to do now one of the things that we might need to do is kind of hone those luminance values and chrominance values I showed you how that tool was working when we were looking at the selection not at the object itself and I think in this case we actually need to be looking at the object itself, the barn itself, to kind of get the exact area selected and adjusted where we want it to be. But that's how we could, you know, dramatically change the color of a barn if we wanted to, or of any object, you know, that it's negligible. It doesn't matter what the thing is. It's just a technique. And it works pretty it works pretty well all right fit to screen we got a blue barn now you know I think to finish this image I would probably bring this into color effects Pro and add maybe a gradient and a few little flourishes using some of the filters and color effects for the sake of time we're gonna click the apply button the lower right corner. I have one more image that I really wanted to get to because these two images that we've just sort of processed, we made some really dramatic adjustments to them and we covered a ton of different things within Vivesa. I'm going to jump over into Photoshop. I'm going to just take a sip of my water as well, my throat's getting dry. Okay, and this is an outdoor photograph so it applies. It is an outdoor photograph that's being illuminated using a strobe flash, right, a large flash actually, it's a Profoto head I think. If you follow me to the right side we're net we're over here in Photoshop so I switched the the host software and this is the light source that's actually illuminating the model here this is a photograph that was shot by my friend and colleague David Turner he's a really amazing teacher this was for one of the main media workshops which is a really great series of workshops that happen in Maine. Anyways, David from time to time teaches portrait lighting. And this is a technique where you set your camera white balance to an incandescent light source. And then you take a flash like this and you gel it using what's called a CTO, color temperature orange. It's basically an orange piece of gel, an orange piece of plastic that the light can be illuminated through. David did this to create this kind of interesting separation between the subject and the background. Now what we're going to do in Vivesa is kind of refine the colors a little bit more. And what I've done here with layer one is I just used the clone stamp and got rid of that"
+        },
+        {
+            "timestamp": [
+                2645.96,
+                2650.66
+            ],
+            "text": " light source. I just wanted to show you kind of a little bit of behind the scenes for the image."
+        },
+        {
+            "timestamp": [
+                2650.66,
+                2657.86
+            ],
+            "text": " So what we're going to do is jump into Vivesa from here. We're going to use the Nick Selective"
+        },
+        {
+            "timestamp": [
+                2657.86,
+                2664.36
+            ],
+            "text": " tool, which is how you access one of the ways to access the Nick plugins from Photoshop. And it"
+        },
+        {
+            "timestamp": [
+                2664.36,
+                2707.86
+            ],
+            "text": " looks like this for anyone who's not familiar. And I'm just going to click on Vivesa. So I'm going to access the software the other way. The other way to access the NIC plugins from Photoshop is to go up to the filter drop-down menu in the top portion of the interface, go down to the NIC collection, and then you can just click right on Vivesa 3. You know, before I do that, I'm going to flatten my image just so I don't run into any problems. Evase at three. And it'll launch. The software is going to look exactly the same as it did when we were within the sort of photo lab version. They're the same thing. And in this case, we're just going to sort of massage the color a little bit. So I'm gonna drop a control point right here on the subject's"
+        },
+        {
+            "timestamp": [
+                2707.86,
+                2712.66
+            ],
+            "text": " face. In this case I think she's a little bit warmer than intended, so we'll make"
+        },
+        {
+            "timestamp": [
+                2712.66,
+                2715.9
+            ],
+            "text": " some subtle little adjustments here. I'm gonna remove a little bit of the warmth."
+        },
+        {
+            "timestamp": [
+                2715.9,
+                2720.84
+            ],
+            "text": " If I remove too much, her skin's gonna kind of go gray, and that is not what"
+        },
+        {
+            "timestamp": [
+                2720.84,
+                2725.84
+            ],
+            "text": " David was after with this technique. He wanted there to be like a nice color"
+        },
+        {
+            "timestamp": [
+                2725.84,
+                2729.28
+            ],
+            "text": " separation. So I'm gonna go ahead and just remove a little bit of warmth, and"
+        },
+        {
+            "timestamp": [
+                2729.28,
+                2965.26
+            ],
+            "text": " Thank you. is not what David was after with this technique he wanted there to be like a nice color separation so I'm gonna go ahead and just remove a little bit of warmth maybe go into the red slider and remove a little bit of red if I take it too far it'll be very apparent that we've shifted these colors and I don't I don't want to do that so I want to be careful and then let's drop a couple points we've got a couple minutes to kind of play in here i'll drop a point um onto uh her dress or skirt oops you know what i actually just made a mistake i added a third control point here i don't want this third or fourth control point i don't want the fourth control point there so i need to delete it to delete a control point um you make sure it's active so I know that one's active because it's highlighted in gold or yellow compared to this one which was you know not activated and when you've got an active control point you just move over to the right-hand side of the tools palette click the delete button and that's gonna delete it for you. The delete key on your keyboard should work as well. That's the shortcut for it. So let's add a little structure. Structure, again, it's basically a texture adjustment. What's happening when you add structure is it's a contrast adjustment, but it's a very precise and specific contrast adjustment that aims to separate the darker tones from the lighter tones and increase that separation and sort of texture it's a really wonderful tool I'm still removing too much warmth on her skin let's even brighten her up just a little bit there we go just 10% and then drop a control point maybe in the blue sky let's see what happens if we add some structure to the blue sky just a little maybe darken down the background just a touch but the the idea of this technique is to have a dramatic color difference using white balance basically as the kind of trick but using white balance because if you set your camera white balance to incandescent and then you use an orange gel light the skin tone is going to be near correct depending upon which gel you use which saturation of or which series of the CTO that you're using and then the background is going to go blue like this right in camera So this is an in-camera sort of color trick and what we're doing here with the VASA It's just kind of honing in the tool, but you know You get the best that you can out of the camera You shoot in raw if that's possible And then you bring your images into your post processing and you can massage those tones to get exactly what you want in this case let's use the third and final compare button so we've you take a look at the before and after using the compare button we took a look at the before and after using side by side and here let's just split the preview so we click on the split preview this allows us to have a complete split preview and you can slide that back and forth so you can see exactly what's happening so she had a really nice skin tone originally we kind of just neutralized a little bit of it to create a little more separation I bet you if we added one more control point I'm gonna zoom in just a little bit let's go to one two three add a control into her hair. And let's see what happens if we add some structure into her hair. There we go. So her hair starts to separate. And then, you know, if it's too warm, we can maybe remove a little bit of red. I like the color personally. And I love this technique. It's a really interesting technique. It's very specific. So, you know, it doesn't work for every single image. I think traditionally it was used a lot for sort of like CEO portraits back in the day. But it's a really interesting tool to use to be able to control color and light right in camera and then, you know, really control light and color afterwards using your Vivesa application."
+        },
+        {
+            "timestamp": [
+                2985.06,
+                3065.56
+            ],
+            "text": " OK, I'm going to click apply in the lower right corner and I'm going to call that our day, Laurie. So if there are any questions that are sort of aimed towards me, I'll take those. OK, great. Got a couple for you. Alan's asking, when would you use Vivesa instead of color effects? oh yeah yeah that's a very good question. It's a difficult question because it kind of comes down to what you prefer. So, Alan, if you like, you know, doing similar kinds of effects with color effects to what we've done here, you could probably get away with using just color effects. I find the control points within viveza 3 and then the you know the warmth red green and blue um features to give me tons of very specific control so i personally use viveza when i need to get you know into the very specific objects or areas I still do that with color effects but usually color effects in my mind I use for like overall aesthetic changes personally and then also for um uh you know certain kinds of contrast things that don't exist within the VASA. I hope that helps. That's great. Okay, let's see here. Gary's asking, are there negative control points still? I see. So in the VASA, there are no negative control points, but there also never have been. The way that you would have a negative control"
+        },
+        {
+            "timestamp": [
+                3065.56,
+                3071.44
+            ],
+            "text": " point in Vivesa is you just add another control point, right? And what that means is if I take a"
+        },
+        {
+            "timestamp": [
+                3071.44,
+                3078.2
+            ],
+            "text": " point here on John's photograph, and I go in and I add, we're going to really bump this up. So I'm"
+        },
+        {
+            "timestamp": [
+                3078.2,
+                3084.66
+            ],
+            "text": " going to add a ton of saturation. And with that ton of saturation, this control point is going in"
+        },
+        {
+            "timestamp": [
+                3084.66,
+                3086.42
+            ],
+            "text": " and affecting this area a little bit."
+        },
+        {
+            "timestamp": [
+                3086.98,
+                3091.54
+            ],
+            "text": " If I don't want that control point to affect that area, I take another control point."
+        },
+        {
+            "timestamp": [
+                3091.54,
+                3098.0
+            ],
+            "text": " I place it in that area and watch what happens. As soon as I drop this point, that building should kind of neutralize a little bit."
+        },
+        {
+            "timestamp": [
+                3098.82,
+                3103.98
+            ],
+            "text": " Right. And if I take that point, maybe drop another one up in here, that tone will neutralize."
+        },
+        {
+            "timestamp": [
+                3104.28,
+                null
+            ],
+            "text": " So I would call these constrictive control points instead of negative control points. Now, we can go down a rabbit hole here because in Color Effects Pro, where you're applying individual filters, you are able to do that using plus control points and minus control points using color effects, right? Because you're either putting the filter in or you're taking it out. Here with Vivesa, you use these kind of constricting control points to hone in the selections because these control points, they're not just negative, they're able to make other adjustments. So I can go in and just remove saturation from this building, right? We can create some really interesting layering by removing saturation from this building and that building, but maybe adding saturation into this one. Maybe I'm going to shrink that control point and then place one over here, right. And now what we're doing is kind of creating this checkerboarding effect where this building is highly saturated. This one is not. This one is. This one is not. And they are working with each other. The control points are kind of working with each other. And they're also kind of working against each other. Because as you add more and more of the control points each point gets smarter and I kind of call them constricting points as opposed to negative control points here anyways ladies and gentlemen have an absolutely lovely and wonderful weekend enjoy your software enjoy photography and hopefully we'll see you again soon at our next webinar. Thanks a lot. Bye-bye."
+        }
+    ]
+}

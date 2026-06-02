@@ -1,0 +1,41 @@
+{
+    "video_id": "Top034_00725.mp4.mp3",
+    "transcript": " I was gonna tell her I was sorry, but then I thought, you know, that's the last thing I needed. Julie Baker thinking I missed her. I see why you like to come out here. Would you mind explaining it to your mother? I love to watch my father paint. Or really, I love to do it.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " I was gonna tell her I was sorry, but then I thought, you know, that's the last thing I needed."
+        },
+        {
+            "timestamp": [
+                5.0,
+                7.0
+            ],
+            "text": " Julie Baker thinking I missed her."
+        },
+        {
+            "timestamp": [
+                11.0,
+                13.0
+            ],
+            "text": " I see why you like to come out here."
+        },
+        {
+            "timestamp": [
+                14.0,
+                16.0
+            ],
+            "text": " Would you mind explaining it to your mother?"
+        },
+        {
+            "timestamp": [
+                17.0,
+                20.0
+            ],
+            "text": " I love to watch my father paint. Or really, I love to do it."
+        }
+    ]
+}

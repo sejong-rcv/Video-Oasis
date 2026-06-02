@@ -1,0 +1,27 @@
+{
+    "video_id": "My 2025.mp4.mp3",
+    "transcript": " You ready bud? Poop it! Nice! Come on!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " You ready bud?"
+        },
+        {
+            "timestamp": [
+                14.0,
+                16.0
+            ],
+            "text": " Poop it! Nice!"
+        },
+        {
+            "timestamp": [
+                20.0,
+                22.0
+            ],
+            "text": " Come on!"
+        }
+    ]
+}

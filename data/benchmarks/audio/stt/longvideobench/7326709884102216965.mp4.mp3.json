@@ -1,0 +1,41 @@
+{
+    "video_id": "7326709884102216965.mp4.mp3",
+    "transcript": " Have you ever heard of the largest waterfall in Europe? This landmark is a natural wonder that becomes insanely powerful at the start of every summer. Although it's not the tallest, it is considered the largest because of overall volume. If you visit, make sure to hop on one of the immersive boat trips. The place is called Rhine Falls and it's located in Switzerland.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " Have you ever heard of the largest waterfall in Europe?"
+        },
+        {
+            "timestamp": [
+                2.0,
+                7.0
+            ],
+            "text": " This landmark is a natural wonder that becomes insanely powerful at the start of every summer."
+        },
+        {
+            "timestamp": [
+                7.0,
+                11.0
+            ],
+            "text": " Although it's not the tallest, it is considered the largest because of overall volume."
+        },
+        {
+            "timestamp": [
+                11.0,
+                14.0
+            ],
+            "text": " If you visit, make sure to hop on one of the immersive boat trips."
+        },
+        {
+            "timestamp": [
+                14.0,
+                17.0
+            ],
+            "text": " The place is called Rhine Falls and it's located in Switzerland."
+        }
+    ]
+}

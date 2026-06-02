@@ -1,0 +1,27 @@
+{
+    "video_id": "UY0SK.mp4.mp3",
+    "transcript": " पच्ची पच्ची पच्ची",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                7.6
+            ],
+            "text": " पच्ची"
+        },
+        {
+            "timestamp": [
+                7.6,
+                12.48
+            ],
+            "text": " पच्ची"
+        },
+        {
+            "timestamp": [
+                25.84,
+                26.8
+            ],
+            "text": " पच्ची"
+        }
+    ]
+}

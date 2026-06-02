@@ -1,0 +1,48 @@
+{
+    "video_id": "liuyushuai.MP4.mp3",
+    "transcript": " 1,5 kg gouda 1,5 kg gouda 1,5 kg gouda 1,5 kg gouda 1,5 kg gouda Thank you for watching.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                7.0
+            ],
+            "text": " 1,5 kg gouda"
+        },
+        {
+            "timestamp": [
+                7.0,
+                14.0
+            ],
+            "text": " 1,5 kg gouda"
+        },
+        {
+            "timestamp": [
+                14.0,
+                19.0
+            ],
+            "text": " 1,5 kg gouda"
+        },
+        {
+            "timestamp": [
+                19.0,
+                24.0
+            ],
+            "text": " 1,5 kg gouda"
+        },
+        {
+            "timestamp": [
+                24.0,
+                29.0
+            ],
+            "text": " 1,5 kg gouda"
+        },
+        {
+            "timestamp": [
+                29.0,
+                44.62
+            ],
+            "text": " Thank you for watching."
+        }
+    ]
+}

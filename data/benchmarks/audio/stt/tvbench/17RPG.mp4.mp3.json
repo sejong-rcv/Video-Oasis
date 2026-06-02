@@ -1,0 +1,41 @@
+{
+    "video_id": "17RPG.mp4.mp3",
+    "transcript": " Hello everyone, welcome to my channel. Today I will show you how to make a very simple and easy to make cake. The recipe is very simple and easy to make. I will show you how to make a very simple and easy to make cake. I will show you how to make a very simple and easy to make cake. I will show you how to make a very simple and easy to make cake. Thank you.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " Hello everyone, welcome to my channel."
+        },
+        {
+            "timestamp": [
+                5.0,
+                10.0
+            ],
+            "text": " Today I will show you how to make a very simple and easy to make cake."
+        },
+        {
+            "timestamp": [
+                10.0,
+                15.0
+            ],
+            "text": " The recipe is very simple and easy to make."
+        },
+        {
+            "timestamp": [
+                15.0,
+                20.0
+            ],
+            "text": " I will show you how to make a very simple and easy to make cake."
+        },
+        {
+            "timestamp": [
+                20.0,
+                32.42
+            ],
+            "text": " I will show you how to make a very simple and easy to make cake. I will show you how to make a very simple and easy to make cake. Thank you."
+        }
+    ]
+}

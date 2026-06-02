@@ -1,0 +1,27 @@
+{
+    "video_id": "Top136_02740.mp4.mp3",
+    "transcript": " We'll be having a wedding here at Netherfield in less than three months, if you ask me, Mr. Bennet. Mr. Bennet! Mary, please.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.2
+            ],
+            "text": " We'll be having a wedding here at Netherfield in less than three months, if you ask me, Mr. Bennet."
+        },
+        {
+            "timestamp": [
+                8.0,
+                9.34
+            ],
+            "text": " Mr. Bennet!"
+        },
+        {
+            "timestamp": [
+                15.36,
+                17.04
+            ],
+            "text": " Mary, please."
+        }
+    ]
+}

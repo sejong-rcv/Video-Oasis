@@ -1,0 +1,55 @@
+{
+    "video_id": "video_7188.mp4.mp3",
+    "transcript": " 1.5 kg gouda 1 kg gouda 1 kg gouda 1 kg gouda 1 kg gouda 1 kg gouda 1 kg gouda",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                4.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                4.0,
+                8.0
+            ],
+            "text": " 1 kg gouda"
+        },
+        {
+            "timestamp": [
+                8.0,
+                12.0
+            ],
+            "text": " 1 kg gouda"
+        },
+        {
+            "timestamp": [
+                12.0,
+                16.0
+            ],
+            "text": " 1 kg gouda"
+        },
+        {
+            "timestamp": [
+                16.0,
+                20.0
+            ],
+            "text": " 1 kg gouda"
+        },
+        {
+            "timestamp": [
+                20.0,
+                24.0
+            ],
+            "text": " 1 kg gouda"
+        },
+        {
+            "timestamp": [
+                24.0,
+                28.0
+            ],
+            "text": " 1 kg gouda"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "video_id": "Top014_02195.mp4.mp3",
+    "transcript": " for a very special reason. I'll find a reason. No, no, no, no, no, no, Hodge. Come on. You can't go. I'm sorry, but you can't go. Come on. Come on. Now stay.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.46
+            ],
+            "text": " for a very special reason."
+        },
+        {
+            "timestamp": [
+                4.04,
+                5.0
+            ],
+            "text": " I'll find a reason."
+        },
+        {
+            "timestamp": [
+                8.08,
+                9.42
+            ],
+            "text": " No, no, no, no, no, no, Hodge."
+        },
+        {
+            "timestamp": [
+                9.48,
+                10.44
+            ],
+            "text": " Come on. You can't go."
+        },
+        {
+            "timestamp": [
+                10.84,
+                11.98
+            ],
+            "text": " I'm sorry, but you can't go."
+        },
+        {
+            "timestamp": [
+                12.1,
+                13.84
+            ],
+            "text": " Come on. Come on."
+        },
+        {
+            "timestamp": [
+                15.98,
+                16.58
+            ],
+            "text": " Now stay."
+        }
+    ]
+}

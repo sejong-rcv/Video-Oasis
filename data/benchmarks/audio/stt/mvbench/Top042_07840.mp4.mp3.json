@@ -1,0 +1,41 @@
+{
+    "video_id": "Top042_07840.mp4.mp3",
+    "transcript": " Come on. Come on. Come on. Come on. Come on.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.2
+            ],
+            "text": " Come on."
+        },
+        {
+            "timestamp": [
+                6.4,
+                6.9
+            ],
+            "text": " Come on."
+        },
+        {
+            "timestamp": [
+                10.9,
+                14.9
+            ],
+            "text": " Come on."
+        },
+        {
+            "timestamp": [
+                14.9,
+                16.02
+            ],
+            "text": " Come on."
+        },
+        {
+            "timestamp": [
+                16.02,
+                16.06
+            ],
+            "text": " Come on."
+        }
+    ]
+}

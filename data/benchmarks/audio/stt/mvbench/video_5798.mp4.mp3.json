@@ -1,0 +1,27 @@
+{
+    "video_id": "video_5798.mp4.mp3",
+    "transcript": " No, I'm just gonna cover that back up. But mom, is everything alright? It's bad. It's so, so bad.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                4.0
+            ],
+            "text": " No, I'm just gonna cover that back up."
+        },
+        {
+            "timestamp": [
+                5.5,
+                7.64
+            ],
+            "text": " But mom, is everything alright?"
+        },
+        {
+            "timestamp": [
+                8.06,
+                10.4
+            ],
+            "text": " It's bad. It's so, so bad."
+        }
+    ]
+}

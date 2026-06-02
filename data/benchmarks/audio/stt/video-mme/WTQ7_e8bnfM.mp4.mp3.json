@@ -1,0 +1,41 @@
+{
+    "video_id": "WTQ7_e8bnfM.mp4.mp3",
+    "transcript": " We will find our own way, take control of our fate And like a car with no brakes, crash and run, make mistakes And we'll be back one day We'll be back one day I don't ever really wanna hold back",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.44
+            ],
+            "text": " We will find our own way, take control of our fate"
+        },
+        {
+            "timestamp": [
+                5.44,
+                12.04
+            ],
+            "text": " And like a car with no brakes, crash and run, make mistakes"
+        },
+        {
+            "timestamp": [
+                12.04,
+                15.32
+            ],
+            "text": " And we'll be back one day"
+        },
+        {
+            "timestamp": [
+                15.32,
+                28.54
+            ],
+            "text": " We'll be back one day"
+        },
+        {
+            "timestamp": [
+                28.54,
+                42.4
+            ],
+            "text": " I don't ever really wanna hold back"
+        }
+    ]
+}

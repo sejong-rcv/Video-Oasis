@@ -1,0 +1,76 @@
+{
+    "video_id": "Top005_03005.mp4.mp3",
+    "transcript": " Vai forte, babbo! Eh, sì! Uno, due, tre! Vai! Lo compriamo per la mamma? Quanto costa? 15 lire. Eh, 15 lire? No, ma quella è finta, sarà una torta finta.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.38
+            ],
+            "text": " Vai forte, babbo!"
+        },
+        {
+            "timestamp": [
+                1.4,
+                1.74
+            ],
+            "text": " Eh, sì!"
+        },
+        {
+            "timestamp": [
+                2.58,
+                4.78
+            ],
+            "text": " Uno, due, tre!"
+        },
+        {
+            "timestamp": [
+                5.9,
+                6.32
+            ],
+            "text": " Vai!"
+        },
+        {
+            "timestamp": [
+                13.4,
+                15.22
+            ],
+            "text": " Lo compriamo per la mamma?"
+        },
+        {
+            "timestamp": [
+                15.48,
+                16.08
+            ],
+            "text": " Quanto costa?"
+        },
+        {
+            "timestamp": [
+                16.24,
+                17.14
+            ],
+            "text": " 15 lire."
+        },
+        {
+            "timestamp": [
+                17.34,
+                18.38
+            ],
+            "text": " Eh, 15 lire?"
+        },
+        {
+            "timestamp": [
+                18.48,
+                19.42
+            ],
+            "text": " No, ma quella è finta,"
+        },
+        {
+            "timestamp": [
+                19.5,
+                19.98
+            ],
+            "text": " sarà una torta finta."
+        }
+    ]
+}

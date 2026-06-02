@@ -1,0 +1,27 @@
+{
+    "video_id": "Top090_01300.mp4.mp3",
+    "transcript": " My point! Decker. It's not going to work.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                7.68
+            ],
+            "text": " My point!"
+        },
+        {
+            "timestamp": [
+                12.68,
+                13.52
+            ],
+            "text": " Decker."
+        },
+        {
+            "timestamp": [
+                15.18,
+                16.42
+            ],
+            "text": " It's not going to work."
+        }
+    ]
+}

@@ -1,0 +1,657 @@
+{
+    "video_id": "test_tutorial_22.mp4.mp3",
+    "transcript": " If I were creating this series even a few months ago, I would never consider including the Remove tool. But looking at how versatile it has been, how well it works, it would be criminal of me to not include it. Let me show you a few examples. First of all, let us take the Clone Stamp tool right here. Now the way the Clone Stamp tool works is that it's just a simple copy and paste in a brush and it's important to learn, we'll get to it later. But for right now, if you choose the Clone Stamp tool, which is this tool right here, let's select that. And let's say we want to remove this chain that he's wearing. If we take a sample, here's how we take a sample. We hold the Alt key or the Option key, click to take a sample, and we try to align it right here. And if we paint, the alignment goes haywire. Yes, there is a way you can rotate the sample and then paint it. There are shortcuts. We have made a video about it many years ago. But still, this is complicated. Then you also have something like the spot healing brush tool. Let's select that and let's try to paint it. This is automatic, but it doesn't work that well. Let's paint like this. See, it creates this breakpoint and in complicated areas, it absolutely messes up. If we try to paint like this, look at the weird shape it has created, but it's still better. But then comes the remove tool, which changes everything. Now, I know I heard this in a rap song, but I think it's important. And it goes like, if you don't evolve, you will evaporate. And I don't want you to evaporate. We have to move with the times. We have to move with the technological advancements. And the introduction of these tools not only entirely changed the way we work with Photoshop, but also changes the way we learn Photoshop. So it's important that we learn it in the beginning stages. So first off, we have the remove tool. Let's do some housekeeping. How do you see the tool? You want to make sure that you have updated to the latest version of Photoshop. Let's go to Help, About Photoshop, make sure your version is 24.5 or higher. Now keep in mind, this is the regular version of Photoshop, not the beta. So just update your Photoshop and you'll be good to go. Now how do you see the remove tool? Even after updating, if you don't see the remove tool right here, it probably means that it's hidden. If you click on the link in the description, you will be able to see the link to the website where you can download it. If you click on the link in the description, you will be able to see the link to the website where you can download it. If you click on the link in the description, you will be able to see the link to the website where you can download it. If you click on the link in the description, you will be able to see the link to the website where you can download it. If you click on the link in the description, you will be able to see the link to the website where you can download it. If you click on the link in the description, you will be able to see the link to the website where you can download it. If you click on the link in the description, you will be able to see the link to the website where you can download it. If you click on the link in the description, you will be able to see the link to the website where you can download it. If you click on the link in the description, you will be able to see the link to the website where you can download it. If you click on the link in the description, you will be able to see the link to the website where you can download it. If you click on the link in the description, you will be able to see the link to the website where you can download it. If you click on the link in the description, you will be able to see the link to the website where you can download it. If you click on the link in the description, you will be able to see the link to the website where you can download it. If you click on the link in the description, you will be able to see. Now, how do you see the remove tool? Even after updating, if you don't see the remove tool right here, it probably means that it's hidden. So if you click on the three dots right here, there you have the remove tool. If you still don't see it, go to edit toolbar and inside of that in extra tools section, you will see the remove tool. If you don't see it yet right here or somewhere here, you will see it. Now you can arrange tools the way you want. So I'm going to go to this section, which is the Spot Healing, and you can keep it in any order you want. I want to keep it absolutely at the top. Click on Done. And now you have the Remove Tool at the top. Now have a look at the magic of Remove Tool. First of all, I would always create a new layer by clicking on this button so that we are working non-destructively and we are filling areas on a brand new layer. Then you want to make sure sample all layers is checked. Otherwise, the current layer is empty and it's not going to sample anything. And then simply paint. Now it's not removing those because remove after each stroke is unchecked. So let's check it from right here and have a look at it. It's much better. Now you can check this. We'll look at these settings later, but have a look at the difference between this and the spot healing. So let's do the same right here. We're going to paint over the chain all throughout and take a look at the difference. Look at how good this is. this is way better. Everything is joined properly. In this lesson, we'll dive deep into how to use the remove tool and I can guarantee that you'll be a master of remove tool by the end of this video if you practice along. Now, before we move forward, let's see how it does in this area. This is a tricky area. Let's paint. Wow, look. This is amazing. And if you feel that a line is not straight, just dab right there. It straightens the line. That's so cool. Let's start from square one. So what is the remove tool in Photoshop? It's simply a Photoshop tool. Now keep in mind, it's a tool. It's not something like content aware fill. It's not a function. It's a tool, Photoshop tool to remove stuff. That's all there is to it. Now it can do more. We'll get to it later. But it's a great removal tool. It does not fill an area with something else like the sensational generative fill. It is just for removing stuff. Take a look at this example. First of all, always create a new layer by clicking on the new layer button right there. Make sure sample all layers and remove after each stroke is checked. Now just like the brush, you can adjust the size here as well with the bracket keys. So I can decrease the size, increase the size, it's up to you. Now let me share with you a trick. Let's say you want to remove this line. So what do you do? You can hold the shift key. And if you draw, it will draw a straight line. So cool, isn't it? Now I can go forward. And first of all, let me remove this. All right, we can go forward, even go inside a little bit like that. And it takes care of the hand edge and everything. And if this area looks a little awkward, don't worry about it. Just paint over it like this. There you go. It joins the line. Let's do it one more time right here. Perfect. Let's do it right here as well. It improves that. Let's try a couple of times. Once right here as well. And there you go. A perfect edge. Now, let me share with you one more trick. When you're holding the shift key, it will only let you draw like this, horizontal, or like this. All right. It won't let you draw straight lines unless they are horizontal or vertical. So how do we get around that? First of all, uncheck remove after each stroke because we will need several dabs here. What do I mean by that? Let's say we have to remove this line right here and it's not absolutely straight. Let's say this line, it's not straight. So here's what we do. We dab once, hold the shift key and dab at the other corner. It draws a line between point A and point B and then you can check it to remove it. Cool. Similarly, let me do that one more time for you. Just dab once. All right. Point A. Hold the shift key. Dab at point B. And it draws a line between those two points. And by the way, this works with the brush tool. Anything with a brush on it. Now check it. There you go. Gone. Now, as I told you, the remove tool, as the name suggests, can definitely remove things, but it also can join things, attach things, create lines. And we did a video about it, which you can watch right here. Just a short preview. For example, you want to make the beard sharper. You want to to make it come in a line so let's create a new layer and just paint like this there you go it's now in a line let's paint a little bit right there let's paint in this missing area that was weird let's try one more time that's better so there you go let's take a look at the before and after so here's the before here's the after the after. You see that? Now, there's a detailed video on it. Of course, you can watch it right here. Now, the remove tool, keep in mind, it's a tool. And just like every other tool, remove tool has its own options. Where? In the options bar. Let me give you a refresher from the first lesson. Any tool you select, for example, the brush tool, the options for the brush tool will be at the top in the options bar. And that is why it is called the options bar. And this option corresponds to the tool that you have selected or is activated at the moment. So right now, if we select the remove tool right here, first we have the size, which we can easily control with the bracket keys. We can increase the size or decrease the size. Now here Here we have the option for Pen Pressure. If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure to control the Pen Pressure. If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure to control the Pen Pressure. If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure to control the Pen Pressure. If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure to control the Pen Pressure and the Pen Pressure. If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure to control the Pen Pressure and the Pen Pressure. If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure to control the Pen Pressure and the Pen Pressure. If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure to control the Pen Pressure and the Pen Pressure. If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure to control the Pen Pressure and the Pen Pressure. If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure to control the Pen Pressure and the Pen Pressure. If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure to control the Pen Pressure and the Pen Pressure and the Pen Pressure. If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure to control the Pen Pressure and the can increase the size or decrease the size. Now here we have the option for pen pressure. If that is activated, the size of the brush will be controlled by the pressure in your pen, if you're using a graphic tablet. So if I press softly, have a look, the size is small, but if I press harder and harder, the size is bigger. As soon as I start pressing softly, the size gets smaller and smaller. All right. I usually keep it unchecked. We don't really need that. All right. Let's deactivate it. Now, this checkbox is very important. That is sample all layers. It allows you to create a different layer for the fill areas. So let's say in this case, I want to remove this distraction right here. Of course, I can remove it in the background layer, in the image layer, just like this. But now I want to get it back or now I want to decrease the opacity. I just cannot. I'm stuck. It's gone. However, if I create a new layer and then if this is unchecked and if we try to do that, there is nothing to sample from, right? This is an empty layer. So how do we make the remove tool consider everything that's on the canvas? Just make sure sample all layers is checked. Now when you try to do that, it will remove it and that replaced area will be on a new layer. You can then decrease the opacity, increase the opacity. That's up to you. You have all the freedom you want. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon on the top right corner of the screen. You can do this by clicking on the icon layer. You can then decrease the opacity, increase the opacity, that's up to you. You have all the freedom you want. You can turn it off and on. This is non-destructive. The next option is super important. That is remove after each stroke. Unless you are a super professional acrobat with your pen or mouse, this is a very important option. So let's say this is checked and you want to remove this car. You want to be careful with it. You only want to remove the car. Let's say you paint it like this and then you want to paint on the inside and you want to lift your pen or mouse. But when you lift it, it's going to go crazy. Now you have to deal with all of these artifacts. So oftentimes, you need to paint a couple of times. You need to lift your pen, paint again, or lift the mouse button and paint again to make sure that the entire object is covered and then apply the removal. And for those situations, let's go back. For those situations, you want to make sure that this is unchecked so that you can apply it, lift your hand, apply it again, lift your hand, and you can take your time with this. You want to make sure just the car gets affected. And then you can take your time to fill the car. You don't have to worry about getting your mouse button or pen get lifted accidentally. And once you're done, you can just click on check right here and it removes that beautifully. Now, after that, we have to clean up. Now, in this situation, it would be very time consuming if I painted just a little bit and then clicked on check, painted one more time and clicked on check. And for those situations again, let's go back. Just check remove after each stroke and it will automatically remove after each stroke. Just paint right here. Fixed. Just paint right here to continue this line. And it should hopefully. There you go. And paint right here again. That is nicer. So sometimes you need it on. Sometimes you need it off. And there you have the car removed. Let's take a look. Here's the before, here's the after. If you see any discrepancy like I'm seeing now, just paint over it and it's gone. Now, one of the things this tool does incredible when it comes to retouching is removing flyaway hair or cross hair much better than the spot healing brush tool. So now if you zoom in, let's say there's a hair going through a lot of things let's choose the remove tool and sometimes if we work with the spot healing brush tool let me share that with you let's choose the spot healing brush tool make sure you create a new layer make sure sample all layers is checked and then if i paint like this all throughout somewhere it will break have a look at it here's. Here's the before. Here's the after. There's a break point right here. Now, if you take the remove tool, let us choose the remove tool from right here. And now if we do the same thing, make sure remove after each stroke is checked. Does it create a break point? Yes, it does. But it's much better than before. Now, if I paint one more time, it fixes the breakpoint. Paint one more time, it fixes that line. And there you go. You cannot even see what the problem was. So removing flyaway hair, that was a very complicated one. Have a look right here as well. If I continue, see, it joined the line, which is so good. Similarly, you can remove flyaway hair, cross hair, and this is into high-end retouching. Now, in moments like these, you wouldn't be using something like the generator fill because it just doesn't make sense. Now, just by doing nothing much, we have removed a lot before, after, before, after and such a clean job it has done. Similarly, you can use the same technique to remove wrinkles or blemishes. Just zoom in, paint over the blemishes and it's gone. And it does a pretty good job. Wrinkles as well. Just paint over them and it goes away. Pretty good. Now, the reason I recommend doing it on a separate layer is because we can control the opacity. Sometimes you want to keep it a little natural, but a little removed too. So let's create a new layer. I just clicked on this button to create a new layer. Let's say you're creating a layer for wrinkles. And in here, you removed the wrinkles that you didn't want. But removing all of them would make it look unnatural and take all the smile lines away. We don't want that. We want her to be happy. So we can keep a little bit of it so let's remove these for example and now all of that is gone now what we can do is simply decrease the opacity so have a little bit of those lines but not too much of it let's say at 50 percent so here's the before the groove is too deep here's the Now it's settled. Now let me share with you one more hidden use case. Now this is not so much known, but we covered it in this video. It's similar to that. So if you zoom in, let's say the teeth is not straight. If you want it to be absolutely straight, let's say we create a new layer. Now in this case, her teeth is amazing. But for some reason, if you want straight teeth, just paint right here. It creates a straight line. Just paint. There you go. Look at that. Right here, if this is not straight, just paint right here. Now, this is amazing. I'm just sharing with you an example. There you go. It's done. When someone has applied a thick lipstick and it is straight, but the model says, hey, I want it absolutely perfectly straight. Here's how you do it. Let's say this is the lipstick and it's looking amazing. Let's create a new layer first. But there are these little break points. These are nothing but you want to make it straight so you can paint. There you go. That is fixed. There you go. That is fixed. Similarly, you can paint in this area to connect the line. It connects. So little connections like that remove tool can be absolutely essential. essential now one of my favorite things about the remove tool is that it creates edges and lines perfectly so in this example i was at adobe offices in san francisco let's say you have to remove this of course it will do a fantastic job of it there's no rocket science here but have a look there's lots of lines right here this pattern. Let's see how it performs when it comes to removing that. It did a good job there. If I remove this. And again, this one as well. It did a perfectly amazing job. If something is not connecting, you can paint to join that line and it does an okay job. There you go. It's better now. Now similarly right here as well. Just paint the whole thing. There you go. Such a straight line. I have to remove this railing from right here. Let's do that. Let's paint all over it. Now there are lots of lines and floor mats involved. But let's see how it does that. It continues the floor mat, which is good. But it kind of messed up right over here. So first, let's remove it. Then let's paint to continue this line. See, it continued that line. Similarly, just paint right here to continue that line. It did not continue for some reason. There you go. Paint one more time. And there you go. That line is continued. If you want to remove this plant and you want to create a line right here, that's the magic we can do. Just paint a couple of times and it will do the magic for you. So there you go, like that. Now, it didn't do a perfectly awesome job, but just paint over the lines. Just paint a few times, let it continue the line, and it did continue the line. Let's paint a little bit right here. Make the wall smoother. And if you want, there's this shadow right here, which shouldn't be there. There you go. That is remove tool. And that's how you can create lines by using the remove tool. All you have to do, just paint a couple of times there. You'll get a hang of it. Now, there's something you should be careful about when using the remove tool. Try not to use it in large areas at one time. Little by little is fine, especially when it comes to retouching. So in this case, this hair might be distracting you. So we can paint over it. No problem at all. All right. But if I painted a large portion like this, it will create this AI pattern. It didn't do now. Let me do that one more time. One time, it looks okay. But if you zoom in, you see this pattern created by AI. If I paint again and again and again, see this pattern that is created that looks unnatural. And you will see this pattern if you use the remove tool over an area many times, especially if it's skin. So let's say I wanted to remove this and I painted all over the eye bag. It did a good job. But if I keep on doing it more and more, you keep on seeing this pattern right here, like somebody has woven this area. So use little by little like this. It's fine. Use once in an area subtly. Don't repeat over the same area again and again. And just be careful. Be mindful of it. So that's all about the remove tool in Photoshop. And just like the batteries in my candles. Yes, that's an electric candle. This lesson comes to an end and I'll see you in the next lesson. All you have to keep in mind is that the remove tool is a tool to remove stuff. But it's not just limited to that. It does more than that. It creates lines, joins lines, creates smooth edges, and there are many applications of it. You have to be careful of one thing. That is, if you paint over large areas, especially when you're working with the skin, it creates a pattern, not only in the skin. Even if you're removing Thank you for watching. You have to be careful of one thing, that is, if you paint over large areas, especially when you're working with the skin, it creates a pattern, not only in the skin, even if you're removing something in nature and you paint a lot over an area, over a large area many times, you may likely see that pattern. So be careful with the remove tool. Whenever you're working with the remove tool, make sure you're working on a separate layer and make sure sample all layers is checked so that you are working non-destructively. Also according to your needs, you can check on and off remove after each stroke. I hope this video helped you and if it did, make sure to give us a like and also don't forget to subscribe and not just subscribe, ring the bell so that you my friend don't miss any other future tips, tricks or tutorials. I would like to take this moment to thank all of these nice and amazing people for supporting Piximperfect on Patreon and helping keep Piximperfect free for everybody forever. Thank you so much for watching this lesson. You can access all of the lessons of this course right here at LearnPhotoshopFree.com or some link. I'll leave it on the screen. Thank you so much for watching. I'll you in the next one till then stay tuned and make sure that you keep creating we're up here on cloud nine and somehow we get it right every time these days we're partners in crime and i like it like that",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.08,
+                105.16
+            ],
+            "text": " If I were creating this series even a few months ago, I would never consider including the Remove tool. But looking at how versatile it has been, how well it works, it would be criminal of me to not include it. Let me show you a few examples. First of all, let us take the Clone Stamp tool right here. Now the way the Clone Stamp tool works is that it's just a simple copy and paste in a brush and it's important to learn, we'll get to it later. But for right now, if you choose the Clone Stamp tool, which is this tool right here, let's select that. And let's say we want to remove this chain that he's wearing. If we take a sample, here's how we take a sample. We hold the Alt key or the Option key, click to take a sample, and we try to align it right here. And if we paint, the alignment goes haywire. Yes, there is a way you can rotate the sample and then paint it. There are shortcuts. We have made a video about it many years ago. But still, this is complicated. Then you also have something like the spot healing brush tool. Let's select that and let's try to paint it. This is automatic, but it doesn't work that well. Let's paint like this. See, it creates this breakpoint and in complicated areas, it absolutely messes up. If we try to paint like this, look at the weird shape it has created, but it's still better. But then comes the remove tool, which changes everything. Now, I know I heard this in a rap song, but I think it's important. And it goes like, if you don't evolve, you will evaporate. And I don't want you to evaporate. We have to move with the times. We have to move with the technological advancements. And the introduction of these tools not only entirely changed the way we work with Photoshop, but also changes the way we learn Photoshop. So it's important that we learn it in the beginning stages. So first off, we have the remove tool."
+        },
+        {
+            "timestamp": [
+                105.16,
+                106.36
+            ],
+            "text": " Let's do some housekeeping."
+        },
+        {
+            "timestamp": [
+                106.36,
+                107.36
+            ],
+            "text": " How do you see the tool?"
+        },
+        {
+            "timestamp": [
+                107.36,
+                111.04
+            ],
+            "text": " You want to make sure that you have updated to the latest version of Photoshop."
+        },
+        {
+            "timestamp": [
+                111.04,
+                116.5
+            ],
+            "text": " Let's go to Help, About Photoshop, make sure your version is 24.5 or higher."
+        },
+        {
+            "timestamp": [
+                116.5,
+                119.98
+            ],
+            "text": " Now keep in mind, this is the regular version of Photoshop, not the beta."
+        },
+        {
+            "timestamp": [
+                119.98,
+                122.86
+            ],
+            "text": " So just update your Photoshop and you'll be good to go."
+        },
+        {
+            "timestamp": [
+                122.86,
+                124.64
+            ],
+            "text": " Now how do you see the remove tool?"
+        },
+        {
+            "timestamp": [
+                124.64,
+                130.68
+            ],
+            "text": " Even after updating, if you don't see the remove tool right here, it probably means that it's hidden. If you click on the link in the description, you will be able to see the link to the website"
+        },
+        {
+            "timestamp": [
+                130.68,
+                131.68
+            ],
+            "text": " where you can download it."
+        },
+        {
+            "timestamp": [
+                131.68,
+                132.68
+            ],
+            "text": " If you click on the link in the description, you will be able to see the link to the website"
+        },
+        {
+            "timestamp": [
+                132.68,
+                133.68
+            ],
+            "text": " where you can download it."
+        },
+        {
+            "timestamp": [
+                133.68,
+                134.68
+            ],
+            "text": " If you click on the link in the description, you will be able to see the link to the website"
+        },
+        {
+            "timestamp": [
+                134.68,
+                135.68
+            ],
+            "text": " where you can download it."
+        },
+        {
+            "timestamp": [
+                135.68,
+                136.68
+            ],
+            "text": " If you click on the link in the description, you will be able to see the link to the website"
+        },
+        {
+            "timestamp": [
+                136.68,
+                137.68
+            ],
+            "text": " where you can download it."
+        },
+        {
+            "timestamp": [
+                137.68,
+                138.68
+            ],
+            "text": " If you click on the link in the description, you will be able to see the link to the website"
+        },
+        {
+            "timestamp": [
+                138.68,
+                139.68
+            ],
+            "text": " where you can download it."
+        },
+        {
+            "timestamp": [
+                139.68,
+                140.68
+            ],
+            "text": " If you click on the link in the description, you will be able to see the link to the website"
+        },
+        {
+            "timestamp": [
+                140.68,
+                141.68
+            ],
+            "text": " where you can download it."
+        },
+        {
+            "timestamp": [
+                141.68,
+                142.68
+            ],
+            "text": " If you click on the link in the description, you will be able to see the link to the website"
+        },
+        {
+            "timestamp": [
+                142.68,
+                143.68
+            ],
+            "text": " where you can download it."
+        },
+        {
+            "timestamp": [
+                143.68,
+                144.68
+            ],
+            "text": " If you click on the link in the description, you will be able to see the link to the website"
+        },
+        {
+            "timestamp": [
+                144.68,
+                145.68
+            ],
+            "text": " where you can download it."
+        },
+        {
+            "timestamp": [
+                145.68,
+                146.68
+            ],
+            "text": " If you click on the link in the description, you will be able to see the link to the website"
+        },
+        {
+            "timestamp": [
+                146.68,
+                147.68
+            ],
+            "text": " where you can download it."
+        },
+        {
+            "timestamp": [
+                147.68,
+                148.68
+            ],
+            "text": " If you click on the link in the description, you will be able to see the link to the website"
+        },
+        {
+            "timestamp": [
+                148.68,
+                149.68
+            ],
+            "text": " where you can download it."
+        },
+        {
+            "timestamp": [
+                149.68,
+                150.68
+            ],
+            "text": " If you click on the link in the description, you will be able to see the link to the website"
+        },
+        {
+            "timestamp": [
+                150.68,
+                151.68
+            ],
+            "text": " where you can download it."
+        },
+        {
+            "timestamp": [
+                151.68,
+                152.68
+            ],
+            "text": " If you click on the link in the description, you will be able to see the link to the website"
+        },
+        {
+            "timestamp": [
+                152.68,
+                153.68
+            ],
+            "text": " where you can download it."
+        },
+        {
+            "timestamp": [
+                153.68,
+                185.74
+            ],
+            "text": " If you click on the link in the description, you will be able to see the link to the website where you can download it. If you click on the link in the description, you will be able to see. Now, how do you see the remove tool? Even after updating, if you don't see the remove tool right here, it probably means that it's hidden. So if you click on the three dots right here, there you have the remove tool. If you still don't see it, go to edit toolbar and inside of that in extra tools section, you will see the remove tool. If you don't see it yet right here or somewhere here, you will see it. Now you can arrange tools the way you want. So I'm going to go to this section, which is the Spot Healing, and you can keep it in any order you want. I want to keep it absolutely at the top. Click on Done. And now you have the Remove Tool at the top. Now have a look at the magic of Remove Tool. First of all, I would always create a new layer by clicking on this button so that we are working non-destructively and we are filling areas on a brand new layer. Then you want to make sure sample all layers is checked. Otherwise, the current layer is empty and it's not going to sample anything. And then simply paint. Now it's not removing those because remove after each stroke is unchecked. So let's check it from right here and have a look at"
+        },
+        {
+            "timestamp": [
+                185.74,
+                445.54
+            ],
+            "text": " it. It's much better. Now you can check this. We'll look at these settings later, but have a look at the difference between this and the spot healing. So let's do the same right here. We're going to paint over the chain all throughout and take a look at the difference. Look at how good this is. this is way better. Everything is joined properly. In this lesson, we'll dive deep into how to use the remove tool and I can guarantee that you'll be a master of remove tool by the end of this video if you practice along. Now, before we move forward, let's see how it does in this area. This is a tricky area. Let's paint. Wow, look. This is amazing. And if you feel that a line is not straight, just dab right there. It straightens the line. That's so cool. Let's start from square one. So what is the remove tool in Photoshop? It's simply a Photoshop tool. Now keep in mind, it's a tool. It's not something like content aware fill. It's not a function. It's a tool, Photoshop tool to remove stuff. That's all there is to it. Now it can do more. We'll get to it later. But it's a great removal tool. It does not fill an area with something else like the sensational generative fill. It is just for removing stuff. Take a look at this example. First of all, always create a new layer by clicking on the new layer button right there. Make sure sample all layers and remove after each stroke is checked. Now just like the brush, you can adjust the size here as well with the bracket keys. So I can decrease the size, increase the size, it's up to you. Now let me share with you a trick. Let's say you want to remove this line. So what do you do? You can hold the shift key. And if you draw, it will draw a straight line. So cool, isn't it? Now I can go forward. And first of all, let me remove this. All right, we can go forward, even go inside a little bit like that. And it takes care of the hand edge and everything. And if this area looks a little awkward, don't worry about it. Just paint over it like this. There you go. It joins the line. Let's do it one more time right here. Perfect. Let's do it right here as well. It improves that. Let's try a couple of times. Once right here as well. And there you go. A perfect edge. Now, let me share with you one more trick. When you're holding the shift key, it will only let you draw like this, horizontal, or like this. All right. It won't let you draw straight lines unless they are horizontal or vertical. So how do we get around that? First of all, uncheck remove after each stroke because we will need several dabs here. What do I mean by that? Let's say we have to remove this line right here and it's not absolutely straight. Let's say this line, it's not straight. So here's what we do. We dab once, hold the shift key and dab at the other corner. It draws a line between point A and point B and then you can check it to remove it. Cool. Similarly, let me do that one more time for you. Just dab once. All right. Point A. Hold the shift key. Dab at point B. And it draws a line between those two points. And by the way, this works with the brush tool. Anything with a brush on it. Now check it. There you go. Gone. Now, as I told you, the remove tool, as the name suggests, can definitely remove things, but it also can join things, attach things, create lines. And we did a video about it, which you can watch right here. Just a short preview. For example, you want to make the beard sharper. You want to to make it come in a line so let's create a new layer and just paint like this there you go it's now in a line let's paint a little bit right there let's paint in this missing area that was weird let's try one more time that's better so there you go let's take a look at the before and after so here's the before here's the after the after. You see that? Now, there's a detailed video on it. Of course, you can watch it right here. Now, the remove tool, keep in mind, it's a tool. And just like every other tool, remove tool has its own options. Where? In the options bar. Let me give you a refresher from the first lesson. Any tool you select, for example, the brush tool, the options"
+        },
+        {
+            "timestamp": [
+                445.54,
+                450.66
+            ],
+            "text": " for the brush tool will be at the top in the options bar. And that is why it is called the"
+        },
+        {
+            "timestamp": [
+                450.66,
+                456.28
+            ],
+            "text": " options bar. And this option corresponds to the tool that you have selected or is activated at"
+        },
+        {
+            "timestamp": [
+                456.28,
+                461.96
+            ],
+            "text": " the moment. So right now, if we select the remove tool right here, first we have the size, which we"
+        },
+        {
+            "timestamp": [
+                461.96,
+                469.42
+            ],
+            "text": " can easily control with the bracket keys. We can increase the size or decrease the size. Now here Here we have the option for Pen Pressure."
+        },
+        {
+            "timestamp": [
+                469.42,
+                470.42
+            ],
+            "text": " If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure"
+        },
+        {
+            "timestamp": [
+                470.42,
+                471.42
+            ],
+            "text": " to control the Pen Pressure."
+        },
+        {
+            "timestamp": [
+                471.42,
+                472.42
+            ],
+            "text": " If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure"
+        },
+        {
+            "timestamp": [
+                472.42,
+                473.42
+            ],
+            "text": " to control the Pen Pressure."
+        },
+        {
+            "timestamp": [
+                473.42,
+                474.42
+            ],
+            "text": " If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure"
+        },
+        {
+            "timestamp": [
+                474.42,
+                475.42
+            ],
+            "text": " to control the Pen Pressure."
+        },
+        {
+            "timestamp": [
+                475.42,
+                476.42
+            ],
+            "text": " If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure"
+        },
+        {
+            "timestamp": [
+                476.42,
+                477.42
+            ],
+            "text": " to control the Pen Pressure and the Pen Pressure."
+        },
+        {
+            "timestamp": [
+                477.42,
+                478.42
+            ],
+            "text": " If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure"
+        },
+        {
+            "timestamp": [
+                478.42,
+                479.42
+            ],
+            "text": " to control the Pen Pressure and the Pen Pressure."
+        },
+        {
+            "timestamp": [
+                479.42,
+                480.42
+            ],
+            "text": " If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure"
+        },
+        {
+            "timestamp": [
+                480.42,
+                481.42
+            ],
+            "text": " to control the Pen Pressure and the Pen Pressure."
+        },
+        {
+            "timestamp": [
+                481.42,
+                482.42
+            ],
+            "text": " If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure"
+        },
+        {
+            "timestamp": [
+                482.42,
+                483.42
+            ],
+            "text": " to control the Pen Pressure and the Pen Pressure."
+        },
+        {
+            "timestamp": [
+                483.42,
+                484.42
+            ],
+            "text": " If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure"
+        },
+        {
+            "timestamp": [
+                484.42,
+                485.42
+            ],
+            "text": " to control the Pen Pressure and the Pen Pressure."
+        },
+        {
+            "timestamp": [
+                485.42,
+                486.42
+            ],
+            "text": " If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure"
+        },
+        {
+            "timestamp": [
+                486.42,
+                487.42
+            ],
+            "text": " to control the Pen Pressure and the Pen Pressure."
+        },
+        {
+            "timestamp": [
+                487.42,
+                488.42
+            ],
+            "text": " If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure"
+        },
+        {
+            "timestamp": [
+                488.42,
+                489.42
+            ],
+            "text": " to control the Pen Pressure and the Pen Pressure and the Pen Pressure."
+        },
+        {
+            "timestamp": [
+                489.42,
+                490.42
+            ],
+            "text": " If that is active, we can use Pen Pressure to control the Pen Pressure and the Pen Pressure"
+        },
+        {
+            "timestamp": [
+                490.42,
+                526.0
+            ],
+            "text": " to control the Pen Pressure and the can increase the size or decrease the size. Now here we have the option for pen pressure. If that is activated, the size of the brush will be controlled by the pressure in your pen, if you're using a graphic tablet. So if I press softly, have a look, the size is small, but if I press harder and harder, the size is bigger. As soon as I start pressing softly, the size gets smaller and smaller. All right. I usually keep it unchecked. We don't really need that. All right. Let's deactivate it. Now, this checkbox is very important. That is sample all layers. It allows you to create a different layer for the fill areas. So let's say in this case, I want to remove this distraction right here. Of course, I can remove it in the background layer, in the image layer, just like this. But now I want to get it back or now I want to decrease the opacity. I just cannot. I'm stuck. It's gone. However, if I create a new layer and then if this is unchecked and if we try to do that,"
+        },
+        {
+            "timestamp": [
+                526.0,
+                528.1
+            ],
+            "text": " there is nothing to sample from, right?"
+        },
+        {
+            "timestamp": [
+                528.1,
+                529.84
+            ],
+            "text": " This is an empty layer."
+        },
+        {
+            "timestamp": [
+                529.84,
+                534.2
+            ],
+            "text": " So how do we make the remove tool consider everything that's on the canvas?"
+        },
+        {
+            "timestamp": [
+                534.2,
+                537.6
+            ],
+            "text": " Just make sure sample all layers is checked."
+        },
+        {
+            "timestamp": [
+                537.6,
+                550.76
+            ],
+            "text": " Now when you try to do that, it will remove it and that replaced area will be on a new layer. You can then decrease the opacity, increase the opacity. That's up to you. You have all the freedom you want. You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                550.76,
+                551.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                551.76,
+                552.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                552.76,
+                553.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                553.76,
+                554.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                554.76,
+                555.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                555.76,
+                556.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                556.76,
+                557.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                557.76,
+                558.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                558.76,
+                559.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                559.76,
+                560.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                560.76,
+                561.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                561.76,
+                562.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                562.76,
+                563.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                563.76,
+                564.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                564.76,
+                565.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                565.76,
+                566.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                566.76,
+                567.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                567.76,
+                568.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                568.76,
+                569.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                569.76,
+                570.76
+            ],
+            "text": " You can do this by clicking on the icon on the top right corner of the screen."
+        },
+        {
+            "timestamp": [
+                570.76,
+                585.3
+            ],
+            "text": " You can do this by clicking on the icon layer. You can then decrease the opacity, increase the opacity, that's up to you. You have all the freedom you want. You can turn it off and on. This is non-destructive. The next option is super important. That is remove after each stroke. Unless you are a super professional acrobat with your pen or mouse, this is a very important option. So let's say this is checked and you want to remove this car. You want to be careful with it. You only want to remove the car. Let's say you paint it like this and then you want to paint on the inside and you want to lift your pen or mouse. But when you lift it, it's going to go crazy. Now you have to deal with all of these artifacts. So oftentimes, you need to paint a"
+        },
+        {
+            "timestamp": [
+                585.3,
+                1087.0
+            ],
+            "text": " couple of times. You need to lift your pen, paint again, or lift the mouse button and paint again to make sure that the entire object is covered and then apply the removal. And for those situations, let's go back. For those situations, you want to make sure that this is unchecked so that you can apply it, lift your hand, apply it again, lift your hand, and you can take your time with this. You want to make sure just the car gets affected. And then you can take your time to fill the car. You don't have to worry about getting your mouse button or pen get lifted accidentally. And once you're done, you can just click on check right here and it removes that beautifully. Now, after that, we have to clean up. Now, in this situation, it would be very time consuming if I painted just a little bit and then clicked on check, painted one more time and clicked on check. And for those situations again, let's go back. Just check remove after each stroke and it will automatically remove after each stroke. Just paint right here. Fixed. Just paint right here to continue this line. And it should hopefully. There you go. And paint right here again. That is nicer. So sometimes you need it on. Sometimes you need it off. And there you have the car removed. Let's take a look. Here's the before, here's the after. If you see any discrepancy like I'm seeing now, just paint over it and it's gone. Now, one of the things this tool does incredible when it comes to retouching is removing flyaway hair or cross hair much better than the spot healing brush tool. So now if you zoom in, let's say there's a hair going through a lot of things let's choose the remove tool and sometimes if we work with the spot healing brush tool let me share that with you let's choose the spot healing brush tool make sure you create a new layer make sure sample all layers is checked and then if i paint like this all throughout somewhere it will break have a look at it here's. Here's the before. Here's the after. There's a break point right here. Now, if you take the remove tool, let us choose the remove tool from right here. And now if we do the same thing, make sure remove after each stroke is checked. Does it create a break point? Yes, it does. But it's much better than before. Now, if I paint one more time, it fixes the breakpoint. Paint one more time, it fixes that line. And there you go. You cannot even see what the problem was. So removing flyaway hair, that was a very complicated one. Have a look right here as well. If I continue, see, it joined the line, which is so good. Similarly, you can remove flyaway hair, cross hair, and this is into high-end retouching. Now, in moments like these, you wouldn't be using something like the generator fill because it just doesn't make sense. Now, just by doing nothing much, we have removed a lot before, after, before, after and such a clean job it has done. Similarly, you can use the same technique to remove wrinkles or blemishes. Just zoom in, paint over the blemishes and it's gone. And it does a pretty good job. Wrinkles as well. Just paint over them and it goes away. Pretty good. Now, the reason I recommend doing it on a separate layer is because we can control the opacity. Sometimes you want to keep it a little natural, but a little removed too. So let's create a new layer. I just clicked on this button to create a new layer. Let's say you're creating a layer for wrinkles. And in here, you removed the wrinkles that you didn't want. But removing all of them would make it look unnatural and take all the smile lines away. We don't want that. We want her to be happy. So we can keep a little bit of it so let's remove these for example and now all of that is gone now what we can do is simply decrease the opacity so have a little bit of those lines but not too much of it let's say at 50 percent so here's the before the groove is too deep here's the Now it's settled. Now let me share with you one more hidden use case. Now this is not so much known, but we covered it in this video. It's similar to that. So if you zoom in, let's say the teeth is not straight. If you want it to be absolutely straight, let's say we create a new layer. Now in this case, her teeth is amazing. But for some reason, if you want straight teeth, just paint right here. It creates a straight line. Just paint. There you go. Look at that. Right here, if this is not straight, just paint right here. Now, this is amazing. I'm just sharing with you an example. There you go. It's done. When someone has applied a thick lipstick and it is straight, but the model says, hey, I want it absolutely perfectly straight. Here's how you do it. Let's say this is the lipstick and it's looking amazing. Let's create a new layer first. But there are these little break points. These are nothing but you want to make it straight so you can paint. There you go. That is fixed. There you go. That is fixed. Similarly, you can paint in this area to connect the line. It connects. So little connections like that remove tool can be absolutely essential. essential now one of my favorite things about the remove tool is that it creates edges and lines perfectly so in this example i was at adobe offices in san francisco let's say you have to remove this of course it will do a fantastic job of it there's no rocket science here but have a look there's lots of lines right here this pattern. Let's see how it performs when it comes to removing that. It did a good job there. If I remove this. And again, this one as well. It did a perfectly amazing job. If something is not connecting, you can paint to join that line and it does an okay job. There you go. It's better now. Now similarly right here as well. Just paint the whole thing. There you go. Such a straight line. I have to remove this railing from right here. Let's do that. Let's paint all over it. Now there are lots of lines and floor mats involved. But let's see how it does that. It continues the floor mat, which is good. But it kind of messed up right over here. So first, let's remove it. Then let's paint to continue this line. See, it continued that line. Similarly, just paint right here to continue that line. It did not continue for some reason. There you go. Paint one more time. And there you go. That line is continued. If you want to remove this plant and you want to create a line right here, that's the magic we can do. Just paint a couple of times and it will do the magic for you. So there you go, like that. Now, it didn't do a perfectly awesome job, but just paint over the lines. Just paint a few times, let it continue the line, and it did continue the line. Let's paint a little bit right here. Make the wall smoother. And if you want, there's this shadow right here, which shouldn't be there. There you go. That is remove tool. And that's how you can create lines by using the remove tool. All you have to do, just paint a couple of times there. You'll get a hang of it. Now, there's something you should be careful about when using the remove tool. Try not to use it in large areas at one time. Little by little is fine, especially when it comes to retouching. So in this case, this hair might be distracting you. So we can paint over it. No problem at all. All right. But if I painted a large portion like this, it will create this AI pattern. It didn't do now. Let me do that one more time. One time, it looks okay. But if you zoom in, you see this pattern created by AI. If I paint again and again and again, see this pattern that is created that looks unnatural. And you will see this pattern if you use the remove tool over an area many times, especially if it's skin. So let's say I wanted to remove this and I painted all over the eye bag. It did a good job. But if I keep on doing it more and more, you keep on seeing this pattern right here, like somebody has woven this area. So use little by little like this. It's fine. Use once in an area subtly. Don't repeat over the same area again and again. And just be careful. Be mindful of it. So that's all about the remove tool in Photoshop. And just like the batteries in my candles. Yes, that's an electric candle. This lesson comes to an end and I'll see you in the next lesson. All you have to keep in"
+        },
+        {
+            "timestamp": [
+                1087.0,
+                1092.94
+            ],
+            "text": " mind is that the remove tool is a tool to remove stuff. But it's not just limited to that. It does"
+        },
+        {
+            "timestamp": [
+                1092.94,
+                1099.36
+            ],
+            "text": " more than that. It creates lines, joins lines, creates smooth edges, and there are many applications"
+        },
+        {
+            "timestamp": [
+                1099.36,
+                1104.84
+            ],
+            "text": " of it. You have to be careful of one thing. That is, if you paint over large areas, especially when"
+        },
+        {
+            "timestamp": [
+                1104.84,
+                1109.94
+            ],
+            "text": " you're working with the skin, it creates a pattern, not only in the skin. Even if you're removing"
+        },
+        {
+            "timestamp": [
+                1109.94,
+                1170.96
+            ],
+            "text": " Thank you for watching. You have to be careful of one thing, that is, if you paint over large areas, especially when you're working with the skin, it creates a pattern, not only in the skin, even if you're removing something in nature and you paint a lot over an area, over a large area many times, you may likely see that pattern. So be careful with the remove tool. Whenever you're working with the remove tool, make sure you're working on a separate layer and make sure sample all layers is checked so that you are working non-destructively. Also according to your needs, you can check on and off remove after each stroke. I hope this video helped you and if it did, make sure to give us a like and also don't forget to subscribe and not just subscribe, ring the bell so that you my friend don't miss any other future tips, tricks or tutorials. I would like to take this moment to thank all of these nice and amazing people for supporting Piximperfect on Patreon and helping keep Piximperfect free for everybody forever. Thank you so much for watching this lesson. You can access all of the lessons of this course right here at LearnPhotoshopFree.com or some link. I'll leave it on the screen. Thank you so much for watching. I'll you in the next one till then stay tuned and make sure that you keep creating we're up here on cloud nine and somehow"
+        },
+        {
+            "timestamp": [
+                1170.96,
+                1182.72
+            ],
+            "text": " we get it right every time these days we're partners in crime and i like it like that"
+        }
+    ]
+}

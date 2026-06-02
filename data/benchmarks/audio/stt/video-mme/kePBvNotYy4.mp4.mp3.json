@@ -1,0 +1,27 @@
+{
+    "video_id": "kePBvNotYy4.mp4.mp3",
+    "transcript": " Hi! Let me tell you about my daily routine. Every day I wake up at 7 o'clock in the morning. First, I eat breakfast in the kitchen and feed my dog. Next, I brush my teeth. I take a shower. I dry my hair. I do my makeup, and I leave home around 8.30. I work downtown, so I drive my car every day. I start work at 9 o'clock, and I always arrive a few minutes early. I have lunch with my co-workers around noon and I finish work at 5 o'clock. When I get home, I walk my dog and I have dinner. In the evening, I take another shower and brush my teeth. I go to bed at 10 o'clock every night and that's my daily routine!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                91.04
+            ],
+            "text": " Hi! Let me tell you about my daily routine. Every day I wake up at 7 o'clock in the morning. First, I eat breakfast in the kitchen and feed my dog. Next, I brush my teeth. I take a shower. I dry my hair. I do my makeup, and I leave home around 8.30. I work downtown, so I drive my car every day. I start work at 9 o'clock, and I always arrive a few minutes early. I have lunch with my co-workers around noon and I finish work at 5 o'clock. When I get home, I walk my dog and I have dinner."
+        },
+        {
+            "timestamp": [
+                91.04,
+                96.36
+            ],
+            "text": " In the evening, I take another shower and brush my teeth."
+        },
+        {
+            "timestamp": [
+                96.36,
+                114.16
+            ],
+            "text": " I go to bed at 10 o'clock every night and that's my daily routine!"
+        }
+    ]
+}

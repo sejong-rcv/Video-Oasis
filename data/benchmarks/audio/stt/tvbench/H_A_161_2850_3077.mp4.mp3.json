@@ -1,0 +1,27 @@
+{
+    "video_id": "H_A_161_2850_3077.mp4.mp3",
+    "transcript": " Really rockin' around A crazy little ditty with a swingin' tune Singin' bop, bop-a-loo-bop, bop-bop-bam-boom",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.74
+            ],
+            "text": " Really rockin' around"
+        },
+        {
+            "timestamp": [
+                1.74,
+                4.6
+            ],
+            "text": " A crazy little ditty with a swingin' tune"
+        },
+        {
+            "timestamp": [
+                4.6,
+                7.5
+            ],
+            "text": " Singin' bop, bop-a-loo-bop, bop-bop-bam-boom"
+        }
+    ]
+}

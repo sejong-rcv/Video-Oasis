@@ -1,0 +1,139 @@
+{
+    "video_id": "20gUIdXGuAs.mp4.mp3",
+    "transcript": " You're watching The Context. It's time for our new weekly segment, AI Decoded. Welcome to AI Decoded, that time of the week when we look in depth at some of the most eye-catching stories in the world of artificial intelligence. And we begin, New York Times who report Google has been fined $271 million by France's competition watchdog for failing to broker agreements with media outlets for using their content to train its AI tech. Which leads us to a possible solution after leading AI developer OpenAI told the UK Parliament it's impossible to train leading AI models without using copyrighted materials. A group of researchers says there is an alternative after releasing what's thought to be the largest AI training data set composed entirely of text that's in the public domain, not under copyright. AP News looks at the UN General Assembly vote on what would be the first United Nations resolution on artificial intelligence. And the Verge Tech website has a video of one of their journalists having a real-time conversation with an AI avatar who responds to human speech. Currently it's an experimental program developed by video game developer Ubisoft and we'll show you a clip of that a little later actually. In the FT, an Uber Eats delivery worker who, after becoming fed up with the company's app consistently making errors, decided to rewrite the code to fix the issues. We have the author of that article with us and she'll tell us a bit more. And AFP News features novelist Salman Rushdie who says artificial intelligence tools may pose a threat to writers of thrillers and science fiction, but they lack the originality and humour to challenge serious novelists. And another artist, musician James Blunt, says he felt humiliated at how bad the results were when he experimented with AI to see if it could create lyrics accurately in his style. Well, with me here is Madhumita Mojia. The Financial Times' artificial intelligence editor. Thanks very much for coming on the programme. Thanks for having me. Right, lots to get through. Quite a busy week. I think we can probably almost say that every week now. Let's start with the New York Times. France finds Google amid AI dispute with news media. So this is a kind of broad issue that we're going to come up against quite a lot and already have. But a seemingly significant moment. What's happened here? Yeah. So this is, you know, there's been, as you say, a long running dispute between Google and news organisations about how Google has been using links, news media, newspaper articles and so on. This particular fine, they've said that they've failed to negotiate fair deals and have used data from newspapers to train their large language models, the chatbots that many of us have been using. So this is part of a wider ruling that they've made and said Google hasn't negotiated in good faith. And saying it's failing to inform publishers of the use of their content for their software. Isn't that something that we're kind of all the big AI kind of companies all in the same boat here? Is everything kind of trained the same way? Absolutely. It's not just Google. OpenAI too, you know, they are funded by Microsoft primarily. They also, they have one of the most powerful models, which powers ChatGPT, which people might have played around with. That too is a large language model trained on a huge corpus of data found online. New York Times itself actually has sued OpenAI and is currently in this court case with them saying that they've Thank you. on a huge corpus of data found online. New York Times itself actually has sued OpenAI and is currently in this court case with them saying that they have illegally used their copyrighted material. And that's kind of another ongoing battle on another front. Interesting. So we're going to stick with exactly this theme because there are now claims this is wired. Here's proof You can train an AI model without slurping copyrighted content. Not often you get slurping in a headline, but I like it. So what's this story about? So this is kind of look, this is the other side of the coin, right? Because the leaders of these companies, you know, OpenAI in particular, has said there's no other way to build these models. If we want really powerful language models, if we want chatbots, we need to use the words on the Internet. We need this data. But the research that's come out of here, it's a group of researchers backed by the French government. They've shown that actually there are other ways. There are alternatives. You can make data sets that power maybe smaller models, but for specific use cases. An example they give here is for a law firm, for example. So, if you're trying to build a language model specifically to help with lawyers and the work that they do, this could be true in scientific research or any sort of vertical that we want to apply it to, you can use less data and it can be paid for interesting so that's one potential solution but again on those narrow use cases or narrower use cases because it says in here that yeah the data set is tiny compared to what lots of the other language models were kind of based on so surely there must be some kind of difference in quality of outcome or maybe not. Maybe you don't need that. You know, obviously, the Internet has the entire swell of information that we all put out there from Reddit posts to, you know, Amazon comments and reviews. But there's also a lot of noise in that data, right? There's a lot of rubbish on the Internet, as everyone can attest to. So it's's not necessarily clean, good quality data. So, there is still, it's an open question of whether it's quantity or quality. And I think that there is an argument to be made for good quality data. Interesting. Right, let's move on to a bit of high level regulation now, because it's hugely important. There are, as we've been witnessing over the last kind of six months especially, these big attempts at regulation. The United Nations now hoping to get in on the act. What's going on there? So, today, the General Assembly is set to vote on what's going to be the first United Nations resolution on artificial intelligence. They're hoping that it will be unanimous. And the goal really is to bridge inequities between the developed Western world and countries in the global South developing world and make sure that those countries have a seat at the table when it comes to developing the technologies. And it isn't just places like the United States where these companies are based that, you know, see all the upside of the technology. Interesting, yeah, because we're picking up these quotes from AP here, and they're saying they want to make it safe, secure, trustworthy, kind of those broad principles that I think most people would kind of ascribe to. But really interesting up on exactly what you were talking about there it's it's distributing the potential benefits not just having a few companies in a few countries and therefore the populations and people of those countries benefiting but making sure it's across the world uh that's a laudable aim, I'm sure, but probably easier said than done. Absolutely. I mean, they're doing this so that they can help AI kind of achieve the UN development goals for 2030, which they're far behind on. So they're hoping this can address questions, you know, inequities in healthcare, education and so on. But these are big problems. And I'm not sure ai is the magic bullet to all of it but it's a step it's a step uh yeah some of the examples detecting diseases predicting floods helping farmers training the next generation of workers that's what they want to make sure is equally spread across the globe right next story before we talk about it we're going to actually see it because we're going to take a moment to watch this example of a real-time conversation with an AI avatar. This is not yet released. It's a creative experiment by video game developer Ubisoft that suggests the company has made small breakthroughs in AI, real-time emotion and animation, contextual awareness and collaborative decision-making. Let's take a look. Tell me one word why I should stay. Passion. You can feel it, can't you? All right. That burning desire to make a difference, to fight for what's right. That's what drives us, and that's what will keep you going through the tough times. And trust me, there will be tough times. But together we can overcome them. I have too much to lose. I have a family, two daughters. Really, should I be doing this? Family is everything, Nelson. And that's why we're fighting to create a better world for our loved ones. We can't continue living in fear and oppression. It's a risk, but it's risk worth taking for a brighter future. And don't worry, we'll have each other's backs. Have you lost anybody close to you? Yes. I've lost many. My son, my friends, my home. But every loss only fuels my determination to keep going. And through the resistance, I've found a new family. Together, we can make a difference and prevent others from experiencing the same pain. Right. Slightly strange to watch that. What was going on? So that is an avatar powered by AI. And what's unique about it is it's not scripted. So it's just responding to you in real time conversation. That's what's kind of new about this and a bit stunted. But you can see the kind of potential there for the next generation of games. It's quite haunting, wasn't it, watching it, which I suppose is part of the desired effect. But if that is basically still in the kind of concept phase, that seems, I don't know, pretty impressive. I mean, even if it is just a kind of fancy chatbot at the moment, it's still deeply impressive. Right. Let's move on to your story. FT, the delivery rider who took on his faceless boss is the headline. What's this? So this is actually from my book, which is which came out today, which which is exciting but this is about um it's called code dependent and it's about human beings who've been impacted by ai systems unexpectedly and armin sami who's the uber eats driver in this story found that he was being underpaid consistently or in one case and he wanted to figure out was this a problem that occurred again and again And because the algorithms that kind of govern work on gig apps are so opaque, you know, people, the people who work for these apps have no idea why they're being paid what they're being paid. He had to hack it. He essentially built a tool that could figure out how far he was traveling and therefore how much he should have been paid. He then made this free for other Uber Eats drivers to use. And they've all been using it around the world to figure out, you know, whether they've been underpaid, which they had. That is an absolutely incredible story. I wish we had more time for it. Unfortunately, we don't. Last issue, we've got to move on because we are unfortunately nearly out of time. Salman Rushdie, AI only poses a threat to unoriginal writers. And also we can look at at the same time, James Blunt, humiliated by generic AI versions of his lyrics. These are artists. What's going on? So this is really about creativity and whether artificial intelligence can ever be creative, right? Whether that's artists, voiceover actors, writers, journalists like us, you know, can we be replaced by AI? And so far, the answer seems to be no, it's pretty generic. James Blunt actually finds it, you know, humiliating, as he says, nothing like his real lyrics. So I don't think it's there yet, coming to replace us. Well,, yeah, you didn't have to bring journalists into it at the end. No one was talking about them until you brought it in. Right, we are out of time. Thank you so much for coming in and talking us through the brilliant stuff. That's it. We'll do this again same time next week.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.56,
+                105.46
+            ],
+            "text": " You're watching The Context. It's time for our new weekly segment, AI Decoded. Welcome to AI Decoded, that time of the week when we look in depth at some of the most eye-catching stories in the world of artificial intelligence. And we begin, New York Times who report Google has been fined $271 million by France's competition watchdog for failing to broker agreements with media outlets for using their content to train its AI tech. Which leads us to a possible solution after leading AI developer OpenAI told the UK Parliament it's impossible to train leading AI models without using copyrighted materials. A group of researchers says there is an alternative after releasing what's thought to be the largest AI training data set composed entirely of text that's in the public domain, not under copyright. AP News looks at the UN General Assembly vote on what would be the first United Nations resolution on artificial intelligence. And the Verge Tech website has a video of one of their journalists having a real-time conversation with an AI avatar who responds to human speech. Currently it's an experimental program developed by video game developer Ubisoft and we'll show you a clip of that a little later actually. In the FT, an Uber Eats delivery worker who, after becoming fed up with the company's app consistently making errors, decided to rewrite the code to fix the issues. We have the author of that article with us and she'll tell us a bit more. And AFP News features novelist Salman Rushdie who says artificial intelligence tools may pose a threat to writers of thrillers"
+        },
+        {
+            "timestamp": [
+                105.46,
+                128.28
+            ],
+            "text": " and science fiction, but they lack the originality and humour to challenge serious novelists. And another artist, musician James Blunt, says he felt humiliated at how bad the results were when he experimented with AI to see if it could create lyrics accurately in his style. Well, with me here is Madhumita Mojia."
+        },
+        {
+            "timestamp": [
+                128.44,
+                205.1
+            ],
+            "text": " The Financial Times' artificial intelligence editor. Thanks very much for coming on the programme. Thanks for having me. Right, lots to get through. Quite a busy week. I think we can probably almost say that every week now. Let's start with the New York Times. France finds Google amid AI dispute with news media. So this is a kind of broad issue that we're going to come up against quite a lot and already have. But a seemingly significant moment. What's happened here? Yeah. So this is, you know, there's been, as you say, a long running dispute between Google and news organisations about how Google has been using links, news media, newspaper articles and so on. This particular fine, they've said that they've failed to negotiate fair deals and have used data from newspapers to train their large language models, the chatbots that many of us have been using. So this is part of a wider ruling that they've made and said Google hasn't negotiated in good faith. And saying it's failing to inform publishers of the use of their content for their software. Isn't that something that we're kind of all the big AI kind of companies all in the same boat here? Is everything kind of trained the same way? Absolutely. It's not just"
+        },
+        {
+            "timestamp": [
+                205.1,
+                212.32
+            ],
+            "text": " Google. OpenAI too, you know, they are funded by Microsoft primarily. They also, they have one of"
+        },
+        {
+            "timestamp": [
+                212.32,
+                217.42
+            ],
+            "text": " the most powerful models, which powers ChatGPT, which people might have played around with."
+        },
+        {
+            "timestamp": [
+                217.72,
+                223.72
+            ],
+            "text": " That too is a large language model trained on a huge corpus of data found online. New York Times"
+        },
+        {
+            "timestamp": [
+                223.72,
+                229.82
+            ],
+            "text": " itself actually has sued OpenAI and is currently in this court case with them saying that they've"
+        },
+        {
+            "timestamp": [
+                229.82,
+                527.2
+            ],
+            "text": " Thank you. on a huge corpus of data found online. New York Times itself actually has sued OpenAI and is currently in this court case with them saying that they have illegally used their copyrighted material. And that's kind of another ongoing battle on another front. Interesting. So we're going to stick with exactly this theme because there are now claims this is wired. Here's proof You can train an AI model without slurping copyrighted content. Not often you get slurping in a headline, but I like it. So what's this story about? So this is kind of look, this is the other side of the coin, right? Because the leaders of these companies, you know, OpenAI in particular, has said there's no other way to build these models. If we want really powerful language models, if we want chatbots, we need to use the words on the Internet. We need this data. But the research that's come out of here, it's a group of researchers backed by the French government. They've shown that actually there are other ways. There are alternatives. You can make data sets that power maybe smaller models, but for specific use cases. An example they give here is for a law firm, for example. So, if you're trying to build a language model specifically to help with lawyers and the work that they do, this could be true in scientific research or any sort of vertical that we want to apply it to, you can use less data and it can be paid for interesting so that's one potential solution but again on those narrow use cases or narrower use cases because it says in here that yeah the data set is tiny compared to what lots of the other language models were kind of based on so surely there must be some kind of difference in quality of outcome or maybe not. Maybe you don't need that. You know, obviously, the Internet has the entire swell of information that we all put out there from Reddit posts to, you know, Amazon comments and reviews. But there's also a lot of noise in that data, right? There's a lot of rubbish on the Internet, as everyone can attest to. So it's's not necessarily clean, good quality data. So, there is still, it's an open question of whether it's quantity or quality. And I think that there is an argument to be made for good quality data. Interesting. Right, let's move on to a bit of high level regulation now, because it's hugely important. There are, as we've been witnessing over the last kind of six months especially, these big attempts at regulation. The United Nations now hoping to get in on the act. What's going on there? So, today, the General Assembly is set to vote on what's going to be the first United Nations resolution on artificial intelligence. They're hoping that it will be unanimous. And the goal really is to bridge inequities between the developed Western world and countries in the global South developing world and make sure that those countries have a seat at the table when it comes to developing the technologies. And it isn't just places like the United States where these companies are based that, you know, see all the upside of the technology. Interesting, yeah, because we're picking up these quotes from AP here, and they're saying they want to make it safe, secure, trustworthy, kind of those broad principles that I think most people would kind of ascribe to. But really interesting up on exactly what you were talking about there it's it's distributing the potential benefits not just having a few companies in a few countries and therefore the populations and people of those countries benefiting but making sure it's across the world uh that's a laudable aim, I'm sure, but probably easier said than done. Absolutely. I mean, they're doing this so that they can help AI kind of achieve the UN development goals for 2030, which they're far behind on. So they're hoping this can address questions, you know, inequities in healthcare, education and so on. But these are big problems. And I'm not sure ai is the magic bullet to all of it but it's a step it's a step uh yeah some of the examples detecting diseases predicting floods helping farmers training the next generation of workers that's what they want to make sure is equally spread across the globe right next story before we talk about it we're going to actually see it because we're going to take a moment to watch this example of a real-time conversation with an AI avatar. This is not yet released. It's a creative experiment by video game developer Ubisoft that suggests the company has made small breakthroughs in AI, real-time emotion and animation, contextual awareness and collaborative decision-making. Let's take a look. Tell me one word why I should stay. Passion. You can feel it, can't you? All right. That burning desire to make a difference, to fight for what's right."
+        },
+        {
+            "timestamp": [
+                528.46,
+                532.14
+            ],
+            "text": " That's what drives us, and that's what will keep you going through the tough times."
+        },
+        {
+            "timestamp": [
+                532.46,
+                535.66
+            ],
+            "text": " And trust me, there will be tough times."
+        },
+        {
+            "timestamp": [
+                536.54,
+                538.24
+            ],
+            "text": " But together we can overcome them."
+        },
+        {
+            "timestamp": [
+                540.42,
+                541.98
+            ],
+            "text": " I have too much to lose."
+        },
+        {
+            "timestamp": [
+                542.12,
+                543.6
+            ],
+            "text": " I have a family, two daughters."
+        },
+        {
+            "timestamp": [
+                544.82,
+                746.28
+            ],
+            "text": " Really, should I be doing this? Family is everything, Nelson. And that's why we're fighting to create a better world for our loved ones. We can't continue living in fear and oppression. It's a risk, but it's risk worth taking for a brighter future. And don't worry, we'll have each other's backs. Have you lost anybody close to you? Yes. I've lost many. My son, my friends, my home. But every loss only fuels my determination to keep going. And through the resistance, I've found a new family. Together, we can make a difference and prevent others from experiencing the same pain. Right. Slightly strange to watch that. What was going on? So that is an avatar powered by AI. And what's unique about it is it's not scripted. So it's just responding to you in real time conversation. That's what's kind of new about this and a bit stunted. But you can see the kind of potential there for the next generation of games. It's quite haunting, wasn't it, watching it, which I suppose is part of the desired effect. But if that is basically still in the kind of concept phase, that seems, I don't know, pretty impressive. I mean, even if it is just a kind of fancy chatbot at the moment, it's still deeply impressive. Right. Let's move on to your story. FT, the delivery rider who took on his faceless boss is the headline. What's this? So this is actually from my book, which is which came out today, which which is exciting but this is about um it's called code dependent and it's about human beings who've been impacted by ai systems unexpectedly and armin sami who's the uber eats driver in this story found that he was being underpaid consistently or in one case and he wanted to figure out was this a problem that occurred again and again And because the algorithms that kind of govern work on gig apps are so opaque, you know, people, the people who work for these apps have no idea why they're being paid what they're being paid. He had to hack it. He essentially built a tool that could figure out how far he was traveling and therefore how much he should have been paid. He then made this free for other Uber Eats drivers to use. And they've all been using it around the world to figure out, you know, whether they've been underpaid, which they had. That is an absolutely incredible story. I wish we had more time for it. Unfortunately, we don't. Last issue, we've got to move on because we are unfortunately nearly out of time. Salman Rushdie, AI only poses a threat to unoriginal writers. And also we can look at at the same time, James Blunt, humiliated by generic AI versions of his lyrics. These are artists. What's going on? So this is really about creativity and whether artificial intelligence can ever be creative, right? Whether that's artists, voiceover actors, writers, journalists like us, you know, can we be replaced by AI? And so far, the answer seems to be no, it's pretty generic. James Blunt actually finds it, you know, humiliating, as he says, nothing like his real lyrics. So I don't think it's there yet, coming to replace us. Well,, yeah, you didn't have to bring journalists into it at the end."
+        },
+        {
+            "timestamp": [
+                746.42,
+                748.4
+            ],
+            "text": " No one was talking about them until you brought it in."
+        },
+        {
+            "timestamp": [
+                748.7,
+                749.82
+            ],
+            "text": " Right, we are out of time."
+        },
+        {
+            "timestamp": [
+                749.9,
+                753.06
+            ],
+            "text": " Thank you so much for coming in and talking us through the brilliant stuff."
+        },
+        {
+            "timestamp": [
+                753.32,
+                753.84
+            ],
+            "text": " That's it."
+        },
+        {
+            "timestamp": [
+                754.02,
+                756.28
+            ],
+            "text": " We'll do this again same time next week."
+        }
+    ]
+}

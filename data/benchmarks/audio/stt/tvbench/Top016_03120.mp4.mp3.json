@@ -1,0 +1,20 @@
+{
+    "video_id": "Top016_03120.mp4.mp3",
+    "transcript": " I'm a businessman. Blood is a big expense.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " I'm a businessman."
+        },
+        {
+            "timestamp": [
+                2.0,
+                5.0
+            ],
+            "text": " Blood is a big expense."
+        }
+    ]
+}

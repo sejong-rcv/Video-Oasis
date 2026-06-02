@@ -1,0 +1,20 @@
+{
+    "video_id": "L7HA6.mp4.mp3",
+    "transcript": " Hello, yeah my internet is still out, I know it's been out for two hours. Okay, I'll hold.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                27.94
+            ],
+            "text": " Hello, yeah my internet is still out, I know it's been out for two hours."
+        },
+        {
+            "timestamp": [
+                28.72,
+                null
+            ],
+            "text": " Okay, I'll hold."
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "video_id": "V54TI.mp4.mp3",
+    "transcript": " Hello everyone, welcome to my channel, today I will show you how to make an easy and easy to make cake. I hope you enjoy the video, let's get started. I'm going to take a shower and go to bed. I'm going to take a shower and go to bed. I'm going to take a shower and go to bed. Thank you.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                10.0
+            ],
+            "text": " Hello everyone, welcome to my channel, today I will show you how to make an easy and easy to make cake."
+        },
+        {
+            "timestamp": [
+                10.0,
+                20.0
+            ],
+            "text": " I hope you enjoy the video, let's get started."
+        },
+        {
+            "timestamp": [
+                20.0,
+                30.0
+            ],
+            "text": " I'm going to take a shower and go to bed."
+        },
+        {
+            "timestamp": [
+                30.0,
+                38.0
+            ],
+            "text": " I'm going to take a shower and go to bed."
+        },
+        {
+            "timestamp": [
+                38.0,
+                30.34
+            ],
+            "text": " I'm going to take a shower and go to bed. Thank you."
+        }
+    ]
+}

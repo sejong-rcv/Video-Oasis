@@ -1,0 +1,27 @@
+{
+    "video_id": "Top047_01590.mp4.mp3",
+    "transcript": " You'll feel a little strange now, but soon you'll feel right at home. Good night. Good night.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                3.7
+            ],
+            "text": " You'll feel a little strange now, but soon you'll feel right at home."
+        },
+        {
+            "timestamp": [
+                3.7,
+                4.7
+            ],
+            "text": " Good night."
+        },
+        {
+            "timestamp": [
+                4.7,
+                5.7
+            ],
+            "text": " Good night."
+        }
+    ]
+}

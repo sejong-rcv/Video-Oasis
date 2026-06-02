@@ -1,0 +1,27 @@
+{
+    "video_id": "7234536361296940314.mp4.mp3",
+    "transcript": " Cause you are my universe, my everything, my sunset You still give me butterflies, my butterfly You are everything I wanted",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                3.8
+            ],
+            "text": " Cause you are my universe, my everything, my sunset"
+        },
+        {
+            "timestamp": [
+                3.8,
+                7.14
+            ],
+            "text": " You still give me butterflies, my butterfly"
+        },
+        {
+            "timestamp": [
+                7.14,
+                10.4
+            ],
+            "text": " You are everything I wanted"
+        }
+    ]
+}

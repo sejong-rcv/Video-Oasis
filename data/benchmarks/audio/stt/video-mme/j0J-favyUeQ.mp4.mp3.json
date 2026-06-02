@@ -1,0 +1,720 @@
+{
+    "video_id": "j0J-favyUeQ.mp4.mp3",
+    "transcript": " Behind the technology that consumers know and experience lies one simple question. How does it work? From sophisticated software that gets us from point A to point B, to algorithms that suggest a specific song along the way, we explore the engineering and science of technology that catches our eye and speak to key players that make it all happen. Let's start here with how Google remapped the world. If you need to get somewhere, let's say a new building, put it into Maps and Google gives you a route in seconds. But behind that seemingly simple answer is a complex system of data collected from users, satellites, cars, even camels. Today, more than 1 billion people use Google Maps every month. And in 17 years, it's evolved from a desktop application to a massive mobile platform that continuously updates information about a location. We have over 150 million people around the world that are contributing information, with 50 million updates a day coming from the community, from the public sector. So think of the map as being alive. But the amount of data it collects has also attracted criticism from privacy experts. Here's how, in Google's quest to remap the world, it had to revolutionize the technology we use to see it. This is the tech behind Google Maps. You can search for a place, like an address, an intersection, almost anything. When it comes to digital mapping, Google wasn't the first on the scene, or even the second. But when Maps launched in the mid-2000s, it had technology many people had never seen before. I remember the day that Google Maps launched with satellite imagery in the browser. Everybody just went and looked at their own house. Craig is a professor in the Department of Geography at Hofstra University, who studies data-driven geotechnology. No one had ever seen their own house in satellite imagery, much less in color satellite imagery before. This was a new view on the world. Map success was partly due to acquisitions it made early on, like Where2 Technologies and Keyhole, that made mapping more accessible to consumers. By buying Keyhole, they got the software that it took to have a easy, ready-to-use satellite image reviewer on a global scale, where two technologies provided them a much better user interface than was available elsewhere. And by combining those with just the sheer amount of capital at Google allowed them to spend in ways and develop those further that you didn't see before. Maps expanded its tech quickly, opening it up to developers, integrating Street View, and launching Android and iOS apps early on. But how exactly did all of this come together to get you from point A to point B? Christopher Phillips, the current head of Google's Geo division, gave us an inside look on the Google campus. The foundational piece was to have a real-world model, the digital truth of what's going on in the real world, including where streets are. Thanks for watching! look on the Google campus. The foundational piece was to have a real-world model, the digital truth of what's going on in the real world, including where streets are. Let's take a look at a real route in San Francisco that Chris walked us through. Let's say I'm in the San Francisco Ferry Building, the farmer's market, and I need to get to San Francisco International Airport. To get that real-world model Chris was talking about, Google starts with satellite and aerial imagery to create an accurate map. This is layered together with data from Street View. So, to do that, I'm going to go ahead and click on this button here, and I'm going to go ahead and click on this button here, a quick detour off our route to France, you can see what the layering process looks like using the Arc de Triomphe. Think of it as a big jigsaw puzzle where we can put these images together and we understand the distance between images and where they sit with the actual location, the GPS location. Google keeps a range of the cameras that have been used over time to capture imagery at the Street View Garage on its campus in California. It all started with a 500-pound camera that was forklift onto a van. You may have seen a Street View car at some point with a 360-degree camera on top. Some versions are equipped with LiDAR sensors, which measure the distance from the camera to objects around it. They're also equipped with GPS to get an accurate location for exactly where the camera is positioned. But to reach more remote places, they've adapted cameras to fit the terrain. Google has put cameras on backpacks to get to places that cars can't go. They've also used transportation like bikes and snowmobiles. In some rarer cases, Google has gotten images from camels, divers, and even astronauts. Their newest camera can be detached from cars to be carried around. We graduate to our most recent, which is a 15-pound, very lightweight, and that can be powered off of a phone versus a large computing unit that's in the car. This imagery isn't just for looking at. It actually helps keep their maps up to date by detecting changes since the last time images were taken. We are not just capturing what a place looks like, but we can detect that a business might have changed. We can detect new signs. There's now a stop sign here or a traffic light here. So understanding new physical attributes of the real world is what we've been able to derive. Once they have all the information they need to figure out what the map looks like, Google layers on info about traffic, routes, and businesses. To do this, they get data from local municipalities, public bus and train schedules, and businesses themselves. This is footage from 2013 of the software Google still uses to edit maps. A combination of machine learning and map operators edit the public data, like road networks, to match exactly what you see on the layered imagery. Since 2013, Google says they've been able to automate most of this process. So for Chris's route from San Francisco's Ferry Building to the airport... Right now, I can see that it's going to take 21 minutes. In order to predict how long it takes to get somewhere, or how busy a place is, Google relies on reviews, contributed information, and anonymized location data, and uses algorithms to comb through historical traffic. It looks at current trends based on your anonymous location, aggregated with millions of other users. So we can overlay the trend with the current activity to then create a prediction. The company also uses your approximate location and its mapping tools to target ads and advertise businesses, which is one of the ways the platform makes money. We have the ability for businesses to actually promote themselves on the map. So whether you're searching for a place to go and if it's relevant to the people who are in that area, we can show that as one of the results. So far, Google has mapped more than 250 countries and territories. But as it's added more data and ingrained itself in our lives and culture, users and regulators have pushed back and demanded guardrails. Privacy is a big issue with any kind of geographic technology, and Google Maps is only so much more so. Because Google Maps is down to an individual street address, down to individual people when we connect it to things like your Gmail account or your wallet or your Wi-Fi network. Google has been criticized and in some cases taken to court for things like the amount of data it collects, Street View images showing private property, and grabbing data from unsecured Wi-Fi networks with Street View cars. Google says the data from you that it uses to inform traffic and busyness is anonymized. We use a technology treatment called differential privacy. Differential privacy allows us to separate you and your activity from what we aggregate from millions of people as signals to derive insights around like busyness and how long the walk or the drive may take. But some data that is used to tailor your personal map, like noting that you've been to a location before, isn't. They say that that data is not sold or shared with third parties. Google also says that it gives users privacy controls like toggling location history on or off, searching in incognito mode, and auto-deleting location data. We're always improving how we manage the information we capture to protect people's privacy and make sure that we only have the critical amount of data to help power the most useful products. With its advances in technology, its advertising priorities, and even its criticism, Google Maps has helped change the way we navigate the world. The biggest improvement that Google Maps has made is making geographic information much more accessible to a very large number of people. The biggest downside, there's something paying much closer attention to the intricacies of every movement you make when you carry your phone. Google says the future of Maps aims to be more comprehensive and immersive. We're taking technology where we can combine and fuse together satellite imagery, aerial imagery, street view imagery, user contribution to create a photorealistic view of what it might feel like to check out a park. What's the vibe of it? What's the vibe of it on a different day? Immersive view is Google's next step in using their database of information and imagery to map the world if you go to a big arena concert like taylor swift's heiress tour or watch your basketball team score a buzzer beating three-pointer in the playoffs or attend a k-pop show light up sticks and wristbands will likely be a part of the experience turning the audience into part of the show with synchronized light displays at the touch of a button. So how do these small devices create these huge immersive visuals? It's funny because oftentimes people think like there's a GPS in each of the devices or like there's a lot of like AI advanced technology, but we really like the old school technology and just be creative with it, you know? This is the tech behind LED wristbands. Montreal-based Pixmob is a leading company in event LED technology. Pixmob won't comment on whether or not they're involved in the ARIS tour, but they have done previous Taylor Swift tours, as well as Coldplay. The Weeknd, Bad Bunny, we do most of the major tours in North America. We work a lot with NBA, NHL. And to do that, they use two different technologies. Let's start off with the simplest, RF wristbands that receive a radio frequency communicating the precise timing and colors for each band. The two white squares here are the two LEDs, and here you have the small computer that controls those LEDs, and then you have that other black thing that receives radio frequency and gives it to the computer, and then the computer will light up the LEDs based on the RF commands that it receives. This is what PIXMOB used for Game 5 of the NYX Heat series. When fans went to their seats at Madison Square Garden, they found one of these RF wristbands waiting for them, each one pre-programmed to be a part of a different group. So a wristband in this section for instance is programmed to be in group one for one effect, group two for another. Up near the entertainment control room, operator Avril serves as the conductor. When one of the programmed effects is activated, different groups light up in sync to create different patterns within the stadium. Or she can manually play with them based on the moment, flashing NYX colors. Orange, blue, orange, blue. It's really fun to kind of see the the crowd get into it and be excited. You're having them be part of the show which is special. The signal emits from this really small box. We have a very simple transmitter. It's like the size of a tissue box that we can connect to a light board. We like that technology because you can literally travel with the whole control system in your suitcase. RF technology is what most other wearable LED companies use too, like XyloBands, who do everything from Eurovision to corporate events. But the more advanced wristbands, like what you see at the Super Bowl or Lady Gaga, use infrared technology. So the same thing that you use to turn on your TV, it's kind of like technology that is like 50 years old. It's really old school tech, but we've managed to twist it in a way that makes it quite new and magical. Because we use infrared, we can send data to specific locations, so to you or to the person next to you, and it doesn't have to be the same data. So that's how we create those spatialized effects, as we call them, where we can almost turn a crowd into like a video canvas. These signals come from robotic transmitters placed all over an arena. You can see it here at a Coldplay concert last year. These transmitters were placed on sound towers and the stage. Here's what that looked like in Pixmob's visualizer, which is how it designs what the shows will look like and what the wristbands, the company calls them Pixels, will do. These two lines are basically the center of each of the transmitters. So even if we have two transmitters right now doing the swipe, it still looks like one wave. By simply adding more of these moving heads in a setup like this, we could do more complex animation. When PixMob wants to display a shape, like say these hearts, it just puts on a mask like this to shine the infrared signal through it. you're under the infrared beam and it tells you to go red then you go red and then as the beam moves away from you then you go back to whatever color you were or black or whatever like that so it's really like the wristbands are quite stupid in a sense but we like it that way you know and all the the kind of smarts of the technologies is really in the transmitters. Audience concert lighting really started in Korea with K-pop bands back in the 90s. And they get quite creative now, too. And those light sticks aren't handed out as part of the event. They're mementos that fans will sometimes spend more than $100 on. They work a bit differently. You download an app, put in your seating information, and connect the light via Bluetooth. It's how they can be very detailed in their arena-sized designs. Fans call it an ocean. But whether it's Bluetooth, RF, or infrared, the experience of these wearable pieces of technology are only getting more detailed to make every fan feel like part of the show. With 500 million monthly users, Spotify is the world's largest music streaming service. Spotify is the home of audio. It's known for its personalized playlists made with its recommendation algorithm. Think about users as this raw material. And then on top of the data layer, we're able to build shared models. But relying so much on artificial intelligence has also drawn criticism from some industry experts worried about algorithmic bias. Here's how Spotify uses AI to personalize users' experiences on the platform. This is the tech behind Spotify. In the early 2000s, many people found music recommendations through top charts and early streaming platforms like Pandora and Last.fm. With the Last.fm app from the App Store, you can listen to great bands. So when Spotify entered the scene in 2008... It's not so much that they were the first people to start using analytics to recommend music, but it was the way in which they combined various computational techniques in order to make their recommendations feel more lifelike. Thomas Hodgson studies algorithms and artificial intelligence with a focus on how new technology from music streaming companies impact artists. Fans who listen to Discover Weekly and Daily Mix, the way that they talk about them is in very human-like terms. Discover Weekly, you magnificent... You've done it again. In 2014, Spotify acquired music analytics firm The Echo Nest, which blended machine learning and natural language processing to build a database of songs and artists. Spotify says this technology marked an important step in the evolution of its recommendation system. So how does that system work? It starts with a process called collaborative filtering. Collaborative filtering looks at the pattern across all of this data and tries to understand when do tracks happen to be playlisted together very often. You can think of it as building a map of music and podcasts. That map looks something like this. Each point represents a different track in Spotify's catalog, and the location of each point is determined by collaborative filtering. Which means that these tracks go together according to the way users have playlisted them and listened to them. So if these two songs are frequently playlisted together, they will be close to each other in this map. Whereas if these songs are never playlisted together, they will be farther apart in the map. But recommendations based purely on collaborative filtering aren't perfect. For example, during the holidays, Mariah Carey's All I Want for Christmas is You might get playlisted more frequently with Silent Night, even though this sounds like a pop song and this sounds like a Christmas carol. If Spotify only generated recommendations based on proximity, then users who like Mariah Carey might get recommended Silent Night when they aren't interested in Christmas carols. To be continued... If Spotify only generated recommendations based on proximity, then users who like Mariah Carey might get recommended Silent Night when they aren't interested in Christmas carols. To prevent this, Spotify adds another layer of analysis called content-based filtering. This algorithm gathers metadata, like the release date and label, and executes a raw audio analysis. It uses metrics like danceability and loudness to describe the sonic characteristics of the track. These are the results for Uptown Funk, which sounds like this and has a danceability score of 0.856 on a scale of 0 to 1. The algorithm also dissects each track's temporal structure. Here's a visual representation of that for Antihero by Taylor Swift. These are the beats, the bars, and the sections. Content-based filtering also takes into account a track's cultural context, which means studying the lyrics and analyzing the adjectives used to describe the track in articles and blogs. These filtering techniques are not unique to Spotify, but industry experts say what sets the platform apart is the amount of user data it has and the products it creates from it. Spotify says its content-based filtering technology has evolved over the years and now includes more advanced proprietary-facing features. But Hodgson says the danger with algorithms is that they could reinforce existing biases. This could mean that a particular catalogue of music has more male artists than female artists. One of the dangers with machine learning is that as listeners start to engage with that catalogue, those biases become magnified and that this creates what's called a kind of feedback loop. Spotify says its research teams evaluate and mitigate against potential algorithmic inequities and harms and strive for transparency about its impact. Another criticism is that the algorithm isn't optimized for new artists because there's no user data. This is known as the cold start problem. Sultan says this is where human editors play a significant role in delivering recommendations. They're possibly some of the best people in the world at trying to understand new releases and culture and what's relevant. But Hodgson says the bigger concern is that certain metrics used in the platform's audio analysis might be culturally biased. In other parts of the world, they have musical systems and musical cultures that are entirely different. Like this North Indian classical track, for example. Spotify's algorithm labels its key signature as E minor, which Hodgson says is inappropriate for this musical tradition. However, it's still the case that the music that is emerging from South Asia is being understood algorithmically under, you know, the Western equal temperament scale. Spotify says the audio analysis is one small part of the overall system, which takes into account many factors before making a recommendation. Some industry experts also point to issues with how the system understands metadata for classical music. For example, the metadata for a Tchaikovsky track can include not just the name of the work and the artist, but also the movement, opus number, and conductor. Spotify's algorithm isn't optimized for that. Apple Music, which has emerged in recent years as a competitor to Spotify, released a new app in March that the company says is designed to solve this problem. Spotify says it doesn't comment on a competitor's marketing campaigns. In February, the streaming service joined the recent buzz around generative AI. I'm X, and from this moment on, I'm going to be your own personal AI DJ on Spotify. The DJ gives the algorithm a human voice and offers listeners additional context around a recommendation. Up next, I know you've been on a summer song kick lately. Sultan says the company is also exploring reinforcement learning, a technique that would allow the recommendation system to learn automatically based on feedback. It will help with the diversity of their recommendation. It will help with the longer-term retention. And we're trying to push the state of the art in each of those, introducing new technologies, new capabilities, and bringing new experiences. Go through checkout. Tap your card. And there, you paid in less than two seconds. It's faster than, hold on, this. And safer than this. That quick exchange is thanks, in large part, to these. Just a few little wires that make contactless payments possible. Here's a look inside the tech that makes those payments both quick and secure. And why tap-to-pay has taken so long to gain traction in the U.S. This is the tech behind tap-to-pay. At the heart of tap-to-pay is a technology called NFC, or near-field communication, which itself is a specific form of RFID, or radio frequency identification. You might be familiar with it as a way to unlock your hotel room, for example. NFC relies on those little wires, which are actually antennas. The antenna kind of looks like a racetrack, and it's sort of a coil of different wires. And that's what's used to basically transmit the radio frequency on both sides. This is Mike McLennan. He's the general manager of hardware at Square, a company that makes card readers. And he cracked one open to show us exactly how a tap-to-pay transaction works. Reminds me a lot of opening oysters. Card readers also have those antennas. This is the NFC antenna. So this is the magic of what makes NFC transactions work. And you can see once we pull it off how thin the NFC antenna is. The card and the reader are what he calls passive and active connections. The reader is active because it has power and can initiate radio communication on its own. And the card is passive because it doesn't have power and needs to be near an active source to initiate that communication. Tapping your phone works the same way, because your phone emulates the passive card. What's happening right now is the coil in here is active, and it's looking for a card basically anywhere within this sort of region up here. It's doing that using a radio frequency specific to NFC devices, which only works at a very short range, a maximum of about four and when the reader finds the card it requests the information needed for payment that information is stored here in your card's chip one thing it stores is what's known as static data meaning information that's the same every time you use your card that's things like the account number and expiration date. It's what's sent from your card's magnetic stripe when you swipe. But your chip doesn't just send that static data when you tap. It also sends something called a cryptogram, a unique string of numbers the issuers use to verify that your card is valid. What the card is doing is it's collecting information from the reader about the transaction, about the reader specifically, and it's combining that with the card information using its cryptographic key to create a unique number for that transaction. That's what makes it really hard to replicate a card fraudulently is because the card needs to have a cryptographic key that lets them generate that like secret code. That information is fed through this, the payment board, which sorts to the data that needs from the card and puts it all into an encrypted package. That package then gets sent off to the main board, which then sends that on to our servers, which then send it on to the networks like Visa, MasterCard, Amex, which then send it on to the networks like visa mastercard amex which then send it on to the issuer and then back with the approval message once you get to this board it's all encrypted and protected information and so anything beyond uh this will have a high degree of security involved in it all of that happens in just a few seconds faster than inserting your chip so when you insert a chip card into a reader there's a few back and forth in that communication We're going to take a short break and forth in that communication, whereas in contactless, there's just fewer back and forth. It was just built as a more efficient, more streamlined, only the bare necessities kind of information being passed back and forth. Card networks and security experts say that this is also more secure than other ways you can use your card. Unlike swiping, your static data is better protected during that communication. And because it doesn't have contact with the reader, it's not susceptible to malware that can affect chip insert transactions on rare occasions. This tap-to-pay technology has taken off in the last few years, in part because of the push for contactless during the pandemic. Square says such payments tripled between the beginning of 2020 and the end of 2022. While other countries, like the U.K., have had contactless integrated into public transportation for years, it's taken the U.S. more than a decade to get here. For a whole new way to pay, MasterCard introduces PayPass. The U.S. first started issuing tap-to-pay cards in the 2000s. Peter Rudiger is a Wall Street Journal reporter who covers payments and financial technology. Different banks thought it was a cool new technology and thought their consumers would really flock to it. Didn't really work out just because there were few businesses that were set up to accept tap-to-pay. U.S. retailers have been slow to replace payment systems, in part because they're expensive to change. In 2022, about 55 percent of merchants said they accepted tap-to-pay, with others saying they were planning on implementing it. Consumer behaviors are also difficult to change, and the switch to contactless didn't feel urgent. It's just often been described as a solution in search of a problem. Yes, it might be convenient. And yes, it might be safe. But that's not usually enough for people to switch their behavior. The tech still has room to grow, and the push to integrate it into more parts of everyday life is working in its favor. In New York, for example, subway riders can now tap-to-pay at turnstiles. So you have this big push to get tap-to-pay into more transportation systems, and it gets people used to using it, you know, every day. And if you're going to use tap-to-pay to get on and off the subway at least twice a day, maybe you'll also use it for your coffee, your lunch, your drinks. At least that's the idea that the credit card companies hope happens. Square and other companies have also recently released to the functionality to use the NFC antenna in your phone as the active connection, essentially putting a reader in your pocket, which could make it easier for small retailers to accept card payments. This is showing you where it wants you to tap. And so the NFC antenna on your phone is right behind this. And so when I take my NFC enabled credit card and I hold it over there. Done. Transaction complete. Here's a sound wave. And here's its inverse. Combine them and you have silence. That's the basic idea behind noise-canceling headphones. But it takes a lot of technology to make that seemingly simple science possible. We have 15 millionths of a second to measure the noise, run it through a little DSP processor, compute that inverse signal, and pop it out through the driver here's how they work one way to visualize acoustic waves that i like to use is a slinky john rule has spent the last decade developing new algorithms for personalizing noise cancellation performance in bose headphones we draw them as sine waves as if something's going back and forth or up and down. But what's really happening is that these vibrations are actually propagating through the air. The medium has stayed fixed, but you can see that pulse of energy sort of running through the length of it. Because sound is just waves, you can cancel a sound wave by introducing an equal and opposite wave. So what you've got is you've got an incoming sound wave, and the way destructive interference works is we say, hey, if I could generate an equal and opposite signal, I could generate the signal that's the inverse of that, and if I sum those two things together, I'll be left with a flat line. I'll be left with zero pressure, and that will be interpreted by my brain as the noise having been canceled. Bose was the first company to develop noise reduction technology for headphones. Dr. Bose was coming back on an overseas flight and got very frustrated by the fact that airplanes were very noisy. We can control all sorts of other stuff. Why can't we control noise? The first application that we looked at was canceling noise on airplanes. Pilots wore its earliest prototypes in 1986. While the technology has gotten more sophisticated, the basic science remains the same. Active noise cancellation requires a few main components. An outer microphone to track incoming noise. An inner microphone that tracks sound waves that make it inside your ear, and also checks if more environmental noise than expected is making it through, a digital signal processor to run some algorithms based on data from the mics, and the speaker, which cancels the background noise while also playing the music or sound you want to hear. Think about how fast this has to happen. The sound is obviously propagating at the speed of sound, right, which is 343 meters per second. If you think about that in terms of the thickness of an earbud, it's getting from the outside of the earbud to the inside of the earbud in about 15 microseconds. So that's millionths of a second. We're doing math as fast as we can to basically cancel it out before it gets in. Because's ears are differently shaped active noise cancellation requires algorithms that can be tuned based on the user bose for instance does this by playing a welcome chime and monitoring feedback from the internal microphone to customize noise cancelling filters accordingly this requires a lot of testing to make sure the algorithms work on a wide range of users in all types of noisy environments. But eliminating background noise is just the first step. The next is figuring out what noise to remove, based on the context. I think it's really important to recognize that noise is not bad. Noise is critical to my brain, critical to my body. My brain uses it to create richer experiences, to fill in what's missing, which is all the time. Poppy Crum was previously the chief scientist at Dolby Laboratories, where she worked for more than a decade. She's led teams focused on emergent technologies and platforms that impact sensory systems. When you think about noise-canceling technology, I like to sort of separate it into three different categories. You know, there's passive noise canceling or passive noise reduction, which is effectively an earplug. The second layer would be active noise reduction. You know, it's dynamic to the system, but it's dealing with what we would call stationary sound. Sounds that are, you know, consistent. They're continuous or they're predictable. Examples of that might be a generator or airplane noise. You Not, not all the sounds in the airplane, but that general rumble, those low frequency sounds you're trying to get rid of, they're pretty predictable. For these predictable noises, current noise canceling algorithms can quickly identify unwanted sound waves and cancel them out. Beyond that, things get harder. And then the next layer, which is I think where, you know, the future is still evolving, is when you start being able to really cancel out things that are what you would call non-stationary noise. Things that might be a dog barking. And those elements that happen where you can't predict them, and you might be able to have an expectation that they're going to happen, but they're things that aren't continuous and aren't constant. But sometimes, after your technology has gone through so many steps to reduce background noise, you want it back. AirPods Pro have a transparency mode where they recreate the normal sound of your environment. Other noise-canceling earbuds also offer modes to help you hear your surroundings, like Bose's Aware mode and Sony's Ambient Sound mode that preserve enough background noise to keep you alert to your surroundings. When you build a technology that's supposed to map to a human experience, you need to understand how the human system perceives change or perceives that element you're building, and then that becomes how your algorithm behaves so that you have a continuous experience of the world. So you need labs where you can remove or control every other element. Noise cancellation could soon solve more complex problems like using machine learning to seamlessly and intelligently eliminate unwanted sounds or voices across various contexts. Adaptive audio, which is coming to Apple's AirPods Pro soon, combines noise cancellation with the transparency mode so you can only hear the important sounds around you. So you can stay present within your environment while distracting noises are automatically reduced. It's the thing that everybody wants, right? They want to make certain noises go away. So they still want to hear some things, they don't want to hear other things. Can you just give me a set of headphones that just cancels the stuff I don't want to hear? That's not a thing that we're offering yet, but that's the kind of thing that is being worked on. In July, the Sphere switched on for the first time, dominating the Las Vegas skyline. Oh, I don't think it likes it. But inside the 366-foot-tall dome... We are not outside. No, I know....is an even more incredible, immersive experience. The dome holds the world's largest high-definition screen, 160,000 square feet, nearly 20 times the size of the largest IMAX screen. But the screen is just one piece of groundbreaking technology made for this venue. To create content for the screen, Sphere needed a new camera to shoot it. This is the tech behind The Sphere. When director Darren Aronofsky set out to make Postcard from Earth, a movie exclusive to The sphere, featuring immersive scenes from all around the world. His team started shooting on this camera, or rather, cameras. When I first showed up, it was 11 Reds welded together in a kind of Frankenstein. But combining the views from those 11 cameras made it difficult to shoot and edit. So that led us to design the Big Sky camera system, as well as the lens system, to take all those different perspectives on the 11 different lenses, but make it one perspective so it feels like your eyes work. This is Dinan Da Silva, chief architect of the Big Sky camera. He walked us through Sphere's camera lab in California. That's amazing to have a tool which is so sensitive and be that versatile with it is really just an amazing tool to have. Filming content for Sphere has two big challenges. It needs a camera that can shoot at a very wide angle and at a super high resolution to get that super wide angle big sky uses a giant version of a fisheye lens almost a foot in diameter it makes a circular image which distorts the view in order to capture a wider angle in a circle then as light passes through the lens it imprints itself on a sensor which breaks it into tiny squares color called pixels. Larger pixels allow the camera to capture more light and more detail. So to capture a higher amount of large pixels for a screen the size of the sphere, you need a bigger sensor than a screen the size of, say, your phone. Some of those pixels are wasted on a normal rectangular sensor, since a circle doesn't take up the full frame. But… That circle captured from that lens is projected onto the sensor in a circular format and that circle fits perfectly in a square sensor rather than a rectangular sensor. The lens and sensor come together to create the massive and super clear field of view needed for the sphere's screen. To test this, we took the camera just outside the camera lab. This is how a camera with a flat lens and smaller sensor saw this area, compared to how Big Sky saw it. The field of view reaches almost behind the lens. Here you can see a glimpse of Denon standing just off to the side behind Big Sky. Instead of shooting horizontally, we tilt up so that we can capture the full field of view that is natural in Sphere for where you're sitting. The tilt helps the camera line up with the horizon, this line here on the screen. Because when that circular image is transformed into 3D, that is the spot that needs to look the most normal to the audience. The team on set can check that the view looks natural with this, a VR headset that creates a live simulation of the footage on the Sphere screen. But to get a real preview of what the footage will look like in Sphere, the team takes the footage down the street to here, the big dome, a quarter-sized version of the Sphere they use for testing. This is a prototype of the screen panels in the Sphere. There are effectively 32 LEDs in a foot, and when you scale that up to the venue, that's how we get to 16K. That gives the illusion of being there. Each of these lights make up one pixel of the screen, about 170 million in total, that wrap around and above the nearly 18,000 seats in the theater. That makes up the 16K by 16K resolution, which means there are about 16,000 of those lights, both vertically and horizontally, that translate the pixels captured from the camera into an image to compare your iphone screen only has about 2500 by a thousand pixels you need a lot of pixels a lot of detail everywhere because an audience member might be looking in this direction another one might be looking in this direction so everywhere on the screen is an important part of the screen and And that's not the only thing that makes Sphere so immersive. These holes in the panel allow for sound to pass through since the speakers are behind the screen and different sounds can emit from different parts of the screen at the same time. The $2.3 billion venue also has physical effects like changing temperatures, bree breezes and scents, as well as 10,000 seats that vibrate to respond to scenes in the movie. But the screen is the centerpiece. And to create a movie with a huge high-definition camera for a huge high-definition theater, Aronofsky and his team had to think carefully about what they were shooting. You can't really hide behind anything when you're shooting with big sky because everything is sharp. And if there's any mistakes, they're just there. This shot of a climber on the Alps, for example, took some trial and error. You're looking over Duane the Climber and you're seeing this kind of valley below. And without seeing like the depth of the mountains behind, you kind of lost the environment. It didn't feel as risky. Andrew Shulkind is the director of photography for Sphere and worked with Aronofsky on Postcard. It felt riskier and more special that he was on this kind of spire in front of this snowy landscape. That footage eventually made its way to the screen in the Sphere. I remember we were in the edit when I saw that and got super excited. But we couldn't tell what it was because it was just in 4K. And then we had to go through the process of uprising it to be able to see it in big dome. Sphere is still perfecting some elements of the camera, like improving its ability to shoot very tiny objects and making it easier to use. But the next big step is getting it onto the International Space Station. The screen is so big that the ISS can actually fit inside the screen. And so we can convey to people an experience of doing a spacewalk that actually is realistic. One of the things that we're very interested in as SPHERE is to use the venue and the technology for science. And so that's the type of things that we're sort of curious about and will potentially explore in the future. More than 23,000 songs are Shazammed every minute in the world. But how does it identify the music around you after recording just seconds of audio from your phone? Shazam has to create a unique audio fingerprint of what you're hearing and then search its database for a matching fingerprint. That means simplifying sound to a bunch of data that can be processed incredibly fast. This is the tech behind Shazam. The idea behind Shazam is simple. Take the audio captured on your phone and convert it into something a computer can easily compare to other songs. In acoustics, this is called audio fingerprinting, simplifying a song to a unique signature that you can identify even through lots of background noise. The first step to creating Shazam was digitizing a large amount of music since there was no existing database it could use. We literally hired about 30 18-year-olds to work eight hours a day and three eight-hour shifts, so 24 hours a day actually, putting CDs into computers that ran custom software that we built from the ground up. We had 100,000 CDs, which is about 1.7 million songs. Because CDs don't contain metadata, they had to type the name of every song, every album title, and every artist as they built this massive database. Once they had digitized each song, they had to convert them into something that looks like this, a spectrogram. Spectrograms map out frequency content over time. They also display signal power level related to how loud something sounds, which is represented by color. In this spectrogram of Birdsong, we have time progressing to the right, as is always done in spectrograms, and then frequency on the vertical axis. So this is coming down. You know, that's not the right frequency zone, but that's the idea. Julia Smith is an emeritus professor at Stanford Center for Computer Research in Music and Acoustics. He was also an early consultant for Shazam and assisted with one of the company's early patents. With music, spectrograms often look more complicated than this because you have to deal with harmonics, or overtones, which get softer as you move up from the fundamental frequency. Beethoven's Fifth Symphony, the opening measure is and then the next whole measure is So this is theam in score. And then over here in the spectrogram, we have the same thing, not as clearly written but clear to hear, and that is ba-ba-ba-bam, ba-ba-ba-bam. But if Shazam had to match spectrograms like this, it would take an incredibly long time to return a result. The first key insight was to focus on peaks in the spectrogram, because those peaks are the main thing the brain processes. Shazam simplifies a spectrogram like this to a scatterplot of peaks. Many of these peaks make it through background noise, but you may also end up with a bunch of additional meaningless peaks. So let's say we have a spectrogram of a piece of music, and then we look at the spectrogram and how it changes as noise gets brought in. So let's say people start walking into the bar, people start drinking a lot, people start making a lot of noise. Then what you see is the original spectrogram plus a lot of new activity. And the brain is very good at understanding superpositions of sounds. If people can do it, then the computer can do it, right? The core of Shazam's technology is matching scatter plots that essentially chart the most powerful signals at different frequencies over time. It all started when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. It also develops some important processing steps to speed things up, so you can get a result quickly. Instead of searching its database for a match of all these points in the proper sequence, Shazam looks for multiple points at once and doesn't worry about the overall sequence until the end. For example, say you were in a coffee shop playing classical music. You open Shazam and it records your audio. First, it makes a spectrogram like this. Then, it isolates the peaks and makes a scatterplot like this, though in reality it would probably have more points. Shazam connects nearby peaks to form a bunch of pairs. Then, Shazam searches for matching pairs in an organized database of millions of songs. If there are enough matches in the same song and they're aligned properly over time, Shazam can name the tune. In this case, a specific rendition of Bach's Minuet in G major. After about two and a half years of development, Shazam launched in 2002, well before the smartphone era. Everyone was carrying these mobile phones around everywhere and really you could only just do two things with them. You could make phone calls and you could send text messages. And I guess you could also play the game Snake. Here's how Shazam worked back then. This is one of its earliest pitch decks. Initially, Shazam was a service that people in the U.K. could access by dialing 2580. After recording 15 seconds of audio, a call would disconnect and a user would get a text with the name of the song. While the fundamental algorithm has stayed the same, engineers have made some modifications to improve its recognition rate. It was good enough that it felt like it worked most of the time and it really delighted people that it would work in these bars and clubs and so on. We also had to then add additional tweaks to deal with the fact that music in the real world also gets adjusted in terms of speed, tempo, and pitch. So there are, for example, DJs might adjust the speed of music when they're playing vinyl records. Shazam wasn't an immediate hit. It had to sell some of its patents to fund development, though it later bought them back. And it wasn't profitable, it says, until 2016. Barton was CEO for four years before stepping down, though he continued to serve on the company's board. When I left Shazam, it was running through a long period of barely surviving. Shazam was a story of nearly failing, nearly going bankrupt, incredible resilience over many years. It didn't really hit a hockey stick of incredible user adoption until the App Store launched in 2008. Eventually, Apple bought Shazam in 2018. Thanks for watching! Over many years, it didn't really hit a hockey stick of incredible user adoption until the App Store launched in 2008. Eventually, Apple bought Shazam in 2018. It's now one of the most popular free music apps in the App Store. Once you're paying for unlimited streaming of music, what is it you're actually going to listen to? Because you have access to everything as much as you want. And Shazam solves one form of discovery. You're not only discovering music when your friend tells you about a great band, but you're actually discovering it in your daily life. The technology behind Shazam has grown significantly since Apple's acquisition in 2018. When it bought Shazam, it also gave the company access to Apple Music's large library. Today, Shazam can identify most of the Apple Music catalog of over 100 million songs. We created an app many years before apps actually existed. Part of the art of a startup is the timing aspect and so fortunately we found a way to survive through those tough years.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.4,
+                25.04
+            ],
+            "text": " Behind the technology that consumers know and experience lies one simple question. How does it work? From sophisticated software that gets us from point A to point B, to algorithms that suggest a specific song along the way, we explore the engineering and science of technology that catches our eye"
+        },
+        {
+            "timestamp": [
+                25.04,
+                28.4
+            ],
+            "text": " and speak to key players that make it all happen."
+        },
+        {
+            "timestamp": [
+                29.4,
+                33.48
+            ],
+            "text": " Let's start here with how Google remapped the world."
+        },
+        {
+            "timestamp": [
+                34.44,
+                37.82
+            ],
+            "text": " If you need to get somewhere, let's say a new building,"
+        },
+        {
+            "timestamp": [
+                38.24,
+                41.36
+            ],
+            "text": " put it into Maps and Google gives you a route in seconds."
+        },
+        {
+            "timestamp": [
+                41.36,
+                165.2
+            ],
+            "text": " But behind that seemingly simple answer is a complex system of data collected from users, satellites, cars, even camels. Today, more than 1 billion people use Google Maps every month. And in 17 years, it's evolved from a desktop application to a massive mobile platform that continuously updates information about a location. We have over 150 million people around the world that are contributing information, with 50 million updates a day coming from the community, from the public sector. So think of the map as being alive. But the amount of data it collects has also attracted criticism from privacy experts. Here's how, in Google's quest to remap the world, it had to revolutionize the technology we use to see it. This is the tech behind Google Maps. You can search for a place, like an address, an intersection, almost anything. When it comes to digital mapping, Google wasn't the first on the scene, or even the second. But when Maps launched in the mid-2000s, it had technology many people had never seen before. I remember the day that Google Maps launched with satellite imagery in the browser. Everybody just went and looked at their own house. Craig is a professor in the Department of Geography at Hofstra University, who studies data-driven geotechnology. No one had ever seen their own house in satellite imagery, much less in color satellite imagery before. This was a new view on the world. Map success was partly due to acquisitions it made early on, like Where2 Technologies and Keyhole, that made mapping more accessible to consumers. By buying Keyhole, they got the software that it took to have a easy, ready-to-use satellite image reviewer on a global scale, where two technologies provided them a much better user interface than was available elsewhere. And by combining those with just the sheer amount of capital at Google allowed them to spend in ways and develop those further that you didn't see before. Maps expanded its tech quickly,"
+        },
+        {
+            "timestamp": [
+                165.2,
+                167.84
+            ],
+            "text": " opening it up to developers, integrating Street View,"
+        },
+        {
+            "timestamp": [
+                167.84,
+                171.12
+            ],
+            "text": " and launching Android and iOS apps early on."
+        },
+        {
+            "timestamp": [
+                171.12,
+                173.12
+            ],
+            "text": " But how exactly did all of this come together"
+        },
+        {
+            "timestamp": [
+                173.12,
+                176.28
+            ],
+            "text": " to get you from point A to point B?"
+        },
+        {
+            "timestamp": [
+                176.28,
+                177.2
+            ],
+            "text": " Christopher Phillips,"
+        },
+        {
+            "timestamp": [
+                177.2,
+                179.24
+            ],
+            "text": " the current head of Google's Geo division,"
+        },
+        {
+            "timestamp": [
+                179.24,
+                182.08
+            ],
+            "text": " gave us an inside look on the Google campus."
+        },
+        {
+            "timestamp": [
+                182.08,
+                185.56
+            ],
+            "text": " The foundational piece was to have a real-world model,"
+        },
+        {
+            "timestamp": [
+                185.56,
+                188.0
+            ],
+            "text": " the digital truth of what's going on in the real world,"
+        },
+        {
+            "timestamp": [
+                188.0,
+                189.92
+            ],
+            "text": " including where streets are."
+        },
+        {
+            "timestamp": [
+                189.92,
+                186.54
+            ],
+            "text": " Thanks for watching! look on the Google campus. The foundational piece was to have a real-world model, the digital truth"
+        },
+        {
+            "timestamp": [
+                186.54,
+                191.06
+            ],
+            "text": " of what's going on in the real world, including where streets are. Let's take a look at a real"
+        },
+        {
+            "timestamp": [
+                191.06,
+                195.14
+            ],
+            "text": " route in San Francisco that Chris walked us through. Let's say I'm in the San Francisco"
+        },
+        {
+            "timestamp": [
+                195.14,
+                199.76
+            ],
+            "text": " Ferry Building, the farmer's market, and I need to get to San Francisco International Airport."
+        },
+        {
+            "timestamp": [
+                200.16,
+                204.48
+            ],
+            "text": " To get that real-world model Chris was talking about, Google starts with satellite and aerial"
+        },
+        {
+            "timestamp": [
+                204.48,
+                625.8
+            ],
+            "text": " imagery to create an accurate map. This is layered together with data from Street View. So, to do that, I'm going to go ahead and click on this button here, and I'm going to go ahead and click on this button here, a quick detour off our route to France, you can see what the layering process looks like using the Arc de Triomphe. Think of it as a big jigsaw puzzle where we can put these images together and we understand the distance between images and where they sit with the actual location, the GPS location. Google keeps a range of the cameras that have been used over time to capture imagery at the Street View Garage on its campus in California. It all started with a 500-pound camera that was forklift onto a van. You may have seen a Street View car at some point with a 360-degree camera on top. Some versions are equipped with LiDAR sensors, which measure the distance from the camera to objects around it. They're also equipped with GPS to get an accurate location for exactly where the camera is positioned. But to reach more remote places, they've adapted cameras to fit the terrain. Google has put cameras on backpacks to get to places that cars can't go. They've also used transportation like bikes and snowmobiles. In some rarer cases, Google has gotten images from camels, divers, and even astronauts. Their newest camera can be detached from cars to be carried around. We graduate to our most recent, which is a 15-pound, very lightweight, and that can be powered off of a phone versus a large computing unit that's in the car. This imagery isn't just for looking at. It actually helps keep their maps up to date by detecting changes since the last time images were taken. We are not just capturing what a place looks like, but we can detect that a business might have changed. We can detect new signs. There's now a stop sign here or a traffic light here. So understanding new physical attributes of the real world is what we've been able to derive. Once they have all the information they need to figure out what the map looks like, Google layers on info about traffic, routes, and businesses. To do this, they get data from local municipalities, public bus and train schedules, and businesses themselves. This is footage from 2013 of the software Google still uses to edit maps. A combination of machine learning and map operators edit the public data, like road networks, to match exactly what you see on the layered imagery. Since 2013, Google says they've been able to automate most of this process. So for Chris's route from San Francisco's Ferry Building to the airport... Right now, I can see that it's going to take 21 minutes. In order to predict how long it takes to get somewhere, or how busy a place is, Google relies on reviews, contributed information, and anonymized location data, and uses algorithms to comb through historical traffic. It looks at current trends based on your anonymous location, aggregated with millions of other users. So we can overlay the trend with the current activity to then create a prediction. The company also uses your approximate location and its mapping tools to target ads and advertise businesses, which is one of the ways the platform makes money. We have the ability for businesses to actually promote themselves on the map. So whether you're searching for a place to go and if it's relevant to the people who are in that area, we can show that as one of the results. So far, Google has mapped more than 250 countries and territories. But as it's added more data and ingrained itself in our lives and culture, users and regulators have pushed back and demanded guardrails. Privacy is a big issue with any kind of geographic technology, and Google Maps is only so much more so. Because Google Maps is down to an individual street address, down to individual people when we connect it to things like your Gmail account or your wallet or your Wi-Fi network. Google has been criticized and in some cases taken to court for things like the amount of data it collects, Street View images showing private property, and grabbing data from unsecured Wi-Fi networks with Street View cars. Google says the data from you that it uses to inform traffic and busyness is anonymized. We use a technology treatment called differential privacy. Differential privacy allows us to separate you and your activity from what we aggregate from millions of people as signals to derive insights around like busyness and how long the walk or the drive may take. But some data that is used to tailor your personal map, like noting that you've been to a location before, isn't. They say that that data is not sold or shared with third parties. Google also says that it gives users privacy controls like toggling location history on or off, searching in incognito mode, and auto-deleting location data. We're always improving how we manage the information we capture to protect people's privacy and make sure that we only have the critical amount of data to help power the most useful products. With its advances in technology, its advertising priorities, and even its criticism, Google Maps has helped change the way we navigate the world. The biggest improvement that Google Maps has made is making geographic information much more accessible to a very large number of people. The biggest downside, there's something paying much closer attention to the intricacies of every movement you make when you carry your phone. Google says the future of Maps aims to be more comprehensive and immersive. We're taking technology where we can combine and fuse together satellite imagery, aerial imagery, street view imagery, user contribution to create a photorealistic view of what it might feel like to check out a park. What's the vibe of it? What's the vibe of it on a different day? Immersive view is Google's next step in using their database of information and imagery to map the world if you go to a big arena concert like taylor swift's heiress tour or watch your basketball team score a buzzer beating three-pointer in the playoffs or attend a k-pop show light up sticks and wristbands will likely be a part of the experience turning the audience into part of the show with synchronized light displays at the touch of a button. So how do these small devices create these huge immersive visuals? It's funny because oftentimes people think like there's a GPS in each of the devices or like there's a lot of like AI advanced technology, but we really like the old school technology and just be creative with it, you know? This is the tech behind LED wristbands. Montreal-based Pixmob is a leading company in event LED technology. Pixmob won't comment on whether or not they're involved in the ARIS tour, but they have done previous Taylor Swift tours, as well as Coldplay. The Weeknd, Bad Bunny, we do most of the major tours in North America. We work a lot with NBA, NHL. And to do that, they use two different technologies. Let's start off with the simplest, RF wristbands that receive a radio frequency communicating the precise timing"
+        },
+        {
+            "timestamp": [
+                625.8,
+                627.44
+            ],
+            "text": " and colors for each band."
+        },
+        {
+            "timestamp": [
+                627.84,
+                633.08
+            ],
+            "text": " The two white squares here are the two LEDs, and here you have the small computer that"
+        },
+        {
+            "timestamp": [
+                633.08,
+                638.1
+            ],
+            "text": " controls those LEDs, and then you have that other black thing that receives radio frequency"
+        },
+        {
+            "timestamp": [
+                638.1,
+                642.92
+            ],
+            "text": " and gives it to the computer, and then the computer will light up the LEDs based on the"
+        },
+        {
+            "timestamp": [
+                642.92,
+                644.7
+            ],
+            "text": " RF commands that it receives."
+        },
+        {
+            "timestamp": [
+                665.68,
+                845.0
+            ],
+            "text": " This is what PIXMOB used for Game 5 of the NYX Heat series. When fans went to their seats at Madison Square Garden, they found one of these RF wristbands waiting for them, each one pre-programmed to be a part of a different group. So a wristband in this section for instance is programmed to be in group one for one effect, group two for another. Up near the entertainment control room, operator Avril serves as the conductor. When one of the programmed effects is activated, different groups light up in sync to create different patterns within the stadium. Or she can manually play with them based on the moment, flashing NYX colors. Orange, blue, orange, blue. It's really fun to kind of see the the crowd get into it and be excited. You're having them be part of the show which is special. The signal emits from this really small box. We have a very simple transmitter. It's like the size of a tissue box that we can connect to a light board. We like that technology because you can literally travel with the whole control system in your suitcase. RF technology is what most other wearable LED companies use too, like XyloBands, who do everything from Eurovision to corporate events. But the more advanced wristbands, like what you see at the Super Bowl or Lady Gaga, use infrared technology. So the same thing that you use to turn on your TV, it's kind of like technology that is like 50 years old. It's really old school tech, but we've managed to twist it in a way that makes it quite new and magical. Because we use infrared, we can send data to specific locations, so to you or to the person next to you, and it doesn't have to be the same data. So that's how we create those spatialized effects, as we call them, where we can almost turn a crowd into like a video canvas. These signals come from robotic transmitters placed all over an arena. You can see it here at a Coldplay concert last year. These transmitters were placed on sound towers and the stage. Here's what that looked like in Pixmob's visualizer, which is how it designs what the shows will look like and what the wristbands, the company calls them Pixels, will do. These two lines are basically the center of each of the transmitters. So even if we have two transmitters right now doing the swipe, it still looks like one wave. By simply adding more of these moving heads in a setup like this, we could do more complex animation. When PixMob wants to display a shape, like say these hearts, it just puts on a mask like this to shine the infrared signal through it. you're under the infrared beam and it tells you to go red then you go red and then as the beam moves away from you then you go back to whatever color you were or black or whatever like that so it's really like the wristbands are quite stupid in a sense but we like it that way you know and all the the kind of smarts of the technologies is really in the transmitters. Audience concert lighting really started in Korea with K-pop bands back in the 90s. And they get quite creative now, too. And those light sticks aren't handed out as part of the event. They're mementos that fans will sometimes spend more than $100 on. They work a bit differently."
+        },
+        {
+            "timestamp": [
+                845.4,
+                849.32
+            ],
+            "text": " You download an app, put in your seating information, and connect the light via Bluetooth."
+        },
+        {
+            "timestamp": [
+                850.02,
+                853.4
+            ],
+            "text": " It's how they can be very detailed in their arena-sized designs."
+        },
+        {
+            "timestamp": [
+                853.94,
+                855.2
+            ],
+            "text": " Fans call it an ocean."
+        },
+        {
+            "timestamp": [
+                858.26,
+                861.34
+            ],
+            "text": " But whether it's Bluetooth, RF, or infrared,"
+        },
+        {
+            "timestamp": [
+                861.34,
+                1029.38
+            ],
+            "text": " the experience of these wearable pieces of technology are only getting more detailed to make every fan feel like part of the show. With 500 million monthly users, Spotify is the world's largest music streaming service. Spotify is the home of audio. It's known for its personalized playlists made with its recommendation algorithm. Think about users as this raw material. And then on top of the data layer, we're able to build shared models. But relying so much on artificial intelligence has also drawn criticism from some industry experts worried about algorithmic bias. Here's how Spotify uses AI to personalize users' experiences on the platform. This is the tech behind Spotify. In the early 2000s, many people found music recommendations through top charts and early streaming platforms like Pandora and Last.fm. With the Last.fm app from the App Store, you can listen to great bands. So when Spotify entered the scene in 2008... It's not so much that they were the first people to start using analytics to recommend music, but it was the way in which they combined various computational techniques in order to make their recommendations feel more lifelike. Thomas Hodgson studies algorithms and artificial intelligence with a focus on how new technology from music streaming companies impact artists. Fans who listen to Discover Weekly and Daily Mix, the way that they talk about them is in very human-like terms. Discover Weekly, you magnificent... You've done it again. In 2014, Spotify acquired music analytics firm The Echo Nest, which blended machine learning and natural language processing to build a database of songs and artists. Spotify says this technology marked an important step in the evolution of its recommendation system. So how does that system work? It starts with a process called collaborative filtering. Collaborative filtering looks at the pattern across all of this data and tries to understand when do tracks happen to be playlisted together very often. You can think of it as building a map of music and podcasts. That map looks something like this. Each point represents a different track in Spotify's catalog, and the location of each point is determined by collaborative filtering. Which means that these tracks go together according to the way users have playlisted them and listened to them. So if these two songs are frequently playlisted together, they will be close to each other in this map. Whereas if these songs are never playlisted together, they will be farther apart in the map. But recommendations based purely on collaborative filtering aren't perfect. For example, during the holidays, Mariah Carey's All I Want for Christmas is You might get playlisted more frequently with Silent Night, even though this sounds like a pop song"
+        },
+        {
+            "timestamp": [
+                1029.38,
+                1035.82
+            ],
+            "text": " and this sounds like a Christmas carol."
+        },
+        {
+            "timestamp": [
+                1039.62,
+                1045.12
+            ],
+            "text": " If Spotify only generated recommendations based on proximity, then users who like Mariah Carey"
+        },
+        {
+            "timestamp": [
+                1045.12,
+                1048.82
+            ],
+            "text": " might get recommended Silent Night when they aren't interested in Christmas carols."
+        },
+        {
+            "timestamp": [
+                1049.5,
+                1048.82
+            ],
+            "text": ""
+        },
+        {
+            "timestamp": [
+                1105.42,
+                1506.24
+            ],
+            "text": " To be continued... If Spotify only generated recommendations based on proximity, then users who like Mariah Carey might get recommended Silent Night when they aren't interested in Christmas carols. To prevent this, Spotify adds another layer of analysis called content-based filtering. This algorithm gathers metadata, like the release date and label, and executes a raw audio analysis. It uses metrics like danceability and loudness to describe the sonic characteristics of the track. These are the results for Uptown Funk, which sounds like this and has a danceability score of 0.856 on a scale of 0 to 1. The algorithm also dissects each track's temporal structure. Here's a visual representation of that for Antihero by Taylor Swift. These are the beats, the bars, and the sections. Content-based filtering also takes into account a track's cultural context, which means studying the lyrics and analyzing the adjectives used to describe the track in articles and blogs. These filtering techniques are not unique to Spotify, but industry experts say what sets the platform apart is the amount of user data it has and the products it creates from it. Spotify says its content-based filtering technology has evolved over the years and now includes more advanced proprietary-facing features. But Hodgson says the danger with algorithms is that they could reinforce existing biases. This could mean that a particular catalogue of music has more male artists than female artists. One of the dangers with machine learning is that as listeners start to engage with that catalogue, those biases become magnified and that this creates what's called a kind of feedback loop. Spotify says its research teams evaluate and mitigate against potential algorithmic inequities and harms and strive for transparency about its impact. Another criticism is that the algorithm isn't optimized for new artists because there's no user data. This is known as the cold start problem. Sultan says this is where human editors play a significant role in delivering recommendations. They're possibly some of the best people in the world at trying to understand new releases and culture and what's relevant. But Hodgson says the bigger concern is that certain metrics used in the platform's audio analysis might be culturally biased. In other parts of the world, they have musical systems and musical cultures that are entirely different. Like this North Indian classical track, for example. Spotify's algorithm labels its key signature as E minor, which Hodgson says is inappropriate for this musical tradition. However, it's still the case that the music that is emerging from South Asia is being understood algorithmically under, you know, the Western equal temperament scale. Spotify says the audio analysis is one small part of the overall system, which takes into account many factors before making a recommendation. Some industry experts also point to issues with how the system understands metadata for classical music. For example, the metadata for a Tchaikovsky track can include not just the name of the work and the artist, but also the movement, opus number, and conductor. Spotify's algorithm isn't optimized for that. Apple Music, which has emerged in recent years as a competitor to Spotify, released a new app in March that the company says is designed to solve this problem. Spotify says it doesn't comment on a competitor's marketing campaigns. In February, the streaming service joined the recent buzz around generative AI. I'm X, and from this moment on, I'm going to be your own personal AI DJ on Spotify. The DJ gives the algorithm a human voice and offers listeners additional context around a recommendation. Up next, I know you've been on a summer song kick lately. Sultan says the company is also exploring reinforcement learning, a technique that would allow the recommendation system to learn automatically based on feedback. It will help with the diversity of their recommendation. It will help with the longer-term retention. And we're trying to push the state of the art in each of those, introducing new technologies, new capabilities, and bringing new experiences. Go through checkout. Tap your card. And there, you paid in less than two seconds. It's faster than, hold on, this. And safer than this. That quick exchange is thanks, in large part, to these. Just a few little wires that make contactless payments possible. Here's a look inside the tech that makes those payments both quick and secure. And why tap-to-pay has taken so long to gain traction in the U.S. This is the tech behind tap-to-pay. At the heart of tap-to-pay is a technology called NFC, or near-field communication, which itself is a specific form of RFID, or radio frequency identification. You might be familiar with it as a way to unlock your hotel room, for example. NFC relies on those little wires, which are actually antennas. The antenna kind of looks like a racetrack, and it's sort of a coil of different wires. And that's what's used to basically transmit the radio frequency on both sides. This is Mike McLennan. He's the general manager of hardware at Square, a company that makes card readers. And he cracked one open to show us exactly how a tap-to-pay transaction works. Reminds me a lot of opening oysters. Card readers also have those antennas. This is the NFC antenna. So this is the magic of what makes NFC transactions work. And you can see once we pull it off how thin the NFC antenna is. The card and the reader are what he calls passive and active connections. The reader is active because it has power and can initiate radio communication on its own. And the card is passive because it doesn't have power and needs to be near an active source to initiate that communication. Tapping your phone works the same way, because your phone emulates the passive card. What's happening right now is the coil in here is active, and it's looking for a card basically anywhere within this sort of region up here. It's doing that using a radio frequency specific to NFC devices, which only works at a very short range, a maximum of about four and when the reader finds the card it requests the information needed for payment that information is stored here in your card's chip one thing it stores is what's known as static data meaning information that's the same every time you use your card that's things like the account number and expiration date. It's what's sent from your card's magnetic stripe when you swipe. But your chip doesn't just send that static data when you tap. It also sends something called a cryptogram, a unique string of numbers the issuers use to verify that your card is valid. What the card is doing is it's collecting information from the reader about the transaction, about the reader specifically, and it's combining that with the card information using its cryptographic key to create a unique number for that transaction. That's what makes it really hard to replicate a card fraudulently is because the card needs to have a cryptographic key that lets them generate that like secret code. That information is fed through this, the payment board, which sorts to the data that needs from the card and puts it all into an encrypted package. That package then gets sent off to the main board, which then sends that on to our servers, which then send it on to the networks like Visa, MasterCard, Amex, which then send it on to the networks like visa mastercard amex which"
+        },
+        {
+            "timestamp": [
+                1506.24,
+                1510.72
+            ],
+            "text": " then send it on to the issuer and then back with the approval message once you get to this board"
+        },
+        {
+            "timestamp": [
+                1510.72,
+                1517.44
+            ],
+            "text": " it's all encrypted and protected information and so anything beyond uh this will have a high degree"
+        },
+        {
+            "timestamp": [
+                1517.44,
+                1523.52
+            ],
+            "text": " of security involved in it all of that happens in just a few seconds faster than inserting your chip"
+        },
+        {
+            "timestamp": [
+                1523.52,
+                1529.12
+            ],
+            "text": " so when you insert a chip card into a reader there's a few back and forth in that communication"
+        },
+        {
+            "timestamp": [
+                1529.76,
+                1529.12
+            ],
+            "text": ""
+        },
+        {
+            "timestamp": [
+                1705.0,
+                1709.0
+            ],
+            "text": " We're going to take a short break and forth in that communication, whereas in contactless, there's just fewer back and forth. It was just built as a more efficient, more streamlined, only the bare necessities kind of information being passed back and forth. Card networks and security experts say that this is also more secure than other ways you can use your card. Unlike swiping, your static data is better protected during that communication. And because it doesn't have contact with the reader, it's not susceptible to malware that can affect chip insert transactions on rare occasions. This tap-to-pay technology has taken off in the last few years, in part because of the push for contactless during the pandemic. Square says such payments tripled between the beginning of 2020 and the end of 2022. While other countries, like the U.K., have had contactless integrated into public transportation for years, it's taken the U.S. more than a decade to get here. For a whole new way to pay, MasterCard introduces PayPass. The U.S. first started issuing tap-to-pay cards in the 2000s. Peter Rudiger is a Wall Street Journal reporter who covers payments and financial technology. Different banks thought it was a cool new technology and thought their consumers would really flock to it. Didn't really work out just because there were few businesses that were set up to accept tap-to-pay. U.S. retailers have been slow to replace payment systems, in part because they're expensive to change. In 2022, about 55 percent of merchants said they accepted tap-to-pay, with others saying they were planning on implementing it. Consumer behaviors are also difficult to change, and the switch to contactless didn't feel urgent. It's just often been described as a solution in search of a problem. Yes, it might be convenient. And yes, it might be safe. But that's not usually enough for people to switch their behavior. The tech still has room to grow, and the push to integrate it into more parts of everyday life is working in its favor. In New York, for example, subway riders can now tap-to-pay at turnstiles. So you have this big push to get tap-to-pay into more transportation systems, and it gets people used to using it, you know, every day. And if you're going to use tap-to-pay to get on and off the subway at least twice a day, maybe you'll also use it for your coffee, your lunch, your drinks. At least that's the idea that the credit card companies hope happens. Square and other companies have also recently released to the functionality to use the NFC antenna in your phone as the active connection, essentially putting a reader in your pocket, which could make it easier for small retailers to accept card payments. This is showing you where it wants you to tap. And so the NFC antenna on your phone is right behind this. And so when I take my NFC enabled credit card and I hold it over there. Done. Transaction complete. Here's a sound wave. And here's its inverse. Combine them and you have silence. That's the basic idea behind noise-canceling headphones."
+        },
+        {
+            "timestamp": [
+                1709.0,
+                1714.0
+            ],
+            "text": " But it takes a lot of technology to make that seemingly simple science possible."
+        },
+        {
+            "timestamp": [
+                1714.0,
+                1719.0
+            ],
+            "text": " We have 15 millionths of a second to measure the noise,"
+        },
+        {
+            "timestamp": [
+                1719.0,
+                1724.0
+            ],
+            "text": " run it through a little DSP processor, compute that inverse signal,"
+        },
+        {
+            "timestamp": [
+                1724.0,
+                2185.16
+            ],
+            "text": " and pop it out through the driver here's how they work one way to visualize acoustic waves that i like to use is a slinky john rule has spent the last decade developing new algorithms for personalizing noise cancellation performance in bose headphones we draw them as sine waves as if something's going back and forth or up and down. But what's really happening is that these vibrations are actually propagating through the air. The medium has stayed fixed, but you can see that pulse of energy sort of running through the length of it. Because sound is just waves, you can cancel a sound wave by introducing an equal and opposite wave. So what you've got is you've got an incoming sound wave, and the way destructive interference works is we say, hey, if I could generate an equal and opposite signal, I could generate the signal that's the inverse of that, and if I sum those two things together, I'll be left with a flat line. I'll be left with zero pressure, and that will be interpreted by my brain as the noise having been canceled. Bose was the first company to develop noise reduction technology for headphones. Dr. Bose was coming back on an overseas flight and got very frustrated by the fact that airplanes were very noisy. We can control all sorts of other stuff. Why can't we control noise? The first application that we looked at was canceling noise on airplanes. Pilots wore its earliest prototypes in 1986. While the technology has gotten more sophisticated, the basic science remains the same. Active noise cancellation requires a few main components. An outer microphone to track incoming noise. An inner microphone that tracks sound waves that make it inside your ear, and also checks if more environmental noise than expected is making it through, a digital signal processor to run some algorithms based on data from the mics, and the speaker, which cancels the background noise while also playing the music or sound you want to hear. Think about how fast this has to happen. The sound is obviously propagating at the speed of sound, right, which is 343 meters per second. If you think about that in terms of the thickness of an earbud, it's getting from the outside of the earbud to the inside of the earbud in about 15 microseconds. So that's millionths of a second. We're doing math as fast as we can to basically cancel it out before it gets in. Because's ears are differently shaped active noise cancellation requires algorithms that can be tuned based on the user bose for instance does this by playing a welcome chime and monitoring feedback from the internal microphone to customize noise cancelling filters accordingly this requires a lot of testing to make sure the algorithms work on a wide range of users in all types of noisy environments. But eliminating background noise is just the first step. The next is figuring out what noise to remove, based on the context. I think it's really important to recognize that noise is not bad. Noise is critical to my brain, critical to my body. My brain uses it to create richer experiences, to fill in what's missing, which is all the time. Poppy Crum was previously the chief scientist at Dolby Laboratories, where she worked for more than a decade. She's led teams focused on emergent technologies and platforms that impact sensory systems. When you think about noise-canceling technology, I like to sort of separate it into three different categories. You know, there's passive noise canceling or passive noise reduction, which is effectively an earplug. The second layer would be active noise reduction. You know, it's dynamic to the system, but it's dealing with what we would call stationary sound. Sounds that are, you know, consistent. They're continuous or they're predictable. Examples of that might be a generator or airplane noise. You Not, not all the sounds in the airplane, but that general rumble, those low frequency sounds you're trying to get rid of, they're pretty predictable. For these predictable noises, current noise canceling algorithms can quickly identify unwanted sound waves and cancel them out. Beyond that, things get harder. And then the next layer, which is I think where, you know, the future is still evolving, is when you start being able to really cancel out things that are what you would call non-stationary noise. Things that might be a dog barking. And those elements that happen where you can't predict them, and you might be able to have an expectation that they're going to happen, but they're things that aren't continuous and aren't constant. But sometimes, after your technology has gone through so many steps to reduce background noise, you want it back. AirPods Pro have a transparency mode where they recreate the normal sound of your environment. Other noise-canceling earbuds also offer modes to help you hear your surroundings, like Bose's Aware mode and Sony's Ambient Sound mode that preserve enough background noise to keep you alert to your surroundings. When you build a technology that's supposed to map to a human experience, you need to understand how the human system perceives change or perceives that element you're building, and then that becomes how your algorithm behaves so that you have a continuous experience of the world. So you need labs where you can remove or control every other element. Noise cancellation could soon solve more complex problems like using machine learning to seamlessly and intelligently eliminate unwanted sounds or voices across various contexts. Adaptive audio, which is coming to Apple's AirPods Pro soon, combines noise cancellation with the transparency mode so you can only hear the important sounds around you. So you can stay present within your environment while distracting noises are automatically reduced. It's the thing that everybody wants, right? They want to make certain noises go away. So they still want to hear some things, they don't want to hear other things. Can you just give me a set of headphones that just cancels the stuff I don't want to hear? That's not a thing that we're offering yet, but that's the kind of thing that is being worked on. In July, the Sphere switched on for the first time, dominating the Las Vegas skyline. Oh, I don't think it likes it. But inside the 366-foot-tall dome... We are not outside. No, I know....is an even more incredible, immersive experience. The dome holds the world's largest high-definition screen, 160,000 square feet, nearly 20 times the size of the largest IMAX screen. But the screen is just one piece of groundbreaking technology made for this venue. To create content for the screen, Sphere needed a new camera to shoot it. This is the tech behind The Sphere. When director Darren Aronofsky set out to make Postcard from Earth, a movie exclusive to The sphere, featuring immersive scenes from all around the world. His team started shooting on this camera, or rather, cameras. When I first showed up, it was 11 Reds welded together in a kind of Frankenstein. But combining the views from those 11 cameras made it difficult to shoot and edit. So that led us to design the Big Sky camera system, as well as the lens system, to take all those different perspectives on the 11 different lenses, but make it one perspective so it feels like your eyes work. This is Dinan Da Silva, chief architect of the Big Sky camera. He walked us through Sphere's camera lab in California. That's amazing to have a tool which is so sensitive and be that versatile with it is really just an amazing tool to have. Filming content for Sphere has two big challenges. It needs a camera that can shoot at a very wide angle and at a super high resolution to get that super"
+        },
+        {
+            "timestamp": [
+                2185.16,
+                2568.24
+            ],
+            "text": " wide angle big sky uses a giant version of a fisheye lens almost a foot in diameter it makes a circular image which distorts the view in order to capture a wider angle in a circle then as light passes through the lens it imprints itself on a sensor which breaks it into tiny squares color called pixels. Larger pixels allow the camera to capture more light and more detail. So to capture a higher amount of large pixels for a screen the size of the sphere, you need a bigger sensor than a screen the size of, say, your phone. Some of those pixels are wasted on a normal rectangular sensor, since a circle doesn't take up the full frame. But… That circle captured from that lens is projected onto the sensor in a circular format and that circle fits perfectly in a square sensor rather than a rectangular sensor. The lens and sensor come together to create the massive and super clear field of view needed for the sphere's screen. To test this, we took the camera just outside the camera lab. This is how a camera with a flat lens and smaller sensor saw this area, compared to how Big Sky saw it. The field of view reaches almost behind the lens. Here you can see a glimpse of Denon standing just off to the side behind Big Sky. Instead of shooting horizontally, we tilt up so that we can capture the full field of view that is natural in Sphere for where you're sitting. The tilt helps the camera line up with the horizon, this line here on the screen. Because when that circular image is transformed into 3D, that is the spot that needs to look the most normal to the audience. The team on set can check that the view looks natural with this, a VR headset that creates a live simulation of the footage on the Sphere screen. But to get a real preview of what the footage will look like in Sphere, the team takes the footage down the street to here, the big dome, a quarter-sized version of the Sphere they use for testing. This is a prototype of the screen panels in the Sphere. There are effectively 32 LEDs in a foot, and when you scale that up to the venue, that's how we get to 16K. That gives the illusion of being there. Each of these lights make up one pixel of the screen, about 170 million in total, that wrap around and above the nearly 18,000 seats in the theater. That makes up the 16K by 16K resolution, which means there are about 16,000 of those lights, both vertically and horizontally, that translate the pixels captured from the camera into an image to compare your iphone screen only has about 2500 by a thousand pixels you need a lot of pixels a lot of detail everywhere because an audience member might be looking in this direction another one might be looking in this direction so everywhere on the screen is an important part of the screen and And that's not the only thing that makes Sphere so immersive. These holes in the panel allow for sound to pass through since the speakers are behind the screen and different sounds can emit from different parts of the screen at the same time. The $2.3 billion venue also has physical effects like changing temperatures, bree breezes and scents, as well as 10,000 seats that vibrate to respond to scenes in the movie. But the screen is the centerpiece. And to create a movie with a huge high-definition camera for a huge high-definition theater, Aronofsky and his team had to think carefully about what they were shooting. You can't really hide behind anything when you're shooting with big sky because everything is sharp. And if there's any mistakes, they're just there. This shot of a climber on the Alps, for example, took some trial and error. You're looking over Duane the Climber and you're seeing this kind of valley below. And without seeing like the depth of the mountains behind, you kind of lost the environment. It didn't feel as risky. Andrew Shulkind is the director of photography for Sphere and worked with Aronofsky on Postcard. It felt riskier and more special that he was on this kind of spire in front of this snowy landscape. That footage eventually made its way to the screen in the Sphere. I remember we were in the edit when I saw that and got super excited. But we couldn't tell what it was because it was just in 4K. And then we had to go through the process of uprising it to be able to see it in big dome. Sphere is still perfecting some elements of the camera, like improving its ability to shoot very tiny objects and making it easier to use. But the next big step is getting it onto the International Space Station. The screen is so big that the ISS can actually fit inside the screen. And so we can convey to people an experience of doing a spacewalk that actually is realistic. One of the things that we're very interested in as SPHERE is to use the venue and the technology for science. And so that's the type of things that we're sort of curious about and will potentially explore in the future. More than 23,000 songs are Shazammed every minute in the world. But how does it identify the music around you after recording just seconds of audio from your phone? Shazam has to create a unique audio fingerprint of what you're hearing and then search its database for a matching fingerprint. That means simplifying sound to a bunch of data that can be processed incredibly fast. This is the tech behind Shazam. The idea behind Shazam is simple. Take the audio captured on your phone and convert it into something a computer can easily compare to other songs. In acoustics, this is called audio fingerprinting, simplifying a song to a unique signature that you can identify even through lots of background noise. The first step to creating Shazam was digitizing a large amount of music since there was no existing database it could use. We literally hired about 30 18-year-olds to work eight hours a day and three eight-hour shifts, so 24 hours a day actually, putting CDs into computers that ran custom software that we built from the ground up. We had 100,000 CDs, which is about 1.7 million songs. Because CDs don't contain metadata, they had to type the name of every song, every album title, and every artist as they built this massive database. Once they had digitized each song, they had to convert them into something that looks like this,"
+        },
+        {
+            "timestamp": [
+                2568.62,
+                2573.74
+            ],
+            "text": " a spectrogram. Spectrograms map out frequency content over time. They also display signal"
+        },
+        {
+            "timestamp": [
+                2573.74,
+                2577.78
+            ],
+            "text": " power level related to how loud something sounds, which is represented by color."
+        },
+        {
+            "timestamp": [
+                2578.36,
+                2584.32
+            ],
+            "text": " In this spectrogram of Birdsong, we have time progressing to the right, as is always done in"
+        },
+        {
+            "timestamp": [
+                2584.32,
+                2666.98
+            ],
+            "text": " spectrograms, and then frequency on the vertical axis. So this is coming down. You know, that's not the right frequency zone, but that's the idea. Julia Smith is an emeritus professor at Stanford Center for Computer Research in Music and Acoustics. He was also an early consultant for Shazam and assisted with one of the company's early patents. With music, spectrograms often look more complicated than this because you have to deal with harmonics, or overtones, which get softer as you move up from the fundamental frequency. Beethoven's Fifth Symphony, the opening measure is and then the next whole measure is So this is theam in score. And then over here in the spectrogram, we have the same thing, not as clearly written but clear to hear, and that is ba-ba-ba-bam, ba-ba-ba-bam. But if Shazam had to match spectrograms like this, it would take an incredibly long time to return a result. The first key insight was to focus on peaks in the spectrogram, because those peaks are the main thing the brain processes. Shazam simplifies a spectrogram like this to a scatterplot of peaks. Many of these peaks make it through background noise, but you may also end up with a bunch of additional meaningless peaks. So let's say we have a spectrogram of a piece of music, and then we look at the spectrogram and how it changes as noise gets brought in."
+        },
+        {
+            "timestamp": [
+                2667.12,
+                2671.98
+            ],
+            "text": " So let's say people start walking into the bar, people start drinking a lot, people start making a lot of noise."
+        },
+        {
+            "timestamp": [
+                2672.12,
+                2675.82
+            ],
+            "text": " Then what you see is the original spectrogram plus a lot of new activity."
+        },
+        {
+            "timestamp": [
+                2676.16,
+                2679.92
+            ],
+            "text": " And the brain is very good at understanding superpositions of sounds."
+        },
+        {
+            "timestamp": [
+                2680.28,
+                2683.2
+            ],
+            "text": " If people can do it, then the computer can do it, right?"
+        },
+        {
+            "timestamp": [
+                2683.2,
+                2690.5
+            ],
+            "text": " The core of Shazam's technology is matching scatter plots that essentially chart the most powerful signals at different frequencies over time. It all started when I was in high school."
+        },
+        {
+            "timestamp": [
+                2690.5,
+                2691.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2691.5,
+                2692.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2692.5,
+                2693.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2693.5,
+                2694.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2694.5,
+                2695.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2695.5,
+                2696.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2696.5,
+                2697.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2697.5,
+                2698.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2698.5,
+                2699.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2699.5,
+                2700.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2700.5,
+                2701.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2701.5,
+                2702.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2702.5,
+                2703.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2703.5,
+                2704.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2704.5,
+                2705.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2705.5,
+                2706.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2706.5,
+                2707.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2707.5,
+                2708.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2708.5,
+                2709.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2709.5,
+                2710.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2710.5,
+                2711.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2711.5,
+                2712.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2712.5,
+                2713.5
+            ],
+            "text": " I was in high school when I was in high school."
+        },
+        {
+            "timestamp": [
+                2713.5,
+                2727.0
+            ],
+            "text": " I was in high school when I was in high school. I was in high school when I was in high school. I was in high school when I was in high school. It also develops some important processing steps to speed things up, so you can get a result quickly. Instead of searching its database for a match of all these points in the proper sequence, Shazam looks for multiple points at once and doesn't worry about the overall sequence until the end. For example, say you were in a coffee shop playing classical music. You open Shazam and it records your audio. First, it makes a spectrogram like this. Then, it isolates the peaks and makes a scatterplot like this, though in reality it would probably have more points. Shazam connects nearby peaks to form a bunch of pairs. Then, Shazam searches for matching pairs in an organized database of millions of songs."
+        },
+        {
+            "timestamp": [
+                2727.48,
+                2732.14
+            ],
+            "text": " If there are enough matches in the same song and they're aligned properly over time, Shazam can name the tune."
+        },
+        {
+            "timestamp": [
+                2732.48,
+                2736.16
+            ],
+            "text": " In this case, a specific rendition of Bach's Minuet in G major."
+        },
+        {
+            "timestamp": [
+                2736.92,
+                2742.46
+            ],
+            "text": " After about two and a half years of development, Shazam launched in 2002, well before the smartphone era."
+        },
+        {
+            "timestamp": [
+                2742.78,
+                2806.4
+            ],
+            "text": " Everyone was carrying these mobile phones around everywhere and really you could only just do two things with them. You could make phone calls and you could send text messages. And I guess you could also play the game Snake. Here's how Shazam worked back then. This is one of its earliest pitch decks. Initially, Shazam was a service that people in the U.K. could access by dialing 2580. After recording 15 seconds of audio, a call would disconnect and a user would get a text with the name of the song. While the fundamental algorithm has stayed the same, engineers have made some modifications to improve its recognition rate. It was good enough that it felt like it worked most of the time and it really delighted people that it would work in these bars and clubs and so on. We also had to then add additional tweaks to deal with the fact that music in the real world also gets adjusted in terms of speed, tempo, and pitch. So there are, for example, DJs might adjust the speed of music when they're playing vinyl records. Shazam wasn't an immediate hit. It had to sell some of its patents to fund development, though it later bought them back. And it wasn't profitable, it says, until 2016. Barton was CEO for four years before stepping down, though he continued to serve on the"
+        },
+        {
+            "timestamp": [
+                2806.4,
+                2807.4
+            ],
+            "text": " company's board."
+        },
+        {
+            "timestamp": [
+                2807.4,
+                2812.44
+            ],
+            "text": " When I left Shazam, it was running through a long period of barely surviving."
+        },
+        {
+            "timestamp": [
+                2812.44,
+                2820.12
+            ],
+            "text": " Shazam was a story of nearly failing, nearly going bankrupt, incredible resilience over"
+        },
+        {
+            "timestamp": [
+                2820.12,
+                2821.28
+            ],
+            "text": " many years."
+        },
+        {
+            "timestamp": [
+                2821.28,
+                2825.86
+            ],
+            "text": " It didn't really hit a hockey stick of incredible user adoption until the App Store launched"
+        },
+        {
+            "timestamp": [
+                2825.86,
+                2826.86
+            ],
+            "text": " in 2008."
+        },
+        {
+            "timestamp": [
+                2826.86,
+                2829.92
+            ],
+            "text": " Eventually, Apple bought Shazam in 2018."
+        },
+        {
+            "timestamp": [
+                2829.92,
+                2826.68
+            ],
+            "text": " Thanks for watching! Over many years, it didn't really hit a hockey stick of incredible user adoption until the App Store launched in 2008."
+        },
+        {
+            "timestamp": [
+                2827.08,
+                2829.06
+            ],
+            "text": " Eventually, Apple bought Shazam in 2018."
+        },
+        {
+            "timestamp": [
+                2829.76,
+                2832.88
+            ],
+            "text": " It's now one of the most popular free music apps in the App Store."
+        },
+        {
+            "timestamp": [
+                2833.32,
+                2837.28
+            ],
+            "text": " Once you're paying for unlimited streaming of music, what is it you're actually going to listen to?"
+        },
+        {
+            "timestamp": [
+                2837.42,
+                2840.32
+            ],
+            "text": " Because you have access to everything as much as you want."
+        },
+        {
+            "timestamp": [
+                2840.32,
+                2843.2
+            ],
+            "text": " And Shazam solves one form of discovery."
+        },
+        {
+            "timestamp": [
+                2843.48,
+                2870.56
+            ],
+            "text": " You're not only discovering music when your friend tells you about a great band, but you're actually discovering it in your daily life. The technology behind Shazam has grown significantly since Apple's acquisition in 2018. When it bought Shazam, it also gave the company access to Apple Music's large library. Today, Shazam can identify most of the Apple Music catalog of over 100 million songs. We created an app many years before apps actually existed. Part of the art of a"
+        },
+        {
+            "timestamp": [
+                2870.56,
+                2875.12
+            ],
+            "text": " startup is the timing aspect and so fortunately we found a way to survive"
+        },
+        {
+            "timestamp": [
+                2875.12,
+                2878.18
+            ],
+            "text": " through those tough years."
+        }
+    ]
+}

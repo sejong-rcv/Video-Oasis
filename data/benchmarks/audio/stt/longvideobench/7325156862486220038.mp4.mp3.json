@@ -1,0 +1,34 @@
+{
+    "video_id": "7325156862486220038.mp4.mp3",
+    "transcript": " I doubt you can name a better hot spring than this. Tolantongo is an all-natural Mexican paradise located smack dab in the middle of the country. Visitors can choose to enter the spectacular La Gloria Cave, which is filled with mineral deposits. Or they can bathe in the main attraction all day long.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " I doubt you can name a better hot spring than this."
+        },
+        {
+            "timestamp": [
+                2.0,
+                7.0
+            ],
+            "text": " Tolantongo is an all-natural Mexican paradise located smack dab in the middle of the country."
+        },
+        {
+            "timestamp": [
+                7.0,
+                12.5
+            ],
+            "text": " Visitors can choose to enter the spectacular La Gloria Cave, which is filled with mineral deposits."
+        },
+        {
+            "timestamp": [
+                12.5,
+                15.5
+            ],
+            "text": " Or they can bathe in the main attraction all day long."
+        }
+    ]
+}

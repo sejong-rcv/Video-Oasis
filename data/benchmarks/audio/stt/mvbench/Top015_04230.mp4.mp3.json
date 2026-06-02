@@ -1,0 +1,20 @@
+{
+    "video_id": "Top015_04230.mp4.mp3",
+    "transcript": "小梅你在哪儿啊",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                14.08
+            ],
+            "text": "小梅"
+        },
+        {
+            "timestamp": [
+                14.08,
+                20.0
+            ],
+            "text": "你在哪儿啊"
+        }
+    ]
+}

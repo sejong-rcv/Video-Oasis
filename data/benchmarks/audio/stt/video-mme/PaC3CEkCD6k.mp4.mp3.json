@@ -1,0 +1,41 @@
+{
+    "video_id": "PaC3CEkCD6k.mp4.mp3",
+    "transcript": " ¶¶ ¶¶ ¶¶ ¶¶ We'll be you next time.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " ¶¶"
+        },
+        {
+            "timestamp": [
+                5.0,
+                13.0
+            ],
+            "text": " ¶¶"
+        },
+        {
+            "timestamp": [
+                13.0,
+                19.0
+            ],
+            "text": " ¶¶"
+        },
+        {
+            "timestamp": [
+                19.0,
+                29.0
+            ],
+            "text": " ¶¶"
+        },
+        {
+            "timestamp": [
+                29.0,
+                46.68
+            ],
+            "text": " We'll be you next time."
+        }
+    ]
+}

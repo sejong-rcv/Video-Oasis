@@ -1,0 +1,48 @@
+{
+    "video_id": "UMT5R.mp4.mp3",
+    "transcript": " Hello everyone, I'm going to show you how to make a simple, easy, and easy to read book. I'm going to show you how to make a simple, easy, and easy to read book. I'm going to show you how to make a simple, easy, and easy to read book.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " Hello everyone, I'm going to show you how to make a"
+        },
+        {
+            "timestamp": [
+                5.0,
+                10.0
+            ],
+            "text": " simple, easy, and easy to read book."
+        },
+        {
+            "timestamp": [
+                10.0,
+                15.0
+            ],
+            "text": " I'm going to show you how to make a"
+        },
+        {
+            "timestamp": [
+                15.0,
+                20.0
+            ],
+            "text": " simple, easy, and easy to read book."
+        },
+        {
+            "timestamp": [
+                20.0,
+                25.0
+            ],
+            "text": " I'm going to show you how to make a"
+        },
+        {
+            "timestamp": [
+                25.0,
+                29.74
+            ],
+            "text": " simple, easy, and easy to read book."
+        }
+    ]
+}

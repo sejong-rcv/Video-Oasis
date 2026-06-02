@@ -1,0 +1,20 @@
+{
+    "video_id": "So this is how loading bars actually work ver 3.mp4.mp3",
+    "transcript": " I love you, you love me too But what is it we are following?",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                7.5
+            ],
+            "text": " I love you, you love me too"
+        },
+        {
+            "timestamp": [
+                7.5,
+                11.16
+            ],
+            "text": " But what is it we are following?"
+        }
+    ]
+}

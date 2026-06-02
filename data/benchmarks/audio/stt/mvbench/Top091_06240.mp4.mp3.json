@@ -1,0 +1,41 @@
+{
+    "video_id": "Top091_06240.mp4.mp3",
+    "transcript": " No reason to fret Just a prick in the finger, a few drops of blood No mistakes this time He's only half Turner We spin it all",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                9.18
+            ],
+            "text": " No reason to fret"
+        },
+        {
+            "timestamp": [
+                9.18,
+                11.8
+            ],
+            "text": " Just a prick in the finger, a few drops of blood"
+        },
+        {
+            "timestamp": [
+                11.8,
+                14.12
+            ],
+            "text": " No mistakes this time"
+        },
+        {
+            "timestamp": [
+                14.12,
+                15.88
+            ],
+            "text": " He's only half Turner"
+        },
+        {
+            "timestamp": [
+                15.88,
+                17.44
+            ],
+            "text": " We spin it all"
+        }
+    ]
+}

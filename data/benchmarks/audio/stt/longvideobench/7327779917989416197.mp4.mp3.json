@@ -1,0 +1,41 @@
+{
+    "video_id": "7327779917989416197.mp4.mp3",
+    "transcript": " Did you know that the Aurora Borealis has a much larger area than you would think? This beauty, also known as the Northern Lights, happens when the sun's particles collide with the Earth's magnetic field. All you should really care about is the color, though. And if you want to witness it, you've got to be in these regions.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                3.82
+            ],
+            "text": " Did you know that the Aurora Borealis has a much larger area than you would think?"
+        },
+        {
+            "timestamp": [
+                3.94,
+                6.3
+            ],
+            "text": " This beauty, also known as the Northern Lights,"
+        },
+        {
+            "timestamp": [
+                6.48,
+                9.88
+            ],
+            "text": " happens when the sun's particles collide with the Earth's magnetic field."
+        },
+        {
+            "timestamp": [
+                10.1,
+                12.16
+            ],
+            "text": " All you should really care about is the color, though."
+        },
+        {
+            "timestamp": [
+                12.3,
+                14.78
+            ],
+            "text": " And if you want to witness it, you've got to be in these regions."
+        }
+    ]
+}

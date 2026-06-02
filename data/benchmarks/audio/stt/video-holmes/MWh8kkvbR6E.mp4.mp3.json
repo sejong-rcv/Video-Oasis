@@ -1,0 +1,20 @@
+{
+    "video_id": "MWh8kkvbR6E.mp4.mp3",
+    "transcript": " Thank you for watching. I am seeing you. I am't know. Thank you. I don't know.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                28.0
+            ],
+            "text": " Thank you for watching. I am seeing you."
+        },
+        {
+            "timestamp": [
+                40.0,
+                126.0
+            ],
+            "text": " I am't know. Thank you. I don't know."
+        }
+    ]
+}

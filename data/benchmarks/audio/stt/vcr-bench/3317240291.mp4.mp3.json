@@ -1,0 +1,62 @@
+{
+    "video_id": "3317240291.mp4.mp3",
+    "transcript": " Open it. What? Mama! Put it down. I'm on my tail! You still have it, babe. Come on. Go! Okay, leave the rest of the stuff in there, okay guys?",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.0
+            ],
+            "text": " Open it."
+        },
+        {
+            "timestamp": [
+                8.0,
+                9.0
+            ],
+            "text": " What?"
+        },
+        {
+            "timestamp": [
+                9.0,
+                10.0
+            ],
+            "text": " Mama!"
+        },
+        {
+            "timestamp": [
+                13.0,
+                14.0
+            ],
+            "text": " Put it down."
+        },
+        {
+            "timestamp": [
+                15.0,
+                17.0
+            ],
+            "text": " I'm on my tail!"
+        },
+        {
+            "timestamp": [
+                18.0,
+                20.0
+            ],
+            "text": " You still have it, babe."
+        },
+        {
+            "timestamp": [
+                20.0,
+                21.0
+            ],
+            "text": " Come on."
+        },
+        {
+            "timestamp": [
+                21.0,
+                34.52
+            ],
+            "text": " Go! Okay, leave the rest of the stuff in there, okay guys?"
+        }
+    ]
+}

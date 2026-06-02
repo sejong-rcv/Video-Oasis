@@ -1,0 +1,41 @@
+{
+    "video_id": "ZNQVC.mp4.mp3",
+    "transcript": " 1.5 kg of chicken breast 1.5 kg of chicken breast 1.5 kg of chicken breast 1 kg of chicken breast 1 kg of chicken breast 1 kg of chicken breast Thank you.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " 1.5 kg of chicken breast"
+        },
+        {
+            "timestamp": [
+                5.0,
+                10.0
+            ],
+            "text": " 1.5 kg of chicken breast"
+        },
+        {
+            "timestamp": [
+                10.0,
+                15.0
+            ],
+            "text": " 1.5 kg of chicken breast"
+        },
+        {
+            "timestamp": [
+                15.0,
+                20.0
+            ],
+            "text": " 1 kg of chicken breast"
+        },
+        {
+            "timestamp": [
+                20.0,
+                31.26
+            ],
+            "text": " 1 kg of chicken breast 1 kg of chicken breast Thank you."
+        }
+    ]
+}

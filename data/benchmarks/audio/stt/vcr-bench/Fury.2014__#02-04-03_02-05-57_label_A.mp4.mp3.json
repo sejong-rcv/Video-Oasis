@@ -1,0 +1,20 @@
+{
+    "video_id": "Fury.2014__#02-04-03_02-05-57_label_A.mp4.mp3",
+    "transcript": " Hey, you're a hero, buddy. You know that? We'll be right back. Thanks for watching!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                3.32
+            ],
+            "text": " Hey, you're a hero, buddy."
+        },
+        {
+            "timestamp": [
+                4.94,
+                114.0
+            ],
+            "text": " You know that? We'll be right back. Thanks for watching!"
+        }
+    ]
+}

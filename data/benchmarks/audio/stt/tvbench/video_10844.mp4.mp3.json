@@ -1,0 +1,41 @@
+{
+    "video_id": "video_10844.mp4.mp3",
+    "transcript": " 1.5 tsk vaniljen 1 tsk vaniljen 1 tsk vaniljen 1 tsk vaniljen 1 tsk vaniljen 1 tsk vaniljen Thank you.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " 1.5 tsk vaniljen"
+        },
+        {
+            "timestamp": [
+                5.0,
+                10.0
+            ],
+            "text": " 1 tsk vaniljen"
+        },
+        {
+            "timestamp": [
+                10.0,
+                15.0
+            ],
+            "text": " 1 tsk vaniljen"
+        },
+        {
+            "timestamp": [
+                15.0,
+                20.0
+            ],
+            "text": " 1 tsk vaniljen"
+        },
+        {
+            "timestamp": [
+                20.0,
+                35.04
+            ],
+            "text": " 1 tsk vaniljen 1 tsk vaniljen Thank you."
+        }
+    ]
+}

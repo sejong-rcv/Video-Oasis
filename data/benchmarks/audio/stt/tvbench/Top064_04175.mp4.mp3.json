@@ -1,0 +1,27 @@
+{
+    "video_id": "Top064_04175.mp4.mp3",
+    "transcript": " Oh, my God! We need you! Oh, my God!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.46
+            ],
+            "text": " Oh, my God!"
+        },
+        {
+            "timestamp": [
+                3.08,
+                5.18
+            ],
+            "text": " We need you!"
+        },
+        {
+            "timestamp": [
+                6.02,
+                7.5
+            ],
+            "text": " Oh, my God!"
+        }
+    ]
+}

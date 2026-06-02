@@ -1,0 +1,34 @@
+{
+    "video_id": "Top046_05260.mp4.mp3",
+    "transcript": " I don't know. Hyman Roth? Johnny Ola? No. I never met them. Listen, Mikey, I'm, uh... I'm kind of, uh...",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.34
+            ],
+            "text": " I don't know. Hyman Roth? Johnny Ola?"
+        },
+        {
+            "timestamp": [
+                5.98,
+                8.3
+            ],
+            "text": " No. I never met them."
+        },
+        {
+            "timestamp": [
+                12.22,
+                14.54
+            ],
+            "text": " Listen, Mikey, I'm, uh..."
+        },
+        {
+            "timestamp": [
+                14.54,
+                16.82
+            ],
+            "text": " I'm kind of, uh..."
+        }
+    ]
+}

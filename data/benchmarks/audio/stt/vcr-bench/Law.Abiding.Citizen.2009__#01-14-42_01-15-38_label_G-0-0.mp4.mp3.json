@@ -1,0 +1,41 @@
+{
+    "video_id": "Law.Abiding.Citizen.2009__#01-14-42_01-15-38_label_G-0-0.mp4.mp3",
+    "transcript": " I Don't know how this was gonna turn out Nick we're gonna stop and that's how it's gonna turn out Sir. Sir. Sarah! Sarah! Leon! Thanks for watching!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " I"
+        },
+        {
+            "timestamp": [
+                4.0,
+                8.1
+            ],
+            "text": " Don't know how this was gonna turn out Nick we're gonna stop and that's how it's gonna turn out"
+        },
+        {
+            "timestamp": [
+                22.68,
+                28.0
+            ],
+            "text": " Sir. Sir. Sarah!"
+        },
+        {
+            "timestamp": [
+                30.0,
+                31.0
+            ],
+            "text": " Sarah!"
+        },
+        {
+            "timestamp": [
+                56.0,
+                null
+            ],
+            "text": " Leon! Thanks for watching!"
+        }
+    ]
+}

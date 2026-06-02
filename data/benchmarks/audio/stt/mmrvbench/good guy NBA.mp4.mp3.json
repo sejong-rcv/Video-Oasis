@@ -1,0 +1,27 @@
+{
+    "video_id": "good guy NBA.mp4.mp3",
+    "transcript": " Okay, LeBron, you used to be a good guy, and then you turned into a bad guy, and now you're a good guy again? And you left the NBA hanging, what are they going to do when they don't have a bad guy? Exactly what we do, they're going to make a new one.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                11.54
+            ],
+            "text": " Okay, LeBron, you used to be a good guy, and then you turned into a bad guy, and now you're a good guy again?"
+        },
+        {
+            "timestamp": [
+                13.54,
+                16.66
+            ],
+            "text": " And you left the NBA hanging, what are they going to do when they don't have a bad guy?"
+        },
+        {
+            "timestamp": [
+                16.88,
+                19.4
+            ],
+            "text": " Exactly what we do, they're going to make a new one."
+        }
+    ]
+}

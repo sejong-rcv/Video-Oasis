@@ -1,0 +1,41 @@
+{
+    "video_id": "Top101_02470.mp4.mp3",
+    "transcript": " C'mon! Up there! Let's get in there! Let's go! Get in the bus! Get in the bus! Get in the bus!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                4.0
+            ],
+            "text": " C'mon! Up there!"
+        },
+        {
+            "timestamp": [
+                4.0,
+                8.0
+            ],
+            "text": " Let's get in there! Let's go!"
+        },
+        {
+            "timestamp": [
+                8.0,
+                12.0
+            ],
+            "text": " Get in the bus!"
+        },
+        {
+            "timestamp": [
+                12.0,
+                16.0
+            ],
+            "text": " Get in the bus!"
+        },
+        {
+            "timestamp": [
+                16.0,
+                20.0
+            ],
+            "text": " Get in the bus!"
+        }
+    ]
+}

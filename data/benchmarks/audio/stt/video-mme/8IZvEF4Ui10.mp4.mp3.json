@@ -1,0 +1,454 @@
+{
+    "video_id": "8IZvEF4Ui10.mp4.mp3",
+    "transcript": " Hello and welcome to the Skydival channel, and today we're going to be building the best $3,000 gaming PC in 2023. Wait, I thought you said $2,000. Okay, there we go. Hello and welcome to the Skydival channel, and today we're going to be building the best $2,000 gaming PC in 2023. This, quite frankly, is as expensive as I would go for a high-end gaming PC because you are pretty much getting the best of the best without throwing away money. And that's because the CPU and the GPU we have in this $2,000 gaming PC build is going to crush it when it comes to 4K gaming, even when you throw on ray tracing into the mix but it's also going to do great when it comes to content creation game streaming and nearly anything else because at the end of the day this is a 2 000 gaming pc it's going to be fast enough to do a lot of things so that said i'm going to go ahead and show you guys how to put together this pc step by step the parts going inside parts going inside of it, how to install windows, drivers, and then the 4K gaming benchmarks, and then finish you out with my final thoughts on if you should build this $2,000 computer. So as usual, links to all of the parts I use in this build guide can be found in the description below if you wanna price check anything, or if you just wanna check out the parts yourself. And with that said, let's into the build okay to build this two thousand dollar computer all you need is a banana scissors and an eight gigabyte or bigger usb flash drive to install your windows bootable media device which i'll cover more later in the build tutorial okay for the processor we are going with the amd Ryzen 7 7800X3D. This is the best gaming CPU you can build or you can get in 2023. And seriously, you don't need more than eight cores for even a high-end gaming PC in 2023. And if you even check out benchmark videos of the 7800X3D, despite having only eight cores, it outperforms CPUs that have more cores than it. Eight is the optimal for a gaming PC and it comes with 3D vCache. That's a recipe for success and really high frame rates. But one thing you'll notice with the 7800X3D is that it doesn't come with a stock CPU cooler because, you know, it's a high-end CPU. So that is why we're pairing with it this 240 millimeter AIO from Enermax. This is one that I have lying around. You don't need this exact one. This just happens to be white, which goes with the theme of the build, but I'll have other alternatives and options linked in the description below if you want to go with a water cooler or even an air cooler that's cheaper which for the motherboard we are going with this gigabyte aorus b650 elite ax ice so to get this out of the way yes the motherboard has wi-fi okay check this i'm gonna unsheath it that's pretty cool this is an all-white b650 motherboard. It's going to be more than enough for our 7800X3D, and wow, this is a beauty. Inside the motherboard box, though, we have Wi-Fi, this handy little front I.O. adapter. I recommend you grab this. We'll eventually need it. Then here's a little sheet with a QR code linking to the manual for the motherboard. now let's go ahead and install the 7800X3D onto our motherboard. So before we put this into the CPU socket, the first thing I want you to do is to go ahead and unscrew these brackets. Now, one thing I want you to notice is that since this is a 7800X3D, like I said, it doesn't come with a stock cooler. So what I'm going to go ahead and do right now while we're installing thepu is i'm going to go ahead and put on the mounting screws for the water cooler that we're eventually going to bolt onto the 7800x3d and let's take care of this one there we go so here's for the mounting screws that i got from the box of the intermax aio i'm going to go ahead and take care of these right now just because i can like i said you don't need to use this exact water cooler. So if you wanna know how to install this onto your AMD CPU, just please refer to the manual. It'll tell you what to do. It'll hold your hand. Cause like I said, I don't expect you guys to use this exact same water cooler, but now let's go ahead and install the CPU. Lift up this latch right here, bring up this bracket, go ahead and unsheath your CPU. As you can see there's a triangle here on the top left of the CPU and it's going to line up with the triangle on the top left of the socket. So line the two up, bring this down here, give it a little jiggle if you're unsure but if it's in there, bring back down this bracket, pull down this lever, this black plastic piece should pop off, hook the little latch here and bam now let's install the ram and the ssd so for the ram we are using a 32 gigabyte kit of ram from g skill this is their s5 series and really you can honestly go with any ddr5 kit of ram pretty much anything is going to be universal with this ryzen system just the reason why i'm going with this is because one it's white and two it's got a speed of 6,000 megahertz with a cast latency of 30 which is really nice for this kind of Ryzen system and I got this RAM kit for about 100 bucks which is pretty nice deal I like to think if you went any crazier with the RAM you're probably probably going to be spending an extra $40 to $50, which will only result in minimal FPS gains. So I think we're making the most of it with our budget with these two sticks of RAM. Then for the SSD, we have the Team Group T-Force Cardera A44 Pro. This is a PCI-Gen 4.0 SSD, 2TB, and kind of like the RAM. This is as expensive as you'd want to go for an M.2 SSD without really overspending, but you're still getting at the end of the day, a high quality premium M.2 SSD. I believe the read and write speeds are well into the 7,000 and 6,000 megabyte range, which is still overkill for a gaming PC, but the price is too good to pass up. I think right now you can get this for $100, which all things considered is an excellent value for a high-end M.2 SSD. So to install our RAM, we're gonna wanna insert this into RAM slots a2 and b2 if you can look right here next to the ram there's these four indicators written on the motherboard always want to do a2 and b2 which are the two slots farthest away from the cpu with one in between now this will only go in one way and even if you mess this up you aren't going to damage the ram so once you think it's going to go in give it a firm press and you should hear a click like that and now for m.2 ssd we're going to change the bits on our screwdriver here to a smaller one that being a phillips head one bit because we are dealing with smaller screws so go ahead and unscrew this flip this around take off this, put that to the side. Here is our M.2 SSD, which from the looks of it, we're going to have to flip because this little notch here is going to line up with this little insert here on the M.2 SSD. This will only go in one way. You won't mess this up. There you go. Press that in like that. Now go ahead and press this down and as we do that we're going to make sure that this little black plastic piece is over the M.2 SSD so that way we can turn this and this stays in place. Otherwise if it wasn't like this then the M.2 SSD could move a little bit. So now let's go ahead and put this back, bring it down, screw this into place sweet all right so before we put the motherboard into the pc case here is this box that came with the montech king 95 pro which is the case we're going with for this 2000 gaming pc build what i like about it is that this is the pro version so we get six fans pre-included that are all rgb and are already all pre-hooked up to the back of the case so that's a lot of work taken for us but if you want to get the base model i think it's like 120 which is also a pretty nice value but in here is our accessory box which if we open this up we're given a box full of all the screws we'd ever need to install whatever into this PC case. Case manual, if you're a first-time PC builder, please follow this. But what looks like to be some additional storage accessory stuff for putting in additional SSDs, I guess. And then if you wanted more cooling performance out of the King 95 Pro, we're given this special type of front panel that has open mesh so we can have more airflow going into the king 95 if we wanted over the glass version of this case for the purposes of this build we're just going to keep it as its stock form but we will need the manual and the box and this case should be pretty straightforward so i've got this unscrewed i should be able to just press this out take it out and now I have access to the inside of the PC case and from the looks of it we've got all the standoffs pre-installed for our motherboard so go ahead and take your motherboard this is such a big PC case you can literally just drop it in and I like to line up the rear IO here with the opening on the back of the king 95 and then by doing that we can then line up with all the standoffs here so we can screw in our motherboard screws which you can see here on screen if you're wondering here in the box it says motherboard screws 18 pieces so obviously those are the screws we're going to use or once again you can check out the case manual'll tell you exactly what screws you use. But how I like to go about this is I like to screw in one screw, but I don't tighten it. I just like to make sure it makes light contact with the motherboard. Then I'll go to a corner, screw in this, not all the way. And I'll go ahead and do that for the rest of the screws here on the motherboard. Just lightly tighten them. Okay, I've got all the screws now so i'm going to go ahead and tighten one of these screws on one end of the motherboard like this go crisscross to the other side tighten this up go crisscross tighten this up this way we put equal pressure on all sides of the motherboard so there's no motherboard flex now let's go ahead and install the power supply that goes behind the motherboard. Okay let's go ahead and knock out the power supply which we have the Montech Sentry G5 850 watt 80 plus gold. It's going to do the job. You don't need this exact 80 plus gold 850 watt power supply to make this build work. Just about any 850 watt 80 plus gold power supply is going to be more than enough especially in terms of quality because you are spending a bit for a power supply of this price but this will be plenty for a 7800x 3d and a 7900x tx all right let's unbox this it's fully modular so all the cables are going to be in this cool pouch. Then let's take this out, remove this. And if you're wondering where this is going to go on the King 95, glad you asked. We're going to unscrew this screw back here, press this forward. This will come out. And the power supply is going to go on its side right here up against the PC case, just like this. So we're going to screw it in. But before we we do that i think it'd be smart to unscrew this so go ahead and unscrew this screw right here and this screw right here this will let you bring this open we can go ahead and stuff all of our cables here from our power supply because i think we should go ahead and take care of that now and then once we we have all of our cables plugged in, then we'll bring this back. But in the meantime, let's go ahead and plug in our cables. Here is our power supply cable that we're going to eventually plug into the wall outlet. So the first cable I am freeing right here is our CPU power cable. It says CPU on here. So the labeled end is going to go into our motherboard, but the non-labeled end is going to go into our power supply where it says cpu on here so the labeled end is going to go into our motherboard but the non-labeled end is going to go into our power supply where it says cpu pcie i'll put this into one of these and we need another one so here's a second cpu power cable let me go and untangle this here's cpu we're going to leave this side alone here's the side that's going to go into our power supply next here's here's our chunky motherboard power connector. We will need this. Here's the end that's gonna go into our motherboard. Here's the end that's gonna go into the power supply. We're gonna plug this to where it says motherboard, motherboard. Now the next thing we'll need is a SATA power cable. That way we can power up all of the RGB and the fan controller that comes with the King 95. Since this is a SATA cable, we'll plug this into where it says SATA. And then for the last cable, we need to plug in a PCIe power cable for our graphics card. And we're going to need, I think, another one of these. Yup, once again, it says PCIe right here. We need two of these for our 7900 xtx and both of these are going to go where it says cpu pcie so i'll put one of them here and i'll put the last one here where it says cpu pcie so now we got all of our cables in here and we're going to put it into the pc case now so before we insert the power supply into the king 95 as you can see there's a bunch of other cables here and I don't necessarily just want to put this in straight away because we have some stuff we can plug in, bottom of the PC case here. So I think it'd be nice to go ahead and knock out the front IO and the RGB right now. Which speaking of, if you look right here, Montech has gone the effort plugging in all the RGB and all the fan cables for the seven fans that are already included in the King 95 Pro, which is awesome. And all you need to do to power that up are just use two SATA power cables, which we already have plugged into the power supply. And then we need to plug in the RGB into a motherboard and the fan for all of these into just one of the fan headers on our motherboard so that is really awesome of them so that's what all these cables are here for and then these cables right here are your front io cables for like your power button your reset button and anything else and montech has also gone the distance as well because the front panel header is all in a singular connector which is so awesome and then you've got your hd audio connector you've God bless you. distance as well because the front panel header is all in a singular connector which is so awesome and then you've got your hd audio connector you've got your usb type c your usb 3.0 this is going to be easy let's knock this out so let's start from the bottom and work our way up so here's our hd audio connector as you can see it says hd audio and it's going to go right here where it says Audio. If you're confused where each of these motherboard connections are, please refer to the manual. It'll tell you where each of them are located on the motherboard. This will only go in one way, like that. Next, here is our 5-volt ARGB cable that controls all of the RGB for all of the included fans here in the case. And all we're going to go ahead and do is just plug it into one of these 5 volt argb headers on the motherboard this will only go in one way there you go and here is the single system fan header that controls all of the fans included in the montech king 95 which once again is already pre-routed and cabled for you so we're We're going to go ahead and plug this into one of these fan headers right here with this little notch. This will line up with the connector so it only goes in one way. And there you go. Then here's our front panel header. What's neat is that all the individual pins are soldered onto a single connector, which is really nice and convenient. We're going to this into here. On this side, this is our front IO header. Once again, refer to the motherboard manual if you don't know where that is. We're gonna just plug this in. It'll only go in one way. And there you go. Then next up is our USB 3.0 header. It's gonna go right here on this connector at an angle. As you can see, there's a little notch here on the connector which is going to line up with this. So this will once again only go in one way, you'll know if it's fitting or not. Go ahead and give this a firm press, there you go. Then right here is our USB-C connector, this is going to go right here. This will only go in one way, you don't get it right the first time, you always flip and that went in there you go see it's easy so now let's finally go ahead and insert the power supply into the pc case which the screws for this you can either find in the box with the power supply or they're going to be already provided here from the king 95 box here of accessories where it says psu slash gpu screws but for the moment we'll go ahead and use the screws that were provided to us from the power supply box so take those out you want the fan side facing outwards you want the cables coming towards the inside of the PC case so you can see right here there's a little platform that our power supply is going to sit on on its side there you go it's going to kind of line up like that i'll bring this here so i can get access to the pc now i'm going to go ahead and just screw in one of these screws like this i'm going to get this one all right i've got all four screws now power supply is in there and now here is all of power cables. Let's actually go ahead and take care of this. So here is our SATA power cable. Let's go ahead and remove that. And as you can see, these are the two SATA power connectors that we need to completely power on the fan and an RGB controller that is in this PC case. So let's go ahead and plug the two up. There we go'll just stuff this somewhere and while we're here before we put in the cpu cooler i think it'd be smart to go ahead and plug in our cpu power cables because our radiator is probably going to get in the way so let's go ahead and plug these in so they're just out of our minds and not have to worry about them all right let's go ahead and plug in our power connectors starting with the cpu power connector this is going to go on the top left of your motherboard and this is a 8 pin by 4 pin setup so we have our singular 8 pin so you can see there's a little latch on the connector it's going to line up with this notch on the actual connection so this will only go in one way you will not mess this up there we go we got one in there and if we split these we can access two separate four pin connectors and we only need one of them for this last connector make sure to press it in all the way or else you're going to run into issues it should look something like that then here is our is our motherboard power connector. Once again, there's a latch here on the connector. It's going to line up with this notch here on the connection. Line the two up, bring this around, give it a firm press, make sure it's all the way in there. And here I've got my two PCIe power connectors just out in the open because eventually we're going to plug in our 7900 XTX into this PC so we're going to leave these on the side. So once you've installed the power supply then go ahead and install your preferred CPU cooler of choice which I went ahead and did that for the Intermax AIO that I have here and I didn't know what to do so I just followed the manual here that was provided by the Intermax cooler. It showed me what to do, how to mount the radiator onto the PC case, how to install the fans onto the radiator, how to put the mounting bracket onto the CPU cooler itself so it could mount onto the motherboard. The manual went ahead and showed me all that. That should be pretty straightforward. Just follow the instructions. But what I will note is that I have both of these fans plugged into these two slots right here and i have the cable for the pump on the far left connector where it says opt cpu so i have all the fans and the pump connected on all three of these headers and then to the right of that i have both RGB for the fans connected into the singular 5-volt ARGB header which I was able to do because you can daisy chain the RGB connectors on the back of the PC case. So with all that done the last thing you got to do is install the graphics card and provide power to it which I have gone with the Radeon RX 7900 XTX. This is probably gonna go down I'll see you next time. provide power to it. Which I have gone with the Radeon RX 7900 XTX. This is probably going to go down as actually one of the best high-end graphics cards ever made. Not because it's really blisteringly fast, but pricing wise it's very reasonable for a high-end graphics card. I picked this up for just under $1,000 for a white edition graphics card, which those usually cost more than black editions. And this is honestly within a stone's throw of the RTX 4090 while costing about $600 to $1,000 less. This can honestly do it all. 4K gaming, ray tracing, high frame rate 1440p high frame rate high graphics 4k it can do all of that on top of streaming and other content creation ideas with the 7900 xtx my point is if you're going to spend $1,000 on a graphics card which is already pretty pretty crazy, then this is the one you wanna get. Also, what makes this graphics card really cool is that it comes with 24 gigabytes of VRAM, which is the same as the RTX 4090, but the RTX 4090 right now is about $2,000. And this I got for under 1,000. And I always preach this in my consumer buyer guide videos for graphics cards, but you can always upgrade the software I'll see you next time. this I got for under $1,000. And I always preach this in my consumer buyer guide videos for graphics cards. But you can always upgrade the software on a graphics card, but you can never truly upgrade the hardware. What comes with this graphics card will forever be soldered onto the PCP. So you can never upgrade the amount of VRAM that comes in this graphics card, unlike upgrading the RAM in your desktop computer or even swapping out the CPU. You can't do that with a graphics card. Whatever you want to do with it. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up to you. It's up screws these These are the PCI latches that are going to be occupied by the 7900 XTX, I want you to go ahead and unscrew these screws. These are the PCI latches that are going to be occupied by the 7900 XTX, and it's a three-slot GPU, so we need to take out three of these. Save these screws for later. Now, remove this. There we go. And we want to line up this connection with the topmost PCI slot here on the motherboard. This is already back, which is good. So we'll take this, put it in here, line it up. Okay, I think it's going to go in. So we're going to give it a firm press and then you should hear a click like that. And then let's screw this back into the case so it doesn't sag. And the final thing we're going to do is we're going to go ahead and plug in each of these pcie power connectors into the graphics card one by one so you can see there's a latch there's a notch here on the connector this will only go in one way make sure each of these firmly go in there we go that is in let me pull these cables back a bit. All right, we did it. You successfully built a $2,000 gaming PC, and now let's install Windows on it. Okay, so we've got everything set up on the computer, and we're ready to turn it on for the first time. So let's go through our pre-boot checklist. So first off, have your Windows bootable media device on hand ready to go. It can be an eight gigabyte or bigger flash drive. Go ahead and create one of these. I have a video tutorial linked in the description below showing you how to create one of these for free. You will need this to plug into the computer for when we need to install Windows to make this a gaming computer. But other than that, make sure your keyboard and your mouse are plugged into your computer make sure you have a display cable running from the monitor to where your graphics card is in your PC and I mean it to where your graphics card is don't plug it into the motherboard then of course don't forget to supply power to your monitor so it actually turns on and then if you remember that power outlet cable from our power supply box you're need to plug that in to the back of the computer where the power supply is look the switch from the zero to the one and now let's take our Windows bootable media device you can plug this in anywhere into your computer I'm just gonna put it in the front because that's what I feel like doing press power button and we wait oh if you see something like this just go ahead and proceed. So we're going to reset the FTPM. So we're going to press Y on the keyboard. There's a little circle here and now let's go ahead and install Windows. All right let's go ahead and install Windows. So hit install now. Here's where you can enter in your Windows product key if you have one. I don't have one so I'll go ahead and click I don't have a product key totally fine i'll go ahead and select windows 11 home doesn't matter which version you choose i accept next custom there's our drive next done now let's go ahead and set up windows so choose your country choose your keyboard layout language whatever now let's go ahead and connect to our internet to proceed further so i'm gonna go ahead and connect to my internet here okay let's go ahead and hit next you're welcome to name your device but i'm gonna go ahead and skip that now let's go ahead and sign into our microsoft account so if you have a previous account that you use say for xbox live or if you just have a microsoft account on your current computer as you're moving to this new one here's we're gonna go ahead and use the email that you last used or you can go ahead and create a new one if you get this option click more options set up as a new PC now let's go ahead and create the login we're going to use every time we build up this computer now for all of these things I go ahead and tick them to off because i don't need them and for the rest of this stuff i'm just going to basically skip or decline they're basically offers and extra things you don't need for pc games all right we're on the windows home screen let's go ahead and install graphics card drivers and our chipset drivers so first things first let's go ahead and download those graphics card drivers So type in Radeon drivers, click on AMD drivers and support. Now you're welcome to download the auto detect tool, but we already know what graphics card we're using, which is the 7900 XTX. Hit submit. And here we can find the Windows 11 version. Let's go ahead and auto detect and install or use the Adrenaline Edition. Doesn't matter's go ahead and open that up and run it but while that's downloading let's type in the name of our motherboard which is the Aorus B650 Elite AX Ice here is the motherboard product page for it click on support and let's go ahead and click on utility and here we can download the gigabyte control center full installation package so rather than say downloading each of the individual drivers that we need for this motherboard and installing them all manually we can install this gigabyte control center and it'll go ahead and manage all that for us in a single spot in our pc which is pretty cool so let's go ahead and run our graphics card driver installation software click yes this should be pretty straightforward there you go there's our graphics card install let this run and let it do its thing and while that's going let's go ahead and open up the gigabyte control center file let's go ahead and extract all of this extract then let's run hit yes okay our graphics card driver is finished installing but we're not going to restart just yet so let's go ahead and hit finish because our gigabyte control center is finishing up and now if we open up the gigabyte control center let's go ahead and see what software is currently available so let's click on the arrows right here here we can see all of the available updates we have for our motherboard so for instance we don't need norton internet security but what we do need are those amd chipset drivers real tech audio drivers we don't need amd ryzen master we do need the wi-fi driver for our Wi-Fi stick and Bluetooth. The rest is pretty self-explanatory. You install, pick and choose what you want, and let this go ahead and run. And once that's finished, now let's go ahead and restart the computer. And we're going to do one last thing in the BIOS. To enter the BIOS, be sure to press the delete key on your keyboard when the logo of the motherboard comes up. There we go. Alright, all I want you to do is one thing in here. Go ahead and enable your XMP profile for your RAM, click Save and Exit, and you are done. Alright, what about Forza Motorsport? We are running this game completely maxed out at 4k FPS is on the top left my editor is gonna have to enlarge that because it's so small oh man and we are now on Hockenheim because this track just got released for the game and the game was like yo let's put you on rainy graphics because why not GT cars, I am on theatly right now, because the Boatly has great brakes. I've got good connection with the brakes. Man, I'm going to show you guys the graphics settings in a little bit, but I just want to see if I can keep this on track. Why am I in first gear? I'm on a wet circuit. Nope. Oh yeah, car's kind of all over the place. Sorry about that. Oh, I can't even hear when the car needs to upshift let's see can we launch a nice one going into this corner yeah um and i am tech okay um the ford it just happened to be like that i was not the uh originator of that issue now we've got a bit of a gap let me go and show you the graphics settings real quick. Just so I show you guys how mental this computer is. Right, we got ultra settings, 100% render resolution. Everything's on auto, because it's on ultra. 4K, and we don't even have AMD FSR turned on? Let's turn that on. Yeah, let's get some more FPS, man. And now we are running at about a hundred not 80 I mean I got no complaints who even needs the game at 4k there we go just got to find traction coming out of these slow corners oh my goodness come on bro we got a fast right-hander these cars are going so slow it's just hilarious. Maybe the AI is too easy. Yeah it probably is too easy. Yeah they are taking the slow corners so slow. You can see the Bentley though it's kind of squirming if I get on the throttle. And around the outside. Oh beautiful move. Oh man you know you know that's kind of all the entertainment done for this game although i kind of want to run one more lap because this is a new track to the game let's have some fun see what i can get i'm off track yep that's it that's the end of it that is the end of it let's try another game oh guys i okay i understand starfield may not be bethesda's most critically acclaimed game but oh my goodness although the performance of this game is questionable at times can you run it very well on this computer and it looks stunning at 4k let me remind you once again the graphics we're running at right now ultra settings fsr we even have sharpening and film grain turned up all the way depth of field why not let's turn on everything because you can simply do that can we even oh 100 there we go all right this should be the game and we are getting uh about 80 frames per second indoors right now oh there's a little bit of vsync though i guess it'd be nice to enable that but for fps reasons we're going to leave it disabled oh man oh i love that you can see how much detail there is and every single thing in the ship. You can clearly see the text, especially if you're playing at 4K. That's one thing you won't see too much in 1440p. It's just how detailed everything is. I can see the text, all the tiny things in the ship very well. Oh man, that is one thing you will get in a 4K gaming PC, is absolute detail. And honestly, to get this sort of clarity at $2,000, not that bad, really. I mean, yeah, it's expensive, but there's more expensive computers than this. I don't know where we're going. We're going to undock. Let's see where the game takes us to. Oh, my. The graphics the graphics oh you guys won't be able to grasp the full graphical fidelity of this game through your phones or through your youtube interface on like whatever browser you're using but in person it's the real deal this is leagues above any pc build i've done in the past oh we're on neon on Neon, okay. Oh, this, yeah, let's go into Neon, and that'll be a true test of this computer's capabilities. Okay, look at that FPS meter on the top left. Here we go. We're in Neon, 73, 71. Getting above 70 with everything dialed up to the max if you just even wanted to lower the graphics settings to high settings and turn off all the additional graphical features you're probably getting above 100 on this computer at 4k it's blazingly fast and with fsr3 soon coming to starfield oh yeah this game's about to get way more playable all right I think I'm good there's one more game I want to try out on this computer and we're just going to go for pure frame rate we're going to see how high we can get okay now this is a game we got to know just how high of a frame rate we can get and that is none other than Counter-Strike 2 anyways before I face back in let me go ahead and show you guys my graphic settings so we've got a mix of high and low settings there's some things I wanted to leave on high some things we could leave on low but what's important is that on video we are running the game at 4k and we are getting 300 FPS let's go ahead and get some kills. Oh, he's got a nom. How'd he headshot me like that with an M4? Ah, how's he getting two hits so quickly? Oh, hey, come on. I was gonna shoot him. Okay, I hear a guy left to me. No, I could care less. I could care less. I could care less. Oh, the bodies be flying right now. Oh, but I got him. Not bad. Oh, oh, oh, oh, oh, oh, skill issue, my mate's got a skill issue, 1D, it's my time, nah, man, ain't happening, ain't happening, ain't happening, got three in a row, oh's a chicken oh scared me another one come on four in a row five in a row oh no oh i had him that's a good spot and uh i'm pretty satisfied with that i hope you guys enjoyed the 300 fps gameplay at 4k let's wrap up the build video okay what a build i think the headline i'm going to use for this build is this pc makes 4k gaming worth it because i would even argue about three to two years ago spending maybe three thousand dollars on a gaming pc would have gotten you a really excellent 4k gaming experience but the cpu and gpu combo in this build i think is very affordable for 4k gaming if you want the best gaming cpu on the market it's only going to cost to about $350 to $400 in the form of the Ryzen 7 7800X 3D. And then if you want essentially the best high-end graphics card that isn't going to be just throwing tons of money away for only minimal gains, then the 7900XTX is probably the highest end you can go without chunking money into a furnace. Because unlike its NVIDIA counterparts, I think its value still holds up even for just under $1,000. It just contains so much raw performance and excellent built-in hardware that makes it worth its $950 price tag for 4K gaming, which is something, like like I said you unfortunately can't really say for the RTX 4080 and 4090 right now as the 4080 retails above MSRP above $1,200 at the moment and the 4090 is right now charging at about $2,400 which is not at all. And there are some games where the 7900 XTX can match or even beat the 4090 in terms of raw performance. Yet this graphics card can be had for almost half the price of a 4090 as I filmed this video. It's just an excellent graphics card deal if you wanted the most gaming performance without throwing away tons of cash. And at $2,000, this looks great too versus my previous one. This has pretty much the same specifications, but it's got a bit of a boost when it comes to aesthetics as it has an AIO, it's an all white, and it's in a really cool chamber style PC case from Montech and with this i have no complaints it's a great way to do 4k gaming on a budget so with all that said thank you so much for watching this video and thank you to montech for sponsoring this build guide along with their new king 95 case which i'll have links to all the pc parts I used to make this build bug guide possible, linked in the description below. And with all that said, thank you so much for watching, and this is the Skyrim World channel, signing out.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                185.98
+            ],
+            "text": " Hello and welcome to the Skydival channel, and today we're going to be building the best $3,000 gaming PC in 2023. Wait, I thought you said $2,000. Okay, there we go. Hello and welcome to the Skydival channel, and today we're going to be building the best $2,000 gaming PC in 2023. This, quite frankly, is as expensive as I would go for a high-end gaming PC because you are pretty much getting the best of the best without throwing away money. And that's because the CPU and the GPU we have in this $2,000 gaming PC build is going to crush it when it comes to 4K gaming, even when you throw on ray tracing into the mix but it's also going to do great when it comes to content creation game streaming and nearly anything else because at the end of the day this is a 2 000 gaming pc it's going to be fast enough to do a lot of things so that said i'm going to go ahead and show you guys how to put together this pc step by step the parts going inside parts going inside of it, how to install windows, drivers, and then the 4K gaming benchmarks, and then finish you out with my final thoughts on if you should build this $2,000 computer. So as usual, links to all of the parts I use in this build guide can be found in the description below if you wanna price check anything, or if you just wanna check out the parts yourself. And with that said, let's into the build okay to build this two thousand dollar computer all you need is a banana scissors and an eight gigabyte or bigger usb flash drive to install your windows bootable media device which i'll cover more later in the build tutorial okay for the processor we are going with the amd Ryzen 7 7800X3D. This is the best gaming CPU you can build or you can get in 2023. And seriously, you don't need more than eight cores for even a high-end gaming PC in 2023. And if you even check out benchmark videos of the 7800X3D, despite having only eight cores, it outperforms CPUs that have more cores than it. Eight is the optimal for a gaming PC and it comes with 3D vCache. That's a recipe for success and really high frame rates. But one thing you'll notice with the 7800X3D is that it doesn't come with a stock CPU cooler because, you know, it's a high-end CPU. So that is why we're pairing with it this 240 millimeter AIO from Enermax. This is one that I have lying around. You don't need this exact one. This just happens to be white, which goes with the theme of the build, but I'll have other alternatives and options linked in the description below if you want to go with a water cooler or even an air cooler that's cheaper which for the motherboard we are going with this gigabyte aorus b650 elite ax ice so to get this out of the way yes the motherboard has wi-fi okay check this i'm gonna unsheath it that's pretty cool this is an all-white b650 motherboard. It's going to be more than enough"
+        },
+        {
+            "timestamp": [
+                185.98,
+                386.0
+            ],
+            "text": " for our 7800X3D, and wow, this is a beauty. Inside the motherboard box, though, we have Wi-Fi, this handy little front I.O. adapter. I recommend you grab this. We'll eventually need it. Then here's a little sheet with a QR code linking to the manual for the motherboard. now let's go ahead and install the 7800X3D onto our motherboard. So before we put this into the CPU socket, the first thing I want you to do is to go ahead and unscrew these brackets. Now, one thing I want you to notice is that since this is a 7800X3D, like I said, it doesn't come with a stock cooler. So what I'm going to go ahead and do right now while we're installing thepu is i'm going to go ahead and put on the mounting screws for the water cooler that we're eventually going to bolt onto the 7800x3d and let's take care of this one there we go so here's for the mounting screws that i got from the box of the intermax aio i'm going to go ahead and take care of these right now just because i can like i said you don't need to use this exact water cooler. So if you wanna know how to install this onto your AMD CPU, just please refer to the manual. It'll tell you what to do. It'll hold your hand. Cause like I said, I don't expect you guys to use this exact same water cooler, but now let's go ahead and install the CPU. Lift up this latch right here, bring up this bracket, go ahead and unsheath your CPU. As you can see there's a triangle here on the top left of the CPU and it's going to line up with the triangle on the top left of the socket. So line the two up, bring this down here, give it a little jiggle if you're unsure but if it's in there, bring back down this bracket, pull down this lever, this black plastic piece should pop off, hook the little latch here and bam now let's install the ram and the ssd so for the ram we are using a 32 gigabyte kit of ram from g skill this is their s5 series and really you can honestly go with any ddr5 kit of ram pretty much anything is going to be universal with this ryzen system just the reason why i'm going with this is because one it's white and two it's got a speed of 6,000 megahertz with a cast latency of 30 which is really nice for this kind of Ryzen system and I got this RAM kit for about 100 bucks which is pretty nice deal I like to think if you went any crazier with the RAM you're probably probably going to be spending an extra $40 to $50, which will only result in minimal FPS gains. So I think we're making the most of it with our budget with these two sticks of RAM. Then for the SSD, we have the Team Group T-Force Cardera A44 Pro. This is a PCI-Gen 4.0 SSD, 2TB, and kind of like the RAM. This is as expensive as you'd want to go for an M.2 SSD without really overspending, but you're still getting at the end of the day, a high quality premium M.2 SSD. I believe the read and write speeds are well into the 7,000 and 6,000 megabyte range, which is still overkill for a gaming PC, but the price is too good to pass up. I think right now you can get this for $100, which all things considered is an excellent value for a high-end M.2 SSD. So to install our RAM, we're gonna wanna insert this into RAM slots a2 and b2 if you can look right here"
+        },
+        {
+            "timestamp": [
+                386.0,
+                391.06
+            ],
+            "text": " next to the ram there's these four indicators written on the motherboard always want to do"
+        },
+        {
+            "timestamp": [
+                391.06,
+                397.24
+            ],
+            "text": " a2 and b2 which are the two slots farthest away from the cpu with one in between now this will"
+        },
+        {
+            "timestamp": [
+                397.24,
+                402.44
+            ],
+            "text": " only go in one way and even if you mess this up you aren't going to damage the ram so once you"
+        },
+        {
+            "timestamp": [
+                402.44,
+                445.78
+            ],
+            "text": " think it's going to go in give it a firm press and you should hear a click like that and now for m.2 ssd we're going to change the bits on our screwdriver here to a smaller one that being a phillips head one bit because we are dealing with smaller screws so go ahead and unscrew this flip this around take off this, put that to the side. Here is our M.2 SSD, which from the looks of it, we're going to have to flip because this little notch here is going to line up with this little insert here on the M.2 SSD. This will only go in one way. You won't mess this up. There you go. Press that in like that. Now go ahead and press this down and as we"
+        },
+        {
+            "timestamp": [
+                445.78,
+                666.5
+            ],
+            "text": " do that we're going to make sure that this little black plastic piece is over the M.2 SSD so that way we can turn this and this stays in place. Otherwise if it wasn't like this then the M.2 SSD could move a little bit. So now let's go ahead and put this back, bring it down, screw this into place sweet all right so before we put the motherboard into the pc case here is this box that came with the montech king 95 pro which is the case we're going with for this 2000 gaming pc build what i like about it is that this is the pro version so we get six fans pre-included that are all rgb and are already all pre-hooked up to the back of the case so that's a lot of work taken for us but if you want to get the base model i think it's like 120 which is also a pretty nice value but in here is our accessory box which if we open this up we're given a box full of all the screws we'd ever need to install whatever into this PC case. Case manual, if you're a first-time PC builder, please follow this. But what looks like to be some additional storage accessory stuff for putting in additional SSDs, I guess. And then if you wanted more cooling performance out of the King 95 Pro, we're given this special type of front panel that has open mesh so we can have more airflow going into the king 95 if we wanted over the glass version of this case for the purposes of this build we're just going to keep it as its stock form but we will need the manual and the box and this case should be pretty straightforward so i've got this unscrewed i should be able to just press this out take it out and now I have access to the inside of the PC case and from the looks of it we've got all the standoffs pre-installed for our motherboard so go ahead and take your motherboard this is such a big PC case you can literally just drop it in and I like to line up the rear IO here with the opening on the back of the king 95 and then by doing that we can then line up with all the standoffs here so we can screw in our motherboard screws which you can see here on screen if you're wondering here in the box it says motherboard screws 18 pieces so obviously those are the screws we're going to use or once again you can check out the case manual'll tell you exactly what screws you use. But how I like to go about this is I like to screw in one screw, but I don't tighten it. I just like to make sure it makes light contact with the motherboard. Then I'll go to a corner, screw in this, not all the way. And I'll go ahead and do that for the rest of the screws here on the motherboard. Just lightly tighten them. Okay, I've got all the screws now so i'm going to go ahead and tighten one of these screws on one end of the motherboard like this go crisscross to the other side tighten this up go crisscross tighten this up this way we put equal pressure on all sides of the motherboard so there's no motherboard flex now let's go ahead and install the power supply that goes behind the motherboard. Okay let's go ahead and knock out the power supply which we have the Montech Sentry G5 850 watt 80 plus gold. It's going to do the job. You don't need this exact 80 plus gold 850 watt power supply to make this build work. Just about any 850 watt 80 plus gold power supply is going to be more than enough especially in terms of quality because you are spending a bit for a power supply of this price but this will be plenty for a 7800x 3d and a 7900x tx all right let's unbox this it's fully modular so all the cables are going to be in this cool pouch. Then let's take this out, remove this."
+        },
+        {
+            "timestamp": [
+                666.86,
+                671.72
+            ],
+            "text": " And if you're wondering where this is going to go on the King 95, glad you asked."
+        },
+        {
+            "timestamp": [
+                672.1,
+                675.8
+            ],
+            "text": " We're going to unscrew this screw back here, press this forward."
+        },
+        {
+            "timestamp": [
+                676.18,
+                677.12
+            ],
+            "text": " This will come out."
+        },
+        {
+            "timestamp": [
+                677.32,
+                683.98
+            ],
+            "text": " And the power supply is going to go on its side right here up against the PC case, just like this."
+        },
+        {
+            "timestamp": [
+                684.06,
+                846.4
+            ],
+            "text": " So we're going to screw it in. But before we we do that i think it'd be smart to unscrew this so go ahead and unscrew this screw right here and this screw right here this will let you bring this open we can go ahead and stuff all of our cables here from our power supply because i think we should go ahead and take care of that now and then once we we have all of our cables plugged in, then we'll bring this back. But in the meantime, let's go ahead and plug in our cables. Here is our power supply cable that we're going to eventually plug into the wall outlet. So the first cable I am freeing right here is our CPU power cable. It says CPU on here. So the labeled end is going to go into our motherboard, but the non-labeled end is going to go into our power supply where it says cpu on here so the labeled end is going to go into our motherboard but the non-labeled end is going to go into our power supply where it says cpu pcie i'll put this into one of these and we need another one so here's a second cpu power cable let me go and untangle this here's cpu we're going to leave this side alone here's the side that's going to go into our power supply next here's here's our chunky motherboard power connector. We will need this. Here's the end that's gonna go into our motherboard. Here's the end that's gonna go into the power supply. We're gonna plug this to where it says motherboard, motherboard. Now the next thing we'll need is a SATA power cable. That way we can power up all of the RGB and the fan controller that comes with the King 95. Since this is a SATA cable, we'll plug this into where it says SATA. And then for the last cable, we need to plug in a PCIe power cable for our graphics card. And we're going to need, I think, another one of these. Yup, once again, it says PCIe right here. We need two of these for our 7900 xtx and both of these are going to go where it says cpu pcie so i'll put one of them here and i'll put the last one here where it says cpu pcie so now we got all of our cables in here and we're going to put it into the pc case now so before we insert the power supply into the king 95 as you can see there's a bunch of other cables here and I don't necessarily just want to put this in straight away because we have some stuff we can plug in, bottom of the PC case here. So I think it'd be nice to go ahead and knock out the front IO and the RGB right now. Which speaking of, if you look right here, Montech has gone the effort plugging in all the RGB and all the fan cables for the seven fans that are already included in the King 95 Pro, which is awesome. And all you need to do to power that up are just use two SATA power cables, which we already have plugged into the power supply. And then we need to plug in the RGB into a motherboard and the fan for all of these into just one of the fan headers on our"
+        },
+        {
+            "timestamp": [
+                846.4,
+                851.86
+            ],
+            "text": " motherboard so that is really awesome of them so that's what all these cables are here for and then"
+        },
+        {
+            "timestamp": [
+                851.86,
+                857.22
+            ],
+            "text": " these cables right here are your front io cables for like your power button your reset button and"
+        },
+        {
+            "timestamp": [
+                857.22,
+                862.52
+            ],
+            "text": " anything else and montech has also gone the distance as well because the front panel header"
+        },
+        {
+            "timestamp": [
+                862.52,
+                869.92
+            ],
+            "text": " is all in a singular connector which is so awesome and then you've got your hd audio connector you've"
+        },
+        {
+            "timestamp": [
+                869.92,
+                1206.0
+            ],
+            "text": " God bless you. distance as well because the front panel header is all in a singular connector which is so awesome and then you've got your hd audio connector you've got your usb type c your usb 3.0 this is going to be easy let's knock this out so let's start from the bottom and work our way up so here's our hd audio connector as you can see it says hd audio and it's going to go right here where it says Audio. If you're confused where each of these motherboard connections are, please refer to the manual. It'll tell you where each of them are located on the motherboard. This will only go in one way, like that. Next, here is our 5-volt ARGB cable that controls all of the RGB for all of the included fans here in the case. And all we're going to go ahead and do is just plug it into one of these 5 volt argb headers on the motherboard this will only go in one way there you go and here is the single system fan header that controls all of the fans included in the montech king 95 which once again is already pre-routed and cabled for you so we're We're going to go ahead and plug this into one of these fan headers right here with this little notch. This will line up with the connector so it only goes in one way. And there you go. Then here's our front panel header. What's neat is that all the individual pins are soldered onto a single connector, which is really nice and convenient. We're going to this into here. On this side, this is our front IO header. Once again, refer to the motherboard manual if you don't know where that is. We're gonna just plug this in. It'll only go in one way. And there you go. Then next up is our USB 3.0 header. It's gonna go right here on this connector at an angle. As you can see, there's a little notch here on the connector which is going to line up with this. So this will once again only go in one way, you'll know if it's fitting or not. Go ahead and give this a firm press, there you go. Then right here is our USB-C connector, this is going to go right here. This will only go in one way, you don't get it right the first time, you always flip and that went in there you go see it's easy so now let's finally go ahead and insert the power supply into the pc case which the screws for this you can either find in the box with the power supply or they're going to be already provided here from the king 95 box here of accessories where it says psu slash gpu screws but for the moment we'll go ahead and use the screws that were provided to us from the power supply box so take those out you want the fan side facing outwards you want the cables coming towards the inside of the PC case so you can see right here there's a little platform that our power supply is going to sit on on its side there you go it's going to kind of line up like that i'll bring this here so i can get access to the pc now i'm going to go ahead and just screw in one of these screws like this i'm going to get this one all right i've got all four screws now power supply is in there and now here is all of power cables. Let's actually go ahead and take care of this. So here is our SATA power cable. Let's go ahead and remove that. And as you can see, these are the two SATA power connectors that we need to completely power on the fan and an RGB controller that is in this PC case. So let's go ahead and plug the two up. There we go'll just stuff this somewhere and while we're here before we put in the cpu cooler i think it'd be smart to go ahead and plug in our cpu power cables because our radiator is probably going to get in the way so let's go ahead and plug these in so they're just out of our minds and not have to worry about them all right let's go ahead and plug in our power connectors starting with the cpu power connector this is going to go on the top left of your motherboard and this is a 8 pin by 4 pin setup so we have our singular 8 pin so you can see there's a little latch on the connector it's going to line up with this notch on the actual connection so this will only go in one way you will not mess this up there we go we got one in there and if we split these we can access two separate four pin connectors and we only need one of them for this last connector make sure to press it in all the way or else you're going to run into issues it should look something like that then here is our is our motherboard power connector. Once again, there's a latch here on the connector. It's going to line up with this notch here on the connection. Line the two up, bring this around, give it a firm press, make sure it's all the way in there. And here I've got my two PCIe power connectors just out in the open because eventually we're going to plug in our 7900 XTX into this PC so we're going to leave these on the side. So once you've installed the power supply then go ahead and install your preferred CPU cooler of choice which I went ahead and did that for the Intermax AIO that I have here and I didn't know what to do so I just followed the manual here that was provided by the Intermax cooler. It showed me what to do, how to mount the radiator onto the PC case, how to install the fans onto the radiator, how to put the mounting bracket onto the CPU cooler itself so it could mount onto the motherboard. The manual went ahead and showed me all that. That should be pretty straightforward. Just follow the instructions. But what I will note is that I have both of these fans plugged into these two slots right here and i have the cable for the pump on the far left connector where it says opt cpu so i have all the fans and the pump connected on all three of these headers and then to the right of that i have both RGB for the fans connected into the"
+        },
+        {
+            "timestamp": [
+                1206.0,
+                1210.68
+            ],
+            "text": " singular 5-volt ARGB header which I was able to do because you can daisy chain"
+        },
+        {
+            "timestamp": [
+                1210.68,
+                1216.24
+            ],
+            "text": " the RGB connectors on the back of the PC case. So with all that done the last"
+        },
+        {
+            "timestamp": [
+                1216.24,
+                1220.9
+            ],
+            "text": " thing you got to do is install the graphics card and provide power to it"
+        },
+        {
+            "timestamp": [
+                1220.9,
+                1229.92
+            ],
+            "text": " which I have gone with the Radeon RX 7900 XTX. This is probably gonna go down"
+        },
+        {
+            "timestamp": [
+                1229.92,
+                1286.66
+            ],
+            "text": " I'll see you next time. provide power to it. Which I have gone with the Radeon RX 7900 XTX. This is probably going to go down as actually one of the best high-end graphics cards ever made. Not because it's really blisteringly fast, but pricing wise it's very reasonable for a high-end graphics card. I picked this up for just under $1,000 for a white edition graphics card, which those usually cost more than black editions. And this is honestly within a stone's throw of the RTX 4090 while costing about $600 to $1,000 less. This can honestly do it all. 4K gaming, ray tracing, high frame rate 1440p high frame rate high graphics 4k it can do all of that on top of streaming and other content creation ideas with the 7900 xtx my point is if you're going to spend $1,000 on a graphics card which is already pretty pretty crazy, then this is the one you wanna get."
+        },
+        {
+            "timestamp": [
+                1286.66,
+                1289.3
+            ],
+            "text": " Also, what makes this graphics card really cool"
+        },
+        {
+            "timestamp": [
+                1289.3,
+                1293.24
+            ],
+            "text": " is that it comes with 24 gigabytes of VRAM,"
+        },
+        {
+            "timestamp": [
+                1293.24,
+                1295.76
+            ],
+            "text": " which is the same as the RTX 4090,"
+        },
+        {
+            "timestamp": [
+                1295.76,
+                1299.8
+            ],
+            "text": " but the RTX 4090 right now is about $2,000."
+        },
+        {
+            "timestamp": [
+                1299.8,
+                1302.14
+            ],
+            "text": " And this I got for under 1,000."
+        },
+        {
+            "timestamp": [
+                1302.14,
+                1305.98
+            ],
+            "text": " And I always preach this in my consumer buyer guide videos"
+        },
+        {
+            "timestamp": [
+                1305.98,
+                1309.9
+            ],
+            "text": " for graphics cards, but you can always upgrade the software"
+        },
+        {
+            "timestamp": [
+                1309.9,
+                1306.1
+            ],
+            "text": " I'll see you next time. this I got for under $1,000. And I always preach this in my consumer buyer guide videos for"
+        },
+        {
+            "timestamp": [
+                1306.1,
+                1311.78
+            ],
+            "text": " graphics cards. But you can always upgrade the software on a graphics card, but you can never"
+        },
+        {
+            "timestamp": [
+                1311.78,
+                1317.56
+            ],
+            "text": " truly upgrade the hardware. What comes with this graphics card will forever be soldered onto the"
+        },
+        {
+            "timestamp": [
+                1317.56,
+                1323.44
+            ],
+            "text": " PCP. So you can never upgrade the amount of VRAM that comes in this graphics card, unlike upgrading"
+        },
+        {
+            "timestamp": [
+                1323.44,
+                1329.98
+            ],
+            "text": " the RAM in your desktop computer or even swapping out the CPU. You can't do that with a graphics card."
+        },
+        {
+            "timestamp": [
+                1329.98,
+                1330.98
+            ],
+            "text": " Whatever you want to do with it."
+        },
+        {
+            "timestamp": [
+                1330.98,
+                1331.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1331.98,
+                1332.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1332.98,
+                1333.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1333.98,
+                1334.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1334.98,
+                1335.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1335.98,
+                1336.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1336.98,
+                1337.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1337.98,
+                1338.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1338.98,
+                1339.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1339.98,
+                1340.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1340.98,
+                1341.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1341.98,
+                1342.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1342.98,
+                1343.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1343.98,
+                1344.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1344.98,
+                1345.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1345.98,
+                1346.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1346.98,
+                1347.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1347.98,
+                1348.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1348.98,
+                1349.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1349.98,
+                1350.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1350.98,
+                1351.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1351.98,
+                1352.98
+            ],
+            "text": " It's up to you."
+        },
+        {
+            "timestamp": [
+                1352.98,
+                2148.12
+            ],
+            "text": " It's up to you. It's up to you. It's up screws these These are the PCI latches that are going to be occupied by the 7900 XTX, I want you to go ahead and unscrew these screws. These are the PCI latches that are going to be occupied by the 7900 XTX, and it's a three-slot GPU, so we need to take out three of these. Save these screws for later. Now, remove this. There we go. And we want to line up this connection with the topmost PCI slot here on the motherboard. This is already back, which is good. So we'll take this, put it in here, line it up. Okay, I think it's going to go in. So we're going to give it a firm press and then you should hear a click like that. And then let's screw this back into the case so it doesn't sag. And the final thing we're going to do is we're going to go ahead and plug in each of these pcie power connectors into the graphics card one by one so you can see there's a latch there's a notch here on the connector this will only go in one way make sure each of these firmly go in there we go that is in let me pull these cables back a bit. All right, we did it. You successfully built a $2,000 gaming PC, and now let's install Windows on it. Okay, so we've got everything set up on the computer, and we're ready to turn it on for the first time. So let's go through our pre-boot checklist. So first off, have your Windows bootable media device on hand ready to go. It can be an eight gigabyte or bigger flash drive. Go ahead and create one of these. I have a video tutorial linked in the description below showing you how to create one of these for free. You will need this to plug into the computer for when we need to install Windows to make this a gaming computer. But other than that, make sure your keyboard and your mouse are plugged into your computer make sure you have a display cable running from the monitor to where your graphics card is in your PC and I mean it to where your graphics card is don't plug it into the motherboard then of course don't forget to supply power to your monitor so it actually turns on and then if you remember that power outlet cable from our power supply box you're need to plug that in to the back of the computer where the power supply is look the switch from the zero to the one and now let's take our Windows bootable media device you can plug this in anywhere into your computer I'm just gonna put it in the front because that's what I feel like doing press power button and we wait oh if you see something like this just go ahead and proceed. So we're going to reset the FTPM. So we're going to press Y on the keyboard. There's a little circle here and now let's go ahead and install Windows. All right let's go ahead and install Windows. So hit install now. Here's where you can enter in your Windows product key if you have one. I don't have one so I'll go ahead and click I don't have a product key totally fine i'll go ahead and select windows 11 home doesn't matter which version you choose i accept next custom there's our drive next done now let's go ahead and set up windows so choose your country choose your keyboard layout language whatever now let's go ahead and connect to our internet to proceed further so i'm gonna go ahead and connect to my internet here okay let's go ahead and hit next you're welcome to name your device but i'm gonna go ahead and skip that now let's go ahead and sign into our microsoft account so if you have a previous account that you use say for xbox live or if you just have a microsoft account on your current computer as you're moving to this new one here's we're gonna go ahead and use the email that you last used or you can go ahead and create a new one if you get this option click more options set up as a new PC now let's go ahead and create the login we're going to use every time we build up this computer now for all of these things I go ahead and tick them to off because i don't need them and for the rest of this stuff i'm just going to basically skip or decline they're basically offers and extra things you don't need for pc games all right we're on the windows home screen let's go ahead and install graphics card drivers and our chipset drivers so first things first let's go ahead and download those graphics card drivers So type in Radeon drivers, click on AMD drivers and support. Now you're welcome to download the auto detect tool, but we already know what graphics card we're using, which is the 7900 XTX. Hit submit. And here we can find the Windows 11 version. Let's go ahead and auto detect and install or use the Adrenaline Edition. Doesn't matter's go ahead and open that up and run it but while that's downloading let's type in the name of our motherboard which is the Aorus B650 Elite AX Ice here is the motherboard product page for it click on support and let's go ahead and click on utility and here we can download the gigabyte control center full installation package so rather than say downloading each of the individual drivers that we need for this motherboard and installing them all manually we can install this gigabyte control center and it'll go ahead and manage all that for us in a single spot in our pc which is pretty cool so let's go ahead and run our graphics card driver installation software click yes this should be pretty straightforward there you go there's our graphics card install let this run and let it do its thing and while that's going let's go ahead and open up the gigabyte control center file let's go ahead and extract all of this extract then let's run hit yes okay our graphics card driver is finished installing but we're not going to restart just yet so let's go ahead and hit finish because our gigabyte control center is finishing up and now if we open up the gigabyte control center let's go ahead and see what software is currently available so let's click on the arrows right here here we can see all of the available updates we have for our motherboard so for instance we don't need norton internet security but what we do need are those amd chipset drivers real tech audio drivers we don't need amd ryzen master we do need the wi-fi driver for our Wi-Fi stick and Bluetooth. The rest is pretty self-explanatory. You install, pick and choose what you want, and let this go ahead and run. And once that's finished, now let's go ahead and restart the computer. And we're going to do one last thing in the BIOS. To enter the BIOS, be sure to press the delete key on your keyboard when the logo of the motherboard comes up. There we go. Alright, all I want you to do is one thing in here. Go ahead and enable your XMP profile for your RAM, click Save and Exit, and you are done. Alright, what about Forza Motorsport? We are running this game completely maxed out at 4k FPS is on the top left my editor is gonna have to enlarge that because it's so small oh man and we are now on Hockenheim because this track just got released for the game and the game was like yo let's put you on rainy graphics because why not GT cars, I am on theatly right now, because the Boatly has great brakes. I've got good connection with the brakes. Man, I'm going to show you guys the graphics settings in a little bit, but I just want to see if I can keep this on track. Why am I in first gear? I'm on a wet circuit. Nope. Oh yeah, car's kind of all over the place. Sorry about that. Oh, I can't even hear when the car needs to upshift let's see can we launch a nice one going into this corner yeah um and i am tech okay um the ford it just happened to be like that i was not the uh originator of that issue now we've got a bit of a gap let me go and show you the graphics settings real quick. Just so I show you guys how mental this computer is. Right, we got ultra settings, 100% render resolution. Everything's on auto, because it's on ultra. 4K, and we don't even have AMD FSR turned on? Let's turn that on. Yeah, let's get some more FPS, man. And now we are running at about a hundred not 80 I mean I got no complaints who even needs the game at 4k there we go just got to find traction coming out of these slow corners oh my goodness come on bro we got a fast right-hander these cars are going so slow it's just hilarious. Maybe the AI is too easy. Yeah it probably is too easy. Yeah they are taking the slow corners so slow. You can see the Bentley though it's kind of squirming if I get on the throttle. And around the outside. Oh beautiful move. Oh man you know you know that's kind of all the entertainment done for this game although i kind of want to run one more lap because this is a new track to the game let's have some fun see what i can get i'm off track yep that's it that's the end of it that is the end of it let's try another game oh guys i okay i understand starfield may not be bethesda's most critically acclaimed game but oh my goodness although the performance of this game is questionable at times can you run it very well on this computer and it looks stunning at 4k let me remind you once again the graphics we're running at right now ultra settings fsr we even have sharpening and film grain turned up all the way depth of field why not let's turn on everything because you can simply do that can we even oh 100 there we go all right this should be the game and we are getting uh about 80 frames per second indoors right now oh there's a little bit of vsync though i guess it'd be nice to enable that but for fps reasons we're going to leave it disabled oh man oh i love that you can see how much detail there is and every single thing in the ship. You can clearly see the text, especially if you're playing at 4K. That's one thing you won't see too much in 1440p. It's just how detailed everything is. I can see the text, all the tiny things in the ship very well. Oh man, that is one thing you will get in a 4K gaming PC, is absolute detail. And honestly, to get this sort of clarity at $2,000, not that bad, really. I mean, yeah, it's expensive, but there's more expensive computers than this. I don't know where we're going. We're going to undock. Let's see where the game takes us to. Oh, my. The graphics the graphics oh you guys won't be able to grasp the full graphical fidelity of this game through your phones or through your youtube interface on like whatever browser you're using but in person it's the real deal this is leagues above any pc build i've done in the past oh we're on neon on Neon, okay. Oh, this, yeah, let's go into Neon, and that'll be a true test of this computer's capabilities. Okay, look at that FPS meter on the top left. Here we go. We're in Neon, 73, 71. Getting above 70 with everything dialed up to the max if you just even wanted to lower the graphics settings to high settings and turn off all the additional graphical features you're probably getting above 100 on this computer at 4k it's blazingly fast and with fsr3 soon coming to starfield oh yeah this game's about to get way more playable all right I think I'm good there's one more game I want to try out on this computer and we're just going to go for pure frame rate we're going to see how high we can get okay now this is a game we got to know just how high of a frame rate we can get and that is none other than Counter-Strike 2 anyways before I face back in let me go ahead and show you guys my graphic settings so we've got a mix of high and low settings there's some things I wanted to leave on high some things we could leave on low but what's important is that on video we are running the game at 4k and we are getting 300 FPS let's go ahead and get some kills. Oh, he's got a nom. How'd he headshot me like that with an M4? Ah, how's he getting two hits so quickly? Oh, hey, come on. I was gonna shoot him. Okay, I hear a guy left to me. No, I could care less. I could care less. I could care less. Oh, the bodies be flying right now. Oh, but I got him. Not bad. Oh, oh, oh, oh, oh, oh, skill issue, my mate's got a skill issue, 1D, it's my time, nah, man, ain't happening, ain't happening, ain't happening, got three in a row, oh's a chicken oh scared me another one come on"
+        },
+        {
+            "timestamp": [
+                2148.12,
+                2153.86
+            ],
+            "text": " four in a row five in a row oh no"
+        },
+        {
+            "timestamp": [
+                2153.86,
+                2163.96
+            ],
+            "text": " oh i had him that's a good spot and uh i'm pretty satisfied with that i hope you guys"
+        },
+        {
+            "timestamp": [
+                2163.96,
+                2285.56
+            ],
+            "text": " enjoyed the 300 fps gameplay at 4k let's wrap up the build video okay what a build i think the headline i'm going to use for this build is this pc makes 4k gaming worth it because i would even argue about three to two years ago spending maybe three thousand dollars on a gaming pc would have gotten you a really excellent 4k gaming experience but the cpu and gpu combo in this build i think is very affordable for 4k gaming if you want the best gaming cpu on the market it's only going to cost to about $350 to $400 in the form of the Ryzen 7 7800X 3D. And then if you want essentially the best high-end graphics card that isn't going to be just throwing tons of money away for only minimal gains, then the 7900XTX is probably the highest end you can go without chunking money into a furnace. Because unlike its NVIDIA counterparts, I think its value still holds up even for just under $1,000. It just contains so much raw performance and excellent built-in hardware that makes it worth its $950 price tag for 4K gaming, which is something, like like I said you unfortunately can't really say for the RTX 4080 and 4090 right now as the 4080 retails above MSRP above $1,200 at the moment and the 4090 is right now charging at about $2,400 which is not at all. And there are some games where the 7900 XTX can match or even beat the 4090 in terms of raw performance. Yet this graphics card can be had for almost half the price of a 4090 as I filmed this video. It's just an excellent graphics card deal if you wanted the most gaming"
+        },
+        {
+            "timestamp": [
+                2285.56,
+                2327.86
+            ],
+            "text": " performance without throwing away tons of cash. And at $2,000, this looks great too versus my previous one. This has pretty much the same specifications, but it's got a bit of a boost when it comes to aesthetics as it has an AIO, it's an all white, and it's in a really cool chamber style PC case from Montech and with this i have no complaints it's a great way to do 4k gaming on a budget so with all that said thank you so much for watching this video and thank you to montech for sponsoring this build guide along with their new king 95 case which i'll have links to all the pc parts I used to make this build bug guide possible, linked in the description below."
+        },
+        {
+            "timestamp": [
+                2328.26,
+                2331.26
+            ],
+            "text": " And with all that said, thank you so much for watching, and this is the Skyrim World"
+        },
+        {
+            "timestamp": [
+                2331.26,
+                2332.74
+            ],
+            "text": " channel, signing out."
+        }
+    ]
+}

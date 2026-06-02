@@ -1,0 +1,27 @@
+{
+    "video_id": "QhL6ICNQ_So.mp4.mp3",
+    "transcript": " Let's get on the bus, it's time to go, let's get on the bus, hey don't you know, let's get on the bus, go get it there, let's get on the bus, go everywhere Come with me, and we'll see, all there is to see, you can be who you want to be We can go anywhere today Yeah, yeah It's okay We know Bob always knows the way All aboard, there's no time to delay Come along, we can sing and play, yeah, yeah. Let's get on the bus, let's get on the bus.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                11.5
+            ],
+            "text": " Let's get on the bus, it's time to go, let's get on the bus, hey don't you know, let's get on the bus, go get it there, let's get on the bus, go everywhere"
+        },
+        {
+            "timestamp": [
+                11.5,
+                48.0
+            ],
+            "text": " Come with me, and we'll see, all there is to see, you can be who you want to be We can go anywhere today Yeah, yeah It's okay We know Bob always knows the way All aboard, there's no time to delay Come along, we can sing and play, yeah, yeah."
+        },
+        {
+            "timestamp": [
+                50.0,
+                55.8
+            ],
+            "text": " Let's get on the bus, let's get on the bus."
+        }
+    ]
+}

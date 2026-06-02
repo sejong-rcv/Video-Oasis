@@ -1,0 +1,20 @@
+{
+    "video_id": "video_207.mp4.mp3",
+    "transcript": " 1.5 kg gouda 1.5 kg gouda",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                10.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                10.0,
+                22.66
+            ],
+            "text": " 1.5 kg gouda"
+        }
+    ]
+}

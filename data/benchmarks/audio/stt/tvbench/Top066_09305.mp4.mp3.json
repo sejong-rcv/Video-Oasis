@@ -1,0 +1,48 @@
+{
+    "video_id": "Top066_09305.mp4.mp3",
+    "transcript": " I'd like to see the graveyard where Mama's buried and all the other people. I want you to come down. What if I could fly? I knew a man who could fly. Come down and I'll tell you all about him. Somebody go up there.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.9
+            ],
+            "text": " I'd like to see the graveyard where Mama's buried and all the other people."
+        },
+        {
+            "timestamp": [
+                2.9,
+                4.46
+            ],
+            "text": " I want you to come down."
+        },
+        {
+            "timestamp": [
+                5.28,
+                6.74
+            ],
+            "text": " What if I could fly?"
+        },
+        {
+            "timestamp": [
+                7.22,
+                8.82
+            ],
+            "text": " I knew a man who could fly."
+        },
+        {
+            "timestamp": [
+                10.22,
+                12.34
+            ],
+            "text": " Come down and I'll tell you all about him."
+        },
+        {
+            "timestamp": [
+                16.64,
+                17.68
+            ],
+            "text": " Somebody go up there."
+        }
+    ]
+}

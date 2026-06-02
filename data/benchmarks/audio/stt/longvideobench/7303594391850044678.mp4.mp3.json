@@ -1,0 +1,48 @@
+{
+    "video_id": "7303594391850044678.mp4.mp3",
+    "transcript": " These are places on Earth that don't feel real. First is Angel Falls. These are the tallest waterfalls in the world. Next is Islas de Plata. I wouldn't want to swim here. And finally, Mount Roraima, also known as the Tabletop Mountain.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.04
+            ],
+            "text": " These are places on Earth that don't feel real."
+        },
+        {
+            "timestamp": [
+                2.04,
+                3.42
+            ],
+            "text": " First is Angel Falls."
+        },
+        {
+            "timestamp": [
+                3.88,
+                5.68
+            ],
+            "text": " These are the tallest waterfalls in the world."
+        },
+        {
+            "timestamp": [
+                6.12,
+                7.68
+            ],
+            "text": " Next is Islas de Plata."
+        },
+        {
+            "timestamp": [
+                8.08,
+                9.08
+            ],
+            "text": " I wouldn't want to swim here."
+        },
+        {
+            "timestamp": [
+                9.5,
+                13.68
+            ],
+            "text": " And finally, Mount Roraima, also known as the Tabletop Mountain."
+        }
+    ]
+}

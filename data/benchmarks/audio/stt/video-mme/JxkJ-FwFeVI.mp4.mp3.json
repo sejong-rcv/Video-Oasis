@@ -1,0 +1,55 @@
+{
+    "video_id": "JxkJ-FwFeVI.mp4.mp3",
+    "transcript": " Rolls-Royce is one of the world's leading engineering companies, designing and developing high technology power solutions based on very efficient engines. These are used for applications on land, at sea and in the air. Our engineering strength is built on two key technology platforms, the gas turbine and the piston engine. So how they work in the case of the gas turbine on an airliner air is sucked in via the large front fan the majority of the air is directed around the engine as pure thrust the rest enters the engine and is squeezed through compressors consisting of a series of blades. Pressure increases at each stage as the air is squeezed. In the combustion chamber, the air is mixed with fuel and ignited. The hot air explosion is directed towards the back of the engine, generating more thrust and rotating the turbines, which in turn are linked to the front fan and compressors. A piston engine also operates by air being compressed and mixed with fuel. Air is drawn inside a cylinder, then compressed by a piston, and mixed with either diesel or liquefied gas. As the mixture ignites, the energy created pushes the piston to the bottom of the cylinder. The piston then returns to the top in a continuous process. Rods connected to a crankshaft convert the vertical movement of the pistons into a rotating motion. As a result, the piston engine can power a wide range of applications. Electrical generators, ships, vehicles and railway locomotives. Efficient power on land, at sea and in the air. Rolls-Royce, creating better power for a changing world.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                85.66
+            ],
+            "text": " Rolls-Royce is one of the world's leading engineering companies, designing and developing high technology power solutions based on very efficient engines. These are used for applications on land, at sea and in the air. Our engineering strength is built on two key technology platforms, the gas turbine and the piston engine. So how they work in the case of the gas turbine on an airliner air is sucked in via the large front fan the majority of the air is directed around the engine as pure thrust the rest enters the engine and is squeezed through compressors consisting of a series of blades. Pressure increases at each stage as the air is squeezed. In the combustion chamber, the air is mixed with fuel and ignited. The hot air explosion is directed towards the back of the engine, generating more thrust and rotating the turbines, which in turn are linked to the front fan and compressors. A piston engine also operates by air being compressed and mixed with fuel. Air is drawn inside a cylinder, then compressed by a piston, and mixed with either diesel or liquefied gas. As the mixture ignites, the energy created pushes the piston to the bottom of the cylinder."
+        },
+        {
+            "timestamp": [
+                89.08,
+                90.16
+            ],
+            "text": " The piston then returns to the top in a continuous process."
+        },
+        {
+            "timestamp": [
+                95.8,
+                96.58
+            ],
+            "text": " Rods connected to a crankshaft convert the vertical movement of the pistons into a rotating motion."
+        },
+        {
+            "timestamp": [
+                99.96,
+                100.7
+            ],
+            "text": " As a result, the piston engine can power a wide range of applications."
+        },
+        {
+            "timestamp": [
+                104.86,
+                105.0
+            ],
+            "text": " Electrical generators, ships, vehicles and railway locomotives."
+        },
+        {
+            "timestamp": [
+                105.0,
+                109.0
+            ],
+            "text": " Efficient power on land, at sea and in the air."
+        },
+        {
+            "timestamp": [
+                109.0,
+                113.0
+            ],
+            "text": " Rolls-Royce, creating better power for a changing world."
+        }
+    ]
+}

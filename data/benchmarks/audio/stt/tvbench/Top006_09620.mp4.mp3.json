@@ -1,0 +1,41 @@
+{
+    "video_id": "Top006_09620.mp4.mp3",
+    "transcript": " We'll fight it again, I'll dare. We'll fight all together now! He's out! He's out! He's out!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " We'll fight it again, I'll dare."
+        },
+        {
+            "timestamp": [
+                10.0,
+                12.0
+            ],
+            "text": " We'll fight all together now!"
+        },
+        {
+            "timestamp": [
+                12.0,
+                14.0
+            ],
+            "text": " He's out!"
+        },
+        {
+            "timestamp": [
+                14.0,
+                16.0
+            ],
+            "text": " He's out!"
+        },
+        {
+            "timestamp": [
+                16.0,
+                18.0
+            ],
+            "text": " He's out!"
+        }
+    ]
+}

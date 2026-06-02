@@ -6,7 +6,7 @@
     <img src="assets/video-oasis.png" width="480" style="margin-bottom: 0.2;"/>
 <p>
 
-<!-- <a href="https://arxiv.org/abs/2412.10360" target="_blank">
+<a href="https://arxiv.org/abs/2412.10360" target="_blank">
     <img alt="arXiv" src="https://img.shields.io/badge/arXiv-Apollo-red?logo=arxiv&style=for-the-badge" height="25" />
 </a>
 <a href="https://apollo-lmms.github.io" target="_blank">
@@ -15,7 +15,7 @@
 <br>
 <a href="https://huggingface.co/spaces/Apollo-LMMs/ApolloBench" target="_blank">
     <img alt="HF Leaderboard: ApolloBench" src="https://img.shields.io/badge/%F0%9F%A4%97%20Leaderboard-ApolloBench-ffc107?color=ffc107&logoColor=white&style=for-the-badge" height="25" />
-</a> -->
+</a>
 
 </div>
 
@@ -35,8 +35,8 @@
 
 ## Data
 
-## Video-Oasis
+## Diagnosis (Video-Oasis)
 
-## Evaluation 
+## Evaluation (Video-Native-Challenges)
 
 

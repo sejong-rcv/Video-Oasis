@@ -1,0 +1,69 @@
+{
+    "video_id": "Married Life ｜ Short Film.mp4.mp3",
+    "transcript": " BELL RINGS BELL RINGS BELL RINGS SIGHS MUSIC MUSIC MUSIC MUSIC MUSIC MUSIC MUSIC MUSIC MUSIC MUSIC Thank you for watching. Hello, yeah, yeah, what do I do for you? I'm going for a run. Okay. Run to the store. I'm going to run to the store. Can you drive with me? Oh, can you drive one way? Yeah. Dinner's ready. Dinner's ready. Let's go!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                66.56
+            ],
+            "text": " BELL RINGS BELL RINGS BELL RINGS SIGHS MUSIC MUSIC MUSIC MUSIC MUSIC MUSIC MUSIC MUSIC MUSIC MUSIC Thank you for watching. Hello, yeah, yeah, what do I do for you? I'm going for a run."
+        },
+        {
+            "timestamp": [
+                66.8,
+                67.1
+            ],
+            "text": " Okay."
+        },
+        {
+            "timestamp": [
+                68.64,
+                69.36
+            ],
+            "text": " Run to the store."
+        },
+        {
+            "timestamp": [
+                71.76,
+                72.62
+            ],
+            "text": " I'm going to run to the store."
+        },
+        {
+            "timestamp": [
+                72.62,
+                74.7
+            ],
+            "text": " Can you drive with me?"
+        },
+        {
+            "timestamp": [
+                75.54,
+                76.78
+            ],
+            "text": " Oh, can you drive one way?"
+        },
+        {
+            "timestamp": [
+                76.96,
+                90.82
+            ],
+            "text": " Yeah. Dinner's ready."
+        },
+        {
+            "timestamp": [
+                90.82,
+                90.92
+            ],
+            "text": " Dinner's ready."
+        },
+        {
+            "timestamp": [
+                101.0,
+                null
+            ],
+            "text": " Let's go!"
+        }
+    ]
+}

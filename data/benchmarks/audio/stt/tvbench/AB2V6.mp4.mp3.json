@@ -1,0 +1,27 @@
+{
+    "video_id": "AB2V6.mp4.mp3",
+    "transcript": " Utsch! Utsch! Takk for att du så på! Thank you.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                10.0
+            ],
+            "text": " Utsch!"
+        },
+        {
+            "timestamp": [
+                10.0,
+                25.0
+            ],
+            "text": " Utsch!"
+        },
+        {
+            "timestamp": [
+                25.0,
+                30.3
+            ],
+            "text": " Takk for att du så på! Thank you."
+        }
+    ]
+}

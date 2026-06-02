@@ -1,0 +1,69 @@
+{
+    "video_id": "'A Bad Idea' - Short Film.mp4.mp3",
+    "transcript": " Duh. How hard can that be? Why is there smoke everywhere? It's okay, David Fincher does it. Who the fuck is David Fincher? Okay. Okay. Okay. This is a lot of shit, you know that? I don't know. Hey, what do you want to do for dinner? Omelette?",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                34.08
+            ],
+            "text": " Duh. How hard can that be?"
+        },
+        {
+            "timestamp": [
+                39.28,
+                41.04
+            ],
+            "text": " Why is there smoke everywhere?"
+        },
+        {
+            "timestamp": [
+                41.8,
+                44.0
+            ],
+            "text": " It's okay, David Fincher does it."
+        },
+        {
+            "timestamp": [
+                44.36,
+                46.0
+            ],
+            "text": " Who the fuck is David Fincher?"
+        },
+        {
+            "timestamp": [
+                52.0,
+                54.0
+            ],
+            "text": " Okay."
+        },
+        {
+            "timestamp": [
+                56.0,
+                58.0
+            ],
+            "text": " Okay."
+        },
+        {
+            "timestamp": [
+                62.0,
+                82.14
+            ],
+            "text": " Okay."
+        },
+        {
+            "timestamp": [
+                136.64,
+                140.82
+            ],
+            "text": " This is a lot of shit, you know that? I don't know. Hey, what do you want to do for dinner?"
+        },
+        {
+            "timestamp": [
+                141.3,
+                null
+            ],
+            "text": " Omelette?"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "video_id": "6965059948090821890.mp4.mp3",
+    "transcript": " Hari ini saya ingin berlari sehingga saya menemukan peringkat. Pelatihan peringkat boleh menjadikan anda seorang penerbangan yang lebih baik kerana ia membebaskan hidung anda, membuatnya lebih sukar untuk berlari dengan cepat. Tetapi ia meningkatkan kekuatan otak anda dan membuat anda seorang penerbangan yang lebih kuat dan lebih cepat.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                3.0
+            ],
+            "text": " Hari ini saya ingin berlari sehingga saya menemukan peringkat."
+        },
+        {
+            "timestamp": [
+                3.0,
+                6.0
+            ],
+            "text": " Pelatihan peringkat boleh menjadikan anda seorang penerbangan yang lebih baik kerana ia membebaskan hidung anda,"
+        },
+        {
+            "timestamp": [
+                6.0,
+                8.0
+            ],
+            "text": " membuatnya lebih sukar untuk berlari dengan cepat."
+        },
+        {
+            "timestamp": [
+                8.0,
+                10.0
+            ],
+            "text": " Tetapi ia meningkatkan kekuatan otak anda"
+        },
+        {
+            "timestamp": [
+                10.0,
+                12.0
+            ],
+            "text": " dan membuat anda seorang penerbangan yang lebih kuat dan lebih cepat."
+        }
+    ]
+}

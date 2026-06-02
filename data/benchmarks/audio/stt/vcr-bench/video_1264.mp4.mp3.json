@@ -1,0 +1,20 @@
+{
+    "video_id": "video_1264.mp4.mp3",
+    "transcript": " Então, vamos fazer um omelete. Colocamos a salsinha. Tchau.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                3.0
+            ],
+            "text": " Então, vamos fazer um omelete."
+        },
+        {
+            "timestamp": [
+                10.0,
+                null
+            ],
+            "text": " Colocamos a salsinha. Tchau."
+        }
+    ]
+}

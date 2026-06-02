@@ -1,0 +1,41 @@
+{
+    "video_id": "Top101_04605.mp4.mp3",
+    "transcript": " This way. Just keep going. You belong here. What happened to you? What do you mean?",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                0.66
+            ],
+            "text": " This way."
+        },
+        {
+            "timestamp": [
+                3.64,
+                4.72
+            ],
+            "text": " Just keep going."
+        },
+        {
+            "timestamp": [
+                5.04,
+                5.74
+            ],
+            "text": " You belong here."
+        },
+        {
+            "timestamp": [
+                13.32,
+                16.8
+            ],
+            "text": " What happened to you?"
+        },
+        {
+            "timestamp": [
+                17.8,
+                18.42
+            ],
+            "text": " What do you mean?"
+        }
+    ]
+}

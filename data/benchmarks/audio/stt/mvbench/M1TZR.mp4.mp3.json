@@ -1,0 +1,55 @@
+{
+    "video_id": "M1TZR.mp4.mp3",
+    "transcript": " 1.5 kg gouda 1.5 kg gouda 1 tbs vanilja 1 tbs vanilja 1 tbs vanilja 1 tbs vanilja 1 tbs vanilja 1 tbs vanilja Thank you.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                10.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                10.0,
+                20.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                20.0,
+                25.0
+            ],
+            "text": " 1 tbs vanilja"
+        },
+        {
+            "timestamp": [
+                25.0,
+                30.0
+            ],
+            "text": " 1 tbs vanilja"
+        },
+        {
+            "timestamp": [
+                30.0,
+                35.0
+            ],
+            "text": " 1 tbs vanilja"
+        },
+        {
+            "timestamp": [
+                35.0,
+                40.0
+            ],
+            "text": " 1 tbs vanilja"
+        },
+        {
+            "timestamp": [
+                40.0,
+                37.36
+            ],
+            "text": " 1 tbs vanilja 1 tbs vanilja Thank you."
+        }
+    ]
+}

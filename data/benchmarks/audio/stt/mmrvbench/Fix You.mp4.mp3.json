@@ -1,0 +1,83 @@
+{
+    "video_id": "Fix You.mp4.mp3",
+    "transcript": " When You Try Your Best But You Don't Succeed When You Get What You Want But Not What You Need When you get what you want but not what you need When you feel so tired but you can't sleep Stuck in reverse Lights will guide you home And ignite your bones And I will try to fix you I'm high up above or down below When you're too in love to let it go But if you never try, you'll never know Just what you were Lights will guide you home And ignite your bones I will try to fix you See a stream Of your face When you lose something you cannot replace Tears stream down your face Lights will guide you home And ignite your bones And I will try to fix you",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                26.26
+            ],
+            "text": " When You Try Your Best But You Don't Succeed When You Get What You Want But Not What You Need When you get what you want but not what you need"
+        },
+        {
+            "timestamp": [
+                26.26,
+                50.58
+            ],
+            "text": " When you feel so tired but you can't sleep Stuck in reverse Lights will guide you home"
+        },
+        {
+            "timestamp": [
+                50.58,
+                57.92
+            ],
+            "text": " And ignite your bones"
+        },
+        {
+            "timestamp": [
+                57.92,
+                65.0
+            ],
+            "text": " And I will try to fix you"
+        },
+        {
+            "timestamp": [
+                77.0,
+                82.0
+            ],
+            "text": " I'm high up above or down below"
+        },
+        {
+            "timestamp": [
+                84.0,
+                113.76
+            ],
+            "text": " When you're too in love to let it go But if you never try, you'll never know Just what you were Lights will guide you home"
+        },
+        {
+            "timestamp": [
+                113.76,
+                121.32
+            ],
+            "text": " And ignite your bones"
+        },
+        {
+            "timestamp": [
+                121.32,
+                168.1
+            ],
+            "text": " I will try to fix you See a stream Of your face When you lose something you cannot replace"
+        },
+        {
+            "timestamp": [
+                168.1,
+                189.14
+            ],
+            "text": " Tears stream down your face Lights will guide you home"
+        },
+        {
+            "timestamp": [
+                189.14,
+                196.52
+            ],
+            "text": " And ignite your bones"
+        },
+        {
+            "timestamp": [
+                196.52,
+                null
+            ],
+            "text": " And I will try to fix you"
+        }
+    ]
+}

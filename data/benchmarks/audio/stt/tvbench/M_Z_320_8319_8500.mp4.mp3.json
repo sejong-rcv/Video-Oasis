@@ -1,0 +1,27 @@
+{
+    "video_id": "M_Z_320_8319_8500.mp4.mp3",
+    "transcript": " All right, we got a little tutorial video on how to create a soccer ball from a drawing. So I use this trick all the time. I don't have space to carry all my stuff.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                3.52
+            ],
+            "text": " All right, we got a little tutorial video on how to create a soccer ball from a drawing."
+        },
+        {
+            "timestamp": [
+                3.68,
+                5.26
+            ],
+            "text": " So I use this trick all the time."
+        },
+        {
+            "timestamp": [
+                5.32,
+                7.28
+            ],
+            "text": " I don't have space to carry all my stuff."
+        }
+    ]
+}

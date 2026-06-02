@@ -1,0 +1,48 @@
+{
+    "video_id": "gvtvz-keDmE.mp4.mp3",
+    "transcript": " Yoo-hoo! Dunk! Dunky baby! Only one more point and I win! Not in my house. Exciting game, isn't it, folks? No more Mr. Nice Dunk! You're nice, Gung! You lose.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.84
+            ],
+            "text": " Yoo-hoo! Dunk!"
+        },
+        {
+            "timestamp": [
+                1.84,
+                3.5
+            ],
+            "text": " Dunky baby!"
+        },
+        {
+            "timestamp": [
+                3.5,
+                6.0
+            ],
+            "text": " Only one more point and I win!"
+        },
+        {
+            "timestamp": [
+                13.2,
+                14.84
+            ],
+            "text": " Not in my house."
+        },
+        {
+            "timestamp": [
+                16.3,
+                18.0
+            ],
+            "text": " Exciting game, isn't it, folks?"
+        },
+        {
+            "timestamp": [
+                18.8,
+                49.1
+            ],
+            "text": " No more Mr. Nice Dunk! You're nice, Gung! You lose."
+        }
+    ]
+}

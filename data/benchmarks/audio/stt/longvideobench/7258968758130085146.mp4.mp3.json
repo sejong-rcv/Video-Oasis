@@ -1,0 +1,41 @@
+{
+    "video_id": "7258968758130085146.mp4.mp3",
+    "transcript": " That you've ever seen Lady, running down to the rooftop Taking a walk to the dark side I wanna be your left hand lady I love when you sing that song",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.22
+            ],
+            "text": " That you've ever seen"
+        },
+        {
+            "timestamp": [
+                1.22,
+                4.38
+            ],
+            "text": " Lady, running down to the rooftop"
+        },
+        {
+            "timestamp": [
+                4.38,
+                6.42
+            ],
+            "text": " Taking a walk to the dark side"
+        },
+        {
+            "timestamp": [
+                6.42,
+                8.6
+            ],
+            "text": " I wanna be your left hand lady"
+        },
+        {
+            "timestamp": [
+                8.6,
+                11.46
+            ],
+            "text": " I love when you sing that song"
+        }
+    ]
+}

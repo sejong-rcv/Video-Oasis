@@ -1,0 +1,20 @@
+{
+    "video_id": "Top010_07590.mp4.mp3",
+    "transcript": " This is the way out! We have to find another way. Come on!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                4.6
+            ],
+            "text": " This is the way out!"
+        },
+        {
+            "timestamp": [
+                5.6,
+                7.36
+            ],
+            "text": " We have to find another way. Come on!"
+        }
+    ]
+}

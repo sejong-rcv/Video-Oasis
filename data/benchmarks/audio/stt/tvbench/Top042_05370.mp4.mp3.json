@@ -1,0 +1,41 @@
+{
+    "video_id": "Top042_05370.mp4.mp3",
+    "transcript": " The ring will be safe in Rivendell. I am ready to go home. His strength returns. That wound will never fully heal. He will carry it the rest of his life.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                3.0
+            ],
+            "text": " The ring will be safe in Rivendell."
+        },
+        {
+            "timestamp": [
+                7.0,
+                10.0
+            ],
+            "text": " I am ready to go home."
+        },
+        {
+            "timestamp": [
+                10.0,
+                13.0
+            ],
+            "text": " His strength returns."
+        },
+        {
+            "timestamp": [
+                13.0,
+                16.0
+            ],
+            "text": " That wound will never fully heal."
+        },
+        {
+            "timestamp": [
+                16.0,
+                20.0
+            ],
+            "text": " He will carry it the rest of his life."
+        }
+    ]
+}

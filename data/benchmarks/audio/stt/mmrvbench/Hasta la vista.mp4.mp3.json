@@ -1,0 +1,20 @@
+{
+    "video_id": "Hasta la vista.mp4.mp3",
+    "transcript": " I thought you said parachutes yeah boy",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.98
+            ],
+            "text": " I thought you said parachutes"
+        },
+        {
+            "timestamp": [
+                5.98,
+                10.74
+            ],
+            "text": " yeah boy"
+        }
+    ]
+}

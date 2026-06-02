@@ -1,0 +1,20 @@
+{
+    "video_id": "7275475379375164715.mp4.mp3",
+    "transcript": " Why are you so obsessed with Halloween? Halloween is cool!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " Why are you so obsessed with Halloween?"
+        },
+        {
+            "timestamp": [
+                4.0,
+                6.0
+            ],
+            "text": " Halloween is cool!"
+        }
+    ]
+}

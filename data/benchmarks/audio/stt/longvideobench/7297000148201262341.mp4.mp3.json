@@ -1,0 +1,34 @@
+{
+    "video_id": "7297000148201262341.mp4.mp3",
+    "transcript": " Ever wanted to drive on water? The jet cars in Dubai are just another modern toy for rich people. These things cost $700 per hour, or you can buy one for $40,000. So, have you ever wanted to drive on water?",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.32
+            ],
+            "text": " Ever wanted to drive on water?"
+        },
+        {
+            "timestamp": [
+                1.72,
+                4.98
+            ],
+            "text": " The jet cars in Dubai are just another modern toy for rich people."
+        },
+        {
+            "timestamp": [
+                5.24,
+                9.08
+            ],
+            "text": " These things cost $700 per hour, or you can buy one for $40,000."
+        },
+        {
+            "timestamp": [
+                9.38,
+                10.14
+            ],
+            "text": " So, have you ever wanted to drive on water?"
+        }
+    ]
+}

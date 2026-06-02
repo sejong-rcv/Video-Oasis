@@ -1,0 +1,41 @@
+{
+    "video_id": "quxiaojuan.MP4.mp3",
+    "transcript": " 1 tbs vanilja 1 tbs vanilja 1 tbs vanilja 1 tbs vanilja 1 tbs vanilja 1 tbs vanilja Thank you.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " 1 tbs vanilja"
+        },
+        {
+            "timestamp": [
+                5.0,
+                10.0
+            ],
+            "text": " 1 tbs vanilja"
+        },
+        {
+            "timestamp": [
+                10.0,
+                15.0
+            ],
+            "text": " 1 tbs vanilja"
+        },
+        {
+            "timestamp": [
+                15.0,
+                20.0
+            ],
+            "text": " 1 tbs vanilja"
+        },
+        {
+            "timestamp": [
+                20.0,
+                38.26
+            ],
+            "text": " 1 tbs vanilja 1 tbs vanilja Thank you."
+        }
+    ]
+}

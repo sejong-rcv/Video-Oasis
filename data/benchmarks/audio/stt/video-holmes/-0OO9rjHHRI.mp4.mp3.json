@@ -1,0 +1,41 @@
+{
+    "video_id": "-0OO9rjHHRI.mp4.mp3",
+    "transcript": " What are you doing? Uh, nothing. Let me see your phone. No. Fine. Who is she? No one. I was just scrolling. Really? Sh shows you liked a bunch of her photos and oh even commented damn girl i drink you right up i was just being funny it's just a joke it's just a joke Yeah. yeah no you're thirsty I need water Thank you for watching. I need water. All right. Storbritannia Like I said, you're thirsty.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                46.12
+            ],
+            "text": " What are you doing? Uh, nothing. Let me see your phone. No. Fine. Who is she? No one. I was just scrolling. Really? Sh shows you liked a bunch of her photos and oh even commented damn girl i drink you right up i was just being funny it's just a joke it's just a joke Yeah. yeah"
+        },
+        {
+            "timestamp": [
+                46.12,
+                52.08
+            ],
+            "text": " no"
+        },
+        {
+            "timestamp": [
+                52.08,
+                55.52
+            ],
+            "text": " you're thirsty"
+        },
+        {
+            "timestamp": [
+                67.52,
+                68.56
+            ],
+            "text": " I need water"
+        },
+        {
+            "timestamp": [
+                68.56,
+                null
+            ],
+            "text": " Thank you for watching. I need water. All right. Storbritannia Like I said, you're thirsty."
+        }
+    ]
+}

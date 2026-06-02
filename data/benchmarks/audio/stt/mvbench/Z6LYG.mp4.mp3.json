@@ -1,0 +1,41 @@
+{
+    "video_id": "Z6LYG.mp4.mp3",
+    "transcript": " 1.5 kg of chicken breast 1.5 kg of chicken breast I'm going to cut the top of the cake with a knife to make it easier to cut. I'm going to cut the top of the cake with a knife to make it easier to cut. I'm going to cut the top of the cake with a knife to make it easier to cut. Thank you.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                10.0
+            ],
+            "text": " 1.5 kg of chicken breast"
+        },
+        {
+            "timestamp": [
+                10.0,
+                20.0
+            ],
+            "text": " 1.5 kg of chicken breast"
+        },
+        {
+            "timestamp": [
+                20.0,
+                30.0
+            ],
+            "text": " I'm going to cut the top of the cake with a knife to make it easier to cut."
+        },
+        {
+            "timestamp": [
+                30.0,
+                38.0
+            ],
+            "text": " I'm going to cut the top of the cake with a knife to make it easier to cut."
+        },
+        {
+            "timestamp": [
+                38.0,
+                41.44
+            ],
+            "text": " I'm going to cut the top of the cake with a knife to make it easier to cut. Thank you."
+        }
+    ]
+}

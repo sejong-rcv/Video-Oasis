@@ -1,0 +1,34 @@
+{
+    "video_id": "c9arR8T0Qts.mp4.mp3",
+    "transcript": " Humble sand. This is what the building blocks of the future are made of. But making them is a long process compromising a great many steps. First, the silicon dioxide in the sand has to be converted into pure silicon. After that, it is cut into wafer-thin discs. In Dresden, these raw wafers are 300 millimeters in diameter and less than a millimeter thick. In our clean room, up to 35,000 chips are then made from each of these discs. In numerous process stages, the wafers are given their characteristic surface structure. After coating with a photoresist layer, the wafer surface is exposed, developed, and etched. This results in the desired conductor structure. Such structures are hundreds of times finer than a human hair. Dopants are then implanted in the material to increase the electrical connectivity of parts of the semiconductor. In subsequent phases, this and other process steps are repeated until the entire layout of the chip has been deposited on the wafer. This involves heating the wafer to more than 1100° Celsius, in some cases up to 27 times. Up to 200 measurements are done and up to 26 exposures. All in all, this can mean as many as 700 processing steps and 14 weeks processing time. Once this is completed, the microchip is assembled from as many as 30 such layers, like a mini skyscraper. Each layer has its own function. Interconnecting them makes the microchip highly complex. Semiconductor chips, the building blocks of our future.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                108.4
+            ],
+            "text": " Humble sand. This is what the building blocks of the future are made of. But making them is a long process compromising a great many steps. First, the silicon dioxide in the sand has to be converted into pure silicon. After that, it is cut into wafer-thin discs. In Dresden, these raw wafers are 300 millimeters in diameter and less than a millimeter thick. In our clean room, up to 35,000 chips are then made from each of these discs. In numerous process stages, the wafers are given their characteristic surface structure. After coating with a photoresist layer, the wafer surface is exposed, developed, and etched. This results in the desired conductor structure. Such structures are hundreds of times finer than a human hair. Dopants are then implanted in the material to increase the electrical connectivity of parts of the semiconductor. In subsequent phases, this and other process steps are repeated until the entire layout of the chip has been deposited on the wafer. This involves heating the wafer to more than 1100° Celsius, in some cases up to 27 times. Up to 200 measurements are done and up to 26 exposures. All in all, this can mean as many as 700 processing steps and 14 weeks processing time. Once this is completed, the microchip is assembled"
+        },
+        {
+            "timestamp": [
+                108.4,
+                115.2
+            ],
+            "text": " from as many as 30 such layers, like a mini skyscraper. Each layer has its own function."
+        },
+        {
+            "timestamp": [
+                115.92,
+                119.2
+            ],
+            "text": " Interconnecting them makes the microchip highly complex."
+        },
+        {
+            "timestamp": [
+                120.56,
+                124.64
+            ],
+            "text": " Semiconductor chips, the building blocks of our future."
+        }
+    ]
+}

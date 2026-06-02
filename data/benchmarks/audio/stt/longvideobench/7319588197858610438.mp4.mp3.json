@@ -1,0 +1,34 @@
+{
+    "video_id": "7319588197858610438.mp4.mp3",
+    "transcript": " This country is filled with tulips. From late March to early May, the tulip fields of the Netherlands are blooming like no other. Not all of the tulips are the same though, as there are thousands of different varieties located all over the country. The colorful plant has become the symbol of the Netherlands due to its image of beauty and love.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " This country is filled with tulips."
+        },
+        {
+            "timestamp": [
+                2.0,
+                6.5
+            ],
+            "text": " From late March to early May, the tulip fields of the Netherlands are blooming like no other."
+        },
+        {
+            "timestamp": [
+                6.5,
+                12.0
+            ],
+            "text": " Not all of the tulips are the same though, as there are thousands of different varieties located all over the country."
+        },
+        {
+            "timestamp": [
+                12.0,
+                17.0
+            ],
+            "text": " The colorful plant has become the symbol of the Netherlands due to its image of beauty and love."
+        }
+    ]
+}

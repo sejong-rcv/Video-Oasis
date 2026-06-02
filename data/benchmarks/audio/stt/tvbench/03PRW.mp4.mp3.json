@@ -1,0 +1,55 @@
+{
+    "video_id": "03PRW.mp4.mp3",
+    "transcript": " Lo siento. Bueno, si eso es realmente lo que quieres, está bien. Lo puedo. Gracias. Lamento que lo nuestro no haya podido... Segundo, ¿y? Déjame sentirme.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.3
+            ],
+            "text": " Lo siento."
+        },
+        {
+            "timestamp": [
+                3.4,
+                9.44
+            ],
+            "text": " Bueno, si eso es realmente lo que quieres, está bien."
+        },
+        {
+            "timestamp": [
+                12.66,
+                13.06
+            ],
+            "text": " Lo puedo."
+        },
+        {
+            "timestamp": [
+                13.42,
+                13.86
+            ],
+            "text": " Gracias."
+        },
+        {
+            "timestamp": [
+                20.08,
+                22.16
+            ],
+            "text": " Lamento que lo nuestro no haya podido..."
+        },
+        {
+            "timestamp": [
+                22.16,
+                22.92
+            ],
+            "text": " Segundo, ¿y?"
+        },
+        {
+            "timestamp": [
+                23.4,
+                null
+            ],
+            "text": " Déjame sentirme."
+        }
+    ]
+}

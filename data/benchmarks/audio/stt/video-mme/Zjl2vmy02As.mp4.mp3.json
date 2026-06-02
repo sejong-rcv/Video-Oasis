@@ -1,0 +1,132 @@
+{
+    "video_id": "Zjl2vmy02As.mp4.mp3",
+    "transcript": " Alexa, stop. Alexa, take them off. Alexa start my day. Good morning. In Redmond it's 23 degrees Celsius with cloudy skies. At 3 at 3 30 p.m there is a system design meeting you have one new notification from amazon shopping. Alexa, leave your phone on. So yesterday, I've completed implementing the APIs, I verified that they're working with no issues with their average latency below 220 seconds and the reliability at 99.998% So yesterday I finished implementing the background worker I verified that it works without any issues Today I'll be working on writing the unit test for it and I expect to send out a pull request by the end of the day today. That's it for me. 계란후라이 계란후라이 계란후라이 계란후라이 계란후라이 계란후라이 계란후라이 계란징어튀김 오징어튀김 오징어튀김 오징어튀김 오징어튀김 오징어튀김 오징어튀김 감사합니다. Alexa, start my day. Good morning. We'll be right back. Thank you. So I want to give you some information about this week, give you some things to think about, and then I want to talk about what's coming in the near future. And they said, oh, well, you know, you can't really ignore them because they're our best customers they're giving us the most money but that design ultimately results in a quadratic runtime complexity right because their contributions their costs are a little bit higher you can see you can use a priority queue instead and optimize it bringing the renting complexity down to the end i think forward being at your starting point cool all right thanks everyone for the spam configuration right so you were cut off can you repeat that Thank you. You should be able to feel your back muscles stretching. I'm going to have a cup of coffee and a cup of coffee. I'm going to have a cup of coffee and a cup of coffee. I'm going to have a cup of coffee and a cup of coffee. I'm going to have a cup of coffee and a cup of coffee. I'm going to have a cup of coffee and a cup of coffee. I'm going to have a cup of coffee and a cup of coffee. I'm going to have a cup of coffee and a cup of coffee. I'm going to have a cup of coffee and a cup of coffee. I'm going to have a cup of coffee and a cup of coffee. Undertexter från Amara.org-gemenskapen Mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm Thank you for watching. Our job is great. Alexa goodnight nighty-night get some good rest welcome to fire king i'm daniel a soft friend here at microsoft in this video i'm going to talk about the reason why i decided to leave amazon good night good night hope you had a great day.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                188.0
+            ],
+            "text": " Alexa, stop. Alexa, take them off. Alexa start my day. Good morning. In Redmond it's 23 degrees Celsius with cloudy skies. At 3 at 3 30 p.m there is a system design meeting you have one new notification from amazon shopping. Alexa, leave your phone on. So yesterday, I've completed implementing the APIs, I verified that they're working with no issues with their average latency below 220 seconds and the reliability at 99.998%"
+        },
+        {
+            "timestamp": [
+                197.0,
+                200.0
+            ],
+            "text": " So yesterday I finished implementing the background worker"
+        },
+        {
+            "timestamp": [
+                200.0,
+                203.0
+            ],
+            "text": " I verified that it works without any issues"
+        },
+        {
+            "timestamp": [
+                203.0,
+                210.0
+            ],
+            "text": " Today I'll be working on writing the unit test for it and I expect to send out a pull request by the end of the day today."
+        },
+        {
+            "timestamp": [
+                210.0,
+                274.84
+            ],
+            "text": " That's it for me. 계란후라이 계란후라이 계란후라이 계란후라이 계란후라이 계란후라이 계란후라이 계란징어튀김 오징어튀김 오징어튀김 오징어튀김 오징어튀김 오징어튀김 오징어튀김 감사합니다. Alexa, start my day."
+        },
+        {
+            "timestamp": [
+                275.9,
+                365.76
+            ],
+            "text": " Good morning. We'll be right back. Thank you. So I want to give you some information about this week, give you some things to think about, and then I want to talk about what's coming in the near future. And they said, oh, well, you know, you can't really ignore them because they're our best customers they're giving us the most money but that design ultimately results in a quadratic runtime complexity right because their contributions their costs are a little bit higher you can see you can use a priority queue instead and optimize it bringing the renting complexity down to the end i think forward being at your starting point cool all right thanks everyone for the spam"
+        },
+        {
+            "timestamp": [
+                365.76,
+                425.0
+            ],
+            "text": " configuration right so you were cut off can you repeat that Thank you. You should be able to feel your back muscles stretching. I'm going to have a cup of coffee and a cup of coffee."
+        },
+        {
+            "timestamp": [
+                425.0,
+                428.0
+            ],
+            "text": " I'm going to have a cup of coffee and a cup of coffee."
+        },
+        {
+            "timestamp": [
+                428.0,
+                431.0
+            ],
+            "text": " I'm going to have a cup of coffee and a cup of coffee."
+        },
+        {
+            "timestamp": [
+                431.0,
+                434.0
+            ],
+            "text": " I'm going to have a cup of coffee and a cup of coffee."
+        },
+        {
+            "timestamp": [
+                434.0,
+                437.0
+            ],
+            "text": " I'm going to have a cup of coffee and a cup of coffee."
+        },
+        {
+            "timestamp": [
+                437.0,
+                440.0
+            ],
+            "text": " I'm going to have a cup of coffee and a cup of coffee."
+        },
+        {
+            "timestamp": [
+                440.0,
+                443.0
+            ],
+            "text": " I'm going to have a cup of coffee and a cup of coffee."
+        },
+        {
+            "timestamp": [
+                443.0,
+                446.0
+            ],
+            "text": " I'm going to have a cup of coffee and a cup of coffee."
+        },
+        {
+            "timestamp": [
+                446.0,
+                449.0
+            ],
+            "text": " I'm going to have a cup of coffee and a cup of coffee."
+        },
+        {
+            "timestamp": [
+                449.0,
+                530.92
+            ],
+            "text": " Undertexter från Amara.org-gemenskapen Mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm Thank you for watching. Our job is great. Alexa goodnight nighty-night get some good rest welcome to fire king i'm daniel a soft friend here at microsoft in this video"
+        },
+        {
+            "timestamp": [
+                530.92,
+                534.86
+            ],
+            "text": " i'm going to talk about the reason why i decided to leave amazon"
+        },
+        {
+            "timestamp": [
+                534.86,
+                548.14
+            ],
+            "text": " good night good night hope you had a great day."
+        }
+    ]
+}

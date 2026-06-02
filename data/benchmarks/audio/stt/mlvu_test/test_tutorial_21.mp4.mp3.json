@@ -1,0 +1,664 @@
+{
+    "video_id": "test_tutorial_21.mp4.mp3",
+    "transcript": " So let me ask you a question. What is the purpose of a mask? An actual mask actually. To hide the face, right? Thieves and robbers wear a mask. You know why? To hide their faces. Of course, they don't want to be seen. Superheroes, at least most of them wear a mask. Why? To hide their face and of course, their identity. Similarly, in Photoshop, the only objective of a layer mask, the only purpose of a layer mask is to hide the layer. That's it. So here we have a beautiful ballerina. On top of that, we have this flow text. We want to create the text layer in such a way that the O comes from behind her. How do we make that happen? We have to hide parts of O, right? And we make that happen with the help of a layer mask. And the way you can create a layer mask is by selecting the layer for which you want to create the layer mask and then click on the mask button right there. There you go. It creates something right there. At the moment, it is all white. The concept of layer mask is black are the areas which hide, white are the areas which show up. So if the layer mask is selected and then you select the brush right there and you start painting with black, let's paint with the soft round brush. Have a look. Those areas hide. What is happening? Inside of the mask, that area is black, which means that area is simply not showing up. Remember, black hides and white shows. So this area is black. That is why this area is not showing up. However, if you paint that back with white, by the way, you can press X to toggle between the foreground and the background colors. And if the foreground and the background colors are funky to some other random color right here, press D to reset the foreground and background colors to black and white. Now, let's paint that area back in white. Have a look. It starts showing up, which means it is not permanent. It's absolutely non-destructive and that's a great thing, which means you can change stuff later. So to erase the O from that area, take the brush, black as the foreground color. Again, we pressed X to toggle between the foreground and the background and just paint. You don't have to be very accurate. We can create a shadow effect like this. And there you go. This is a wonderful effect right here. And then you can fine tune it according to your liking. Just like this. This looks so darn classy. Two things to remember. The only purpose of a layer mask is to hide the layer. Certain parts of the layer, the whole layer or hide nothing. But the purpose of it is to hide different areas of the layer. And the second most important concept is black hides and white shows. Wherever we painted black, those areas are hidden and all of the white areas show up. Have a look at it. By the way, how did we see the mask? You can hold the Alt key or the Option key, click on the mask to see just the mask. You can hold the Alt key or the Option key back again, click on the mask to see just the mask you can hold the alt key or the option key back again click on the mask to see the layer also there is no need to panic if you hold the alt key or the option key click on the mask and you forget where you are just select any other layer or simply click outside and you should be fine before we continue there are lots of fun projects like this coming up so make sure to download the practice files also a lot of you guys were confused. I read the comments. Just know that this is an absolutely free course. You don't have to sign up. You don't have to do anything. Just watch. Watch the playlist. And how can you find the playlist? Just go to the Piximperfect channel, go to playlist and go to Photoshop complete course playlist. You'll find all the lessons there. Also, you can go to learnphotoshopfree.com. If the domain expires, just do the YouTube thing. Back to the lesson, you must be wondering why use a layer mask in the first place. You can just simply use an eraser, right? Sorry about that. There are two major reasons we use layer masks. Number one, it is non-destructive. And number two, it works with non-raster layers. Let's look into that. Let's start with the first reason, that is non-destructive abilities. Heavy word, but very simple to understand. Let's say in this landscape, you want to do a very simple sky replacement. Don't worry about reflection. That is too complicated for right now. Just a simple sky replacement. Now, I do understand Photoshop has a sky replacement feature right here, but we're going to do it in a very simple way. For it, first of all, let's select the sky. Just go to select, choose sky. It makes a selection. Pretty fantastic, isn't it? In the later versions of Photoshop. Now, what if we just simply delete the sky by pressing the delete key? Now, again, it won't let you delete it cleanly because it's a background layer and background layers cannot be transparent. So first of all, let's unlock this layer by clicking on this button. Press the delete key. All right. Now press Ctrl or Command D to deselect because there was a selection we wanted to deselect. Now let's bring in the new sky. I'm just going to drag it and drop it right here. Make sure to download all the assets so that you can follow along. Let's make it larger. And of course, the sky needs to be behind the mountains, right? So place the sky behind the mountain layers or the whole landscape layer, press Ctrl or Command T and adjust it. Right now, it looks pretty okay. There is a problem, however. The problem is, we deleted the sky area from this one. If we wanted something back, we cannot. Have a look at it. There are parts of the mountains that are gone. If I turn it off, you can easily see that. Have a look. These have become transparent. Also, have a look at this area. That is completely erased. If I turn this on, have a look. The mountain is gone. We cannot have it back. Similarly, if you just use the eraser tool by selecting right here and erased the sky, let's say we did it this way, we cannot have the mountains back if we painted extra accidentally or if we want something back for some reason. So that, my friend, is the destructive style of editing. It is the style of editing where we cannot go back after the fact. Layer masks allow you to work non-destructively. Let's go back to how it was, right? This is how it was. First of all, let us select the sky. How do we do that? Go to select sky. You can also use other tools. You can erase it in a layer mask with a brush. That's all up to you. But this is easy. Once the selection is active, if you click on the mask button, it will create a mask of the selected area. So if I click right here, have a look, only the selected area shows up because in the mask right here, the sky area is white and the other areas are black. White are the areas which show up, black are the areas which hide. That is why this is the case. But we wanted opposite of it. So there are two ways we can approach this. We can select the mask and then press Ctrl or Command I to invert the mask. Now the sky is black and the ground base is white, right? It completely opposites the mask. The other approach is a little shortcut. Let's go back to how it was. Here we now have a selection. If we wanted to create an opposite mask or in other words, a negative mask, we would hold the Alt key or the Option key and then click on the Mask button. It creates the opposite mask already. So you don't have to do that extra step. Now, if you bring in the new sky, let's make it a little larger like this. Take it behind the ground, the mountains, control or command T. Let's take it up like that. Right now, we can bring stuff back. If you zoom in, have a look. These areas are transparent, right? I can go into the mask right here. We can take the brush, white as the foreground color and paint these areas back in. Bring them back. There you go. So this gives you the flexibility. This gives you the non-destructive abilities to go back if the mask was not right or if you want to change something. Now, before we move on to the next reason why we use layer masks, what was the first reason? Because it is non-destructive. You can go back and stuff. Let's start with the second reason. So what was the second reason we talked about? Second reason is simply that it works with non-araster layers. What do I mean by that? So in this image of this classy lady, let's say we want to add some funky background. So let's open our Finder or Explorer. We're just going to drag it and drop in the doodle pattern. By the way, I downloaded it from Envato Elements. I highly recommend it. It's amazing. It gives you unlimited access to all of these assets, unlimited downloads of these things like Photoshop actions, brushes, graphics like these, and so much more sound effects, stock photos, stock videos, Photoshop plugins and stuff. So check it out. There's a sale going on right now. I don't know how long it will go. Check the links in the description. Did you notice that when we placed it, it placed as a smart object? Let us delete that and let me do that again for you. And this time notice. So if we go right here, if we click and drag and drop on the canvas like this, this my friend comes as a smart object and comes resized. Why is this so? You need to make a small change in your Photoshop preferences. Go to edit and then preferences. On a Mac, it would be under Photoshop and then preferences. And inside of that, go to general. And inside of general, make sure you check always create smart objects when placing. Also, you might want to resize during place and that is why it was fitting to the canvas. Hit OK. Now, of course, we want this design to be behind the subject. For it, we need to select the subject. Right now, if we select any of these three tools, the object selection, the quick selection or the magic wand tool, at the top we will see the option for select subject, but it won't do anything. Why? Because this layer is selected, not the subject layer. So select the subject layer, click on Select Subject. Now that we have a selection, remember, we want it not on the subject, but everywhere else. In other words, we want a negative mask. So how do we create a negative mask? We just learned. If you hold the Alt key or the Option key and then click on the mask button, now you have a negative mask. Now, did you get the second reason why we use layer masks? Have a look. This, my friend, is a smart object. And that is why we were going on and on about smart objects. Now, the thing with smart objects is it is simply a preview. We talked about it in the lesson about layers. And since it is just a preview, if you take the brush and try to paint, it won't let you do it. Also, if you take the eraser and try to erase, it won't let you do it. So the only way to hide certain areas from a smart object or a shape layer or a text layer like we did in the very first example is using a layer mask. If we create a simple regular raster layer and if we take the brush and we paint something like this, of course, we can take an eraser and erase it. Why? Because the eraser erases the pixels. But with smart objects, we're not dealing with pixels. With shape layers, we're not dealing with pixels. With text layers, it's vector based, right? So the only way to hide stuff is using a layer mask. Now, let us make the background a little realistic. Double click on the right hand side of the layer. This opens up the layer style dialog box. The one thing I'm going to do is I'm going to go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and to hide stuff is using a layer mask. Now, let us make the background a little realistic. Double click on the right hand side of the layer. This opens up the layer style dialog box. We want to take this design away from the dark areas of the underlying layers or the layer that lies under it. So dark areas of this layer. And how do we do that? By taking the slider of the underlying layer, layers that lie under it, from left to right. But again, this would be harsh. So we would want to break it down. Have a look. This is harsh right here. Going completely away from the shadows. We don't want that. So hold the Alt key or the Option key. Click on the slider to break it apart. Take it all the way apart. That looks great. Let's take it even further like this. A little light design is fine too. Hit OK once you're satisfied. And there you go. Now let's say you want to move this pattern around. Make it larger or smaller. How would you do that? Right now there's a problem. First of all, let's name the layer. That is a problem. Organization is important. If you press ctrl or command d and if you try to move it, the mask also moves. That is an issue. If you try to make it larger, the mask also becomes larger. So how do we move it in a way so that the mask stays intact? By simply unlinking the mask. So right now, as you can see, have a look at the link icon right there, which means that the mask and the layer is linked. So whatever movement, resizing or rotation you do to the layer, the mask will also do the same accordingly. And also if the layer is a regular raster layer, not a smart object like this one, but a regular raster layer, and let's say we paint like this, we create a mask and we erase this area, right? Even if you apply a filter to this one, like filter, blur, and then Gaussian blur, have a look, the mask also blurs, right? So to make the mask independent of the layer, we need to unlink it. So how do we unlink it? Simply click on the link. The same way you unlock a layer, click on the lock, it unlocks the layer. Click on the link to unlink it. To link it back, click right here in the middle. It just comes back in like magic. So once they have broken up by clicking right here, you can press Ctrl or Command D, make it larger, smaller, the mask stays intact. You can move it around. Have a look. You have all the freedom to do that. And right here, as you can see, the paint cannot be that sharp. There has to be a little bit of blur to it, right? Let's go to Filter, Blur, and then Gaussian Blur. Let's apply 2. That's fine. That looks more realistic. Or maybe 1.4, possibly. Hit OK. That's nice. And there you have it. Now, one very important thing when using Photoshop. There are no set of rules. And if we try to cram a set of rules, which would be infinite, steam will come running out of our ears. Instead, once we understand the concept, your approach might be absolutely fantastically different from mine. And that is absolutely fine. And that is the way it should be. Now, just as we can turn off and on layers, we can also turn off and on just the masks. And here's how to do it. Let's say you want to take a look at how the original sky looked like without the mask right here. You can hold the shift key and click on the mask. There you go. The mask is turned off and this is how the image would be without the mask. Sometimes we don't want to delete the mask because we just want to look at how it would look like if the mask was not there or you might want to check something. But right now I have deleted it and I have to do the mask all over again. So that is why Photoshop has this feature where you can simply turn off the mask whenever you want. Just hold the shift key, click on the mask, a cross will show up, which means it's turned off. Again, just click right here, it will turn on. You don't have to hold the shift key again. Once it turns off, just click on it. Or if you have the habit, you can hold the shift key, click on it. It doesn't really matter. Now, the layer mask has its own properties. Everything has a property in Photoshop. But with layer masks, there are only two you need to worry about. Let's say you want to create a vignette. Let's create one of my favorite adjustment layers first time in this series. So click on the adjustment layer icon and then choose Curves. Now, this may be a little advanced, however, if you are interested, you can watch this complete masterclass that takes you through how to use the Curves from start to finish right here. But for right now, just know that if you create a point and take it down, it will make it darker. If you take it up, it will make it brighter. The right hand side represent the bright areas. The left hand side represent the dark areas. So if I want to make the dark areas darker, I can create a point right here, drag it down. If I want to make the bright areas brighter, I can create a point right here and drag it up. So bright areas have become brighter, dark areas have become darker. As a result, we have more contrast. Let us reset it by simply clicking on this button. Now what we want to do is create a vignette. So take the point on the right hand side down like that. And to create some contrast, create a point in the middle and take it down as well. Again, to understand curves, that is the video to watch. For now, this much understanding is fine. Let's collapse it. Now make sure the mask is selected. Let's press control or command zero to fit it to the screen. Now take the brush. Take a hard round brush right here. Let's make the brush a little larger and just dab in the middle with black as the foreground color. Make sure opacity and flow at the top are at 100. Just dab once. Now here's the great part. You can press Ctrl or Cmd D and move it around, make the face in focus. And then let's make it a little larger. If you hold the Shift key, you can stretch it a little if you wish to. If you also hold the Alt key, it will stretch from the center, you already know that. But this is way too harsh, right? So here comes the first property. If you double click on the layer mask, you should see the properties. By the way, when you double click for the first time, I think you might get a choice as to what you want to see, select and mask or properties. Make sure you choose properties if that's what you want. One other way to bring up properties is by selecting the mask and just bring up the properties just like this. Again, if you cannot see the properties, go to window and make sure properties is selected right here. Checked. The first slider we're going to talk about right now is feather. It simply blurs it. We're going to talk about density later. But feather, if you increase it, have a look. This is getting more and more blurred. So it simply blurs the mask in a non-destructive way so that it can always go back. So right now, this is looking fine. Let's blur it a lot like this much. How much is it? 600, right? Let's go for 620. All right. Take a look. It's dragging the attention of the viewer towards the face. Now, that's not all. Watch this. With the mask selected, if you press Ctrl or Command D, this can be adjusted later. Pretty cool. Now, you can resize it, move it around. It's all up to you. There you go. The next property will be a little fun. Let's say we want to color grade it. The easiest way to do it is by using a color lookup adjustment layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the it is by using a Color Lookup adjustment layer. Click on the Adjustment Layer icon and then choose Color Lookup. Right from here, you can choose whatever you want. So you can go for crisp form, you can go for whatever you want. Let's say we choose Fall Colors. That looks dreamy. Now let's say we only want it on the. Now, of course, you can select the subject, apply the mask right here. Let me show you the long process and then the shorter process. So if you select the subject layer and using the same method of using these tools and at the top clicking on select subject, you can go to the mask right here and fill that with black. So with black as the foreground color, press Alt Backspace or Option Delete. Now deselect by pressing Ctrl or Command D. Now it is the opposite of what we wanted. So select the mask and then press Ctrl or Command I to invert the mask. That is the long way of doing it. The shorter way is before even creating any adjustment layer, if you already have a selection, because adjustment layers already come with their own masks. If you just make a selection beforehand, let's click on select subject. And then if we created a color lookup adjustment layer, have a look, it already comes with that mask. Now let's change it to, let's say, fall colors. This was it, right? Now it's looking a little odd because it's all on the subject, not on the background. We want a little bit of this on the background as well. How do we make that happen? Only if we could decrease the opacity of the mask and that is the setting of density. If you select the mask and open up the properties and just decrease the density, see what happens. It is just like opacity for the mask. If the density is at zero, So, it acts like there was no mask in there in the first place. But as you begin to increase the density, it's like the opacity of the mask increases and the effect of the mask becomes more and more opaque. So I'm going to keep it at about 50%. That looks nice. Continuing with this example, let us learn how do we copy a mask. Usually, I like to add a little grain to my images. The way we do it, again, we covered this in previous lessons. We press Ctrl Shift N, Command Shift N to bring the new layer dialog box. We choose the blend mode overlay and choose fill with overlay neutral color. Overlay is a blend mode which hides anything that is 50% gray. Since this layer is gray, it looks hidden. Now before we do anything, let's go to Filter, Convert for Smart Filters, hit OK. To convert this layer into a Smart Object so that whatever filter we apply, we can change that later. Now let's go to Filter, Noise and then Add Noise. 4E is fine for now, Uniform, Monochromatic is good. Hit OK. Noise is too fine. Let's blur it. Let's go to Filter, Blur, and then Gaussian Blur, 0.8, 0.6 is fine for this example. Let's go for 0.8, hit OK. Now I think the noise is too much. That is the advantage of a Smart Object. We can go back to Noise Settings by double clicking on Add Noise right here. Hit OK. Let's change it to about 30. Hit OK. Now for the background, I love the texture. But let's say we don't want that much on the subject. How do we do it? We can recreate the subject mask or just simply copy this one. So hold the Alt key or the Option key, click and drag and drop this mask right here. It is copied. Right now it is the opposite. On the background it is less, on the subject it is more. So select the mask and then press Ctrl or Command I to invert the mask and then you can control the density to your liking. So open up the properties, make sure the mask is selected. If you want more noise on the subject, decrease the density so that the mask slowly and gradually becomes invisible. If you want lesser and lesser noise, increase the density. I think 50% was fine. And there you have a fantastic effect. Now we just learned how do we copy a mask, but too many copies can be an issue. Also with the workflow and also with results. Let us take a look. In this example, we created some lipstick. And by the way, it's from this tutorial, which you can watch later. Mind you, it's a very old video. Now here we have created a lot of shades. This is for the dark areas. Again, this one, this one for the highlights. And again, this one for the overall darkness. And it's simple, solid color adjustment layers with the lips masked in, as you can see, and all of them with multiply or screen blend modes and we applied some blend if. It's a very simple technique and the technique is besides the point. The point is we have four same masks. The way we did it is by once we have a mask we just held the alt key or the option key, drag it and dropped it right here. Of course we want to replace it and we made copies the same mask, but it can be an issue. Have a look around the edge. It's creating that weird highlight and it can do that sometimes. Another challenge is if you want to adjust something in one mask, for example, let's say this area was not looking right. So you went into the mask of this one, you took the brush and you painted accordingly. Let's say we painted in black. we erase that area. But now you have to do the same thing in all four masks. That's an issue. So instead of doing all this, just group all of those layers. Let's say these were ungrouped. By the way, to ungroup a group, right click on it and then choose ungroup layers. Just select all of them. Select the first one, hold the shift key, select the last one and then press Ctrl or Command G to group them. Let's name it whatever you want, Lipstick. And then let's open up the group and put one of the masks on the group. That's it. And you can delete the rest of the masks. So drag the mask, drop it to the trash can, delete. Do the same. You can also check don't show again to not show it again. But I keep it because I have to teach. Now have a look. There is no more weird highlight around the edge. Also, if you have to change the mask now, you just have one mask to deal with. Now let's talk about the concept of double masking. Let's say we want to paint some highlights. So we create a solid color adjustment layer by clicking on the adjustment layer icon and then choose solid color. Alright, hit OK for now, turn it off, double click right here, and then you can choose any highlight color from the image. To ensure that it's picking the colors, make sure sample all layers is selected. Sample size, point size or 3 by 3 is fine. Keep it 3 by 3. It takes a 3 pixel by 3 pixel average. Let's sample this color. Hit OK. All right. Let's turn this on. Now we want the highlight on the subject. So select the subject layer. Select any of these three tools. Click on select subject. You know the process. You know the drill. Select the mask. Fill it with black. Alt backspace. Option delete. Control or command D. And then select the mask. Press control or Command I. You wouldn't have to do that long of a process if you already had a selection and then you created a solid color adjustment layer. We just covered it. Now, the highlight is literally all over the subject. We only wanted it on the right-hand side. Why? Because the light is coming from the right-hand side. So now we have a mask. But the problem is, if we go right here, we take the brush and with a soft round brush, we erase it from the areas. We paint black in the areas where we didn't want the highlight, like this. Now to make it look like a highlight, you can double click on the right-hand side of the layer, hold the Alt key or the Option key, click on the slider to break it apart and take it away from the dark areas of the underlying layer. That's pretty good. Hit OK. I would also decrease the opacity. That's a nice highlight. But the problem now is this. If I wanted to get the highlights back in the hand areas, I cannot do that because if I go to the mask, take the brush, white as the foreground color, we pressed X to toggle between the foreground and the the background if we try to paint this area back in it also paints on the sky have a look it also paints on the sky so that's an issue if i try to paint this area back in see it also paints that area so my mask is gone i wish i had the mask for the subject again so i would have to redo it i would have select subject, create that mask and go through the entire process. Instead of doing that, here's what you do. Once you have the mask, once you have this filled, put that layer and just that one layer in a group. A group can have one layer, no issues. You can always be a group of one. Select that layer and press control or command G. Now create a negative mask by holding the Alt key or the Option key and click on the Mask button. That creates a black mask. Now this mask is right here. No issues. But here's another mask that you can work with. Now you have two masks for the same layer. Now if you paint with white and bring back some of the highlights right here, it's not an issue because that's a different mask and you still have this mask intact. Only the intersecting areas of both of this mask is going to show up. Now we can zoom in, erase this area, paint that back in. No issues at all because we still have this mask. So that is the concept of double masking. And I've saved the most fun project for the end. And that is using image as a mask. And you can create incredible effects with it. Yes, you can definitely use an image as a mask. Let's first create a black background, unlock the layer and click on the adjustment layer icon and then choose solid color. Let us choose black and hit OK. Place this behind the bushes because we're going to need it. Now, what if we had a face in a mask form so that only the highlights of the face show up? So here, my friend, we have our beautiful model. Let's copy this. Control or Command A to select all. Control or Command C to copy. And then let's get back to it. And first, let's create a mask by clicking on the mask button right here. Now, to paste it properly, we need to hold the Alt key or the Option key, click on the mask to get to the mask mode and then press Ctrl or Command V. It's pasted, but it's too big. Press Ctrl or Command D to transform. You know the drill. Let's make it this way. This is fine. Hit Enter or Return, Ctrl or command D to deselect. Now there are some additional areas. You can take the brush black as the foreground color and just fill that in. Not an issue. You can also use the rectangular marquee tool, but I just did it this way. Now ready for the moment of truth. Click anywhere else. And there you have it. Pretty cool, isn't it? Now this may be not too bright. You know why? Because the highlights of the mask the mask is not too bright so to fix it we need to make the highlights of the mask brighter select the mask and then press ctrl or command m to bring up the curves and to make the highlights brighter just take this slider to the left so we're gonna keep it this way that is good hit okay by the way okay is hidden hit okay and there you go cool wonderful isn't it so all in all there are just two things you need to remember number one the only objective of a layer mask is to hide the layer and number two black hides and white shows that's all thank you so much for joining me in this video and again, this is a free series, just enjoy watching, don't worry about anything. I hope this video helped you and if it did, make sure to give us a like and also don't forget to subscribe and not just subscribe, ring the bell so that you my friend don't miss any other future tips, tricks or tutorials. I would like to take this moment to thank all of these nice and amazing people who are making these series possible and helping keep Fiximperfect free for everybody forever. I'll see you in the next one. Till then, stay tuned and make sure that you keep creating.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                226.34
+            ],
+            "text": " So let me ask you a question. What is the purpose of a mask? An actual mask actually. To hide the face, right? Thieves and robbers wear a mask. You know why? To hide their faces. Of course, they don't want to be seen. Superheroes, at least most of them wear a mask. Why? To hide their face and of course, their identity. Similarly, in Photoshop, the only objective of a layer mask, the only purpose of a layer mask is to hide the layer. That's it. So here we have a beautiful ballerina. On top of that, we have this flow text. We want to create the text layer in such a way that the O comes from behind her. How do we make that happen? We have to hide parts of O, right? And we make that happen with the help of a layer mask. And the way you can create a layer mask is by selecting the layer for which you want to create the layer mask and then click on the mask button right there. There you go. It creates something right there. At the moment, it is all white. The concept of layer mask is black are the areas which hide, white are the areas which show up. So if the layer mask is selected and then you select the brush right there and you start painting with black, let's paint with the soft round brush. Have a look. Those areas hide. What is happening? Inside of the mask, that area is black, which means that area is simply not showing up. Remember, black hides and white shows. So this area is black. That is why this area is not showing up. However, if you paint that back with white, by the way, you can press X to toggle between the foreground and the background colors. And if the foreground and the background colors are funky to some other random color right here, press D to reset the foreground and background colors to black and white. Now, let's paint that area back in white. Have a look. It starts showing up, which means it is not permanent. It's absolutely non-destructive and that's a great thing, which means you can change stuff later. So to erase the O from that area, take the brush, black as the foreground color. Again, we pressed X to toggle between the foreground and the background and just paint. You don't have to be very accurate. We can create a shadow effect like this. And there you go. This is a wonderful effect right here. And then you can fine tune it according to your liking. Just like this. This looks so darn classy. Two things to remember. The only purpose of a layer mask is to hide the layer. Certain parts of the layer, the whole layer or hide nothing. But the purpose of it is to hide different areas of the layer. And the second most important concept is black hides and white shows. Wherever we painted black, those areas are hidden and all of the white areas show up. Have a look at it. By the way, how did we see the mask? You can hold the Alt key or the Option key, click on the mask to see just the mask. You can hold the Alt key or the Option key back again, click on the mask to see just the mask you can hold the alt key or the option key back again click on the mask to see the layer also there is no need to panic if you hold the alt key or the option key click on the mask and you forget where you are just select any other layer or simply click outside and you should be fine before we continue there are lots of fun projects like this coming up so make sure to download the practice files also a lot of you guys were confused. I read the comments. Just know that this is an absolutely free course. You don't have to sign up. You don't have to do anything. Just watch. Watch the playlist. And how can you find the playlist? Just go to the Piximperfect channel, go to playlist and go to Photoshop complete course playlist. You'll find all the lessons there. Also, you can go to learnphotoshopfree.com. If the domain expires, just do the YouTube thing. Back to the lesson, you must be wondering why use a layer mask in the first place. You can just simply use an eraser, right? Sorry about that. There are two major reasons we use layer masks. Number one, it is non-destructive. And number two, it works with non-raster layers."
+        },
+        {
+            "timestamp": [
+                226.82,
+                227.62
+            ],
+            "text": " Let's look into that."
+        },
+        {
+            "timestamp": [
+                227.76,
+                231.38
+            ],
+            "text": " Let's start with the first reason, that is non-destructive abilities."
+        },
+        {
+            "timestamp": [
+                231.64,
+                233.66
+            ],
+            "text": " Heavy word, but very simple to understand."
+        },
+        {
+            "timestamp": [
+                233.86,
+                237.08
+            ],
+            "text": " Let's say in this landscape, you want to do a very simple sky replacement."
+        },
+        {
+            "timestamp": [
+                237.56,
+                238.78
+            ],
+            "text": " Don't worry about reflection."
+        },
+        {
+            "timestamp": [
+                238.96,
+                240.52
+            ],
+            "text": " That is too complicated for right now."
+        },
+        {
+            "timestamp": [
+                240.84,
+                242.76
+            ],
+            "text": " Just a simple sky replacement."
+        },
+        {
+            "timestamp": [
+                243.24,
+                446.3
+            ],
+            "text": " Now, I do understand Photoshop has a sky replacement feature right here, but we're going to do it in a very simple way. For it, first of all, let's select the sky. Just go to select, choose sky. It makes a selection. Pretty fantastic, isn't it? In the later versions of Photoshop. Now, what if we just simply delete the sky by pressing the delete key? Now, again, it won't let you delete it cleanly because it's a background layer and background layers cannot be transparent. So first of all, let's unlock this layer by clicking on this button. Press the delete key. All right. Now press Ctrl or Command D to deselect because there was a selection we wanted to deselect. Now let's bring in the new sky. I'm just going to drag it and drop it right here. Make sure to download all the assets so that you can follow along. Let's make it larger. And of course, the sky needs to be behind the mountains, right? So place the sky behind the mountain layers or the whole landscape layer, press Ctrl or Command T and adjust it. Right now, it looks pretty okay. There is a problem, however. The problem is, we deleted the sky area from this one. If we wanted something back, we cannot. Have a look at it. There are parts of the mountains that are gone. If I turn it off, you can easily see that. Have a look. These have become transparent. Also, have a look at this area. That is completely erased. If I turn this on, have a look. The mountain is gone. We cannot have it back. Similarly, if you just use the eraser tool by selecting right here and erased the sky, let's say we did it this way, we cannot have the mountains back if we painted extra accidentally or if we want something back for some reason. So that, my friend, is the destructive style of editing. It is the style of editing where we cannot go back after the fact. Layer masks allow you to work non-destructively. Let's go back to how it was, right? This is how it was. First of all, let us select the sky. How do we do that? Go to select sky. You can also use other tools. You can erase it in a layer mask with a brush. That's all up to you. But this is easy. Once the selection is active, if you click on the mask button, it will create a mask of the selected area. So if I click right here, have a look, only the selected area shows up because in the mask right here, the sky area is white and the other areas are black. White are the areas which show up, black are the areas which hide. That is why this is the case. But we wanted opposite of it. So there are two ways we can approach this. We can select the mask and then press Ctrl or Command I to invert the mask. Now the sky is black and the ground base is white, right? It completely opposites the mask. The other approach is a little shortcut. Let's go back to how it was. Here we now have a selection. If we wanted to create an opposite mask or in other words, a negative mask, we would hold the Alt key or the Option key and then click on the Mask button. It creates the opposite mask already. So you don't have to do that extra step. Now, if you bring in the new sky, let's make it a little larger like this. Take it behind the ground, the mountains, control or command T. Let's take it up like that. Right now, we can bring stuff back. If you zoom in, have a look. These areas are transparent, right? I can go into the mask right here. We can take the brush, white as the"
+        },
+        {
+            "timestamp": [
+                446.3,
+                453.18
+            ],
+            "text": " foreground color and paint these areas back in. Bring them back. There you go. So this gives you"
+        },
+        {
+            "timestamp": [
+                453.18,
+                459.34
+            ],
+            "text": " the flexibility. This gives you the non-destructive abilities to go back if the mask was not right"
+        },
+        {
+            "timestamp": [
+                459.34,
+                464.16
+            ],
+            "text": " or if you want to change something. Now, before we move on to the next reason why we use layer masks,"
+        },
+        {
+            "timestamp": [
+                464.16,
+                506.2
+            ],
+            "text": " what was the first reason? Because it is non-destructive. You can go back and stuff. Let's start with the second reason. So what was the second reason we talked about? Second reason is simply that it works with non-araster layers. What do I mean by that? So in this image of this classy lady, let's say we want to add some funky background. So let's open our Finder or Explorer. We're just going to drag it and drop in the doodle pattern. By the way, I downloaded it from Envato Elements. I highly recommend it. It's amazing. It gives you unlimited access to all of these assets, unlimited downloads of these things like Photoshop actions, brushes, graphics like these, and so much more sound effects, stock photos, stock videos, Photoshop plugins and stuff."
+        },
+        {
+            "timestamp": [
+                506.32,
+                510.2
+            ],
+            "text": " So check it out. There's a sale going on right now. I don't know how long it will go. Check the"
+        },
+        {
+            "timestamp": [
+                510.2,
+                514.36
+            ],
+            "text": " links in the description. Did you notice that when we placed it, it placed as a smart object?"
+        },
+        {
+            "timestamp": [
+                514.62,
+                519.04
+            ],
+            "text": " Let us delete that and let me do that again for you. And this time notice. So if we go right here,"
+        },
+        {
+            "timestamp": [
+                519.16,
+                585.28
+            ],
+            "text": " if we click and drag and drop on the canvas like this, this my friend comes as a smart object and comes resized. Why is this so? You need to make a small change in your Photoshop preferences. Go to edit and then preferences. On a Mac, it would be under Photoshop and then preferences. And inside of that, go to general. And inside of general, make sure you check always create smart objects when placing. Also, you might want to resize during place and that is why it was fitting to the canvas. Hit OK. Now, of course, we want this design to be behind the subject. For it, we need to select the subject. Right now, if we select any of these three tools, the object selection, the quick selection or the magic wand tool, at the top we will see the option for select subject, but it won't do anything. Why? Because this layer is selected, not the subject layer. So select the subject layer, click on Select Subject. Now that we have a selection, remember, we want it not on the subject, but everywhere else. In other words, we want a negative mask. So how do we create a negative mask? We just learned. If you hold the Alt key or the Option key and then click on the mask button,"
+        },
+        {
+            "timestamp": [
+                605.4,
+                626.02
+            ],
+            "text": " now you have a negative mask. Now, did you get the second reason why we use layer masks? Have a look. This, my friend, is a smart object. And that is why we were going on and on about smart objects. Now, the thing with smart objects is it is simply a preview. We talked about it in the lesson about layers. And since it is just a preview, if you take the brush and try to paint, it won't let you do it. Also, if you take the eraser and try to erase, it won't let you do it. So the only way to hide certain areas from a smart object or a shape layer or a text layer like we did in the very first example is using a layer mask. If we create a simple regular raster layer and if we take the brush and we paint something"
+        },
+        {
+            "timestamp": [
+                626.02,
+                629.76
+            ],
+            "text": " like this, of course, we can take an eraser and erase it."
+        },
+        {
+            "timestamp": [
+                629.9,
+                630.0
+            ],
+            "text": " Why?"
+        },
+        {
+            "timestamp": [
+                630.08,
+                632.32
+            ],
+            "text": " Because the eraser erases the pixels."
+        },
+        {
+            "timestamp": [
+                632.7,
+                634.92
+            ],
+            "text": " But with smart objects, we're not dealing with pixels."
+        },
+        {
+            "timestamp": [
+                635.08,
+                650.4
+            ],
+            "text": " With shape layers, we're not dealing with pixels. With text layers, it's vector based, right? So the only way to hide stuff is using a layer mask. Now, let us make the background a little realistic. Double click on the right hand side of the layer. This opens up the layer style dialog box. The one thing I'm going to do is I'm going to go ahead and go ahead and go ahead and"
+        },
+        {
+            "timestamp": [
+                650.4,
+                651.4
+            ],
+            "text": " go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead"
+        },
+        {
+            "timestamp": [
+                651.4,
+                652.4
+            ],
+            "text": " and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go"
+        },
+        {
+            "timestamp": [
+                652.4,
+                653.4
+            ],
+            "text": " ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and"
+        },
+        {
+            "timestamp": [
+                653.4,
+                654.4
+            ],
+            "text": " go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead"
+        },
+        {
+            "timestamp": [
+                654.4,
+                655.4
+            ],
+            "text": " and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead"
+        },
+        {
+            "timestamp": [
+                655.4,
+                656.4
+            ],
+            "text": " and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead"
+        },
+        {
+            "timestamp": [
+                656.4,
+                657.4
+            ],
+            "text": " and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and"
+        },
+        {
+            "timestamp": [
+                657.4,
+                658.4
+            ],
+            "text": " go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and"
+        },
+        {
+            "timestamp": [
+                658.4,
+                659.4
+            ],
+            "text": " go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and"
+        },
+        {
+            "timestamp": [
+                659.4,
+                660.4
+            ],
+            "text": " go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and"
+        },
+        {
+            "timestamp": [
+                660.4,
+                661.4
+            ],
+            "text": " go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and"
+        },
+        {
+            "timestamp": [
+                661.4,
+                662.4
+            ],
+            "text": " go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and"
+        },
+        {
+            "timestamp": [
+                662.4,
+                663.4
+            ],
+            "text": " go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and"
+        },
+        {
+            "timestamp": [
+                663.4,
+                664.4
+            ],
+            "text": " go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and"
+        },
+        {
+            "timestamp": [
+                664.4,
+                845.48
+            ],
+            "text": " go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and go ahead and to hide stuff is using a layer mask. Now, let us make the background a little realistic. Double click on the right hand side of the layer. This opens up the layer style dialog box. We want to take this design away from the dark areas of the underlying layers or the layer that lies under it. So dark areas of this layer. And how do we do that? By taking the slider of the underlying layer, layers that lie under it, from left to right. But again, this would be harsh. So we would want to break it down. Have a look. This is harsh right here. Going completely away from the shadows. We don't want that. So hold the Alt key or the Option key. Click on the slider to break it apart. Take it all the way apart. That looks great. Let's take it even further like this. A little light design is fine too. Hit OK once you're satisfied. And there you go. Now let's say you want to move this pattern around. Make it larger or smaller. How would you do that? Right now there's a problem. First of all, let's name the layer. That is a problem. Organization is important. If you press ctrl or command d and if you try to move it, the mask also moves. That is an issue. If you try to make it larger, the mask also becomes larger. So how do we move it in a way so that the mask stays intact? By simply unlinking the mask. So right now, as you can see, have a look at the link icon right there, which means that the mask and the layer is linked. So whatever movement, resizing or rotation you do to the layer, the mask will also do the same accordingly. And also if the layer is a regular raster layer, not a smart object like this one, but a regular raster layer, and let's say we paint like this, we create a mask and we erase this area, right? Even if you apply a filter to this one, like filter, blur, and then Gaussian blur, have a look, the mask also blurs, right? So to make the mask independent of the layer, we need to unlink it. So how do we unlink it? Simply click on the link. The same way you unlock a layer, click on the lock, it unlocks the layer. Click on the link to unlink it. To link it back, click right here in the middle. It just comes back in like magic. So once they have broken up by clicking right here, you can press Ctrl or Command D, make it larger, smaller, the mask stays intact. You can move it around. Have a look. You have all the freedom to do that. And right here, as you can see, the paint cannot be that sharp. There has to be a little bit of blur to it, right? Let's go to Filter, Blur, and then Gaussian Blur. Let's apply 2. That's fine. That looks more realistic. Or maybe 1.4, possibly. Hit OK. That's nice. And there you have it. Now, one very important thing when using Photoshop. There are no set of rules. And if we try to cram a set of rules, which would be infinite, steam will come running out of our ears. Instead, once we understand the concept, your approach might be absolutely fantastically different from mine. And that is absolutely fine. And that is the way it should be. Now, just as we can turn off and on layers, we can also turn off and on just the masks. And here's how to do it. Let's say you want to take a look at how the original sky looked like without the mask right here. You can hold the shift key and click on the mask. There you go. The mask is turned off and this is how the image would be without the mask. Sometimes we don't want to delete the mask because we just want to look at how it would look like if the mask was not there or you might want to check something. But right now I have deleted it and I have to do the mask all over again."
+        },
+        {
+            "timestamp": [
+                845.62,
+                850.12
+            ],
+            "text": " So that is why Photoshop has this feature where you can simply turn off the mask whenever you want."
+        },
+        {
+            "timestamp": [
+                850.48,
+                855.36
+            ],
+            "text": " Just hold the shift key, click on the mask, a cross will show up, which means it's turned off."
+        },
+        {
+            "timestamp": [
+                855.36,
+                858.28
+            ],
+            "text": " Again, just click right here, it will turn on."
+        },
+        {
+            "timestamp": [
+                858.38,
+                859.96
+            ],
+            "text": " You don't have to hold the shift key again."
+        },
+        {
+            "timestamp": [
+                860.44,
+                863.0
+            ],
+            "text": " Once it turns off, just click on it."
+        },
+        {
+            "timestamp": [
+                863.22,
+                1026.08
+            ],
+            "text": " Or if you have the habit, you can hold the shift key, click on it. It doesn't really matter. Now, the layer mask has its own properties. Everything has a property in Photoshop. But with layer masks, there are only two you need to worry about. Let's say you want to create a vignette. Let's create one of my favorite adjustment layers first time in this series. So click on the adjustment layer icon and then choose Curves. Now, this may be a little advanced, however, if you are interested, you can watch this complete masterclass that takes you through how to use the Curves from start to finish right here. But for right now, just know that if you create a point and take it down, it will make it darker. If you take it up, it will make it brighter. The right hand side represent the bright areas. The left hand side represent the dark areas. So if I want to make the dark areas darker, I can create a point right here, drag it down. If I want to make the bright areas brighter, I can create a point right here and drag it up. So bright areas have become brighter, dark areas have become darker. As a result, we have more contrast. Let us reset it by simply clicking on this button. Now what we want to do is create a vignette. So take the point on the right hand side down like that. And to create some contrast, create a point in the middle and take it down as well. Again, to understand curves, that is the video to watch. For now, this much understanding is fine. Let's collapse it. Now make sure the mask is selected. Let's press control or command zero to fit it to the screen. Now take the brush. Take a hard round brush right here. Let's make the brush a little larger and just dab in the middle with black as the foreground color. Make sure opacity and flow at the top are at 100. Just dab once. Now here's the great part. You can press Ctrl or Cmd D and move it around, make the face in focus. And then let's make it a little larger. If you hold the Shift key, you can stretch it a little if you wish to. If you also hold the Alt key, it will stretch from the center, you already know that. But this is way too harsh, right? So here comes the first property. If you double click on the layer mask, you should see the properties. By the way, when you double click for the first time, I think you might get a choice as to what you want to see, select and mask or properties. Make sure you choose properties if that's what you want. One other way to bring up properties is by selecting the mask and just bring up the properties just like this. Again, if you cannot see the properties, go to window and make sure properties is selected right here. Checked. The first slider we're going to talk about right now is feather. It simply blurs it. We're going to talk about density later. But feather, if you increase it, have a look. This is getting more and more blurred. So it simply"
+        },
+        {
+            "timestamp": [
+                1026.08,
+                1030.96
+            ],
+            "text": " blurs the mask in a non-destructive way so that it can always go back. So right now,"
+        },
+        {
+            "timestamp": [
+                1030.96,
+                1037.58
+            ],
+            "text": " this is looking fine. Let's blur it a lot like this much. How much is it? 600, right? Let's go"
+        },
+        {
+            "timestamp": [
+                1037.58,
+                1043.56
+            ],
+            "text": " for 620. All right. Take a look. It's dragging the attention of the viewer towards the face."
+        },
+        {
+            "timestamp": [
+                1043.76,
+                1045.3
+            ],
+            "text": " Now, that's not all. Watch this."
+        },
+        {
+            "timestamp": [
+                1045.72,
+                1053.22
+            ],
+            "text": " With the mask selected, if you press Ctrl or Command D, this can be adjusted later. Pretty"
+        },
+        {
+            "timestamp": [
+                1053.22,
+                1061.68
+            ],
+            "text": " cool. Now, you can resize it, move it around. It's all up to you. There you go. The next property"
+        },
+        {
+            "timestamp": [
+                1061.68,
+                1069.22
+            ],
+            "text": " will be a little fun. Let's say we want to color grade it. The easiest way to do it is by using a color lookup adjustment layer."
+        },
+        {
+            "timestamp": [
+                1069.22,
+                1070.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1070.22,
+                1071.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1071.22,
+                1072.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1072.22,
+                1073.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1073.22,
+                1074.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1074.22,
+                1075.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1075.22,
+                1076.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1076.22,
+                1077.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1077.22,
+                1078.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1078.22,
+                1079.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1079.22,
+                1080.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1080.22,
+                1081.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1081.22,
+                1082.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1082.22,
+                1083.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1083.22,
+                1084.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1084.22,
+                1085.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1085.22,
+                1086.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1086.22,
+                1087.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1087.22,
+                1088.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1088.22,
+                1089.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1089.22,
+                1090.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1090.22,
+                1091.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1091.22,
+                1092.22
+            ],
+            "text": " Click on the Adjustment Layer."
+        },
+        {
+            "timestamp": [
+                1092.22,
+                1146.88
+            ],
+            "text": " Click on the Adjustment Layer. Click on the Adjustment Layer. Click on the it is by using a Color Lookup adjustment layer. Click on the Adjustment Layer icon and then choose Color Lookup. Right from here, you can choose whatever you want. So you can go for crisp form, you can go for whatever you want. Let's say we choose Fall Colors. That looks dreamy. Now let's say we only want it on the. Now, of course, you can select the subject, apply the mask right here. Let me show you the long process and then the shorter process. So if you select the subject layer and using the same method of using these tools and at the top clicking on select subject, you can go to the mask right here and fill that with black. So with black as the foreground color, press Alt Backspace or Option Delete. Now deselect by pressing Ctrl or Command D. Now it is the opposite of what we wanted. So select the mask and then press Ctrl or Command I to invert the mask. That is the long way of doing it. The shorter way is before even creating any adjustment layer, if you already have a selection, because adjustment layers already come with their own masks. If you just make a selection beforehand, let's click on select subject. And then if we created a color lookup adjustment layer, have a look, it already comes with that mask. Now let's change it to, let's say, fall colors. This was it, right? Now it's looking a little odd because it's all on"
+        },
+        {
+            "timestamp": [
+                1146.88,
+                1151.62
+            ],
+            "text": " the subject, not on the background. We want a little bit of this on the background as well."
+        },
+        {
+            "timestamp": [
+                1152.06,
+                1157.96
+            ],
+            "text": " How do we make that happen? Only if we could decrease the opacity of the mask and that is"
+        },
+        {
+            "timestamp": [
+                1157.96,
+                1163.12
+            ],
+            "text": " the setting of density. If you select the mask and open up the properties and just decrease the"
+        },
+        {
+            "timestamp": [
+                1163.12,
+                1168.88
+            ],
+            "text": " density, see what happens. It is just like opacity for the mask. If the density is at zero,"
+        },
+        {
+            "timestamp": [
+                1169.24,
+                1168.88
+            ],
+            "text": ""
+        },
+        {
+            "timestamp": [
+                1407.58,
+                1407.98
+            ],
+            "text": " So, it acts like there was no mask in there in the first place. But as you begin to increase the density, it's like the opacity of the mask increases and the effect of the mask becomes more and more opaque. So I'm going to keep it at about 50%. That looks nice. Continuing with this example, let us learn how do we copy a mask. Usually, I like to add a little grain to my images. The way we do it, again, we covered this in previous lessons. We press Ctrl Shift N, Command Shift N to bring the new layer dialog box. We choose the blend mode overlay and choose fill with overlay neutral color. Overlay is a blend mode which hides anything that is 50% gray. Since this layer is gray, it looks hidden. Now before we do anything, let's go to Filter, Convert for Smart Filters, hit OK. To convert this layer into a Smart Object so that whatever filter we apply, we can change that later. Now let's go to Filter, Noise and then Add Noise. 4E is fine for now, Uniform, Monochromatic is good. Hit OK. Noise is too fine. Let's blur it. Let's go to Filter, Blur, and then Gaussian Blur, 0.8, 0.6 is fine for this example. Let's go for 0.8, hit OK. Now I think the noise is too much. That is the advantage of a Smart Object. We can go back to Noise Settings by double clicking on Add Noise right here. Hit OK. Let's change it to about 30. Hit OK. Now for the background, I love the texture. But let's say we don't want that much on the subject. How do we do it? We can recreate the subject mask or just simply copy this one. So hold the Alt key or the Option key, click and drag and drop this mask right here. It is copied. Right now it is the opposite. On the background it is less, on the subject it is more. So select the mask and then press Ctrl or Command I to invert the mask and then you can control the density to your liking. So open up the properties, make sure the mask is selected. If you want more noise on the subject, decrease the density so that the mask slowly and gradually becomes invisible. If you want lesser and lesser noise, increase the density. I think 50% was fine. And there you have a fantastic effect. Now we just learned how do we copy a mask, but too many copies can be an issue. Also with the workflow and also with results. Let us take a look. In this example, we created some lipstick. And by the way, it's from this tutorial, which you can watch later. Mind you, it's a very old video. Now here we have created a lot of shades. This is for the dark areas. Again, this one, this one for the highlights. And again, this one for the overall darkness. And it's simple, solid color adjustment layers with the lips masked in, as you can see, and all of them with multiply or screen blend modes and we applied some blend if. It's a very simple technique and the technique is besides the point. The point is we have four same masks. The way we did it is by once we have a mask we just held the alt key or the option key, drag it and dropped it right here. Of course we want to replace it and we made copies the same mask, but it can be an issue. Have a look around the edge. It's creating that weird highlight and it can do that sometimes. Another challenge is if you want to adjust something in one mask, for example, let's say this area was not looking right. So you went into the mask of this one, you took the brush and you painted accordingly. Let's say we painted in black. we erase that area. But now you have to do the same thing in all four masks. That's an issue. So instead of doing all this, just group all of those layers. Let's say these were ungrouped. By the way, to ungroup a group, right click on it and then choose ungroup layers. Just select all of them. Select the first one, hold the shift key, select the last one and then press Ctrl or Command G to group them. Let's name it whatever you want, Lipstick. And then let's open up the group and put one of the masks on the group. That's it. And you can delete the rest of the masks. So drag the mask, drop it to the trash can, delete. Do the same. You can also check don't show again to not show it again."
+        },
+        {
+            "timestamp": [
+                1409.58,
+                1409.88
+            ],
+            "text": " But I keep it because I have to teach."
+        },
+        {
+            "timestamp": [
+                1410.56,
+                1410.86
+            ],
+            "text": " Now have a look."
+        },
+        {
+            "timestamp": [
+                1413.44,
+                1413.58
+            ],
+            "text": " There is no more weird highlight around the edge."
+        },
+        {
+            "timestamp": [
+                1417.88,
+                1417.96
+            ],
+            "text": " Also, if you have to change the mask now, you just have one mask to deal with."
+        },
+        {
+            "timestamp": [
+                1420.06,
+                1420.2
+            ],
+            "text": " Now let's talk about the concept of double masking."
+        },
+        {
+            "timestamp": [
+                1421.64,
+                1726.12
+            ],
+            "text": " Let's say we want to paint some highlights. So we create a solid color adjustment layer by clicking on the adjustment layer icon and then choose solid color. Alright, hit OK for now, turn it off, double click right here, and then you can choose any highlight color from the image. To ensure that it's picking the colors, make sure sample all layers is selected. Sample size, point size or 3 by 3 is fine. Keep it 3 by 3. It takes a 3 pixel by 3 pixel average. Let's sample this color. Hit OK. All right. Let's turn this on. Now we want the highlight on the subject. So select the subject layer. Select any of these three tools. Click on select subject. You know the process. You know the drill. Select the mask. Fill it with black. Alt backspace. Option delete. Control or command D. And then select the mask. Press control or Command I. You wouldn't have to do that long of a process if you already had a selection and then you created a solid color adjustment layer. We just covered it. Now, the highlight is literally all over the subject. We only wanted it on the right-hand side. Why? Because the light is coming from the right-hand side. So now we have a mask. But the problem is, if we go right here, we take the brush and with a soft round brush, we erase it from the areas. We paint black in the areas where we didn't want the highlight, like this. Now to make it look like a highlight, you can double click on the right-hand side of the layer, hold the Alt key or the Option key, click on the slider to break it apart and take it away from the dark areas of the underlying layer. That's pretty good. Hit OK. I would also decrease the opacity. That's a nice highlight. But the problem now is this. If I wanted to get the highlights back in the hand areas, I cannot do that because if I go to the mask, take the brush, white as the foreground color, we pressed X to toggle between the foreground and the the background if we try to paint this area back in it also paints on the sky have a look it also paints on the sky so that's an issue if i try to paint this area back in see it also paints that area so my mask is gone i wish i had the mask for the subject again so i would have to redo it i would have select subject, create that mask and go through the entire process. Instead of doing that, here's what you do. Once you have the mask, once you have this filled, put that layer and just that one layer in a group. A group can have one layer, no issues. You can always be a group of one. Select that layer and press control or command G. Now create a negative mask by holding the Alt key or the Option key and click on the Mask button. That creates a black mask. Now this mask is right here. No issues. But here's another mask that you can work with. Now you have two masks for the same layer. Now if you paint with white and bring back some of the highlights right here, it's not an issue because that's a different mask and you still have this mask intact. Only the intersecting areas of both of this mask is going to show up. Now we can zoom in, erase this area, paint that back in. No issues at all because we still have this mask. So that is the concept of double masking. And I've saved the most fun project for the end. And that is using image as a mask. And you can create incredible effects with it. Yes, you can definitely use an image as a mask. Let's first create a black background, unlock the layer and click on the adjustment layer icon and then choose solid color. Let us choose black and hit OK. Place this behind the bushes because we're going to need it. Now, what if we had a face in a mask form so that only the highlights of the face show up? So here, my friend, we have our beautiful model. Let's copy this. Control or Command A to select all. Control or Command C to copy. And then let's get back to it. And first, let's create a mask by clicking on the mask button right here. Now, to paste it properly, we need to hold the Alt key or the Option key, click on the mask to get to the mask mode and then press Ctrl or Command V. It's pasted, but it's too big. Press Ctrl or Command D to transform. You know the drill. Let's make it this way. This is fine. Hit Enter or Return, Ctrl or command D to deselect. Now there are some additional areas. You can take the brush black as the foreground color and just fill that in. Not an issue. You can also use the rectangular marquee tool, but I just did it this way. Now ready for the moment of truth. Click anywhere else. And there you have it. Pretty cool, isn't it? Now this may be not too bright. You know why? Because the highlights of the mask the mask is not too bright so to fix it we need to make the highlights of the mask brighter select the mask and then press ctrl or command m to bring up the curves and to make the highlights brighter just take this slider to the left so we're gonna keep it this way that is good hit okay by the way okay is hidden hit okay and there you go cool wonderful isn't it so all in all there are just two things you need to remember number one the only objective of a layer mask is to hide the layer and number two black hides and white shows that's all thank you so much for joining me in this video and again, this is a free series, just enjoy watching, don't worry about anything."
+        },
+        {
+            "timestamp": [
+                1726.12,
+                1729.46
+            ],
+            "text": " I hope this video helped you and if it did, make sure to give us a like and also don't"
+        },
+        {
+            "timestamp": [
+                1729.46,
+                1732.9
+            ],
+            "text": " forget to subscribe and not just subscribe, ring the bell so that you my friend don't"
+        },
+        {
+            "timestamp": [
+                1732.9,
+                1735.82
+            ],
+            "text": " miss any other future tips, tricks or tutorials."
+        },
+        {
+            "timestamp": [
+                1735.82,
+                1739.8
+            ],
+            "text": " I would like to take this moment to thank all of these nice and amazing people who are"
+        },
+        {
+            "timestamp": [
+                1739.8,
+                1744.2
+            ],
+            "text": " making these series possible and helping keep Fiximperfect free for everybody forever."
+        },
+        {
+            "timestamp": [
+                1744.2,
+                1745.04
+            ],
+            "text": " I'll see you in the next one."
+        },
+        {
+            "timestamp": [
+                1745.08,
+                1747.38
+            ],
+            "text": " Till then, stay tuned and make sure that you keep creating."
+        }
+    ]
+}

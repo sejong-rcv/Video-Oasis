@@ -1,0 +1,20 @@
+{
+    "video_id": "video_1270.mp4.mp3",
+    "transcript": " Okey. Okey.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " Okey."
+        },
+        {
+            "timestamp": [
+                12.46,
+                14.46
+            ],
+            "text": " Okey."
+        }
+    ]
+}

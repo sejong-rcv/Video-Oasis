@@ -1,0 +1,27 @@
+{
+    "video_id": "7284004157311421742.mp4.mp3",
+    "transcript": " I'm back to the mix Cause you're going round in circles And everyone knows you're trouble",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.7
+            ],
+            "text": " I'm back to the mix"
+        },
+        {
+            "timestamp": [
+                1.7,
+                5.54
+            ],
+            "text": " Cause you're going round in circles"
+        },
+        {
+            "timestamp": [
+                5.54,
+                10.74
+            ],
+            "text": " And everyone knows you're trouble"
+        }
+    ]
+}

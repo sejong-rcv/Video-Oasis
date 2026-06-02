@@ -1,0 +1,27 @@
+{
+    "video_id": "LlajSKnbcGk.mp4.mp3",
+    "transcript": " Terrorists win. Instead, you're out. Counter-terrorists win.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                26.12
+            ],
+            "text": " Terrorists win."
+        },
+        {
+            "timestamp": [
+                27.84,
+                28.82
+            ],
+            "text": " Instead, you're out."
+        },
+        {
+            "timestamp": [
+                28.82,
+                40.82
+            ],
+            "text": " Counter-terrorists win."
+        }
+    ]
+}

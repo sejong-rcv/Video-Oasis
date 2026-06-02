@@ -1,0 +1,48 @@
+{
+    "video_id": "Top097_01280.mp4.mp3",
+    "transcript": " Look at these chains. Look at these chains. Let's go look at that lady. Did you get anyone? What? Did you get through? No.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                4.0
+            ],
+            "text": " Look at these chains. Look at these chains."
+        },
+        {
+            "timestamp": [
+                9.0,
+                11.0
+            ],
+            "text": " Let's go look at that lady."
+        },
+        {
+            "timestamp": [
+                15.0,
+                16.0
+            ],
+            "text": " Did you get anyone?"
+        },
+        {
+            "timestamp": [
+                16.0,
+                17.0
+            ],
+            "text": " What?"
+        },
+        {
+            "timestamp": [
+                17.0,
+                19.0
+            ],
+            "text": " Did you get through?"
+        },
+        {
+            "timestamp": [
+                19.0,
+                20.0
+            ],
+            "text": " No."
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "video_id": "39HTpUG1MwQ.mp4.mp3",
+    "transcript": " our body is made up of trillions of cells they all require energy to function this energy is created within ourselves in the mitochondria here food is converted into chemical energy called ATP ATP is released by the mitochondria so cells can use it. Mitochondria consist of two membranes, an outer membrane separating it from the cytosol and an inner membrane surrounding the so-called matrix. The area between these membranes is called the intermembrane space. ATP is generated at the inner membrane of mitochondria by an efficient mechanism called oxidative phosphorylation, involving several membrane protein complexes. Nutrients provide high energy electrons in the form of NADH, which are used by the protein complexes to pump protons from the matrix to the intermembrane space. This continuous pumping creates a proton gradient, where the positively charged protons are attracted to the more negative matrix. When the protons re-enter the matrix through the ATP synthase protein complex, they catalyze the production of ATP.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                45.66
+            ],
+            "text": " our body is made up of trillions of cells they all require energy to function this energy is created within ourselves in the mitochondria here food is converted into chemical energy called ATP ATP is released by the mitochondria so cells can use it. Mitochondria consist of two membranes, an outer membrane separating it from the cytosol and an inner membrane surrounding the so-called matrix. The area between these membranes is called the intermembrane space."
+        },
+        {
+            "timestamp": [
+                47.8,
+                85.0
+            ],
+            "text": " ATP is generated at the inner membrane of mitochondria by an efficient mechanism called oxidative phosphorylation, involving several membrane protein complexes. Nutrients provide high energy electrons in the form of NADH, which are used by the protein complexes to pump protons from the matrix to the intermembrane space. This continuous pumping creates a proton gradient, where the positively charged protons are attracted to the more negative matrix."
+        },
+        {
+            "timestamp": [
+                87.1,
+                92.0
+            ],
+            "text": " When the protons re-enter the matrix through the ATP synthase protein complex,"
+        },
+        {
+            "timestamp": [
+                93.0,
+                95.0
+            ],
+            "text": " they catalyze the production of ATP."
+        }
+    ]
+}

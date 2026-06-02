@@ -1,0 +1,384 @@
+{
+    "video_id": "test_tutorial_23.mp4.mp3",
+    "transcript": " Not knowing how to properly save is like building castles on the beach with sand and not even having a camera or a phone to take a picture of it. But then it's just so confusing, right? If you go to File, there's Save, there's Save As, Save a Copy, Export, Export As. There's just so many things. And even if you choose to decide one of these, like Save a Copy, again, there are just so darn many options. This is super confusing. I wish there was an easy system or a way to figure out what to use when. You're in luck because there is. Just take a screenshot right now. Save it properly. Did that look super confusing? Don't worry. We're going to get through it together. It will be fun. But before everything else, how many times have you felt that sudden cold chill run through your spine, especially when you see this little friend in the middle of your project? I know the feeling. And that is why you need insurance. And here's how to set up your insurance in Photoshop. Just go to edit and then preferences. And inside of that, you would go to file handling. On a Mac, it is under Photoshop, preferences, file handling. Let's go in there and just make sure you turn on automatically save recovery information every, you can choose however many minutes you want. So I keep it checked. You can set it at five minutes so that at every five minutes it will save the recovery information. So if your computer crashes and then when you open up Photoshop again, it should be recovered. Do notice that I'm stressing the word should. You'll know why. Just hit OK. And for security, just restart Photoshop. Now, there are times when this insurance company decides not to pay. And for those times, precaution is always better than cure. I think it's called prevention. Either way, I would never suggest that you develop an OCD. But when it comes to working with Photoshop, there is a habit that you need to develop just like an OCD. Every couple minutes, keep pressing this shortcut, Control or Command S. As you're working through this, let's say you changed the text size, did a few changes, Control or Command S. You moved the subject here and there, Control or Command S. Don't forget that. Another thing you need to watch out for is the star. Because when you wish upon a star, I don't know what happens, but at least if you don't watch out for it, it's going to be terrible in Photoshop. When you do any change, anything on any document, let's say I created a new layer, I then deleted it. I turned off the subject. All right. I did a few things. Right now, you will see a star right here, which means that it has unsaved changes. All of the changes that I just made is not saved yet. If I press Ctrl or Command S, watch, the star goes away. Now, if I do any more change right here, if I turn on the subject, if I move it around, see the star comes back in, which means that whatever changes I did is unsaved. If I press Ctrl or Command S, the star is gone, which means that everything that is here right now is absolutely saved. So this is one star you don't want to see or wish upon, especially when Photoshop crashes, but you need to watch out for it. And keep pressing Ctrl or Command S. Now saving is a process. Trust me, it's an easy one. All you need to do is to ask yourself, what is your purpose? Now, the first purpose can be you just want to update the existing working document. What do we mean by that? Let us take a look at this example. Let's say this is the PST that you're working in. By the way, if you want to learn how to match the subject with the background, you can watch this video later. But for right now, let us say we create a color lookup right here. We made a few changes. We add crisp warm. And now I just want to update the existing PST. So this PST right here, example to brief demo, you'll see we have it right here. So right now, if you go to file and save, the shortcut to which is control or command S, the shortcut is always right next to the menu. Let's click on it. That star goes away and that particular document gets updated. So right now, if I close it and go back to that folder and open the same document, example to brief demo, it will come up with those changes because we updated the document. So whenever you want to update your existing document that you're working on, you would choose save. But what happens when you have a document that is not already created in your drive? What if it's a new document? What happens then? So let us go ahead and create a new document by going to file, new, create a random document, do some random stuff right here. So now what happens if I choose save? Because there is no document to update, right? It is not yet created. If right now we go to file and save, watch this. We're going to choose on my computer, of course. It automatically takes you to save as. Now that's an interesting thing. And that brings us to our next option and that is save as. We choose save as when we want to create a new working document. What do we mean by that? So in this case, this was a brand new document, right? So if we saved, there was nothing to update. So it automatically took you to save as so you can create a new working document. On the other hand, this PSD is already created. If I turn it off, if I press control or command S, or if I go to file and then save, it will just update the existing document. But let's say I want to create a different version of it and continue working on that version. In that case, let's say I added this one, I added another one of these, reduce the opacity of it a little bit, and then I can go to File, Save As. This allows me to create a new separate document and continue working on it. So let's name it example to new and save it as a PSD. Now keep in mind, save as only allows you to save it in a working format, meaning that it should support layers, adjustments, you should have the ability to come back and change things here and there. And that is why if you look at save as type, you only have few options that do support layers and adjustments and other Photoshop features. So right now, let us choose PST and click on Save. You will notice at the top, hit OK. You'll notice at the top that you continue to work on this new version while the older version still exists. So if I go back to my folder, have a look. The older version is still there. Example 2, brief demo. But the newer version is still also there. So if I open up the older version, it's a different document. So this is the older version. Let's close this. And this one is the newer version. So whenever you want to create a newer version of your existing document and continue working on that newer version, you would choose Save As. Save As doesn't care who it was, where it was from or what it did like the Backstreet Boys. It's like a start of a new relationship. However, there's another option and that is save a copy. Save a copy is like you want to continue your existing relationship, but just to be sure, you also want to have a backup somewhere. I don't recommend this in real life, but let's consider this. This is version A. You want to continue working with Version 8. But you also want to have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where you can have a version where want to have a backup. So let's go to file, save a copy, and let's type in version B instead. Let's save it. Now, unlike save as, you still continue working with version A. You add a color lookup, you add another color lookup, you decrease the opacity and do several things. But still, you have that version B, B stands for backup, already there in case you need it. So save a copy is just like creating a backup for you on the site or an export for you on the site while you continue with your existing relationship. Whereas save as is a start of a new relationship. When you choose save as, you create a new version and you continue working on that new version. With the old version, it doesn't care where it is, where it's from, what it did, like the Backstreet Boys. Now do keep in mind that save a copy, since it's just creating a backup, can save in any format. Whereas save as can only save in a working format like BSD, TIFF and others. We're going to discuss it later. But right now, if you go to File, Save a Copy, you'll see there is just everything. You can save it as a JPEG. You can save it as a PSD. All the options are right here. Now, if you want to export your work for social media with layers and effects, everything baked into one image, you won't have the ability in this file to go back and change the layers. But if you want that final file, you would go to file, export and export as. Let's say for social media, you can also change the width and the height, resize it accordingly and choose whether you want PNG, JPEG or GIF, however you want to pronounce it. You have several options here. We're going to discuss it in brief later. But for right now, you can simply choose JPEG, choose the quality right here and click on export. Simply choose the file name. It's already JPEG and click on save. That's all. Now, just to summarize all of these four options, it's simple. You need to ask yourself, what is your purpose? If you just want to update the existing document that you're working on, go to save. If the document is new and there's not a file that is already created, if you click on file save, it will automatically take you to save as. Now, save as is like a start of a new relationship. It creates a brand new document and you continue working on that brand new document and it only supports working formats that do support layers and effects and other features of Photoshop. Export as is when you want to export an image file with everything baked in. Let's say for social media or for your website, whatever it is. And then you have save a copy, which creates a backup for you while you continue working with your existing version. Now, save a copy does give you access to all of the formats, whether it's JPEG, PNG. On the other hand, save as only allows formats which can support layers and Photoshop features. Now, let's take a look at the different formats and which one to use when. Again, you need to ask yourself different questions and this chart makes it absolutely easy for you. Now, PSD is the standard Photoshop document format. It can easily be opened in Photoshop, of course, because it is the Photoshop format and it retains everything. When you're working with PSD, you don't have to worry about the new filters or the features that are added. Or if you add something that is brand new, everything will show up. Everything is changeable, manageable. So this, my friend, is a PSD. I saved it as a PSD. And if you open it, all of the effects that I applied right here, everything shows up. I can change anything, open up the adjustment layers and change the properties. I can change the opacities. Everything shows up just as the way you saved it. Now, PSD does have a limitation. Biggest limitation is the size limit. So right now, this PSD, example three, is just about 230 MB. So just for demonstration, I made 100 copies of this layer. So this was the last clean up layer. So as you can see, I've made 10 copies in each group and there are 10 groups, so about 100 layers. This should make the file size bigger. So now when I try to go to file, save, it is in PSD. If I go to file and save, it will keep it in PSD and just update the document. It shouldn't be an issue, right? But if I try to do that, it tells you right here, the document exceeds 2GB. So when you're working with a lot of layers and also images with high resolution, like 50 megapixels, just by creating 20 layers, you're going to have this issue right here. So what is the solution? The solution is our next format, which is PSB. It literally means Photoshop Big. And it also asks you whether you want to save it in PSB. So let's hit OK. Let's type in New and click on Save. Now take a look at the PSB file. It is about 3.32 GB. So it did exceed 2 GB. So PSD file, which is the standard Photoshop document, does have a limit of 2 GB, whereas PSB file doesn't have any such limits. In fact, I don't even know what the upper limit is. Some people say that PSB files can be easily as big as 4.2 billion GB. So it seems it wouldn't be outdated very soon. Now, the downside for PSB is it may be a little slower. But then again, it's not because it's a bad format. It's because it's a very large file. At the same time, this is a real downside and that is, it may not be as compatible as PSD. Of course, Photoshop will be able to open it, but there are several other applications which does support PSD but does not support PSB. Again, with time, this will change, of course. More and more applications will continue to support PSB, But for now, that is the only downside for PSP. I only personally work with PSP when I know my file size is going to be larger than 2GB. But if you're unsure, you can continue using PSD. And when it exceeds 2GB, Photoshop will tell you. And then you can save it as a PSP. Now, there is TIFF. Now, PSD and PSP are Adobe formats. On the other hand, TIFF is a worldwide universal format. Now, the speciality of TIFF is that you don't need Photoshop to open it. It's a universal format and it does support majority of Photoshop features, if not all. I haven't come across something that it doesn't support. Maybe little things here and there, but for the most part, I haven't come across an issue. So let's go to File, Save As, and this time, let us choose TIFF. And let's name it Example 3 TIFF. And let's save it. You can keep these settings the way it is and hit OK. It gives you a warning because you're including the layers. That's fine. I want to include it. And now have a look. You're working with TIFF. Let's close it and open it again. So this is example three TIFF. I can directly open it in my Windows photo viewer and it opens just like that. No issue. I can right click on it, choose open with and even open with Microsoft Paint and it opens right there. No issue. And here's the best part. If I open this up in Photoshop, let's drag it and drop it into Photoshop right here. Have a look. All of the layers are intact. Even if you use one of those newer features, let's go to filter, neural filters. It's very new filter right here. And let's turn on landscape mixer. Let's make it snowy. Absolutely snowy. Let's go with this. As you can see, neural filter is is applied. We can double click on it and change it later because this is a smart filter. Let's press Control or Command S. Keep in mind, it's still a TIFF and it is supported. So right now, if I minimize it, if I open it up in Microsoft Paint, the changes show up right here. And then if I open it up back in Photoshop, let's drag it and drop it into Photoshop. Have a look at it. That neural filter is still there. So that, my friend, is the magic of TIFF. It's a universal format. It supports layers. It supports Photoshop features. And one thing I didn't write right here, and that is TIFF does have a limit, but the limit is larger than PST and that is 4 GB. So PST has a limit of 2GB. PSB doesn't have much of a limit but TIFF on the other hand also has a limit and that is 4GB. Let's talk about two more common formats with export as and that is PNG and JPEG. So here you have an adorable panda with a transparent background. Reminds me of Kung Fu Panda. Your mind is like this water, my friend. When it becomes agitated, it's difficult to see. But when it settles down, the answer is super clear. I may have changed it a little bit, but it's a quote from that movie. Let's go to File, Export and Export As. If we choose PNG, you will see that the transparent background is maintained. Also, you want to make sure that you want transparency. You can uncheck it and take away the transparency if you wish so. But I want the transparency and then we can export it. Let's name it Panda. Click on Save. So here is our Panda PNG. Now when you bring it over any image, it does come with a transparent background. However, if you saved it as a JPEG, let's go to File, Export, Export As. Let us choose JPEG this time. No matter what you do, JPEG does not support transparency. So if you do want transparency, PNG is your only option. If you don't want transparency, then you can go ahead and choose JPEG if you wish to. But there are other aspects to it as well. So right now, if I save it as a JPEG, no matter what I do, if you click on export, Panda again, save. Now, when I try to bring the Panda JPEG right here, as you can see, it does come with that white background. Another thing you need to consider is the size. It is not that PNG is a bigger size and JPEG is a smaller size. It's a little more trickier than that. So here's an image with flat graphics. And actually, it's a very simple abstract image. On the left-hand side, we have white. And on the right-hand side, we have black. It's simple, two blocks right here. If you go to File, Export, Export As, and save it as a JPEG in the highest quality. Now, keep in mind, with PNG, there is no quality slider because it's lossless compression. It doesn't decrease the quality in any way. But JPEG does allow you to control the quality. If you pick the highest quality, the size is 27.1 KB, right, for JPEG. Now this is a flat graphic. If I choose PNG right here, see, the size is lower. It's 15.9. And if you look at the chart, JPEG supports maximum bit depth of 8, whereas PNG supports up to 24. So if you keep the same in PNG as JPEG, keep in mind JPEG maximum is 8. So PNG, if I set it to 8, the file size would be even lower. So this is 8 with PNG. And in JPEG, It is 27. However, this flips absolutely when you're not working with flat graphics. Take a look at this photo. Yes, I had my mom and dad try sushi for the first time. My mom told me, I can make it at home. This is not very something complicated. I think that is the dialogue you would hear in every Indian household. But anyway, if you go to file, export, export as right here, the tables turn right now. If I choose JPEG, even at the highest quality, the size is 5.7 MB. However, with PNG, if you don't want the transparency, of course, we don't want that. And even if you choose to have a smaller file size, see, it is bigger. And watch this. With PNG, if you choose to have a smaller file size, the colors change. So if I remove this check right here, have a look, the original colors return. So this is most comparable with JPEG. So this was 15 and that was around 5. So when it comes to photographs with lots of gradients, colors, details, JPEG is preferred, especially when sharing online due to its smaller size. And if you're not worried about size and you want lossless compression with the highest possible quality, you can always go for PNG. So just ask yourself these questions and you should be fine. Now Export As does have a lot of other important features. So this is a thumbnail I created for a previous video. You can watch it right here after this video. Let's go to File, Export, and Export As. When uploading YouTube thumbnails, the width of the thumbnail needs to be 1280 pixels. So we can change it right here in Export without changing the original image or the document. So let's type in 1280. It automatically goes to 1280 by 720, and you can the format PNG or JPEG and click on export. That's all there is to it. It will be saved in that size. You can also choose to save it in multiple sizes. One for your website, one for Facebook maybe, one for YouTube. So right now we have it in 1x. We can click on plus and save a half size 0.5x. we can have 0.75x, 0.25x, 2x. You can change it according to your wish. And I'm going to keep it back to 2x. Now all of these sizes can be saved in a folder, just click on Export. For convenience, let's create a new folder inside of it. Let's name it Export. And let's pick this folder, click on Select Folder. And if you open up this export folder, you'll see all of it right here. So this is 1x, 0.5x, 0.25, 0.75 and 2x. You can also export individual multiple layers at once. So in this case, we have a lot of layers, hot coffee, coffee, frame. Now let's say I want to save this cake separately and this jar separately as a separate PNG. So let's open up the hot drinks group. Right here, we have this teapot right here. So we want this saved and we also want the cake, right? So inside of the dessert, there is this cake. So let's select both of those layers. So select the cake, hold the control or command, select the teapot. Right now, you can right click on it and choose export as. And you will see both of them are going to show up right here. Let's save it as a PNG. You can pick the size for each one of these. So for the cake, for the teapot as well, let's change the format to PNG. You can change the size from here individually and click on export. Let's save it in the same folder. Click on select folder and inside of the export folder, you'll find the cake right here and also this teapot. There's also a shortcut for exporting multiple layers at once. And that is once you have the layers selected, for example, the cake and the teapot, you can press control shift and colon. Very uncommon shortcut. If you press it, this dialog box will show up. Let's create a new folder, enew, export new. Let's select that folder. And if you open up this enew folder, you'll have the cake and the teapot right here as well. One other thing to watch out for when you're exporting for the web is converting the color profile properly. Now this is a very advanced topic and you can watch this video to learn more about it. But for right now, keep in mind that if you go to File, Export and Export As, if things are not set up right, if you're working with a larger color space, if none of this is making sense, just watch what happens. So I'm about to export this image as a JPEG and it looks fine. But if you don't convert the color space to sRGB, see what happens. The colors absolutely change. And earlier when I used to export directly, sometimes on Instagram, my colors would change and I would wonder why. So always when exporting for online media, web, social media, whatever there is, you want to make sure you want to convert to sRGB color space. Just make sure that is checked. Also, make sure you embed the color profile. It should be fine. And then when you export, the colors will be right. Keep in mind, the colors are not going away. It is still there. But the viewer online or any other different app doesn't know what the color profile is. You don't have to worry about any of that right now. Just make sure you check convert to sRGB. And if you want to learn, you can watch this video anyway. Last but not the least, if you're working on an important project, you can also choose to save it in cloud as a PSDC format. PSDC simply means Photoshop document cloud. So you can go to file, you can go to save as, that's fine. Or the first time you save it, it will also show up the option to save it as a cloud document. And you can simply click save to cloud documents and name it whatever you want. Click on save. Now it will be uploaded to the cloud. But keep in mind, it will take up space in the cloud that you're hopefully paying for. And this feature will only work if you're not using a Captain Jack Sparrow version of Photoshop. But working with this, you'll see something special. So if I create a curves adjustment layer, do any change, you don't really have to worry about saving when you close it. You can just close it. It will automatically save it. It's a cloud document. And with the cloud documents, you'll either see a check right here, which means that this is a cloud document and it is available offline easily. Or you'll see a cloud icon like this, which means that it is a cloud document and it's available in the cloud. If you click on it, it will download it for you. Let's say you were working on this in your home computer. And then let's say you took a road trip with your laptop, not your home computer, of course. And then you just have to log in with your laptop in your Adobe account. And then when you open Photoshop, you'll have access to the same same file even though you didn't carry it with you. So that's cloud documents. If there's something extremely important that you're working on, you can always have a cloud backup like this. So let us do a quick little recap and I have something special for you and that special is this chart. If you look at this chart, you don't have to worry about anything else ever when it comes to saving unless Photoshop does some major changes. I hope this video helps you in some way shape or form it was quite tiring so i would really appreciate your support thank you so much for watching make sure to give us a like if you found this useful and also don't forget to subscribe and not just subscribe ring the bell so that you my friend don't miss any other future tips pics or tutorials i would like to take this moment to thank all of these nice and amazing people for supporting Piximperfect on Patreon and helping keep Piximperfect free for everybody forever. Thank you so much for watching. I'll see you in your next lesson. Till then, stay tuned and make sure that you keep creating. Get it right every time Cause these days we're partners in crime And I like it like that",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                185.02
+            ],
+            "text": " Not knowing how to properly save is like building castles on the beach with sand and not even having a camera or a phone to take a picture of it. But then it's just so confusing, right? If you go to File, there's Save, there's Save As, Save a Copy, Export, Export As. There's just so many things. And even if you choose to decide one of these, like Save a Copy, again, there are just so darn many options. This is super confusing. I wish there was an easy system or a way to figure out what to use when. You're in luck because there is. Just take a screenshot right now. Save it properly. Did that look super confusing? Don't worry. We're going to get through it together. It will be fun. But before everything else, how many times have you felt that sudden cold chill run through your spine, especially when you see this little friend in the middle of your project? I know the feeling. And that is why you need insurance. And here's how to set up your insurance in Photoshop. Just go to edit and then preferences. And inside of that, you would go to file handling. On a Mac, it is under Photoshop, preferences, file handling. Let's go in there and just make sure you turn on automatically save recovery information every, you can choose however many minutes you want. So I keep it checked. You can set it at five minutes so that at every five minutes it will save the recovery information. So if your computer crashes and then when you open up Photoshop again, it should be recovered. Do notice that I'm stressing the word should. You'll know why. Just hit OK. And for security, just restart Photoshop. Now, there are times when this insurance company decides not to pay. And for those times, precaution is always better than cure. I think it's called prevention. Either way, I would never suggest that you develop an OCD. But when it comes to working with Photoshop, there is a habit that you need to develop just like an OCD. Every couple minutes, keep pressing this shortcut, Control or Command S. As you're working through this, let's say you changed the text size, did a few changes, Control or Command S. You moved the subject here and there, Control or Command S. Don't forget that. Another thing you need to watch out for is the star. Because when you wish upon a star, I don't know what happens, but at least if you don't watch out for it, it's going to be terrible in Photoshop. When you do any change, anything on any document, let's say I created a new layer, I then deleted it. I turned off the subject. All right. I did a few things. Right now, you will see a star right here, which means that it has unsaved changes. All of the changes that I just made is not saved yet. If I press Ctrl or Command S, watch, the star goes away. Now, if I do any more change right here, if I turn on the subject, if I move it around, see the star comes back in, which means that whatever changes I did is unsaved. If I press Ctrl or Command S, the star is gone, which means that everything that is here right now is absolutely saved. So this is one star you don't want to see or wish upon, especially when Photoshop crashes, but you need to watch out for it. And keep pressing Ctrl or Command S. Now saving is a process. Trust me, it's an easy one. All you need to do is to ask yourself, what is your purpose?"
+        },
+        {
+            "timestamp": [
+                185.28,
+                189.96
+            ],
+            "text": " Now, the first purpose can be you just want to update the existing working document."
+        },
+        {
+            "timestamp": [
+                190.42,
+                191.32
+            ],
+            "text": " What do we mean by that?"
+        },
+        {
+            "timestamp": [
+                191.58,
+                192.86
+            ],
+            "text": " Let us take a look at this example."
+        },
+        {
+            "timestamp": [
+                193.16,
+                195.42
+            ],
+            "text": " Let's say this is the PST that you're working in."
+        },
+        {
+            "timestamp": [
+                195.52,
+                198.36
+            ],
+            "text": " By the way, if you want to learn how to match the subject with the background,"
+        },
+        {
+            "timestamp": [
+                198.56,
+                200.0
+            ],
+            "text": " you can watch this video later."
+        },
+        {
+            "timestamp": [
+                200.0,
+                203.8
+            ],
+            "text": " But for right now, let us say we create a color lookup right here."
+        },
+        {
+            "timestamp": [
+                203.86,
+                204.78
+            ],
+            "text": " We made a few changes."
+        },
+        {
+            "timestamp": [
+                385.72,
+                391.02
+            ],
+            "text": " We add crisp warm. And now I just want to update the existing PST. So this PST right here, example to brief demo, you'll see we have it right here. So right now, if you go to file and save, the shortcut to which is control or command S, the shortcut is always right next to the menu. Let's click on it. That star goes away and that particular document gets updated. So right now, if I close it and go back to that folder and open the same document, example to brief demo, it will come up with those changes because we updated the document. So whenever you want to update your existing document that you're working on, you would choose save. But what happens when you have a document that is not already created in your drive? What if it's a new document? What happens then? So let us go ahead and create a new document by going to file, new, create a random document, do some random stuff right here. So now what happens if I choose save? Because there is no document to update, right? It is not yet created. If right now we go to file and save, watch this. We're going to choose on my computer, of course. It automatically takes you to save as. Now that's an interesting thing. And that brings us to our next option and that is save as. We choose save as when we want to create a new working document. What do we mean by that? So in this case, this was a brand new document, right? So if we saved, there was nothing to update. So it automatically took you to save as so you can create a new working document. On the other hand, this PSD is already created. If I turn it off, if I press control or command S, or if I go to file and then save, it will just update the existing document. But let's say I want to create a different version of it and continue working on that version. In that case, let's say I added this one, I added another one of these, reduce the opacity of it a little bit, and then I can go to File, Save As. This allows me to create a new separate document and continue working on it. So let's name it example to new and save it as a PSD. Now keep in mind, save as only allows you to save it in a working format, meaning that it should support layers, adjustments, you should have the ability to come back and change things here and there. And that is why if you look at save as type, you only have few options that do support layers and adjustments and other Photoshop features. So right now, let us choose PST and click on Save. You will notice at the top, hit OK. You'll notice at the top that you continue to work on this new version while the older version still exists. So if I go back to my folder, have a look. The older version is still there. Example 2, brief demo. But the newer version is still also there. So if I open up the older version, it's a different document. So this is the older version. Let's close this. And this one is the newer version. So whenever you want to create a newer version of your existing document and continue working on that newer version, you would choose Save As. Save As doesn't care who it was, where it was from or what it did like the Backstreet Boys. It's like a start of a new relationship. However,"
+        },
+        {
+            "timestamp": [
+                391.42,
+                395.94
+            ],
+            "text": " there's another option and that is save a copy. Save a copy is like you want to continue your"
+        },
+        {
+            "timestamp": [
+                395.94,
+                401.06
+            ],
+            "text": " existing relationship, but just to be sure, you also want to have a backup somewhere. I don't"
+        },
+        {
+            "timestamp": [
+                401.06,
+                409.22
+            ],
+            "text": " recommend this in real life, but let's consider this. This is version A. You want to continue working with Version 8."
+        },
+        {
+            "timestamp": [
+                409.22,
+                410.22
+            ],
+            "text": " But you also want to have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                410.22,
+                411.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                411.22,
+                412.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                412.22,
+                413.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                413.22,
+                414.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                414.22,
+                415.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                415.22,
+                416.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                416.22,
+                417.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                417.22,
+                418.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                418.22,
+                419.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                419.22,
+                420.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                420.22,
+                421.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                421.22,
+                422.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                422.22,
+                423.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                423.22,
+                424.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                424.22,
+                425.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                425.22,
+                426.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                426.22,
+                427.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                427.22,
+                428.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                428.22,
+                429.22
+            ],
+            "text": " a version where you can have a version where you can have a version where you can have"
+        },
+        {
+            "timestamp": [
+                429.22,
+                525.04
+            ],
+            "text": " a version where you can have a version where want to have a backup. So let's go to file, save a copy, and let's type in version B instead. Let's save it. Now, unlike save as, you still continue working with version A. You add a color lookup, you add another color lookup, you decrease the opacity and do several things. But still, you have that version B, B stands for backup, already there in case you need it. So save a copy is just like creating a backup for you on the site or an export for you on the site while you continue with your existing relationship. Whereas save as is a start of a new relationship. When you choose save as, you create a new version and you continue working on that new version. With the old version, it doesn't care where it is, where it's from, what it did, like the Backstreet Boys. Now do keep in mind that save a copy, since it's just creating a backup, can save in any format. Whereas save as can only save in a working format like BSD, TIFF and others. We're going to discuss it later. But right now, if you go to File, Save a Copy, you'll see there is just everything. You can save it as a JPEG. You can save it as a PSD. All the options are right here. Now, if you want to export your work for social media with layers and effects, everything baked into one image, you won't have the ability in this file to go back and change the layers. But if you want that final file, you would go to file, export and export as. Let's say for social media, you can also change the width and the height, resize it accordingly and choose whether you want PNG, JPEG or GIF, however you want to pronounce it. You have several options here. We're going to discuss it in brief later. But for right now, you can simply choose JPEG, choose the quality right here and click on export. Simply choose the file name. It's already JPEG and click on save. That's all. Now, just to summarize all of these four options, it's simple. You need to ask yourself, what is your purpose? If you just want to update the existing document that you're working on, go to save. If the document is new and there's not a file that"
+        },
+        {
+            "timestamp": [
+                525.04,
+                846.58
+            ],
+            "text": " is already created, if you click on file save, it will automatically take you to save as. Now, save as is like a start of a new relationship. It creates a brand new document and you continue working on that brand new document and it only supports working formats that do support layers and effects and other features of Photoshop. Export as is when you want to export an image file with everything baked in. Let's say for social media or for your website, whatever it is. And then you have save a copy, which creates a backup for you while you continue working with your existing version. Now, save a copy does give you access to all of the formats, whether it's JPEG, PNG. On the other hand, save as only allows formats which can support layers and Photoshop features. Now, let's take a look at the different formats and which one to use when. Again, you need to ask yourself different questions and this chart makes it absolutely easy for you. Now, PSD is the standard Photoshop document format. It can easily be opened in Photoshop, of course, because it is the Photoshop format and it retains everything. When you're working with PSD, you don't have to worry about the new filters or the features that are added. Or if you add something that is brand new, everything will show up. Everything is changeable, manageable. So this, my friend, is a PSD. I saved it as a PSD. And if you open it, all of the effects that I applied right here, everything shows up. I can change anything, open up the adjustment layers and change the properties. I can change the opacities. Everything shows up just as the way you saved it. Now, PSD does have a limitation. Biggest limitation is the size limit. So right now, this PSD, example three, is just about 230 MB. So just for demonstration, I made 100 copies of this layer. So this was the last clean up layer. So as you can see, I've made 10 copies in each group and there are 10 groups, so about 100 layers. This should make the file size bigger. So now when I try to go to file, save, it is in PSD. If I go to file and save, it will keep it in PSD and just update the document. It shouldn't be an issue, right? But if I try to do that, it tells you right here, the document exceeds 2GB. So when you're working with a lot of layers and also images with high resolution, like 50 megapixels, just by creating 20 layers, you're going to have this issue right here. So what is the solution? The solution is our next format, which is PSB. It literally means Photoshop Big. And it also asks you whether you want to save it in PSB. So let's hit OK. Let's type in New and click on Save. Now take a look at the PSB file. It is about 3.32 GB. So it did exceed 2 GB. So PSD file, which is the standard Photoshop document, does have a limit of 2 GB, whereas PSB file doesn't have any such limits. In fact, I don't even know what the upper limit is. Some people say that PSB files can be easily as big as 4.2 billion GB. So it seems it wouldn't be outdated very soon. Now, the downside for PSB is it may be a little slower. But then again, it's not because it's a bad format. It's because it's a very large file. At the same time, this is a real downside and that is, it may not be as compatible as PSD. Of course, Photoshop will be able to open it, but there are several other applications which does support PSD but does not support PSB. Again, with time, this will change, of course. More and more applications will continue to support PSB, But for now, that is the only downside for PSP. I only personally work with PSP when I know my file size is going to be larger than 2GB. But if you're unsure, you can continue using PSD. And when it exceeds 2GB, Photoshop will tell you. And then you can save it as a PSP. Now, there is TIFF. Now, PSD and PSP are Adobe formats. On the other hand, TIFF is a worldwide universal format. Now, the speciality of TIFF is that you don't need Photoshop to open it. It's a universal format and it does support majority of Photoshop features, if not all. I haven't come across something that it doesn't support. Maybe little things here and there, but for the most part, I haven't come across an issue. So let's go to File, Save As, and this time, let us choose TIFF. And let's name it Example 3 TIFF. And let's save it. You can keep these settings the way it is and hit OK. It gives you a warning because you're including the layers. That's fine. I want to include it. And now have a look. You're working with TIFF. Let's close it and open it again. So this is example three TIFF. I can directly open it in my Windows photo viewer and it opens just like that. No issue. I can right click on it, choose open with and even open with Microsoft Paint and it opens right there. No issue. And here's the best part. If I open this up in Photoshop, let's drag it and drop it into Photoshop right here. Have a look. All of the layers are intact. Even if you use one of those newer features, let's go to filter, neural filters. It's very new filter right here. And let's turn on landscape mixer. Let's make it snowy. Absolutely snowy. Let's go with this. As you can see, neural filter is is applied. We can double click on it and change it later because this is a smart filter. Let's press Control or Command S. Keep in mind, it's still a TIFF and it is supported. So right now, if I minimize it, if I open it up in Microsoft Paint, the changes show up right here. And then if I open it up back in Photoshop, let's drag it and"
+        },
+        {
+            "timestamp": [
+                846.58,
+                852.8
+            ],
+            "text": " drop it into Photoshop. Have a look at it. That neural filter is still there. So that, my friend,"
+        },
+        {
+            "timestamp": [
+                852.84,
+                857.9
+            ],
+            "text": " is the magic of TIFF. It's a universal format. It supports layers. It supports Photoshop features."
+        },
+        {
+            "timestamp": [
+                858.3,
+                862.94
+            ],
+            "text": " And one thing I didn't write right here, and that is TIFF does have a limit, but the limit is larger"
+        },
+        {
+            "timestamp": [
+                862.94,
+                933.24
+            ],
+            "text": " than PST and that is 4 GB. So PST has a limit of 2GB. PSB doesn't have much of a limit but TIFF on the other hand also has a limit and that is 4GB. Let's talk about two more common formats with export as and that is PNG and JPEG. So here you have an adorable panda with a transparent background. Reminds me of Kung Fu Panda. Your mind is like this water, my friend. When it becomes agitated, it's difficult to see. But when it settles down, the answer is super clear. I may have changed it a little bit, but it's a quote from that movie. Let's go to File, Export and Export As. If we choose PNG, you will see that the transparent background is maintained. Also, you want to make sure that you want transparency. You can uncheck it and take away the transparency if you wish so. But I want the transparency and then we can export it. Let's name it Panda. Click on Save. So here is our Panda PNG. Now when you bring it over any image, it does come with a transparent background. However, if you saved it as a JPEG, let's go to File, Export, Export As. Let us choose JPEG this time. No matter what you do, JPEG does not support"
+        },
+        {
+            "timestamp": [
+                933.24,
+                939.46
+            ],
+            "text": " transparency. So if you do want transparency, PNG is your only option. If you don't want transparency,"
+        },
+        {
+            "timestamp": [
+                939.74,
+                944.02
+            ],
+            "text": " then you can go ahead and choose JPEG if you wish to. But there are other aspects to it as well."
+        },
+        {
+            "timestamp": [
+                944.02,
+                1045.04
+            ],
+            "text": " So right now, if I save it as a JPEG, no matter what I do, if you click on export, Panda again, save. Now, when I try to bring the Panda JPEG right here, as you can see, it does come with that white background. Another thing you need to consider is the size. It is not that PNG is a bigger size and JPEG is a smaller size. It's a little more trickier than that. So here's an image with flat graphics. And actually, it's a very simple abstract image. On the left-hand side, we have white. And on the right-hand side, we have black. It's simple, two blocks right here. If you go to File, Export, Export As, and save it as a JPEG in the highest quality. Now, keep in mind, with PNG, there is no quality slider because it's lossless compression. It doesn't decrease the quality in any way. But JPEG does allow you to control the quality. If you pick the highest quality, the size is 27.1 KB, right, for JPEG. Now this is a flat graphic. If I choose PNG right here, see, the size is lower. It's 15.9. And if you look at the chart, JPEG supports maximum bit depth of 8, whereas PNG supports up to 24. So if you keep the same in PNG as JPEG, keep in mind JPEG maximum is 8. So PNG, if I set it to 8, the file size would be even lower. So this is 8 with PNG. And in JPEG, It is 27. However, this flips absolutely when you're not working with flat graphics. Take a look at this photo. Yes, I had my mom and dad try sushi for the first time. My mom told me, I can make it at home. This is not very something complicated. I think that is the dialogue you would hear in every Indian household. But anyway,"
+        },
+        {
+            "timestamp": [
+                1247.62,
+                1249.14
+            ],
+            "text": " if you go to file, export, export as right here, the tables turn right now. If I choose JPEG, even at the highest quality, the size is 5.7 MB. However, with PNG, if you don't want the transparency, of course, we don't want that. And even if you choose to have a smaller file size, see, it is bigger. And watch this. With PNG, if you choose to have a smaller file size, the colors change. So if I remove this check right here, have a look, the original colors return. So this is most comparable with JPEG. So this was 15 and that was around 5. So when it comes to photographs with lots of gradients, colors, details, JPEG is preferred, especially when sharing online due to its smaller size. And if you're not worried about size and you want lossless compression with the highest possible quality, you can always go for PNG. So just ask yourself these questions and you should be fine. Now Export As does have a lot of other important features. So this is a thumbnail I created for a previous video. You can watch it right here after this video. Let's go to File, Export, and Export As. When uploading YouTube thumbnails, the width of the thumbnail needs to be 1280 pixels. So we can change it right here in Export without changing the original image or the document. So let's type in 1280. It automatically goes to 1280 by 720, and you can the format PNG or JPEG and click on export. That's all there is to it. It will be saved in that size. You can also choose to save it in multiple sizes. One for your website, one for Facebook maybe, one for YouTube. So right now we have it in 1x. We can click on plus and save a half size 0.5x. we can have 0.75x, 0.25x, 2x. You can change it according to your wish. And I'm going to keep it back to 2x. Now all of these sizes can be saved in a folder, just click on Export. For convenience, let's create a new folder inside of it. Let's name it Export. And let's pick this folder, click on Select Folder. And if you open up this export folder, you'll see all of it right here. So this is 1x, 0.5x, 0.25, 0.75 and 2x. You can also export individual multiple layers at once. So in this case, we have a lot of layers, hot coffee, coffee, frame. Now let's say I want to save this cake separately and this jar separately as a separate PNG. So let's open up the hot drinks group. Right here, we have this teapot right here. So we want this saved and we also want the cake, right? So inside of the dessert, there is this cake. So let's select both of those layers. So select the cake, hold the control or command, select the teapot. Right now, you can right click on it and choose export as. And you will see both of them are going to show up right here. Let's save it as a PNG. You can pick the size for each one of these. So for the cake, for the teapot as well, let's change the format to PNG. You can change the size from here individually and click on export. Let's save it in the same folder. Click on select folder and inside of the export folder, you'll find the cake right here and also this teapot. There's also a shortcut for exporting multiple layers at once. And that is once you have the layers selected, for example, the cake and the teapot, you can press control shift and colon. Very uncommon shortcut. If you press it, this dialog box will show up. Let's create a new folder, enew, export new. Let's select that folder."
+        },
+        {
+            "timestamp": [
+                1249.14,
+                1254.26
+            ],
+            "text": " And if you open up this enew folder, you'll have the cake and the teapot right here as"
+        },
+        {
+            "timestamp": [
+                1254.26,
+                1255.26
+            ],
+            "text": " well."
+        },
+        {
+            "timestamp": [
+                1255.26,
+                1258.86
+            ],
+            "text": " One other thing to watch out for when you're exporting for the web is converting the color"
+        },
+        {
+            "timestamp": [
+                1258.86,
+                1260.34
+            ],
+            "text": " profile properly."
+        },
+        {
+            "timestamp": [
+                1260.34,
+                1264.62
+            ],
+            "text": " Now this is a very advanced topic and you can watch this video to learn more about it."
+        },
+        {
+            "timestamp": [
+                1264.62,
+                1445.6
+            ],
+            "text": " But for right now, keep in mind that if you go to File, Export and Export As, if things are not set up right, if you're working with a larger color space, if none of this is making sense, just watch what happens. So I'm about to export this image as a JPEG and it looks fine. But if you don't convert the color space to sRGB, see what happens. The colors absolutely change. And earlier when I used to export directly, sometimes on Instagram, my colors would change and I would wonder why. So always when exporting for online media, web, social media, whatever there is, you want to make sure you want to convert to sRGB color space. Just make sure that is checked. Also, make sure you embed the color profile. It should be fine. And then when you export, the colors will be right. Keep in mind, the colors are not going away. It is still there. But the viewer online or any other different app doesn't know what the color profile is. You don't have to worry about any of that right now. Just make sure you check convert to sRGB. And if you want to learn, you can watch this video anyway. Last but not the least, if you're working on an important project, you can also choose to save it in cloud as a PSDC format. PSDC simply means Photoshop document cloud. So you can go to file, you can go to save as, that's fine. Or the first time you save it, it will also show up the option to save it as a cloud document. And you can simply click save to cloud documents and name it whatever you want. Click on save. Now it will be uploaded to the cloud. But keep in mind, it will take up space in the cloud that you're hopefully paying for. And this feature will only work if you're not using a Captain Jack Sparrow version of Photoshop. But working with this, you'll see something special. So if I create a curves adjustment layer, do any change, you don't really have to worry about saving when you close it. You can just close it. It will automatically save it. It's a cloud document. And with the cloud documents, you'll either see a check right here, which means that this is a cloud document and it is available offline easily. Or you'll see a cloud icon like this, which means that it is a cloud document and it's available in the cloud. If you click on it, it will download it for you. Let's say you were working on this in your home computer. And then let's say you took a road trip with your laptop, not your home computer, of course. And then you just have to log in with your laptop in your Adobe account. And then when you open Photoshop, you'll have access to the same same file even though you didn't carry it with you. So that's cloud documents. If there's something extremely important that you're working on, you can always have a cloud backup like this. So let us do a quick little recap and I have something special for you and that special is this chart. If you look at this chart, you don't have to worry about anything else ever when it comes to saving unless Photoshop does some major changes. I hope this video helps you in some way shape or form it was quite tiring so i would really appreciate your support thank you so much for watching make sure to give us a like if you found this useful and also don't forget to subscribe and not just subscribe ring the bell so that you my friend don't miss any other future tips pics or tutorials i would like to take this moment to thank all of these nice and amazing people for supporting"
+        },
+        {
+            "timestamp": [
+                1445.6,
+                1449.8
+            ],
+            "text": " Piximperfect on Patreon and helping keep Piximperfect free for everybody forever."
+        },
+        {
+            "timestamp": [
+                1449.8,
+                1450.8
+            ],
+            "text": " Thank you so much for watching."
+        },
+        {
+            "timestamp": [
+                1450.8,
+                1451.8
+            ],
+            "text": " I'll see you in your next lesson."
+        },
+        {
+            "timestamp": [
+                1451.8,
+                1465.62
+            ],
+            "text": " Till then, stay tuned and make sure that you keep creating. Get it right every time Cause these days we're partners in crime"
+        },
+        {
+            "timestamp": [
+                1465.62,
+                1467.82
+            ],
+            "text": " And I like it like that"
+        }
+    ]
+}

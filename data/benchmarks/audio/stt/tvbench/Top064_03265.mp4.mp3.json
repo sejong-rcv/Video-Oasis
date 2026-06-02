@@ -1,0 +1,20 @@
+{
+    "video_id": "Top064_03265.mp4.mp3",
+    "transcript": " Don't ever touch me again. I won't.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                3.0
+            ],
+            "text": " Don't ever touch me again."
+        },
+        {
+            "timestamp": [
+                5.0,
+                6.0
+            ],
+            "text": " I won't."
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "video_id": "AHBE8.mp4.mp3",
+    "transcript": " It's a joke, but it's a good thing. It's a shoebox. Oh, man. It's a shit, shit, shit, shit, shit. Oh, look, it's a rocket chair. Oh, my God. Come here, you little, little. Ha, ha, ha. Ha, ha, ha. Ha, ha, ha.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.78
+            ],
+            "text": " It's a joke, but it's a good thing."
+        },
+        {
+            "timestamp": [
+                7.96,
+                9.66
+            ],
+            "text": " It's a shoebox."
+        },
+        {
+            "timestamp": [
+                10.76,
+                11.42
+            ],
+            "text": " Oh, man."
+        },
+        {
+            "timestamp": [
+                11.46,
+                13.14
+            ],
+            "text": " It's a shit, shit, shit, shit, shit."
+        },
+        {
+            "timestamp": [
+                14.36,
+                16.44
+            ],
+            "text": " Oh, look, it's a rocket chair."
+        },
+        {
+            "timestamp": [
+                16.72,
+                17.64
+            ],
+            "text": " Oh, my God."
+        },
+        {
+            "timestamp": [
+                19.8,
+                21.42
+            ],
+            "text": " Come here, you little, little."
+        },
+        {
+            "timestamp": [
+                21.42,
+                23.18
+            ],
+            "text": " Ha, ha, ha."
+        },
+        {
+            "timestamp": [
+                23.18,
+                25.3
+            ],
+            "text": " Ha, ha, ha."
+        },
+        {
+            "timestamp": [
+                26.44,
+                27.74
+            ],
+            "text": " Ha, ha, ha."
+        }
+    ]
+}

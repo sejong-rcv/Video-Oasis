@@ -1,0 +1,20 @@
+{
+    "video_id": "video_10959.mp4.mp3",
+    "transcript": " Removing this spray from the paper bag, removing my wallet from the paper bag, removing this other spray from the paper bag, removing the vaseline from the paper bag, removing the",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                12.48
+            ],
+            "text": " Removing this spray from the paper bag, removing my wallet from the paper bag, removing this"
+        },
+        {
+            "timestamp": [
+                12.48,
+                27.48
+            ],
+            "text": " other spray from the paper bag, removing the vaseline from the paper bag, removing the"
+        }
+    ]
+}

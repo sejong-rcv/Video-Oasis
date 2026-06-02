@@ -1,0 +1,48 @@
+{
+    "video_id": "7203120578537049386.mp4.mp3",
+    "transcript": " Seein' the world, ain't really seein' the world Through a window from A to B Between alcohol and women Natural and adrenaline I don't ever get no rest Side of my life, a way to be the life of the party",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                3.9
+            ],
+            "text": " Seein' the world, ain't really seein' the world"
+        },
+        {
+            "timestamp": [
+                3.9,
+                6.82
+            ],
+            "text": " Through a window from A to B"
+        },
+        {
+            "timestamp": [
+                6.82,
+                9.88
+            ],
+            "text": " Between alcohol and women"
+        },
+        {
+            "timestamp": [
+                9.88,
+                11.66
+            ],
+            "text": " Natural and adrenaline"
+        },
+        {
+            "timestamp": [
+                11.66,
+                14.36
+            ],
+            "text": " I don't ever get no rest"
+        },
+        {
+            "timestamp": [
+                14.36,
+                19.28
+            ],
+            "text": " Side of my life, a way to be the life of the party"
+        }
+    ]
+}

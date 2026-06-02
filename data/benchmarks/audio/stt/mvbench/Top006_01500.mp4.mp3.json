@@ -1,0 +1,76 @@
+{
+    "video_id": "Top006_01500.mp4.mp3",
+    "transcript": " Doctor? Dr. Klausermann's Witzwegensdorfentage. What a name! If they had to call you quick, they're a goner! All that circus of cooks, sailors, radio operators, and waiters took good care of him. And in their",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                0.44
+            ],
+            "text": " Doctor?"
+        },
+        {
+            "timestamp": [
+                2.66,
+                4.3
+            ],
+            "text": " Dr. Klausermann's"
+        },
+        {
+            "timestamp": [
+                4.3,
+                5.96
+            ],
+            "text": " Witzwegensdorfentage."
+        },
+        {
+            "timestamp": [
+                6.42,
+                8.54
+            ],
+            "text": " What a name! If they had to call you"
+        },
+        {
+            "timestamp": [
+                8.54,
+                10.08
+            ],
+            "text": " quick, they're a goner!"
+        },
+        {
+            "timestamp": [
+                11.02,
+                12.52
+            ],
+            "text": " All that circus"
+        },
+        {
+            "timestamp": [
+                12.52,
+                14.08
+            ],
+            "text": " of cooks, sailors,"
+        },
+        {
+            "timestamp": [
+                14.54,
+                16.68
+            ],
+            "text": " radio operators, and waiters"
+        },
+        {
+            "timestamp": [
+                16.68,
+                18.58
+            ],
+            "text": " took good care of him."
+        },
+        {
+            "timestamp": [
+                19.58,
+                20.02
+            ],
+            "text": " And in their"
+        }
+    ]
+}

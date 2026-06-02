@@ -1,0 +1,34 @@
+{
+    "video_id": "2481132749.mp4.mp3",
+    "transcript": " Oh, that has a clear line. Dave looks like he's going to flick it. It's a bad idea. But you go. You go, Dave.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " Oh, that has a clear line."
+        },
+        {
+            "timestamp": [
+                5.0,
+                10.0
+            ],
+            "text": " Dave looks like he's going to flick it."
+        },
+        {
+            "timestamp": [
+                10.0,
+                12.0
+            ],
+            "text": " It's a bad idea."
+        },
+        {
+            "timestamp": [
+                12.0,
+                16.0
+            ],
+            "text": " But you go. You go, Dave."
+        }
+    ]
+}

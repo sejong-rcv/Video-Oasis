@@ -1,0 +1,41 @@
+{
+    "video_id": "video_11309.mp4.mp3",
+    "transcript": " 1 tbsps of olive oil 1 tbsps of garlic powder 1 tbsps of garlic powder 1 tbsps of garlic powder 1 tbsps of garlic powder 1 tbsps of garlic powder Thank you.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " 1 tbsps of olive oil"
+        },
+        {
+            "timestamp": [
+                5.0,
+                10.0
+            ],
+            "text": " 1 tbsps of garlic powder"
+        },
+        {
+            "timestamp": [
+                10.0,
+                15.0
+            ],
+            "text": " 1 tbsps of garlic powder"
+        },
+        {
+            "timestamp": [
+                15.0,
+                20.0
+            ],
+            "text": " 1 tbsps of garlic powder"
+        },
+        {
+            "timestamp": [
+                20.0,
+                34.94
+            ],
+            "text": " 1 tbsps of garlic powder 1 tbsps of garlic powder Thank you."
+        }
+    ]
+}

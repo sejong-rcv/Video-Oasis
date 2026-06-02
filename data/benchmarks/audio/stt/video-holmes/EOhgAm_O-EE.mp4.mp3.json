@@ -1,0 +1,27 @@
+{
+    "video_id": "EOhgAm_O-EE.mp4.mp3",
+    "transcript": " Morning mom, for breakfast. Mom? Morning, Mom. For breakfast. Mom? Oh, my God. I need a break. We'll be right back. Thank you for watching.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                26.12
+            ],
+            "text": " Morning mom, for breakfast. Mom? Morning, Mom."
+        },
+        {
+            "timestamp": [
+                26.48,
+                27.36
+            ],
+            "text": " For breakfast."
+        },
+        {
+            "timestamp": [
+                28.6,
+                125.0
+            ],
+            "text": " Mom? Oh, my God. I need a break. We'll be right back. Thank you for watching."
+        }
+    ]
+}

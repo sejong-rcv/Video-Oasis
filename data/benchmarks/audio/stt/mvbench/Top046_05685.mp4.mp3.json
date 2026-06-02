@@ -1,0 +1,34 @@
+{
+    "video_id": "Top046_05685.mp4.mp3",
+    "transcript": " Room. I'm going in to take a nap. When I wake, if the money's on the table, I'll know I have a partner. If it isn't, I'll know I don't.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                0.52
+            ],
+            "text": " Room."
+        },
+        {
+            "timestamp": [
+                3.36,
+                6.3
+            ],
+            "text": " I'm going in to take a nap."
+        },
+        {
+            "timestamp": [
+                7.48,
+                12.64
+            ],
+            "text": " When I wake, if the money's on the table, I'll know I have a partner."
+        },
+        {
+            "timestamp": [
+                13.54,
+                15.92
+            ],
+            "text": " If it isn't, I'll know I don't."
+        }
+    ]
+}

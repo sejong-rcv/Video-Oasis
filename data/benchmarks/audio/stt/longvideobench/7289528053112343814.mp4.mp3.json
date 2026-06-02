@@ -1,0 +1,55 @@
+{
+    "video_id": "7289528053112343814.mp4.mp3",
+    "transcript": " This place inspired a Disney classic. Angel Falls, located in Venezuela, is the tallest waterfall in the world. It is situated on a tepui, which is a tabletop-esque mountain. Due to how steep these tepuis are and how long the top's been separated from the bottom, each of them have developed different biodiversity. One example is the tepui toad, which is found mainly at the summit. Just like Carl, I want to visit this place.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.32
+            ],
+            "text": " This place inspired a Disney classic."
+        },
+        {
+            "timestamp": [
+                2.32,
+                6.94
+            ],
+            "text": " Angel Falls, located in Venezuela, is the tallest waterfall in the world."
+        },
+        {
+            "timestamp": [
+                6.94,
+                11.08
+            ],
+            "text": " It is situated on a tepui, which is a tabletop-esque mountain."
+        },
+        {
+            "timestamp": [
+                11.08,
+                15.48
+            ],
+            "text": " Due to how steep these tepuis are and how long the top's been separated from the bottom,"
+        },
+        {
+            "timestamp": [
+                15.48,
+                18.3
+            ],
+            "text": " each of them have developed different biodiversity."
+        },
+        {
+            "timestamp": [
+                18.3,
+                21.76
+            ],
+            "text": " One example is the tepui toad, which is found mainly at the summit."
+        },
+        {
+            "timestamp": [
+                21.76,
+                24.34
+            ],
+            "text": " Just like Carl, I want to visit this place."
+        }
+    ]
+}

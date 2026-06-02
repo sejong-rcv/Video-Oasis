@@ -1,0 +1,20 @@
+{
+    "video_id": "JTXAM.mp4.mp3",
+    "transcript": " Achoo! Achoo!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                15.0
+            ],
+            "text": " Achoo!"
+        },
+        {
+            "timestamp": [
+                15.0,
+                24.0
+            ],
+            "text": " Achoo!"
+        }
+    ]
+}

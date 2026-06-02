@@ -1,0 +1,41 @@
+{
+    "video_id": "M_Z_320_3788_4140.mp4.mp3",
+    "transcript": " Alright, I love dodgeball. This used to be my favorite pee activity, but... What's he... He's got him! No! Oh, he... Okay, it's a makeshift ball from your teammate. That's a fun trick, and then the reveal of getting out.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                4.0
+            ],
+            "text": " Alright, I love dodgeball. This used to be my favorite pee activity, but..."
+        },
+        {
+            "timestamp": [
+                4.0,
+                7.0
+            ],
+            "text": " What's he..."
+        },
+        {
+            "timestamp": [
+                7.0,
+                9.0
+            ],
+            "text": " He's got him! No! Oh, he..."
+        },
+        {
+            "timestamp": [
+                9.0,
+                11.0
+            ],
+            "text": " Okay, it's a makeshift ball from your teammate."
+        },
+        {
+            "timestamp": [
+                11.0,
+                14.0
+            ],
+            "text": " That's a fun trick, and then the reveal of getting out."
+        }
+    ]
+}

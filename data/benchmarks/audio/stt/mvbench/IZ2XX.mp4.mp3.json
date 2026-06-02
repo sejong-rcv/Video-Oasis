@@ -1,0 +1,104 @@
+{
+    "video_id": "IZ2XX.mp4.mp3",
+    "transcript": " Hello, I am a deaf person. I am a deaf person. Hello, I am a deaf person. Hello, I am a deaf person. Hello, I am a deaf person. Hello, I am a deaf person. Hello, I am a deaf person. Hello, I am a deaf person. Hello, I am a deaf person. Hello, I am a deaf person. Hello, I am a deaf person. Hello, I am a deaf person. Hello, I am a deaf person. Hello, I am a deaf person.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " Hello, I am a deaf person."
+        },
+        {
+            "timestamp": [
+                2.0,
+                4.0
+            ],
+            "text": " I am a deaf person."
+        },
+        {
+            "timestamp": [
+                4.0,
+                6.0
+            ],
+            "text": " Hello, I am a deaf person."
+        },
+        {
+            "timestamp": [
+                6.0,
+                8.0
+            ],
+            "text": " Hello, I am a deaf person."
+        },
+        {
+            "timestamp": [
+                8.0,
+                10.0
+            ],
+            "text": " Hello, I am a deaf person."
+        },
+        {
+            "timestamp": [
+                10.0,
+                12.0
+            ],
+            "text": " Hello, I am a deaf person."
+        },
+        {
+            "timestamp": [
+                12.0,
+                14.0
+            ],
+            "text": " Hello, I am a deaf person."
+        },
+        {
+            "timestamp": [
+                14.0,
+                16.0
+            ],
+            "text": " Hello, I am a deaf person."
+        },
+        {
+            "timestamp": [
+                16.0,
+                18.0
+            ],
+            "text": " Hello, I am a deaf person."
+        },
+        {
+            "timestamp": [
+                18.0,
+                20.0
+            ],
+            "text": " Hello, I am a deaf person."
+        },
+        {
+            "timestamp": [
+                20.0,
+                22.0
+            ],
+            "text": " Hello, I am a deaf person."
+        },
+        {
+            "timestamp": [
+                22.0,
+                24.0
+            ],
+            "text": " Hello, I am a deaf person."
+        },
+        {
+            "timestamp": [
+                24.0,
+                26.0
+            ],
+            "text": " Hello, I am a deaf person."
+        },
+        {
+            "timestamp": [
+                26.0,
+                27.7
+            ],
+            "text": " Hello, I am a deaf person."
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "video_id": "Top122_03820.mp4.mp3",
+    "transcript": " Sir, the president of Sabina is on the phone for you. I must talk with this man. Mr. Tillens. Paul, what's going on? They left. Thank you, sir. What...",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.08
+            ],
+            "text": " Sir, the president of Sabina is on the phone for you."
+        },
+        {
+            "timestamp": [
+                6.88,
+                7.98
+            ],
+            "text": " I must talk with this man."
+        },
+        {
+            "timestamp": [
+                14.48,
+                15.36
+            ],
+            "text": " Mr. Tillens."
+        },
+        {
+            "timestamp": [
+                15.7,
+                17.04
+            ],
+            "text": " Paul, what's going on?"
+        },
+        {
+            "timestamp": [
+                17.32,
+                17.78
+            ],
+            "text": " They left."
+        },
+        {
+            "timestamp": [
+                19.02,
+                20.04
+            ],
+            "text": " Thank you, sir. What..."
+        }
+    ]
+}

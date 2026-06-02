@@ -1,0 +1,62 @@
+{
+    "video_id": "video_4505.mp4.mp3",
+    "transcript": " Kalem Cep telefonu Kupa Kalem Cep telefonu Kupa Telefon. Kupa. Kalem.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                4.24
+            ],
+            "text": " Kalem"
+        },
+        {
+            "timestamp": [
+                4.24,
+                8.0
+            ],
+            "text": " Cep telefonu"
+        },
+        {
+            "timestamp": [
+                8.8,
+                13.5
+            ],
+            "text": " Kupa"
+        },
+        {
+            "timestamp": [
+                13.5,
+                16.72
+            ],
+            "text": " Kalem"
+        },
+        {
+            "timestamp": [
+                16.72,
+                22.0
+            ],
+            "text": " Cep telefonu"
+        },
+        {
+            "timestamp": [
+                22.0,
+                28.0
+            ],
+            "text": " Kupa Telefon."
+        },
+        {
+            "timestamp": [
+                30.0,
+                33.0
+            ],
+            "text": " Kupa."
+        },
+        {
+            "timestamp": [
+                35.0,
+                null
+            ],
+            "text": " Kalem."
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "video_id": "3uV8XZcIBbk.mp4.mp3",
+    "transcript": " Cardiovascular disease, and specifically heart failure, is the number one cause of death in men and women across just about every demographic. If we had a patient with a bad heart and we could take their heart out and replace it with a machine, we'd do it all the time. For the last half century, scientists have been working tirelessly to create a machine that can accurately mimic the function of a beating human heart. Envisioning devices they hope will one day rid us of the number one cause of death in the world. Every technology goes through a sigmoidal adoption curve. 5% of people are doing it, then 10, then 15, then suddenly it saturates and goes vertical. And only now, in the last decade or so, have we had the technology to make devices that potentially could last a decade or more. If we had a practical, permanent, total artificial heart, it would be one of the biggest accomplishments in modern medicine. When it comes to heart failure, there's currently only one gold standard of treatment, replacing the failing heart with a healthy donor. And while there are nearly 6,000 heart transplants done annually, there are about a million requests for donor hearts each year, 600,000 of which are in the U.S. alone. So the main limitation to heart transplantation is having a donor heart that we can place in a patient who's destined to die from heart failure. Dr. William Cohn is a heart surgeon at the Texas Heart Institute and an innovator in artificial heart technology. And if you think about it, it's got to be a healthy heart from a patient who's died in such a way that it didn't affect their heart. And that doesn't happen that frequently. So to be able to save the lives of all these patients that are dying of heart failure, we need something other than a transplanted heart. Your heart's just a pump. Every cell in your body needs nutrition, needs oxygen. It gets that through the blood that goes through every blood vessel in your body. The heart is the pump that makes the blood move. So a heart is a very, very simple device by some metrics, but incredibly complex by others. So a lot of scientists looked at the heart function and tried to mimic it. The really first artificial heart was designed by a guy named Domingo Leota, a brilliant Argentinian scientist who was working at the Cleveland Clinic, then came down to work with Michael DeBakey, pioneering heart surgeon in Houston. And they developed a device that DeBakey had implanted in seven cows. The longest went about 12 hours. While DeBakey was in Washington, D.C. asking for additional funding, his then partnerpartner, Denton Cooley, implanted it in a desperately ill human patient, Haskell Karp. April 4, 1969, that was the world's first clinical use of a total artificial heart. The possibility has now been established as a reality, the fact that Mr. Karp has regained organ function in terms of cerebral function and kidney function indicates that its mechanical heart is a feasibility. Unfortunately, the valves that they put in this version of the heart were breaking up the blood. The broken up blood was causing the kidneys to fail. And after 64 hours on the device, they did an emergency transplant and tragically, 36 hours later, died of an infection. But it showed us that that type of thing was possible. The heart had bladders that filled and emptied with compressed air that drove the blood forward. One-way valves made it so that when the bladders collapsed, blood poured into the device. When the bladders filled, it went out through the great vessels. Based on that technology, that device continued to evolve and evolved into what we now have, the Syncardia device, which is the world's first approved device, just like the one implanted in 1969, but much better membranes, much better valves, much better material and manufacturing techniques. Now, we've just heard that the Carmat device has been approved for commercial sale in Europe. And that's great, that's a step forward, but it's still approved for temporary use. Syncardia and Carmat are the only approved artificial hearts in the world right now, but they're currently approved only as bridge-to-transplant devices, temporary hearts that work to keep patients alive until a real donor heart becomes available. The longest an artificial heart has ever lasted in a patient is 1,374 days, or roughly four years, the real limitation being long-term durability. Think about it now. If your heart is beating 80 times a minute, that's 132,000 times in a day. That's 42 million times in a year. So the challenge with all the artificial hearts that have been developed so far is it wears out. Anything that has to flex over and over again to make it so it never fails, I think is a tall order. The durability factor has led other groups to rethink their approach to how an artificial heart mimics our own. Bivacor, a startup from Brisbane, Australia that's headquartered in Houston, Texas, has come up with a device that hardly resembles a human heart at all. Their radical new approach has helped them to raise more than $20 million and has won over industry heavy hitters like Dr. Cohn, who serves as their chief medical officer. My name is Daniel Timms. I'm a mechanical engineer with a PhD in biomedical engineering. During my PhD, I invented the Bivacore device and have been developing that device ever since. The artificial heart that we're creating is what's called a rotary total artificial heart, which has a a spinning disc which is magnetically levitated within a cavity to pump the blood to both the lungs and to the body simultaneously it's a similar process to a fan where your ceiling fan will spin and air will come down at a constant flow rate instead of air we're pumping blood but it's very similar impeller, that's inside the artificial heart. And so that approach is radically different from utilizing compressing sacks. A spinning disk that is magnetically levitated, meaning that there's no touchdown of any of those moving parts, can effectively last forever. Bivacore's artificial heart works out of rapidly spinning pump technology developed by scientists Rob Jarvek and Rich Wampler in the mid-1980s. In their device, small turbines sat outside unhealthy hearts to assist with blood flow to a single ventricle. Tim's device builds on that idea by using a spinning disc or impeller to push and regulate the flow of blood to both ventricles. The impe inside is a single disc with veins on one side to pump the blood to the body and veins on the other side to pump the blood to the lungs and they look different because the requirements of pressure are different in the body and the lungs the magnetic levitation system interfaces with two ring-shaped magnets that magnetic bearing detects this rotor and if the rotor moves further away, coils will energize to bring it closer. And if it gets too close, they'll de-energize and it'll do that 2,000 times a second to read the position and then keep the disc levitated well away from the casing, therefore eliminating any of the mechanical wear. bivouacore is currently testing its device in this system that circulates liquids to replicate the functions of the human body. There's one big question, though, that they won't be able to answer before human trials, whether Bivacor patients will have a pulse. While we tend to think of the pulse as fundamental to the heart's function, Vivacore's device can actually propel blood in a continuous stream, which works fine in the lab and in animal trials, but no one knows exactly what its effects would be on the human body, so Tims is exploring other options as well. Right now the device is operating in a continuous flow mode, but then we want to introduce pulsatility into that system so we can turn on pulsatility in that regard. You'll see this device is running in a pulsatile mode you know once every every second and we're reproducing that pulsatility by taking the spinning disk and rapidly spinning it up and down up and down once a second And that reproduces that pulsatile outflow that we can observe. What we then have the ability for this device to do is even change that beat rate, where alternatively the patient is exercising and there might be a higher beat rate required there. And this is at 90 beats per minute now. Resting and sleeping, and so that pulse rate will be lower. Eventually, Bivacor intends for these changes in heart rate to be automatic, based on blood pressure changes that occur when a patient moves from one type of physical activity to another. This is a project that I've worked on now for almost two decades. During my undergraduate studies, around about that time, my father had heart failure. In the early days, the whole goal was to try to make something a little naively to help his, you know, failing circulation. We decided that we'd do some of the work in our garage or in our home. My father was a plumber so he was very adept with circulation systems. So what we decided to do was, you know, make a prototype of this device. So this is one of the very first prototype iterations of the bivouac core device. So you'll see here, we have an ability to put in different horseshoe magnets, on this side is where the motor can fit inside, then of course we look inside the pump and we can see one of the very first impeller designs that was actually made by my dad. He machined this on a mini lathe right next to the TV so he could work on the mini lathe while watching TV. Although we are now creating a device and obviously not in time for him, there's many other people out with heart failure and not only does it touch the patient with the heart failure but their immediate family which you know is something that my mum and and myself have been dealing with now for for now 15 years since that time so that really catalyzed our the motivation and the passion really to get this you know into those patients that need it. Bivacor is currently working with the FDA, undergoing durability and animal studies. They're also poised for their first human implant to take place in 2022. Meanwhile, France-based Carmat received approval from the EU at the end of 2020, and has started manufacturing its hearts for commercial sale. Hopes are high that Karmat's heart will prove longer-lasting than earlier artificial hearts, and the company intends for its product to eventually become a permanent replacement, not just a stopgap. As promising as these technologies are, one big remaining downside is the briefcase-sized power packs that have to stay permanently connected to the hearts through the patient's skin. Advancements like extending battery life and replacing cable drivelines with wireless charging technology would have to be realized before an artificial heart patient's freedom is truly on par with a healthy transplant recipient. You could argue that we're still in this low phase we haven't gone vertical yet because there are four or five thousand pumps implanted a year but four hundred thousand people dying of heart failure it's a whole bunch of technical forces that are converging on having an artificial heart that lasts a long time that doesn't have a wire through the skin and then maybe heart failure won't be the number one cause of death in the world",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                45.9
+            ],
+            "text": " Cardiovascular disease, and specifically heart failure, is the number one cause of death in men and women across just about every demographic. If we had a patient with a bad heart and we could take their heart out and replace it with a machine, we'd do it all the time. For the last half century, scientists have been working tirelessly to create a machine that can accurately mimic the function of a beating human heart. Envisioning devices they hope will one day rid us of the number one cause of death in the world. Every technology goes through a sigmoidal adoption curve. 5% of people are doing it, then 10, then 15, then suddenly it saturates and goes vertical. And only now, in the last decade or so, have we had the technology to make devices that"
+        },
+        {
+            "timestamp": [
+                45.9,
+                50.82
+            ],
+            "text": " potentially could last a decade or more. If we had a practical, permanent, total artificial heart,"
+        },
+        {
+            "timestamp": [
+                50.82,
+                54.12
+            ],
+            "text": " it would be one of the biggest accomplishments in modern medicine."
+        },
+        {
+            "timestamp": [
+                61.76,
+                169.94
+            ],
+            "text": " When it comes to heart failure, there's currently only one gold standard of treatment, replacing the failing heart with a healthy donor. And while there are nearly 6,000 heart transplants done annually, there are about a million requests for donor hearts each year, 600,000 of which are in the U.S. alone. So the main limitation to heart transplantation is having a donor heart that we can place in a patient who's destined to die from heart failure. Dr. William Cohn is a heart surgeon at the Texas Heart Institute and an innovator in artificial heart technology. And if you think about it, it's got to be a healthy heart from a patient who's died in such a way that it didn't affect their heart. And that doesn't happen that frequently. So to be able to save the lives of all these patients that are dying of heart failure, we need something other than a transplanted heart. Your heart's just a pump. Every cell in your body needs nutrition, needs oxygen. It gets that through the blood that goes through every blood vessel in your body. The heart is the pump that makes the blood move. So a heart is a very, very simple device by some metrics, but incredibly complex by others. So a lot of scientists looked at the heart function and tried to mimic it. The really first artificial heart was designed by a guy named Domingo Leota, a brilliant Argentinian scientist who was working at the Cleveland Clinic, then came down to work with Michael DeBakey, pioneering heart surgeon in Houston. And they developed a device that DeBakey had implanted in seven cows. The longest went about 12 hours. While DeBakey was in Washington, D.C. asking for additional funding, his then partnerpartner, Denton Cooley, implanted it in a desperately ill human patient, Haskell Karp."
+        },
+        {
+            "timestamp": [
+                171.1,
+                177.22
+            ],
+            "text": " April 4, 1969, that was the world's first clinical use of a total artificial heart."
+        },
+        {
+            "timestamp": [
+                177.22,
+                182.16
+            ],
+            "text": " The possibility has now been established as a reality,"
+        },
+        {
+            "timestamp": [
+                182.5,
+                227.28
+            ],
+            "text": " the fact that Mr. Karp has regained organ function in terms of cerebral function and kidney function indicates that its mechanical heart is a feasibility. Unfortunately, the valves that they put in this version of the heart were breaking up the blood. The broken up blood was causing the kidneys to fail. And after 64 hours on the device, they did an emergency transplant and tragically, 36 hours later, died of an infection. But it showed us that that type of thing was possible. The heart had bladders that filled and emptied with compressed air that drove the blood forward."
+        },
+        {
+            "timestamp": [
+                227.74,
+                232.24
+            ],
+            "text": " One-way valves made it so that when the bladders collapsed, blood poured into the device."
+        },
+        {
+            "timestamp": [
+                232.68,
+                235.86
+            ],
+            "text": " When the bladders filled, it went out through the great vessels."
+        },
+        {
+            "timestamp": [
+                235.86,
+                243.06
+            ],
+            "text": " Based on that technology, that device continued to evolve and evolved into what we now have, the Syncardia device,"
+        },
+        {
+            "timestamp": [
+                243.22,
+                307.62
+            ],
+            "text": " which is the world's first approved device, just like the one implanted in 1969, but much better membranes, much better valves, much better material and manufacturing techniques. Now, we've just heard that the Carmat device has been approved for commercial sale in Europe. And that's great, that's a step forward, but it's still approved for temporary use. Syncardia and Carmat are the only approved artificial hearts in the world right now, but they're currently approved only as bridge-to-transplant devices, temporary hearts that work to keep patients alive until a real donor heart becomes available. The longest an artificial heart has ever lasted in a patient is 1,374 days, or roughly four years, the real limitation being long-term durability. Think about it now. If your heart is beating 80 times a minute, that's 132,000 times in a day. That's 42 million times in a year. So the challenge with all the artificial hearts that have been developed so far is it wears out."
+        },
+        {
+            "timestamp": [
+                445.6,
+                449.94
+            ],
+            "text": " Anything that has to flex over and over again to make it so it never fails, I think is a tall order. The durability factor has led other groups to rethink their approach to how an artificial heart mimics our own. Bivacor, a startup from Brisbane, Australia that's headquartered in Houston, Texas, has come up with a device that hardly resembles a human heart at all. Their radical new approach has helped them to raise more than $20 million and has won over industry heavy hitters like Dr. Cohn, who serves as their chief medical officer. My name is Daniel Timms. I'm a mechanical engineer with a PhD in biomedical engineering. During my PhD, I invented the Bivacore device and have been developing that device ever since. The artificial heart that we're creating is what's called a rotary total artificial heart, which has a a spinning disc which is magnetically levitated within a cavity to pump the blood to both the lungs and to the body simultaneously it's a similar process to a fan where your ceiling fan will spin and air will come down at a constant flow rate instead of air we're pumping blood but it's very similar impeller, that's inside the artificial heart. And so that approach is radically different from utilizing compressing sacks. A spinning disk that is magnetically levitated, meaning that there's no touchdown of any of those moving parts, can effectively last forever. Bivacore's artificial heart works out of rapidly spinning pump technology developed by scientists Rob Jarvek and Rich Wampler in the mid-1980s. In their device, small turbines sat outside unhealthy hearts to assist with blood flow to a single ventricle. Tim's device builds on that idea by using a spinning disc or impeller to push and regulate the flow of blood to both ventricles. The impe inside is a single disc with veins on one side to pump the blood to the body and veins on the other side to pump the blood to the lungs and they look different because the requirements of pressure are different in the body and the lungs the magnetic levitation system interfaces with two ring-shaped magnets that magnetic bearing detects this rotor and if the rotor moves further away, coils will energize to bring it closer. And if it gets too close,"
+        },
+        {
+            "timestamp": [
+                450.04,
+                546.24
+            ],
+            "text": " they'll de-energize and it'll do that 2,000 times a second to read the position and then keep the disc levitated well away from the casing, therefore eliminating any of the mechanical wear. bivouacore is currently testing its device in this system that circulates liquids to replicate the functions of the human body. There's one big question, though, that they won't be able to answer before human trials, whether Bivacor patients will have a pulse. While we tend to think of the pulse as fundamental to the heart's function, Vivacore's device can actually propel blood in a continuous stream, which works fine in the lab and in animal trials, but no one knows exactly what its effects would be on the human body, so Tims is exploring other options as well. Right now the device is operating in a continuous flow mode, but then we want to introduce pulsatility into that system so we can turn on pulsatility in that regard. You'll see this device is running in a pulsatile mode you know once every every second and we're reproducing that pulsatility by taking the spinning disk and rapidly spinning it up and down up and down once a second And that reproduces that pulsatile outflow that we can observe. What we then have the ability for this device to do is even change that beat rate, where alternatively the patient is exercising and there might be a higher beat rate required there. And this is at 90 beats per minute now. Resting and sleeping, and so that pulse rate will be lower."
+        },
+        {
+            "timestamp": [
+                548.56,
+                552.4
+            ],
+            "text": " Eventually, Bivacor intends for these changes in heart rate to be automatic,"
+        },
+        {
+            "timestamp": [
+                552.4,
+                555.92
+            ],
+            "text": " based on blood pressure changes that occur when a patient moves from one"
+        },
+        {
+            "timestamp": [
+                555.92,
+                557.92
+            ],
+            "text": " type of physical activity to another."
+        },
+        {
+            "timestamp": [
+                669.1,
+                745.4
+            ],
+            "text": " This is a project that I've worked on now for almost two decades. During my undergraduate studies, around about that time, my father had heart failure. In the early days, the whole goal was to try to make something a little naively to help his, you know, failing circulation. We decided that we'd do some of the work in our garage or in our home. My father was a plumber so he was very adept with circulation systems. So what we decided to do was, you know, make a prototype of this device. So this is one of the very first prototype iterations of the bivouac core device. So you'll see here, we have an ability to put in different horseshoe magnets, on this side is where the motor can fit inside, then of course we look inside the pump and we can see one of the very first impeller designs that was actually made by my dad. He machined this on a mini lathe right next to the TV so he could work on the mini lathe while watching TV. Although we are now creating a device and obviously not in time for him, there's many other people out with heart failure and not only does it touch the patient with the heart failure but their immediate family which you know is something that my mum and and myself have been dealing with now for for now 15 years since that time so that really catalyzed our the motivation and the passion really to get this you know into those patients that need it. Bivacor is currently working with the FDA, undergoing durability and animal studies. They're also poised for their first human implant to take place in 2022. Meanwhile, France-based Carmat received approval from the EU at the end of 2020, and has started manufacturing its hearts for commercial sale. Hopes are high that Karmat's heart will prove longer-lasting than earlier artificial hearts, and the company intends for its product to eventually become a permanent replacement, not just a stopgap. As promising as these technologies are, one big remaining downside is the briefcase-sized power packs that have to stay permanently connected to the hearts through the patient's skin. Advancements like extending battery life and replacing cable drivelines with wireless charging technology would have to be realized before an artificial heart patient's freedom is truly on par with a healthy transplant recipient. You could argue that we're still in this low phase we haven't gone vertical yet because there are four or five thousand pumps implanted a year but four hundred thousand people dying of heart failure it's a whole bunch of technical forces that are converging on having an artificial heart that lasts a long time that doesn't have a wire through the skin"
+        },
+        {
+            "timestamp": [
+                745.4,
+                750.32
+            ],
+            "text": " and then maybe heart failure won't be the number one cause of death in the world"
+        }
+    ]
+}

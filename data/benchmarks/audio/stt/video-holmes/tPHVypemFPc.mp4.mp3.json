@@ -1,0 +1,55 @@
+{
+    "video_id": "tPHVypemFPc.mp4.mp3",
+    "transcript": " Dramatisk musikk Storbritannia Babe, you scared me. Sorry. I can't find my car keys. Do you know where I put them? I think they're on the kitchen counter. Thanks. I'm going to run to the store. Do you need anything? Nope. I'm good. Okay. I'll be back soon. Hey, did you forget something? Babe? GUNFIRE I don't know.小蝴蝶 I'm getting out of here.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                56.4
+            ],
+            "text": " Dramatisk musikk Storbritannia Babe, you scared me."
+        },
+        {
+            "timestamp": [
+                56.76,
+                59.56
+            ],
+            "text": " Sorry. I can't find my car keys. Do you know where I put them?"
+        },
+        {
+            "timestamp": [
+                60.3,
+                62.04
+            ],
+            "text": " I think they're on the kitchen counter."
+        },
+        {
+            "timestamp": [
+                62.7,
+                65.0
+            ],
+            "text": " Thanks. I'm going to run to the store. Do you need anything?"
+        },
+        {
+            "timestamp": [
+                65.0,
+                67.0
+            ],
+            "text": " Nope. I'm good."
+        },
+        {
+            "timestamp": [
+                67.0,
+                69.0
+            ],
+            "text": " Okay. I'll be back soon."
+        },
+        {
+            "timestamp": [
+                83.0,
+                null
+            ],
+            "text": " Hey, did you forget something? Babe? GUNFIRE I don't know.小蝴蝶 I'm getting out of here."
+        }
+    ]
+}

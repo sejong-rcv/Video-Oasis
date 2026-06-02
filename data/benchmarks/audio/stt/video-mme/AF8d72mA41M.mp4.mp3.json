@@ -1,0 +1,692 @@
+{
+    "video_id": "AF8d72mA41M.mp4.mp3",
+    "transcript": " LEDs don't get their color from their plastic covers and you can see that because here is a transparent LED that also glows the same red color. The color of the light comes from the electronics themselves. The casing just helps us tell different LEDs apart. In 1962, General Electric Engineer Nick Holonyak created the first visible LED. It glowed a faint red. A few years after that, engineers at Monsanto created a green LED. But for decades, all we had were those two colors. So LEDs could only be used in things like indicators, calculators, and watches. If only we could make blue, then we could mix red, green, and blue to make white and every other color, unlocking LEDs for every type of lighting in the world, from light bulbs to phones to computers to TVs to billboards. But blue was almost impossible to make. Throughout the 1960s, every big electronics company in the world, from IBM to GE to Bell Labs, raced to create the blue LED. They knew it would be worth billions. Despite the efforts of thousands of researchers, nothing worked. Ten years after Holonyak's original LED turned into 20, then 30, and the hope of ever using LEDs for light faded away. According to a director at Monsanto, these won't ever replace the kitchen light. They'd only be used in appliances, car dashboards, and stereo sets to see if the stereo was on. This might still be true today, if not for one engineer who defied the entire industry and made three radical breakthroughs to create the world's first blue LED. Shuji Nakamura was a researcher at a small Japanese chemical company named Nishiya. They had recently expanded into the production of semiconductors to be used in the manufacture of red and green LEDs. But by the late 1980s, the semiconductor division was on its last legs. They were competing against far more established companies in a crowded market, and they were losing. Tensions started to run high. Younger employees begged Nakamura to create new products, while senior workers called his research a waste of money. And at Nishiya, money was in short supply. Nakamura's lab mainly consisted of machinery he had scavenged and welded together himself. Phosphorus leaks in his lab created so many explosions that his co-workers had stopped checking in on him. By 1988, Nakamura's supervisors were so disillusioned with his research that they told him to quit. So it was out of desperation that he brought a radical proposal to the company's founder and president, Nobuo Ogawa. The elusive blue LED that the likes of Sony, Toshiba and Panasonic had all failed at. What if Nishiya could be the one to create it? After suffering loss after loss on their semiconductors for more than a decade, Ogawa took a gamble. He devoted 500 million yen, or 3 million dollars, likely around 15% of the company's annual profit, to Nakamura's Moonshot project. Everyone knew that LEDs had the potential to replace light bulbs, because light bulbs, the universal symbol for a bright idea, are actually terrible at making light. They work by running current through a tungsten filament which gets so hot it glows. But most of the electromagnetic radiation comes out as infrared heat. Only a negligible fraction is visible light. In contrast, LED stands for light emitting diode. It's right there in the name. LEDs primarily create light, so they're far more efficient. And a diode is just a device with two electrodes, which only allows current to flow in one direction. So here's how an LED works. When you have an isolated atom, each electron in that atom occupies a discrete energy level. You can think of these energy levels like individual seats from a hockey stadium. And all atoms of the same element, when they are far apart from each other, have identical available energy levels. But when you bring multiple atoms together to form a solid, something interesting happens. The outermost electrons now feel the pull not only of their own nucleus, but of all the other nuclei as well. And as a result, their energy levels shift, so instead of being identical, they become a series of closely spaced but separate energy levels, an energy band. The highest energy band with electrons in it is known as the valence band, and the next higher energy band is called the conduction band. You can think of it like the balcony level. In conductors, the valence band is only partially filled. This means with a little bit of thermal energy, electrons can jump into nearby unfilled seats. And if an electric field is applied, they can jump from one unfilled seat to the next and conduct current through the material. In insulators, the valence band is full, and the difference in energy between the valence and conduction bands, the band gap, is large. So when an electric field is applied, no electrons can move. There are no available seats to move into in the valence band, and the band gap is too big for any electrons to jump into the conduction band. Which brings us to semiconductors. Semiconductors are similar to insulators, except the band gap is much smaller. This means at room temperature, a few electrons will have sufficient energy to jump into the conduction band, and now they can easily access nearby empty seats and conduct current. Not only that, the empty seats they left behind in the valence band can also move. Well, really, it's the nearby electrons jumping into those empty seats, but if you look from afar, it's as though the empty seat or For more information, visit have to add impurity atoms into the lattice. This is known as doping. For example, in silicon, you can add a small number of phosphorus atoms. Phosphorus is similar to silicon, so it easily fits into the lattice, but it brings with it one extra valence electron. This electron exists in a donor level just beneath the conduction band. So with a bit of thermal energy, all these electrons can jump into the conduction band and conduct current. Since most of the charges that can move in this type of semiconductor are electrons, which are negative, this sort of semiconductor is called n-type, n for negative. But I should point out that the semiconductor itself is still neutral. It's just that most of the mobile charge carriers are negative. They're electrons. So there is also another type of semiconductor where most of the mobile charge carriers are positive, and it's called p-type. To make p-type silicon, you add a small number of atoms of, say, boron. Boron fits into the lattice but brings with it one fewer valence electron than silicon, So it creates an empty acceptor level just above the valence band. And with a bit of thermal energy, electrons can jump out of the valence band, leaving behind holes. It is these positive holes which are mostly responsible for carrying current in the p-type semiconductor. Again, the material overall is uncharged, it's just that most of the mobile charge carriers are positive holes. Where things get interesting is when you put a piece of p-type and n-type together. Without even connecting this to a circuit, some electrons will diffuse from n to p and fall into the holes in the p-type. This makes the p-type a little negatively charged and the n-type a little positively charged. So there is now an electric field inside an inert piece of material. Electrons keep diffusing until the electric field becomes so large it prevents them from crossing over. And now we have established the depletion region, an area depleted of mobile charge carriers. There are no electrons in the conduction band, and no holes in the valence band. If you connect a battery the wrong way to this diode, it simply expands the depletion region until its electric field perfectly opposes that of the battery, and no current flows. But if you flip the polarity of the battery, then the depletion region shrinks, the electric field decreases, and electrons can flow from N to P. When an electron falls from the conduction band into a hole in the valence band, that bandgap energy can be emitted as a photon. The energy change of the electron is emitted as light. And this is how a light-em diode works. The size of the bandgap determines the color of the light emitted. In pure silicon, the bandgap is only 1.1 electron volts, so the photon released isn't visible, it's infrared light. These LEDs are actually used in remote controls like for your TV, and you can capture them on camera. Moving up the spectrum you can see why the first visible light LEDs were red and then green and why blue was so hard. A photon of blue light requires more energy and therefore a larger bandgap. By the 1980s after hundreds of millions of dollars had been spent hunting for the right material, every electronics company had come up empty-handed. But researchers had at least figured out the first critical requirement, high-quality crystal. No matter what material you used for the blue LED, it required a near-perfect crystal structure. Any defects in the crystal lattice disrupt the flow of electrons, so instead of emitting their energy as visible light, it is instead dissipated as heat. So the first step in Nakamura's proposal to Ogawa was to disappear to Florida. He knew an old colleague there whose lab was beginning to use a new crystal-making technology called Metal Organic Chemical Vapor Deposition, or MOCVD. An MOCVD reactor, essentially a giant oven, was and still is the best way to mass-produce clean crystal. It works by injecting vapor molecules of your crystal into a hot chamber where they react with a base material called a substrate to form layers. It's important that the substrate lattice matches the crystal lattice being built on top of it to create a stable, smooth crystal. This is a precise art. The crystal layers often need to be as thin as just a couple of atoms. Nakamura joined the lab for a year to master MOCBD, but his time there was miserable. He wasn't allowed to use the working MOCVD, so he spent 10 of his 12 months assembling a new system almost from scratch. Even worse, his labmates shunned him because Nakamura didn't have a doctorate, nor any academic papers to his name, as Nishiya didn't allow publishing. His labmates, all PhD researchers, dismissed him as a lowly technician. This experience fueled him. Nakamura wrote, I feel resentful when people look down on me. I developed more fighting spirit. I would not allow myself to be beaten by such people. He returned to Japan in 1989 with two things in hand. One, an order for a brand new MOCVD reactor for Nishiya, and two, a fervent desire to get his PhD. At that time in Japan, you could earn a PhD without having to go to university, simply by publishing five papers. Nakamura had always known his chances of inventing the blue LED were low, but now he had a backup plan. Even if he didn't succeed, he could at least get his PhD. But now the question was, with MOCVD under his belt, which material should he research? By this time, scientists had narrowed the options down to two main candidates, zinc selenide and gallium nitride. These were both semiconductors with bandgaps theoretically in the blue light range. Zinc selenide was the far more promising option. When grown in an MOCVD reactor, it had only a 0.3% lattice mismatch with its substrate, gallium arsenide. Therefore, zinc selenide crystal had about 1,000 defects per square centimeter, within the upper limit for LED functioning. Its only issue was that while scientists had figured out multiple different ways to create N-type zinc selenide, no one knew how to create P-type. In contrast, gallium nitride had been abandoned by almost everybody for three reasons. First, it was much harder to make a high-quality crystal. The best substrate for growing gallium nitride was sapphire, but its lattice mismatch was 16%. This resulted in higher defects, over 10 billion per square centimeter. The second problem was that, like zinc selenide, scientists had only ever created N-type gallium nitride using silicon. him. P-Type is one of the most popular games on the Nintendo Switch. It's also the most popular game on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. have a total light output power of at least a thousand microwatts that's two orders of magnitude more than any prototype had ever achieved So So, between the two candidates, almost all researchers were focused on zinc selenide. Nakamura surveyed the crowded field and decided that if he were going to publish five papers by himself, he'd better focus on gallium nitride, where the competition was much less fierce. This material's main claim to fame was one development back in 1972, when RCA engineer Herbert Maruska made a tiny gallium nitride blue LED. But it was dim and inefficient, so RCA slashed the project's budget, calling it a dead end. Twenty years later, scientific opinion hadn't changed. When Nakamura attended the biggest applied physics conference in Japan, the toxon zinc selenide had over 500 attendees. The toxon gallium nitride had five. Two of those five attendees were the world experts on gallium nitride, Dr. Isamu Akazaki and his former grad student, Dr. Hiroshi Amano. In contrast to Nekomura's academic background, they were researchers at Nagoya University, one of Japan's best. A few years earlier, they had made a breakthrough on the first problem of high-quality crystal. Instead of growing gallium nitride directly on sapphire, they first grew a buffer layer of aluminum nitride. This has a lattice spacing in between that of the other two materials, making it easier to grow a clean gallium nitride crystal on top. The only issue was that the aluminum caused problems for the MOCVD reactor, making the process hard to scale. But Nakamura wasn't even close at this stage. Back at Nishiya, he couldn't get gallium nitride to even grow normally in his new MOCVD reactor. After six months, desperate for results, he decided to take the machine apart and build a better version himself. His ten months spent putting together the reactor in Florida were suddenly invaluable. He began following the same routine each day. Arrive at the lab at 7 a.m. Spend the first half of the day welding, cutting, and rewiring the reactor. Spend the rest of the day experimenting with the modified reactor to see what it can do. At 7 p.m., go home, eat dinner, wash, and sleep. Nakamura repeated this routine every single day, taking no weekends and no holidays except for New Year's Day, the most important holiday in Japan. After a year and a half of continuous work, he came into the lab on a winter day in late 1990. As usual, he tinkered around in the morning, grew a gallium nitride sample in the afternoon, and tested it. But this time, the electron mobility was four times higher than any gallium nitride ever grown directly on SAFIRE. Nakamura called it the most exciting day of his life. His trick was to add a second nozzle to the MOCVD reactor. The gallium nitride reactant gases had been rising in the hot chamber, mixing in the air to form a powdery waste. But the second nozzle released a downward stream of inert gas, pinning the first flow to the substrate to form a uniform crystal. For years, scientists had avoided adding a second stream to MOCVD because they thought it would only introduce more turbulence. But Nakamura used a special nozzle so that even when the streams combined, they remained laminar. He called his invention the two-flow reactor. Now he was ready to take on Akasaki and Amano. But instead of copying their aluminum nitride buffer layer, his two-flow design allowed him to make gallium nitride so smooth and stable, it itself could be used as a buffer layer on the sapphire substrate. This in turn yielded an even cleaner crystal of gallium nitride on top, without the issues of aluminum. Nakamura now had the highest quality gallium nitride crystals ever made. But just as he was getting started, things took a wrong turn. While he had been in Florida, Nobuo Ogawa had stepped back from Nishiya to become chairman. In his day, Nobuo had been a risk-taking scientist, designing the company's first products. It's why he supported Nakamura's lofty plans all this time. But in his place, his son-in-law, Eiji Ogawa, became CEO of the company. And the younger Ogawa had a much stricter outlook. One Nishiya client said, \"'He has a mind of steel, and he remembers everything. In 1990, an executive at Matsushita, an LED manufacturer and Nishiya's biggest customer, visited the company to give a talk on blue LEDs. In it, he claimed zinc selenide was the way forward, declaring, gallium nitride has no future. That very same day, Nakamura received a note from Eiji. Stop work on gallium nitride has no future that very same day nakamura received a note from ag stop work on gallium nitride immediately ag had never supported the research and wanted to end what he saw as a colossal waste but nakamura crumpled up the note and threw it away and he did so again and again when a succession of similar notes and phone calls came from company management. Out of spite, he published his work on the two-flow reactor without Nishiya's knowledge. It was his first paper. One down, four to go. With crystal formation settled, he turned to the second obstacle, creating p-type gallium nitride. Here, Akazaki and Amano had again beaten him to the punch. They had created a gallium nitride sample doped with magnesium. But at first, it didn't perform as a p-type as they expected. However, after exposing it to an electron beam, it did behave as a p-type, the world's first p-type gallium nitride after 20 years of trying the catch was that no one knew why it worked and the process of irradiating each crystal with electrons was too slow for commercial production at first nakamura copied akazaki and amano approach. But he suspected the beam of electrons was overkill. Maybe all the crystal needed was energy. So he tried heating magnesium-doped gallium nitride to 400 degrees Celsius in a process known as annealing. The result? A completely p-type sample. This worked even better than the shallow electron beam, which only made the surfaces of the samples p-type. And simply heating things up was a quick, scalable process. His work also revealed why the p-type had been so difficult. To make gallium nitride with MOCVD, you supply the nitrogen from ammonia. But ammonia also contains hydrogen. Where there should have been holes in the magnesium-doped gallium nitride, these hydrogen atoms were sneaking in and bonding with the magnesium, plugging all the holes. Adding energy to the system released the hydrogen from the material, freeing up the holes again. By now, Nakamura had all the ingredients to make a prototype blue LED, and he presented it at a workshop in St. Louis in 1992 and received a standing ovation. He was beginning to make a name for himself. But even though he had created the best prototype to date, it was more of a blue-violet color and still extremely inefficient, with a light output power of just 42 microwatts, well below the 1,000-microwatt threshold for practical use. At Nishiya, the new CEO's patience had run out. Eiji sent written orders to Nakamura to stop tinkering and turn whatever he had into a product. His job was on the line. But in Nakamura's own words, I kept ignoring his order. I had been successful because I didn't listen to company orders and trusted my own judgment. At this point, he only had the third hurdle left, getting his blue LED to a light output power of a thousand microwatts. A known trick to increase the efficiency of LEDs was to create a well, a thin layer of material at the p-n junction called an active layer, that shrinks the bandgap just a bit. This encourages more electrons to fall from the n-type conduction band into holes in the p-type valence band. The best active layer for gallium nitride was already known to be indium gallium nitride, which would not only make the band gap easier to cross, but also narrow it just the right amount to bring its blue-violet gap down to true blue. This time, Akasaki and Amano didn't scoop Nakamura. They were stuck trying to grow indium gallium nitride in the first place. Amano recalled, it was generally said that gallium nitride and indium nitride would not mix, like water and oil. But Nakamura had an advantage, his ability to customize his MOCVD reactor. This allowed him to use brute force, adjusting the reactor to pump as much indium as he could onto the gallium nitride in the hopes that at least some would stick. To his surprise, the technique worked, giving him a pump as much indium as he could onto the gallium nitride in the hopes that at least some would stick. To his surprise, the technique worked, giving him a clean indium-gallium nitride crystal. He quickly incorporated this active layer into his LED, but the well worked a little too well and overflowed with electrons, leaking them back into the gallium nitride layers unfazed within a few months nakamura had fixed this too by creating the opposite of a well a hill he returned to his reactor one more time to make aluminum gallium nitride a compound with a larger band gap that could block electrons from escaping the well once inside. The structure of the blue LED had become far more complex than anyone could have imagined. But it was complete. By 1992, Shuji Nakamura had this. And I showed the chairman, I told him, please, chairman, come to my office, I show the blue LED, and he said, oh, this is great, you know? And he became so happy. I said, yeah, after my office, yeah, yeah. After 30 years of searching by countless scientists, Nakamura had done it. He had created a glorious bright blue LED that could even be seen in daylight. It had a light output power of 1,500 microwatts and emitted a perfect blue at exactly 450 nanometers. It was over 100 times brighter than the previous pseudo-blue LEDs on the market. Nakamura wrote, I felt like I had reached the top of Mount Fuji. Nishiya called a press conference in Tokyo to announce the world's first true blue LED. The electronics industry was stunned. A researcher from Toshiba remarked, everyone was caught with their pants down. The effect on Nishiya's fortunes was immediate and explosive. Orders flooded in, and by the end of 1994, they were manufacturing one million blue LEDs per month. Within three years, the company's revenue had nearly doubled. In 1996, they made the jump from blue to white by placing a yellow phosphor over the LED. This chemical absorbs the blue photons and re-radiates them in a broad spectrum across the visible range. Soon enough, Nishiya was selling the world's first white LED, at last unlocking the final frontier so many had doubted. LED lighting. Over the next four years, their sales doubled again. By 2001, their revenue was approaching $700 million a year. Over 60% came from blue LED products. Today, Nishiya is one of the largest LED manufacturers in the world, with an annual revenue in the billions. As for Nakamura, to whom Nishiya owed the quadrupling of its fortunes? I heard you only got a $170 bonus. It's patent, patent, patent. So you got a $170 bonus for the patent. Yes, yes. This was all while the blue LED was generating hundreds of millions of dollars in sales. Eiji Ogawa had always seen Nakamura's stubborn individuality as a liability, not a strength. The message was clear. In 2000, after more than 20 years at Nishiya, Nakamura left the company for the U.S., where job offers had been pouring in. But his troubles with Nishiya weren't over. He began consulting for Cree, another LED company. Nishiya was furious and sued him for leaking company secrets. Nakamura responded by countersuing Nishiya for never properly compensating him for his invention, seeking 20 million dollars. In 2001, the Japanese courts ruled with Nakamura and ordered Nishiya to pay him 10 times his initial request. But Nishiya appealed, and the case was eventually settled with a payout of $8 million. In the end, this was only enough to cover Nakamura's legal fees. This is all he got for an invention that now comprises an $80 billion industry. From house lights to street lights, while you watch this video on a phone, computer, or TV, if you're outside following traffic lights or displays, chances are you are relying on blue LEDs. We might even be getting too much of them. You may have heard warnings to avoid blue light from screens before bed because it can disrupt your circadian rhythm. That all comes from the gallium nitride blue LED. But as for lighting, there are virtually no downsides to an LED bulb. Compared to an incandescent or fluorescent bulb, they are far more efficient, they last many times longer, are safer to handle, and are completely customizable. 30 years after the first white LED, high-end bulbs today allow you to choose between 50,000 different shades of white. Most importantly, their price has come down to only a couple of dollars more than other types of bulbs. And at their efficiency, with average daily use and electricity pricing, you can recoup that cost in only two months and continue to save for years after that. The result is a lighting revolution. In 2010, just 1% of residential lighting sales in the world were LED. In 2022, it was over half. Experts estimate that within the next 10 years, nearly all lighting sales will be LED. The energy savings will be enormous. Lighting accounts for 5% of all carbon emissions. A full switch to LEDs could save an estimated 1.4 billion tons of CO2, equivalent to taking almost half the cars in the world off the road. Today, Nakamura's research is on the next generation of LEDs, micro-LEDs and UV-LEDs. So what are they making in there? LED is a power device. This is one of the best facilities in the U.S. And this is because of you? Well, what's a standard LED size? 300 times 200 microns. Smallest is 5 microns. That is insanely tiny. So basically you can use that light in your eye display, such as AR and VR. You could have like a retina display that's like right up here. Human hair would be about that thick. And that's a really, really tiny LED. UV LEDs could be used to sterilize surfaces like in hospitals or kitchens. Just flick on the UV lights and pathogens would be dead in seconds. COVID-19, you know, UV LED company, it's kind of great because everybody is using these UV LEDs. We can sterilize all the COVID-19. For anything there, we use indium gallium nitride. For UV, we use aluminum gallium nitride. OK. Because bandgap is much bigger. Do you think this is what's coming? It's OK, it works, but probably the cost. The cost is too high. Change is less than 10%. The cost is very high. But if the efficiency becomes more than 50%, the cost is almost comparable to the market now. And you think it will happen, right? Like the efficiency will go up. Yeah, yeah, I think so. It's just a matter of time. Yeah, I think so. And he's even tackling one of the biggest challenges of our time. I'm interested in physics. Me too. I'm still interested in nuclear fusion, so recently I started the company of nuclear fusion. Really? Oh yeah! Last year. No way! No way! In 2014, Nakamura, Akizaki, and Amano were awarded the Nobel Prize in Physics for creating the blue LED. Shortly afterwards, Nakamura publicly thanked Nishiya for supporting his work, and he offered to visit and make amends, but they turned down his offer. And today, their relationship is still cold. But perhaps even more important than the Nobel Prize, by the time Nakamura released his blue LED in 1994, he had published over 15 papers, and he finally received his doctorate in engineering. Today, he has published over 900 papers. Throughout his entire journey, one thing has never changed. What is your favorite color? Oh, blue. Was it always blue, or only after you made the LED? I was born in the fishery village. In front of the house is the ocean. Blue, always. Thank you. only after you made the led i was born the fishery village fishery place in front house is awesome while i was learning about nakamura's story i realized that what set him apart from the thousands of researchers trying to unlock the blue led it wasn't necessarily his knowledge but his determination critical-solving skills. Where others saw dead ends, he saw potential solutions. So if you're looking for a free and easy way to start building these skills for yourself right now, look no further than today's sponsor, Brilliant. Brilliant will make you a better thinker and problem solver while helping you build real skills in everything from math and data science to programming, technology, you name it. On Brilliant, you'll learn through discovery by trying things for yourself. And you'll not only gain knowledge of key concepts, but learn to apply them to real-world situations, all while building your intuition, giving you the tools to solve whatever problems come your way. There is so much to learn on Brilliant. They have thousands of interactive lessons on just about anything that you're curious about. And because each lesson is bite-sized, you can do them in just minutes. So if you're like me and made a resolution to learn something new every day this year, Brilliant will help you actually do it. The best part is you can learn from anywhere, right on your phone. So whenever you have a few minutes, you can be building a quicker, sharper mind. So to try everything Brilliant has to offer for free for 30 days, visit Brilliant.org slash Veritasium, or click that link down in the description. And the first 200 of you will get 20% off Brilliant's annual premium subscription. So I want to thank Brilliant for sponsoring this video, and I want to thank you for watching.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.04,
+                4.14
+            ],
+            "text": " LEDs don't get their color from their plastic covers and you can see that"
+        },
+        {
+            "timestamp": [
+                4.14,
+                45.16
+            ],
+            "text": " because here is a transparent LED that also glows the same red color. The color of the light comes from the electronics themselves. The casing just helps us tell different LEDs apart. In 1962, General Electric Engineer Nick Holonyak created the first visible LED. It glowed a faint red. A few years after that, engineers at Monsanto created a green LED. But for decades, all we had were those two colors. So LEDs could only be used in things like indicators, calculators, and watches. If only we could make blue, then we could mix red, green, and blue to make white and every other color,"
+        },
+        {
+            "timestamp": [
+                45.46,
+                48.68
+            ],
+            "text": " unlocking LEDs for every type of lighting in the world,"
+        },
+        {
+            "timestamp": [
+                49.04,
+                52.9
+            ],
+            "text": " from light bulbs to phones to computers to TVs to billboards."
+        },
+        {
+            "timestamp": [
+                54.02,
+                57.5
+            ],
+            "text": " But blue was almost impossible to make."
+        },
+        {
+            "timestamp": [
+                59.7,
+                63.98
+            ],
+            "text": " Throughout the 1960s, every big electronics company in the world,"
+        },
+        {
+            "timestamp": [
+                63.98,
+                86.16
+            ],
+            "text": " from IBM to GE to Bell Labs, raced to create the blue LED. They knew it would be worth billions. Despite the efforts of thousands of researchers, nothing worked. Ten years after Holonyak's original LED turned into 20, then 30, and the hope of ever using LEDs for light faded away."
+        },
+        {
+            "timestamp": [
+                86.8,
+                92.32
+            ],
+            "text": " According to a director at Monsanto, these won't ever replace the kitchen light. They'd"
+        },
+        {
+            "timestamp": [
+                92.32,
+                97.68
+            ],
+            "text": " only be used in appliances, car dashboards, and stereo sets to see if the stereo was on."
+        },
+        {
+            "timestamp": [
+                98.88,
+                104.4
+            ],
+            "text": " This might still be true today, if not for one engineer who defied the entire industry"
+        },
+        {
+            "timestamp": [
+                104.4,
+                265.68
+            ],
+            "text": " and made three radical breakthroughs to create the world's first blue LED. Shuji Nakamura was a researcher at a small Japanese chemical company named Nishiya. They had recently expanded into the production of semiconductors to be used in the manufacture of red and green LEDs. But by the late 1980s, the semiconductor division was on its last legs. They were competing against far more established companies in a crowded market, and they were losing. Tensions started to run high. Younger employees begged Nakamura to create new products, while senior workers called his research a waste of money. And at Nishiya, money was in short supply. Nakamura's lab mainly consisted of machinery he had scavenged and welded together himself. Phosphorus leaks in his lab created so many explosions that his co-workers had stopped checking in on him. By 1988, Nakamura's supervisors were so disillusioned with his research that they told him to quit. So it was out of desperation that he brought a radical proposal to the company's founder and president, Nobuo Ogawa. The elusive blue LED that the likes of Sony, Toshiba and Panasonic had all failed at. What if Nishiya could be the one to create it? After suffering loss after loss on their semiconductors for more than a decade, Ogawa took a gamble. He devoted 500 million yen, or 3 million dollars, likely around 15% of the company's annual profit, to Nakamura's Moonshot project. Everyone knew that LEDs had the potential to replace light bulbs, because light bulbs, the universal symbol for a bright idea, are actually terrible at making light. They work by running current through a tungsten filament which gets so hot it glows. But most of the electromagnetic radiation comes out as infrared heat. Only a negligible fraction is visible light. In contrast, LED stands for light emitting diode. It's right there in the name. LEDs primarily create light, so they're far more efficient. And a diode is just a device with two electrodes, which only allows current to flow in one direction. So here's how an LED works. When you have an isolated atom, each electron in that atom occupies a discrete energy level. You can think of these energy levels like individual seats from a hockey stadium. And all atoms of the same element, when they are far apart from each other, have identical available energy levels."
+        },
+        {
+            "timestamp": [
+                265.68,
+                347.72
+            ],
+            "text": " But when you bring multiple atoms together to form a solid, something interesting happens. The outermost electrons now feel the pull not only of their own nucleus, but of all the other nuclei as well. And as a result, their energy levels shift, so instead of being identical, they become a series of closely spaced but separate energy levels, an energy band. The highest energy band with electrons in it is known as the valence band, and the next higher energy band is called the conduction band. You can think of it like the balcony level. In conductors, the valence band is only partially filled. This means with a little bit of thermal energy, electrons can jump into nearby unfilled seats. And if an electric field is applied, they can jump from one unfilled seat to the next and conduct current through the material. In insulators, the valence band is full, and the difference in energy between the valence and conduction bands, the band gap, is large. So when an electric field is applied, no electrons can move. There are no available seats to move into in the valence band, and the band gap is too big for any electrons to jump into the conduction band. Which brings us to semiconductors. Semiconductors are similar to insulators, except the band gap is much smaller. This means at room"
+        },
+        {
+            "timestamp": [
+                347.72,
+                353.72
+            ],
+            "text": " temperature, a few electrons will have sufficient energy to jump into the conduction band, and now"
+        },
+        {
+            "timestamp": [
+                353.72,
+                359.46
+            ],
+            "text": " they can easily access nearby empty seats and conduct current. Not only that, the empty seats"
+        },
+        {
+            "timestamp": [
+                359.46,
+                364.32
+            ],
+            "text": " they left behind in the valence band can also move. Well, really, it's the nearby electrons"
+        },
+        {
+            "timestamp": [
+                364.32,
+                369.78
+            ],
+            "text": " jumping into those empty seats, but if you look from afar, it's as though the empty seat or"
+        },
+        {
+            "timestamp": [
+                369.78,
+                465.18
+            ],
+            "text": " For more information, visit have to add impurity atoms into the lattice. This is known as doping. For example, in silicon, you can add a small number of phosphorus atoms. Phosphorus is similar to silicon, so it easily fits into the lattice, but it brings with it one extra valence electron. This electron exists in a donor level just beneath the conduction band. So with a bit of thermal energy, all these electrons can jump into the conduction band and conduct current. Since most of the charges that can move in this type of semiconductor are electrons, which are negative, this sort of semiconductor is called n-type, n for negative. But I should point out that the semiconductor itself is still neutral. It's just that most of the mobile charge carriers are negative. They're electrons. So there is also another type of semiconductor where most of the mobile charge carriers are positive, and it's called p-type. To make p-type silicon, you add a small number of atoms of, say, boron. Boron fits into the lattice but brings with it one fewer valence electron than silicon, So it creates an empty acceptor level just above the valence band. And with a bit of thermal energy, electrons can jump out of the valence band, leaving behind holes. It is these positive holes which are mostly responsible for carrying current in the p-type semiconductor. Again, the material overall is uncharged, it's just that most of the mobile"
+        },
+        {
+            "timestamp": [
+                465.18,
+                768.06
+            ],
+            "text": " charge carriers are positive holes. Where things get interesting is when you put a piece of p-type and n-type together. Without even connecting this to a circuit, some electrons will diffuse from n to p and fall into the holes in the p-type. This makes the p-type a little negatively charged and the n-type a little positively charged. So there is now an electric field inside an inert piece of material. Electrons keep diffusing until the electric field becomes so large it prevents them from crossing over. And now we have established the depletion region, an area depleted of mobile charge carriers. There are no electrons in the conduction band, and no holes in the valence band. If you connect a battery the wrong way to this diode, it simply expands the depletion region until its electric field perfectly opposes that of the battery, and no current flows. But if you flip the polarity of the battery, then the depletion region shrinks, the electric field decreases, and electrons can flow from N to P. When an electron falls from the conduction band into a hole in the valence band, that bandgap energy can be emitted as a photon. The energy change of the electron is emitted as light. And this is how a light-em diode works. The size of the bandgap determines the color of the light emitted. In pure silicon, the bandgap is only 1.1 electron volts, so the photon released isn't visible, it's infrared light. These LEDs are actually used in remote controls like for your TV, and you can capture them on camera. Moving up the spectrum you can see why the first visible light LEDs were red and then green and why blue was so hard. A photon of blue light requires more energy and therefore a larger bandgap. By the 1980s after hundreds of millions of dollars had been spent hunting for the right material, every electronics company had come up empty-handed. But researchers had at least figured out the first critical requirement, high-quality crystal. No matter what material you used for the blue LED, it required a near-perfect crystal structure. Any defects in the crystal lattice disrupt the flow of electrons, so instead of emitting their energy as visible light, it is instead dissipated as heat. So the first step in Nakamura's proposal to Ogawa was to disappear to Florida. He knew an old colleague there whose lab was beginning to use a new crystal-making technology called Metal Organic Chemical Vapor Deposition, or MOCVD. An MOCVD reactor, essentially a giant oven, was and still is the best way to mass-produce clean crystal. It works by injecting vapor molecules of your crystal into a hot chamber where they react with a base material called a substrate to form layers. It's important that the substrate lattice matches the crystal lattice being built on top of it to create a stable, smooth crystal. This is a precise art. The crystal layers often need to be as thin as just a couple of atoms. Nakamura joined the lab for a year to master MOCBD, but his time there was miserable. He wasn't allowed to use the working MOCVD, so he spent 10 of his 12 months assembling a new system almost from scratch. Even worse, his labmates shunned him because Nakamura didn't have a doctorate, nor any academic papers to his name, as Nishiya didn't allow publishing. His labmates, all PhD researchers, dismissed him as a lowly technician. This experience fueled him. Nakamura wrote, I feel resentful when people look down on me. I developed more fighting spirit. I would not allow myself to be beaten by such people. He returned to Japan in 1989 with two things in hand. One, an order for a brand new MOCVD reactor for Nishiya, and two, a fervent desire to get his PhD. At that time in Japan, you could earn a PhD without having to go to university, simply by publishing five papers. Nakamura had always known his chances of inventing the blue LED were low, but now he had a backup plan. Even if he didn't succeed, he could at least get his PhD. But now the question was, with MOCVD under his belt, which material should he research? By this time, scientists had narrowed the options down to two main candidates, zinc selenide and gallium nitride. These were both semiconductors with bandgaps theoretically in the blue light range. Zinc selenide was the far more promising option. When grown in an MOCVD reactor, it had only a 0.3% lattice mismatch with its substrate, gallium arsenide. Therefore, zinc selenide crystal had about 1,000 defects per square centimeter,"
+        },
+        {
+            "timestamp": [
+                768.46,
+                770.68
+            ],
+            "text": " within the upper limit for LED functioning."
+        },
+        {
+            "timestamp": [
+                771.46,
+                775.3
+            ],
+            "text": " Its only issue was that while scientists had figured out multiple different ways to create"
+        },
+        {
+            "timestamp": [
+                775.3,
+                779.0
+            ],
+            "text": " N-type zinc selenide, no one knew how to create P-type."
+        },
+        {
+            "timestamp": [
+                780.12,
+                785.72
+            ],
+            "text": " In contrast, gallium nitride had been abandoned by almost everybody for three reasons."
+        },
+        {
+            "timestamp": [
+                786.32,
+                789.36
+            ],
+            "text": " First, it was much harder to make a high-quality crystal."
+        },
+        {
+            "timestamp": [
+                790.04,
+                796.26
+            ],
+            "text": " The best substrate for growing gallium nitride was sapphire, but its lattice mismatch was 16%."
+        },
+        {
+            "timestamp": [
+                796.26,
+                801.6
+            ],
+            "text": " This resulted in higher defects, over 10 billion per square centimeter."
+        },
+        {
+            "timestamp": [
+                802.44,
+                810.04
+            ],
+            "text": " The second problem was that, like zinc selenide, scientists had only ever created N-type gallium nitride using silicon. him."
+        },
+        {
+            "timestamp": [
+                810.04,
+                811.04
+            ],
+            "text": " P-Type is one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                811.04,
+                812.04
+            ],
+            "text": " It's also the most popular game on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                812.04,
+                813.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                813.04,
+                814.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                814.04,
+                815.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                815.04,
+                816.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                816.04,
+                817.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                817.04,
+                818.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                818.04,
+                819.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                819.04,
+                820.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                820.04,
+                821.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                821.04,
+                822.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                822.04,
+                823.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                823.04,
+                824.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                824.04,
+                825.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                825.04,
+                826.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                826.04,
+                827.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                827.04,
+                828.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                828.04,
+                829.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                829.04,
+                830.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                830.04,
+                831.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                831.04,
+                832.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                832.04,
+                833.04
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch."
+        },
+        {
+            "timestamp": [
+                833.04,
+                885.2
+            ],
+            "text": " It's also one of the most popular games on the Nintendo Switch. It's also one of the most popular games on the Nintendo Switch. have a total light output power of at least a thousand microwatts that's two orders of magnitude more than any prototype had ever achieved So So, between the two candidates, almost all researchers were focused on zinc selenide. Nakamura surveyed the crowded field and decided that if he were going to publish five papers by himself, he'd better focus on gallium nitride, where the competition was much less fierce. This material's main claim to fame was one development back in 1972, when RCA engineer Herbert Maruska made a tiny gallium nitride blue LED. But it was dim and inefficient, so RCA slashed the project's budget, calling it a dead end. Twenty years later, scientific opinion hadn't changed. When Nakamura attended the biggest applied physics conference in Japan, the toxon zinc selenide had over 500 attendees. The toxon gallium nitride had five. Two of those five attendees were the world experts on gallium nitride, Dr. Isamu Akazaki and his former grad student, Dr. Hiroshi Amano."
+        },
+        {
+            "timestamp": [
+                967.14,
+                967.56
+            ],
+            "text": " In contrast to Nekomura's academic background, they were researchers at Nagoya University, one of Japan's best. A few years earlier, they had made a breakthrough on the first problem of high-quality crystal. Instead of growing gallium nitride directly on sapphire, they first grew a buffer layer of aluminum nitride. This has a lattice spacing in between that of the other two materials, making it easier to grow a clean gallium nitride crystal on top. The only issue was that the aluminum caused problems for the MOCVD reactor, making the process hard to scale. But Nakamura wasn't even close at this stage. Back at Nishiya, he couldn't get gallium nitride to even grow normally in his new MOCVD reactor. After six months, desperate for results, he decided to take the machine apart and build a better version himself. His ten months spent putting together the reactor in Florida were suddenly invaluable. He began following the same routine each day. Arrive at the lab at 7 a.m. Spend the first half of the day welding, cutting, and rewiring the reactor. Spend the rest of the day experimenting with the modified reactor to see what it can do. At 7 p.m., go home, eat dinner, wash, and sleep. Nakamura repeated this routine every single day,"
+        },
+        {
+            "timestamp": [
+                971.08,
+                971.26
+            ],
+            "text": " taking no weekends and no holidays except for New Year's Day,"
+        },
+        {
+            "timestamp": [
+                973.24,
+                976.04
+            ],
+            "text": " the most important holiday in Japan."
+        },
+        {
+            "timestamp": [
+                979.18,
+                979.52
+            ],
+            "text": " After a year and a half of continuous work,"
+        },
+        {
+            "timestamp": [
+                982.7,
+                983.26
+            ],
+            "text": " he came into the lab on a winter day in late 1990."
+        },
+        {
+            "timestamp": [
+                985.62,
+                1206.5
+            ],
+            "text": " As usual, he tinkered around in the morning, grew a gallium nitride sample in the afternoon, and tested it. But this time, the electron mobility was four times higher than any gallium nitride ever grown directly on SAFIRE. Nakamura called it the most exciting day of his life. His trick was to add a second nozzle to the MOCVD reactor. The gallium nitride reactant gases had been rising in the hot chamber, mixing in the air to form a powdery waste. But the second nozzle released a downward stream of inert gas, pinning the first flow to the substrate to form a uniform crystal. For years, scientists had avoided adding a second stream to MOCVD because they thought it would only introduce more turbulence. But Nakamura used a special nozzle so that even when the streams combined, they remained laminar. He called his invention the two-flow reactor. Now he was ready to take on Akasaki and Amano. But instead of copying their aluminum nitride buffer layer, his two-flow design allowed him to make gallium nitride so smooth and stable, it itself could be used as a buffer layer on the sapphire substrate. This in turn yielded an even cleaner crystal of gallium nitride on top, without the issues of aluminum. Nakamura now had the highest quality gallium nitride crystals ever made. But just as he was getting started, things took a wrong turn. While he had been in Florida, Nobuo Ogawa had stepped back from Nishiya to become chairman. In his day, Nobuo had been a risk-taking scientist, designing the company's first products. It's why he supported Nakamura's lofty plans all this time. But in his place, his son-in-law, Eiji Ogawa, became CEO of the company. And the younger Ogawa had a much stricter outlook. One Nishiya client said, \"'He has a mind of steel, and he remembers everything. In 1990, an executive at Matsushita, an LED manufacturer and Nishiya's biggest customer, visited the company to give a talk on blue LEDs. In it, he claimed zinc selenide was the way forward, declaring, gallium nitride has no future. That very same day, Nakamura received a note from Eiji. Stop work on gallium nitride has no future that very same day nakamura received a note from ag stop work on gallium nitride immediately ag had never supported the research and wanted to end what he saw as a colossal waste but nakamura crumpled up the note and threw it away and he did so again and again when a succession of similar notes and phone calls came from company management. Out of spite, he published his work on the two-flow reactor without Nishiya's knowledge. It was his first paper. One down, four to go. With crystal formation settled, he turned to the second obstacle, creating p-type gallium nitride. Here, Akazaki and Amano had again beaten him to the punch. They had created a gallium nitride sample doped with magnesium. But at first, it didn't perform as a p-type as they expected. However, after exposing it to an electron beam, it did behave as a p-type, the world's first p-type gallium nitride after 20 years of trying the catch was that no one knew why it worked and the process of irradiating each crystal with electrons was too slow for commercial production at first nakamura copied akazaki and amano approach. But he suspected the beam of electrons was overkill."
+        },
+        {
+            "timestamp": [
+                1207.02,
+                1209.06
+            ],
+            "text": " Maybe all the crystal needed was energy."
+        },
+        {
+            "timestamp": [
+                1209.68,
+                1214.1
+            ],
+            "text": " So he tried heating magnesium-doped gallium nitride to 400 degrees Celsius"
+        },
+        {
+            "timestamp": [
+                1214.1,
+                1216.3
+            ],
+            "text": " in a process known as annealing."
+        },
+        {
+            "timestamp": [
+                1216.92,
+                1219.88
+            ],
+            "text": " The result? A completely p-type sample."
+        },
+        {
+            "timestamp": [
+                1220.48,
+                1223.16
+            ],
+            "text": " This worked even better than the shallow electron beam,"
+        },
+        {
+            "timestamp": [
+                1223.16,
+                1265.0
+            ],
+            "text": " which only made the surfaces of the samples p-type. And simply heating things up was a quick, scalable process. His work also revealed why the p-type had been so difficult. To make gallium nitride with MOCVD, you supply the nitrogen from ammonia. But ammonia also contains hydrogen. Where there should have been holes in the magnesium-doped gallium nitride, these hydrogen atoms were sneaking in and bonding with the magnesium, plugging all the holes. Adding energy to the system released the hydrogen from the material, freeing up the holes again. By now, Nakamura had all the ingredients to make a prototype blue LED,"
+        },
+        {
+            "timestamp": [
+                1270.86,
+                1271.78
+            ],
+            "text": " and he presented it at a workshop in St. Louis in 1992 and received a standing ovation."
+        },
+        {
+            "timestamp": [
+                1274.14,
+                1274.9
+            ],
+            "text": " He was beginning to make a name for himself."
+        },
+        {
+            "timestamp": [
+                1277.68,
+                1282.14
+            ],
+            "text": " But even though he had created the best prototype to date, it was more of a blue-violet color and still extremely inefficient,"
+        },
+        {
+            "timestamp": [
+                1282.72,
+                1285.0
+            ],
+            "text": " with a light output power of just 42 microwatts,"
+        },
+        {
+            "timestamp": [
+                1285.96,
+                1289.44
+            ],
+            "text": " well below the 1,000-microwatt threshold for practical use."
+        },
+        {
+            "timestamp": [
+                1290.32,
+                1293.72
+            ],
+            "text": " At Nishiya, the new CEO's patience had run out."
+        },
+        {
+            "timestamp": [
+                1294.32,
+                1300.34
+            ],
+            "text": " Eiji sent written orders to Nakamura to stop tinkering and turn whatever he had into a product."
+        },
+        {
+            "timestamp": [
+                1300.6,
+                1302.24
+            ],
+            "text": " His job was on the line."
+        },
+        {
+            "timestamp": [
+                1302.68,
+                1365.64
+            ],
+            "text": " But in Nakamura's own words, I kept ignoring his order. I had been successful because I didn't listen to company orders and trusted my own judgment. At this point, he only had the third hurdle left, getting his blue LED to a light output power of a thousand microwatts. A known trick to increase the efficiency of LEDs was to create a well, a thin layer of material at the p-n junction called an active layer, that shrinks the bandgap just a bit. This encourages more electrons to fall from the n-type conduction band into holes in the p-type valence band. The best active layer for gallium nitride was already known to be indium gallium nitride, which would not only make the band gap easier to cross, but also narrow it just the right amount to bring its blue-violet gap down to true blue. This time, Akasaki and Amano didn't scoop Nakamura. They were stuck trying to grow indium gallium nitride in the first place. Amano recalled, it was generally said"
+        },
+        {
+            "timestamp": [
+                1365.64,
+                1386.02
+            ],
+            "text": " that gallium nitride and indium nitride would not mix, like water and oil. But Nakamura had an advantage, his ability to customize his MOCVD reactor. This allowed him to use brute force, adjusting the reactor to pump as much indium as he could onto the gallium nitride in the hopes that at least some would stick."
+        },
+        {
+            "timestamp": [
+                1386.6,
+                1387.5
+            ],
+            "text": " To his surprise,"
+        },
+        {
+            "timestamp": [
+                1387.96,
+                1385.58
+            ],
+            "text": " the technique worked, giving him a pump as much indium as he could onto the gallium nitride in the hopes that at least some would"
+        },
+        {
+            "timestamp": [
+                1385.58,
+                1406.0
+            ],
+            "text": " stick. To his surprise, the technique worked, giving him a clean indium-gallium nitride crystal. He quickly incorporated this active layer into his LED, but the well worked a little too well and overflowed with electrons, leaking them back into the gallium nitride layers unfazed within a few months"
+        },
+        {
+            "timestamp": [
+                1406.0,
+                1666.74
+            ],
+            "text": " nakamura had fixed this too by creating the opposite of a well a hill he returned to his reactor one more time to make aluminum gallium nitride a compound with a larger band gap that could block electrons from escaping the well once inside. The structure of the blue LED had become far more complex than anyone could have imagined. But it was complete. By 1992, Shuji Nakamura had this. And I showed the chairman, I told him, please, chairman, come to my office, I show the blue LED, and he said, oh, this is great, you know? And he became so happy. I said, yeah, after my office, yeah, yeah. After 30 years of searching by countless scientists, Nakamura had done it. He had created a glorious bright blue LED that could even be seen in daylight. It had a light output power of 1,500 microwatts and emitted a perfect blue at exactly 450 nanometers. It was over 100 times brighter than the previous pseudo-blue LEDs on the market. Nakamura wrote, I felt like I had reached the top of Mount Fuji. Nishiya called a press conference in Tokyo to announce the world's first true blue LED. The electronics industry was stunned. A researcher from Toshiba remarked, everyone was caught with their pants down. The effect on Nishiya's fortunes was immediate and explosive. Orders flooded in, and by the end of 1994, they were manufacturing one million blue LEDs per month. Within three years, the company's revenue had nearly doubled. In 1996, they made the jump from blue to white by placing a yellow phosphor over the LED. This chemical absorbs the blue photons and re-radiates them in a broad spectrum across the visible range. Soon enough, Nishiya was selling the world's first white LED, at last unlocking the final frontier so many had doubted. LED lighting. Over the next four years, their sales doubled again. By 2001, their revenue was approaching $700 million a year. Over 60% came from blue LED products. Today, Nishiya is one of the largest LED manufacturers in the world, with an annual revenue in the billions. As for Nakamura, to whom Nishiya owed the quadrupling of its fortunes? I heard you only got a $170 bonus. It's patent, patent, patent. So you got a $170 bonus for the patent. Yes, yes. This was all while the blue LED was generating hundreds of millions of dollars in sales. Eiji Ogawa had always seen Nakamura's stubborn individuality as a liability, not a strength. The message was clear. In 2000, after more than 20 years at Nishiya, Nakamura left the company for the U.S., where job offers had been pouring in. But his troubles with Nishiya weren't over. He began consulting for Cree, another LED company. Nishiya was furious and sued him for leaking company secrets. Nakamura responded by countersuing Nishiya for never properly compensating him for his invention, seeking 20 million dollars. In 2001, the Japanese courts ruled with Nakamura and ordered Nishiya to pay him 10 times his initial request. But Nishiya appealed, and the case was eventually settled with a payout of $8 million. In the end, this was only enough to cover Nakamura's legal fees. This is all he got for an invention that now comprises an $80 billion industry. From house lights to street lights, while you watch this video on a phone, computer, or TV, if you're outside following traffic lights or displays, chances are you are relying on blue LEDs."
+        },
+        {
+            "timestamp": [
+                1670.12,
+                1672.74
+            ],
+            "text": " We might even be getting too much of them."
+        },
+        {
+            "timestamp": [
+                1673.1,
+                1679.02
+            ],
+            "text": " You may have heard warnings to avoid blue light from screens before bed because it can disrupt your circadian rhythm."
+        },
+        {
+            "timestamp": [
+                1679.14,
+                1683.04
+            ],
+            "text": " That all comes from the gallium nitride blue LED."
+        },
+        {
+            "timestamp": [
+                1684.8,
+                1847.0
+            ],
+            "text": " But as for lighting, there are virtually no downsides to an LED bulb. Compared to an incandescent or fluorescent bulb, they are far more efficient, they last many times longer, are safer to handle, and are completely customizable. 30 years after the first white LED, high-end bulbs today allow you to choose between 50,000 different shades of white. Most importantly, their price has come down to only a couple of dollars more than other types of bulbs. And at their efficiency, with average daily use and electricity pricing, you can recoup that cost in only two months and continue to save for years after that. The result is a lighting revolution. In 2010, just 1% of residential lighting sales in the world were LED. In 2022, it was over half. Experts estimate that within the next 10 years, nearly all lighting sales will be LED. The energy savings will be enormous. Lighting accounts for 5% of all carbon emissions. A full switch to LEDs could save an estimated 1.4 billion tons of CO2, equivalent to taking almost half the cars in the world off the road. Today, Nakamura's research is on the next generation of LEDs, micro-LEDs and UV-LEDs. So what are they making in there? LED is a power device. This is one of the best facilities in the U.S. And this is because of you? Well, what's a standard LED size? 300 times 200 microns. Smallest is 5 microns. That is insanely tiny. So basically you can use that light in your eye display, such as AR and VR. You could have like a retina display that's like right up here. Human hair would be about that thick. And that's a really, really tiny LED. UV LEDs could be used to sterilize surfaces like in hospitals or kitchens. Just flick on the UV lights and pathogens would be dead in seconds. COVID-19, you know, UV LED company, it's kind of great because everybody is using these UV LEDs. We can sterilize all the COVID-19. For anything there, we use indium gallium nitride. For UV, we use aluminum gallium nitride. OK. Because bandgap is much bigger. Do you think this is what's coming? It's OK, it works, but probably the cost. The cost is too high. Change is less than 10%. The cost is very high. But if the efficiency becomes more than 50%, the cost is almost comparable to the market now."
+        },
+        {
+            "timestamp": [
+                1847.0,
+                1850.0
+            ],
+            "text": " And you think it will happen, right? Like the efficiency will go up."
+        },
+        {
+            "timestamp": [
+                1850.0,
+                1851.0
+            ],
+            "text": " Yeah, yeah, I think so."
+        },
+        {
+            "timestamp": [
+                1851.0,
+                1852.0
+            ],
+            "text": " It's just a matter of time."
+        },
+        {
+            "timestamp": [
+                1852.0,
+                1853.0
+            ],
+            "text": " Yeah, I think so."
+        },
+        {
+            "timestamp": [
+                1854.0,
+                1858.0
+            ],
+            "text": " And he's even tackling one of the biggest challenges of our time."
+        },
+        {
+            "timestamp": [
+                1858.0,
+                1859.0
+            ],
+            "text": " I'm interested in physics."
+        },
+        {
+            "timestamp": [
+                1859.0,
+                1860.0
+            ],
+            "text": " Me too."
+        },
+        {
+            "timestamp": [
+                1860.0,
+                1906.36
+            ],
+            "text": " I'm still interested in nuclear fusion, so recently I started the company of nuclear fusion. Really? Oh yeah! Last year. No way! No way! In 2014, Nakamura, Akizaki, and Amano were awarded the Nobel Prize in Physics for creating the blue LED. Shortly afterwards, Nakamura publicly thanked Nishiya for supporting his work, and he offered to visit and make amends, but they turned down his offer. And today, their relationship is still cold. But perhaps even more important than the Nobel Prize, by the time Nakamura released his blue LED in 1994, he had published over 15 papers, and he finally received his doctorate in engineering. Today, he has published over"
+        },
+        {
+            "timestamp": [
+                1906.36,
+                1913.56
+            ],
+            "text": " 900 papers. Throughout his entire journey, one thing has never changed."
+        },
+        {
+            "timestamp": [
+                1913.56,
+                1914.56
+            ],
+            "text": " What is your favorite color?"
+        },
+        {
+            "timestamp": [
+                1914.56,
+                1915.56
+            ],
+            "text": " Oh, blue."
+        },
+        {
+            "timestamp": [
+                1915.56,
+                1921.44
+            ],
+            "text": " Was it always blue, or only after you made the LED?"
+        },
+        {
+            "timestamp": [
+                1921.44,
+                1929.76
+            ],
+            "text": " I was born in the fishery village. In front of the house is the ocean. Blue, always."
+        },
+        {
+            "timestamp": [
+                1929.76,
+                2006.28
+            ],
+            "text": " Thank you. only after you made the led i was born the fishery village fishery place in front house is awesome while i was learning about nakamura's story i realized that what set him apart from the thousands of researchers trying to unlock the blue led it wasn't necessarily his knowledge but his determination critical-solving skills. Where others saw dead ends, he saw potential solutions. So if you're looking for a free and easy way to start building these skills for yourself right now, look no further than today's sponsor, Brilliant. Brilliant will make you a better thinker and problem solver while helping you build real skills in everything from math and data science to programming, technology, you name it. On Brilliant, you'll learn through discovery by trying things for yourself. And you'll not only gain knowledge of key concepts, but learn to apply them to real-world situations, all while building your intuition, giving you the tools to solve whatever problems come your way. There is so much to learn on Brilliant. They have thousands of interactive lessons on just about anything that you're curious about. And because each lesson is bite-sized, you can do them in just minutes. So if you're like me and made a resolution to learn something new every day this year, Brilliant will help you actually do it. The best part is you can learn from anywhere, right on your phone. So whenever you have a few minutes, you can be building a quicker, sharper mind."
+        },
+        {
+            "timestamp": [
+                2006.28,
+                2010.92
+            ],
+            "text": " So to try everything Brilliant has to offer for free for 30 days, visit Brilliant.org"
+        },
+        {
+            "timestamp": [
+                2010.92,
+                2014.36
+            ],
+            "text": " slash Veritasium, or click that link down in the description."
+        },
+        {
+            "timestamp": [
+                2014.36,
+                2018.96
+            ],
+            "text": " And the first 200 of you will get 20% off Brilliant's annual premium subscription."
+        },
+        {
+            "timestamp": [
+                2018.96,
+                2022.76
+            ],
+            "text": " So I want to thank Brilliant for sponsoring this video, and I want to thank you for watching."
+        }
+    ]
+}

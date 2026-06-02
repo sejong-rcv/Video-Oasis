@@ -1,0 +1,34 @@
+{
+    "video_id": "video_8235.mp4.mp3",
+    "transcript": " Thank you for watching the video. Please subscribe to the channel if you like the video. Thank you for watching the video. Thank you for watching the video.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " Thank you for watching the video."
+        },
+        {
+            "timestamp": [
+                5.0,
+                10.0
+            ],
+            "text": " Please subscribe to the channel if you like the video."
+        },
+        {
+            "timestamp": [
+                10.0,
+                15.0
+            ],
+            "text": " Thank you for watching the video."
+        },
+        {
+            "timestamp": [
+                15.0,
+                20.0
+            ],
+            "text": " Thank you for watching the video."
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "video_id": "7141686631676808454.mp4.mp3",
+    "transcript": " I live my day as if it was the last Live my day as if it was no past Doin' it all night, all summer Doin' it the way I wanna Got my day, my heart up till the dawn But I won't be done",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.54
+            ],
+            "text": " I live my day as if it was the last"
+        },
+        {
+            "timestamp": [
+                2.54,
+                4.92
+            ],
+            "text": " Live my day as if it was no past"
+        },
+        {
+            "timestamp": [
+                4.92,
+                6.98
+            ],
+            "text": " Doin' it all night, all summer"
+        },
+        {
+            "timestamp": [
+                6.98,
+                9.54
+            ],
+            "text": " Doin' it the way I wanna"
+        },
+        {
+            "timestamp": [
+                9.54,
+                12.32
+            ],
+            "text": " Got my day, my heart up till the dawn"
+        },
+        {
+            "timestamp": [
+                12.32,
+                13.54
+            ],
+            "text": " But I won't be done"
+        }
+    ]
+}

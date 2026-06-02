@@ -1,0 +1,20 @@
+{
+    "video_id": "Top010_00765.mp4.mp3",
+    "transcript": " Can you tell us who the woman in the picture is? Oh, yes. The woman in the picture is me.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.7,
+                3.1
+            ],
+            "text": " Can you tell us who the woman in the picture is?"
+        },
+        {
+            "timestamp": [
+                3.58,
+                6.52
+            ],
+            "text": " Oh, yes. The woman in the picture is me."
+        }
+    ]
+}

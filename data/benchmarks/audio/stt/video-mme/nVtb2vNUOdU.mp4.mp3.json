@@ -1,0 +1,398 @@
+{
+    "video_id": "nVtb2vNUOdU.mp4.mp3",
+    "transcript": " This video is brought to you by Aura. Hi, welcome to another episode of ColdFusion. 220%, that's the astonishing increase in the share price of the California-based chipmaking giant. They've secured the position as the highest performing stock in the S&P 500 for 2023. Traditionally, NVIDIA is the company behind companies. It powers Netflix, Adobe, Airbnb, NASA, and even Kellogg's cloud services. For those outside the tech space, NVIDIA is probably the largest company that you've never heard of. According to Amazon, more than 90% of Fortune 100 companies use AWS or Amazon Web Services, which is powered by NVIDIA's hardware. Today, NVIDIA helps power AI systems like ChatGPT and partners with Google, too. It's also used in Amazon's robot warehouses. In summary, NVIDIA is a much bigger deal than most people realize. They're not just a company that makes graphics cards for gaming, even though that's what they've become known for. They're selling shovels in a gold rush, providing the infrastructure for the digital age. And for that, today, NVIDIA is worth over $1 trillion. While there are questions of whether a company with a $1.2 trillion market cap is part of a bubble, there is no doubt the influence NVIDIA has had on the wider wider industry from very nearly going bankrupt in 1995 it's been a remarkable turnaround in this episode we explore nvidia's extraordinary journey from technical feats to price controversies unveiling the company's true size and history the 1990s a decade of fuzzy TV, dial-up internet and beige boxes. Those of us who grew up in this decade also witnessed the evolution of the personal computer. In the early 90s, rendering a file browser window or chunks of text was about all the graphics that you'd need. CPUs were powerful enough for that. Unless you were in the animation or engineering industry, there was no need for complicated graphics. If you wanted that, video game consoles were the answer. But what if there was a separate hardware processor that could easily bring graphics to the personal computing world? Tucked away in sunny California, a trio of engineers, Jensen Huang, Chris Malachowski, and Curtis Priam were thinking the same thing. They would meet at a local Denny's where endless cups of coffee fueled their conversations. At one of these meetings, the trio noticed something. A CPU, which is the heart of the computer is designed as a general purpose processor that can only tackle one task at a time a method known as serial processing at the time generating 3d graphics for video games placed tremendous repetitive math intensive demands on cpus if there was a separate chip that could do parallel processing, it would be a game changer. In other words, this chip would divide complex tasks into smaller ones and carry them out at the same time. This approach is far more efficient for tasks like rendering 3D graphics, where many calculations can be done at the same time. This new chip wouldn't replace the CPU, but would complement it for graphical tasks. This would later be known as a GPU. And this idea was the beginning of NVIDIA. It was a simple idea with modern hindsight, but it would revolutionize not only computing, but computer science over the next 20 years. But right now, NVIDIA's focus was on the gaming experience on PCs in the 90s, and that market had potential. Big potential. So, in 1993, in a condo in Fremont, California, NVIDIA was founded with the idea of applying the use of parallel processing GPUs in home computers. Fun fact, the name NVIDIA is actually the portmentau of NV, short for Next Version, and NVIDIA, which means envy in Latin. You'll notice all the green on their logos. This represents the envy, which they hoped everyone would feel due to the computing power their chip would generate. Before we continue, let's hear a quick word from today's sponsor, Aura. Every day, countless people are affected by data brokers. They're making a fortune by selling your information to robocallers and scammers. They can know a lot about you, including your name, phone number, and address. But how could this be stopped? This is where today's sponsor, Aura, comes in. They can identify data brokers and submit opt-out requests on your behalf. Brokers are legally required to remove your information if you ask them but they make it notoriously hard to do. You can let Aura handle that for you. Aura does so much more to protect you and your family from online threats. It's easy to set up so you don't have to download several different apps to get things like parental controls, antivirus, a VPN, management identity theft insurance and more you get everything all at once at an affordable price visit aura.com cold fusion to get started on a two-week free trial thank you all right back to the video nvidia's founders were top engineers jensen huang a Taiwanese-American electrical engineer, had a track record as the director of coreware at LSI Logic and a microprocessor designer at AMD. Remember the name LSI Logic? This company would prove pivotal to NVIDIA making it off the ground at all. The two other founders were also capable capable Chris Malachowski brought engineering expertise from his time at HP and Sun Microsystems and Curtis Prim was a former graphics chip designer at IBM and Sun Microsystems though being a qualified engineer is one thing but launching a startup is another and this is something that Nvidia's founders learned firsthand. In fact, at first, they weren't even sure what to do. So, they hired a lawyer to come to one of their meetings in 1993. The first step was incorporating the company. To get the ball rolling, they needed some initial capital to value the company's shares. Jensen Huang had $200 in his pocket, which he handed to the lawyer. This modest sum not only got the company incorporated, but also earned Huang a 20% stake in NVIDIA. The next step was to get the company funded. This process, however, was not easy. As NVIDIA's founders soon learned, venture capitalists weren't interested in polished business plans. Instead, they banked on their founder's reputation, past success, and a grand vision big enough to be worth the risk. NVIDIA would eventually secure $20 million in funding from Sequoia Capital and Sutter Hill Ventures. To an outsider, this seems absurd. How could a brand new company secure $20 million in funding just like that? In reality, it was Jensen Huang's previous connection to LSI Logic, the company that I mentioned earlier, that made the funding possible. Jensen would reach out to LSI's CEO, who would arrange a meeting with Sequoia Capital. Sequoia had previously invested in LSI Logic, which delivered a record-breaking $150 million return through its IPO. With Hwang's reputation within LSI, Sequoia was willing to listen when he came knocking. At first, Sequoia's founder was skeptical about investing in a graphics card company. But they eventually took the gamble and invested an initial sum of $2 million, followed by a further $18 million. What I'm going to say next is some key context here. This was a very risky decision. At the time, there were 89 other companies with similar ambitions to NVIDIA, but the fact of the matter is, except for AMD and NVIDIA, none of these other companies would survive. When NVIDIA went public in 1999, it was valued at $600 million. So, the risk of the initial investment paid off handsomely, multiplied by 100 times handsomely. But we're getting ahead of ourselves. At this stage in the story, NVIDIA was just a small group of engineers. After receiving funding, it took NVIDIA two years to build a team and create their first product, the NV1, which was officially launched in 1995. During the development of the NV1 chip, NVIDIA secured a deal with Sega. This was to manufacture NV1 chips for their gaming consoles. These chips were intended for games such as Virtua Fighter and Daytona. The thing was, NV1 chips were also available for computers. So that means you could play Sega Saturn games natively on your PC in 1995. For context, the first PlayStation only came out a year earlier. Till this day, I don't think I've seen anything similar done since. It's like if Sony was to build a computer graphics card and you could slot that into your desktop and play PS5 games natively. But there was a problem though. Nvidia chose to use a quadrangle based image rendering architecture for their NV1 chips and Sega was not pleased with this. Regardless, Nvidia's leadership refused to change their decision. So the question is, why did they choose to render polygons and quadratics instead of triangles? Well, that choice is explained in this video by Lazy Game Reviews. This uses quads, or squares, instead of triangles to speed up rendering by reducing the CPU workload. At least in theory, this results in fewer polygons and renders better rounded objects. So you could actually make things with squares instead of just a bunch of triangles everywhere. And at the time, with a lot lower speeds of CPUs and memory clocks and all that stuff, it made sense to use squares instead of triangles, at least in some situations, to get better-rounded objects or models in your game, because because triangles you had more processing power required now as memory got better and better this made little sense and it also kind of made little sense at the time because this meant that there was no support for open gl they didn't even want to include it i read a statement by nvidia and sgs thompson saying that they didn't think consumers would need OpenGL at all, so they just didn't bother with it. And then by the time Direct3D came along, and DirectX, this couldn't do that either, because it didn't support rendering through quads, only through traditional triangles and those types of polygons. They did release a driver or a patch for it to update it to run DirectX, but only through software. So you're effectively running a hardware accelerator in software mode to run hardware accelerator, DirectX, Direct3D stuff. It made no sense. Despite the innovation, the project was an abject failure. It was designed to be a jack of all trades, combining 3D graphics, video and audio processing, and a host of other functions into a single chip. As Jensen Huang would later put it, it was an octopus, complicated, multifaceted, and perhaps too ahead of its time. The end result was a failure to capture the market's attention. What the market did want was something much simpler. They wanted a dedicated 3D graphics chip. They didn't want an all-in-one solution like the NV1 chip. Aside from that, it was overpriced compared to the competition. To make matters worse, the wider industry was moving in a different direction. Microsoft had recently introduced DirectX, a new API that favored a triangle-based standard for 3D graphics rendering. It made coding for graphics easier for developers, so they naturally flocked to it. This shift meant that the NV1 chip was incompatible with DirectX. As a result, many existing games suffered from performance issues or were outright unplayable on Nvidia's new chip. The incompatibility was a significant blow to Nvidia. Their customer partner, Diamond Multimedia, returned the vast majority of the 250,000 NV1 units they had purchased. They cited poor sales and a lack of game support. This return nearly bankrupted Nvidia, forcing them to lay off 40 of their 80 employees, and leaving them with a stockpile of unsellable chips. In essence, it was a $10 million disaster. Amidst the turmoil, Nvidia was in the process of developing the NV2 chip for Sega, but it too was based on the same outdated quadrangle architecture. NVIDIA now knew that they had to pivot to survive. Jensen Huang had a major problem here. In a hail-merry move, he approached Sega's CEO with a request. Let us be released from the contract, but with full payment. NVIDIA desperately needed this money to keep the company afloat. In an act of extraordinary kindness, Sega's CEO agreed to Huang's request. This act of generosity allowed NVIDIA to redirect its focus and resources towards a path that aligned with the industry's direction. If Sega pulled out their investment at that time, NVIDIA would have ceased to exist. Overall, the NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA Sega pulled out their investment at that time, NVIDIA would have ceased to exist. Overall, the NV1's failure became a critical learning experience for NVIDIA. They realized the need to understand customer needs and market trends. This shaped NVIDIA's strategy moving forward. I think it's pretty wild how close NVIDIA came to failing and now being worth over a trillion dollars. Making the decision to listen to the market and focus on PCs was the start of their success. After their initial failure, NVIDIA chose to launch into the PC industry, this time with a straightforward product. The PC market was booming, and all they had to do was lie in wait and pounce at the right time. In 1999, NVIDIA entered the PC graphics market with the GeForce 256 graphics card. This card wasn't just a hit, it transformed the landscape as the first programmable graphics card. It also popularized the term GPU or graphics processing unit. It allowed both regular gamers and developers to explore new possibilities with shading and lighting effects. This significantly enhanced the gaming experience. As NVIDIA rode this wave of success, the company went public in the same year. By 2000, NVIDIA had secured a major deal to develop graphics hardware for Microsoft's Xbox game console. This deal gave NVIDIA a substantial $200 million advance, a far cry from the previous game console effort with Sega. The Xbox would launch in 2001 with a custom console-ready chip called the NV2-A. With this success as a launchpad, NVIDIA thrived throughout the 2000s. They played a key role in crafting Sony's PlayStation 3 processors. Massive brands in the computer industry like Apple, Dell and HP started using NVIDIA's GPUs. The company continued to grow from strength to strength. Let's take a look at the strategies and technologies that got them there. One of NVIDIA's most important strategic decisions was to operate as a Fabless chip company. So what is a Fabless chip company? Well, Fabless chip companies design the chips, but they don't physically manufacture them. Jensen Huang, NVIDIA's CEO, was very very particular about this decision a decision to drastically keep costs down in nvidia's case tsmc or taiwan semiconductor manufacturing company has been their manufacturing partner for the last three decades tsmc is the world's largest and most advanced semiconductor foundry. It provides manufacturing services for other big chip design companies, including Apple, AMD, Qualcomm, and others. TSMC played a major role in NVIDIA's continuous success, as they have the best manufacturing capabilities on earth. Jensen Huang knows this well. In his own words, quote, NVIDIA today would not be here if not for the pioneering work TSMC did. While NVIDIA's manufacturing was outsourced, the company could direct resources to innovation. They began to shift their focus beyond gaming chips and graphics. They realized GPUs and the parallel processing power they possessed could be used for so much more. NVIDIA now sought to give developers the tools and software to harness the full potential of the GPU. In 2006, NVIDIA launched a software toolkit called CUDA. Prior to CUDA, programming a GPU required a lot of tinkering and was a real headache for coders. It involved complex, low-level machine language or APIs. But with CUDA, it became much easier to write programs that could run on GPUs using standard languages like C, C++, and Java. The impact? Many more applications rather than just graphics could use parallel processing power. It opened up possibilities for all sectors that required dealing with huge amounts of data. The trend started in 2008 when the Tokyo Institute of Technology used CUDA-accelerated GPUs for their supercomputer, Tsubame 1.01. Since then, many other data centers such as Amazon Web Services, Google Cloud Platform, and Netflix have adopted GPUs for various applications. These include cloud computing, machine learning, video streaming, and web search. But the real acceleration came about with the AI boom. 2012 is the year that many consider the big bang moment for AI. This was also the year that NVIDIA's innovations would be involved in a significant AI breakthrough. This breakthrough happened at ImageNet, an annual global competition where teams from around the world would compete to see how well their software could recognize objects and scenes and images. Alex Kraszewski, a PhD student at the University of Toronto at the time, participated in the competition with a novel approach. He leveraged the power of GPUs to enhance the computing efficiency of his deep learning neural network, AlexNet. Deep learning is a process where computers can learn by themselves without the help of programmers. By connecting two NVIDIA GeForce GTX 5080 gaming cards to his computer, Kraszewski was able to process AlexNet's neural network with 1.2 million images. The result was remarkable at the time. The image recognition accuracy showed a 15% error rate, down from 25% the year before. It's laughable today. tools like ChatGPT, Google Gemini, and even Google Lens can do that now with much more accuracy. But back then, it was revolutionary. It was this event that thawed the AI winter. After decades of experts accepting that neural networks would never be practical, this proved them wrong. The NVIDIA GeForce GTX 580 cards were significant because they were optimized for CUDA, which of course allows for the implementation of parallel algorithms. They were crucial for deep learning tasks performed by AlexNet AI. Now the door had been swung wide open for many possibilities in deep learning applications, and NVIDIA was ready for it. The strategic time and investment into CUDA and the software ecosystem around it was paying off. NVIDIA's GPUs are now the de facto standard for training and deploying generative AI and large language models. For example, OpenAI, renowned for ChatGPT, uses A100 series GPUs and this is for the rapid and widespread deployment of their AI models. After ChatGPT burst into the scene in November 2022, all of the major tech companies hoping to jump on the AI hype scrambled to get their hands on Nvidia's GPUs. The A100 GPUs were especially flying off the shelf. Microsoft alone was using a whopping 10,000 of them. One single A100 unit would cost $10,000, and Nvidia was selling hundreds of thousands of units. As a result of this frenzy, Nvidia's sales soared to $13.5 billion in the quarter ending July 2023. That's a staggering 101% increase from the year before. On May 25th, their stock obtained $184 billion in market value in just one day. And finally, on May 30th, 2023, Nvidia became the sixth company in the world to reach that magic $1 trillion market cap, joining the likes of Apple, Microsoft, Amazon, Alphabet, and Tesla. At the time of writing in December 2023, the company is worth $1.15 trillion. NVIDIA's impact on the healthcare industry is also notable. In 2022, a genomic sequencing technique by NVIDIA set a Guinness World Record for the fastest DNA sequencing, completing the feat in 5 hours and 2 minutes. NVIDIA's chip technology has impacted further fields. The Tegra chips, once designed for mobile phones, drive major e-commerce operations in self-driving cars. Tesla used those chips to power their Model 3s from 2016 to 2019. Tesla now uses its own chips but NVIDIA provides semi-autonomous driving technologies for other automakers like Mercedes-Benz. So how is such a company run? How were pivots made so quickly to serve so many sectors with one-tenth the employees of Microsoft? Let's take a quick detour into NVIDIA's management style, as I think it's quite interesting. Jensen Huang, CEO, manages a team of 40 directly, and he believes in the power of a flat organizational structure. There's no exclusive meetings with just VPs or directors. Anyone can join and pitch in. No career advice sessions either, because, as Huang puts it, his management team has already aced it. He also opts for a more dynamic approach by encouraging anyone in the company to shoot him their, quote, top five things on the fly. When it comes to information flow, everyone is in the know at all times. This ensures that information zips around quickly. There's no planning cycle, such as a grand five-year or one-year plan. It's all about being agile and adapting to the ever-evolving business and market conditions, especially in the rapidly changing field of AI. Jensen also has an eye for top-notch talent and keeping the team lean. Though, amidst the post-COVID economic slump, major tech firms like Facebook, Amazon, and Google dismissed thousands of workers. In contrast, NVIDIA pledged to avoid layoffs or salary reductions, promising raises for staff instead. Since their layoff disaster in 1995 with the Sega chip, NVIDIA's internal operations in regards to this has changed drastically. An example of this was in 2008 when NVIDIA's Tegra chip failed. NVIDIA was hoping to enter the mobile industry and created the Tegra smartphone chip. As a side, there was actually a Tegra-powered Android tablet called the Asus Transformer. I had one of these back in the day, and I found the performance to be pretty underwhelming. Many others must have thought so so too because the chip failed to gain traction and flopped. A team of more than a thousand engineers were responsible for the development of the Tegra series. Instead of getting rid of them after the chip's failure, Jensen retained the team and encouraged them to explore new avenues. That team later collaborated with Nvidia's existing automotive unit and together they would create chips for self-driving cars. So we've touched on a lot of what NVIDIA is involved in and what they've been doing but there's still one key sector that we need to talk about. Their original focus. Gaming. Although NVIDIA has diversified, they have not totally abandoned the gaming market. GPUs are still at the core of their business. In 2018, Nvidia launched the RTX series of graphics cards, popularizing a technology called ray tracing. Ray tracing is a demanding technique that simulates the paths of light. It creates more realistic shadows, reflections and effects. Previously, this usually wasn't a real-time effect. It was only mainstream within the 3D art and animation sectors. In Jensen Huang's view, ray tracing was only possible because of NVIDIA's research in physics simulation and artificial intelligence. He explained that NVIDIA uses AI to generate 7 out of 8 pixels in a scene based on one ray traced pixel. It's like a jigsaw where the AI fills in the missing pieces. NVIDIA also popularized the AI upscaling of video games in real time, a process called DLSS. In theory, it allows for sharper, higher resolution games without the computational load. But in all of this, there's been an issue with NVIDIA's GPUs. And now we get into the controversies. The year is 2018, and the crypto mining boom is at its height. Miners rushed out to buy as many GPUs as they could to make some cash. As a result, demand for GPUs went through the roof, and the supply dried up for those who normally use them, that is, gamers. Prices soared by upwards of 71% in some cases. Amidst this surge, NVIDIA's gaming revenue increased by 26% to $1.65 billion. NVIDIA would tout that the initial 2018 growth in revenue was caused by the gaming market and they downplayed the effects of the crypto boom, the real cause of the revenue boost. With this wording, investors' ability to accurately evaluate the company's performance was compromised. Their unknowingly risky investments eventually crashed along with the crypto crash. This incident attracted the attention of the US Securities and Exchange Commission, and NVIDIA was charged with unlawfully shrouding information. NVIDIA would settle in 2022 by paying a $5.5 million penalty, and they didn't admit any guilt or wrongdoing, but they did agree to improve their revenue source disclosures. In response to this, in 2021, Nvidia decided to introduce a dedicated cryptocurrency mining processor or CMP line. This was supposedly to address the shortage in gaming cards. But at $4,300 per CMP, crypto miners would just rather buy regular gaming graphics cards. Jensen Huang is the only CEO of a tech giant who has been at the helm since the company's inception. It's been 30 years, and his long and successful leadership has also attracted some criticism over the years. One of the most controversial aspects of his management style is his relentless pursuit of profit, which sometimes borders on greed being fined by the sec the lack of transparency left many investors feeling misled and aside from this the gaming community in particular is not thrilled for shelving out so much for their graphics cards there's an unmissable chatter online conveying that nvidia cards are just too overpriced especially in the mid-range sector where amd are more competitive a notable incident that brought huang's business ethics into question was the 2022 fallout would evga evga was a key partner in producing nvidia's gpus they chose to sever ties with nvidia and withdraw from the gpu market this decision according to evga's ceo and Han, was rooted in principle, stemming from NVIDIA's unsatisfactory communication about contentious pricing strategies. Such controversies have cast a shadow over Huang's leadership, challenging the integrity of his profit-driven approach. Maybe to emphasize the challenges, Huang recently stated in an interview that if he was allowed to go back in time, he would choose to not relive this career path. Starting and running a company the size of Nvidia was a headache. He says that he faced many struggles and hardships as an entrepreneur, all the way from laying off those employees with the NV1 chip back in 1995, to competing with bigger rivals and dealing with the constant pressure of uncertainty in his view nobody in their right mind would want to endure that pressure if you were magically 30 years old again today in 2023 and you were going to denny's with your two best friends who are the two smartest people you know and you're talking about starting a company what are you talking about starting i wouldn't do it. I know. And the reason for that is really quite simple. Ignoring the company that we would start. First of all, I'm not exactly sure the reason why I wouldn't do it. And it goes back to why it's so hard is building a company and building a video turned out to have been a million times harder than I expected it to be any of us expected it to be and at that time if we realize the pain and suffering and just how vulnerable you you're going to feel um and the challenges that you're going to endure uh the embarrassment and the shame and you know the list of all the things that that go wrong i don't think anybody would start a company nobody in their right mind would do it and i think that that's Thanks for watching! you know, the list of all the things that go wrong, I don't think anybody would start a company. Nobody in their right mind would do it. And I think that that's... NVIDIA has seen massive growth over the past two years. They were just in the right place at the right time. The share price has increased by 220% in the last year and revenue growth 206%. But will it last? Opinions are split. There are two main viewpoints. One is that AI will continue to be a massive industry, and it's only just getting started. This viewpoint believes that NVIDIA will keep riding this wave. They're currently going all in on AI research, publishing paper after paper that are complete bangers. The other view is that this growth is unsustainable. As it turns out, NVIDIA isn't going to be the only player in the GPU slash AI hardware space. Both Amazon and Microsoft are looking to make their own custom-based chips. On the desktop computing space, Microsoft has entered the arena with their Arc series. AMD is also gaining ground. Furthermore, NVIDIA's heavy reliance on Taiwan-based TSMC for its semiconductor chip production may prove problematic. This is due to China's increased military pressure on Taiwan. But this isn't just for NVIDIA, but for the entire global semiconductor supply chain. There are now more threats in this chip space to NVIDIA today than there have been in many years, so we'll need to wait and see what happens. So there you have it, the NVIDIA story so far. It's been quite a journey, so I hope that you found it enjoyable and picked up some new insights. Currently, NVIDIA is riding on an all-time high, but whether this is a pivotal trend or a bubble remains to be seen. I'm curious to hear your thoughts. Do you have an NVIDIA card? And what's your opinion on the company? Positive, neutral, or negative? And were you surprised by the amount of things they have their hands in? Feel free to discuss in the comment section below. Alright, so that's about it from me. Thanks for watching. My name is Dagogo, you've been watching ColdFusion and I'll see you again soon for the next episode. Cheers guys. Have a good one.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.72,
+                86.88
+            ],
+            "text": " This video is brought to you by Aura. Hi, welcome to another episode of ColdFusion. 220%, that's the astonishing increase in the share price of the California-based chipmaking giant. They've secured the position as the highest performing stock in the S&P 500 for 2023. Traditionally, NVIDIA is the company behind companies. It powers Netflix, Adobe, Airbnb, NASA, and even Kellogg's cloud services. For those outside the tech space, NVIDIA is probably the largest company that you've never heard of. According to Amazon, more than 90% of Fortune 100 companies use AWS or Amazon Web Services, which is powered by NVIDIA's hardware. Today, NVIDIA helps power AI systems like ChatGPT and partners with Google, too. It's also used in Amazon's robot warehouses. In summary, NVIDIA is a much bigger deal than most people realize. They're not just a company that makes graphics cards for gaming, even though that's what they've become known for. They're selling shovels in a gold rush, providing the infrastructure for the digital age. And for that, today, NVIDIA is worth over $1 trillion. While there are questions of whether a company with a $1.2 trillion market cap is part of a bubble, there is no doubt the influence NVIDIA has had on the wider wider industry from very nearly going bankrupt in 1995"
+        },
+        {
+            "timestamp": [
+                86.88,
+                166.24
+            ],
+            "text": " it's been a remarkable turnaround in this episode we explore nvidia's extraordinary journey from technical feats to price controversies unveiling the company's true size and history the 1990s a decade of fuzzy TV, dial-up internet and beige boxes. Those of us who grew up in this decade also witnessed the evolution of the personal computer. In the early 90s, rendering a file browser window or chunks of text was about all the graphics that you'd need. CPUs were powerful enough for that. Unless you were in the animation or engineering industry, there was no need for complicated graphics. If you wanted that, video game consoles were the answer. But what if there was a separate hardware processor that could easily bring graphics to the personal computing world? Tucked away in sunny California, a trio of engineers, Jensen Huang, Chris Malachowski, and Curtis Priam were thinking the same thing. They would meet at a local Denny's where endless cups of coffee fueled their conversations. At one of these meetings, the trio noticed something. A CPU, which is the heart of the computer is designed"
+        },
+        {
+            "timestamp": [
+                166.24,
+                229.04
+            ],
+            "text": " as a general purpose processor that can only tackle one task at a time a method known as serial processing at the time generating 3d graphics for video games placed tremendous repetitive math intensive demands on cpus if there was a separate chip that could do parallel processing, it would be a game changer. In other words, this chip would divide complex tasks into smaller ones and carry them out at the same time. This approach is far more efficient for tasks like rendering 3D graphics, where many calculations can be done at the same time. This new chip wouldn't replace the CPU, but would complement it for graphical tasks. This would later be known as a GPU. And this idea was the beginning of NVIDIA. It was a simple idea with modern hindsight, but it would revolutionize not only computing, but computer science over the next 20 years. But right now, NVIDIA's focus was on the gaming experience on PCs in the 90s, and that market had potential. Big potential."
+        },
+        {
+            "timestamp": [
+                345.94,
+                350.26
+            ],
+            "text": " So, in 1993, in a condo in Fremont, California, NVIDIA was founded with the idea of applying the use of parallel processing GPUs in home computers. Fun fact, the name NVIDIA is actually the portmentau of NV, short for Next Version, and NVIDIA, which means envy in Latin. You'll notice all the green on their logos. This represents the envy, which they hoped everyone would feel due to the computing power their chip would generate. Before we continue, let's hear a quick word from today's sponsor, Aura. Every day, countless people are affected by data brokers. They're making a fortune by selling your information to robocallers and scammers. They can know a lot about you, including your name, phone number, and address. But how could this be stopped? This is where today's sponsor, Aura, comes in. They can identify data brokers and submit opt-out requests on your behalf. Brokers are legally required to remove your information if you ask them but they make it notoriously hard to do. You can let Aura handle that for you. Aura does so much more to protect you and your family from online threats. It's easy to set up so you don't have to download several different apps to get things like parental controls, antivirus, a VPN, management identity theft insurance and more you get everything all at once at an affordable price visit aura.com cold fusion to get started on a two-week free trial thank you all right back to the video nvidia's founders were top engineers jensen huang a Taiwanese-American electrical engineer, had a track record as the director of coreware at LSI Logic and a microprocessor designer at AMD. Remember the name LSI Logic? This company would prove pivotal to NVIDIA making it off the ground at all. The two other founders were also capable capable Chris Malachowski brought engineering expertise from his time at HP and Sun"
+        },
+        {
+            "timestamp": [
+                350.26,
+                355.36
+            ],
+            "text": " Microsystems and Curtis Prim was a former graphics chip designer at IBM and"
+        },
+        {
+            "timestamp": [
+                355.36,
+                360.16
+            ],
+            "text": " Sun Microsystems though being a qualified engineer is one thing but"
+        },
+        {
+            "timestamp": [
+                360.16,
+                364.42
+            ],
+            "text": " launching a startup is another and this is something that Nvidia's founders"
+        },
+        {
+            "timestamp": [
+                364.42,
+                365.22
+            ],
+            "text": " learned firsthand."
+        },
+        {
+            "timestamp": [
+                365.9,
+                405.08
+            ],
+            "text": " In fact, at first, they weren't even sure what to do. So, they hired a lawyer to come to one of their meetings in 1993. The first step was incorporating the company. To get the ball rolling, they needed some initial capital to value the company's shares. Jensen Huang had $200 in his pocket, which he handed to the lawyer. This modest sum not only got the company incorporated, but also earned Huang a 20% stake in NVIDIA. The next step was to get the company funded. This process, however, was not easy. As NVIDIA's founders soon learned, venture capitalists weren't interested in polished business plans. Instead,"
+        },
+        {
+            "timestamp": [
+                405.62,
+                625.24
+            ],
+            "text": " they banked on their founder's reputation, past success, and a grand vision big enough to be worth the risk. NVIDIA would eventually secure $20 million in funding from Sequoia Capital and Sutter Hill Ventures. To an outsider, this seems absurd. How could a brand new company secure $20 million in funding just like that? In reality, it was Jensen Huang's previous connection to LSI Logic, the company that I mentioned earlier, that made the funding possible. Jensen would reach out to LSI's CEO, who would arrange a meeting with Sequoia Capital. Sequoia had previously invested in LSI Logic, which delivered a record-breaking $150 million return through its IPO. With Hwang's reputation within LSI, Sequoia was willing to listen when he came knocking. At first, Sequoia's founder was skeptical about investing in a graphics card company. But they eventually took the gamble and invested an initial sum of $2 million, followed by a further $18 million. What I'm going to say next is some key context here. This was a very risky decision. At the time, there were 89 other companies with similar ambitions to NVIDIA, but the fact of the matter is, except for AMD and NVIDIA, none of these other companies would survive. When NVIDIA went public in 1999, it was valued at $600 million. So, the risk of the initial investment paid off handsomely, multiplied by 100 times handsomely. But we're getting ahead of ourselves. At this stage in the story, NVIDIA was just a small group of engineers. After receiving funding, it took NVIDIA two years to build a team and create their first product, the NV1, which was officially launched in 1995. During the development of the NV1 chip, NVIDIA secured a deal with Sega. This was to manufacture NV1 chips for their gaming consoles. These chips were intended for games such as Virtua Fighter and Daytona. The thing was, NV1 chips were also available for computers. So that means you could play Sega Saturn games natively on your PC in 1995. For context, the first PlayStation only came out a year earlier. Till this day, I don't think I've seen anything similar done since. It's like if Sony was to build a computer graphics card and you could slot that into your desktop and play PS5 games natively. But there was a problem though. Nvidia chose to use a quadrangle based image rendering architecture for their NV1 chips and Sega was not pleased with this. Regardless, Nvidia's leadership refused to change their decision. So the question is, why did they choose to render polygons and quadratics instead of triangles? Well, that choice is explained in this video by Lazy Game Reviews. This uses quads, or squares, instead of triangles to speed up rendering by reducing the CPU workload. At least in theory, this results in fewer polygons and renders better rounded objects. So you could actually make things with squares instead of just a bunch of triangles everywhere. And at the time, with a lot lower speeds of CPUs and memory clocks and all that stuff, it made sense to use squares instead of triangles, at least in some situations, to get better-rounded objects or models in your game, because because triangles you had more processing power required now as memory got better and better this made little sense and it also kind of made little sense at the time because this meant that there was no support for open gl they didn't even want to include it i read a statement by nvidia and sgs thompson saying that they didn't think consumers would need OpenGL at all,"
+        },
+        {
+            "timestamp": [
+                625.54,
+                726.24
+            ],
+            "text": " so they just didn't bother with it. And then by the time Direct3D came along, and DirectX, this couldn't do that either, because it didn't support rendering through quads, only through traditional triangles and those types of polygons. They did release a driver or a patch for it to update it to run DirectX, but only through software. So you're effectively running a hardware accelerator in software mode to run hardware accelerator, DirectX, Direct3D stuff. It made no sense. Despite the innovation, the project was an abject failure. It was designed to be a jack of all trades, combining 3D graphics, video and audio processing, and a host of other functions into a single chip. As Jensen Huang would later put it, it was an octopus, complicated, multifaceted, and perhaps too ahead of its time. The end result was a failure to capture the market's attention. What the market did want was something much simpler. They wanted a dedicated 3D graphics chip. They didn't want an all-in-one solution like the NV1 chip. Aside from that, it was overpriced compared to the competition. To make matters worse, the wider industry was moving in a different direction. Microsoft had recently introduced DirectX, a new API that favored a triangle-based standard for 3D graphics rendering. It made coding for graphics easier for developers, so they naturally flocked to it. This shift meant that the NV1 chip was incompatible with DirectX. As a result, many existing games suffered from performance issues or were outright unplayable on Nvidia's new chip. The incompatibility was a significant blow to Nvidia. Their customer partner, Diamond Multimedia, returned the vast majority of the 250,000"
+        },
+        {
+            "timestamp": [
+                726.24,
+                732.82
+            ],
+            "text": " NV1 units they had purchased. They cited poor sales and a lack of game support. This return"
+        },
+        {
+            "timestamp": [
+                732.82,
+                738.22
+            ],
+            "text": " nearly bankrupted Nvidia, forcing them to lay off 40 of their 80 employees, and leaving"
+        },
+        {
+            "timestamp": [
+                738.22,
+                744.72
+            ],
+            "text": " them with a stockpile of unsellable chips. In essence, it was a $10 million disaster."
+        },
+        {
+            "timestamp": [
+                744.72,
+                765.82
+            ],
+            "text": " Amidst the turmoil, Nvidia was in the process of developing the NV2 chip for Sega, but it too was based on the same outdated quadrangle architecture. NVIDIA now knew that they had to pivot to survive. Jensen Huang had a major problem here. In a hail-merry move, he approached Sega's CEO with a request. Let us be released from the contract,"
+        },
+        {
+            "timestamp": [
+                766.02,
+                770.26
+            ],
+            "text": " but with full payment. NVIDIA desperately needed this money to keep the company afloat."
+        },
+        {
+            "timestamp": [
+                770.68,
+                776.98
+            ],
+            "text": " In an act of extraordinary kindness, Sega's CEO agreed to Huang's request. This act of generosity"
+        },
+        {
+            "timestamp": [
+                776.98,
+                781.78
+            ],
+            "text": " allowed NVIDIA to redirect its focus and resources towards a path that aligned with"
+        },
+        {
+            "timestamp": [
+                781.78,
+                907.16
+            ],
+            "text": " the industry's direction. If Sega pulled out their investment at that time, NVIDIA would have ceased to exist. Overall, the NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA Sega pulled out their investment at that time, NVIDIA would have ceased to exist. Overall, the NV1's failure became a critical learning experience for NVIDIA. They realized the need to understand customer needs and market trends. This shaped NVIDIA's strategy moving forward. I think it's pretty wild how close NVIDIA came to failing and now being worth over a trillion dollars. Making the decision to listen to the market and focus on PCs was the start of their success. After their initial failure, NVIDIA chose to launch into the PC industry, this time with a straightforward product. The PC market was booming, and all they had to do was lie in wait and pounce at the right time. In 1999, NVIDIA entered the PC graphics market with the GeForce 256 graphics card. This card wasn't just a hit, it transformed the landscape as the first programmable graphics card. It also popularized the term GPU or graphics processing unit. It allowed both regular gamers and developers to explore new possibilities with shading and lighting effects. This significantly enhanced the gaming experience. As NVIDIA rode this wave of success, the company went public in the same year. By 2000, NVIDIA had secured a major deal to develop graphics hardware for Microsoft's Xbox game console. This deal gave NVIDIA a substantial $200 million advance, a far cry from the previous game console effort with Sega. The Xbox would launch in 2001 with a custom console-ready chip called the NV2-A. With this success as a launchpad, NVIDIA thrived throughout the 2000s. They played a key role in crafting Sony's PlayStation 3 processors. Massive brands in the computer industry like Apple, Dell and HP started using NVIDIA's GPUs. The company continued to grow from strength to strength. Let's take a look at the strategies and technologies that got them there."
+        },
+        {
+            "timestamp": [
+                910.14,
+                915.5
+            ],
+            "text": " One of NVIDIA's most important strategic decisions was to operate as a Fabless chip company."
+        },
+        {
+            "timestamp": [
+                916.22,
+                917.6
+            ],
+            "text": " So what is a Fabless chip company?"
+        },
+        {
+            "timestamp": [
+                918.06,
+                922.76
+            ],
+            "text": " Well, Fabless chip companies design the chips, but they don't physically manufacture them."
+        },
+        {
+            "timestamp": [
+                923.12,
+                945.46
+            ],
+            "text": " Jensen Huang, NVIDIA's CEO, was very very particular about this decision a decision to drastically keep costs down in nvidia's case tsmc or taiwan semiconductor manufacturing company has been their manufacturing partner for the last three decades tsmc is the world's largest and most advanced semiconductor foundry. It provides manufacturing"
+        },
+        {
+            "timestamp": [
+                945.46,
+                951.86
+            ],
+            "text": " services for other big chip design companies, including Apple, AMD, Qualcomm, and others."
+        },
+        {
+            "timestamp": [
+                953.18,
+                957.94
+            ],
+            "text": " TSMC played a major role in NVIDIA's continuous success, as they have the best manufacturing"
+        },
+        {
+            "timestamp": [
+                957.94,
+                963.06
+            ],
+            "text": " capabilities on earth. Jensen Huang knows this well. In his own words, quote,"
+        },
+        {
+            "timestamp": [
+                963.32,
+                1367.7
+            ],
+            "text": " NVIDIA today would not be here if not for the pioneering work TSMC did. While NVIDIA's manufacturing was outsourced, the company could direct resources to innovation. They began to shift their focus beyond gaming chips and graphics. They realized GPUs and the parallel processing power they possessed could be used for so much more. NVIDIA now sought to give developers the tools and software to harness the full potential of the GPU. In 2006, NVIDIA launched a software toolkit called CUDA. Prior to CUDA, programming a GPU required a lot of tinkering and was a real headache for coders. It involved complex, low-level machine language or APIs. But with CUDA, it became much easier to write programs that could run on GPUs using standard languages like C, C++, and Java. The impact? Many more applications rather than just graphics could use parallel processing power. It opened up possibilities for all sectors that required dealing with huge amounts of data. The trend started in 2008 when the Tokyo Institute of Technology used CUDA-accelerated GPUs for their supercomputer, Tsubame 1.01. Since then, many other data centers such as Amazon Web Services, Google Cloud Platform, and Netflix have adopted GPUs for various applications. These include cloud computing, machine learning, video streaming, and web search. But the real acceleration came about with the AI boom. 2012 is the year that many consider the big bang moment for AI. This was also the year that NVIDIA's innovations would be involved in a significant AI breakthrough. This breakthrough happened at ImageNet, an annual global competition where teams from around the world would compete to see how well their software could recognize objects and scenes and images. Alex Kraszewski, a PhD student at the University of Toronto at the time, participated in the competition with a novel approach. He leveraged the power of GPUs to enhance the computing efficiency of his deep learning neural network, AlexNet. Deep learning is a process where computers can learn by themselves without the help of programmers. By connecting two NVIDIA GeForce GTX 5080 gaming cards to his computer, Kraszewski was able to process AlexNet's neural network with 1.2 million images. The result was remarkable at the time. The image recognition accuracy showed a 15% error rate, down from 25% the year before. It's laughable today. tools like ChatGPT, Google Gemini, and even Google Lens can do that now with much more accuracy. But back then, it was revolutionary. It was this event that thawed the AI winter. After decades of experts accepting that neural networks would never be practical, this proved them wrong. The NVIDIA GeForce GTX 580 cards were significant because they were optimized for CUDA, which of course allows for the implementation of parallel algorithms. They were crucial for deep learning tasks performed by AlexNet AI. Now the door had been swung wide open for many possibilities in deep learning applications, and NVIDIA was ready for it. The strategic time and investment into CUDA and the software ecosystem around it was paying off. NVIDIA's GPUs are now the de facto standard for training and deploying generative AI and large language models. For example, OpenAI, renowned for ChatGPT, uses A100 series GPUs and this is for the rapid and widespread deployment of their AI models. After ChatGPT burst into the scene in November 2022, all of the major tech companies hoping to jump on the AI hype scrambled to get their hands on Nvidia's GPUs. The A100 GPUs were especially flying off the shelf. Microsoft alone was using a whopping 10,000 of them. One single A100 unit would cost $10,000, and Nvidia was selling hundreds of thousands of units. As a result of this frenzy, Nvidia's sales soared to $13.5 billion in the quarter ending July 2023. That's a staggering 101% increase from the year before. On May 25th, their stock obtained $184 billion in market value in just one day. And finally, on May 30th, 2023, Nvidia became the sixth company in the world to reach that magic $1 trillion market cap, joining the likes of Apple, Microsoft, Amazon, Alphabet, and Tesla. At the time of writing in December 2023, the company is worth $1.15 trillion. NVIDIA's impact on the healthcare industry is also notable. In 2022, a genomic sequencing technique by NVIDIA set a Guinness World Record for the fastest DNA sequencing, completing the feat in 5 hours and 2 minutes. NVIDIA's chip technology has impacted further fields. The Tegra chips, once designed for mobile phones, drive major e-commerce operations in self-driving cars. Tesla used those chips to power their Model 3s from 2016 to 2019. Tesla now uses its own chips but NVIDIA provides semi-autonomous driving technologies for other automakers like Mercedes-Benz. So how is such a company run? How were pivots made so quickly to serve so many sectors with one-tenth the employees of Microsoft? Let's take a quick detour into NVIDIA's management style, as I think it's quite interesting. Jensen Huang, CEO, manages a team of 40 directly, and he believes in the power of a flat organizational structure. There's no exclusive meetings with just VPs or directors. Anyone can join and pitch in. No career advice sessions either, because, as Huang puts it, his management team has already aced it. He also opts for a more dynamic approach by encouraging anyone in the company to shoot him their, quote, top five things on the fly. When it comes to information flow, everyone is in the know at all times. This ensures that information zips around quickly. There's no planning cycle, such as a grand five-year or one-year plan. It's all about being agile and adapting to the ever-evolving business and market conditions, especially in the rapidly changing field of AI. Jensen also has an eye for top-notch talent and keeping the team lean. Though, amidst the post-COVID economic slump, major tech firms like Facebook, Amazon, and Google dismissed thousands of workers."
+        },
+        {
+            "timestamp": [
+                1368.38,
+                1374.7
+            ],
+            "text": " In contrast, NVIDIA pledged to avoid layoffs or salary reductions, promising raises for staff instead."
+        },
+        {
+            "timestamp": [
+                1376.34,
+                1383.7
+            ],
+            "text": " Since their layoff disaster in 1995 with the Sega chip, NVIDIA's internal operations in regards to this has changed drastically."
+        },
+        {
+            "timestamp": [
+                1467.56,
+                1467.94
+            ],
+            "text": " An example of this was in 2008 when NVIDIA's Tegra chip failed. NVIDIA was hoping to enter the mobile industry and created the Tegra smartphone chip. As a side, there was actually a Tegra-powered Android tablet called the Asus Transformer. I had one of these back in the day, and I found the performance to be pretty underwhelming. Many others must have thought so so too because the chip failed to gain traction and flopped. A team of more than a thousand engineers were responsible for the development of the Tegra series. Instead of getting rid of them after the chip's failure, Jensen retained the team and encouraged them to explore new avenues. That team later collaborated with Nvidia's existing automotive unit and together they would create chips for self-driving cars. So we've touched on a lot of what NVIDIA is involved in and what they've been doing but there's still one key sector that we need to talk about. Their original focus. Gaming. Although NVIDIA has diversified, they have not totally abandoned the gaming market. GPUs are still at the core of their business. In 2018, Nvidia launched the RTX series of graphics cards, popularizing a technology called ray tracing. Ray tracing is a demanding technique that simulates the paths of light. It creates more realistic shadows, reflections and effects. Previously, this usually wasn't a real-time effect."
+        },
+        {
+            "timestamp": [
+                1471.42,
+                1472.36
+            ],
+            "text": " It was only mainstream within the 3D art and animation sectors."
+        },
+        {
+            "timestamp": [
+                1478.84,
+                1478.94
+            ],
+            "text": " In Jensen Huang's view, ray tracing was only possible because of NVIDIA's research in physics simulation and artificial intelligence."
+        },
+        {
+            "timestamp": [
+                1485.36,
+                1492.04
+            ],
+            "text": " He explained that NVIDIA uses AI to generate 7 out of 8 pixels in a scene based on one ray traced pixel. It's like a jigsaw where the AI fills in the missing pieces. NVIDIA also popularized"
+        },
+        {
+            "timestamp": [
+                1492.04,
+                1499.26
+            ],
+            "text": " the AI upscaling of video games in real time, a process called DLSS. In theory, it allows"
+        },
+        {
+            "timestamp": [
+                1499.26,
+                1504.48
+            ],
+            "text": " for sharper, higher resolution games without the computational load. But in all of this,"
+        },
+        {
+            "timestamp": [
+                1504.48,
+                1530.98
+            ],
+            "text": " there's been an issue with NVIDIA's GPUs. And now we get into the controversies. The year is 2018, and the crypto mining boom is at its height. Miners rushed out to buy as many GPUs as they could to make some cash. As a result, demand for GPUs went through the roof, and the supply dried up for those who normally use them, that is, gamers."
+        },
+        {
+            "timestamp": [
+                1532.26,
+                1535.54
+            ],
+            "text": " Prices soared by upwards of 71% in some cases."
+        },
+        {
+            "timestamp": [
+                1536.14,
+                1541.64
+            ],
+            "text": " Amidst this surge, NVIDIA's gaming revenue increased by 26% to $1.65 billion."
+        },
+        {
+            "timestamp": [
+                1542.62,
+                1565.38
+            ],
+            "text": " NVIDIA would tout that the initial 2018 growth in revenue was caused by the gaming market and they downplayed the effects of the crypto boom, the real cause of the revenue boost. With this wording, investors' ability to accurately evaluate the company's performance was compromised. Their unknowingly risky investments eventually crashed along with the crypto crash. This incident attracted the attention of the US"
+        },
+        {
+            "timestamp": [
+                1565.38,
+                1705.26
+            ],
+            "text": " Securities and Exchange Commission, and NVIDIA was charged with unlawfully shrouding information. NVIDIA would settle in 2022 by paying a $5.5 million penalty, and they didn't admit any guilt or wrongdoing, but they did agree to improve their revenue source disclosures. In response to this, in 2021, Nvidia decided to introduce a dedicated cryptocurrency mining processor or CMP line. This was supposedly to address the shortage in gaming cards. But at $4,300 per CMP, crypto miners would just rather buy regular gaming graphics cards. Jensen Huang is the only CEO of a tech giant who has been at the helm since the company's inception. It's been 30 years, and his long and successful leadership has also attracted some criticism over the years. One of the most controversial aspects of his management style is his relentless pursuit of profit, which sometimes borders on greed being fined by the sec the lack of transparency left many investors feeling misled and aside from this the gaming community in particular is not thrilled for shelving out so much for their graphics cards there's an unmissable chatter online conveying that nvidia cards are just too overpriced especially in the mid-range sector where amd are more competitive a notable incident that brought huang's business ethics into question was the 2022 fallout would evga evga was a key partner in producing nvidia's gpus they chose to sever ties with nvidia and withdraw from the gpu market this decision according to evga's ceo and Han, was rooted in principle, stemming from NVIDIA's unsatisfactory communication about contentious pricing strategies. Such controversies have cast a shadow over Huang's leadership, challenging the integrity of his profit-driven approach. Maybe to emphasize the challenges, Huang recently stated in an interview that if he was allowed to go back in time, he would choose to not relive this career path. Starting and running a company the size of Nvidia was a headache. He says that he faced many struggles and hardships as an entrepreneur, all the way from laying off those employees with the NV1 chip back in 1995, to competing with bigger rivals and dealing with the constant pressure of uncertainty in his view"
+        },
+        {
+            "timestamp": [
+                1705.26,
+                1752.18
+            ],
+            "text": " nobody in their right mind would want to endure that pressure if you were magically 30 years old again today in 2023 and you were going to denny's with your two best friends who are the two smartest people you know and you're talking about starting a company what are you talking about starting i wouldn't do it. I know. And the reason for that is really quite simple. Ignoring the company that we would start. First of all, I'm not exactly sure the reason why I wouldn't do it. And it goes back to why it's so hard is building a company and building a video turned out to have been a million times harder than I expected it to be any of us expected it to be and at that time if we realize the pain and suffering and just how"
+        },
+        {
+            "timestamp": [
+                1752.18,
+                1758.42
+            ],
+            "text": " vulnerable you you're going to feel um and the challenges that you're going to endure uh the"
+        },
+        {
+            "timestamp": [
+                1758.42,
+                1763.84
+            ],
+            "text": " embarrassment and the shame and you know the list of all the things that that go wrong i don't think"
+        },
+        {
+            "timestamp": [
+                1763.84,
+                1769.14
+            ],
+            "text": " anybody would start a company nobody in their right mind would do it and i think that that's"
+        },
+        {
+            "timestamp": [
+                1769.14,
+                1765.36
+            ],
+            "text": " Thanks for watching! you know, the list of all the things that go wrong, I don't think anybody would start a company."
+        },
+        {
+            "timestamp": [
+                1765.52,
+                1767.02
+            ],
+            "text": " Nobody in their right mind would do it."
+        },
+        {
+            "timestamp": [
+                1767.54,
+                1768.98
+            ],
+            "text": " And I think that that's..."
+        },
+        {
+            "timestamp": [
+                1775.98,
+                1778.78
+            ],
+            "text": " NVIDIA has seen massive growth over the past two years."
+        },
+        {
+            "timestamp": [
+                1778.98,
+                1781.1
+            ],
+            "text": " They were just in the right place at the right time."
+        },
+        {
+            "timestamp": [
+                1781.3,
+                1784.48
+            ],
+            "text": " The share price has increased by 220% in the last year"
+        },
+        {
+            "timestamp": [
+                1784.48,
+                1825.26
+            ],
+            "text": " and revenue growth 206%. But will it last? Opinions are split. There are two main viewpoints. One is that AI will continue to be a massive industry, and it's only just getting started. This viewpoint believes that NVIDIA will keep riding this wave. They're currently going all in on AI research, publishing paper after paper that are complete bangers. The other view is that this growth is unsustainable. As it turns out, NVIDIA isn't going to be the only player in the GPU slash AI hardware space. Both Amazon and Microsoft are looking to make their own custom-based chips. On the desktop computing space, Microsoft has entered the arena with their Arc series."
+        },
+        {
+            "timestamp": [
+                1827.04,
+                1827.56
+            ],
+            "text": " AMD is also gaining ground."
+        },
+        {
+            "timestamp": [
+                1834.32,
+                1834.9
+            ],
+            "text": " Furthermore, NVIDIA's heavy reliance on Taiwan-based TSMC for its semiconductor chip production may prove problematic."
+        },
+        {
+            "timestamp": [
+                1837.88,
+                1842.58
+            ],
+            "text": " This is due to China's increased military pressure on Taiwan. But this isn't just for NVIDIA, but for the entire global semiconductor supply chain."
+        },
+        {
+            "timestamp": [
+                1843.08,
+                1885.2
+            ],
+            "text": " There are now more threats in this chip space to NVIDIA today than there have been in many years, so we'll need to wait and see what happens. So there you have it, the NVIDIA story so far. It's been quite a journey, so I hope that you found it enjoyable and picked up some new insights. Currently, NVIDIA is riding on an all-time high, but whether this is a pivotal trend or a bubble remains to be seen. I'm curious to hear your thoughts. Do you have an NVIDIA card? And what's your opinion on the company? Positive, neutral, or negative? And were you surprised by the amount of things they have their hands in? Feel free to discuss in the comment section below. Alright, so that's about it from me. Thanks for watching. My name is Dagogo, you've been watching ColdFusion and I'll see you"
+        },
+        {
+            "timestamp": [
+                1885.2,
+                1889.56
+            ],
+            "text": " again soon for the next episode. Cheers guys. Have a good one."
+        }
+    ]
+}

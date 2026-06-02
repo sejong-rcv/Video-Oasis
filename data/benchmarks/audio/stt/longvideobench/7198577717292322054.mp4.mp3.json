@@ -1,0 +1,27 @@
+{
+    "video_id": "7198577717292322054.mp4.mp3",
+    "transcript": " Let's try the free coffee. At work. This is dangerous. My view.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.72
+            ],
+            "text": " Let's try the free coffee. At work."
+        },
+        {
+            "timestamp": [
+                10.64,
+                11.68
+            ],
+            "text": " This is dangerous."
+        },
+        {
+            "timestamp": [
+                16.24,
+                17.92
+            ],
+            "text": " My view."
+        }
+    ]
+}

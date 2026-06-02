@@ -1,0 +1,55 @@
+{
+    "video_id": "7293176969531870470.mp4.mp3",
+    "transcript": " These are places on Earth that don't feel real. First is Milford Sound. One of the only places where I'd enjoy rain. Next is the Waitomo Glowworm Cave. It's so naturally beautiful. And finally, Wanaka. Home to this famous tree and beautiful mountains.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " These are places on Earth that don't feel real."
+        },
+        {
+            "timestamp": [
+                2.0,
+                4.0
+            ],
+            "text": " First is Milford Sound."
+        },
+        {
+            "timestamp": [
+                4.0,
+                6.0
+            ],
+            "text": " One of the only places where I'd enjoy rain."
+        },
+        {
+            "timestamp": [
+                6.0,
+                8.0
+            ],
+            "text": " Next is the Waitomo Glowworm Cave."
+        },
+        {
+            "timestamp": [
+                8.0,
+                10.0
+            ],
+            "text": " It's so naturally beautiful."
+        },
+        {
+            "timestamp": [
+                10.0,
+                12.0
+            ],
+            "text": " And finally, Wanaka."
+        },
+        {
+            "timestamp": [
+                12.0,
+                14.0
+            ],
+            "text": " Home to this famous tree and beautiful mountains."
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "video_id": "7300001535734467883.mp4.mp3",
+    "transcript": " Don't stay awake for too long Don't go to bed I'll make a cup of coffee for your head He'll get you",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                4.64
+            ],
+            "text": " Don't stay awake for too long"
+        },
+        {
+            "timestamp": [
+                4.64,
+                7.22
+            ],
+            "text": " Don't go to bed"
+        },
+        {
+            "timestamp": [
+                7.22,
+                11.34
+            ],
+            "text": " I'll make a cup of coffee for your head"
+        },
+        {
+            "timestamp": [
+                11.34,
+                12.48
+            ],
+            "text": " He'll get you"
+        }
+    ]
+}

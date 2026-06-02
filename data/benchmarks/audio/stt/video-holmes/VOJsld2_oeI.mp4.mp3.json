@@ -1,0 +1,41 @@
+{
+    "video_id": "VOJsld2_oeI.mp4.mp3",
+    "transcript": " Storbritannia Late night? What was that? Motor jam. Sometimes that happens. Last week I was stuck in here for 45 minutes. GUNFIRE Shit! GUNFIRE Need a jump? I love to wake up in the morning But keep dreaming without warning This day is gone",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                73.9
+            ],
+            "text": " Storbritannia Late night? What was that?"
+        },
+        {
+            "timestamp": [
+                74.82,
+                75.48
+            ],
+            "text": " Motor jam."
+        },
+        {
+            "timestamp": [
+                77.18,
+                78.52
+            ],
+            "text": " Sometimes that happens."
+        },
+        {
+            "timestamp": [
+                81.32,
+                206.94
+            ],
+            "text": " Last week I was stuck in here for 45 minutes. GUNFIRE Shit! GUNFIRE Need a jump? I love to wake up in the morning But keep dreaming without warning"
+        },
+        {
+            "timestamp": [
+                206.94,
+                208.62
+            ],
+            "text": " This day is gone"
+        }
+    ]
+}

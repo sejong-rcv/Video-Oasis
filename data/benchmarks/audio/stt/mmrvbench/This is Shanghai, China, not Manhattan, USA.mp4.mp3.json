@@ -1,0 +1,20 @@
+{
+    "video_id": "This is Shanghai, China, not Manhattan, USA.mp4.mp3",
+    "transcript": " Ladies and gentlemen, welcome to Shanghai. Step into China's world of advanced transportation and stunning architecture. Join me as we explore Shanghai's vibrant cityscape under the evening lights.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.76,
+                7.84
+            ],
+            "text": " Ladies and gentlemen, welcome to Shanghai. Step into China's world of advanced transportation and stunning architecture."
+        },
+        {
+            "timestamp": [
+                8.52,
+                12.72
+            ],
+            "text": " Join me as we explore Shanghai's vibrant cityscape under the evening lights."
+        }
+    ]
+}

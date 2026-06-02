@@ -1,0 +1,265 @@
+{
+    "video_id": "test_game_1.mp4.mp3",
+    "transcript": " Hello YouTube, Asuma here with another Minecraft tutorial. This is the Ender Farm and I'm going to show you what it is, how it works and how to build it. The Ender Farm is a machine that exploits the End Realm's limitation to only spawn Endermen. Using a piston pusher setup we can funnel the endermen into a 2x2 hole. This 2x2 hole leads them to a crusher which is automatically activated by these pressure pads. The same pressure pads act as a safety mechanism by closing the crusher when you want to collect your enderpearls. There are two main features that make the ender farm work. The first being the piston pusher setup, and it works like this. When an Enderman stands on the pressure plate, it activates the repeater, which powers the block behind it, and above that is a sticky piston, which then pushes this block out and pushes the Enderman down to below. The second feature is the limitation of other spawnable areas in the world by covering the world in water. The endermen can spawn on these pressure plates here and as well as that we have these four additional spawn pads, the spawn pads have signs all the way around them and this causes the endermen to walk off and fall into the machine. The crusher is activated by pressure plates due to the height of the endermen the crusher is above the height of the player meaning when the player stands on the pressure plates the crusher acts as a barrier between them and the endermen above. The pressure plates power these eight pieces of redstone here which in turn invert these blocks here and the ones above them causing them to be powered when the pressure plates power these eight pieces of redstone here, which in turn invert these blocks here and the ones above them, causing them to be powered when the pressure plates are activated. These torches power the blocks that power the pistons, and the pistons extend the blocks which become the crusher. Despite its size, the ender farm is relatively simple to build, as it relies on one key component, the pusher you will need to build these piston pushes in rows and the rows will always need to be one block out from the row below i recommend to start building your ender farm at this level here and work your way upwards and outwards now i'm going to show you how to build the piston pusher first of all we start with the block that the enderman can spawn on, we put a pressure plate on top of that, then we place the block that the repeater goes onto, then the block that the repeater powers, we put the sticky piston on top of that, then we put our pusher block onto that, and above it another block. Now there's no extra wiring for building them side by side, and when you build another one on top. You start at this block here, and that's how you build your piston pushers. I thought that I should also mention that the piston pusher in the corner is no different from any other piston pusher and works exactly the same way. When building your crusher setup you will need to link the redstone that is powered by these pressure plates to the sticky pistons which control these crusher blocks here. I've done this using redstone torches to send the redstone power vertically up to these blocks, which power the sticky pistons. In case you didn't know, in the latest game update the mob mechanics changed, meaning that mobs over 40 blocks away from the player no longer move, so the length of this tube here is important, because when am standing at the bottom here I am 38 blocks away from the spawnable pads at the top. So there is a problem with the ender farm but only one that I am aware of. The piston pusher in the corner at this level here will sometimes get blocked with the enderman trapped inside of it. Although this is a problem it does not clog up the system and I've been experimenting with different repeater times to try and fix this but so far I've had no luck so if anyone has an idea for a solution for this please let me know in the comments. As I said though it's only a small problem it doesn't affect the overall efficiency of the machine. The ender farm's effectiveness relies heavily on the world around it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I heavily on the world around it as you can see i've covered mine in water doing this in a legitimate world would be a difficult task however you wouldn't need to cover every single block as i've done here but every time you go out and place water down and remove the amount of spawnable areas, you will increase the efficiency of the ender farm. So that concludes the tutorial on how to build an ender farm, as always I have included a link to download this map in the description box, so thanks for watching and I'll see you next time.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                4.0
+            ],
+            "text": " Hello YouTube, Asuma here with another Minecraft tutorial."
+        },
+        {
+            "timestamp": [
+                4.0,
+                25.96
+            ],
+            "text": " This is the Ender Farm and I'm going to show you what it is, how it works and how to build it. The Ender Farm is a machine that exploits the End Realm's limitation to only spawn Endermen. Using a piston pusher setup we can funnel the endermen into a 2x2 hole."
+        },
+        {
+            "timestamp": [
+                25.96,
+                47.74
+            ],
+            "text": " This 2x2 hole leads them to a crusher which is automatically activated by these pressure pads. The same pressure pads act as a safety mechanism by closing the crusher when you want to collect your enderpearls. There are two main features that make the ender farm work. The first being the piston pusher setup, and it works like this."
+        },
+        {
+            "timestamp": [
+                51.44,
+                57.42
+            ],
+            "text": " When an Enderman stands on the pressure plate, it activates the repeater, which powers the block behind it,"
+        },
+        {
+            "timestamp": [
+                57.42,
+                62.82
+            ],
+            "text": " and above that is a sticky piston, which then pushes this block out and pushes the Enderman down to below."
+        },
+        {
+            "timestamp": [
+                63.78,
+                266.0
+            ],
+            "text": " The second feature is the limitation of other spawnable areas in the world by covering the world in water. The endermen can spawn on these pressure plates here and as well as that we have these four additional spawn pads, the spawn pads have signs all the way around them and this causes the endermen to walk off and fall into the machine. The crusher is activated by pressure plates due to the height of the endermen the crusher is above the height of the player meaning when the player stands on the pressure plates the crusher acts as a barrier between them and the endermen above. The pressure plates power these eight pieces of redstone here which in turn invert these blocks here and the ones above them causing them to be powered when the pressure plates power these eight pieces of redstone here, which in turn invert these blocks here and the ones above them, causing them to be powered when the pressure plates are activated. These torches power the blocks that power the pistons, and the pistons extend the blocks which become the crusher. Despite its size, the ender farm is relatively simple to build, as it relies on one key component, the pusher you will need to build these piston pushes in rows and the rows will always need to be one block out from the row below i recommend to start building your ender farm at this level here and work your way upwards and outwards now i'm going to show you how to build the piston pusher first of all we start with the block that the enderman can spawn on, we put a pressure plate on top of that, then we place the block that the repeater goes onto, then the block that the repeater powers, we put the sticky piston on top of that, then we put our pusher block onto that, and above it another block. Now there's no extra wiring for building them side by side, and when you build another one on top. You start at this block here, and that's how you build your piston pushers. I thought that I should also mention that the piston pusher in the corner is no different from any other piston pusher and works exactly the same way. When building your crusher setup you will need to link the redstone that is powered by these pressure plates to the sticky pistons which control these crusher blocks here. I've done this using redstone torches to send the redstone power vertically up to these blocks, which power the sticky pistons. In case you didn't know, in the latest game update the mob mechanics changed, meaning that mobs over 40 blocks away from the player no longer move, so the length of this tube here is important, because when am standing at the bottom here I am 38 blocks away from the spawnable pads at the top. So there is a problem with the ender farm but only one that I am aware of. The piston pusher in the corner at this level here will sometimes get blocked with the enderman trapped inside of it. Although this is a problem it does not clog"
+        },
+        {
+            "timestamp": [
+                266.0,
+                271.02
+            ],
+            "text": " up the system and I've been experimenting with different repeater times to try and fix this"
+        },
+        {
+            "timestamp": [
+                271.02,
+                276.82
+            ],
+            "text": " but so far I've had no luck so if anyone has an idea for a solution for this please let me know"
+        },
+        {
+            "timestamp": [
+                276.82,
+                281.62
+            ],
+            "text": " in the comments. As I said though it's only a small problem it doesn't affect the overall"
+        },
+        {
+            "timestamp": [
+                281.62,
+                289.18
+            ],
+            "text": " efficiency of the machine. The ender farm's effectiveness relies heavily on the world around it."
+        },
+        {
+            "timestamp": [
+                289.18,
+                290.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                290.18,
+                291.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                291.18,
+                292.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                292.18,
+                293.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                293.18,
+                294.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                294.18,
+                295.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                295.18,
+                296.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                296.18,
+                297.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                297.18,
+                298.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                298.18,
+                299.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                299.18,
+                300.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                300.18,
+                301.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                301.18,
+                302.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                302.18,
+                303.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                303.18,
+                304.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                304.18,
+                305.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                305.18,
+                306.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                306.18,
+                307.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                307.18,
+                308.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                308.18,
+                309.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                309.18,
+                310.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                310.18,
+                311.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                311.18,
+                312.18
+            ],
+            "text": " As you can see I have covered all of it."
+        },
+        {
+            "timestamp": [
+                312.18,
+                306.56
+            ],
+            "text": " As you can see I have covered all of it. As you can see I have covered all of it. As you can see I have covered all of it. As you can see I heavily on the world around it as you can see i've covered mine in water doing this in a legitimate world would be a difficult task however you wouldn't need to cover every single block as i've done here but every time you go out and place water down and remove the amount of spawnable areas, you will increase the efficiency of the ender farm."
+        },
+        {
+            "timestamp": [
+                306.56,
+                310.98
+            ],
+            "text": " So that concludes the tutorial on how to build an ender farm, as always I have included a"
+        },
+        {
+            "timestamp": [
+                310.98,
+                315.74
+            ],
+            "text": " link to download this map in the description box, so thanks for watching and I'll see you"
+        },
+        {
+            "timestamp": [
+                315.74,
+                316.32
+            ],
+            "text": " next time."
+        }
+    ]
+}

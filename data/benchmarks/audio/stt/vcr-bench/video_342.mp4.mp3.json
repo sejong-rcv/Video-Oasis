@@ -1,0 +1,48 @@
+{
+    "video_id": "video_342.mp4.mp3",
+    "transcript": " Kanskje vi har heit utgjort at vi har katt inn i njog, kanskje vi har katt inn i njog, kanskje vi har heit utgjort at vi har katt inn i njog, I don't know why I'm saying this, but I'm going to get a picture of you in the city by the way. What is that? A boy? I have to get you. It's a boy. Come on.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                25.46
+            ],
+            "text": " Kanskje vi har heit utgjort at vi har katt inn i njog, kanskje vi har katt inn i njog, kanskje vi har heit utgjort at vi har katt inn i njog, I don't know why I'm saying this, but I'm going to get a picture of you in the city by the way."
+        },
+        {
+            "timestamp": [
+                25.84,
+                26.4
+            ],
+            "text": " What is that?"
+        },
+        {
+            "timestamp": [
+                26.56,
+                26.96
+            ],
+            "text": " A boy?"
+        },
+        {
+            "timestamp": [
+                29.78,
+                31.14
+            ],
+            "text": " I have to get you."
+        },
+        {
+            "timestamp": [
+                32.28,
+                33.24
+            ],
+            "text": " It's a boy."
+        },
+        {
+            "timestamp": [
+                33.78,
+                34.78
+            ],
+            "text": " Come on."
+        }
+    ]
+}

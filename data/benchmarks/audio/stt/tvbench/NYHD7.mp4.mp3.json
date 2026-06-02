@@ -1,0 +1,20 @@
+{
+    "video_id": "NYHD7.mp4.mp3",
+    "transcript": " mm-hmm yeah whoo ha ha ha oh boy yeah I yeah whoo Whew.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                19.24
+            ],
+            "text": " mm-hmm yeah whoo ha ha ha oh boy yeah I yeah"
+        },
+        {
+            "timestamp": [
+                19.24,
+                null
+            ],
+            "text": " whoo Whew."
+        }
+    ]
+}

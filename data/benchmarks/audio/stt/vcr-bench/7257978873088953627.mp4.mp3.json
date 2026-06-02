@@ -1,0 +1,48 @@
+{
+    "video_id": "7257978873088953627.mp4.mp3",
+    "transcript": " One day, baby, we'll be old Oh, baby, we'll be old Think of all the stories that we could've told One day, baby, we'll be old Oh, baby, we'll be old Think of all the stories that we could've told",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.5
+            ],
+            "text": " One day, baby, we'll be old"
+        },
+        {
+            "timestamp": [
+                2.5,
+                4.42
+            ],
+            "text": " Oh, baby, we'll be old"
+        },
+        {
+            "timestamp": [
+                4.42,
+                7.24
+            ],
+            "text": " Think of all the stories that we could've told"
+        },
+        {
+            "timestamp": [
+                7.24,
+                10.58
+            ],
+            "text": " One day, baby, we'll be old"
+        },
+        {
+            "timestamp": [
+                10.58,
+                12.46
+            ],
+            "text": " Oh, baby, we'll be old"
+        },
+        {
+            "timestamp": [
+                12.46,
+                15.22
+            ],
+            "text": " Think of all the stories that we could've told"
+        }
+    ]
+}

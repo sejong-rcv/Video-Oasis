@@ -1,0 +1,34 @@
+{
+    "video_id": "Top075_00490.mp4.mp3",
+    "transcript": " não, tá bom? Valeu? Taca aí. Ô, Barbandinho! Vem, vem cá, bora!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.82
+            ],
+            "text": " não, tá bom? Valeu?"
+        },
+        {
+            "timestamp": [
+                2.64,
+                3.06
+            ],
+            "text": " Taca aí."
+        },
+        {
+            "timestamp": [
+                3.9,
+                4.62
+            ],
+            "text": " Ô, Barbandinho!"
+        },
+        {
+            "timestamp": [
+                5.76,
+                6.82
+            ],
+            "text": " Vem, vem cá, bora!"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "video_id": "N-P7vTHRXpY.mp4.mp3",
+    "transcript": " Welcome to Los Angeles Airport. Passengers are reminded not to leave the airport until the end time. Unattended flights may be removed from the airport scene. Hi. Hey, don't worry. Everything's going to be okay. Flight B344 to London is now boarding at K-12. Please proceed to boarding at K-12. Welcome aboard flight B344 from Los Angeles to London We'll be airborne with an estimated flight time of 7 hours Thank you This is the end of the video, thank you for watching until the end, see you in the next video. Thank you. Stavros Stavros Stavros Stavros Is there a doctor on the plane? We have a passenger in distress in the lavatory.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                9.3
+            ],
+            "text": " Welcome to Los Angeles Airport. Passengers are reminded not to leave the airport until the end time. Unattended flights may be removed from the airport scene."
+        },
+        {
+            "timestamp": [
+                31.04,
+                32.04
+            ],
+            "text": " Hi. Hey, don't worry."
+        },
+        {
+            "timestamp": [
+                33.02,
+                34.36
+            ],
+            "text": " Everything's going to be okay."
+        },
+        {
+            "timestamp": [
+                37.5,
+                37.94
+            ],
+            "text": " Flight B344 to London is now boarding at K-12."
+        },
+        {
+            "timestamp": [
+                54.98,
+                58.34
+            ],
+            "text": " Please proceed to boarding at K-12. Welcome aboard flight B344 from Los Angeles to London We'll be airborne with an estimated flight time of 7 hours"
+        },
+        {
+            "timestamp": [
+                58.34,
+                166.4
+            ],
+            "text": " Thank you This is the end of the video, thank you for watching until the end, see you in the next video. Thank you. Stavros Stavros Stavros Stavros Is there a doctor on the plane?"
+        },
+        {
+            "timestamp": [
+                166.62,
+                168.6
+            ],
+            "text": " We have a passenger in distress in the lavatory."
+        }
+    ]
+}

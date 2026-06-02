@@ -1,0 +1,34 @@
+{
+    "video_id": "M_Z_241_0442_0600.mp4.mp3",
+    "transcript": " Magnetism is when you drop things in your room and your neighbor has such a big magnet that it goes to your back wall. How do you do this stuff?",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.38
+            ],
+            "text": " Magnetism is when you drop things in your room"
+        },
+        {
+            "timestamp": [
+                2.38,
+                4.5
+            ],
+            "text": " and your neighbor has such a big magnet"
+        },
+        {
+            "timestamp": [
+                4.5,
+                5.34
+            ],
+            "text": " that it goes to your back wall."
+        },
+        {
+            "timestamp": [
+                5.34,
+                6.5
+            ],
+            "text": " How do you do this stuff?"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "video_id": "TbaCxIJ_VP4.mp4.mp3",
+    "transcript": " Researchers have found that the COVID-19 virus begins the process of creating copies by attaching its spikes to a host cell. Those spikes offer a target for vaccines. With the right preparations, our immune system can utilize this vulnerability. A vaccine is used to arm our immune system. It contains messenger RNA, which can direct cells to make specific proteins. The messenger RNA tells our cells to produce COVID spikes. These harmless spikes give our immune system the information needed to quickly detect a coronavirus infection and produce the appropriate antibodies. The new antibodies respond once COVID has entered the body. They attach themselves to the spikes on the COVID virus, rendering the spikes useless, protecting our cells and keeping the virus from reproducing. mRNA vaccines have been studied rigorously and are a safe and effective way to defend ourselves against COVID-19 infections.",
+    "timestamps": [
+        {
+            "timestamp": [
+                1.0,
+                10.0
+            ],
+            "text": " Researchers have found that the COVID-19 virus begins the process of creating copies by attaching its spikes to a host cell."
+        },
+        {
+            "timestamp": [
+                11.0,
+                19.0
+            ],
+            "text": " Those spikes offer a target for vaccines. With the right preparations, our immune system can utilize this vulnerability."
+        },
+        {
+            "timestamp": [
+                20.0,
+                69.04
+            ],
+            "text": " A vaccine is used to arm our immune system. It contains messenger RNA, which can direct cells to make specific proteins. The messenger RNA tells our cells to produce COVID spikes. These harmless spikes give our immune system the information needed to quickly detect a coronavirus infection and produce the appropriate antibodies. The new antibodies respond once COVID has entered the body. They attach themselves to the spikes on the COVID virus, rendering the spikes useless, protecting our cells and keeping the virus from reproducing. mRNA vaccines have been studied rigorously and are a safe and effective way to defend"
+        },
+        {
+            "timestamp": [
+                69.04,
+                72.0
+            ],
+            "text": " ourselves against COVID-19 infections."
+        }
+    ]
+}

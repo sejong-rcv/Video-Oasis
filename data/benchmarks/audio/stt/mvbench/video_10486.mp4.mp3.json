@@ -1,0 +1,41 @@
+{
+    "video_id": "video_10486.mp4.mp3",
+    "transcript": " Hello everyone, welcome to my channel. Today I will be showing you how to make an easy and simple recipe for a very simple breakfast. I will show you how to make a simple and easy breakfast. I will show you how to make a simple and easy breakfast.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " Hello everyone, welcome to my channel."
+        },
+        {
+            "timestamp": [
+                2.0,
+                5.0
+            ],
+            "text": " Today I will be showing you how to make an easy and simple"
+        },
+        {
+            "timestamp": [
+                5.0,
+                8.0
+            ],
+            "text": " recipe for a very simple breakfast."
+        },
+        {
+            "timestamp": [
+                8.0,
+                11.0
+            ],
+            "text": " I will show you how to make a simple and easy breakfast."
+        },
+        {
+            "timestamp": [
+                11.0,
+                13.84
+            ],
+            "text": " I will show you how to make a simple and easy breakfast."
+        }
+    ]
+}

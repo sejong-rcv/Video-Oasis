@@ -1,0 +1,69 @@
+{
+    "video_id": "Top027_01600.mp4.mp3",
+    "transcript": " Je l'ai fait Je fais un pas vers vous, faites un pas vers moi Arrêtez-la avec cette histoire de vider le cul Je crois que j'ai compris C'est pas bien ça, on arrête Bon appétit Merci C'est beau hein J'adore",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                1.12
+            ],
+            "text": " Je l'ai fait"
+        },
+        {
+            "timestamp": [
+                1.12,
+                3.32
+            ],
+            "text": " Je fais un pas vers vous, faites un pas vers moi"
+        },
+        {
+            "timestamp": [
+                3.32,
+                5.24
+            ],
+            "text": " Arrêtez-la avec cette histoire de vider le cul"
+        },
+        {
+            "timestamp": [
+                5.24,
+                6.72
+            ],
+            "text": " Je crois que j'ai compris"
+        },
+        {
+            "timestamp": [
+                6.72,
+                8.22
+            ],
+            "text": " C'est pas bien ça, on arrête"
+        },
+        {
+            "timestamp": [
+                8.22,
+                9.76
+            ],
+            "text": " Bon appétit"
+        },
+        {
+            "timestamp": [
+                9.76,
+                10.68
+            ],
+            "text": " Merci"
+        },
+        {
+            "timestamp": [
+                10.68,
+                18.46
+            ],
+            "text": " C'est beau hein"
+        },
+        {
+            "timestamp": [
+                18.46,
+                19.28
+            ],
+            "text": " J'adore"
+        }
+    ]
+}

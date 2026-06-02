@@ -1,0 +1,34 @@
+{
+    "video_id": "L5zAUY75adU.mp4.mp3",
+    "transcript": " How was that? That was good. What was it you just did? Four twists. What? Yeah.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                26.0
+            ],
+            "text": " How was that? That was good. What was it you just did?"
+        },
+        {
+            "timestamp": [
+                26.0,
+                28.0
+            ],
+            "text": " Four twists."
+        },
+        {
+            "timestamp": [
+                28.0,
+                30.0
+            ],
+            "text": " What?"
+        },
+        {
+            "timestamp": [
+                30.0,
+                32.0
+            ],
+            "text": " Yeah."
+        }
+    ]
+}

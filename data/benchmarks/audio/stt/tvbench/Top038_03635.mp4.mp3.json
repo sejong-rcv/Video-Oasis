@@ -1,0 +1,20 @@
+{
+    "video_id": "Top038_03635.mp4.mp3",
+    "transcript": "黄警官麻烦你 都去正门",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": "黄警官"
+        },
+        {
+            "timestamp": [
+                5.0,
+                20.0
+            ],
+            "text": "麻烦你 都去正门"
+        }
+    ]
+}

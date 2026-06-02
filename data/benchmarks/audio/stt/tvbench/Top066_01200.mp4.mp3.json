@@ -1,0 +1,27 @@
+{
+    "video_id": "Top066_01200.mp4.mp3",
+    "transcript": " You're already here long enough, you're supposed to. Some nights, I'd have to sleep alone. I didn't mind.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                3.0
+            ],
+            "text": " You're already here long enough, you're supposed to."
+        },
+        {
+            "timestamp": [
+                6.0,
+                10.0
+            ],
+            "text": " Some nights, I'd have to sleep alone."
+        },
+        {
+            "timestamp": [
+                18.0,
+                20.0
+            ],
+            "text": " I didn't mind."
+        }
+    ]
+}

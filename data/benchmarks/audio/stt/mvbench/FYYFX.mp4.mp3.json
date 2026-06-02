@@ -1,0 +1,20 @@
+{
+    "video_id": "FYYFX.mp4.mp3",
+    "transcript": " oh boy there are some high construction workers I get my camera to take some pictures of these high construction workers I gotta get good angle too Oh, boy.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                13.68
+            ],
+            "text": " oh boy there are some high construction workers I get my camera to take some"
+        },
+        {
+            "timestamp": [
+                13.68,
+                null
+            ],
+            "text": " pictures of these high construction workers I gotta get good angle too Oh, boy."
+        }
+    ]
+}

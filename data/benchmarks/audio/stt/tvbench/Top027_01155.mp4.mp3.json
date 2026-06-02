@@ -1,0 +1,55 @@
+{
+    "video_id": "Top027_01155.mp4.mp3",
+    "transcript": " Oui? Tu venais chercher mon papier? Oui, oui, je vous attendais. Par rapport au... Entrez. Je vous laisse, c'est dit. Oui.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                3.32
+            ],
+            "text": " Oui?"
+        },
+        {
+            "timestamp": [
+                3.32,
+                4.88
+            ],
+            "text": " Tu venais chercher mon papier?"
+        },
+        {
+            "timestamp": [
+                4.88,
+                5.8
+            ],
+            "text": " Oui, oui, je vous attendais."
+        },
+        {
+            "timestamp": [
+                6.34,
+                7.74
+            ],
+            "text": " Par rapport au..."
+        },
+        {
+            "timestamp": [
+                7.74,
+                8.18
+            ],
+            "text": " Entrez."
+        },
+        {
+            "timestamp": [
+                8.28,
+                8.84
+            ],
+            "text": " Je vous laisse, c'est dit."
+        },
+        {
+            "timestamp": [
+                19.64,
+                20.0
+            ],
+            "text": " Oui."
+        }
+    ]
+}

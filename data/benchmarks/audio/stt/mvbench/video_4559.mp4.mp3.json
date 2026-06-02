@@ -1,0 +1,27 @@
+{
+    "video_id": "video_4559.mp4.mp3",
+    "transcript": " Thank you very much. Inside and outside of the environment. Suddenly, passengers sitting just above and behind the cargo door are heard a noise. It was kind of a grinding noise.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                28.02
+            ],
+            "text": " Thank you very much. Inside and outside of the environment. Suddenly, passengers sitting just above and behind the cargo door"
+        },
+        {
+            "timestamp": [
+                28.02,
+                29.14
+            ],
+            "text": " are heard a noise."
+        },
+        {
+            "timestamp": [
+                29.42,
+                31.82
+            ],
+            "text": " It was kind of a grinding noise."
+        }
+    ]
+}

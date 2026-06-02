@@ -1,0 +1,27 @@
+{
+    "video_id": "M_Z_20_2922_3416.mp4.mp3",
+    "transcript": " here is which one of these is not really a fruit we'll give you three seconds three two one all right so this one this banana is really a fruit this tomato is really a fruit even though that is debatable and this apple it is a drawing of a fruit",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                7.52
+            ],
+            "text": " here is which one of these is not really a fruit we'll give you three seconds three two one all"
+        },
+        {
+            "timestamp": [
+                7.52,
+                14.06
+            ],
+            "text": " right so this one this banana is really a fruit this tomato is really a fruit even though that"
+        },
+        {
+            "timestamp": [
+                14.06,
+                19.68
+            ],
+            "text": " is debatable and this apple it is a drawing of a fruit"
+        }
+    ]
+}

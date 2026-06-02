@@ -1,0 +1,41 @@
+{
+    "video_id": "2881352518.mp4.mp3",
+    "transcript": " Good morning, well, it's the afternoon, but we work 11-7. Good morning is the afternoon. Down in the clouds And having trouble remembering Hold my heart out loud And turn it up until you hear it speak Yeah, yeah Time to take out the trash",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                47.82
+            ],
+            "text": " Good morning, well, it's the afternoon, but we work 11-7. Good morning is the afternoon. Down in the clouds And having trouble remembering"
+        },
+        {
+            "timestamp": [
+                47.82,
+                55.4
+            ],
+            "text": " Hold my heart out loud"
+        },
+        {
+            "timestamp": [
+                55.4,
+                59.72
+            ],
+            "text": " And turn it up until you hear it speak"
+        },
+        {
+            "timestamp": [
+                59.72,
+                63.16
+            ],
+            "text": " Yeah, yeah"
+        },
+        {
+            "timestamp": [
+                63.16,
+                66.08
+            ],
+            "text": " Time to take out the trash"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "video_id": "AMT7R.mp4.mp3",
+    "transcript": " hey honey can you remember to put the groceries away in the fridge and can you also put the bigger bag of groceries in the pantry? Thank you.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                28.32
+            ],
+            "text": " hey honey can you remember to put the groceries away in the fridge and can you also put the bigger bag of groceries in the pantry?"
+        },
+        {
+            "timestamp": [
+                29.68,
+                30.08
+            ],
+            "text": " Thank you."
+        }
+    ]
+}

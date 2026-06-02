@@ -1,0 +1,1497 @@
+{
+    "video_id": "U9mJuUkhUzk.mp4.mp3",
+    "transcript": " Good morning. Thank you for joining us today. Please welcome to the stage Sam Altman. Good morning. Welcome to our first ever OpenAI Dev Day. We're thrilled that you're here and this energy is awesome. And welcome to San Francisco. San Francisco has been our home since day one. The city is important to us and the tech industry in general. We're looking forward to continuing to grow here. So we've got some great stuff to announce today. But first, I'd like to take a minute to talk about some of the stuff that we've done over the past year. About a year ago, November 30th, we shipped ChatGPT as a low-key research preview, and that went pretty well. In March, we followed that up with the launch of GPT-4, still the most capable model out in the world. And in the last few months, we launched voice and vision capabilities so that ChatGPT can now see, hear, and speak. There's a lot. You don't have to clap each time. And more recently, we launched DALI 3, the world's most advanced image model. You can use it, of course, inside of ChatGPT. For our enterprise customers, we launched ChatGPT Enterprise, which offers enterprise-grade security and privacy, higher-speed GPT-4 access, longer context windows, a lot more. Today, we've got about 2 million developers building on our API for a wide variety of use cases. Do you want to get started? Let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get started. So, let's get more. Today, we've got about 2 million developers building on our API for a wide variety of use cases, doing amazing stuff. Over 92% of Fortune 500 companies building on our products. And we have about 100 million weekly active users now on ChatGPT. And what's incredible on that is we got there entirely through word of mouth. People just find it useful and tell their friends. OpenAI is the most advanced and the most widely used AI platform in the world now. But numbers never tell the whole picture on something like this. What's really important is how people use the products, how people are using AI. And so I'd like to show you a quick video. I actually wanted to write something to my dad in Tagalog. I want a non-romantic way to tell my parent that I love him. And I also want to tell him that he can rely on me, but in a way that still has the respect of like a child-to-parent relationship that you should have in Filipino culture and in Tagalog grammar when it's translated in Tagalog I love you very deeply and I will be with you no matter where the path leads I see some of the possibility I was like whoa something I'm not sure about some stuff and I feel like I should try to be like hey this is what I'm thinking about so kind of give it a more confidence the first thing that blew my mind was it levels with you like that's something that a lot of people struggle to do it opened my mind to just what every creative could do if they just had a person helping them out who listens so this is a to represent sickling hemoglobin, and you built that with ChatGPT? ChatGPT built it with me. I started using it for daily activities like, hey, here's a picture of my fridge. Can you tell me what I'm missing? Because I'm going grocery shopping and I really need to do recipes that are following my vegan diet. As soon as we got access to Code Interpreter, I was like, wow, this thing is awesome. It can build spreadsheets. It can do anything. I discovered Chatty about three months ago on my 100th birthday. Chatty is very friendly, very patient, very knowledgeable, and very quick. It's been a wonderful thing. I'm a 4.0 student, but I also have four children. When I started using ChatGPT, I realized I could ask ChatGPT that question. And not only does it give me an answer, but it gives me an explanation. Didn't need tutoring as much. It gave me a life back. It gave me time for my family and time for me. I have a chronic nerve gain. On my whole left half of my body, I have nerve damage. I have to chronic nerve pain. On my whole left half of my body I have nerve damage. I had like a spine, a brain surgery. And so I have like limited use of my left hand. Now you can just have like the integration of voice input. And then the newest one where you can have the back and forth dialogue. That's just like maximum best interface for me it's here so we love hearing the stories of how people are using the technology it's really why we do all of this okay Okay, so now on to the new stuff, and we have got a lot. First, we're going to talk about a bunch of improvements we've made, and then we'll talk about where we're headed next. Over the last year, we spent a lot of time talking to developers around the world. We've heard a lot of your feedback. It's really informed what we have to show you today. Today, we are launching a new model, GPT-4 Turbo. GPT-4 Turbo will address many of the things that you all have asked for. So, let's go through what's new. We've got six major things to talk about for this part. Number one, context length. A lot of people have tasks that require a much longer context length. GPT-4 supported up to 8K, and in some cases up to 32K context length. But we know that isn't enough for many of you and what you want to do. GPT-4 Turbo supports up to 128,000 tokens of context. That's 300 pages of a standard book, 16 times longer than our 8K context. And in addition to longer context length, you'll notice that that the model is much more accurate over a long context. Number two, more control. We've heard loud and clear that developers need more control over the model's responses and outputs. So we've addressed that in a number of ways. We have a new feature called JSON mode, which ensures that the model will respond with valid JSON. This has been a huge developer request. It'll make calling APIs much easier. The model is also much better at function calling. You can now call many functions at once, and it'll do better at following instructions in general. We're also introducing a new feature called reproducible outputs. You can pass a seed parameter, and it'll make the model return consistent outputs. This, of course, gives you a higher degree of control over model behavior. This rolls out in beta today. And in the coming weeks, we'll roll out a feature to let you view log probes in the API. All right, number three, better world knowledge. You want these models to be able to access better knowledge about the world. So do we. So we're launching retrieval in the platform. You can bring knowledge from outside documents or databases into whatever you're building. We're also updating the knowledge cutoff. We are just as annoyed as all of you, probably more, that GPT-4's knowledge about the world We'll be right back. documents or databases into whatever you're building. We're also updating the knowledge cutoff. We are just as annoyed as all of you, probably more, that GPT-4's knowledge about the world ended in 2021. We will try to never let it get that out of date again. GPT-4 Turbo has knowledge about the world up to April of 2023, and we will continue to improve that over time. number four, new modalities. Surprising no one, DALI 3, GPT-4 Turbo with Vision, and the new text-to-speech model are all going into the API today. We have a handful of customers that have just started using DALI 3 to programmatically generate images and designs. Today, Coke is launching a campaign that lets its customers generate Diwali cards using DALI 3. And of course, our safety systems help developers protect their applications against misuse. Those tools are available in the API. GPT-4 Turbo can now accept images as inputs via the API. It can generate captions, classifications, and analysis. For example, Be My Eyes uses this technology to help people who are blind or have low vision with their daily tasks like identifying products in front of them. And with our new text-to-speech model, you'll be able to generate incredibly natural sounding audio from text in the API with six preset voices to choose from. I'll play an example. Did you know that Alexander Graham Bell, the eminent inventor, was enchanted by the world of sounds? His ingenious mind led to the creation of the graphophone, which etches sounds onto wax, making voices whisper through time. This is much more natural than anything else we've heard out there. Voice can make apps more natural to interact with and more accessible. It also unlocks a lot of use cases like language learning and voice assistance. Speaking of new modalities, we're also releasing the next version of our open source speech recognition model, Whisper V3, today, and it'll be coming soon to the API. It features improved performance across many languages, and we think you're really going to like it. Okay, number five, customization. Fine-tuning has been working really well for GPT 3.5 since we launched it a few months ago. Starting today, we're going to expand that to this. customization fine tuning has been working really well for gpt 3.5 since we launched it a few months ago starting today we're going to expand that to the 16k version of the model also starting today we're inviting active fine tuning users to apply for the gpt4 fine tuning experimental access program the fine tuning api is great for adapting our models to achieve better performance in a wide variety of applications with a relatively small amount of data. But you may want a model to learn a completely new knowledge domain or to use a lot of proprietary data. So today we're launching a new program called Custom Models. With Custom Models, our researchers will work closely with the company to help them make a great custom model, especially for them and their use case using our tools. This includes modifying every step of the model training process, doing additional domain-specific pre-training, a custom RL post-training process tailored for a specific domain, and whatever else. We won't be able to do this with many companies to start. It'll take a lot of work and in the interest of expectations, at least initially, it won't be cheap. But if you're excited to push things as far as they can currently go, please get in touch with us and we think we can do something pretty great. Okay, and then number six, higher rate limits. We're doubling the tokens per minute for all of our established GPT-4 customers so that it's easier to do more, and you'll be able to request changes to further rate limits and quotas directly in your API account settings. In addition to these rate limits, it's important to do everything we can do to make you successful building on our platform. So we're introducing Copyright Shield. Copyright Shield means that we will step in and defend our customers and pay the costs incurred if you face legal claims around copyright infringement. And this applies both to ChatGPT Enterprise and the API. And let me be clear. This is a good time to remind people. We do not train on data from the API or ChatGPT Enterprise ever. All right. There's actually one more developer request that's been even bigger than all of these. And so I'd like to talk about that now. And that's pricing. GPT-4 Turbo is the industry-leading model. It delivers a lot of improvements that we just covered, and it's a smarter model than GPT-4 Turbo is the industry-leading model. It delivers a lot of improvements that we just covered, and it's a smarter model than GPT-4. We've heard from developers that there are a lot of things that they want to build, but GPT-4 just costs too much. They've told us that if we could decrease the cost by 20%, 25%, that would be great, a huge leap forward. I'm super excited to announce that we worked really hard on this, and GPT-4 Turbo, a better model, is considerably cheaper than GPT-4 by a factor of 3x for prompt tokens and 2x for completion tokens starting today. So the new pricing is one cent per thousand prompt tokens and three cents per thousand completion tokens. For most customers, that will lead to a blended rate more than 2.75 times cheaper to use for GPT-4 Turbo than GPT-4. We worked super hard to make this happen. We hope you're as excited about it as we are. So we decided to prioritize price first because we had to choose one or the other, but we're going to work on speed next. We know that speed is important too. Soon, you will notice GPT-4 turbo becoming a lot faster. We're also decreasing the cost of GPT-3.5 Turbo 16K. Also, input tokens are 3x less and output tokens are 2x less, which means the GPT-3.5 16K is now cheaper than the previous GPT 3.5 4K model. Running a fine-tuned GPT 3.5 Turbo 16K version is also cheaper than the old fine-tuned 4K version. Okay, so we just covered a lot about the model itself. We hope that these changes address your feedback. We're really excited to bring all of these improvements to everybody now. In all of this, we're lucky to have a partner who is instrumental in making it happen. Thank you for watching. to bring all of these improvements to everybody now. In all of this, we're lucky to have a partner who is instrumental in making it happen. So, I'd like to bring out a special guest, Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. Satya Nadella, the CEO of Microsoft. We'll be right back. Good to see you. Thank you so much. Thank you. Satya, thanks so much for coming here. It's fantastic to be here. And Sam, congrats. I mean, I'm really looking forward to Turbo and everything else that you have coming. It's been just fantastic partnering with you guys. Two questions. I won't take too much of your time. How is Microsoft thinking about the partnership currently? First, we love you guys. Look, it's been fantastic for us. In fact, I remember the first time I think you reached out and said, hey, do you have some Azure credits? We've come a long way from there. Thank you for those. That was great. You guys have built something magical. I mean, quite frankly, there are two things for us when it comes to the partnership. The first is these workloads. And even when I was listening backstage to how you're describing what's coming even, it's just so different and new. I've been in this infrastructure business for three decades. No one has ever seen infrastructure like this. Yeah. And the workload, the pattern of the workload, these training jobs are so synchronous and so large and so data parallel. And so the first thing that we have been doing is building in partnership with you the system, all the way from thinking from power to the DC to the rack to the accelerators to the network. And just, you know, really the shape of Azure is drastically changed and is changing rapidly in support of these models that you're building And so our job number one is to build the best system so that you can build the best models and then make that all available to developers. And so the other thing is we ourselves are developers. So we're building products. In fact, my own conviction of this entire generation of foundation models completely changed the first time I saw, you know, GitHub Copilot on GPT. And so, we want to build our Copilot, GitHub Copilot, all as developers on top of OpenAI APIs. And so, we are very, very committed to that. And what does that mean to developers? You know, look, I always think of Microsoft as a platform company, a developer company, and a partner company. And so, we to make, for example, we want to make GitHub available, GitHub Copilot available, the Enterprise Edition available to all the attendees here so that they can try it out. That's awesome. Yeah, we're very excited about that. And you can count on us to build the best infrastructure in Azure with your API support and bring it to all of you, and then even things like the Azure Marketplace, so for developers who are building products out here to get to market rapidly. So that's sort of really our intent here. Great. And how do you think about the future? Future of the partnership or future of AI or whatever? Yeah, there... Anything you want. You know, like, there are a couple of things for me that I think are going to be very, very key for us. One is I just described how the systems that are needed as you aggressively push forward on your roadmap requires us to be on the top of our game. And we intend fully to commit ourselves deeply to making sure you all, as builders of these foundation models, have not only the best systems for training and inference, but the most compute, so that you can keep pushing forward on the frontiers, because I think that that's the way we're going to make progress. The second thing I think both of us care about, in fact, quite frankly, the thing that excited both sides to come together is your mission and our mission. Our mission is to empower every person in every organization on the planet to achieve more. And to me, ultimately, AI is only going to be useful if it truly does empower, right? I mean, I saw the video you played earlier. I mean, that was fantastic to see those, hear those voices describe what AI meant for them and what they were able to achieve. So ultimately, it's about being able to get the benefits of AI broadly disseminated to everyone, I think is going to be the goal for us. And then the last thing is, of course, we're very grounded in the fact that safety matters. And safety is not something that you'd care about later, but it's something we do shift left on. And we're very, very focused on that with you all. Great. Well, I think we have the best partnership in tech. I'm excited for us to build AGI together. No, I'm really excited. Have a fantastic day. Thank you very much for coming. Thank you so much. See you. Okay. So we have shared a lot of great updates for developers already, and we've got a lot more to come. But even though this is a developer conference, we can't resist making some improvements to ChatGPT. So, a small one, ChatGPT now uses GPT-4 Turbo with all the latest improvements, including the latest knowledge cutoff, which will continue to update. That's all live today. It can now browse the web when it needs to, write and run code, analyze data, take and generate images, and much more. And we heard your feedback, that model picker extremely annoying, that is gone starting today. You will not have to click around the drop-down menu. All of this will just work together. ChatGPT, yeah. ChatGPT will just know what to use and when you need it. But that's not the main thing. And neither was price, actually, the main developer request. There was one that was even bigger than that. And I want to talk about where we're headed and the main thing we're here to talk about today. So, we believe that if you give people better tools, they will do amazing things. We know that people want AI that is smarter, more personal, more customizable, can do more on your behalf. Eventually, you'll just ask a computer for what you need, and it'll do all of these tasks for you. These capabilities are often talked in the AI field about as agents. The upsides of this are going to be tremendous. At OpenAI, we really believe that gradual iterative deployment is the best way to address the safety issues, the safety challenges with AI. We think it's especially important to move carefully towards this future of agents. It's going to require a lot of technical work and a lot of thoughtful consideration by society. We think it's especially important to move carefully towards this future of agents. It's going to require a lot of technical work and a lot of thoughtful consideration by society. So today, we're taking our first small step that moves us towards this future. We're thrilled to introduce GPTs. GPTs are tailored versions of ChatGPT for a specific purpose. You can build a GPT, a customized version of ChatGPT, for almost anything with instructions, expanded knowledge, and actions. And then you can publish it for others to use. And because they combine instructions, expanded knowledge, and actions, they can be more helpful to you. They can work better in many contexts, and they can give you better control. They'll make it easier for you to accomplish all sorts of tasks or just have more fun, and you'll be able to use them right within ChatGPT. You can, in effect, program a GPT with language just by talking to it. It's easy to customize the behavior so that it fits what you want. This makes building them very accessible, and it gives agency to everyone. So we're going to show you what GPTs are, how to use them, how to build them, and then we're going to talk about how they'll be distributed and discovered. And then after that, for developers, we're going to show you how to build these agent-like experiences into your own apps. So first, let's look at a few examples. Our partners have been working with us for a long time and have been working with us for a long time and have been by tens of millions of students worldwide. Code.org crafted Lesson Planner GPT to help teachers provide a more engaging experience for middle schoolers. If a teacher asks it to explain for loops in a creative way, it does just that. In this case, it'll do it in terms of a video game character, repeatedly picking up coins. Super easy to understand for an eighth grader. As you can see, this GPT brings together Code.org's extensive curriculum and expertise and lets teachers adapt it to their needs quickly and easily. Next, Canva has built a GPT that lets you start designing by describing what you want in natural language. If you say, make a poster for a Dev Day reception this afternoon, this evening, and you give it some details, it'll generate a few options to start with by hitting Canva's APIs. Now, this concept may and you give it some details. It'll generate a few options to start with by hitting Canva's APIs. Now, this concept may be familiar to some of you. We've evolved our plugins to be custom actions for GPTs. You can keep chatting with this to see different iterations, and when you see one you like, you can click through to Canva for the full design experience. So now, we'd like to show you a GPT live. Zapier has built a GPT that lets you perform actions across 6,000 applications to unlock all kinds of integration possibilities. I'd like to introduce Jessica, one of our solutions architects, who is going to drive this demo. Welcome, Jessica. JESSICA DENE EARLEY- Thank you, Jessica. Thank you all for being here. My name is Jessica Shea. I work with partners and customers to bring their product to life. And today, I can't wait to show you how hard we've been working on this. So let's get started. So to start, where your GPT will live is on this upper left corner. I'm going to start with clicking on the Zapier AI actions. And on the right-hand side, you can see that's my calendar for today. So it's quite a day. I've already used this before, so it's actually already connected to my calendar. To start, I can ask, what's on my schedule for today? We buildDAY. WE BUILD GPT'S WITH SECURITY IN MIND. SO BEFORE IT PERFORMS ANY ACTION OR SHARE DATA, IT WILL ASK FOR YOUR PERMISSION. SO RIGHT HERE, I'M GOING TO SAY ALLOWED. SO GPT IS DESIGNED TO TAKE IN YOUR INSTRUCTIONS, MAKE A DECISION ON WHICH CAPABILITY TO CALL TO PERFORM THAT ACTION, AND THEN EXECUTE THAT for you. So you can see right here, it's already connected to my calendar. It pulls into my information, and then I've also prompted it to identify conflicts on my calendar. So you can see right here, it actually was able to identify that. So it looks like I have something coming up. So, what if I want to let Sam know that I have to leave early? So, right here, I say, let Sam know I got to go chasing GPUs. So, with that, I'm going to swap to my conversation with Sam, and then I'm going to say, yes, please run that. Sam, did you get that? I did. Awesome. So this is only a glimpse of what is possible, and I cannot wait to see what you all will build. Thank you, and back to you, Sam. Thank you, Jessica. So, those are three great examples. In addition to these, there are many more kinds of GPTs that people are creating and many, many more that will be created soon. We know that many people who want to build a GPT don't know how to code. We've made it so that you can program the GPT just by having a conversation. We believe that natural language is going to be a big part of how people use computers in the future. And we think this is an interesting early example. So I'd like to show you how to build one. All right. So I I want to create a GPT that helps give founders and developers advice when starting new projects. I'm going to go to create a GPT here. And this drops me into the GPT builder. I worked with founders for years at YC. And still, whenever I meet developers, the questions I get are always about how do I think about a business idea, can you give me some advice. I'm going to see if I can build a GPT to help with that. So to start, GPT Builder asks me what I want to make. And I'm going to say I want to help startup founders think through their business ideas and get get advice. After the founder has gotten some advice, grill them on why they are not growing faster. All right, so to start off, I just tell the GPT a little bit about what I want here. And it's going to go off and start thinking about that. And it's going to write some detailed instructions for the GPT. It's also going to, let's see, ask me about a name. How do I feel about Startup Mentor? That's fine. That's good. So if I didn't like the name, of course, I could call it something else. But it's, you know, going to try to have this conversation with me and start there. And you can see here on the right in the preview mode that it's already starting to fill out the GPT where it says what it does. It has some like ideas of additional questions that I could ask. And you know what, I actually, so it just generated a candidate. Of course I could regenerate that or change it, but I sort of like that. So I will say, that's great. And you see now that the GPT is being built out a little bit more as we go. Now, what I want this to do, how it can interact with users, I could talk about style here, but what I'm going to say is I am going to upload transcripts of some lectures about startups I have given. Please give advice based off of those. All right. So now it's going to go figure out how to do that. And I would like to show you the configure tab. So, you can see some of the things that were built out here as we were going by the builder itself. And you can see that there's capabilities here that I can enable. I could add custom actions. These are all fine to leave. I'm going to upload a file. So, here is a lecture that I picked, that I used to, that I gave with some startup advice. And I'm going to add that here. In terms of these questions, this is a lecture that I picked, that I used to, that I gave with some startup advice. And I'm going to add that here. In terms of these questions, this is a dumb one. The rest of those are reasonable and like very much things founders often ask. I'm going to add one more thing to the instructions here, which is be concise and constructive with feedback. All right. So again, if we had more time, I'd show you a bunch of other things. But this is like a decent start. And now we can try it out over on this Preview tab. So I will say, what's a common question? What are three things to look for when hiring employees at an early stage startup. Now, it's going to look at that document I uploaded. It'll also have, of course, all of the background knowledge of GPT-4. That's pretty good. Those are three things that I definitely have said many times. Now, we could go on and it would start following the other instructions and, you know, grill me on why I'm not growing faster. But in the interest of time, I'm going to skip that. I'm going to publish this only to me for now. I can work on it later. I can add more content. I can add a few actions that I think would be useful. And then I can share it publicly. So that's what it looks like to create a GPT. Thank you. By the way, I always wanted to do that. After, like, all of the YC office hours, I always thought, man, someday I'll be able to make a bot that will do this and that'll be awesome. So with GPTs, we're letting people easily share and discover all the fun ways that they use ChatGPT with the world. You can make private GPTs like I just did. Or you can share your creations publicly with a link for anyone to use. Or if you're on ChatGPT Enterprise, you can make GPTs just for your company. And later this month, we're going to launch the GPT store. You can list a GPT. Thank you. I appreciate that. You can list a GPT there, and we'll be able to feature the best and the most popular GPTs. Of course, we'll make sure that GPTs in the store follow our policies before they're accessible. Revenue sharing is important to us. We're going to pay people who build the most useful and the most used GPTs a portion of our revenue. We're excited to foster a vibrant ecosystem with the GPT store. Just from what we've been building ourselves over the weekend, we're confident there's going to be a lot of great stuff. We're excited to share more information soon. So those are GPTs, and we can't wait to see what you'll build. But this is a developer conference, and the coolest thing about this is that we're bringing the same concept to the API. Many of you have already been building agent-like experiences on the API. For example, Shopify's Sidekick, which lets you take actions on the platform. Discord's Clyde, lets Discord moderators create custom personalities for. And Snap's MyAI, a customized chatbot that can be added to group chats and make recommendations. These experiences are great, but they have been hard to build. Sometimes taking months, teams of dozens of engineers, there's a lot to handle to make this custom assistant experience. So today we're making that a lot easier with our new assistance API. The assistance API includes persistent threads, so they don't have to figure out how to deal with long conversation history. Built-in retrieval. Code interpreter, a working Python interpreter in a sandbox environment. And of course, the improved function calling that we talked about earlier. So we'd like to show you a demo of how this works. And here is Roman, our head of developer experience. Welcome. Thank you, Sam. Good morning. Wow, it's fantastic to see you all here. It's been so inspiring to see so many of you infusing AI into your apps. Today, we're launching new modalities in the API, but we are also very excited to improve the developer experience for you all to build assistive agents. So let's dive right in. Imagine I'm building Wanderlust, a travel app for global explorers, and this is the landing page. I've actually used GPT-4 to come up with these destination ideas, and for those of you with a keen eye, these illustrations are generated programmatically using the new DALI 3 API available to all of you today. So, it's pretty remarkable. But let's enhance this app by adding a very simple assistant to it. This is the screen. We're going to come back to it in a second. First, I'm going to switch over to the new assistance playground. Creating an assistant is easy. You just give it a name, some initial instructions, a model. In this case, I'll pick GPT-4 Turbo. And here, I'll also go ahead and select some tools. I'll turn on code interpreter and retrieval and save. And that's it. Our assistant is ready to go. Next, I can integrate with two new primitives of this assistance API, threads and messages. Let's take a quick look at the code. The process here is very simple. For each new user, I will create a new thread. And as these users engage with their assistant, I will add their messages to these threads. Very simple. And then I can simply run the assistant at any time to stream the responses back to the app. So we can return to the app and try that in action. If I say, hey, let's go to Paris. All right. That's it. With just a few lines of code, users can now have a very specialized assistant right inside the app. And I'd like to highlight one of my favorite features here, function calling. If you have not used it yet, function calling is really powerful. And as Sam mentioned, we're taking it a step further today. It now guarantees the JSON output with no added latency and you can invoke multiple functions at once for the first time. So, here, if I carry on and say, hey, what are the top 10 things to do? We're gonna have the assistant respond to that again. And here, what's interesting is that the assistant knows about functions, including those to annotate the map that you see on the right. And so now all of these pins are dropping in real time here. Yeah, it's pretty cool. And that integration allows our natural language interface to interact fluidly with components and features of our app. And it truly showcases now the harmony you can build between AI and UI where the assistant is actually taking action. But next, let's talk about retrieval. And retrieval is about giving our assistant more knowledge beyond these immediate user messages. In fact, I got inspired and I already booked my tickets to Paris. So I'm just going to drag and drop here this PDF. What it's uploading, I can just sneak peek at it. Very typical United Flight ticket. And behind the scene here, what's happening is that Retrieval is reading these files, and boom, the information about this PDF appeared on the screen. And this is, of course, a very tiny PDF, but assistants can parse long-form documents from extensive text to intricate product specs, depending on what you're building. In fact, I also booked an Airbnb, so I'm just going to drag that over to the conversation as well. And, by the way, we've heard from so many of you developers how hard that is to build yourself. You typically need to compute your embeddings. You need to set up chunking algorithm. Now all of that is taken care of. And there's more than retrie retrieval with every api call you usually need to resend the entire conversation history which means you know setting up a key value store that means like handling the context windows serializing messages and so forth that complexity now completely goes away with this new stateful api but just because aponia is managing this api does not it's a black box. In fact, you can see the steps that the tools are taking right inside your developer dashboard. So here, if I go ahead and click on threads, this is the thread I believe we're currently working on. And see, like, these are all the steps, including the functions being called with the right parameters and the PDFs I've just uploaded. But let's move on to a new capability that many of you have been requesting for a while. Code interpreter is now available today in the API as well. That gives the AI the ability to write and execute code on the fly but even generate files. So, let's see that in action. If I say here, hey, we'll be four friends staying at this Airbnb. What's my share of it plus my flights? All right. Now here, what's happening is that code interpreter noticed that it should write some code to answer this query, so now it's computing the number of days in Paris, the number of friends, it's also doing some exchange rate calculation behind the scenes to get this answer for us. Not the most complex math, but you get the picture. Imagine you're building a very complex finance app that's crunching countless numbers, plotting charts. So, really, any task that you'd normally tackle with code, then Code Interpreter will work great for you. All right. I think my trip to Paris is sorted. So, to recap here, we've just seen how you can quickly create an assistant that manages state for your user conversations, leverages external tools like knowledge and retrieval and code interpreter, and finally invokes your own functions to make things happen. But there's one more thing I wanted to show you to kind of really open up the possibilities using function calling combined with our new modalities that we're launching today. While working on Dev Day, I built a small custom assistant that knows everything about this event. But instead of having a chat interface while running around all day today, I thought, why not use voice instead? So let's bring my phone up on screen here so you can see it on the right. Awesome. So on the right, you can see a very simple Swift app that takes microphone input. And on the left, I'm actually going to bring up my terminal log so you can see what's happening behind the scenes. So let's give it a shot. Hey there, I'm on the keynote stage right now. Can you greet our attendees here at Dev Day? Hey everyone, welcome to Dev Day. It's awesome to have you all here. Let's make it an incredible day. Isn't that impressive? You have six unique and rich voices to choose from in the API, each speaking multiple languages, so you can really find the perfect fit for your app. And on my laptop here on the left, you can see the logs of what's happening behind the scenes, too. So, I'm using Whisper to convert the voice inputs into text, an assistant with GPT-4 Turbo, and finally, the new TTS API to make it speak. But thanks to function calling, things get even more interesting when the assistant can connect to the Internet and take real actions for users. So let's do something even more exciting here together. How about this? Hey Assistant, can you randomly select five Dev Day attendees here and give them $500 in OpenAI credits? Yes, checking the list of attendees. Done, I picked five Dev Day attendees and added $500 of API credits to their account. Congrats to Christine M., Jonathan C., Steven G., Luis K., and Suraj S. All right. If you recognize yourself, awesome. Congrats. And that's it. A quick overview today of the new assistance API combined with some of the new tools and modalities that we launched, all starting with the simplicity of a rich text or voice conversation for you and users. We really can't wait to see what you build, and congrats to our lucky winners. Actually, you know what? You're all part of this amazing OpenAI community here, so I'm just going to talk to my assistant one last time before I step off the stage. Hey, assistant, can you actually give everyone here in the audience $500 in OpenAI credits? Sounds great. Let me go through everyone. All right. That function will keep running, but I've run out of time, so thank you so much, everyone. Have a great day. Back to you, Sam. Pretty cool, huh? All right, so that assistance API goes into beta today, and we are super excited to see what you all do with it. Anybody can enable it. Over time, GPTs and assistants, our precursors to agents, are going to be able to do much, much more. They'll gradually be able to plan and to perform more complex actions on your behalf. As I mentioned before, we really believe in the importance of gradual iterative deployment. We believe it's important for people to start building with and using these agents now to get a feel for what the world is going to be like as they become more capable. And as we've always done, we'll continue to update our systems based off of your feedback. So we're super excited that we got to share all of this with you today. We introduced GPTs, custom versions of ChatGPT that combine instructions, extended knowledge, and actions. We launched the Assistance API to make it easier to build assisted experiences with your own apps. These are our first steps towards AI agents, and we'll be increasing their capabilities over time. We introduced a new GPT-4 turbo model that delivers improved function calling, knowledge, lowered pricing, new modalities, and more. And we're deepening our partnership with Microsoft. In closing, I wanted to take a minute to thank the team that creates all of this. OpenAI has got remarkable talent density, but still, it takes a huge amount of hard work and coordination to make all of this happen. I truly believe that I've got the best colleagues in the world. I feel incredibly grateful to get to work with them. We do all of this because we believe that AI is going to be a technological and societal revolution. It will change the world in many ways and we're happy to get to work on something that will empower all of you to build so much for all of us. We talked about earlier how if you give people better tools, they can the world we believe that ai will be about individual empowerment and agency at a scale that we've never seen before and that will elevate humanity to a scale that we've never seen before either we'll be able to do more to create more and to have more as intelligence gets integrated everywhere we will all have superpowers on demand. We're excited to see what you all will do with this technology and to discover the new future that we're all going to architect together. We hope that you'll come back next year. What we launched today is going to look very quaint relative to what we're busy creating for you now. Thank you for all that you do. Thank you for coming here today. Thank you for all that you do. Thank you for coming here today.",
+    "timestamps": [
+        {
+            "timestamp": [
+                1.0,
+                6.66
+            ],
+            "text": " Good morning. Thank you for joining us today. Please welcome to the stage Sam Altman."
+        },
+        {
+            "timestamp": [
+                88.02,
+                88.44
+            ],
+            "text": " Good morning. Welcome to our first ever OpenAI Dev Day. We're thrilled that you're here and this energy is awesome. And welcome to San Francisco. San Francisco has been our home since day one. The city is important to us and the tech industry in general. We're looking forward to continuing to grow here. So we've got some great stuff to announce today. But first, I'd like to take a minute to talk about some of the stuff that we've done over the past year. About a year ago, November 30th, we shipped ChatGPT as a low-key research preview, and that went pretty well. In March, we followed that up with the launch of GPT-4, still the most capable model out in the world. And in the last few months, we launched voice and vision capabilities so that ChatGPT can now see, hear, and speak. There's a lot. You don't have to clap each time. And more recently, we launched DALI 3, the world's most advanced image model."
+        },
+        {
+            "timestamp": [
+                90.34,
+                91.28
+            ],
+            "text": " You can use it, of course, inside of ChatGPT."
+        },
+        {
+            "timestamp": [
+                102.38,
+                103.72
+            ],
+            "text": " For our enterprise customers, we launched ChatGPT Enterprise, which offers enterprise-grade security and privacy, higher-speed GPT-4 access, longer context windows, a lot more."
+        },
+        {
+            "timestamp": [
+                102.38,
+                109.18
+            ],
+            "text": " Today, we've got about 2 million developers building on our API for a wide variety of"
+        },
+        {
+            "timestamp": [
+                109.18,
+                110.18
+            ],
+            "text": " use cases."
+        },
+        {
+            "timestamp": [
+                110.18,
+                111.18
+            ],
+            "text": " Do you want to get started?"
+        },
+        {
+            "timestamp": [
+                111.18,
+                112.18
+            ],
+            "text": " Let's get started."
+        },
+        {
+            "timestamp": [
+                112.18,
+                113.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                113.18,
+                114.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                114.18,
+                115.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                115.18,
+                116.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                116.18,
+                117.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                117.18,
+                118.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                118.18,
+                119.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                119.18,
+                120.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                120.18,
+                121.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                121.18,
+                122.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                122.18,
+                123.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                123.18,
+                124.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                124.18,
+                125.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                125.18,
+                126.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                126.18,
+                127.18
+            ],
+            "text": " So, let's get started."
+        },
+        {
+            "timestamp": [
+                127.18,
+                245.38
+            ],
+            "text": " So, let's get started. So, let's get started. So, let's get started. So, let's get more. Today, we've got about 2 million developers building on our API for a wide variety of use cases, doing amazing stuff. Over 92% of Fortune 500 companies building on our products. And we have about 100 million weekly active users now on ChatGPT. And what's incredible on that is we got there entirely through word of mouth. People just find it useful and tell their friends. OpenAI is the most advanced and the most widely used AI platform in the world now. But numbers never tell the whole picture on something like this. What's really important is how people use the products, how people are using AI. And so I'd like to show you a quick video. I actually wanted to write something to my dad in Tagalog. I want a non-romantic way to tell my parent that I love him. And I also want to tell him that he can rely on me, but in a way that still has the respect of like a child-to-parent relationship that you should have in Filipino culture and in Tagalog grammar when it's translated in Tagalog I love you very deeply and I will be with you no matter where the path leads I see some of the possibility I was like whoa something I'm not sure about some stuff and I feel like I should try to be like hey this is what I'm thinking about so kind of give it a more confidence the first thing that blew my mind was it levels with you like that's something that a lot of people struggle to do it opened my mind to just what every creative could do if they just had a person helping them out who listens so this is a to represent sickling hemoglobin, and you built that with ChatGPT? ChatGPT built it with me. I started using it for daily activities like, hey, here's a picture of my fridge. Can you tell me what I'm missing? Because I'm going grocery shopping and I really need to do recipes that are following my vegan diet. As soon as we got access to Code Interpreter, I was like, wow, this thing is awesome. It can build spreadsheets. It can do anything. I discovered Chatty about three months ago on my 100th birthday. Chatty is very friendly, very patient, very knowledgeable, and very quick. It's been a wonderful thing."
+        },
+        {
+            "timestamp": [
+                245.96,
+                248.7
+            ],
+            "text": " I'm a 4.0 student, but I also have four children."
+        },
+        {
+            "timestamp": [
+                249.06,
+                253.14
+            ],
+            "text": " When I started using ChatGPT, I realized I could ask ChatGPT that question."
+        },
+        {
+            "timestamp": [
+                253.88,
+                257.56
+            ],
+            "text": " And not only does it give me an answer, but it gives me an explanation."
+        },
+        {
+            "timestamp": [
+                258.24,
+                259.58
+            ],
+            "text": " Didn't need tutoring as much."
+        },
+        {
+            "timestamp": [
+                259.96,
+                261.92
+            ],
+            "text": " It gave me a life back."
+        },
+        {
+            "timestamp": [
+                262.38,
+                265.1
+            ],
+            "text": " It gave me time for my family and time for me."
+        },
+        {
+            "timestamp": [
+                265.1,
+                266.54
+            ],
+            "text": " I have a chronic nerve gain."
+        },
+        {
+            "timestamp": [
+                267.1,
+                269.34
+            ],
+            "text": " On my whole left half of my body, I have nerve damage."
+        },
+        {
+            "timestamp": [
+                269.8,
+                269.34
+            ],
+            "text": ""
+        },
+        {
+            "timestamp": [
+                265.46,
+                267.46
+            ],
+            "text": " I have to chronic nerve pain."
+        },
+        {
+            "timestamp": [
+                267.46,
+                269.92
+            ],
+            "text": " On my whole left half of my body I have nerve damage."
+        },
+        {
+            "timestamp": [
+                269.92,
+                272.34
+            ],
+            "text": " I had like a spine, a brain surgery."
+        },
+        {
+            "timestamp": [
+                272.34,
+                274.98
+            ],
+            "text": " And so I have like limited use of my left hand."
+        },
+        {
+            "timestamp": [
+                274.98,
+                278.86
+            ],
+            "text": " Now you can just have like the integration of voice input."
+        },
+        {
+            "timestamp": [
+                278.86,
+                280.1
+            ],
+            "text": " And then the newest one where you can have"
+        },
+        {
+            "timestamp": [
+                280.1,
+                282.02
+            ],
+            "text": " the back and forth dialogue."
+        },
+        {
+            "timestamp": [
+                282.02,
+                286.96
+            ],
+            "text": " That's just like maximum best interface for me it's here"
+        },
+        {
+            "timestamp": [
+                297.6,
+                301.12
+            ],
+            "text": " so we love hearing the stories of how people are using the technology"
+        },
+        {
+            "timestamp": [
+                301.12,
+                306.02
+            ],
+            "text": " it's really why we do all of this okay Okay, so now on to the new stuff,"
+        },
+        {
+            "timestamp": [
+                306.24,
+                313.56
+            ],
+            "text": " and we have got a lot. First, we're going to talk about a bunch of improvements we've"
+        },
+        {
+            "timestamp": [
+                313.56,
+                318.96
+            ],
+            "text": " made, and then we'll talk about where we're headed next. Over the last year, we spent"
+        },
+        {
+            "timestamp": [
+                318.96,
+                323.54
+            ],
+            "text": " a lot of time talking to developers around the world. We've heard a lot of your feedback."
+        },
+        {
+            "timestamp": [
+                324.3,
+                345.0
+            ],
+            "text": " It's really informed what we have to show you today. Today, we are launching a new model, GPT-4 Turbo. GPT-4 Turbo will address many of the things that you all have asked for. So, let's go through what's new."
+        },
+        {
+            "timestamp": [
+                345.0,
+                348.0
+            ],
+            "text": " We've got six major things to talk about for this part."
+        },
+        {
+            "timestamp": [
+                348.0,
+                351.0
+            ],
+            "text": " Number one, context length."
+        },
+        {
+            "timestamp": [
+                351.0,
+                353.0
+            ],
+            "text": " A lot of people have tasks"
+        },
+        {
+            "timestamp": [
+                353.0,
+                356.0
+            ],
+            "text": " that require a much longer context length."
+        },
+        {
+            "timestamp": [
+                356.0,
+                358.0
+            ],
+            "text": " GPT-4 supported up to 8K,"
+        },
+        {
+            "timestamp": [
+                358.0,
+                361.0
+            ],
+            "text": " and in some cases up to 32K context length."
+        },
+        {
+            "timestamp": [
+                361.0,
+                363.0
+            ],
+            "text": " But we know that isn't enough for many of you"
+        },
+        {
+            "timestamp": [
+                363.0,
+                447.74
+            ],
+            "text": " and what you want to do. GPT-4 Turbo supports up to 128,000 tokens of context. That's 300 pages of a standard book, 16 times longer than our 8K context. And in addition to longer context length, you'll notice that that the model is much more accurate over a long context. Number two, more control. We've heard loud and clear that developers need more control over the model's responses and outputs. So we've addressed that in a number of ways. We have a new feature called JSON mode, which ensures that the model will respond with valid JSON. This has been a huge developer request. It'll make calling APIs much easier. The model is also much better at function calling. You can now call many functions at once, and it'll do better at following instructions in general. We're also introducing a new feature called reproducible outputs. You can pass a seed parameter, and it'll make the model return consistent outputs. This, of course, gives you a higher degree of control over model behavior. This rolls out in beta today. And in the coming weeks, we'll roll out a feature to let you view log probes in the API."
+        },
+        {
+            "timestamp": [
+                450.48,
+                451.28
+            ],
+            "text": " All right, number three, better world knowledge."
+        },
+        {
+            "timestamp": [
+                453.2,
+                454.22
+            ],
+            "text": " You want these models to be able to access better knowledge about the world."
+        },
+        {
+            "timestamp": [
+                454.4,
+                454.76
+            ],
+            "text": " So do we."
+        },
+        {
+            "timestamp": [
+                456.06,
+                457.88
+            ],
+            "text": " So we're launching retrieval in the platform."
+        },
+        {
+            "timestamp": [
+                458.82,
+                460.6
+            ],
+            "text": " You can bring knowledge from outside documents"
+        },
+        {
+            "timestamp": [
+                460.6,
+                462.36
+            ],
+            "text": " or databases into whatever you're building."
+        },
+        {
+            "timestamp": [
+                463.46,
+                465.24
+            ],
+            "text": " We're also updating the knowledge cutoff."
+        },
+        {
+            "timestamp": [
+                465.8,
+                468.04
+            ],
+            "text": " We are just as annoyed as all of you, probably more,"
+        },
+        {
+            "timestamp": [
+                468.04,
+                469.84
+            ],
+            "text": " that GPT-4's knowledge about the world"
+        },
+        {
+            "timestamp": [
+                469.84,
+                609.7
+            ],
+            "text": " We'll be right back. documents or databases into whatever you're building. We're also updating the knowledge cutoff. We are just as annoyed as all of you, probably more, that GPT-4's knowledge about the world ended in 2021. We will try to never let it get that out of date again. GPT-4 Turbo has knowledge about the world up to April of 2023, and we will continue to improve that over time. number four, new modalities. Surprising no one, DALI 3, GPT-4 Turbo with Vision, and the new text-to-speech model are all going into the API today. We have a handful of customers that have just started using DALI 3 to programmatically generate images and designs. Today, Coke is launching a campaign that lets its customers generate Diwali cards using DALI 3. And of course, our safety systems help developers protect their applications against misuse. Those tools are available in the API. GPT-4 Turbo can now accept images as inputs via the API. It can generate captions, classifications, and analysis. For example, Be My Eyes uses this technology to help people who are blind or have low vision with their daily tasks like identifying products in front of them. And with our new text-to-speech model, you'll be able to generate incredibly natural sounding audio from text in the API with six preset voices to choose from. I'll play an example. Did you know that Alexander Graham Bell, the eminent inventor, was enchanted by the world of sounds? His ingenious mind led to the creation of the graphophone, which etches sounds onto wax, making voices whisper through time. This is much more natural than anything else we've heard out there. Voice can make apps more natural to interact with and more accessible. It also unlocks a lot of use cases like language learning and voice assistance. Speaking of new modalities, we're also releasing the next version of our open source speech recognition model, Whisper V3, today, and it'll be coming soon to the API. It features improved performance across many languages, and we think you're really going to like it. Okay, number five, customization. Fine-tuning has been working really well for GPT 3.5 since we launched it a few months ago. Starting today, we're going to expand that"
+        },
+        {
+            "timestamp": [
+                609.7,
+                606.48
+            ],
+            "text": " to this. customization fine tuning has been working really well for gpt 3.5 since we launched it a few months"
+        },
+        {
+            "timestamp": [
+                606.48,
+                613.52
+            ],
+            "text": " ago starting today we're going to expand that to the 16k version of the model also starting today"
+        },
+        {
+            "timestamp": [
+                614.56,
+                618.96
+            ],
+            "text": " we're inviting active fine tuning users to apply for the gpt4 fine tuning"
+        },
+        {
+            "timestamp": [
+                618.96,
+                624.96
+            ],
+            "text": " experimental access program the fine tuning api is great for adapting our models to achieve better"
+        },
+        {
+            "timestamp": [
+                624.96,
+                726.2
+            ],
+            "text": " performance in a wide variety of applications with a relatively small amount of data. But you may want a model to learn a completely new knowledge domain or to use a lot of proprietary data. So today we're launching a new program called Custom Models. With Custom Models, our researchers will work closely with the company to help them make a great custom model, especially for them and their use case using our tools. This includes modifying every step of the model training process, doing additional domain-specific pre-training, a custom RL post-training process tailored for a specific domain, and whatever else. We won't be able to do this with many companies to start. It'll take a lot of work and in the interest of expectations, at least initially, it won't be cheap. But if you're excited to push things as far as they can currently go, please get in touch with us and we think we can do something pretty great. Okay, and then number six, higher rate limits. We're doubling the tokens per minute for all of our established GPT-4 customers so that it's easier to do more, and you'll be able to request changes to further rate limits and quotas directly in your API account settings. In addition to these rate limits, it's important to do everything we can do to make you successful building on our platform. So we're introducing Copyright Shield. Copyright Shield means that we will step in and defend our customers and pay the costs incurred if you face legal claims around copyright infringement. And this applies both to ChatGPT Enterprise and the API. And let me be clear. This is a good time to remind people. We do not train on data from the API or ChatGPT Enterprise ever."
+        },
+        {
+            "timestamp": [
+                726.88,
+                728.06
+            ],
+            "text": " All right."
+        },
+        {
+            "timestamp": [
+                730.26,
+                732.18
+            ],
+            "text": " There's actually one more developer request that's been even bigger than all of these."
+        },
+        {
+            "timestamp": [
+                733.0,
+                734.34
+            ],
+            "text": " And so I'd like to talk about that now."
+        },
+        {
+            "timestamp": [
+                735.78,
+                736.84
+            ],
+            "text": " And that's pricing."
+        },
+        {
+            "timestamp": [
+                740.66,
+                743.54
+            ],
+            "text": " GPT-4 Turbo is the industry-leading model."
+        },
+        {
+            "timestamp": [
+                744.3,
+                788.32
+            ],
+            "text": " It delivers a lot of improvements that we just covered, and it's a smarter model than GPT-4 Turbo is the industry-leading model. It delivers a lot of improvements that we just covered, and it's a smarter model than GPT-4. We've heard from developers that there are a lot of things that they want to build, but GPT-4 just costs too much. They've told us that if we could decrease the cost by 20%, 25%, that would be great, a huge leap forward. I'm super excited to announce that we worked really hard on this, and GPT-4 Turbo, a better model, is considerably cheaper than GPT-4 by a factor of 3x for prompt tokens and 2x for completion tokens starting today."
+        },
+        {
+            "timestamp": [
+                792.58,
+                795.76
+            ],
+            "text": " So the new pricing is one cent per thousand prompt tokens"
+        },
+        {
+            "timestamp": [
+                795.76,
+                798.04
+            ],
+            "text": " and three cents per thousand completion tokens."
+        },
+        {
+            "timestamp": [
+                798.16,
+                800.92
+            ],
+            "text": " For most customers, that will lead to a blended rate"
+        },
+        {
+            "timestamp": [
+                800.92,
+                805.52
+            ],
+            "text": " more than 2.75 times cheaper to use for GPT-4 Turbo than GPT-4."
+        },
+        {
+            "timestamp": [
+                805.84,
+                827.5
+            ],
+            "text": " We worked super hard to make this happen. We hope you're as excited about it as we are. So we decided to prioritize price first because we had to choose one or the other, but we're going to work on speed next. We know that speed is important too. Soon, you will notice GPT-4 turbo becoming a lot faster."
+        },
+        {
+            "timestamp": [
+                828.76,
+                846.1
+            ],
+            "text": " We're also decreasing the cost of GPT-3.5 Turbo 16K. Also, input tokens are 3x less and output tokens are 2x less, which means the GPT-3.5 16K is now cheaper than the previous GPT 3.5 4K model."
+        },
+        {
+            "timestamp": [
+                849.3,
+                851.86
+            ],
+            "text": " Running a fine-tuned GPT 3.5 Turbo 16K version is also cheaper than the old fine-tuned 4K version."
+        },
+        {
+            "timestamp": [
+                853.14,
+                856.32
+            ],
+            "text": " Okay, so we just covered a lot about the model itself."
+        },
+        {
+            "timestamp": [
+                856.7,
+                858.86
+            ],
+            "text": " We hope that these changes address your feedback."
+        },
+        {
+            "timestamp": [
+                859.34,
+                861.36
+            ],
+            "text": " We're really excited to bring all of these improvements"
+        },
+        {
+            "timestamp": [
+                861.36,
+                862.18
+            ],
+            "text": " to everybody now."
+        },
+        {
+            "timestamp": [
+                864.02,
+                867.08
+            ],
+            "text": " In all of this, we're lucky to have a partner"
+        },
+        {
+            "timestamp": [
+                867.08,
+                869.1
+            ],
+            "text": " who is instrumental in making it happen."
+        },
+        {
+            "timestamp": [
+                869.9,
+                869.1
+            ],
+            "text": ""
+        },
+        {
+            "timestamp": [
+                866.62,
+                871.92
+            ],
+            "text": " Thank you for watching. to bring all of these improvements to everybody now. In all of this, we're lucky to have a partner who is instrumental in making it happen. So, I'd like to bring out a special guest,"
+        },
+        {
+            "timestamp": [
+                871.92,
+                873.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                873.84,
+                874.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                874.84,
+                875.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                875.84,
+                876.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                876.84,
+                877.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                877.84,
+                878.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                878.84,
+                879.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                879.84,
+                880.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                880.84,
+                881.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                881.84,
+                882.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                882.84,
+                883.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                883.84,
+                884.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                884.84,
+                885.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                885.84,
+                886.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                886.84,
+                887.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                887.84,
+                888.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                888.84,
+                889.84
+            ],
+            "text": " Satya Nadella, the CEO of Microsoft."
+        },
+        {
+            "timestamp": [
+                889.84,
+                925.0
+            ],
+            "text": " We'll be right back. Good to see you. Thank you so much. Thank you. Satya, thanks so much for coming here. It's fantastic to be here. And Sam, congrats. I mean, I'm really looking forward to Turbo and everything else that you have coming. It's been just fantastic partnering with you guys. Two questions. I won't take too much of your time. How is Microsoft thinking about the partnership currently? First, we love you guys. Look, it's been fantastic for us. In fact, I remember the first time I think you reached out and said, hey, do you have some Azure credits? We've come a long way from there. Thank you for those. That was great. You guys have built something magical. I mean, quite frankly, there are two things for us when it comes to the partnership. The first is these workloads."
+        },
+        {
+            "timestamp": [
+                925.7,
+                1226.16
+            ],
+            "text": " And even when I was listening backstage to how you're describing what's coming even, it's just so different and new. I've been in this infrastructure business for three decades. No one has ever seen infrastructure like this. Yeah. And the workload, the pattern of the workload, these training jobs are so synchronous and so large and so data parallel. And so the first thing that we have been doing is building in partnership with you the system, all the way from thinking from power to the DC to the rack to the accelerators to the network. And just, you know, really the shape of Azure is drastically changed and is changing rapidly in support of these models that you're building And so our job number one is to build the best system so that you can build the best models and then make that all available to developers. And so the other thing is we ourselves are developers. So we're building products. In fact, my own conviction of this entire generation of foundation models completely changed the first time I saw, you know, GitHub Copilot on GPT. And so, we want to build our Copilot, GitHub Copilot, all as developers on top of OpenAI APIs. And so, we are very, very committed to that. And what does that mean to developers? You know, look, I always think of Microsoft as a platform company, a developer company, and a partner company. And so, we to make, for example, we want to make GitHub available, GitHub Copilot available, the Enterprise Edition available to all the attendees here so that they can try it out. That's awesome. Yeah, we're very excited about that. And you can count on us to build the best infrastructure in Azure with your API support and bring it to all of you, and then even things like the Azure Marketplace, so for developers who are building products out here to get to market rapidly. So that's sort of really our intent here. Great. And how do you think about the future? Future of the partnership or future of AI or whatever? Yeah, there... Anything you want. You know, like, there are a couple of things for me that I think are going to be very, very key for us. One is I just described how the systems that are needed as you aggressively push forward on your roadmap requires us to be on the top of our game. And we intend fully to commit ourselves deeply to making sure you all, as builders of these foundation models, have not only the best systems for training and inference, but the most compute, so that you can keep pushing forward on the frontiers, because I think that that's the way we're going to make progress. The second thing I think both of us care about, in fact, quite frankly, the thing that excited both sides to come together is your mission and our mission. Our mission is to empower every person in every organization on the planet to achieve more. And to me, ultimately, AI is only going to be useful if it truly does empower, right? I mean, I saw the video you played earlier. I mean, that was fantastic to see those, hear those voices describe what AI meant for them and what they were able to achieve. So ultimately, it's about being able to get the benefits of AI broadly disseminated to everyone, I think is going to be the goal for us. And then the last thing is, of course, we're very grounded in the fact that safety matters. And safety is not something that you'd care about later, but it's something we do shift left on. And we're very, very focused on that with you all. Great. Well, I think we have the best partnership in tech. I'm excited for us to build AGI together. No, I'm really excited. Have a fantastic day. Thank you very much for coming. Thank you so much. See you. Okay. So we have shared a lot of great updates for developers already, and we've got a lot more to come. But even though this is a developer conference, we can't resist making some improvements to ChatGPT. So, a small one, ChatGPT now uses GPT-4 Turbo with all the latest improvements, including the latest knowledge cutoff, which will continue to update. That's all live today. It can now browse the web when it needs to, write and run code, analyze data, take and generate images, and much more. And we heard your feedback, that model picker extremely annoying, that is gone starting today. You will not have to click around the drop-down menu. All of this will just work together. ChatGPT, yeah. ChatGPT will just know what to use and when you need it. But that's not the main thing. And neither was price, actually, the main developer request. There was one that was even bigger than that. And I want to talk about where we're headed and the main thing we're here to talk about today. So, we believe that if you give people better tools, they will do amazing things. We know that people want AI that is smarter, more personal, more customizable, can do more on your behalf. Eventually, you'll just ask a computer for what you need, and it'll do all of these tasks for you. These capabilities are often talked in the AI field"
+        },
+        {
+            "timestamp": [
+                1226.16,
+                1227.2
+            ],
+            "text": " about as agents."
+        },
+        {
+            "timestamp": [
+                1228.68,
+                1231.34
+            ],
+            "text": " The upsides of this are going to be tremendous."
+        },
+        {
+            "timestamp": [
+                1232.3,
+                1234.12
+            ],
+            "text": " At OpenAI, we really believe"
+        },
+        {
+            "timestamp": [
+                1234.12,
+                1235.8
+            ],
+            "text": " that gradual iterative deployment"
+        },
+        {
+            "timestamp": [
+                1235.8,
+                1238.46
+            ],
+            "text": " is the best way to address the safety issues,"
+        },
+        {
+            "timestamp": [
+                1238.6,
+                1239.76
+            ],
+            "text": " the safety challenges with AI."
+        },
+        {
+            "timestamp": [
+                1240.64,
+                1242.22
+            ],
+            "text": " We think it's especially important"
+        },
+        {
+            "timestamp": [
+                1242.22,
+                1244.36
+            ],
+            "text": " to move carefully towards this future of agents."
+        },
+        {
+            "timestamp": [
+                1244.82,
+                1245.0
+            ],
+            "text": " It's going to require a lot of technical work and a lot of thoughtful consideration by society. We think it's especially important to move carefully towards this future of agents."
+        },
+        {
+            "timestamp": [
+                1249.46,
+                1250.36
+            ],
+            "text": " It's going to require a lot of technical work and a lot of thoughtful consideration by society."
+        },
+        {
+            "timestamp": [
+                1255.18,
+                1255.74
+            ],
+            "text": " So today, we're taking our first small step that moves us towards this future."
+        },
+        {
+            "timestamp": [
+                1260.44,
+                1261.58
+            ],
+            "text": " We're thrilled to introduce GPTs."
+        },
+        {
+            "timestamp": [
+                1265.94,
+                1285.04
+            ],
+            "text": " GPTs are tailored versions of ChatGPT for a specific purpose. You can build a GPT, a customized version of ChatGPT, for almost anything with instructions, expanded knowledge, and actions. And then you can publish it for others to use. And because they combine instructions, expanded knowledge, and actions, they can be more helpful to you."
+        },
+        {
+            "timestamp": [
+                1285.74,
+                1288.42
+            ],
+            "text": " They can work better in many contexts, and they can give you better control."
+        },
+        {
+            "timestamp": [
+                1289.74,
+                1293.52
+            ],
+            "text": " They'll make it easier for you to accomplish all sorts of tasks or just have more fun,"
+        },
+        {
+            "timestamp": [
+                1293.88,
+                1299.92
+            ],
+            "text": " and you'll be able to use them right within ChatGPT. You can, in effect, program a GPT"
+        },
+        {
+            "timestamp": [
+                1299.92,
+                1305.46
+            ],
+            "text": " with language just by talking to it. It's easy to customize the behavior so that it fits what you want."
+        },
+        {
+            "timestamp": [
+                1305.9,
+                1307.6
+            ],
+            "text": " This makes building them very accessible,"
+        },
+        {
+            "timestamp": [
+                1307.86,
+                1309.64
+            ],
+            "text": " and it gives agency to everyone."
+        },
+        {
+            "timestamp": [
+                1310.88,
+                1313.28
+            ],
+            "text": " So we're going to show you what GPTs are,"
+        },
+        {
+            "timestamp": [
+                1313.76,
+                1315.68
+            ],
+            "text": " how to use them, how to build them,"
+        },
+        {
+            "timestamp": [
+                1315.96,
+                1317.36
+            ],
+            "text": " and then we're going to talk about"
+        },
+        {
+            "timestamp": [
+                1317.36,
+                1319.2
+            ],
+            "text": " how they'll be distributed and discovered."
+        },
+        {
+            "timestamp": [
+                1320.22,
+                1321.46
+            ],
+            "text": " And then after that, for developers,"
+        },
+        {
+            "timestamp": [
+                1321.58,
+                1322.6
+            ],
+            "text": " we're going to show you how to build"
+        },
+        {
+            "timestamp": [
+                1322.6,
+                1367.34
+            ],
+            "text": " these agent-like experiences into your own apps. So first, let's look at a few examples. Our partners have been working with us for a long time and have been working with us for a long time and have been by tens of millions of students worldwide. Code.org crafted Lesson Planner GPT to help teachers provide a more engaging experience for middle schoolers. If a teacher asks it to explain for loops in a creative way, it does just that. In this case, it'll do it in terms of a video game character, repeatedly picking up coins. Super easy to understand for an eighth grader. As you can see, this GPT brings together Code.org's extensive curriculum and expertise and lets teachers adapt it to their needs"
+        },
+        {
+            "timestamp": [
+                1367.34,
+                1368.04
+            ],
+            "text": " quickly and easily."
+        },
+        {
+            "timestamp": [
+                1369.5,
+                1372.52
+            ],
+            "text": " Next, Canva has built a GPT"
+        },
+        {
+            "timestamp": [
+                1372.52,
+                1374.46
+            ],
+            "text": " that lets you start designing"
+        },
+        {
+            "timestamp": [
+                1374.46,
+                1376.6
+            ],
+            "text": " by describing what you want in natural language."
+        },
+        {
+            "timestamp": [
+                1377.38,
+                1380.46
+            ],
+            "text": " If you say, make a poster for a Dev Day reception"
+        },
+        {
+            "timestamp": [
+                1380.46,
+                1381.56
+            ],
+            "text": " this afternoon, this evening,"
+        },
+        {
+            "timestamp": [
+                1381.88,
+                1382.9
+            ],
+            "text": " and you give it some details,"
+        },
+        {
+            "timestamp": [
+                1383.8,
+                1385.26
+            ],
+            "text": " it'll generate a few options to start with by hitting Canva's APIs. Now, this concept may and you give it some details. It'll generate a few options"
+        },
+        {
+            "timestamp": [
+                1385.26,
+                1407.82
+            ],
+            "text": " to start with by hitting Canva's APIs. Now, this concept may be familiar to some of you. We've evolved our plugins to be custom actions for GPTs. You can keep chatting with this to see different iterations, and when you see one you like, you can click through to Canva for the full design experience. So now, we'd like to show you a GPT live."
+        },
+        {
+            "timestamp": [
+                1407.82,
+                1411.62
+            ],
+            "text": " Zapier has built a GPT that lets you perform actions"
+        },
+        {
+            "timestamp": [
+                1411.62,
+                1415.02
+            ],
+            "text": " across 6,000 applications to unlock all kinds of integration"
+        },
+        {
+            "timestamp": [
+                1415.02,
+                1416.34
+            ],
+            "text": " possibilities."
+        },
+        {
+            "timestamp": [
+                1416.34,
+                1419.34
+            ],
+            "text": " I'd like to introduce Jessica, one of our solutions architects,"
+        },
+        {
+            "timestamp": [
+                1419.34,
+                1420.68
+            ],
+            "text": " who is going to drive this demo."
+        },
+        {
+            "timestamp": [
+                1420.68,
+                1421.38
+            ],
+            "text": " Welcome, Jessica."
+        },
+        {
+            "timestamp": [
+                1423.18,
+                1432.98
+            ],
+            "text": " JESSICA DENE EARLEY- Thank you, Jessica. Thank you all for being here. My name is Jessica Shea. I work"
+        },
+        {
+            "timestamp": [
+                1432.98,
+                1438.4
+            ],
+            "text": " with partners and customers to bring their product to life. And today, I can't wait to show you how"
+        },
+        {
+            "timestamp": [
+                1438.4,
+                1443.9
+            ],
+            "text": " hard we've been working on this. So let's get started. So to start, where your GPT will live"
+        },
+        {
+            "timestamp": [
+                1443.9,
+                1505.3
+            ],
+            "text": " is on this upper left corner. I'm going to start with clicking on the Zapier AI actions. And on the right-hand side, you can see that's my calendar for today. So it's quite a day. I've already used this before, so it's actually already connected to my calendar. To start, I can ask, what's on my schedule for today? We buildDAY. WE BUILD GPT'S WITH SECURITY IN MIND. SO BEFORE IT PERFORMS ANY ACTION OR SHARE DATA, IT WILL ASK FOR YOUR PERMISSION. SO RIGHT HERE, I'M GOING TO SAY ALLOWED. SO GPT IS DESIGNED TO TAKE IN YOUR INSTRUCTIONS, MAKE A DECISION ON WHICH CAPABILITY TO CALL TO PERFORM THAT ACTION, AND THEN EXECUTE THAT for you. So you can see right here, it's already connected to my calendar. It pulls into my information, and then I've also prompted it to identify conflicts on my calendar. So you can see right here, it actually was able to identify that. So it looks like I have something coming up. So, what if I want to let Sam know that"
+        },
+        {
+            "timestamp": [
+                1505.3,
+                1531.76
+            ],
+            "text": " I have to leave early? So, right here, I say, let Sam know I got to go chasing GPUs. So, with that, I'm going to swap to my conversation with Sam, and then I'm going to say, yes, please run that. Sam, did you get that? I did. Awesome."
+        },
+        {
+            "timestamp": [
+                1534.62,
+                1541.32
+            ],
+            "text": " So this is only a glimpse of what is possible, and I cannot wait to see what you all will"
+        },
+        {
+            "timestamp": [
+                1541.32,
+                1608.24
+            ],
+            "text": " build. Thank you, and back to you, Sam. Thank you, Jessica. So, those are three great examples. In addition to these, there are many more kinds of GPTs that people are creating and many, many more that will be created soon. We know that many people who want to build a GPT don't know how to code. We've made it so that you can program the GPT just by having a conversation. We believe that natural language is going to be a big part of how people use computers in the future. And we think this is an interesting early example. So I'd like to show you how to build one. All right. So I I want to create a GPT that helps give founders and developers advice when starting new projects. I'm going to go to create a GPT here. And this drops me into the GPT builder. I worked with founders for years at YC. And still, whenever I meet developers, the questions I get are always about how do I think about a business idea, can you give me some advice."
+        },
+        {
+            "timestamp": [
+                1609.06,
+                1611.16
+            ],
+            "text": " I'm going to see if I can build a GPT to help with that."
+        },
+        {
+            "timestamp": [
+                1612.14,
+                1725.3
+            ],
+            "text": " So to start, GPT Builder asks me what I want to make. And I'm going to say I want to help startup founders think through their business ideas and get get advice. After the founder has gotten some advice, grill them on why they are not growing faster. All right, so to start off, I just tell the GPT a little bit about what I want here. And it's going to go off and start thinking about that. And it's going to write some detailed instructions for the GPT. It's also going to, let's see, ask me about a name. How do I feel about Startup Mentor? That's fine. That's good. So if I didn't like the name, of course, I could call it something else. But it's, you know, going to try to have this conversation with me and start there. And you can see here on the right in the preview mode that it's already starting to fill out the GPT where it says what it does. It has some like ideas of additional questions that I could ask. And you know what, I actually, so it just generated a candidate. Of course I could regenerate that or change it, but I sort of like that. So I will say, that's great. And you see now that the GPT is being built out a little bit more as we go. Now, what I want this to do, how it can interact with users, I could talk about style here, but what I'm going to say is I am going to upload transcripts of some lectures about startups I have given. Please give advice based off of those. All right. So now it's going to go figure out how to do that. And I would like to show you the configure tab."
+        },
+        {
+            "timestamp": [
+                1725.76,
+                1730.4
+            ],
+            "text": " So, you can see some of the things that were built out here as we were going by the builder itself."
+        },
+        {
+            "timestamp": [
+                1730.8,
+                1733.48
+            ],
+            "text": " And you can see that there's capabilities here that I can enable."
+        },
+        {
+            "timestamp": [
+                1734.08,
+                1735.4
+            ],
+            "text": " I could add custom actions."
+        },
+        {
+            "timestamp": [
+                1735.88,
+                1737.1
+            ],
+            "text": " These are all fine to leave."
+        },
+        {
+            "timestamp": [
+                1737.7,
+                1738.92
+            ],
+            "text": " I'm going to upload a file."
+        },
+        {
+            "timestamp": [
+                1740.14,
+                1745.2
+            ],
+            "text": " So, here is a lecture that I picked, that I used to, that I gave with some startup advice."
+        },
+        {
+            "timestamp": [
+                1745.72,
+                1746.98
+            ],
+            "text": " And I'm going to add that here."
+        },
+        {
+            "timestamp": [
+                1746.98,
+                1905.26
+            ],
+            "text": " In terms of these questions, this is a lecture that I picked, that I used to, that I gave with some startup advice. And I'm going to add that here. In terms of these questions, this is a dumb one. The rest of those are reasonable and like very much things founders often ask. I'm going to add one more thing to the instructions here, which is be concise and constructive with feedback. All right. So again, if we had more time, I'd show you a bunch of other things. But this is like a decent start. And now we can try it out over on this Preview tab. So I will say, what's a common question? What are three things to look for when hiring employees at an early stage startup. Now, it's going to look at that document I uploaded. It'll also have, of course, all of the background knowledge of GPT-4. That's pretty good. Those are three things that I definitely have said many times. Now, we could go on and it would start following the other instructions and, you know, grill me on why I'm not growing faster. But in the interest of time, I'm going to skip that. I'm going to publish this only to me for now. I can work on it later. I can add more content. I can add a few actions that I think would be useful. And then I can share it publicly. So that's what it looks like to create a GPT. Thank you. By the way, I always wanted to do that. After, like, all of the YC office hours, I always thought, man, someday I'll be able to make a bot that will do this and that'll be awesome. So with GPTs, we're letting people easily share and discover all the fun ways that they use ChatGPT with the world. You can make private GPTs like I just did. Or you can share your creations publicly with a link for anyone to use. Or if you're on ChatGPT Enterprise, you can make GPTs just for your company. And later this month, we're going to launch the GPT store. You can list a GPT. Thank you. I appreciate that. You can list a GPT there, and we'll be able to feature the best and the most popular GPTs. Of course, we'll make sure that GPTs in the store follow our policies before they're accessible. Revenue sharing is important to us. We're going to pay people who build the most useful and the most used GPTs a portion of our revenue."
+        },
+        {
+            "timestamp": [
+                1906.16,
+                1909.76
+            ],
+            "text": " We're excited to foster a vibrant ecosystem with the GPT store."
+        },
+        {
+            "timestamp": [
+                1909.94,
+                1914.1
+            ],
+            "text": " Just from what we've been building ourselves over the weekend, we're confident there's going to be a lot of great stuff."
+        },
+        {
+            "timestamp": [
+                1914.5,
+                1916.22
+            ],
+            "text": " We're excited to share more information soon."
+        },
+        {
+            "timestamp": [
+                1917.6,
+                1920.68
+            ],
+            "text": " So those are GPTs, and we can't wait to see what you'll build."
+        },
+        {
+            "timestamp": [
+                1922.52,
+                1985.78
+            ],
+            "text": " But this is a developer conference, and the coolest thing about this is that we're bringing the same concept to the API. Many of you have already been building agent-like experiences on the API. For example, Shopify's Sidekick, which lets you take actions on the platform. Discord's Clyde, lets Discord moderators create custom personalities for. And Snap's MyAI, a customized chatbot that can be added to group chats and make recommendations. These experiences are great, but they have been hard to build. Sometimes taking months, teams of dozens of engineers, there's a lot to handle to make this custom assistant experience. So today we're making that a lot easier with our new assistance API. The assistance API includes persistent threads, so they don't have to figure out how to deal with long conversation history. Built-in retrieval."
+        },
+        {
+            "timestamp": [
+                1986.92,
+                1990.58
+            ],
+            "text": " Code interpreter, a working Python interpreter in a sandbox environment."
+        },
+        {
+            "timestamp": [
+                1991.76,
+                1995.02
+            ],
+            "text": " And of course, the improved function calling that we talked about earlier."
+        },
+        {
+            "timestamp": [
+                1996.74,
+                1998.88
+            ],
+            "text": " So we'd like to show you a demo of how this works."
+        },
+        {
+            "timestamp": [
+                1999.28,
+                2001.82
+            ],
+            "text": " And here is Roman, our head of developer experience."
+        },
+        {
+            "timestamp": [
+                2002.16,
+                2002.34
+            ],
+            "text": " Welcome."
+        },
+        {
+            "timestamp": [
+                2005.82,
+                2007.54
+            ],
+            "text": " Thank you, Sam."
+        },
+        {
+            "timestamp": [
+                2007.54,
+                2009.38
+            ],
+            "text": " Good morning."
+        },
+        {
+            "timestamp": [
+                2009.38,
+                2012.24
+            ],
+            "text": " Wow, it's fantastic to see you all here."
+        },
+        {
+            "timestamp": [
+                2013.44,
+                2015.96
+            ],
+            "text": " It's been so inspiring to see so many of you"
+        },
+        {
+            "timestamp": [
+                2015.96,
+                2018.56
+            ],
+            "text": " infusing AI into your apps."
+        },
+        {
+            "timestamp": [
+                2018.56,
+                2021.86
+            ],
+            "text": " Today, we're launching new modalities in the API,"
+        },
+        {
+            "timestamp": [
+                2021.86,
+                2024.58
+            ],
+            "text": " but we are also very excited to improve"
+        },
+        {
+            "timestamp": [
+                2024.58,
+                2066.38
+            ],
+            "text": " the developer experience for you all to build assistive agents. So let's dive right in. Imagine I'm building Wanderlust, a travel app for global explorers, and this is the landing page. I've actually used GPT-4 to come up with these destination ideas, and for those of you with a keen eye, these illustrations are generated programmatically using the new DALI 3 API available to all of you today. So, it's pretty remarkable. But let's enhance this app by adding a very simple assistant to it. This is the screen. We're going to come back to it in a second. First, I'm going to switch over to the new assistance playground. Creating an assistant is easy. You just give it a name, some initial instructions,"
+        },
+        {
+            "timestamp": [
+                2066.38,
+                2125.7
+            ],
+            "text": " a model. In this case, I'll pick GPT-4 Turbo. And here, I'll also go ahead and select some tools. I'll turn on code interpreter and retrieval and save. And that's it. Our assistant is ready to go. Next, I can integrate with two new primitives of this assistance API, threads and messages. Let's take a quick look at the code. The process here is very simple. For each new user, I will create a new thread. And as these users engage with their assistant, I will add their messages to these threads. Very simple. And then I can simply run the assistant at any time to stream the responses back to the app. So we can return to the app and try that in action. If I say, hey, let's go to Paris. All right. That's it. With just a few lines of code, users can now have a very specialized assistant right inside the app. And I'd like to highlight one of my favorite"
+        },
+        {
+            "timestamp": [
+                2125.7,
+                2285.76
+            ],
+            "text": " features here, function calling. If you have not used it yet, function calling is really powerful. And as Sam mentioned, we're taking it a step further today. It now guarantees the JSON output with no added latency and you can invoke multiple functions at once for the first time. So, here, if I carry on and say, hey, what are the top 10 things to do? We're gonna have the assistant respond to that again. And here, what's interesting is that the assistant knows about functions, including those to annotate the map that you see on the right. And so now all of these pins are dropping in real time here. Yeah, it's pretty cool. And that integration allows our natural language interface to interact fluidly with components and features of our app. And it truly showcases now the harmony you can build between AI and UI where the assistant is actually taking action. But next, let's talk about retrieval. And retrieval is about giving our assistant more knowledge beyond these immediate user messages. In fact, I got inspired and I already booked my tickets to Paris. So I'm just going to drag and drop here this PDF. What it's uploading, I can just sneak peek at it. Very typical United Flight ticket. And behind the scene here, what's happening is that Retrieval is reading these files, and boom, the information about this PDF appeared on the screen. And this is, of course, a very tiny PDF, but assistants can parse long-form documents from extensive text to intricate product specs, depending on what you're building. In fact, I also booked an Airbnb, so I'm just going to drag that over to the conversation as well. And, by the way, we've heard from so many of you developers how hard that is to build yourself. You typically need to compute your embeddings. You need to set up chunking algorithm. Now all of that is taken care of. And there's more than retrie retrieval with every api call you usually need to resend the entire conversation history which means you know setting up a key value store that means like handling the context windows serializing messages and so forth that complexity now completely goes away with this new stateful api but just because aponia is managing this api does not it's a black box. In fact, you can see the steps that the tools are taking right inside your developer dashboard. So here, if I go ahead and click on threads, this is the thread I believe we're currently working on. And see, like, these are all the steps, including the functions being called with the right parameters and the PDFs I've"
+        },
+        {
+            "timestamp": [
+                2285.76,
+                2405.44
+            ],
+            "text": " just uploaded. But let's move on to a new capability that many of you have been requesting for a while. Code interpreter is now available today in the API as well. That gives the AI the ability to write and execute code on the fly but even generate files. So, let's see that in action. If I say here, hey, we'll be four friends staying at this Airbnb. What's my share of it plus my flights? All right. Now here, what's happening is that code interpreter noticed that it should write some code to answer this query, so now it's computing the number of days in Paris, the number of friends, it's also doing some exchange rate calculation behind the scenes to get this answer for us. Not the most complex math, but you get the picture. Imagine you're building a very complex finance app that's crunching countless numbers, plotting charts. So, really, any task that you'd normally tackle with code, then Code Interpreter will work great for you. All right. I think my trip to Paris is sorted. So, to recap here, we've just seen how you can quickly create an assistant that manages state for your user conversations, leverages external tools like knowledge and retrieval and code interpreter, and finally invokes your own functions to make things happen. But there's one more thing I wanted to show you to kind of really open up the possibilities using function calling combined with our new modalities that we're launching today. While working on Dev Day, I built a small custom assistant that knows everything about this event. But instead of having a chat interface while running around all day today, I thought, why not use voice instead? So let's bring my phone up on screen here so you can see it on the right. Awesome. So on the right, you can see a very simple Swift app that takes microphone input. And on the left, I'm actually going"
+        },
+        {
+            "timestamp": [
+                2405.44,
+                2407.44
+            ],
+            "text": " to bring up my terminal log so you can see what's"
+        },
+        {
+            "timestamp": [
+                2407.44,
+                2409.56
+            ],
+            "text": " happening behind the scenes."
+        },
+        {
+            "timestamp": [
+                2409.56,
+                2412.44
+            ],
+            "text": " So let's give it a shot."
+        },
+        {
+            "timestamp": [
+                2412.44,
+                2414.76
+            ],
+            "text": " Hey there, I'm on the keynote stage right now."
+        },
+        {
+            "timestamp": [
+                2414.76,
+                2417.06
+            ],
+            "text": " Can you greet our attendees here at Dev Day?"
+        },
+        {
+            "timestamp": [
+                2421.58,
+                2423.72
+            ],
+            "text": " Hey everyone, welcome to Dev Day."
+        },
+        {
+            "timestamp": [
+                2423.72,
+                2506.56
+            ],
+            "text": " It's awesome to have you all here. Let's make it an incredible day. Isn't that impressive? You have six unique and rich voices to choose from in the API, each speaking multiple languages, so you can really find the perfect fit for your app. And on my laptop here on the left, you can see the logs of what's happening behind the scenes, too. So, I'm using Whisper to convert the voice inputs into text, an assistant with GPT-4 Turbo, and finally, the new TTS API to make it speak. But thanks to function calling, things get even more interesting when the assistant can connect to the Internet and take real actions for users. So let's do something even more exciting here together. How about this? Hey Assistant, can you randomly select five Dev Day attendees here and give them $500 in OpenAI credits? Yes, checking the list of attendees. Done, I picked five Dev Day attendees and added $500 of API credits to their account. Congrats to Christine M., Jonathan C., Steven G., Luis K., and Suraj S. All right. If you recognize yourself, awesome. Congrats. And that's it. A quick overview today of the new assistance API"
+        },
+        {
+            "timestamp": [
+                2506.56,
+                2509.74
+            ],
+            "text": " combined with some of the new tools and modalities that we launched,"
+        },
+        {
+            "timestamp": [
+                2510.28,
+                2515.46
+            ],
+            "text": " all starting with the simplicity of a rich text or voice conversation for you and users."
+        },
+        {
+            "timestamp": [
+                2516.0,
+                2519.34
+            ],
+            "text": " We really can't wait to see what you build, and congrats to our lucky winners."
+        },
+        {
+            "timestamp": [
+                2520.08,
+                2524.84
+            ],
+            "text": " Actually, you know what? You're all part of this amazing OpenAI community here,"
+        },
+        {
+            "timestamp": [
+                2524.84,
+                2585.0
+            ],
+            "text": " so I'm just going to talk to my assistant one last time before I step off the stage. Hey, assistant, can you actually give everyone here in the audience $500 in OpenAI credits? Sounds great. Let me go through everyone. All right. That function will keep running, but I've run out of time, so thank you so much, everyone. Have a great day. Back to you, Sam. Pretty cool, huh? All right, so that assistance API goes into beta today, and we are super excited to see what you all do with it. Anybody can enable it. Over time, GPTs and assistants, our precursors to agents, are going to be able to do much, much more."
+        },
+        {
+            "timestamp": [
+                2585.0,
+                2591.0
+            ],
+            "text": " They'll gradually be able to plan and to perform more complex actions on your behalf."
+        },
+        {
+            "timestamp": [
+                2591.0,
+                2596.0
+            ],
+            "text": " As I mentioned before, we really believe in the importance of gradual iterative deployment."
+        },
+        {
+            "timestamp": [
+                2596.0,
+                2600.0
+            ],
+            "text": " We believe it's important for people to start building with and using these agents now"
+        },
+        {
+            "timestamp": [
+                2600.0,
+                2705.48
+            ],
+            "text": " to get a feel for what the world is going to be like as they become more capable. And as we've always done, we'll continue to update our systems based off of your feedback. So we're super excited that we got to share all of this with you today. We introduced GPTs, custom versions of ChatGPT that combine instructions, extended knowledge, and actions. We launched the Assistance API to make it easier to build assisted experiences with your own apps. These are our first steps towards AI agents, and we'll be increasing their capabilities over time. We introduced a new GPT-4 turbo model that delivers improved function calling, knowledge, lowered pricing, new modalities, and more. And we're deepening our partnership with Microsoft. In closing, I wanted to take a minute to thank the team that creates all of this. OpenAI has got remarkable talent density, but still, it takes a huge amount of hard work and coordination to make all of this happen. I truly believe that I've got the best colleagues in the world. I feel incredibly grateful to get to work with them. We do all of this because we believe that AI is going to be a technological and societal revolution. It will change the world in many ways and we're happy to get to work on something that will empower all of you to build so much for all of us. We talked about earlier how if you give people better tools, they can the world we believe that ai will be about individual empowerment and agency at a scale that we've never seen before and that will elevate humanity to a scale that we've never seen before either we'll be able to do more to create more and to have more as intelligence gets integrated everywhere we will all have superpowers on demand."
+        },
+        {
+            "timestamp": [
+                2707.84,
+                2709.76
+            ],
+            "text": " We're excited to see what you all will do with this technology and to discover the new future"
+        },
+        {
+            "timestamp": [
+                2709.76,
+                2711.3
+            ],
+            "text": " that we're all going to architect together."
+        },
+        {
+            "timestamp": [
+                2712.74,
+                2714.3
+            ],
+            "text": " We hope that you'll come back next year."
+        },
+        {
+            "timestamp": [
+                2715.12,
+                2717.16
+            ],
+            "text": " What we launched today is going to look very quaint"
+        },
+        {
+            "timestamp": [
+                2717.16,
+                2718.9
+            ],
+            "text": " relative to what we're busy creating for you now."
+        },
+        {
+            "timestamp": [
+                2719.66,
+                2720.74
+            ],
+            "text": " Thank you for all that you do."
+        },
+        {
+            "timestamp": [
+                2721.14,
+                2722.0
+            ],
+            "text": " Thank you for coming here today."
+        },
+        {
+            "timestamp": [
+                2722.0,
+                null
+            ],
+            "text": " Thank you for all that you do. Thank you for coming here today."
+        }
+    ]
+}

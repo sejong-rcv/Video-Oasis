@@ -1,0 +1,27 @@
+{
+    "video_id": "4V6G0qYVoBg.mp4.mp3",
+    "transcript": " One more time! Pain! Rock solid! Die! UGH! DIE! SMASH! Smash! Ugh! Stay down! CAUGHT BETWEEN A ROCK AND A HORRID PLACE.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                43.0
+            ],
+            "text": " One more time! Pain! Rock solid!"
+        },
+        {
+            "timestamp": [
+                45.0,
+                59.0
+            ],
+            "text": " Die! UGH! DIE!"
+        },
+        {
+            "timestamp": [
+                78.5,
+                110.0
+            ],
+            "text": " SMASH! Smash! Ugh! Stay down! CAUGHT BETWEEN A ROCK AND A HORRID PLACE."
+        }
+    ]
+}

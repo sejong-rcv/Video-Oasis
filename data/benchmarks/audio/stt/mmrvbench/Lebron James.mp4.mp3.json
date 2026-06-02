@@ -1,0 +1,76 @@
+{
+    "video_id": "Lebron James.mp4.mp3",
+    "transcript": " Come on, let me do my impression. That's the face right there. I'm leaving for my 5 a.m. workout. You do it! You know, I'm gonna come home, take a two-hour nap. You did it! You know, go back to the gym at like 5 p.m. And then have some ice cream and go to sleep. We always gotta scream and stretch. Nah, why you be doing that a hicks man",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " Come on, let me do my impression."
+        },
+        {
+            "timestamp": [
+                7.0,
+                8.0
+            ],
+            "text": " That's the face right there."
+        },
+        {
+            "timestamp": [
+                8.0,
+                9.0
+            ],
+            "text": " I'm leaving for my 5 a.m. workout."
+        },
+        {
+            "timestamp": [
+                9.0,
+                10.0
+            ],
+            "text": " You do it!"
+        },
+        {
+            "timestamp": [
+                10.0,
+                13.0
+            ],
+            "text": " You know, I'm gonna come home, take a two-hour nap."
+        },
+        {
+            "timestamp": [
+                13.0,
+                14.0
+            ],
+            "text": " You did it!"
+        },
+        {
+            "timestamp": [
+                14.0,
+                16.0
+            ],
+            "text": " You know, go back to the gym at like 5 p.m."
+        },
+        {
+            "timestamp": [
+                19.0,
+                21.0
+            ],
+            "text": " And then have some ice cream and go to sleep."
+        },
+        {
+            "timestamp": [
+                21.0,
+                23.0
+            ],
+            "text": " We always gotta scream and stretch."
+        },
+        {
+            "timestamp": [
+                27.76,
+                37.36
+            ],
+            "text": " Nah, why you be doing that a hicks man"
+        }
+    ]
+}
