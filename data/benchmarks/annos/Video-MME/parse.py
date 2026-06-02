@@ -3,7 +3,7 @@ import json
 import os
 import tqdm
 if __name__ == '__main__':
-    data = pd.read_parquet('./videomme/test-00000-of-00001.parquet', engine='pyarrow')
+    data = pd.read_parquet('test-00000-of-00001.parquet', engine='pyarrow')
     Total_QA = list()
     for idx in range(len(data)):
         option_txt = ''
@@ -12,7 +12,7 @@ if __name__ == '__main__':
             if opt[0] == data.iloc[idx]['answer']:
                 answer_txt = opt[3:]
         meta_info = f'Options of QA : {option_txt}\nDomain : {data.iloc[idx]['domain']}\nDuration : {data.iloc[idx]['duration']}\nCategory : {data.iloc[idx]['sub_category']}'
-        vid_path = os.path.join('/mnt/users/gtlim/workspace/data/video-mme/videos',data.iloc[idx]['videoID']+'.mp4')
+        vid_path = os.path.join('/mnt/gtlim_data/users/gtlim/benchmark/videos/video-mme/videos',data.iloc[idx]['videoID']+'.mp4')
         if os.path.isfile(vid_path)==True:
             item = {
                 "db" : "videomme",

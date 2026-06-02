@@ -52,7 +52,7 @@ if __name__ == '__main__':
         if db not in Total_QA.keys():
             Total_QA[db] = dict()
 
-        if db == 'ImplicitQA': # list 1개 (객관식)
+        if db == 'ImplicitQA':
             for sample in data:
                 option_txt = ''
                 options = []
@@ -71,7 +71,7 @@ if __name__ == '__main__':
                     "meta" : meta_info,
                 }
 
-        elif db == 'LVBench': # list 1개 (객관식)
+        elif db == 'LVBench':
             for sample in data:
                 for item in sample['qa']:
                     option_txt = ''
@@ -92,7 +92,7 @@ if __name__ == '__main__':
                         "meta" : meta_info,
                     }
 
-        elif db == 'LongVideoBench': # list 1개 (객관식)
+        elif db == 'LongVideoBench':
             for sample in data:
                 option_txt = ''
                 for idx, opt in enumerate(sample['candidates']):
@@ -110,7 +110,7 @@ if __name__ == '__main__':
                     "meta" : meta_info,
                 }
 
-        elif db == 'MLVU_Test': # list 1개 (객관식)
+        elif db == 'MLVU_Test':
             for sample in data:
                 option_txt = ''
                 for idx, opt in enumerate(sample['candidates']):
@@ -204,9 +204,9 @@ if __name__ == '__main__':
                 }
 
 
-        elif db == 'VCR-Bench': # MCQ는 511개, Free-form QA는 523개 (일단 MCQ만 사용)
+        elif db == 'VCR-Bench':
             for idx in range(len(data)):
-                if data.iloc[idx]['answer'].upper() in ['A','B','C','D','E','F','G','H']: # MCQ는 511개
+                if data.iloc[idx]['answer'].upper() in ['A','B','C','D','E','F','G','H']:
                     question = data.iloc[idx]['question'].split('\n')[0]
                     options = data.iloc[idx]['question'].split('\n')[1:-1]
                     option_txt = ''
@@ -224,7 +224,7 @@ if __name__ == '__main__':
                         "meta" : meta_info,
                     }
 
-        elif db == 'VSI-Bench': # MCQ는 2490개, Free-form QA는 2640개 (일단 MCQ만 사용)
+        elif db == 'VSI-Bench':
             for sample in data:
                 if sample['ground_truth'] in ['A','B','C','D','E','F','G','H']:
                     option_txt = ''
