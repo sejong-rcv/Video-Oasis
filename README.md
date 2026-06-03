@@ -84,24 +84,28 @@ pip install -e .
 
 ## 📑 Evaluation
 
-* Evaluation is handled via [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), which is bundled in this repo. 
+* Evaluation is handled via [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), which is bundled within this repository.
+  
+* The scripts to run the benchmark suite used in our paper are located in the `src/scripts` directory.
+  
+* To execute the evaluation, simply set the task argument to either `vqa_total` or `v_oasis` in the script.
 
-* To run the benchmark suite used in the paper:
-
-```bash
-python run.py \
-    --model MUPO-Thinker-7B \
-    --data MMStar HallusionBench MMVet MathVerse MathVista MathVision LogicVista WeMath Geometry3K
-```
-
-* To run the video-native challenges:
+* An example execution script is provided below:
 
 ```bash
-python run.py \
-    --model MUPO-Thinker-7B \
-    --data MathVerse MathVista \
-    --nshot 4 \
-    --temperature 1.0
+model_path=Video-Oasis/data/models/models/Eagle2.5-8B
+output_path=./experiments/Eagle2.5-8B_16K/
+master_port=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
+
+task=vqa_total # or v_oasis
+
+accelerate launch --num_processes=8 --main_process_port=$master_port -m lmms_eval.__main__ \
+    --model eagle2_5 \
+    --model_args pretrained=$model_path, \
+    --tasks "$task" \
+    --batch_size 1 \
+    --log_samples \
+    --output_path "${output_path}/"
 ```
 
 ##  <img src="assets/icon.png" width="30" height="30" align="center"> Video-Oasis
