@@ -86,11 +86,11 @@ Our training framework is built upon [EasyR1](https://github.com/hiyouga/EasyR1)
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@inproceedings{tian2026allroads,
-  title     = {All Roads Lead to Rome: Incentivizing Divergent Thinking in Vision-Language Models},
-  author    = {Tian, Xinyu and Zou, Shu and Yang, Zhaoyuan and He, Mengqi and Tu, Peter and Zhang, Jing},
-  booktitle = {CVPR},
-  year      = {2026}
+@article{lim2026video,
+  title={Video-Oasis: Rethinking Evaluation of Video Understanding},
+  author={Lim, Geuntaek and Shim, Minho and Park, Sungjune and Lee, Jaeyun and Lee, Inwoong and Kim, Taeoh and Wee, Dongyoon and Choi, Yukyung},
+  journal={arXiv preprint arXiv:2603.29616},
+  year={2026}
 }
 ```
 
