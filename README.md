@@ -20,7 +20,7 @@
 > **TL;DR.** Video-Oasis rethinks the current benchmark landscape by examining whether proliferating video benchmarks truly satisfy shared criteria for genuine video understanding.
 
 
-## Release
+# News
 - [x] Release the paper on <a href="https://arxiv.org/abs/2603.29616">arXiv</a> <br>
 - [x] Release the Video-Native Challenges on <a href="https://github.com/sejong-rcv/Video-Oasis/blob/main/src/lmms_eval/video_oasis.json">link</a> <br>
 - [ ] Release the code for Video-Oasis <br>
