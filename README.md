@@ -19,9 +19,6 @@
 
 > **TL;DR.** Video-Oasis rethinks the current benchmark landscape by examining whether proliferating video benchmarks truly satisfy shared criteria for genuine video understanding.
 
-This is the official implementation of the paper 'Video-Oasis: Rethinking Evaluation for Video Understanding'.
-
-
 
 ## Release
 - [x] Release the paper on <a href="https://arxiv.org/abs/2603.29616">arXiv</a> <br>
