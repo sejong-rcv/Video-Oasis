@@ -27,7 +27,15 @@
 
 # Key Findings🔍
 
+<p align="center">
+    <img src="assets/motivation.png" width="1080" style="margin-bottom: 0.2;"/>
+<p>
 
+**RL models dive depth, base models seek breadth.** When limited to a single attempt, RL models trained with GRPO generally outperform their base counterparts. However, when multiple samplings are permitted, base models consistently succeed in solving a broader range of problems by leveraging diverse and alternative reasoning pathways that RL models have discarded.
+
+**Diversity collapse is the culprit.** During early GRPO training (within the first 20 steps), reasoning diversity drops sharply to a negligible level. The model prematurely converges on a narrow set of strategies while abandoning the vast majority of potential alternatives — before it has even seen most of the training data.
+
+**Divergent thinking increases the odds of success.** Across all evaluated benchmarks, there is a strong positive correlation between reasoning diversity and acc@4. Tackling a problem through diverse strategies, rather than adhering to a single mode, significantly facilitates the discovery of correct answers.
 
 
 # Getting Started🚀
