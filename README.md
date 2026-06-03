@@ -42,7 +42,7 @@
 
 ## 🔨 Installation
 
-**Requirements:** Python ≥ 3.12, CUDA-compatible GPUs, `torch`, `vllm >= 0.11.0`, `transformers >= 4.57.0`.
+* **Requirements:** Python ≥ 3.12, CUDA-compatible GPUs, `torch`, `vllm >= 0.11.0`, `transformers >= 4.57.0`.
 
 ```bash
 git clone https://github.com/sejong-rcv/Video-Oasis.git
@@ -85,9 +85,9 @@ pip install -e .
 
 ## 📑 Evaluation
 
-Evaluation is handled via [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), which is bundled in this repo. 
+* Evaluation is handled via [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), which is bundled in this repo. 
 
-To run the benchmark suite used in the paper:
+* To run the benchmark suite used in the paper:
 
 ```bash
 python run.py \
@@ -95,7 +95,7 @@ python run.py \
     --data MMStar HallusionBench MMVet MathVerse MathVista MathVision LogicVista WeMath Geometry3K
 ```
 
-To run the video-native challenges:
+* To run the video-native challenges:
 
 ```bash
 python run.py \
@@ -107,7 +107,7 @@ python run.py \
 
 ##  <img src="assets/icon.png" width="30" height="30" align="center"> Video-Oasis
 
-(Comming soon. Stay Tuned..!)
+* Code coming soon! Stay tuned.
 
 ---
 
