@@ -38,9 +38,9 @@
 **Divergent thinking increases the odds of success.** Across all evaluated benchmarks, there is a strong positive correlation between reasoning diversity and acc@4. Tackling a problem through diverse strategies, rather than adhering to a single mode, significantly facilitates the discovery of correct answers.
 
 
-# Getting Started 🔥
+# 🔥 Getting Started
 
-## Installation 🔨
+## 🔨 Installation
 
 **Requirements:** Python ≥ 3.12, CUDA-compatible GPUs, `torch`, `vllm >= 0.11.0`, `transformers >= 4.57.0`.
 
@@ -50,17 +50,15 @@ cd Video-Oasis
 pip install -e .
 ```
 
-## Dataset 🎞 
+## 🎞 Dataset
 
 We release the MUPO training data on Hugging Face, curated from [ViRL39K](https://huggingface.co/datasets/TIGER-Lab/ViRL39K).
 
-## Video-Oasis 🎞 
+## 📑 Evaluation
 
-(Comming soon. Stay Tuned..!)
+Evaluation is handled via [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), which is bundled in this repo. 
 
-## Evaluation 📑
-
-Evaluation is handled via [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), which is bundled in this repo. To run the benchmark suite used in the paper:
+To run the benchmark suite used in the paper:
 
 ```bash
 python run.py \
@@ -68,7 +66,7 @@ python run.py \
     --data MMStar HallusionBench MMVet MathVerse MathVista MathVision LogicVista WeMath Geometry3K
 ```
 
-To reproduce the acc@4 results (parallel sampling evaluation):
+To run the video-native challenges:
 
 ```bash
 python run.py \
@@ -77,6 +75,10 @@ python run.py \
     --nshot 4 \
     --temperature 1.0
 ```
+
+##  <img src="assets/icon.png" width="30" height="30" align="center"> Video-Oasis
+
+(Comming soon. Stay Tuned..!)
 
 ---
 
