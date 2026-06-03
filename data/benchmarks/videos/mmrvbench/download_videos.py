@@ -16,14 +16,17 @@ def process_split_tar_files(directory="./"):
 
     combined_tar = os.path.join(directory, "videos.tar")
     
+    videos_dir = os.path.join(directory, "videos")
+    os.makedirs(videos_dir, exist_ok=True)
+    
     try:
         print(f"🔄 [Merging] Combining {len(part_files)} files into {combined_tar}...")
         merge_cmd = f"cat {os.path.join(directory, 'videos.tar.part.*')} > {combined_tar}"
         subprocess.run(merge_cmd, shell=True, check=True)
         print("✅ [Success] Files merged successfully.")
 
-        print(f"📦 [Extracting] Extracting {combined_tar}...")
-        extract_cmd = f"tar -xf {combined_tar} -C {directory}"
+        print(f"📦 [Extracting] Extracting {combined_tar} to {videos_dir}...")
+        extract_cmd = f"tar -xf {combined_tar} -C {videos_dir}"
         subprocess.run(extract_cmd, shell=True, check=True)
         print("✅ [Success] Extraction complete.")
 
