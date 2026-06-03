@@ -34,11 +34,11 @@
 
 ## Installation
 
-**Requirements:** Python ≥ 3.9, CUDA-compatible GPUs, `torch`, `vllm >= 0.8.0`, `transformers >= 4.51.0`.
+**Requirements:** Python ≥ 3.12, CUDA-compatible GPUs, `torch`, `vllm >= 0.11.0`, `transformers >= 4.57.0`.
 
 ```bash
-git clone https://github.com/xytian1008/MUPO.git
-cd MUPO
+git clone https://github.com/sejong-rcv/Video-Oasis.git
+cd Video-Oasis
 pip install -e .
 ```
 
