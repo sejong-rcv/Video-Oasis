@@ -3,7 +3,7 @@
 # Video-Oasis: Rethinking Evaluation for Video Understanding
 
 <p align="center">
-    <img src="assets/video-oasis.png" width="480" style="margin-bottom: 0.2;"/>
+    <img src="assets/video-native-challenges.png" width="720" style="margin-bottom: 0.2;"/>
 <p>
 
 </div>
