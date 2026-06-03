@@ -31,12 +31,11 @@
     <img src="assets/motivation.png" width="1080" style="margin-bottom: 0.2;"/>
 <p>
 
-**RL models dive depth, base models seek breadth.** When limited to a single attempt, RL models trained with GRPO generally outperform their base counterparts. However, when multiple samplings are permitted, base models consistently succeed in solving a broader range of problems by leveraging diverse and alternative reasoning pathways that RL models have discarded.
+**[a] What is Genuine Video Understanding?** The inherent complexity of video understanding makes it difficult to attribute whether performance gains stem from visual perception, linguistic reasoning, or knowledge priors. While many benchmarks have emerged to assess high-level reasoning, the essential criteria that constitute video understanding remain largely overlooked.
 
-**Diversity collapse is the culprit.** During early GRPO training (within the first 20 steps), reasoning diversity drops sharply to a negligible level. The model prematurely converges on a narrow set of strategies while abandoning the vast majority of potential alternatives — before it has even seen most of the training data.
+**[b] Benchmarks solvable without complete video dependency.** To investigate this, we decouple input modalities by selectively masking visual or temporal cues to verify true spatio-temporal dependency. Then, we define the shortcut ratio as the proportion of samples solvable without complete video dependency. Strikingly, we find that 54% of existing benchmark samples can be solved without visual or temporal context.
 
-**Divergent thinking increases the odds of success.** Across all evaluated benchmarks, there is a strong positive correlation between reasoning diversity and acc@4. Tackling a problem through diverse strategies, rather than adhering to a single mode, significantly facilitates the discovery of correct answers.
-
+**[c] SOTA models consistently exhibit a substantial drop when facing video-native challenges.** We dub this entire process of analyzing and filtering out shortcuts as Video-Oasis. When evaluated on our filtered, video-native challenges (non-shortcut samples), state-of-the-art (SOTA) models consistently exhibit a substantial drop, achieving performance only marginally above the random-chance level.
 
 # 🔥 Getting Started
 
@@ -107,7 +106,11 @@ python run.py \
 
 ##  <img src="assets/icon.png" width="30" height="30" align="center"> Video-Oasis
 
-* Code coming soon! Stay tuned.
+Code coming soon! Stay tuned. (To Do List Below.)
+
+- [ ] Tutorial for Video-Oasis (Daignostic Suite) <br>
+- [ ] Tutorial for adding custom model for Video-Oasis <br>
+- [ ] Tutorial for adding custom benchmark for Video-Oasis <br>
 
 ---
 
