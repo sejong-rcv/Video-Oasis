@@ -52,7 +52,36 @@ pip install -e .
 
 ## 🎞 Dataset
 
-We release the MUPO training data on Hugging Face, curated from [ViRL39K](https://huggingface.co/datasets/TIGER-Lab/ViRL39K).
+* We begin by curating 14 diverse benchmarks, covering tasks from perception to reasoning across durations spanning seconds to hours.
+
+* The full list of benchmarks is available [here](https://github.com/sejong-rcv/Video-Oasis/tree/main/data/benchmarks/videos).
+     * Run `python download_videos.py` within each directory to download the data.
+  
+* After downloading all benchmarks, run `python run_ffmpeg.py` to process and fix any corrupted or unreadable videos.
+  
+* Once completed, your directory structure should look like this:
+~~~~
+├── data/benchmarks/videos
+   ├── egoschema
+      └── videos
+         ├── video_1
+         ├── video_2
+         └── ...
+
+   ├── implicitqa
+      └── videos
+         ├── video_1
+         ├── video_2
+         └── ...
+
+   ├── ...
+ 
+   ├── vsi-bench
+      └── videos
+         ├── video_1
+         ├── video_2
+         └── ...
+~~~~
 
 ## 📑 Evaluation
 
