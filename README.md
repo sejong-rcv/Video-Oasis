@@ -25,7 +25,7 @@
 - [x] Release the Video-Native Challenges on <a href="https://github.com/sejong-rcv/Video-Oasis/blob/main/src/lmms_eval/video_oasis.json">link</a> <br>
 - [ ] Release the code for Video-Oasis <br>
 
-# Key Findings🔍
+# Key Findings
 
 <p align="center">
     <img src="assets/motivation.png" width="1080" style="margin-bottom: 0.2;"/>
@@ -38,9 +38,9 @@
 **Divergent thinking increases the odds of success.** Across all evaluated benchmarks, there is a strong positive correlation between reasoning diversity and acc@4. Tackling a problem through diverse strategies, rather than adhering to a single mode, significantly facilitates the discovery of correct answers.
 
 
-# Getting Started🚀
+# Getting Started 🔥
 
-## Installation
+## Installation 🔨
 
 **Requirements:** Python ≥ 3.12, CUDA-compatible GPUs, `torch`, `vllm >= 0.11.0`, `transformers >= 4.57.0`.
 
@@ -50,14 +50,14 @@ cd Video-Oasis
 pip install -e .
 ```
 
-## Dataset
+## Dataset 🎞 
 
 We release the MUPO training data on Hugging Face, curated from [ViRL39K](https://huggingface.co/datasets/TIGER-Lab/ViRL39K).
 
 
-## Evaluation
+## Evaluation 📑
 
-Evaluation is handled via [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), which is bundled in this repo. To run the benchmark suite used in the paper:
+Evaluation is handled via [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), which is bundled in this repo. To run the benchmark suite used in the paper:
 
 ```bash
 python run.py \
@@ -77,11 +77,15 @@ python run.py \
 
 ---
 
-# Acknowledgements🥰
+# Acknowledgements 👍
 
-Our training framework is built upon [EasyR1](https://github.com/hiyouga/EasyR1) and [veRL](https://github.com/volcengine/verl). Evaluation is powered by [VLMEvalKit](https://github.com/open-compass/VLMEvalKit). We train on [ViRL39K](https://huggingface.co/datasets/TIGER-Lab/ViRL39K) and evaluate on MathVerse, MathVista, MathVision, LogicVista, WeMath, Geometry3K, MMStar, HallusionBench, and MMVet. We gratefully acknowledge the computational support provided during this research.
+* Source code is built upon [VideoAuto-R1](https://github.com/IVUL-KAUST/VideoAuto-R1). 
 
-# Citation🎓
+* Evaluation is powered by [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval). 
+
+* We extend our gratitude to the creators of the following pioneering benchmarks, which laid the foundation for our work: [EgoShema](https://github.com/egoschema/EgoSchema), [ImplicitQA](https://github.com/UCF-CRCV/VRR-QA), [LongVideoBench](https://github.com/longvideobench/LongVideoBench), [LVBench](https://github.com/zai-org/LVBench), [MINERVA](https://github.com/google-deepmind/neptune?tab=readme-ov-file), [MLVU](https://github.com/JUNJIE99/MLVU), [MMR-V](https://github.com/GaryStack/MMR-V), [MVBench](https://huggingface.co/datasets/OpenGVLab/MVBench), [RTV-Bench](https://github.com/LJungang/RTV-Bench), [TVBench](https://github.com/daniel-cores/tvbench), [VCR-Bench](https://github.com/zhishuifeiqian/VCR-Bench), [Video-MME](https://github.com/MME-Benchmarks/Video-MME), [Video-Holmes](https://github.com/TencentARC/Video-Holmes), and [VSI-bench](https://github.com/vision-x-nyu/thinking-in-space). 
+
+# Citation 🎓
 
 If you find this work useful, please cite our paper:
 
@@ -94,6 +98,6 @@ If you find this work useful, please cite our paper:
 }
 ```
 
-# License📄
+# License 📄
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
