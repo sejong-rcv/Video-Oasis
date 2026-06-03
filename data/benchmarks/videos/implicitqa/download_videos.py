@@ -20,7 +20,7 @@ def download_youtube_video(url, vid, save_path='./'):
         print(f"[EXCEPTION] Error occurred: {e}")
 
 if __name__ == '__main__':
-    with open("./ImplicitQAv0.1.2.jsonl") as f:
+    with open("../../annos/implicitqa/ImplicitQAv0.1.2.jsonl") as f:
         anno_list = [json.loads(line) for line in f]
 
     url_list = set()

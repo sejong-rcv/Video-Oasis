@@ -21,7 +21,7 @@ def download_youtube_video(url, vid, save_path='./'):
 
 if __name__ == '__main__':
 
-    anno_list = json.load(open("minerva.json"))
+    anno_list = json.load(open("../../annos/minerva/minerva.json"))
     url_list = set()
     for ann in tqdm.tqdm(anno_list):
         url = 'https://www.youtube.com/watch?v='+ann['video_id']

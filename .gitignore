@@ -1,2 +1,6 @@
 **/__pycache__/
 src/experiments/
+data/models/*/
+data/benchmarks/videos/**/*
+!data/benchmarks/videos/**/
+!data/benchmarks/videos/**/*.py
