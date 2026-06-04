@@ -49,7 +49,7 @@ cd Video-Oasis
 pip install -e .
 ```
 
-## 🎞 Dataset
+## 🎞 Dataset & Models
 
 * We begin by curating 14 diverse benchmarks, covering tasks from perception to reasoning across durations spanning seconds to hours.
 
@@ -81,6 +81,8 @@ pip install -e .
          ├── video_2
          └── ...
 ~~~~
+
+* For model checkpoint, move to the ```data/models``` directory and run ```python download_models.py``` to download your desired models.
 
 ## 📑 Evaluation
 
