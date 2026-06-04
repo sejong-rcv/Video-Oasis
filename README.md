@@ -43,12 +43,6 @@
 
 * **Requirements:** Python ≥ 3.12, CUDA-compatible GPUs, `torch`, `vllm >= 0.11.0`, `transformers >= 4.57.0`.
 
-```bash
-git clone https://github.com/sejong-rcv/Video-Oasis.git
-cd Video-Oasis
-pip install -e .
-```
-
 ## 🎞 Dataset & Models
 
 ### Dataset
