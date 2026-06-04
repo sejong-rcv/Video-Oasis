@@ -1,11 +1,10 @@
 from huggingface_hub import snapshot_download
 
 if __name__ == '__main__':
-
-    snapshot_download(repo_id="Qwen/Qwen2.5-VL-7B-Instruct", local_dir="./Qwen2.5-VL-7B-Instruct",local_dir_use_symlinks=False, resume_download=True)
-    snapshot_download(repo_id="Qwen/Qwen3-VL-8B-Instruct", local_dir="./Qwen3-VL-8B-Instruct",local_dir_use_symlinks=False, resume_download=True)
     snapshot_download(repo_id="nvidia/Eagle2.5-8B", local_dir="./Eagle2.5-8B",local_dir_use_symlinks=False, resume_download=True)
 
+    # snapshot_download(repo_id="Qwen/Qwen2.5-VL-7B-Instruct", local_dir="./Qwen2.5-VL-7B-Instruct",local_dir_use_symlinks=False, resume_download=True)
+    # snapshot_download(repo_id="Qwen/Qwen3-VL-8B-Instruct", local_dir="./Qwen3-VL-8B-Instruct",local_dir_use_symlinks=False, resume_download=True)
     # snapshot_download(repo_id="Qwen/Qwen3-VL-8B-Thinking", local_dir="./Qwen3-VL-8B-Thinking",local_dir_use_symlinks=False, resume_download=True)
     # snapshot_download(repo_id="nvidia/Eagle2.5-8B", local_dir="./Eagle2.5-8B",local_dir_use_symlinks=False, resume_download=True)
     # snapshot_download(repo_id="Video-R1/Video-R1-7B", local_dir="./Video-R1-7B",local_dir_use_symlinks=False, resume_download=True)

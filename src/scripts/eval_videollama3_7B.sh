@@ -1,28 +1,24 @@
 # token configuration
-image_min_tokens=128
-image_max_tokens=16384
 video_min_tokens=16
 video_max_tokens=768
 video_total_tokens=128000
-
 video_min_pixels=$((video_min_tokens * 32 * 32))
 video_max_pixels=$((video_max_tokens * 32 * 32))
 video_total_pixels=$((video_total_tokens * 32 * 32))
 
 # setting configuration
-model_path=/mnt/gtlim_data/users/gtlim/models/VideoLLaMA3-7B
-output_path=./experiments/qwen_benchmark/VideoLLaMA3-7B/
+model_path=../../data/models/VideoLLaMA3-7B
+output_path=./experiments/VideoLLaMA3-7B/
 master_port=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
 
 # experiment configuration
-task=vqa_total
+task=v_oasis
 max_frames=128
-sampling=uniform
 
 accelerate launch --num_processes=8 --main_process_port=$master_port -m lmms_eval.__main__ \
     --model videollama3 \
-    --model_args pretrained=$model_path,video_min_pixels=$video_min_pixels,video_max_pixels=$video_max_pixels,video_total_pixels=$video_total_pixels,max_num_frames=$max_frames,sampling=$sampling \
+    --model_args pretrained=$model_path,video_min_pixels=$video_min_pixels,video_max_pixels=$video_max_pixels,video_total_pixels=$video_total_pixels,max_num_frames=$max_frames \
     --tasks "$task" \
     --batch_size 1 \
     --log_samples \
-    --output_path "${output_path}/min${video_min_tokens}_max${video_max_tokens}_total${video_total_tokens}_maxf${max_frames}_sampling${sampling}/"
+    --output_path "${output_path}/min${video_min_tokens}_max${video_max_tokens}_total${video_total_tokens}_maxf${max_frames}/"

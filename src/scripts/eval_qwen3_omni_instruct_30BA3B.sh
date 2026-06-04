@@ -2,14 +2,13 @@
 video_min_tokens=16
 video_max_tokens=256
 video_total_tokens=128000
-
 video_min_pixels=$((video_min_tokens * 32 * 32)) # 16384
 video_max_pixels=$((video_max_tokens * 32 * 32)) # 786432
 video_total_pixels=$((video_total_tokens * 32 * 32)) # 131072000
 
 # setting configuration
-model_path=/mnt/gtlim_data/users/gtlim/models/Qwen3-Omni-30B-A3B-Instruct
-output_path=./experiments/qwen_benchmark/Qwen3-Omni-30B-A3B-Instruct/
+model_path=../../data/models/Qwen3-Omni-30B-A3B-Instruct
+output_path=./experiments/Qwen3-Omni-30B-A3B-Instruct/
 master_port=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
 
 # experiment configuration
