@@ -51,6 +51,7 @@ pip install -e .
 
 ## 🎞 Dataset & Models
 
+### Dataset
 * We begin by curating 14 diverse benchmarks, covering tasks from perception to reasoning across durations spanning seconds to hours.
 
 * The full list of benchmarks is available [here](https://github.com/sejong-rcv/Video-Oasis/tree/main/data/benchmarks/videos).
@@ -81,8 +82,13 @@ pip install -e .
          ├── video_2
          └── ...
 ~~~~
+### Model
 
 * For model checkpoint, move to the ```data/models``` directory and run ```python download_models.py``` to download your desired models.
+
+* By default, we support models that can be downloaded via `huggingface_hub`'s `snapshot_download`.
+
+* For custom models, please download them manually and place them in the appropriate directory.
 
 ## 📑 Evaluation
 
