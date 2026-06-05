@@ -7,7 +7,7 @@ video_max_pixels=$((video_max_tokens * 28 * 28))
 video_total_pixels=$((video_total_tokens * 28 * 28))
 
 # setting configuration
-model_path=../../data/models/VideoAuto-R1-Qwen2.5-VL-7B
+model_path=../data/models/VideoAuto-R1-Qwen2.5-VL-7B
 output_path=./experiments/VideoAuto-R1-Qwen2.5-VL-7B/
 master_port=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
 

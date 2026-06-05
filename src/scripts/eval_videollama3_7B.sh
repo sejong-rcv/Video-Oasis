@@ -7,7 +7,7 @@ video_max_pixels=$((video_max_tokens * 32 * 32))
 video_total_pixels=$((video_total_tokens * 32 * 32))
 
 # setting configuration
-model_path=../../data/models/VideoLLaMA3-7B
+model_path=../data/models/VideoLLaMA3-7B
 output_path=./experiments/VideoLLaMA3-7B/
 master_port=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
 

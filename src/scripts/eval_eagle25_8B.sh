@@ -7,7 +7,7 @@ video_max_pixels=$((video_max_tokens * 28 * 28))
 video_total_pixels=$((video_total_tokens * 28 * 28))
 
 # setting configuration
-model_path=../../data/models/Eagle2.5-8B
+model_path=../data/models/Eagle2.5-8B
 output_path=./experiments/Eagle2.5-8B_16K/
 master_port=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
 

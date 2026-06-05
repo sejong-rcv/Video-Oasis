@@ -7,7 +7,7 @@ video_max_pixels=$((video_max_tokens * 28 * 28))
 video_total_pixels=$((video_total_tokens * 28 * 28))
 
 # experiment configuration
-model_path=../../data/models/Qwen2.5-VL-7B-Instruct
+model_path=../data/models/Qwen2.5-VL-7B-Instruct
 output_path=./experiments/Qwen2.5-VL-7B-Instruct/
 master_port=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
 

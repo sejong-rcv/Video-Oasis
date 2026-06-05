@@ -1,6 +1,6 @@
-dataset_path: /mnt/gtlim_data/users/gtlim/benchmark/videos
+dataset_path: /data3/gtlim/workspace/src/Video-Oasis/data/benchmarks/videos
 dataset_kwargs:
-  data_files: {"test" : /mnt/users/gtlim/workspace/Video-Oasis/src/lmms_eval/video_oasis.json}
+  data_files: {"test" : /data3/gtlim/workspace/src/Video-Oasis/src/lmms_eval/video_oasis.json}
   token: False
   cache_dir: v_oasis
   video: False

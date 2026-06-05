@@ -1,5 +1,5 @@
 # setting configuration
-model_path=../../data/models/InternVL3-8B
+model_path=../data/models/InternVL3-8B
 output_path=./experiments/InternVL3-8B/
 master_port=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
 

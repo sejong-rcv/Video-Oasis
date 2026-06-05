@@ -7,7 +7,7 @@ video_max_pixels=$((video_max_tokens * 32 * 32))
 video_total_pixels=$((video_total_tokens * 32 * 32))
 
 # setting configuration
-model_path=../../data/models/Qwen3.5-35B-A3B
+model_path=../data/models/Qwen3.5-35B-A3B
 output_path=./experiments/Qwen3.5-35B-A3B/
 master_port=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
 

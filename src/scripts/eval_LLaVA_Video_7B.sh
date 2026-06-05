@@ -1,5 +1,5 @@
 # setting configuration
-model_path=../../data/models/LLaVA-Video-7B-Qwen2
+model_path=../data/models/LLaVA-Video-7B-Qwen2
 output_path=./experiments/LLaVA-Video-7B-Qwen2/
 master_port=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
 
