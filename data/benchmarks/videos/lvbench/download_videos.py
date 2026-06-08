@@ -20,6 +20,8 @@ def download_youtube_video(url, vid, save_path='./'):
         print(f"[EXCEPTION] Error occurred: {e}")
 
 if __name__ == '__main__':
+    os.makedirs("./videos",exist_ok=True)
+
     with open("../../annos/lvbench/video_info.meta.jsonl") as f:
         anno_list = [json.loads(line) for line in f]
 
@@ -32,5 +34,4 @@ if __name__ == '__main__':
     for url in tqdm.tqdm(url_list):
         vid = url.split('v=')[-1]
         os.makedirs("./videos",exist_ok=True)
-        file_list = os.listdir("./videos")
         download_youtube_video(url, vid, "./videos")

@@ -2,37 +2,35 @@ import os
 import numpy as np
 import subprocess
 import tqdm
-
 from decord import VideoReader, cpu
 from multiprocessing import Pool, cpu_count
 
+def is_video_healthy(video_path, num_frames=16):
+    try:
+        vr = VideoReader(video_path, ctx=cpu(0))
+        total_frames = len(vr)
+        if total_frames == 0:
+            return False
+        
+        extract_count = min(num_frames, total_frames)
+        indices = np.linspace(0, total_frames - 1, extract_count).astype(int)
+        batch = vr.get_batch(indices)
+        
+        if batch.shape[0] == 0:
+            return False
+        return True
+    except Exception:
+        return False
+
 def check_corrupted_videos(video_list, num_frames=16):
     failed_videos = []
-    
     for video_path in tqdm.tqdm(video_list, desc="Checking Videos"):
-        try:
-            vr = VideoReader(video_path, ctx=cpu(0))
-            total_frames = len(vr)
-            
-            if total_frames == 0:
-                raise ValueError("Video has 0 frames.")
-
-            extract_count = min(num_frames, total_frames)
-            indices = np.linspace(0, total_frames - 1, extract_count).astype(int)
-            
-            batch = vr.get_batch(indices)
-            
-            if batch.shape[0] == 0:
-                raise ValueError("get_batch returned empty array.")
-                
-        except Exception as e:
+        if not is_video_healthy(video_path, num_frames):
             failed_videos.append(video_path)
-
     return failed_videos
 
 def fix_video_ffmpeg(args):
     input_path = args
-    
     directory, filename = os.path.split(input_path)
     name, ext = os.path.splitext(filename)
     
@@ -61,14 +59,18 @@ def fix_video_ffmpeg(args):
         return False
 
     try:
-        subprocess.run(command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.DEVNULL)
+        subprocess.run(command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.DEVNULL, timeout=600)
+        
         if os.path.exists(temp_output_path) and os.path.getsize(temp_output_path) > 0:
-            os.replace(temp_output_path, input_path)
-            return True
+            if is_video_healthy(temp_output_path):
+                os.replace(temp_output_path, input_path)
+                return True
+            else:
+                os.remove(temp_output_path)
+                return False
         return False
         
-    except subprocess.CalledProcessError as e:
-        print(f"Error processing {input_path}: {e}")
+    except Exception as e:
         if os.path.exists(temp_output_path):
             os.remove(temp_output_path)
         return False
@@ -88,10 +90,10 @@ def main():
 
     if not failed_video_list:
         return
+            
     num_processes = max(1, int(cpu_count() * 0.4)) 
     with Pool(processes=num_processes) as pool:
         list(tqdm.tqdm(pool.imap_unordered(fix_video_ffmpeg, failed_video_list), total=len(failed_video_list), unit="vid"))
-    print("✅ [Success] All tasks completed!")
-
+        
 if __name__ == "__main__":
     main()
