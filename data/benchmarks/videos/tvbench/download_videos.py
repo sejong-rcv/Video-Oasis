@@ -57,4 +57,4 @@ if __name__ == '__main__':
         allow_patterns="video/*"
     )
 
-    process_tvbench_zips(base_dir="./video", target_dir="./videos")
+    # process_tvbench_zips(base_dir="./video", target_dir="./videos")
