@@ -28,7 +28,7 @@ def process_mlvu_files(download_sub_dir="./MLVU_Test"):
         subprocess.run(extract_cmd, shell=True, check=True)
         print("✅ [Success] Extraction complete.")
 
-        extracted_folder = "./test_video"
+        extracted_folder = "./video"
         target_folder = "./videos"
         
         if os.path.exists(extracted_folder):

@@ -1,39 +1,42 @@
 import os
 import zipfile
+import shutil
 from huggingface_hub import snapshot_download
 
 os.environ["HF_HUB_DOWNLOAD_TIMEOUT"] = "120"   
 os.environ["HF_HUB_DOWNLOAD_RETRY"] = "5" 
 
-def process_mvbench_zips(base_dir="./video"):
-    """video 폴더 내의 각 zip 파일을 자신의 이름과 같은 폴더에 압축 해제하고 삭제합니다."""
+def process_mvbench_zips(base_dir="./video", target_dir="./videos"):
     
     if not os.path.exists(base_dir):
         print(f"❌ [Error] Directory not found: {base_dir}")
         return
 
+    os.makedirs(target_dir, exist_ok=True)
+    print(f"📂 [Info] Target directory ready: {target_dir}/")
     print(f"📂 [Info] Scanning for zip files in: {base_dir}")
     
     for filename in os.listdir(base_dir):
         if filename.endswith(".zip"):
             file_path = os.path.join(base_dir, filename)
-            
-            # zip 파일 이름에서 확장자(.zip)를 제거하여 새 폴더 이름 생성
-            # (예: clevrer.zip -> clevrer)
-            folder_name = os.path.splitext(filename)[0]
-            extract_dir = os.path.join(base_dir, folder_name)
+            temp_extract_dir = os.path.join(base_dir, "temp_extract")
             
             try:
-                # 압축을 풀 전용 폴더 생성
-                os.makedirs(extract_dir, exist_ok=True)
-                
-                # 압축 해제
-                print(f"📦 [Extracting] {filename} -> {extract_dir}/ ...")
+                print(f"📦 [Extracting] {filename} to temporary folder...")
+                os.makedirs(temp_extract_dir, exist_ok=True)
                 with zipfile.ZipFile(file_path, 'r') as zip_ref:
-                    zip_ref.extractall(extract_dir)
-                    
-                # 압축 해제가 성공적으로 끝나면 원본 zip 파일 삭제
-                print(f"🗑️ [Deleting] {filename} (Extraction complete)")
+                    zip_ref.extractall(temp_extract_dir)
+                
+                print(f"🔄 [Moving] Extracting innermost files from {filename} to {target_dir}/...")
+                for root, _, files in os.walk(temp_extract_dir):
+                    for file in files:
+                        extracted_file_path = os.path.join(root, file)
+                        target_file_path = os.path.join(target_dir, file)
+                        
+                        shutil.move(extracted_file_path, target_file_path)
+                
+                shutil.rmtree(temp_extract_dir)
+                print(f"🗑️ [Deleting] {filename} (Processing complete)")
                 os.remove(file_path)
                 
             except zipfile.BadZipFile:
@@ -41,10 +44,12 @@ def process_mvbench_zips(base_dir="./video"):
             except Exception as e:
                 print(f"❌ [Error] An error occurred while processing {filename}: {e}")
 
-    print("✅ [Success] All zip files processed successfully!")
+    shutil.rmtree(base_dir)
+    print(f"✅ [Success] All files successfully extracted and flattened into '{target_dir}'!")
+
 
 if __name__ == '__main__':
-
+    
     snapshot_download(
         repo_id="OpenGVLab/MVBench",
         repo_type="dataset",
@@ -52,4 +57,4 @@ if __name__ == '__main__':
         allow_patterns="video/*"
     )
 
-    process_mvbench_zips(base_dir="./video")
+    process_mvbench_zips(base_dir="./video", target_dir="./videos")

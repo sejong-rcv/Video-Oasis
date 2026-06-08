@@ -1,24 +1,22 @@
 import os
 import zipfile
-import shutil
 from huggingface_hub import snapshot_download
 
 os.environ["HF_HUB_DOWNLOAD_TIMEOUT"] = "120"   
 os.environ["HF_HUB_DOWNLOAD_RETRY"] = "5" 
 
-def process_vcr_bench_zip(base_dir="./"):
+def process_video_holmes_zip(base_dir="./"):
     
-    zip_file_path = os.path.join(base_dir, "v1", "videos", "video.zip")
-    extracted_folder = os.path.join(base_dir, "video")
+    zip_file_path = os.path.join(base_dir, "videos.zip")
+    extracted_folder = os.path.join(base_dir, "videos_cropped")
     target_folder = os.path.join(base_dir, "videos")
-    cleanup_folder = os.path.join(base_dir, "v1")
 
     if not os.path.exists(zip_file_path):
-        print(f"⚠️ [Warning] {zip_file_path} not found.")
+        print("⚠️ [Warning] videos.zip not found in the current directory.")
         return
 
     try:
-        print(f"📦 [Extracting] video.zip to current directory...")
+        print(f"📦 [Extracting] videos.zip...")
         with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
             zip_ref.extractall(base_dir)
         
@@ -30,25 +28,24 @@ def process_vcr_bench_zip(base_dir="./"):
             except OSError as e:
                 print(f"⚠️ [Warning] Could not rename folder. The 'videos' folder might already exist: {e}")
         else:
-            print(f"⚠️ [Warning] Expected '{extracted_folder}' was not found after extraction.")
+            print(f"⚠️ [Warning] Expected '{extracted_folder}' was not found after extraction. Please check the zip contents.")
 
-        print(f"🗑️ [Cleaning up] Deleting original download directory '{cleanup_folder}'...")
-        if os.path.exists(cleanup_folder):
-            shutil.rmtree(cleanup_folder)
-        print("✅ [Success] Clean up complete! Directory is perfectly organized.")
+        print(f"🗑️ [Deleting] videos.zip (Extraction complete)")
+        os.remove(zip_file_path)
+        print("✅ [Success] Clean up complete!")
 
     except zipfile.BadZipFile:
-        print("❌ [Error] video.zip is corrupted and cannot be extracted.")
+        print("❌ [Error] videos.zip is corrupted and cannot be extracted.")
     except Exception as e:
         print(f"❌ [Error] An unexpected error occurred: {e}")
 
 if __name__ == '__main__':
 
     snapshot_download(
-        repo_id="VLM-Reasoning/VCR-Bench",
+        repo_id="TencentARC/Video-Holmes",
         repo_type="dataset",
         local_dir="./",
-        allow_patterns="v1/videos/video.zip"
+        allow_patterns="videos.zip"
     )
 
-    process_vcr_bench_zip()
+    process_video_holmes_zip()
