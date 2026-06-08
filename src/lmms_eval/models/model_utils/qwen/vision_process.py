@@ -363,11 +363,19 @@ def _read_video_decord(
     st = time.time()
     vr = VideoReader(video_path, ctx=cpu(0), num_threads=8)
     total_frames, video_fps = len(vr), vr.get_avg_fps()
-    start_frame, end_frame, total_frames = calculate_video_frame_range(
-        ele,
-        total_frames,
-        video_fps,
-    )
+
+    if 'start_time' in ele.keys() and 'end_time' in ele.keys():
+        start_frame = int(ele['start_time'] * video_fps)
+        end_frame = int(ele['end_time'] * video_fps)
+        total_frames = end_frame - start_frame + 1 
+
+    else:
+        start_frame, end_frame, total_frames = calculate_video_frame_range(
+            ele,
+            total_frames,
+            video_fps,
+        )
+
 
     if ele['max_frames'] == 1:
         nframes = 1
@@ -386,7 +394,7 @@ def _read_video_decord(
                 idx = torch.linspace(start_frame, end_frame, nframes).round().long().tolist()
 
             elif ele['sampling'] == 'random':
-                idx = np.random.choice(total_frames, size=nframes, replace=True)
+                idx = np.random.choice(np.arange(start_frame, end_frame), size=nframes, replace=True)
                 idx.sort()
 
     video = vr.get_batch(idx).asnumpy()

@@ -28,8 +28,12 @@ with open(Path(__file__).parent / "v_oasis.yaml", "r") as f:
 cache_name = yaml.safe_load("".join(safe_data))["dataset_kwargs"]["cache_dir"]
 
 def v_oasis_doc_to_visual(doc):
-    video_path = doc["video_path"]
-    return [video_path]
+    if doc['db']=='RTV-Bench':
+        video_path = doc["video_path"]
+        return [(video_path, doc["start_time"], doc["end_time"])]
+    else:
+        video_path = doc["video_path"]
+        return [video_path]
 
 def v_oasis_doc_to_text(doc, lmms_eval_specific_kwargs=None):
     cand = '('
@@ -45,6 +49,7 @@ def v_oasis_doc_to_text(doc, lmms_eval_specific_kwargs=None):
     question = question + "\n" + option
     post_prompt = lmms_eval_specific_kwargs["post_prompt"] if "post_prompt" in lmms_eval_specific_kwargs else "The best answer is:"
     full_prompt = option_prompt + "\n" + question + "\n" + post_prompt
+
     return full_prompt
 
 def extract_characters_regex(s):

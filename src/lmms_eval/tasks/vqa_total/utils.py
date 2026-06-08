@@ -28,11 +28,14 @@ with open(Path(__file__).parent / "vqa_total.yaml", "r") as f:
 cache_name = yaml.safe_load("".join(safe_data))["dataset_kwargs"]["cache_dir"]
 
 def vqa_total_doc_to_visual(doc):
-    video_path = doc["video_path"]
-    return [video_path]
+    if doc['db']=='RTV-Bench':
+        video_path = doc["video_path"]
+        return [(video_path, doc["start_time"], doc["end_time"])]
+    else:
+        video_path = doc["video_path"]
+        return [video_path]
 
 def vqa_total_doc_to_text(doc, lmms_eval_specific_kwargs=None):
-    # 여기서 option prompt 질문마다 다르게 주자
     cand = '('
     for i in range(len(doc['options'])):
         if i == len(doc['options'])-1:

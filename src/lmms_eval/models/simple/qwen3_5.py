@@ -298,23 +298,27 @@ class Qwen3_5(lmms):
             processed_visuals = []
             if visual_list[i] is not None:
                 for visual in visual_list[i]:
+                    if type(visual)==tuple:
+                        visual, start_time, end_time = visual
+                    else:
+                        start_time= None
+                        end_time = None
+
                     if isinstance(visual, str) and visual.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):
-                        processed_visuals.append(
-                            {
+                        visual_dict = {
                                 "type": "video",
                                 "video": visual,
                                 **video_kwargs,
                             }
-                        )
-                    elif isinstance(visual, Image.Image):
-                        processed_visuals.append(
-                            {
-                                "type": "image",
-                                "image": visual,
-                                "max_pixels": self.max_pixels,
-                                "min_pixels": self.min_pixels,
-                            }
-                        )
+
+                        if start_time is not None:
+                            visual_dict["start_time"] = start_time
+
+                        if end_time is not None:
+                            visual_dict["end_time"] = end_time
+
+                        processed_visuals.append(visual_dict)
+
 
             if self.interleave_visuals is False:
                 message.append(
