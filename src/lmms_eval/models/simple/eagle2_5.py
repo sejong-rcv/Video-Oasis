@@ -239,169 +239,169 @@ class Eagle2_5(lmms):
                 if "<image>" in contexts[i]:
                     contexts[i] = contexts[i].replace("<image>", "")
 
-            # try:
-            batched_messages = []
-            for i, context in enumerate(contexts):
-                if "<image>" in context:
-                    context = context.replace("<image>", "")
+            try:
+                batched_messages = []
+                for i, context in enumerate(contexts):
+                    if "<image>" in context:
+                        context = context.replace("<image>", "")
 
-                message = [{"role": "system", "content": self.system_prompt}]
+                    message = [{"role": "system", "content": self.system_prompt}]
 
-                processed_visuals = []
-                if visual_list[i] is not None:
-                    for visual in visual_list[i]:
-                        if type(visual)==tuple:
-                            visual, start_time, end_time = visual
-                        else:
-                            start_time= None
-                            end_time = None
+                    processed_visuals = []
+                    if visual_list[i] is not None:
+                        for visual in visual_list[i]:
+                            if type(visual)==tuple:
+                                visual, start_time, end_time = visual
+                            else:
+                                start_time= None
+                                end_time = None
 
-                        if isinstance(visual, str) and visual.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):  # Video file
-                            visual_dict = {
-                                "type": "video",
-                                "video": visual,
-                                "min_pixels": self.video_min_pixels,
-                                "max_pixels": self.video_max_pixels,
-                                "total_pixels": self.video_total_pixels,
-                                "min_frames": self.min_frames,
-                                "max_frames": self.max_frames,
-                                "fps": self.fps,
-                            }
-                            if self.nframes is not None:
-                                visual_dict["nframes"] = self.nframes
-                                visual_dict.pop("fps")
-
-                            if start_time is not None:
-                                visual_dict["start_time"] = start_time
-                            if end_time is not None:
-                                visual_dict["end_time"] = end_time
-
-                            processed_visuals.append(visual_dict)
-                        elif isinstance(visual, Image.Image):  # Handle both single and multiple images
-                            base64_image = visual.convert("RGB")
-                            buffer = BytesIO()
-                            base64_image.save(buffer, format="JPEG")
-                            base64_bytes = base64.b64encode(buffer.getvalue())
-                            base64_string = base64_bytes.decode("utf-8")
-                            processed_visuals.append(
-                                {
-                                    "type": "image",
-                                    "image": f"data:image/jpeg;base64,{base64_string}",
-                                    "min_pixels": self.image_min_pixels,
-                                    "max_pixels": self.image_max_pixels,
+                            if isinstance(visual, str) and visual.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):  # Video file
+                                visual_dict = {
+                                    "type": "video",
+                                    "video": visual,
+                                    "min_pixels": self.video_min_pixels,
+                                    "max_pixels": self.video_max_pixels,
+                                    "total_pixels": self.video_total_pixels,
+                                    "min_frames": self.min_frames,
+                                    "max_frames": self.max_frames,
+                                    "fps": self.fps,
                                 }
-                            )
+                                if self.nframes is not None:
+                                    visual_dict["nframes"] = self.nframes
+                                    visual_dict.pop("fps")
 
-                if task == "video_mmmu_adaptation":
-                    self.interleave_visuals = True
-                    eval_logger.info("Interleaving visuals for video_mmmu_adaptation")
+                                if start_time is not None:
+                                    visual_dict["start_time"] = start_time
+                                if end_time is not None:
+                                    visual_dict["end_time"] = end_time
 
-                if self.interleave_visuals is False:
-                    message.append(
-                        {
-                            "role": "user",
-                            "content": processed_visuals + [{"type": "text", "text": context}],
-                        }
-                    )
-                else:  # currently support find <image x> in the context
-                    content_parts = []
+                                processed_visuals.append(visual_dict)
+                            elif isinstance(visual, Image.Image):  # Handle both single and multiple images
+                                base64_image = visual.convert("RGB")
+                                buffer = BytesIO()
+                                base64_image.save(buffer, format="JPEG")
+                                base64_bytes = base64.b64encode(buffer.getvalue())
+                                base64_string = base64_bytes.decode("utf-8")
+                                processed_visuals.append(
+                                    {
+                                        "type": "image",
+                                        "image": f"data:image/jpeg;base64,{base64_string}",
+                                        "min_pixels": self.image_min_pixels,
+                                        "max_pixels": self.image_max_pixels,
+                                    }
+                                )
 
-                    if processed_visuals[0]["type"] == "video":
-                        content_parts.append(processed_visuals[0])
-                        processed_visuals = processed_visuals[1:]
+                    if task == "video_mmmu_adaptation":
+                        self.interleave_visuals = True
+                        eval_logger.info("Interleaving visuals for video_mmmu_adaptation")
 
-                    image_placeholders = re.findall(r"<image \d+>", context)
-                    text_parts = re.split(r"<image \d+>", context)
-                    if text_parts[0]:
-                        content_parts.append({"type": "text", "text": text_parts[0]})
+                    if self.interleave_visuals is False:
+                        message.append(
+                            {
+                                "role": "user",
+                                "content": processed_visuals + [{"type": "text", "text": context}],
+                            }
+                        )
+                    else:  # currently support find <image x> in the context
+                        content_parts = []
 
-                    for i, placeholder in enumerate(image_placeholders):
-                        img_idx = int(re.search(r"<image (\d+)>", placeholder).group(1)) - 1
-                        image_idx = min(img_idx, len(processed_visuals) - 1) if processed_visuals else 0
-                        if processed_visuals and image_idx < len(processed_visuals):
-                            content_parts.append(processed_visuals[image_idx])
-                        if i + 1 < len(text_parts) and text_parts[i + 1]:
-                            content_parts.append({"type": "text", "text": text_parts[i + 1]})
+                        if processed_visuals[0]["type"] == "video":
+                            content_parts.append(processed_visuals[0])
+                            processed_visuals = processed_visuals[1:]
 
-                    message.append({"role": "user", "content": content_parts})
+                        image_placeholders = re.findall(r"<image \d+>", context)
+                        text_parts = re.split(r"<image \d+>", context)
+                        if text_parts[0]:
+                            content_parts.append({"type": "text", "text": text_parts[0]})
 
-                batched_messages.append(message)
-            if 'top1' in self.task_dict[task][split][doc_id[0]].keys():
-                top_idx = int(self.task_dict[task][split][doc_id[0]]['top1'])
-            else:
-                try:
-                    top_idx = self.task_dict[task][split][doc_id[0]][self.sampling].split(',')
-                    top_idx = [int(idx) for idx in top_idx]
-                except:
-                    top_idx = None
+                        for i, placeholder in enumerate(image_placeholders):
+                            img_idx = int(re.search(r"<image (\d+)>", placeholder).group(1)) - 1
+                            image_idx = min(img_idx, len(processed_visuals) - 1) if processed_visuals else 0
+                            if processed_visuals and image_idx < len(processed_visuals):
+                                content_parts.append(processed_visuals[image_idx])
+                            if i + 1 < len(text_parts) and text_parts[i + 1]:
+                                content_parts.append({"type": "text", "text": text_parts[i + 1]})
 
-            text_list = self.processor.apply_chat_template(batched_messages, tokenize=False, add_generation_prompt=True)
-            image_inputs, video_inputs, video_kwargs = process_vision_info(batched_messages, return_video_kwargs=True, sampling=self.sampling, top_idx=top_idx)
-            # expect for error decode
-            if video_inputs is None or len(video_inputs)==0:
+                        message.append({"role": "user", "content": content_parts})
+
+                    batched_messages.append(message)
+                if 'top1' in self.task_dict[task][split][doc_id[0]].keys():
+                    top_idx = int(self.task_dict[task][split][doc_id[0]]['top1'])
+                else:
+                    try:
+                        top_idx = self.task_dict[task][split][doc_id[0]][self.sampling].split(',')
+                        top_idx = [int(idx) for idx in top_idx]
+                    except:
+                        top_idx = None
+
+                text_list = self.processor.apply_chat_template(batched_messages, tokenize=False, add_generation_prompt=True)
+                image_inputs, video_inputs, video_kwargs = process_vision_info(batched_messages, return_video_kwargs=True, sampling=self.sampling, top_idx=top_idx)
+                # expect for error decode
+                if video_inputs is None or len(video_inputs)==0:
+                    answers = ['NONE']
+                    for ans, context in zip(answers, contexts):
+                        res.append(ans)
+                        self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
+                        pbar.update(1)
+                    continue
+
+                inputs = self.processor(text=text_list, images=image_inputs, videos=video_inputs, return_tensors="pt", padding=True, videos_kwargs=video_kwargs)
+
+                if self.device_map == "auto":
+                    inputs = inputs.to("cuda")
+                else:
+                    inputs = inputs.to(self.device)
+
+                # Set default generation kwargs
+                default_gen_kwargs = {
+                    "max_new_tokens": 32768,
+                    "temperature": 0.0,  # Set to 0 for greedy default
+                    "top_p": None,
+                    "num_beams": 1,
+                }
+                # Update with provided kwargs
+                current_gen_kwargs = {**default_gen_kwargs, **gen_kwargs}
+                pad_token_id = self.tokenizer.pad_token_id
+
+                if current_gen_kwargs["temperature"] > 0:
+                    current_gen_kwargs["do_sample"] = True
+                else:
+                    current_gen_kwargs["do_sample"] = False
+                    current_gen_kwargs["temperature"] = None
+                    current_gen_kwargs["top_p"] = None
+
+                generated_ids_trimmed = self.model.generate(
+                    **inputs,
+                    eos_token_id=self.tokenizer.eos_token_id,
+                    pad_token_id=pad_token_id,
+                    do_sample=current_gen_kwargs["do_sample"],
+                    temperature=current_gen_kwargs["temperature"],
+                    top_p=current_gen_kwargs["top_p"],
+                    num_beams=current_gen_kwargs["num_beams"],
+                    max_new_tokens=current_gen_kwargs["max_new_tokens"],
+                    use_cache=self.use_cache,
+                )
+
+                answers = self.processor.batch_decode(
+                    generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+                )
+                for i, ans in enumerate(answers):
+                    for term in until:
+                        if len(term) > 0:
+                            ans = ans.split(term)[0]
+                    answers[i] = ans
+
+                for ans, context in zip(answers, contexts):
+                    res.append(ans)
+                    self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
+                    pbar.update(1)
+            except:
                 answers = ['NONE']
                 for ans, context in zip(answers, contexts):
                     res.append(ans)
                     self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
                     pbar.update(1)
-                continue
-
-            inputs = self.processor(text=text_list, images=image_inputs, videos=video_inputs, return_tensors="pt", padding=True, videos_kwargs=video_kwargs)
-
-            if self.device_map == "auto":
-                inputs = inputs.to("cuda")
-            else:
-                inputs = inputs.to(self.device)
-
-            # Set default generation kwargs
-            default_gen_kwargs = {
-                "max_new_tokens": 32768,
-                "temperature": 0.0,  # Set to 0 for greedy default
-                "top_p": None,
-                "num_beams": 1,
-            }
-            # Update with provided kwargs
-            current_gen_kwargs = {**default_gen_kwargs, **gen_kwargs}
-            pad_token_id = self.tokenizer.pad_token_id
-
-            if current_gen_kwargs["temperature"] > 0:
-                current_gen_kwargs["do_sample"] = True
-            else:
-                current_gen_kwargs["do_sample"] = False
-                current_gen_kwargs["temperature"] = None
-                current_gen_kwargs["top_p"] = None
-
-            generated_ids_trimmed = self.model.generate(
-                **inputs,
-                eos_token_id=self.tokenizer.eos_token_id,
-                pad_token_id=pad_token_id,
-                do_sample=current_gen_kwargs["do_sample"],
-                temperature=current_gen_kwargs["temperature"],
-                top_p=current_gen_kwargs["top_p"],
-                num_beams=current_gen_kwargs["num_beams"],
-                max_new_tokens=current_gen_kwargs["max_new_tokens"],
-                use_cache=self.use_cache,
-            )
-
-            answers = self.processor.batch_decode(
-                generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-            )
-            for i, ans in enumerate(answers):
-                for term in until:
-                    if len(term) > 0:
-                        ans = ans.split(term)[0]
-                answers[i] = ans
-
-            for ans, context in zip(answers, contexts):
-                res.append(ans)
-                self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
-                pbar.update(1)
-            # except:
-            #     answers = ['NONE']
-            #     for ans, context in zip(answers, contexts):
-            #         res.append(ans)
-            #         self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
-            #         pbar.update(1)
             # reorder this group of results back to original unsorted form
         res = re_ords.get_original(res)
 
