@@ -76,17 +76,22 @@ def fix_video_ffmpeg(args):
         return False
 
 def main():
-    root_dir = './'
-    video_list = []
-    for dirpath, _, filenames in os.walk(root_dir):
-        for file in filenames:
-            if not file.endswith('.py'):
-                full_path = os.path.join(dirpath, file)
-                _, ext = os.path.splitext(full_path)
-                if ext.lower() in ['.mp4', '.webm']:
-                    video_list.append(full_path)
 
-    failed_video_list = check_corrupted_videos(video_list, num_frames=16)
+    if os.path.isfile('failed_list.txt'):
+        failed_video_list = open('failed_list.txt', encoding='utf-8').read().splitlines()
+    else:
+        root_dir = './'
+        video_list = []
+        for dirpath, _, filenames in os.walk(root_dir):
+            for file in filenames:
+                if not file.endswith('.py'):
+                    full_path = os.path.join(dirpath, file)
+                    _, ext = os.path.splitext(full_path)
+                    if ext.lower() in ['.mp4', '.webm']:
+                        video_list.append(full_path)
+
+        failed_video_list = check_corrupted_videos(video_list, num_frames=16)
+        print(*failed_video_list, sep='\n', file=open('failed_list.txt', 'w', encoding='utf-8'))
 
     if not failed_video_list:
         return

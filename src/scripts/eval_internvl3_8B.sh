@@ -7,7 +7,7 @@ master_port=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); prin
 task=v_oasis
 max_frames=128
 
-accelerate launch --num_processes=8 --main_process_port=$master_port -m lmms_eval.__main__ \
+accelerate launch --num_processes=1 --main_process_port=$master_port -m lmms_eval.__main__ \
     --model internvl3 \
     --model_args pretrained=$model_path,num_frame=$max_frames \
     --tasks "$task" \
