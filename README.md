@@ -25,18 +25,6 @@
 - [x] Release the Video-Native Challenges on <a href="https://github.com/sejong-rcv/Video-Oasis/blob/main/src/lmms_eval/video_oasis.json">link</a> <br>
 - [ ] Release the code for Video-Oasis <br>
 
-# Key Findings
-
-<p align="center">
-    <img src="assets/motivation.png" width="1080" style="margin-bottom: 0.2;"/>
-<p>
-
-**[a] What makes a video benchmark truly measure video understanding?** The inherent complexity of video understanding makes it difficult to attribute whether performance gains stem from visual perception, linguistic reasoning, or knowledge priors. While many benchmarks have emerged to assess high-level reasoning, the essential criteria that constitute video understanding remain largely overlooked.
-
-**[b] High Benchmark Scores, High Shortcut Ratios.** To investigate this, we decouple input modalities by selectively masking visual or temporal cues to verify true spatio-temporal dependency. Then, we define the shortcut ratio as the proportion of samples solvable without complete video dependency. Strikingly, we find that 54% of existing benchmark samples can be solved without visual or temporal context.
-
-**[c] Removing Shortcuts Reveals the Real Challenge.** We dub this entire process of analyzing and filtering out shortcuts as Video-Oasis. When evaluated on our filtered, video-native challenges (non-shortcut samples), state-of-the-art (SOTA) models consistently exhibit a substantial drop, achieving performance only marginally above the random-chance level.
-
 # 🔥 Getting Started
 
 ## 🔨 Installation
