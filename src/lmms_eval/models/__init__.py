@@ -23,6 +23,8 @@ AVAILABLE_SIMPLE_MODELS = {
     "internvl2": "InternVL2",
     "internvl3": "InternVL3",
     "internvl3_5": "InternVL3_5",
+    "internvideo2_5": "InternVideo2_5",
+    "internvideo3": "InternVideo3",
     "llava_vid": "LlavaVid",
     "llava_onevision1_5": "Llava_OneVision1_5",
     "eagle2_5": "Eagle2_5",
