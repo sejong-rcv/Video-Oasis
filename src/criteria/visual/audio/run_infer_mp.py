@@ -1,5 +1,4 @@
-# for multiprocessing, 기존 run_inference 사실 지워도 될듯
-# for Qwen2.5 VL, Qwen3 VL
+# Execute Example : OMP_NUM_THREADS=1 python run_infer_mp.py --gpus "0,1" --dataset "rtv-bench" --model_version "qwen25_vl"
 import os
 import json
 import tqdm
@@ -9,12 +8,12 @@ import argparse
 import huggingface_hub
 import torch.multiprocessing as mp
 import math
-from modules.data_loader import load_video_mme_data
+from modules.data_loader import load_video_data
 from transformers import AutoProcessor, AutoModel, AutoTokenizer, AutoModelForCausalLM
 from transformers import Qwen3VLForConditionalGeneration, Qwen2_5_VLForConditionalGeneration
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', type=str, default='video-mme',choices=os.listdir('/data3/jylee/workspace/Whisper/STT')) # dataset name
+parser.add_argument('--dataset', type=str, default='video-mme',choices=os.listdir('data/benchmarks/audios/stt')) # dataset name
 parser.add_argument('--model_version', type=str, default='qwen25_vl',choices=['qwen25_vl','qwen3_vl','eagle25'])    # model name 
 parser.add_argument('--gpus', type=str, default='0,1', help='IDs of GPUs to use, comma separated (e.g. 0,1)')
 args = parser.parse_args()
@@ -61,23 +60,34 @@ Evidence: (Quote the text and timestamp. If none, write "None")
 Reasoning: (Explain why you chose this option. If you are guessing, explicitly state "Information missing, guessing based on context.")"""
     return prompt.strip()
 
-def parse_prediction(pred_text):
-    if not pred_text: return "Unknown", "", ""
-    match_option = re.search(r"Answer:\s*\(?([A-D])\)?", pred_text, re.IGNORECASE)
-    pred_option = match_option.group(1).upper() if match_option else "Unknown"
+def parse_prediction(pred_text, num_options):
+      if not pred_text:
+          return "Unknown", "", ""
 
-    evidence, reasoning = "", ""
-    if "Evidence:" in pred_text:
-        parts = pred_text.split("Evidence:", 1)[1]
-        if "Reasoning:" in parts:
-            evidence = parts.split("Reasoning:", 1)[0].strip()
-            reasoning = parts.split("Reasoning:", 1)[1].strip()
-        else:
-            evidence = parts.strip()
-    
-    return pred_option, evidence, reasoning
+      valid_options = {
+          chr(ord("A") + i) for i in range(num_options)
+      }
 
-# --- [Inference Function] (모델 인스턴스를 인자로 받도록 수정) ---
+      match = re.search(
+          r"Answer:\s*\(?([A-Z])\)?",
+          pred_text,
+          re.IGNORECASE,
+      )
+
+      candidate = match.group(1).upper() if match else None
+      pred_option = candidate if candidate in valid_options else "Unknown"
+
+      evidence, reasoning = "", ""
+      if "Evidence:" in pred_text:
+          parts = pred_text.split("Evidence:", 1)[1]
+          if "Reasoning:" in parts:
+              evidence, reasoning = parts.split("Reasoning:", 1)
+              evidence = evidence.strip()
+              reasoning = reasoning.strip()
+          else:
+              evidence = parts.strip()
+
+      return pred_option, evidence, reasoning
 
 def get_answer_open(model, processor, question, model_version, device):
     messages = [{"role": "user", "content": [{"type": "text", "text": question}]}]
@@ -87,15 +97,8 @@ def get_answer_open(model, processor, question, model_version, device):
         text=[text], images=None, videos=None, padding=True, return_tensors="pt"
     ).to(device)
 
-    # Truncation (VRAM 폭발 방지)
-    # MAX_LEN = 16000
-    # if inputs.input_ids.shape[1] > MAX_LEN:
-    #     inputs.input_ids = inputs.input_ids[:, :MAX_LEN]
-    #     inputs.attention_mask = inputs.attention_mask[:, :MAX_LEN]
-
     gen_kwargs = {"max_new_tokens": 1024, "do_sample": False, "temperature": 0.0}
-    
-    # 모델별 분기
+
     if model_version != 'eagle25':
         generated_ids = model.generate(**inputs, **gen_kwargs)
         generated_ids_trimmed = [out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)]
@@ -106,18 +109,11 @@ def get_answer_open(model, processor, question, model_version, device):
 
     return output_text[0]
 
-# --- [Worker Process] ---
-
 def gpu_worker(rank, gpu_ids, args, data_chunk):
-    """
-    각 GPU 프로세스에서 실행될 함수
-    """
+   
     gpu_id = gpu_ids[rank]
     device = f"cuda:{gpu_id}"
-    print(f"🚀 [Worker {rank}] Start Inference on GPU {gpu_id} | Data Size: {len(data_chunk)}")
-    
-    # 1. 모델 로드 (프로세스별로 개별 로드)
-    # BASE_MODEL_PATH 경로 수정 필요시 수정
+    print(f" [Worker {rank}] Start Inference on GPU {gpu_id} | Data Size: {len(data_chunk)}")
     
     model = None
     processor = None
@@ -131,9 +127,7 @@ def gpu_worker(rank, gpu_ids, args, data_chunk):
             processor = AutoProcessor.from_pretrained(model_path)
             
         elif args.model_version == 'eagle25':
-            # Eagle 2.5 로컬 경로 또는 ID
             model_path = "nvidia/Eagle2.5-8B" 
-            # 로컬 경로 예시: model_path = "/data3/sjpark/workspace/LVU_release/models/Eagle2.5-8B"
             model = AutoModel.from_pretrained(
                 model_path, 
                 trust_remote_code=True, 
@@ -158,12 +152,12 @@ def gpu_worker(rank, gpu_ids, args, data_chunk):
         print(f"❌ [Worker {rank}] Model Load Error: {e}")
         return
 
-    # 2. 추론 루프
+    
     results = []
-    STT_PATH = os.path.join('/data3/jylee/workspace/Whisper/STT_clean',f"{args.dataset}") # change
+    STT_PATH = os.path.join('data/benchmarks/audios/stt',f"{args.dataset}") 
 
     for item in tqdm.tqdm(data_chunk, desc=f"Worker {rank}", position=rank):
-        # video id 파싱 
+        
         video_id = item['video']
         if args.dataset == 'vcr-bench':
             video_id = video_id.split('/')[-1]
@@ -183,7 +177,7 @@ def gpu_worker(rank, gpu_ids, args, data_chunk):
         try:
             prompt = build_timestamp_prompt(stt_data, item['question'], item['options'])
             pred = get_answer_open(model, processor, prompt, args.model_version, device)
-            pred_option, evidence, reasoning = parse_prediction(pred)
+            pred_option, evidence, reasoning = parse_prediction(pred,len(item["options"]))
             results.append({
                 "qid": item['qid'],
                 "video": item['video'].replace('.mp3', ''),
@@ -197,65 +191,46 @@ def gpu_worker(rank, gpu_ids, args, data_chunk):
                 "Reasoning": reasoning,
             })
         except Exception as e:
-            print(f"⚠️ Error on {item['qid']}: {e}")
+            print(f" Error on {item['qid']}: {e}")
         
-    # 3. 부분 결과 저장
-    save_dir = f"./output_prior/{args.model_version}" # change
+    save_dir = f"./output_prior/{args.model_version}" 
     os.makedirs(save_dir, exist_ok=True)
     part_file = os.path.join(save_dir, f"part_{rank}.json")
     
     with open(part_file, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=4, ensure_ascii=False)
     
-    print(f"✅ [Worker {rank}] Finished! Saved to {part_file}")
+    print(f" [Worker {rank}] Finished! Saved to {part_file}")
 
-# --- [Main Entry] ---
 
 if __name__ == '__main__':
-    huggingface_hub.login(token='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') # 토큰 확인
-    mp.set_start_method('spawn', force=True) # CUDA 멀티프로세싱 필수
+    huggingface_hub.login(token=' ') # set token
+    mp.set_start_method('spawn', force=True) 
 
-    # 1. GPU 설정
     gpu_ids = [int(x) for x in args.gpus.split(',')]
     num_gpus = len(gpu_ids)
-    print(f"🔥 Using {num_gpus} GPUs: {gpu_ids}")
-
-    # 2. 데이터 로드 및 분할
-    JSON_PATH = '/data3/jylee/workspace/Whisper/vqa_total.json'
+    print(f"Using {num_gpus} GPUs: {gpu_ids}")
+ 
+    JSON_PATH = '/data3/jylee/workspace/Whisper/vqa_total.json'   # total vqa json path
     with open(JSON_PATH, 'r', encoding='utf-8') as f:
         all_data = json.load(f)
 
-    # vqa_total의 db 이름 매칭
     db_list = ['LongVideoBench', 'MLVU_Test', 'MMR-V','MVBench','RTV-Bench','TVBench','VCR-Bench','Video-Holmes','Video-MME']
     db_list.sort()
-    bench_dict = {k:v for v,k in zip(db_list,sorted(os.listdir('/data3/jylee/workspace/Whisper/STT'))) }
+    bench_dict = {k:v for v,k in zip(db_list,sorted(os.listdir('data/benchmarks/audios/stt'))) }
     target_data = [
         item for item in all_data 
         if  item.get('db') == bench_dict[args.dataset]
     ]
     
     if len(target_data) == 0:
-        print(f"⚠️ Warning: '{args.dataset}'에 해당하는 데이터를 찾지 못했습니다. 종료합니다.")
         exit()
     
-    print(f"📂 Total Data: {len(target_data)}")
+    print(f"Total Data: {len(target_data)}")
     
-    # 데이터 쪼개기 (Chunking)
     chunk_size = math.ceil(len(target_data) / num_gpus)
     data_chunks = [target_data[i:i + chunk_size] for i in range(0, len(target_data), chunk_size)]
 
-    # 디버깅용 코드
-    # print("🐞 Debugging Mode: Running Single Process...") 
-    # debug_chunk = data_chunks[0][:10] 
-    
-    # # 프로세스 생성(mp.Process) 대신 함수 직접 호출
-    # # rank=0, gpu_ids=[0번GPU], args=args, data=debug_chunk
-    # gpu_worker(0, [gpu_ids[0]], args, debug_chunk)
-    
-    # print("✅ Debugging Finished")
-    # exit() # 여기서 끝냄
-
-    # 3. 멀티프로세스 실행
     processes = []
     for rank in range(num_gpus):
         p = mp.Process(target=gpu_worker, args=(rank, gpu_ids, args, data_chunks[rank]))
@@ -265,21 +240,17 @@ if __name__ == '__main__':
     for p in processes:
         p.join()
 
-    # 4. 결과 병합 (Merge)
-    print("🔄 Merging results...")
+    print("Merging results...")
     final_results = []
-    save_dir = f"./output_prior/{args.model_version}" # change
+    save_dir = f"./output_prior/{args.model_version}" 
     
     for rank in range(num_gpus):
         part_file = os.path.join(save_dir, f"part_{rank}.json")
         if os.path.exists(part_file):
             with open(part_file, 'r', encoding='utf-8') as f:
                 final_results.extend(json.load(f))
-            os.remove(part_file) # 병합 후 부분 파일 삭제 (선택사항)
+            os.remove(part_file) 
 
     final_output = os.path.join(save_dir, f"{args.dataset}_result.json")
     with open(final_output, "w", encoding="utf-8") as f:
         json.dump(final_results, f, indent=4, ensure_ascii=False)
-
-    print(f"🏆 All Done! Final results saved to: {final_output}")
-    # Execute : OMP_NUM_THREADS=1 python run_infer_mp.py --gpus "0,1" --dataset "rtv-bench" --model_version "qwen25_vl"
