@@ -12,7 +12,7 @@ import argparse
 from decord import VideoReader
 from decord import cpu
 # AutoCaptioner 임포트 경로는 선생님 환경에 맞게 유지
-from care.models.modeling_captioners import AutoCaptioner
+from criteria.visual.summary.care.models.modeling_captioners import AutoCaptioner
 
 # ==========================================
 # 1. Argument Parser 설정

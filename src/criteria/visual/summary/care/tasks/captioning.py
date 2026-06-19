@@ -3,13 +3,13 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import logging
 import functools
 from tqdm import tqdm
-from models.modeling_captioners import AutoCaptioner
+from criteria.visual.summary.care.models.modeling_captioners import AutoCaptioner
 from typing import List
 import json
 import os
 from torch.utils.data import DataLoader
 from accelerate import Accelerator
-from dataset.dataset import VideoTextDataset
+from criteria.visual.summary.care.dataset.dataset import VideoTextDataset
 
 
 accelerator = Accelerator(device_placement=False)
@@ -148,7 +148,7 @@ def evaluate_gpt(data, result_dir, api_endpoint, api_key, api_model, api_num_wor
     os.environ['AZURE_ENDPOINT'] = api_endpoint
     os.environ['OPENAI_API_KEY'] = api_key
 
-    from utils.dream_gpt import DREAMGPTMetric
+    from criteria.visual.summary.care.utils.dream_gpt import DREAMGPTMetric
 
     metric = DREAMGPTMetric("TEST")
     metric.num_worker = api_num_worker

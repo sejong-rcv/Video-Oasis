@@ -35,7 +35,7 @@ from concurrent.futures import ProcessPoolExecutor
 import torch
 import torch.nn.functional as F
 from tqdm import tqdm
-from model import longclip
+from criteria.temporal.bof.model import longclip
 
 
 # ============================================================

@@ -1,7 +1,7 @@
 import torch
 import json
 from PIL import Image
-from utils.video import read_frames_decord
+from criteria.visual.summary.care.utils.video import read_frames_decord
 from torchvision.transforms import PILToTensor
 import os
 

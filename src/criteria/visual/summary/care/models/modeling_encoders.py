@@ -10,7 +10,7 @@ import os
 
 from abc import ABCMeta, abstractmethod
 
-from care.models.modeling_basemodels import (
+from criteria.visual.summary.care.models.modeling_basemodels import (
     BaseModelForMiniCPMV,
     BaseModelForLlavaNextVideo,
     BaseModelForTarsier,
@@ -18,7 +18,7 @@ from care.models.modeling_basemodels import (
     BaseModelForInternVL2,
     BaseModelForCaRe,
 )
-from care.utils.model import load_architectures_from_config, transform_pixel_values
+from criteria.visual.summary.care.utils.model import load_architectures_from_config, transform_pixel_values
 
 IMAGE_FACTOR = 28
 MIN_PIXELS = 4 * 28 * 28

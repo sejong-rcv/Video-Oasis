@@ -20,7 +20,7 @@ from transformers.trainer_callback import TrainerCallback
 from typing import Any, Optional, Union
 import numpy as np
 from dataclasses import dataclass
-from models.modeling_basemodels import AutoBase
+from criteria.visual.summary.care.models.modeling_basemodels import AutoBase
 
 
 logger = logging.get_logger(__name__)

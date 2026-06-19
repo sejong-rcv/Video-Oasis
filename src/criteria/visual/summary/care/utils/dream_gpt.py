@@ -23,7 +23,7 @@ from func_timeout import func_set_timeout
 import logging
 logger = logging.getLogger(__name__)
 
-from utils.gpt_api import azure_gpt4_client
+from criteria.visual.summary.care.utils.gpt_api import azure_gpt4_client
 import re
 import os
 from copy import deepcopy

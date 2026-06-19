@@ -12,7 +12,7 @@ from torch.utils.data import Dataset, DataLoader, DistributedSampler
 from decord import VideoReader, cpu
 from PIL import Image
 from transformers import AutoModel, AutoConfig, AutoProcessor
-from model import longclip
+from criteria.temporal.bof.model import longclip
 
 MODEL_NAMES = {
     "clip": "openai/clip-vit-large-patch14",

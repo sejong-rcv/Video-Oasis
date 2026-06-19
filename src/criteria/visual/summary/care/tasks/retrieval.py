@@ -7,11 +7,11 @@ from tqdm import tqdm
 from accelerate import Accelerator
 from PIL import Image
 import torch.nn.functional as F
-from models.modeling_encoders import AutoEncoder
-from utils.video import read_frames_decord
+from criteria.visual.summary.care.models.modeling_encoders import AutoEncoder
+from criteria.visual.summary.care.utils.video import read_frames_decord
 import decord
 from torchvision.transforms.v2 import PILToTensor
-from dataset.dataset import VideoTextDataset
+from criteria.visual.summary.care.dataset.dataset import VideoTextDataset
 
 
 decord.bridge.set_bridge("torch")

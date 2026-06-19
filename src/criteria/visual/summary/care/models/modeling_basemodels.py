@@ -2,7 +2,7 @@ import os
 import math
 import torch
 import torchvision.transforms as T
-import care.models.qwen_vision_info as qwen_vl_vision_process
+import criteria.visual.summary.care.models.qwen_vision_info as qwen_vl_vision_process
 from PIL import Image
 from torchvision.transforms.functional import InterpolationMode
 from transformers import (
@@ -18,9 +18,9 @@ from transformers import (
     Qwen2VLForConditionalGeneration,
 )
 from typing import Dict, Optional, Union
-from care.models.tarsier.modeling_tarsier import TarsierForConditionalGeneration
-from care.models.tarsier.processor import Processor
-from care.utils.model import EOL_PROMPTS, load_architectures_from_config
+from criteria.visual.summary.care.models.tarsier.modeling_tarsier import TarsierForConditionalGeneration
+from criteria.visual.summary.care.models.tarsier.processor import Processor
+from criteria.visual.summary.care.utils.model import EOL_PROMPTS, load_architectures_from_config
 from abc import ABCMeta
 
 
