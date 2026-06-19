@@ -31,11 +31,11 @@
     <img src="assets/motivation.png" width="1080" style="margin-bottom: 0.2;"/>
 <p>
 
-**[a] What is Genuine Video Understanding?** The inherent complexity of video understanding makes it difficult to attribute whether performance gains stem from visual perception, linguistic reasoning, or knowledge priors. While many benchmarks have emerged to assess high-level reasoning, the essential criteria that constitute video understanding remain largely overlooked.
+**[a] What makes a video benchmark truly measure video understanding?** The inherent complexity of video understanding makes it difficult to attribute whether performance gains stem from visual perception, linguistic reasoning, or knowledge priors. While many benchmarks have emerged to assess high-level reasoning, the essential criteria that constitute video understanding remain largely overlooked.
 
-**[b] Benchmarks solvable without complete video dependency.** To investigate this, we decouple input modalities by selectively masking visual or temporal cues to verify true spatio-temporal dependency. Then, we define the shortcut ratio as the proportion of samples solvable without complete video dependency. Strikingly, we find that 54% of existing benchmark samples can be solved without visual or temporal context.
+**[b] High Benchmark Scores, High Shortcut Ratios.** To investigate this, we decouple input modalities by selectively masking visual or temporal cues to verify true spatio-temporal dependency. Then, we define the shortcut ratio as the proportion of samples solvable without complete video dependency. Strikingly, we find that 54% of existing benchmark samples can be solved without visual or temporal context.
 
-**[c] SOTA models consistently exhibit a substantial drop when facing video-native challenges.** We dub this entire process of analyzing and filtering out shortcuts as Video-Oasis. When evaluated on our filtered, video-native challenges (non-shortcut samples), state-of-the-art (SOTA) models consistently exhibit a substantial drop, achieving performance only marginally above the random-chance level.
+**[c] Removing Shortcuts Reveals the Real Challenge.** We dub this entire process of analyzing and filtering out shortcuts as Video-Oasis. When evaluated on our filtered, video-native challenges (non-shortcut samples), state-of-the-art (SOTA) models consistently exhibit a substantial drop, achieving performance only marginally above the random-chance level.
 
 # 🔥 Getting Started
 
