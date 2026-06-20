@@ -1,0 +1,10 @@
+checkpoints*/
+data/
+wandb/
+thirdparty/
+experiments/
+notebooks/
+__pycache__/
+
+checkpoints
+*.pth

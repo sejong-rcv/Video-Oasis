@@ -2,9 +2,13 @@
 *.py[cod]
 src/experiments/
 data/models/*/
+data/benchmarks/audios/*
+!data/benchmarks/audios/stt/
+!data/benchmarks/audios/stt/**/*
 data/benchmarks/videos/**/*
 !data/benchmarks/videos/**/
 !data/benchmarks/videos/**/*.py
+src/criteria/visual/blind/output/
 buffer
 buffer/**/*
 buffer/
