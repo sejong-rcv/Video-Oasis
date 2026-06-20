@@ -1,7 +1,7 @@
 def format_transcript_with_timestamps(stt_data):
     """
-    STT JSON 데이터를 받아서 타임스탬프가 찍힌 텍스트로 변환
-    예:
+    Converts STT JSON data into timestamped text format.
+    Example:
     [0.0 - 4.5] Hello, welcome to the video.
     [4.5 - 10.2] Today we are going to learn about...
     """
@@ -10,11 +10,9 @@ def format_transcript_with_timestamps(stt_data):
     
     formatted_lines = []
     for chunk in stt_data["timestamps"]:
-        # chunk['timestamp']는 보통 [start, end] 리스트 형태
         start, end = chunk["timestamp"]
         text = chunk["text"].strip()
 
-        # start,end == null 등의 예외처리 
         if start is None: start = 0.0
         if end is None: end = 0.0
         
@@ -30,7 +28,7 @@ def build_timestamp_prompt(stt_data, question, options):
 
 [INSTRUCTIONS]
 1. Read the transcript with timestamps carefully.
-2. Select the correct option (A, B, C, or D).
+2. Select the letter of the correct option from the provided choices (e.g., A, B, C, etc.).
 3. **CRITICAL**: You MUST cite the specific timestamp range (e.g., [12.5 - 15.0]) from the transcript that supports your answer.
 4. Do NOT use external knowledge.
 
