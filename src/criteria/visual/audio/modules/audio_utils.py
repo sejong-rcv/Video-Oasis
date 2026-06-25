@@ -1,8 +1,9 @@
 import os
 import subprocess
+from modules.paths import MP3_ROOT
 
 class AudioProcessor:
-    def __init__(self, temp_dir="data/benchmarks/audios/mp3"):
+    def __init__(self, temp_dir=MP3_ROOT):
         self.temp_dir = temp_dir
         os.makedirs(self.temp_dir, exist_ok=True)
 
