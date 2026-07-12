@@ -1,6 +1,6 @@
 <div align="center">
 
-# Video-Oasis: Rethinking Evaluation for Video Understanding
+# Video-Oasis: Rethinking Evaluation of Video Understanding
 
 <p align="center">
     <img src="assets/video-native-challenges.png" width="720" style="margin-bottom: 0.2;"/>
