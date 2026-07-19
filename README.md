@@ -122,7 +122,7 @@ If you find this work useful, please cite our paper:
 @inproceedings{videooasis,
   title={Video-Oasis: Rethinking Evaluation of Video Understanding},
   author={Geuntaek Lim and Sungjune Park and Jaeyun Lee and Inwoong Lee and Taeoh Kim and Dongyoon Wee and Minho Shim and Yukyung Choi},
-  booktitle={Proceedings of the European Conference on Computer Vision},
+  booktitle={European Conference on Computer Vision (ECCV)},
   year={2026}
 }
 ```
