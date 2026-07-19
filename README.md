@@ -13,12 +13,10 @@
 [![Project Page](https://img.shields.io/badge/🌐%20Project%20Page-Visit-blue)](https://limgeuntaekk.github.io/Video-Oasis/)
 [![arXiv](https://img.shields.io/badge/arXiv-2603.29616-b31b1b.svg)](https://arxiv.org/abs/2603.29616)
 [![GitHub](https://img.shields.io/badge/💻%20GitHub-Code-green)](https://github.com/sejong-rcv/Video-Oasis)
-
+[![Hugging Face Paper](https://img.shields.io/badge/Daily%20Paper-Hugging%20Face-f59e0b?logo=huggingface)](https://huggingface.co/papers/2603.29616)
 </div>
 
-
 > **TL;DR.** Video-Oasis rethinks the current benchmark landscape by examining whether proliferating video benchmarks truly satisfy shared criteria for genuine video understanding.
-
 
 # News
 - [x] Release the paper on <a href="https://arxiv.org/abs/2603.29616">arXiv</a> <br>
