@@ -8,10 +8,12 @@ data/benchmarks/audios/*
 data/benchmarks/videos/**/*
 !data/benchmarks/videos/**/
 !data/benchmarks/videos/**/*.py
-src/criteria/visual/blind/output/
+src/criteria/visual/output/
+src/criteria/temporal/output/
+src/criteria/reports/
 buffer
 buffer/**/*
 buffer/
 assets/main.tex
 assets/sup.tex
-src/criteria_codex_ver/
+src/criteria/common/longclip/longclip-L.pt
