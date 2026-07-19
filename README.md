@@ -21,7 +21,7 @@
 # News
 - [x] Release the paper on <a href="https://arxiv.org/abs/2603.29616">arXiv</a> <br>
 - [x] Release the Video-Native Challenges on <a href="https://github.com/sejong-rcv/Video-Oasis/blob/main/src/lmms_eval/video_oasis.json">link</a> <br>
-- [ ] Release the code for Video-Oasis <br>
+- [x] Release the [Video-Oasis diagnostic suite](src/criteria) <br>
 
 # 🔥 Getting Started
 
@@ -98,11 +98,10 @@ accelerate launch --num_processes=8 --main_process_port=$master_port -m lmms_eva
 
 ##  <img src="assets/icon.png" width="30" height="30" align="center"> Video-Oasis
 
-Code coming soon! Stay tuned. (To Do List Below.)
-
-- [ ] Tutorial for Video-Oasis (Daignostic Suite) <br>
-- [ ] Tutorial for adding custom model for Video-Oasis <br>
-- [ ] Tutorial for adding custom benchmark for Video-Oasis <br>
+The Video-Oasis diagnostic suite is available in [`src/criteria`](src/criteria).
+It includes the Visual Dependency, Temporal Dependency, and Ambiguity tests used
+to construct Video-Oasis. See the [diagnostic suite guide](src/criteria/README.md)
+for the code structure and execution workflow.
 
 ---
 
