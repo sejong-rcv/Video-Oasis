@@ -12,3 +12,6 @@ src/criteria/visual/blind/output/
 buffer
 buffer/**/*
 buffer/
+assets/main.tex
+assets/sup.tex
+src/criteria_codex_ver/
