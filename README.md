@@ -21,7 +21,7 @@
 # News
 - [x] Release the paper on <a href="https://arxiv.org/abs/2603.29616">arXiv</a> <br>
 - [x] Release the Video-Native Challenges on <a href="https://github.com/sejong-rcv/Video-Oasis/blob/main/src/lmms_eval/video_oasis.json">link</a> <br>
-- [x] Release the [Video-Oasis diagnostic suite](src/criteria) <br>
+- [x] Release the [Video-Oasis](src/criteria) <br>
 
 # 🔥 Getting Started
 
