@@ -119,10 +119,10 @@ Code coming soon! Stay tuned. (To Do List Below.)
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@article{lim2026video,
+@inproceedings{videooasis,
   title={Video-Oasis: Rethinking Evaluation of Video Understanding},
-  author={Lim, Geuntaek and Shim, Minho and Park, Sungjune and Lee, Jaeyun and Lee, Inwoong and Kim, Taeoh and Wee, Dongyoon and Choi, Yukyung},
-  journal={arXiv preprint arXiv:2603.29616},
+  author={Geuntaek Lim and Sungjune Park and Jaeyun Lee and Inwoong Lee and Taeoh Kim and Dongyoon Wee and Minho Shim and Yukyung Choi},
+  booktitle={Proceedings of the European Conference on Computer Vision},
   year={2026}
 }
 ```
