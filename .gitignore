@@ -10,6 +10,7 @@ data/benchmarks/videos/**/*
 !data/benchmarks/videos/**/*.py
 src/criteria/visual/output/
 src/criteria/temporal/output/
+src/criteria/ambiguity/output/
 src/criteria/reports/
 buffer
 buffer/**/*
