@@ -119,7 +119,7 @@ Code coming soon! Stay tuned. (To Do List Below.)
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@inproceedings{videooasis,
+@inproceedings{lim2026videooasis,
   title={Video-Oasis: Rethinking Evaluation of Video Understanding},
   author={Geuntaek Lim and Sungjune Park and Jaeyun Lee and Inwoong Lee and Taeoh Kim and Dongyoon Wee and Minho Shim and Yukyung Choi},
   booktitle={European Conference on Computer Vision (ECCV)},
