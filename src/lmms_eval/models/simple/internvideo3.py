@@ -3,8 +3,6 @@ import os
 os.environ.setdefault("OMP_NUM_THREADS", "1")
 os.environ.setdefault("MKL_NUM_THREADS", "1")
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
-os.environ.setdefault("FORCE_QWENVL_VIDEO_READER", "decord")
-
 import logging
 from datetime import timedelta
 from typing import List, Tuple
@@ -19,7 +17,9 @@ from transformers import AutoModelForCausalLM, AutoProcessor
 from lmms_eval.api.instance import Instance
 from lmms_eval.api.model import lmms
 from lmms_eval.api.registry import register_model
+from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO_DECODE_ERROR
 from lmms_eval.models.model_utils.qwen.vision_process import process_vision_info
+from lmms_eval.models.model_utils.video_input import add_video_bounds, parse_video_input
 
 torch.set_num_threads(1)
 
@@ -56,7 +56,7 @@ class InternVideo3(lmms):
         device: str = "cuda:0",
         device_map: str = "cuda:0",
         batch_size: str = "1",
-        max_frames_num: int = 32,
+        max_frames: int = 128,
         fps: float = 1.0,
         video_min_pixels: int = 256 * 28 * 28,
         video_max_pixels: int = 2048 * 28 * 28,
@@ -66,7 +66,7 @@ class InternVideo3(lmms):
 
         self.path = pretrained
         self.modality = modality
-        self.max_frames_num = max_frames_num
+        self.max_frames_num = max_frames
         self.fps = fps
         self.video_min_pixels = video_min_pixels
         self.video_max_pixels = video_max_pixels
@@ -264,7 +264,9 @@ class InternVideo3(lmms):
             ]
 
         if self.modality == "video":
-            video_path = visuals[0]
+            video_spec = parse_video_input(visuals[0])
+            if video_spec is None:
+                raise ValueError(f"Expected a video path or bounded video tuple, got {type(visuals[0])}")
 
             if len(visuals) > 1 and isinstance(visuals[1], dict):
                 media_dict = visuals[1]
@@ -277,11 +279,13 @@ class InternVideo3(lmms):
 
             video_content = {
                 "type": "video",
-                "video": video_path,
+                "video": video_spec.path,
                 "fps": fps,
                 "min_pixels": self.video_min_pixels,
                 "max_pixels": self.video_max_pixels,
+                "max_frames": self.max_frames_num,
             }
+            add_video_bounds(video_content, video_spec)
 
             return [
                 {
@@ -310,6 +314,8 @@ class InternVideo3(lmms):
                 messages,
                 return_video_kwargs=True,
             )
+            if self.modality == "video" and not video_inputs:
+                raise ValueError("Video decoding returned no frames")
 
             processor_kwargs = dict(
                 text=[text],
@@ -322,6 +328,8 @@ class InternVideo3(lmms):
 
         except TypeError:
             image_inputs, video_inputs = process_vision_info(messages)
+            if self.modality == "video" and not video_inputs:
+                raise ValueError("Video decoding returned no frames")
 
             processor_kwargs = dict(
                 text=[text],
@@ -365,21 +373,24 @@ class InternVideo3(lmms):
 
                 messages = self._build_messages(contexts, visuals)
                 inputs = self._build_inputs(messages)
-
-                with torch.inference_mode():
-                    output = self.model.generate(
-                        **inputs,
-                        **generate_kwargs,
-                    )
-
-                response = self._decode_output(inputs, output)
-                response = self._apply_until(response, until)
             except Exception as e:
-                eval_logger.exception(
-                    f"Error during generation. {e}")
-                response = "NONE"
-                if torch.cuda.is_available():
-                    torch.cuda.empty_cache()   
+                eval_logger.exception(f"{VIDEO_DECODE_ERROR}: {e}")
+                response = VIDEO_DECODE_ERROR
+            else:
+                try:
+                    with torch.inference_mode():
+                        output = self.model.generate(
+                            **inputs,
+                            **generate_kwargs,
+                        )
+
+                    response = self._decode_output(inputs, output)
+                    response = self._apply_until(response, until)
+                except Exception as e:
+                    eval_logger.exception(f"{GENERATION_ERROR}: {e}")
+                    response = GENERATION_ERROR
+                    if torch.cuda.is_available():
+                        torch.cuda.empty_cache()
 
             res.append(response)
             pbar.update(1)

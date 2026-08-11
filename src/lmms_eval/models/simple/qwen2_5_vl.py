@@ -14,7 +14,9 @@ from lmms_eval import utils
 from lmms_eval.api.instance import Instance
 from lmms_eval.api.model import lmms
 from lmms_eval.api.registry import register_model
+from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO_DECODE_ERROR
 from lmms_eval.models.model_utils.qwen.vision_process import process_vision_info
+from lmms_eval.models.model_utils.video_input import add_video_bounds, parse_video_input
 from lmms_eval.models.model_utils.qwen.modeling_qwen2_5_vl_patched import Qwen2_5_VLForConditionalGeneration
 
 
@@ -39,12 +41,11 @@ class Qwen2_5_VL(lmms):
         video_max_pixels: Optional[int] = 768 * 28 * 28,
         video_total_pixels: Optional[int] = 115200 * 28 * 28,
         min_frames: Optional[int] = 4,
-        max_frames: Optional[int] = 768,
+        max_frames: Optional[int] = 128,
         nframes: Optional[int] = None,
-        fps: Optional[float] = 2.0,
+        fps: Optional[float] = 1.0,
         system_prompt: Optional[str] = "You are a helpful assistant.",
         interleave_visuals: Optional[bool] = False,
-        sampling: Optional[str] = "uniform",
         **kwargs,
     ) -> None:
         """Initialize the Qwen2.5_VL model.
@@ -110,12 +111,8 @@ class Qwen2_5_VL(lmms):
         self.system_prompt = system_prompt
         eval_logger.info(f"system_prompt: {self.system_prompt}")
 
-        if pretrained == '/mnt/gtlim_data/users/gtlim/models/Qwen2.5-VL-7B-COT-SFT':
-            self.processor = AutoProcessor.from_pretrained("/mnt/gtlim_data/users/gtlim/models/Qwen2.5-VL-7B-Instruct")
-            self._tokenizer = AutoTokenizer.from_pretrained("/mnt/gtlim_data/users/gtlim/models/Qwen2.5-VL-7B-Instruct")
-        else:
-            self.processor = AutoProcessor.from_pretrained(pretrained)
-            self._tokenizer = AutoTokenizer.from_pretrained(pretrained)
+        self.processor = AutoProcessor.from_pretrained(pretrained)
+        self._tokenizer = AutoTokenizer.from_pretrained(pretrained)
         self.interleave_visuals = interleave_visuals
 
         self._config = self.model.config
@@ -238,6 +235,7 @@ class Qwen2_5_VL(lmms):
                 if "<image>" in contexts[i]:
                     contexts[i] = contexts[i].replace("<image>", "")
 
+            failure_sentinel = VIDEO_DECODE_ERROR
             try:
                 batched_messages = []
                 for i, context in enumerate(contexts):
@@ -249,10 +247,11 @@ class Qwen2_5_VL(lmms):
                     processed_visuals = []
                     if visual_list[i] is not None:
                         for visual in visual_list[i]:
-                            if isinstance(visual, str) and visual.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):  # Video file
+                            video_spec = parse_video_input(visual)
+                            if video_spec is not None and video_spec.path.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):  # Video file
                                 visual_dict = {
                                     "type": "video",
-                                    "video": visual,
+                                    "video": video_spec.path,
                                     "min_pixels": self.video_min_pixels,
                                     "max_pixels": self.video_max_pixels,
                                     "total_pixels": self.video_total_pixels,
@@ -264,6 +263,7 @@ class Qwen2_5_VL(lmms):
                                     visual_dict["nframes"] = self.nframes
                                     visual_dict.pop("fps")
 
+                                add_video_bounds(visual_dict, video_spec)
                                 processed_visuals.append(visual_dict)
                             elif isinstance(visual, Image.Image):  # Handle both single and multiple images
                                 base64_image = visual.convert("RGB")
@@ -318,15 +318,22 @@ class Qwen2_5_VL(lmms):
                 texts = self.processor.apply_chat_template(batched_messages, tokenize=False, add_generation_prompt=True)
                 image_inputs, video_inputs, video_kwargs = process_vision_info(batched_messages, return_video_kwargs=True)
 
-                # expect for error decode
-                if video_inputs is None or len(video_inputs)==0:
-                    answers = ['NONE']
+                expects_video = any(
+                    item.get("type") == "video"
+                    for message in batched_messages
+                    for item in message[-1].get("content", [])
+                    if isinstance(item, dict)
+                )
+                if expects_video and not video_inputs:
+                    eval_logger.error(f"{VIDEO_DECODE_ERROR}: video decoding returned no frames")
+                    answers = [VIDEO_DECODE_ERROR] * len(contexts)
                     for ans, context in zip(answers, contexts):
                         res.append(ans)
                         self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
                         pbar.update(1)
                     continue
 
+                failure_sentinel = GENERATION_ERROR
                 padding_side = "left" if self.batch_size > 1 else "right"
                 inputs = self.processor(
                     text=texts,
@@ -387,8 +394,9 @@ class Qwen2_5_VL(lmms):
                     res.append(ans)
                     self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
                     pbar.update(1)
-            except:
-                answers = ['NONE']
+            except Exception as e:
+                eval_logger.exception(f"{failure_sentinel}: {e}")
+                answers = [failure_sentinel] * len(contexts)
                 for ans, context in zip(answers, contexts):
                     res.append(ans)
                     self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)

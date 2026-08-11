@@ -14,7 +14,9 @@ from lmms_eval import utils
 from lmms_eval.api.instance import Instance
 from lmms_eval.api.model import lmms
 from lmms_eval.api.registry import register_model
+from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO_DECODE_ERROR
 from lmms_eval.models.model_utils.qwen.vision_process import process_vision_info
+from lmms_eval.models.model_utils.video_input import add_video_bounds, parse_video_input
 
 
 @register_model("eagle2_5")
@@ -33,16 +35,15 @@ class Eagle2_5(lmms):
         use_flash_attention_2: Optional[bool] = True,
         image_min_pixels: Optional[int] = 4 * 28 * 28,
         image_max_pixels: Optional[int] = 16384 * 28 * 28,
-        video_min_pixels: Optional[int] = 128 * 28 * 28,
+        video_min_pixels: Optional[int] = 16 * 28 * 28,
         video_max_pixels: Optional[int] = 768 * 28 * 28,
-        video_total_pixels: Optional[int] = 115200 * 28 * 28,
-        min_frames: Optional[int] = 1,
-        max_frames: Optional[int] = 768,
+        video_total_pixels: Optional[int] = 16384 * 28 * 28,
+        min_frames: Optional[int] = 4,
+        max_frames: Optional[int] = 128,
         nframes: Optional[int] = None,
-        fps: Optional[float] = 2.0,
+        fps: Optional[float] = 1.0,
         system_prompt: Optional[str] = "You are a helpful video understanding assistant. Select the best answer to the following multiple-choice question based on the video.",
         interleave_visuals: Optional[bool] = False,
-        sampling: Optional[str] = "uniform",
         **kwargs,
     ) -> None:
         """Initialize the Eagle2.5 model.
@@ -96,7 +97,6 @@ class Eagle2_5(lmms):
         self.max_frames = max_frames
         self.nframes = nframes
         self.fps = fps
-        self.sampling = sampling
         eval_logger.info(
             f"video_min_pixels: {self.video_min_pixels}, "
             f"video_max_pixels: {self.video_max_pixels}, "
@@ -239,6 +239,7 @@ class Eagle2_5(lmms):
                 if "<image>" in contexts[i]:
                     contexts[i] = contexts[i].replace("<image>", "")
 
+            failure_sentinel = VIDEO_DECODE_ERROR
             try:
                 batched_messages = []
                 for i, context in enumerate(contexts):
@@ -250,16 +251,11 @@ class Eagle2_5(lmms):
                     processed_visuals = []
                     if visual_list[i] is not None:
                         for visual in visual_list[i]:
-                            if type(visual)==tuple:
-                                visual, start_time, end_time = visual
-                            else:
-                                start_time= None
-                                end_time = None
-
-                            if isinstance(visual, str) and visual.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):  # Video file
+                            video_spec = parse_video_input(visual)
+                            if video_spec is not None and video_spec.path.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):  # Video file
                                 visual_dict = {
                                     "type": "video",
-                                    "video": visual,
+                                    "video": video_spec.path,
                                     "min_pixels": self.video_min_pixels,
                                     "max_pixels": self.video_max_pixels,
                                     "total_pixels": self.video_total_pixels,
@@ -271,11 +267,7 @@ class Eagle2_5(lmms):
                                     visual_dict["nframes"] = self.nframes
                                     visual_dict.pop("fps")
 
-                                if start_time is not None:
-                                    visual_dict["start_time"] = start_time
-                                if end_time is not None:
-                                    visual_dict["end_time"] = end_time
-
+                                add_video_bounds(visual_dict, video_spec)
                                 processed_visuals.append(visual_dict)
                             elif isinstance(visual, Image.Image):  # Handle both single and multiple images
                                 base64_image = visual.convert("RGB")
@@ -326,26 +318,24 @@ class Eagle2_5(lmms):
                         message.append({"role": "user", "content": content_parts})
 
                     batched_messages.append(message)
-                if 'top1' in self.task_dict[task][split][doc_id[0]].keys():
-                    top_idx = int(self.task_dict[task][split][doc_id[0]]['top1'])
-                else:
-                    try:
-                        top_idx = self.task_dict[task][split][doc_id[0]][self.sampling].split(',')
-                        top_idx = [int(idx) for idx in top_idx]
-                    except:
-                        top_idx = None
-
                 text_list = self.processor.apply_chat_template(batched_messages, tokenize=False, add_generation_prompt=True)
-                image_inputs, video_inputs, video_kwargs = process_vision_info(batched_messages, return_video_kwargs=True, sampling=self.sampling, top_idx=top_idx)
-                # expect for error decode
-                if video_inputs is None or len(video_inputs)==0:
-                    answers = ['NONE']
+                image_inputs, video_inputs, video_kwargs = process_vision_info(batched_messages, return_video_kwargs=True)
+                expects_video = any(
+                    item.get("type") == "video"
+                    for message in batched_messages
+                    for item in message[-1].get("content", [])
+                    if isinstance(item, dict)
+                )
+                if expects_video and not video_inputs:
+                    eval_logger.error(f"{VIDEO_DECODE_ERROR}: video decoding returned no frames")
+                    answers = [VIDEO_DECODE_ERROR] * len(contexts)
                     for ans, context in zip(answers, contexts):
                         res.append(ans)
                         self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
                         pbar.update(1)
                     continue
 
+                failure_sentinel = GENERATION_ERROR
                 inputs = self.processor(text=text_list, images=image_inputs, videos=video_inputs, return_tensors="pt", padding=True, videos_kwargs=video_kwargs)
 
                 if self.device_map == "auto":
@@ -396,8 +386,9 @@ class Eagle2_5(lmms):
                     res.append(ans)
                     self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
                     pbar.update(1)
-            except:
-                answers = ['NONE']
+            except Exception as e:
+                eval_logger.exception(f"{failure_sentinel}: {e}")
+                answers = [failure_sentinel] * len(contexts)
                 for ans, context in zip(answers, contexts):
                     res.append(ans)
                     self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)

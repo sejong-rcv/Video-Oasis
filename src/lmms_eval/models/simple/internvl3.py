@@ -18,6 +18,8 @@ from transformers import AutoModel, AutoTokenizer
 from lmms_eval.api.instance import Instance
 from lmms_eval.api.model import lmms
 from lmms_eval.api.registry import register_model
+from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO_DECODE_ERROR
+from lmms_eval.models.model_utils.video_input import parse_video_input
 
 IMAGENET_MEAN = (0.485, 0.456, 0.406)
 IMAGENET_STD = (0.229, 0.224, 0.225)
@@ -165,7 +167,7 @@ def get_index(
         fps: Frames per second of the video.
         max_frame: Maximum frame index in the video.
         first_idx: First frame index to consider.
-        num_segments: Number of frames to sample.
+        num_segments: Maximum number of frames to sample.
 
     Returns:
         Array of frame indices to sample.
@@ -174,8 +176,8 @@ def get_index(
         start, end = bound[0], bound[1]
     else:
         start, end = -100000.0, 100000.0
-    start_idx = max(first_idx, round(start * fps))
-    end_idx = min(round(end * fps), max_frame)
+    start_idx = max(first_idx, int(np.ceil(start * fps)))
+    end_idx = min(int(np.floor(end * fps)), max_frame)
     seg_size = float(end_idx - start_idx) / num_segments
     frame_indices = np.array([int(start_idx + (seg_size / 2) + np.round(seg_size * idx)) for idx in range(num_segments)])
     return frame_indices
@@ -187,7 +189,6 @@ def load_video(
     input_size: int = 448,
     max_num: int = 1,
     num_segments: int = 32,
-    sampling: str = 'uniform'
 ) -> Tuple[torch.Tensor, List[int]]:
     """Load and preprocess a video into pixel values.
 
@@ -196,7 +197,7 @@ def load_video(
         bound: Optional tuple of (start, end) timestamps in seconds.
         input_size: Target size for image tiles.
         max_num: Maximum number of tiles per frame.
-        num_segments: Number of frames to sample.
+        num_segments: Maximum number of frames to sample.
 
     Returns:
         Tuple of (pixel_values tensor, list of patch counts per frame).
@@ -205,14 +206,19 @@ def load_video(
     vr = VideoReader(video_path, ctx=cpu(0), num_threads=1)
     max_frame = len(vr) - 1
     fps = float(vr.get_avg_fps())
+    start_idx, end_idx = 0, max_frame
+    if bound is not None:
+        start_idx = max(0, min(int(np.ceil(bound[0] * fps)), max_frame))
+        end_idx = max(start_idx, min(int(np.floor(bound[1] * fps)), max_frame))
+
+    segment_frames = end_idx - start_idx + 1
+    one_fps_frames = max(1, int(segment_frames / fps))
+    num_segments = min(num_segments, one_fps_frames, segment_frames)
 
     pixel_values_list: List[torch.Tensor] = []
     num_patches_list: List[int] = []
     transform = build_transform(input_size=input_size)
     frame_indices = get_index(bound, fps, max_frame, first_idx=0, num_segments=num_segments)
-
-    if sampling == 'shuffling':
-        np.random.shuffle(frame_indices)
 
     for frame_index in frame_indices:
         img = Image.fromarray(vr[frame_index].asnumpy()).convert("RGB")
@@ -237,7 +243,7 @@ class InternVL3(lmms):
         device: Device to use for inference.
         device_map: Device mapping strategy. Use "auto" for multi-GPU.
         batch_size: Batch size (must be 1 for this model).
-        num_frame: Number of frames to sample for video inputs.
+        max_frames: Maximum number of frames to sample for video inputs.
         max_num: Maximum number of image tiles.
         use_flash_attn: Whether to use flash attention.
     """
@@ -249,18 +255,16 @@ class InternVL3(lmms):
         device: str = "cuda:0",
         device_map: str = "cuda:0",
         batch_size: str = "1",
-        num_frame: int = 32,
+        max_frames: int = 128,
         max_num: int = 12,
         use_flash_attn: bool = True,
-        sampling: str = 'uniform',
         **kwargs,
     ):
         super().__init__()
 
         self.path = pretrained
-        self.num_frame = num_frame
+        self.num_frame = max_frames
         self.max_num = max_num
-        self.sampling = sampling
 
         batch_size_int = int(batch_size)
         assert batch_size_int == 1, f"Batch size should be 1 for InternVL3, but got {batch_size_int}."
@@ -374,6 +378,22 @@ class InternVL3(lmms):
                 new_list.append(j)
         return new_list
 
+    def _chat(self, pixel_values, context, gen_kwargs, num_patches_list):
+        try:
+            response, _ = self.model.chat(
+                self.tokenizer,
+                pixel_values,
+                context,
+                gen_kwargs,
+                num_patches_list=num_patches_list,
+                history=None,
+                return_history=True,
+            )
+            return response
+        except Exception as e:
+            eval_logger.exception(f"{GENERATION_ERROR}: {e}")
+            return GENERATION_ERROR
+
     def generate_until(self, requests: List[Instance]) -> List[str]:
         """Generate responses for a list of requests.
 
@@ -407,7 +427,13 @@ class InternVL3(lmms):
 
             if self.modality == "image":
                 if visuals:
-                    processed_visuals = [load_image(visual, max_num=self.max_num).to(torch.bfloat16).to(self._device) for visual in visuals]
+                    try:
+                        processed_visuals = [load_image(visual, max_num=self.max_num).to(torch.bfloat16).to(self._device) for visual in visuals]
+                    except Exception as e:
+                        eval_logger.exception(f"{VIDEO_DECODE_ERROR}: {e}")
+                        res.append(VIDEO_DECODE_ERROR)
+                        pbar.update(1)
+                        continue
                     pixel_values = torch.cat(processed_visuals, dim=0)
                     num_patches_list = [v.size(0) for v in processed_visuals]
                     # count how many <image> tags are already in the text
@@ -438,47 +464,40 @@ class InternVL3(lmms):
                     pixel_values = None
                     num_patches_list = None
 
-                response, _ = self.model.chat(
-                    self.tokenizer,
-                    pixel_values,
-                    contexts,
-                    gen_kwargs,
-                    num_patches_list=num_patches_list,
-                    history=None,
-                    return_history=True,
-                )
+                response = self._chat(pixel_values, contexts, gen_kwargs, num_patches_list)
 
             elif self.modality == "video":
                 assert len(visuals) == 1, f"Only one video is supported, but got {len(visuals)} videos."
-                video_path = visuals[0]
+                video_spec = parse_video_input(visuals[0])
+                if video_spec is None:
+                    raise ValueError(f"Expected a video path or bounded video tuple, got {type(visuals[0])}")
+                bound = (video_spec.start_time, video_spec.end_time) if video_spec.has_time_bound else None
                 if self.num_frame == 0:
                     gen_kwargs['max_new_tokens'] = 1024
                     contexts = contexts + "Since the video and subtitles are not provided, please infer the most plausible answer using only the question and the given options."
-                    response, _ = self.model.chat(self.tokenizer, None, contexts, gen_kwargs, num_patches_list=None, history=None, return_history=True,)
-                    print(response)
+                    response = self._chat(None, contexts, gen_kwargs, None)
                 else:
-                    pixel_values, num_patches_list = load_video(video_path, num_segments=self.num_frame, max_num=1, sampling=self.sampling)
+                    try:
+                        pixel_values, num_patches_list = load_video(
+                            video_spec.path,
+                            bound=bound,
+                            num_segments=self.num_frame,
+                            max_num=1,
+                        )
+                    except Exception as e:
+                        eval_logger.exception(f"{VIDEO_DECODE_ERROR}: {e}")
+                        res.append(VIDEO_DECODE_ERROR)
+                        pbar.update(1)
+                        continue
 
                     pixel_values = pixel_values.to(torch.bfloat16).to(self._device)
                     video_prefix = "".join([f"Frame{i + 1}: <image>\n" for i in range(len(num_patches_list))])
                     question = video_prefix + contexts
 
-                    response, _ = self.model.chat(
-                        self.tokenizer,
-                        pixel_values,
-                        question,
-                        gen_kwargs,
-                        num_patches_list=num_patches_list,
-                        history=None,
-                        return_history=True,
-                    )
+                    response = self._chat(pixel_values, question, gen_kwargs, num_patches_list)
 
             res.append(response)
             pbar.update(1)
-            # except:
-            #     res.append('NONE')
-            #     pbar.update(1)
-
         pbar.close()
         return res
 

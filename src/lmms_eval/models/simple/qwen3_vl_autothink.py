@@ -1,7 +1,5 @@
 import base64
 import re
-import os
-import json
 
 from io import BytesIO
 from typing import List, Optional, Tuple, Union
@@ -17,7 +15,9 @@ from lmms_eval import utils
 from lmms_eval.api.instance import Instance
 from lmms_eval.api.model import lmms
 from lmms_eval.api.registry import register_model
+from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO_DECODE_ERROR
 from lmms_eval.models.model_utils.qwen.vision_process import process_vision_info
+from lmms_eval.models.model_utils.video_input import add_video_bounds, parse_video_input
 from lmms_eval.models.model_utils.qwen.modeling_qwen3_vl_patched import Qwen3VLForConditionalGeneration
 from lmms_eval.models.simple.early_exit import compute_first_boxed_answer_probs
 
@@ -49,17 +49,16 @@ class Qwen3_VL_AutoThink(lmms):
         use_flash_attention_2: Optional[bool] = True,
         image_min_pixels: Optional[int] = 4 * 28 * 28,
         image_max_pixels: Optional[int] = 16384 * 28 * 28,
-        video_min_pixels: Optional[int] = 128 * 28 * 28,
+        video_min_pixels: Optional[int] = 16 * 28 * 28,
         video_max_pixels: Optional[int] = 768 * 28 * 28,
-        video_total_pixels: Optional[int] = 115200 * 28 * 28,
+        video_total_pixels: Optional[int] = 16384 * 28 * 28,
         min_frames: Optional[int] = 4,
-        max_frames: Optional[int] = 768,
+        max_frames: Optional[int] = 128,
         nframes: Optional[int] = None,
-        fps: Optional[float] = 2.0,
+        fps: Optional[float] = 1.0,
         interleave_visuals: Optional[bool] = False,
         early_exit_thresh: Optional[float] = 0.98,
         inference_mode: Optional[str] = "auto",  # first, second, auto
-        sampling: Optional[str] = "uniform",
         **kwargs,
     ) -> None:
         """Initialize the Qwen3_VL model.
@@ -112,7 +111,6 @@ class Qwen3_VL_AutoThink(lmms):
         self.max_frames = max_frames
         self.nframes = nframes
         self.fps = fps
-        self.sampling = sampling
         eval_logger.info(
             f"video_min_pixels: {self.video_min_pixels}, "
             f"video_max_pixels: {self.video_max_pixels}, "
@@ -258,6 +256,7 @@ class Qwen3_VL_AutoThink(lmms):
                 if "<image>" in contexts[i]:
                     contexts[i] = contexts[i].replace("<image>", "")
 
+            failure_sentinel = VIDEO_DECODE_ERROR
             try:
                 batched_messages = []
                 for i, context in enumerate(contexts):
@@ -269,10 +268,11 @@ class Qwen3_VL_AutoThink(lmms):
                     processed_visuals = []
                     if visual_list[i] is not None:
                         for visual in visual_list[i]:
-                            if isinstance(visual, str) and visual.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):  # Video file
+                            video_spec = parse_video_input(visual)
+                            if video_spec is not None and video_spec.path.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):  # Video file
                                 visual_dict = {
                                     "type": "video",
-                                    "video": visual,
+                                    "video": video_spec.path,
                                     "min_pixels": self.video_min_pixels,
                                     "max_pixels": self.video_max_pixels,
                                     "total_pixels": self.video_total_pixels,
@@ -284,6 +284,7 @@ class Qwen3_VL_AutoThink(lmms):
                                     visual_dict["nframes"] = self.nframes
                                     visual_dict.pop("fps")
 
+                                add_video_bounds(visual_dict, video_spec)
                                 processed_visuals.append(visual_dict)
                             elif isinstance(visual, Image.Image):  # Handle both single and multiple images
                                 base64_image = visual.convert("RGB")
@@ -335,11 +336,6 @@ class Qwen3_VL_AutoThink(lmms):
 
                     batched_messages.append(message)
 
-                if 'top1' in self.task_dict[task][split][doc_id[0]].keys():
-                    top_idx = int(self.task_dict[task][split][doc_id[0]]['top1'])
-                else:
-                    top_idx = None
-
                 texts = self.processor.apply_chat_template(batched_messages, tokenize=False, add_generation_prompt=True)
 
                 if task.startswith("mvp_"):
@@ -350,7 +346,16 @@ class Qwen3_VL_AutoThink(lmms):
                     image_patch_size=16,
                     return_video_kwargs=True,
                     return_video_metadata=True,
-                    sampling=self.sampling, top_idx=top_idx)
+                )
+
+                expects_video = any(
+                    item.get("type") == "video"
+                    for message in batched_messages
+                    for item in message[-1].get("content", [])
+                    if isinstance(item, dict)
+                )
+                if expects_video and not video_inputs:
+                    raise ValueError("Video decoding returned no frames")
 
                 if video_inputs is not None:
                     video_inputs, video_metadatas = zip(*video_inputs)
@@ -361,6 +366,7 @@ class Qwen3_VL_AutoThink(lmms):
                 else:
                     video_metadatas = None
 
+                failure_sentinel = GENERATION_ERROR
                 padding_side = "left" if self.batch_size > 1 else "right"
                 inputs = self.processor(
                     text=texts,
@@ -422,12 +428,6 @@ class Qwen3_VL_AutoThink(lmms):
                     clean_up_tokenization_spaces=False,
                 )
 
-                qa = self.task_dict[task][split][doc_id[0]]
-                qa['pred'] = ans
-
-                with open(os.path.join("/mnt/users/gtlim/workspace/src/results_tmp/autor1_qwen3", f"{qa['db']}**@@**{qa['qid']}.json"), "w") as json_file:
-                    json.dump(qa, json_file, indent=4)
-
                 for i, ans in enumerate(answers):
                     for term in until:
                         if len(term) > 0:
@@ -468,8 +468,9 @@ class Qwen3_VL_AutoThink(lmms):
 
                     self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
                     pbar.update(1)
-            except:
-                answers = ['NONE']
+            except Exception as e:
+                eval_logger.exception(f"{failure_sentinel}: {e}")
+                answers = [failure_sentinel] * len(contexts)
                 for ans, context in zip(answers, contexts):
                     res.append(ans)
                     self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)

@@ -17,3 +17,13 @@ if __name__ == '__main__':
     snapshot_download(repo_id="MCG-NJU/CaRe-7B", local_dir="./CaRe-7B", local_dir_use_symlinks=False, resume_download=True)
     snapshot_download(repo_id="Qwen/Qwen3.5-9B", local_dir="./Qwen3.5-9B", local_dir_use_symlinks=False, resume_download=True)
     snapshot_download(repo_id="yanziang/InternVideo3-8B-Instruct", local_dir="./InternVideo3-8B-Instruct", local_dir_use_symlinks=False, resume_download=True)
+
+    snapshot_download(repo_id="lmms-lab/LLaVA-Video-7B-Qwen2", local_dir="./LLaVA-Video-7B-Qwen2", local_dir_use_symlinks=False, resume_download=True)
+    snapshot_download(repo_id="XiaomiMiMo/MiMo-VL-7B-SFT-2508", local_dir="./MiMo-VL-7B-SFT-2508", local_dir_use_symlinks=False, resume_download=True)
+    snapshot_download(repo_id="Qwen/Qwen2.5-VL-32B-Instruct", local_dir="./Qwen2.5-VL-32B-Instruct", local_dir_use_symlinks=False, resume_download=True)
+    snapshot_download(repo_id="Qwen/Qwen3.5-27B", local_dir="./Qwen3.5-27B", local_dir_use_symlinks=False, resume_download=True)
+    snapshot_download(repo_id="Qwen/Qwen3.5-35B-A3B", local_dir="./Qwen3.5-35B-A3B", local_dir_use_symlinks=False, resume_download=True)
+    snapshot_download(repo_id="Qwen/Qwen3-Omni-30B-A3B-Instruct", local_dir="./Qwen3-Omni-30B-A3B-Instruct", local_dir_use_symlinks=False, resume_download=True)
+    snapshot_download(repo_id="Qwen/Qwen3-VL-30B-A3B-Instruct", local_dir="./Qwen3-VL-30B-A3B-Instruct", local_dir_use_symlinks=False, resume_download=True)
+    snapshot_download(repo_id="Qwen/Qwen3-VL-30B-A3B-Thinking", local_dir="./Qwen3-VL-30B-A3B-Thinking", local_dir_use_symlinks=False, resume_download=True)
+    snapshot_download(repo_id="DAMO-NLP-SG/VideoLLaMA3-7B", local_dir="./VideoLLaMA3-7B", local_dir_use_symlinks=False, resume_download=True)

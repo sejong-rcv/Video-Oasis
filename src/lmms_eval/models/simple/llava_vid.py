@@ -1,7 +1,6 @@
 import glob
 import math
 import os
-import random
 from datetime import timedelta
 from typing import List, Optional, Tuple, Union
 
@@ -34,6 +33,8 @@ from transformers import AutoConfig
 from lmms_eval.api.instance import Instance
 from lmms_eval.api.model import lmms
 from lmms_eval.api.registry import register_model
+from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO_DECODE_ERROR
+from lmms_eval.models.model_utils.video_input import parse_video_input
 
 AutoConfig.register("llava_llama", LlavaConfig)
 AutoConfig.register("llava_qwen", LlavaQwenConfig)
@@ -59,7 +60,7 @@ class LlavaVid(lmms):
         conv_template="vicuna_v1",
         use_cache=True,
         truncate_context=False,  # whether to truncate the context in generation, set it False for LLaVA-1.6
-        max_frames_num: int = 64,
+        max_frames: int = 64,
         video_fps: int = 1,
         mm_resampler_type: str = "spatial_pool",
         mm_spatial_pool_stride: int = 2,
@@ -75,7 +76,6 @@ class LlavaVid(lmms):
         add_time_instruction: bool = False,
         add_faster_video: bool = False,
         faster_token_stride: int = 10,
-        sampling: str = "uniform",
         **kwargs,
     ) -> None:
         super().__init__()
@@ -102,13 +102,12 @@ class LlavaVid(lmms):
         self.mm_spatial_pool_stride = int(mm_spatial_pool_stride)
         self.mm_spatial_pool_out_channels = int(mm_spatial_pool_out_channels)
         self.mm_spatial_pool_mode = mm_spatial_pool_mode
-        self.max_frames_num = int(max_frames_num)
+        self.max_frames_num = int(max_frames)
         self.fps = int(video_fps)
         self.mm_resampler_location = mm_resampler_location
         self.delay_load = delay_load
         self.force_sample = force_sample
         self.add_time_instruction = add_time_instruction
-        self.sampling = sampling
         print("force sample:", self.force_sample)
         # self.add_faster_video = add_faster_video
         # self.faster_token_stride = faster_token_stride
@@ -297,33 +296,27 @@ class LlavaVid(lmms):
                 print(f"Failed to read frame at path: {frame_path}")
         return video
 
-    def load_video(self, video_path, max_frames_num, fps, sampling = 'uniform', force_sample=False):
+    def load_video(self, video_path, max_frames_num, fps, force_sample=False, bound=None):
         if max_frames_num == 0:
             return np.zeros((1, 336, 336, 3))
         vr = VideoReader(video_path, ctx=cpu(0), num_threads=1)
         total_frame_num = len(vr)
-        video_time = total_frame_num / vr.get_avg_fps()
-        fps = round(vr.get_avg_fps() / fps)
-        frame_idx = [i for i in range(0, len(vr), fps)]
-        frame_time = [i / fps for i in frame_idx]
+        video_fps = float(vr.get_avg_fps())
+        start_idx, end_idx = 0, total_frame_num - 1
+        if bound is not None:
+            start_idx = max(0, min(math.ceil(bound[0] * video_fps), total_frame_num - 1))
+            end_idx = max(start_idx, min(math.floor(bound[1] * video_fps), total_frame_num - 1))
+        video_time = (end_idx - start_idx + 1) / video_fps
+        frame_step = max(1, round(video_fps / fps))
+        frame_idx = list(range(start_idx, end_idx + 1, frame_step))
+        frame_time = [i / video_fps for i in frame_idx]
         if len(frame_idx) > max_frames_num or force_sample:
-            sample_fps = max_frames_num
-            uniform_sampled_frames = np.linspace(0, total_frame_num - 1, sample_fps, dtype=int)
+            uniform_sampled_frames = np.linspace(start_idx, end_idx, max_frames_num, dtype=int)
             frame_idx = uniform_sampled_frames.tolist()
-            frame_time = [i / vr.get_avg_fps() for i in frame_idx]
+            frame_time = [i / video_fps for i in frame_idx]
         frame_time = ",".join([f"{i:.2f}s" for i in frame_time])
 
-        if self.sampling == 'center':
-            frame_idx = [int(len(vr)/2)]
-            frame_time = [i / vr.get_avg_fps() for i in frame_idx]
-            frame_time = ",".join([f"{i:.2f}s" for i in frame_time])
-            spare_frames = vr.get_batch(frame_idx).asnumpy()
-            
-        elif self.sampling == 'uniform_permutation':
-            random.shuffle(frame_idx)
-            spare_frames = vr.get_batch(frame_idx).asnumpy()
-        else:
-            spare_frames = vr.get_batch(frame_idx).asnumpy()
+        spare_frames = vr.get_batch(frame_idx).asnumpy()
 
         return spare_frames, frame_time, video_time
 
@@ -344,11 +337,16 @@ class LlavaVid(lmms):
             visuals = self.flatten(visuals)
             videos = []
             for visual in visuals:
+                video_spec = parse_video_input(visual)
+                if video_spec is None:
+                    raise ValueError(f"Expected a video path or bounded video tuple, got {type(visual)}")
+                bound = (video_spec.start_time, video_spec.end_time) if video_spec.has_time_bound else None
                 video, frame_time, video_time = self.load_video(
-                    visual,
+                    video_spec.path,
                     self.max_frames_num,
                     self.fps,
                     force_sample=self.force_sample,
+                    bound=bound,
                 )
                 video = self._image_processor.preprocess(video, return_tensors="pt")["pixel_values"].to(self._device)
                 if self.torch_dtype == "bfloat16":
@@ -423,6 +421,12 @@ class LlavaVid(lmms):
             # encode, pad, and truncate contexts for this batch
             # import pdb;pdb.set_trace()
             visuals = doc_to_visual(self.task_dict[task][split][doc_id])
+            video_spec = parse_video_input(visuals[0]) if len(visuals) == 1 else None
+            if video_spec is not None:
+                visuals = [video_spec.path]
+                video_bound = (video_spec.start_time, video_spec.end_time) if video_spec.has_time_bound else None
+            else:
+                video_bound = None
             # visuals = [visuals]
             # visuals = self.flatten(visuals)
             if os.path.isdir(visuals[0]):
@@ -436,16 +440,25 @@ class LlavaVid(lmms):
                             visuals[0],
                             self.max_frames_num,
                             self.fps,
-                            sampling=self.sampling,
                             force_sample=self.force_sample,
+                            bound=video_bound,
                         )
                     elif self.video_decode_backend == "pyav":
-                        video, frame_time, video_time = read_video(
-                            visuals[0],
-                            self.max_frames_num,
-                            self.fps,
-                            force_sample=self.force_sample,
-                        )
+                        if video_bound is not None:
+                            video, frame_time, video_time = self.load_video(
+                                visuals[0],
+                                self.max_frames_num,
+                                self.fps,
+                                force_sample=self.force_sample,
+                                bound=video_bound,
+                            )
+                        else:
+                            video, frame_time, video_time = read_video(
+                                visuals[0],
+                                self.max_frames_num,
+                                self.fps,
+                                force_sample=self.force_sample,
+                            )
                     elif self.video_decode_backend == "image":
                         video = self.load_image(visuals[0])
                 else:
@@ -475,11 +488,8 @@ class LlavaVid(lmms):
                     video = video.half()
                 videos.append(video)
             except Exception as e:
-                # import pdb;pdb.set_trace()
-                eval_logger.info(f"{e}")
-                eval_logger.info(f"Video {visuals} can not load, check the source")
-                video_path = "\n".join(visuals)
-                res.append(f"Video {video_path} can not load, check the source")
+                eval_logger.exception(f"{VIDEO_DECODE_ERROR}: {e}")
+                res.append(VIDEO_DECODE_ERROR)
                 pbar.update(1)
                 continue
 
@@ -526,24 +536,26 @@ class LlavaVid(lmms):
                 gen_kwargs["num_beams"] = 1
 
             # import pdb;pdb.set_trace()
-            with torch.inference_mode():
-                output_ids = self.model.generate(
-                    inputs=input_ids,
-                    images=videos,
-                    attention_mask=attention_masks,
-                    modalities="video",
-                    use_cache=self.use_cache,
-                    stopping_criteria=[stopping_criteria],
-                    do_sample=True if gen_kwargs["temperature"] > 0 else False,
-                    temperature=gen_kwargs["temperature"],
-                    top_p=gen_kwargs["top_p"],
-                    num_beams=gen_kwargs["num_beams"],
-                    max_new_tokens=gen_kwargs["max_new_tokens"],
-                )
-                # output_ids_2 = self.model.generate(inputs=input_ids, images=videos, attention_mask=attention_masks, modalities="video", do_sample=False, max_new_tokens=50,stopping_criteria=[stopping_criteria])
-                # output_ids = self.model.generate(inputs=input_ids, images=videos, attention_mask=attention_masks, modalities="video", do_sample=True, temperature=0.2, max_new_tokens=50,use_cache=True)
+            try:
+                with torch.inference_mode():
+                    output_ids = self.model.generate(
+                        inputs=input_ids,
+                        images=videos,
+                        attention_mask=attention_masks,
+                        modalities="video",
+                        use_cache=self.use_cache,
+                        stopping_criteria=[stopping_criteria],
+                        do_sample=True if gen_kwargs["temperature"] > 0 else False,
+                        temperature=gen_kwargs["temperature"],
+                        top_p=gen_kwargs["top_p"],
+                        num_beams=gen_kwargs["num_beams"],
+                        max_new_tokens=gen_kwargs["max_new_tokens"],
+                    )
 
-            outputs = self.tokenizer.batch_decode(output_ids, skip_special_tokens=True)[0].strip()
+                outputs = self.tokenizer.batch_decode(output_ids, skip_special_tokens=True)[0].strip()
+            except Exception as e:
+                eval_logger.exception(f"{GENERATION_ERROR}: {e}")
+                outputs = GENERATION_ERROR
             eval_logger.debug(f"Question: {cur_prompt}")
             eval_logger.debug(f"Answer: {outputs}")
             # import pdb;pdb.set_trace()

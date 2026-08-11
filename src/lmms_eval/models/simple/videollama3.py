@@ -1,3 +1,4 @@
+import math
 from typing import List, Optional, Tuple, Union
 
 import numpy as np
@@ -16,6 +17,8 @@ from lmms_eval import utils
 from lmms_eval.api.instance import Instance
 from lmms_eval.api.model import lmms
 from lmms_eval.api.registry import register_model
+from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO_DECODE_ERROR
+from lmms_eval.models.model_utils.video_input import parse_video_input
 
 
 @register_model("videollama3")
@@ -28,11 +31,10 @@ class VideoLLaMA3(lmms):
         batch_size: Optional[Union[int, str]] = 1,
         use_flash_attention_2: Optional[bool] = True,
         video_min_pixels: Optional[int] = 16 * 32 * 32,
-        video_max_pixels: Optional[int] = 256 * 32 * 32,
-        video_total_pixels: Optional[int] = 128000 * 32 * 32,
-        max_num_frames: int = 128,
+        video_max_pixels: Optional[int] = 768 * 32 * 32,
+        video_total_pixels: Optional[int] = 16384 * 32 * 32,
+        max_frames: int = 128,
         use_custom_video_loader=False,  # True for video-mmmu
-        sampling: Optional[str] = "uniform",
         **kwargs,
     ) -> None:
         super().__init__()
@@ -67,15 +69,15 @@ class VideoLLaMA3(lmms):
             )
         self.processor = AutoProcessor.from_pretrained(pretrained, trust_remote_code=True)
         self.tokenizer = self.processor.tokenizer
+        self._config = self._model.config
 
         self.video_min_pixels = video_min_pixels
         self.video_max_pixels = video_max_pixels
         self.video_total_pixels = video_total_pixels
 
-        self.max_num_frames = max_num_frames
+        self.max_num_frames = max_frames
         self.batch_size_per_gpu = int(batch_size)
         self.use_custom_video_loader = use_custom_video_loader
-        self.sampling = sampling
 
         if accelerator.num_processes > 1:
             assert accelerator.distributed_type in [
@@ -154,14 +156,14 @@ class VideoLLaMA3(lmms):
         re_ords = utils.Collator([reg.args for reg in requests], _collate, grouping=True)
         chunks = re_ords.get_batched(n=self.batch_size, batch_fn=None)
         for chunk in chunks:
+            contexts, all_gen_kwargs, doc_to_visual, doc_id, task, split = zip(*chunk)
+            task = task[0]
+            split = split[0]
+            gen_kwargs = all_gen_kwargs[0]
+            failure_sentinel = VIDEO_DECODE_ERROR
             try:
-                contexts, all_gen_kwargs, doc_to_visual, doc_id, task, split = zip(*chunk)
-                task = task[0]
-                split = split[0]
                 visuals = [doc_to_visual[0](self.task_dict[task][split][ids]) for ids in doc_id]
                 visuals = self.flatten(visuals)
-
-                gen_kwargs = all_gen_kwargs[0]
 
                 message = []
 
@@ -169,8 +171,14 @@ class VideoLLaMA3(lmms):
                 for i, context in enumerate(contexts):
                     if len(visuals) > 0:
                         visual = visuals[i] if i < len(visuals) else None
-                        if isinstance(visual, str) and visual.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):  # Video file
-                            frames, timestamps = read_video_custom(visual, sampling=self.sampling)
+                        video_spec = parse_video_input(visual)
+                        if video_spec is not None and video_spec.path.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):  # Video file
+                            bound = (video_spec.start_time, video_spec.end_time) if video_spec.has_time_bound else None
+                            frames, timestamps = read_video_custom(
+                                video_spec.path,
+                                max_frames_num=self.max_num_frames,
+                                bound=bound,
+                            )
                             message.append({"role": "user", "content": [{"type": "video", "video": frames, "timestamps": timestamps, "num_frames": len(timestamps)}, {"type": "text", "text": context}]})
                         elif isinstance(visual, Image.Image):
                             message.append({"role": "user", "content": [{"type": "image", "image": visual}, {"type": "text", "text": context}]})
@@ -183,6 +191,7 @@ class VideoLLaMA3(lmms):
                             message.append({"role": "user", "content": [{"type": "text", "text": context}]})
                 
                 inputs = self.processor(conversation=message, return_tensors="pt", add_generation_prompt=True)
+                failure_sentinel = GENERATION_ERROR
 
                 do_sample = gen_kwargs.get("do_sample", False)
                 temperature = gen_kwargs.get("temperature", 0.2 if do_sample else 1.0)
@@ -217,8 +226,8 @@ class VideoLLaMA3(lmms):
                     pbar.update(1)
 
             except Exception as e:
-                print(e)
-                answers = ['NONE']
+                eval_logger.exception(f"{failure_sentinel}: {e}")
+                answers = [failure_sentinel] * len(contexts)
                 for ans, context in zip(answers, contexts):
                     res.append(ans)
                     self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
@@ -233,47 +242,40 @@ class VideoLLaMA3(lmms):
         raise NotImplementedError("TODO: Implement multi-round generation")
 
 
-def read_video_custom(video_path, sampling='uniform', max_frames_num=128, fps=1, force_include_last_frame=True):
+def read_video_custom(video_path, max_frames_num=128, fps=1, force_include_last_frame=False, bound=None):
     vr = VideoReader(video_path, ctx=cpu(0))
     duration = len(vr)
     vid_fps = vr.get_avg_fps()
+    start_frame, end_frame = 0, duration - 1
+    if bound is not None:
+        start_frame = max(0, min(math.ceil(bound[0] * vid_fps), duration - 1))
+        end_frame = max(start_frame, min(math.floor(bound[1] * vid_fps), duration - 1))
+    segment_duration = end_frame - start_frame + 1
     fps_list = []
 
-    if fps is not None and duration / vid_fps < max_frames_num:
-        segment_len = min(vid_fps // fps, duration)
-        frame_ids = np.arange(segment_len // 2, duration, segment_len, dtype=int)
+    if fps is not None and segment_duration / vid_fps < max_frames_num:
+        segment_len = max(1, int(min(vid_fps // fps, segment_duration)))
+        frame_ids = np.arange(start_frame + segment_len // 2, end_frame + 1, segment_len, dtype=int)
         if force_include_last_frame:
-            last_frame_id = duration - 1
+            last_frame_id = end_frame
             if last_frame_id not in frame_ids:
                 frame_ids = frame_ids.tolist()
                 frame_ids.append(last_frame_id)
     else:
-        if duration <= max_frames_num:
-            frame_ids = np.arange(duration).astype(int).tolist()
+        if segment_duration <= max_frames_num:
+            frame_ids = np.arange(start_frame, end_frame + 1).astype(int).tolist()
         else:
-            frame_ids = np.linspace(0, duration - 1, max_frames_num, dtype=int)
+            frame_ids = np.linspace(start_frame, end_frame, max_frames_num, dtype=int)
             if force_include_last_frame:
-                last_frame_id = duration - 1
+                last_frame_id = end_frame
                 if last_frame_id not in frame_ids:
-                    uniform_sampled_frames = np.linspace(0, duration - 1, max_frames_num - 1, dtype=int)
+                    uniform_sampled_frames = np.linspace(start_frame, end_frame, max_frames_num - 1, dtype=int)
                     frame_ids = uniform_sampled_frames.tolist()
                     frame_ids.append(last_frame_id)
 
     for frame_id in frame_ids:
         fps_list.append(frame_id / vid_fps)
 
-    if sampling=='uniform':
-        frames = vr.get_batch(frame_ids).asnumpy()
-
-    elif sampling=='uniform_permutation':
-        frames = vr.get_batch(frame_ids).asnumpy()
-        np.random.shuffle(frames)
-
-    elif sampling=='center':
-        frame_ids = [int(len(vr)/2)]
-        fps_list = []
-        frames = vr.get_batch(frame_ids).asnumpy()
-        for frame_id in frame_ids:
-            fps_list.append(frame_id / vid_fps)
+    frames = vr.get_batch(frame_ids).asnumpy()
 
     return frames, fps_list

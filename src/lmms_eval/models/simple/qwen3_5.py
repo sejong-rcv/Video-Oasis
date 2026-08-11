@@ -13,6 +13,8 @@ from lmms_eval import utils
 from lmms_eval.api.instance import Instance
 from lmms_eval.api.model import lmms
 from lmms_eval.api.registry import register_model
+from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO_DECODE_ERROR
+from lmms_eval.models.model_utils.video_input import add_video_bounds, parse_video_input
 from lmms_eval.models.model_utils.qwen.vision_process import process_vision_info
 
 def _resolve_model_class(pretrained: str, is_moe: bool):
@@ -66,8 +68,8 @@ class Qwen3_5(lmms):
         min_pixels: int = 16 * 32 * 32,
         max_pixels: int = 768 * 32 * 32,
         total_pixels: int = 128000 * 32 * 32,
-        max_num_frames: int = 128,
-        fps: Optional[float] = None,
+        max_frames: int = 128,
+        fps: Optional[float] = 1.0,
         system_prompt: Optional[str] = "You are a helpful assistant.",
         interleave_visuals: Optional[bool] = False,
         enable_thinking: Optional[bool] = False,
@@ -105,7 +107,7 @@ class Qwen3_5(lmms):
         self.min_pixels = min_pixels
         self.max_pixels = max_pixels
         self.total_pixels = total_pixels
-        self.max_num_frames = max_num_frames
+        self.max_num_frames = max_frames
         self.fps = fps
         self.enable_thinking = enable_thinking
 
@@ -254,9 +256,13 @@ class Qwen3_5(lmms):
         return answer
 
     def _strip_answer(self, answer):
-        _, _, remaining = answer.partition("boxed{")
-        if remaining[0] in ['A','B','C','D','E','F','G','H','I','J','K','L','M','N']:
-            answer = remaining[0]
+        _, separator, remaining = answer.partition("boxed{")
+        if not separator:
+            return answer
+
+        remaining = remaining.lstrip()
+        if remaining and remaining[0].upper() in "ABCDEFGHIJKLMN":
+            answer = remaining[0].upper()
         return answer
 
     def _preprocess_chunk(self, chunk):
@@ -298,25 +304,15 @@ class Qwen3_5(lmms):
             processed_visuals = []
             if visual_list[i] is not None:
                 for visual in visual_list[i]:
-                    if type(visual)==tuple:
-                        visual, start_time, end_time = visual
-                    else:
-                        start_time= None
-                        end_time = None
-
-                    if isinstance(visual, str) and visual.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):
+                    video_spec = parse_video_input(visual)
+                    if video_spec is not None and video_spec.path.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):
                         visual_dict = {
                                 "type": "video",
-                                "video": visual,
+                                "video": video_spec.path,
                                 **video_kwargs,
                             }
 
-                        if start_time is not None:
-                            visual_dict["start_time"] = start_time
-
-                        if end_time is not None:
-                            visual_dict["end_time"] = end_time
-
+                        add_video_bounds(visual_dict, video_spec)
                         processed_visuals.append(visual_dict)
 
 
@@ -358,6 +354,15 @@ class Qwen3_5(lmms):
             image_patch_size=16,
             return_video_metadata=True,
         )
+        expects_video = any(
+            item.get("type") == "video"
+            for message in batched_messages
+            for item in message[-1].get("content", [])
+            if isinstance(item, dict)
+        )
+        if expects_video and not video_inputs:
+            raise ValueError("Video decoding returned no frames")
+
         video_metadata_list = None
         if video_inputs is not None:
             video_inputs, video_metadata_list = map(list, zip(*video_inputs))
@@ -401,13 +406,26 @@ class Qwen3_5(lmms):
         with ThreadPoolExecutor(max_workers=1) as executor:
             future = executor.submit(self._preprocess_chunk, chunks[0]) if chunks else None
 
-            for idx in range(len(chunks)):
+            for idx, chunk in enumerate(chunks):
+                contexts, all_gen_kwargs, _, _, _, _ = zip(*chunk)
+                contexts = list(contexts)
+                gen_kwargs = all_gen_kwargs[0]
+                next_future = executor.submit(self._preprocess_chunk, chunks[idx + 1]) if idx + 1 < len(chunks) else None
+
                 try:
                     inputs, contexts, gen_kwargs, until = future.result()
+                except Exception as e:
+                    eval_logger.exception(f"{VIDEO_DECODE_ERROR}: {e}")
+                    answers = [VIDEO_DECODE_ERROR] * len(contexts)
+                    for ans, context in zip(answers, contexts):
+                        res.append(ans)
+                        self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
+                        pbar.update(1)
+                    future = next_future
+                    continue
 
-                    if idx + 1 < len(chunks):
-                        future = executor.submit(self._preprocess_chunk, chunks[idx + 1])
-
+                future = next_future
+                try:
                     if self.device_map == "auto":
                         inputs = inputs.to("cuda")
                     else:
@@ -434,8 +452,9 @@ class Qwen3_5(lmms):
                         res.append(ans)
                         self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
                         pbar.update(1)
-                except:
-                    answers = ['NONE']
+                except Exception as e:
+                    eval_logger.exception(f"{GENERATION_ERROR}: {e}")
+                    answers = [GENERATION_ERROR] * len(contexts)
                     for ans, context in zip(answers, contexts):
                         res.append(ans)
                         self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)

@@ -14,6 +14,8 @@ from lmms_eval.api.instance import Instance
 from lmms_eval.api.model import lmms
 from lmms_eval.api.registry import register_model
 from lmms_eval.models.model_utils.audio_processing import split_audio
+from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO_DECODE_ERROR
+from lmms_eval.models.model_utils.video_input import add_video_bounds, parse_video_input
 
 try:
     from transformers import Qwen3OmniMoeForConditionalGeneration, Qwen3OmniMoeProcessor
@@ -44,13 +46,12 @@ class Qwen3_Omni(lmms):
         batch_size: Optional[Union[int, str]] = 1,
         use_cache: bool = True,
         video_min_pixels: Optional[int] = 16 * 32 * 32,
-        video_max_pixels: Optional[int] = 256 * 32 * 32,
-        video_total_pixels: Optional[int] = 128000 * 32 * 32,
+        video_max_pixels: Optional[int] = 768 * 32 * 32,
+        video_total_pixels: Optional[int] = 16384 * 32 * 32,
         attn_implementation: Optional[str] = "flash_attention_2",
-        max_num_frames: int = 128,
+        max_frames: int = 128,
+        fps: float = 1.0,
         system_prompt: Optional[str] = "You are a helpful assistant.",
-        sampling: Optional[str] = "uniform",
-
         **kwargs,
     ) -> None:
         super().__init__()
@@ -81,7 +82,8 @@ class Qwen3_Omni(lmms):
         self.video_max_pixels = video_max_pixels
         self.video_total_pixels = video_total_pixels
 
-        self.max_num_frames = max_num_frames
+        self.max_num_frames = max_frames
+        self.fps = fps
         self._tokenizer = self.processor.tokenizer
 
         self._config = self.model.config
@@ -282,10 +284,12 @@ class Qwen3_Omni(lmms):
         chunks = re_ords.get_batched(n=self.batch_size, batch_fn=None)
 
         for chunk in chunks:
+            contexts, all_gen_kwargs, doc_to_visual, doc_id, task, split = zip(*chunk)
+            task = task[0]
+            split = split[0]
+            gen_kwargs = all_gen_kwargs[0]
+            failure_sentinel = VIDEO_DECODE_ERROR
             try:
-                contexts, all_gen_kwargs, doc_to_visual, doc_id, task, split = zip(*chunk)
-                task = task[0]
-                split = split[0]
                 visuals = [doc_to_visual[0](self.task_dict[task][split][ids]) for ids in doc_id]
 
                 # Preserve grouping for mixed modalities (e.g., [audio, image])
@@ -300,8 +304,6 @@ class Qwen3_Omni(lmms):
 
                 if should_flatten:
                     visuals = self.flatten(visuals)
-
-                gen_kwargs = all_gen_kwargs[0]
 
                 until = [self.tokenizer.decode(self.eot_token_id)]
                 if "until" in gen_kwargs:
@@ -320,21 +322,24 @@ class Qwen3_Omni(lmms):
                 for i, context in enumerate(contexts):
                     if len(visuals) > 0:
                         visual = visuals[i] if i < len(visuals) else None
-                        if isinstance(visual, str) and visual.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):
-                            current_use_audio = self._check_if_video_has_audio(visual)
+                        video_spec = parse_video_input(visual)
+                        if video_spec is not None and video_spec.path.endswith((".mp4", ".avi", ".mov", ".webm", ".MP4")):
                             current_use_audio = False
+                            video_content = {
+                                "type": "video",
+                                "video": video_spec.path,
+                                "min_pixels": self.video_min_pixels,
+                                "max_pixels": self.video_max_pixels,
+                                "total_pixels": self.video_total_pixels,
+                                "max_frames": self.max_num_frames,
+                                "fps": self.fps,
+                            }
+                            add_video_bounds(video_content, video_spec)
                             message.append(
                                 {
                                     "role": "user",
                                     "content": [
-                                        {
-                                            "type": "video", 
-                                            "video": visual,
-                                            "min_pixels": self.video_min_pixels,
-                                            "max_pixels": self.video_max_pixels,
-                                            "total_pixels": self.video_total_pixels,
-                                            "max_num_frames": self.max_num_frames,
-                                        },
+                                        video_content,
                                         {"type": "text", "text": context},
                                     ],
                                 }
@@ -395,7 +400,14 @@ class Qwen3_Omni(lmms):
                                         single_message["content"].append({"type": "audio", "audio": audio_chunk})
                                 elif isinstance(v, str) and v.endswith((".mp4", ".avi", ".mov", ".mkv", ".webm")):
                                     current_use_audio = self._check_if_video_has_audio(v)
-                                    single_message["content"].append({"type": "video", "video": v})
+                                    single_message["content"].append(
+                                        {
+                                            "type": "video",
+                                            "video": v,
+                                            "max_frames": self.max_num_frames,
+                                            "fps": self.fps,
+                                        }
+                                    )
                             single_message["content"].append({"type": "text", "text": context})
                             message.append(single_message)
 
@@ -406,6 +418,15 @@ class Qwen3_Omni(lmms):
 
                 text = self.processor.apply_chat_template(message, add_generation_prompt=True, tokenize=False)
                 audios, images, videos = process_mm_info(message, use_audio_in_video=current_use_audio) # 여기 수정이 좀 필요할 듯
+                expects_video = any(
+                    item.get("type") == "video"
+                    for chat_message in message
+                    for item in chat_message.get("content", [])
+                    if isinstance(item, dict)
+                )
+                if expects_video and not videos:
+                    raise ValueError("Video decoding returned no frames")
+
                 inputs = self.processor(
                     text=text,
                     audio=audios,
@@ -431,6 +452,7 @@ class Qwen3_Omni(lmms):
                     gen_kwargs["num_beams"] = 1
 
                 pad_token_id = self.tokenizer.pad_token_id
+                failure_sentinel = GENERATION_ERROR
 
                 try:
                     cont = self.model.generate(
@@ -450,12 +472,12 @@ class Qwen3_Omni(lmms):
                     if isinstance(cont, tuple):
                         cont = cont[0]
                 except Exception as e:
-                    print(e)
-                    eval_logger.error(f"Error {e} in generating")
-                    answer = "Error(OOM)"
-                    res.append(answer)
-                    pbar.update(1)
-                    self.cache_hook.add_partial("generate_until", (context, gen_kwargs), answer)
+                    eval_logger.exception(f"{GENERATION_ERROR}: {e}")
+                    answers = [GENERATION_ERROR] * len(contexts)
+                    for answer, context in zip(answers, contexts):
+                        res.append(answer)
+                        pbar.update(1)
+                        self.cache_hook.add_partial("generate_until", (context, gen_kwargs), answer)
                     continue
 
                 generated_ids_trimmed = [out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, cont)]
@@ -470,12 +492,12 @@ class Qwen3_Omni(lmms):
                     pbar.update(1)
 
             except Exception as e:
-                print(e)
-                eval_logger.error(f"Error {e} in generating")
-                answer = "Error(Decoding)"
-                res.append(answer)
-                pbar.update(1)
-                self.cache_hook.add_partial("generate_until", (context, gen_kwargs), answer)
+                eval_logger.exception(f"{failure_sentinel}: {e}")
+                answers = [failure_sentinel] * len(contexts)
+                for answer, context in zip(answers, contexts):
+                    res.append(answer)
+                    pbar.update(1)
+                    self.cache_hook.add_partial("generate_until", (context, gen_kwargs), answer)
                 continue
 
 

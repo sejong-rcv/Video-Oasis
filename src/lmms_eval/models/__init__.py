@@ -19,35 +19,27 @@ logger.add(sys.stdout, level="WARNING", format=log_format)
 
 
 AVAILABLE_SIMPLE_MODELS = {
-    "gpt4o": "GPT4o",
-    "internvl2": "InternVL2",
     "internvl3": "InternVL3",
     "internvl3_5": "InternVL3_5",
-    "internvideo2_5": "InternVideo2_5",
     "internvideo3": "InternVideo3",
     "llava_vid": "LlavaVid",
-    "llava_onevision1_5": "Llava_OneVision1_5",
     "eagle2_5": "Eagle2_5",
     "qwen3_vl": "Qwen3_VL",
     "qwen3_omni": "Qwen3_Omni",
     "qwen3_5": "Qwen3_5",
-    "qwen2_vl": "Qwen2_VL",
     "qwen2_5_vl": "Qwen2_5_VL",
     "qwen3_vl_autothink": "Qwen3_VL_AutoThink",
     "qwen2_5_vl_autothink": "Qwen2_5_VL_AutoThink",
     "videollama3": "VideoLLaMA3",
-    "molmo2": "Molmo2",
     "mimo_vl": "MiMo_VL",
 }
 
 AVAILABLE_CHAT_TEMPLATE_MODELS = {
     "longvila": "LongVila",
-    "openai_compatible": "OpenAICompatible",
     "vllm": "VLLM",
     "vllm_generate": "VLLMGenerate",
     "sglang": "Sglang",
     "huggingface": "Huggingface",
-    "async_openai": "AsyncOpenAIChat",
 }
 
 def get_model(model_name, force_simple: bool = False):

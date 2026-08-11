@@ -29,7 +29,7 @@ IMAGE_MAX_TOKEN_NUM = 16384
 VIDEO_MIN_TOKEN_NUM = 128
 VIDEO_MAX_TOKEN_NUM = 768
 
-FPS = 2.0
+FPS = 1.0
 FRAME_FACTOR = 2
 FPS_MIN_FRAMES = 4
 FPS_MAX_FRAMES = 128
@@ -194,6 +194,9 @@ def smart_nframes(
     ), "Only accept either `fps` or `nframes`"
     if "nframes" in ele:
         nframes = round_by_factor(ele["nframes"], FRAME_FACTOR)
+        has_time_bound = any(key in ele for key in ("video_start", "video_end", "start_time", "end_time"))
+        if has_time_bound and nframes > total_frames and total_frames >= FRAME_FACTOR:
+            nframes = floor_by_factor(total_frames, FRAME_FACTOR)
     else:
         fps = ele.get("fps", FPS)
         min_frames = ceil_by_factor(ele.get("min_frames", FPS_MIN_FRAMES), FRAME_FACTOR)
@@ -239,8 +242,8 @@ def _read_video_torchvision(
     st = time.time()
     video, audio, info = io.read_video(
         video_path,
-        start_pts=ele.get("video_start", 0.0),
-        end_pts=ele.get("video_end", None),
+        start_pts=ele.get("video_start", ele.get("start_time", 0.0)),
+        end_pts=ele.get("video_end", ele.get("end_time", None)),
         pts_unit="sec",
         output_format="TCHW",
     )
@@ -253,19 +256,10 @@ def _read_video_torchvision(
         idx = [int((0 + total_frames)/2)]
     else:
         nframes = smart_nframes(ele, total_frames=total_frames, video_fps=video_fps)
-    
-        if ele['sampling'] == 'uniform' or ele['sampling'] == 'uniform_permutation' or ele['sampling'] == 'local':
-            idx = torch.linspace(0, total_frames - 1, nframes).round().long()
-
-        elif ele['sampling'] == 'random':
-            idx = np.random.choice(total_frames, size=nframes, replace=True)
-            idx.sort()
+        idx = torch.linspace(0, total_frames - 1, nframes).round().long()
 
     sample_fps = nframes / max(total_frames, 1e-6) * video_fps
     video = video[idx]
-    if ele['sampling'] != 'uniform':
-        idx = torch.randperm(video.size(0))
-        video = video[idx]
 
     video_metadata = dict(
         fps=video_fps,
@@ -308,8 +302,8 @@ def calculate_video_frame_range(
         raise ValueError("total_frames must be a positive integer")
 
     # Get start and end time in seconds
-    video_start = ele.get("video_start", None)
-    video_end = ele.get("video_end", None)
+    video_start = ele.get("video_start", ele.get("start_time", None))
+    video_end = ele.get("video_end", ele.get("end_time", None))
     if video_start is None and video_end is None:
         return 0, total_frames - 1, total_frames
 
@@ -364,43 +358,21 @@ def _read_video_decord(
     vr = VideoReader(video_path, ctx=cpu(0), num_threads=8)
     total_frames, video_fps = len(vr), vr.get_avg_fps()
 
-    if 'start_time' in ele.keys() and 'end_time' in ele.keys():
-        start_frame = int(ele['start_time'] * video_fps)
-        end_frame = int(ele['end_time'] * video_fps)
-        total_frames = end_frame - start_frame + 1 
-
-    else:
-        start_frame, end_frame, total_frames = calculate_video_frame_range(
-            ele,
-            total_frames,
-            video_fps,
-        )
+    start_frame, end_frame, total_frames = calculate_video_frame_range(
+        ele,
+        total_frames,
+        video_fps,
+    )
 
 
     if ele['max_frames'] == 1:
         nframes = 1
-        if ele['top_idx'] is None:
-            idx = [int((start_frame + end_frame)/2)]
-        else:
-            idx = [ele['top_idx']]
+        idx = [int((start_frame + end_frame)/2)]
     else:
-        if ele['top_idx'] is not None:
-            idx = ele['top_idx']
-            nframes = len(idx)
-        else:
-            nframes = smart_nframes(ele, total_frames=total_frames, video_fps=video_fps)
-
-            if ele['sampling'] == 'uniform' or ele['sampling'] == 'uniform_permutation' or ele['sampling'] == 'local':
-                idx = torch.linspace(start_frame, end_frame, nframes).round().long().tolist()
-
-            elif ele['sampling'] == 'random':
-                idx = np.random.choice(np.arange(start_frame, end_frame), size=nframes, replace=True)
-                idx.sort()
+        nframes = smart_nframes(ele, total_frames=total_frames, video_fps=video_fps)
+        idx = torch.linspace(start_frame, end_frame, nframes).round().long().tolist()
 
     video = vr.get_batch(idx).asnumpy()
-    if ele['sampling'] == 'uniform_permutation' or ele['sampling'] == 'random':
-        np.random.shuffle(video)
-
     video = torch.tensor(video).permute(0, 3, 1, 2)  # Convert to TCHW format
 
     logger.info(
@@ -474,25 +446,14 @@ def _read_video_torchcodec(
 
 VIDEO_READER_BACKENDS = {
     "decord": _read_video_decord,
-    "torchvision": _read_video_torchvision,
-    "torchcodec": _read_video_torchcodec,
 }
-
-FORCE_QWENVL_VIDEO_READER = os.getenv("FORCE_QWENVL_VIDEO_READER", None)
-
 
 @lru_cache(maxsize=1)
 def get_video_reader_backend() -> str:
-    if FORCE_QWENVL_VIDEO_READER is not None:
-        video_reader_backend = FORCE_QWENVL_VIDEO_READER
-    elif is_torchcodec_available():
-        video_reader_backend = "torchcodec"
-    elif is_decord_available():
-        video_reader_backend = "decord"
-    else:
-        video_reader_backend = "torchvision"
-    print(f"qwen-vl-utils using {video_reader_backend} to read video.", file=sys.stderr)
-    return video_reader_backend
+    if not is_decord_available():
+        raise ImportError("decord is required as the project video reader backend")
+    print("qwen-vl-utils using decord to read video.", file=sys.stderr)
+    return "decord"
 
 
 def fetch_video(
@@ -509,8 +470,6 @@ def fetch_video(
         try:
             video, video_metadata, sample_fps = VIDEO_READER_BACKENDS[video_reader_backend](ele)
         except Exception as e:
-            # logger.warning(f"video_reader_backend {video_reader_backend} error, use torchvision as default, msg: {e}")
-            # video, video_metadata, sample_fps = VIDEO_READER_BACKENDS["torchvision"](ele)
             logger.warning(f"video_reader_backend {video_reader_backend} error, return None, msg: {e}")
             if return_video_sample_fps:
                 return None, None
@@ -625,8 +584,6 @@ def process_vision_info(
     return_video_kwargs: bool = False,
     return_video_metadata: bool = False,
     image_patch_size: int = 14,
-    sampling: str = 'uniform',
-    top_idx = None
 ) -> Tuple[
     Optional[List[Image.Image]],
     Optional[List[Union[torch.Tensor, List[Image.Image]]]],
@@ -645,8 +602,6 @@ def process_vision_info(
         elif "video" in vision_info:
             if "max_frames" not in vision_info.keys(): #qwen3-omni
                 vision_info['max_frames'] = FPS_MAX_FRAMES
-            vision_info['sampling'] = sampling
-            vision_info['top_idx'] = top_idx
             video_input, video_sample_fps = fetch_video(
                 vision_info,
                 return_video_sample_fps=True,
