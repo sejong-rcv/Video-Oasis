@@ -18,6 +18,7 @@ from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO
 from lmms_eval.models.model_utils.qwen.vision_process import process_vision_info
 from lmms_eval.models.model_utils.video_input import add_video_bounds, parse_video_input
 from lmms_eval.models.model_utils.qwen.modeling_qwen2_5_vl_patched import Qwen2_5_VLForConditionalGeneration
+from lmms_eval.tasks._task_utils.eval_utils import extract_answer_letter
 
 
 @register_model("mimo_vl")
@@ -339,14 +340,11 @@ class MiMo_VL(lmms):
                     generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
                 )
 
-                if "boxed{" in answers[0]:
-                    answers[0] = answers[0].split("boxed{")[-1][0]
-
                 for i, ans in enumerate(answers):
                     for term in until:
                         if len(term) > 0:
                             ans = ans.split(term)[0]
-                    answers[i] = ans
+                    answers[i] = extract_answer_letter(ans) or ans
 
                 for ans, context in zip(answers, contexts):
                     res.append(ans)

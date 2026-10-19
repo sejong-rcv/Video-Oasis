@@ -23,6 +23,7 @@ from lmms_eval.api.model import lmms
 from lmms_eval.api.registry import register_model
 from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO_DECODE_ERROR
 from lmms_eval.models.model_utils.video_input import parse_video_input, validate_video_bounds
+from lmms_eval.tasks._task_utils.eval_utils import extract_answer_letter
 
 warnings.simplefilter("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore")
@@ -32,27 +33,6 @@ ALLOWED_MAX_SOFT_TOKENS = frozenset({70, 140, 280, 560, 1120})
 DEFAULT_MAX_SOFT_TOKENS = 280
 DEFAULT_VIDEO_MAX_SOFT_TOKENS = 70
 DEFAULT_MAX_FRAMES = 128
-
-FINAL_ANSWER_PATTERNS = (
-    re.compile(
-        r"\\?boxed\s*\{\s*(?:\\(?:text|textbf|mathrm|mathbf)\s*\{\s*)?"
-        r"[\(\[]?\s*([A-N])\b",
-        re.IGNORECASE,
-    ),
-    re.compile(r"<answer>\s*([A-N])\s*</answer>", re.IGNORECASE),
-    re.compile(
-        r"\b(?:(?:final|correct|best)\s+(?:answer|option)|answer)\s*"
-        r"(?:is\s*|[:=]\s*)(?:\\?boxed\s*\{\s*)?[\(\[]?\s*([A-N])\b",
-        re.IGNORECASE,
-    ),
-    re.compile(
-        r"\b(?:option|choice)\s+[\(\[]?\s*([A-N])\s*[\)\]]?\s+"
-        r"(?:is\s+)?(?:correct|best)\b",
-        re.IGNORECASE,
-    ),
-    re.compile(r"^\s*[`*_]*[\(\[]?\s*([A-N])\s*[\)\].]?[`*_]*\s*$", re.IGNORECASE),
-)
-
 
 def _extract_allowed_answers(context: str) -> set[str]:
     match = re.search(
@@ -70,12 +50,8 @@ def _extract_unambiguous_answer(text: str, context: str) -> Optional[str]:
     if not allowed_answers:
         return None
 
-    for pattern in FINAL_ANSWER_PATTERNS:
-        matches = list(pattern.finditer(text))
-        if matches:
-            answer = matches[-1].group(1).upper()
-            return answer if answer in allowed_answers else None
-    return None
+    answer = extract_answer_letter(text)
+    return answer if answer in allowed_answers else None
 
 
 @register_model("gemma4")

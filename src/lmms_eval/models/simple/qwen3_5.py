@@ -16,6 +16,7 @@ from lmms_eval.api.registry import register_model
 from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO_DECODE_ERROR
 from lmms_eval.models.model_utils.video_input import add_video_bounds, parse_video_input
 from lmms_eval.models.model_utils.qwen.vision_process import process_vision_info
+from lmms_eval.tasks._task_utils.eval_utils import extract_answer_letter
 
 def _resolve_model_class(pretrained: str, is_moe: bool):
     """Auto-detect and return the appropriate HF model class for a Qwen3 variant.
@@ -256,14 +257,7 @@ class Qwen3_5(lmms):
         return answer
 
     def _strip_answer(self, answer):
-        _, separator, remaining = answer.partition("boxed{")
-        if not separator:
-            return answer
-
-        remaining = remaining.lstrip()
-        if remaining and remaining[0].upper() in "ABCDEFGHIJKLMN":
-            answer = remaining[0].upper()
-        return answer
+        return extract_answer_letter(answer) or answer
 
     def _preprocess_chunk(self, chunk):
         """Preprocess a batch chunk on CPU: message building, video decoding, tokenization.
