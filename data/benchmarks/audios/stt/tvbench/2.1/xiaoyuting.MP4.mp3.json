@@ -1,0 +1,21 @@
+{
+    "video_id": "xiaoyuting.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/2.1/xiaoyuting.MP4",
+    "transcript": "蓋子打開,蓋子放桌上把瓶倒進去,蓋子蓋好放進去",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": "蓋子打開,蓋子放桌上"
+        },
+        {
+            "timestamp": [
+                5.0,
+                13.56
+            ],
+            "text": "把瓶倒進去,蓋子蓋好放進去"
+        }
+    ]
+}

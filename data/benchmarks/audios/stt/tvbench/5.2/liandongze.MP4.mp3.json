@@ -1,0 +1,14 @@
+{
+    "video_id": "liandongze.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/5.2/liandongze.MP4",
+    "transcript": "搅拌鸡肉",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                15.8
+            ],
+            "text": "搅拌鸡肉"
+        }
+    ]
+}

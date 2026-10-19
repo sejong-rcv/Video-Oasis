@@ -1,0 +1,14 @@
+{
+    "video_id": "wangpeiyao.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/4.3/wangpeiyao.MP4",
+    "transcript": " Teksting av Nicolai Winther",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                22.0
+            ],
+            "text": " Teksting av Nicolai Winther"
+        }
+    ]
+}

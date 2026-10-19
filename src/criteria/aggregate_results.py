@@ -10,8 +10,10 @@ from pathlib import Path
 from typing import Any, Literal
 
 from criteria.common.annotations import Annotation, dump_json, load_annotations, sample_id
-from criteria.common.constants import DATA_ROOT, DEFAULT_ANNO_PATH
+from criteria.common.constants import DATA_ROOT, DEFAULT_ANNO_PATH, TEMPORAL_TESTS
+from criteria.common.outputs import matches_video_input
 from criteria.common.parsing import extract_answer_letter
+from criteria.common.prompts import AUDIO_PROMPT_VERSION
 from criteria.visual.contexts import ContextStore
 
 
@@ -52,7 +54,7 @@ def build_test_configs(
     )
 
 
-def load_restore_ids(path: Path | None) -> set[str]:
+def load_id_file(path: Path | None) -> set[str]:
     if path is None:
         return set()
     with path.open("r", encoding="utf-8") as f:
@@ -66,7 +68,13 @@ def normalize_answer(answer: object, num_options: int) -> str:
     return extract_answer_letter(text, num_options)
 
 
-def read_prediction(path: Path, ground_truth: str, num_options: int) -> dict[str, Any]:
+def read_prediction(
+    path: Path,
+    ground_truth: str,
+    num_options: int,
+    ann: Annotation | None = None,
+    prompt_version: str | None = None,
+) -> dict[str, Any]:
     result: dict[str, Any] = {
         "path": str(path),
         "status": "missing",
@@ -81,6 +89,23 @@ def read_prediction(path: Path, ground_truth: str, num_options: int) -> dict[str
             payload = json.load(f)
     except Exception as exc:
         result.update(status="invalid_json", error=str(exc))
+        return result
+
+    if not isinstance(payload, dict) or not isinstance(payload.get("pred", ""), str):
+        result.update(
+            status="invalid_record",
+            error="Expected a JSON object with a string prediction.",
+        )
+        return result
+
+    if prompt_version is not None:
+        diagnostic = payload.get("diagnostic")
+        if not isinstance(diagnostic, dict) or diagnostic.get("prompt_version") != prompt_version:
+            result.update(status="input_mismatch")
+            return result
+
+    if ann is not None and not matches_video_input(payload, ann):
+        result.update(status="input_mismatch")
         return result
 
     raw_prediction = payload.get("pred", "")
@@ -119,6 +144,8 @@ def evaluate_test(
             config.output_dir / model_dir / f"{sid}.json",
             ground_truth,
             len(options),
+            ann=ann if config.name in TEMPORAL_TESTS else None,
+            prompt_version=AUDIO_PROMPT_VERSION if config.name == "audio" else None,
         )
         for model, model_dir in config.model_dirs.items()
     }
@@ -155,7 +182,8 @@ def aggregate(args: argparse.Namespace) -> None:
         args.aggregation,
     )
     restore_path = Path(args.sensitivity_restore) if args.sensitivity_restore else None
-    restore_ids = load_restore_ids(restore_path)
+    restore_ids = load_id_file(restore_path)
+    additional_ids = set().union(*(load_id_file(Path(path)) for path in args.exclude_ids))
     known_ids = {sample_id(ann) for ann in annotations}
     unknown_restore_ids = sorted(restore_ids - known_ids)
 
@@ -269,6 +297,15 @@ def aggregate(args: argparse.Namespace) -> None:
         f"incomplete_predictions={len(incomplete_results)}"
     )
 
+    if args.filtered_output:
+        excluded_ids = set(shortcut_ids) | additional_ids
+        filtered = [ann for ann in annotations if sample_id(ann) not in excluded_ids]
+        dump_json(filtered, args.filtered_output)
+        print(
+            f"additional_exclusions={len(additional_ids)} filtered={len(filtered)} "
+            f"output={args.filtered_output}"
+        )
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -283,7 +320,17 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--top-k", type=int, default=32)
     parser.add_argument("--aggregation", choices=("mean", "max"), default="mean")
     parser.add_argument("--sensitivity-restore")
-    return parser.parse_args()
+    parser.add_argument("--filtered-output", help="Optional filtered annotation JSON path.")
+    parser.add_argument(
+        "--exclude-ids",
+        action="append",
+        default=[],
+        help="Additional reviewed id file to exclude; may be repeated.",
+    )
+    args = parser.parse_args()
+    if args.exclude_ids and not args.filtered_output:
+        parser.error("--exclude-ids requires --filtered-output")
+    return args
 
 
 def main() -> None:

@@ -1,0 +1,14 @@
+{
+    "video_id": "wangchenhang.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/1.4/wangchenhang.MP4",
+    "transcript": " Takk for ating medietekst!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                22.3
+            ],
+            "text": " Takk for ating medietekst!"
+        }
+    ]
+}

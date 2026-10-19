@@ -1,0 +1,14 @@
+{
+    "video_id": "tianpengchao.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/2.5/tianpengchao.MP4",
+    "transcript": " Takk for att du tittade på den här videon!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                16.74
+            ],
+            "text": " Takk for att du tittade på den här videon!"
+        }
+    ]
+}

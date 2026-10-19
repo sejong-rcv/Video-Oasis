@@ -21,6 +21,8 @@ from PIL import Image
 from torchvision import io, transforms
 from torchvision.transforms import InterpolationMode
 
+from lmms_eval.models.model_utils.video_input import validate_video_bounds
+
 
 MAX_RATIO = 200
 SPATIAL_MERGE_SIZE = 2
@@ -295,15 +297,10 @@ def calculate_video_frame_range(
     Raises:
         ValueError: If input parameters are invalid or the time range is inconsistent.
     """
-    # Validate essential parameters
-    if video_fps <= 0:
-        raise ValueError("video_fps must be a positive number")
-    if total_frames <= 0:
-        raise ValueError("total_frames must be a positive integer")
-
     # Get start and end time in seconds
     video_start = ele.get("video_start", ele.get("start_time", None))
     video_end = ele.get("video_end", ele.get("end_time", None))
+    validate_video_bounds(video_start, video_end, total_frames, video_fps)
     if video_start is None and video_end is None:
         return 0, total_frames - 1, total_frames
 
@@ -355,7 +352,7 @@ def _read_video_decord(
     from decord import VideoReader, cpu
     video_path = ele["video"]
     st = time.time()
-    vr = VideoReader(video_path, ctx=cpu(0), num_threads=8)
+    vr = VideoReader(video_path, ctx=cpu(0), num_threads=1)
     total_frames, video_fps = len(vr), vr.get_avg_fps()
 
     start_frame, end_frame, total_frames = calculate_video_frame_range(
@@ -382,7 +379,7 @@ def _read_video_decord(
 
     video_metadata = dict(
         fps=video_fps,
-        frames_indices=idx,
+        frames_indices=[i - start_frame for i in idx],
         total_num_frames=total_frames,
         video_backend="decord",
     )
@@ -470,7 +467,7 @@ def fetch_video(
         try:
             video, video_metadata, sample_fps = VIDEO_READER_BACKENDS[video_reader_backend](ele)
         except Exception as e:
-            logger.warning(f"video_reader_backend {video_reader_backend} error, return None, msg: {e}")
+            logger.warning(f"video_reader_backend {video_reader_backend} error for {ele['video']}, return None, msg: {e}")
             if return_video_sample_fps:
                 return None, None
             return None

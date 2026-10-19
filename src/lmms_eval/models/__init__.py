@@ -32,6 +32,8 @@ AVAILABLE_SIMPLE_MODELS = {
     "qwen2_5_vl_autothink": "Qwen2_5_VL_AutoThink",
     "videollama3": "VideoLLaMA3",
     "mimo_vl": "MiMo_VL",
+    "llava_llada_video": "LlavaLLaDAVideo",
+    "gemma4": "Gemma4",
 }
 
 AVAILABLE_CHAT_TEMPLATE_MODELS = {

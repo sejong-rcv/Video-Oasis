@@ -1,0 +1,28 @@
+{
+    "video_id": "sunxiaohui.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/3.4/sunxiaohui.MP4",
+    "transcript": "打開第一瓶開化妝品拿起來直接就放起來",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                4.0
+            ],
+            "text": "打開第一瓶"
+        },
+        {
+            "timestamp": [
+                4.0,
+                6.0
+            ],
+            "text": "開化妝品"
+        },
+        {
+            "timestamp": [
+                6.0,
+                10.0
+            ],
+            "text": "拿起來直接就放起來"
+        }
+    ]
+}

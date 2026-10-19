@@ -13,13 +13,9 @@ class ModelEntry:
     backend: str
     path: str
     family: str | None = None
-    feature_dim: int | None = None
 
 
 MODEL_REGISTRY = {
-    "llama": ModelEntry("llama", "llm", str(REPO_ROOT / "data/models/Llama-3.1-8B-Instruct")),
-    "qwen": ModelEntry("qwen", "llm", str(REPO_ROOT / "data/models/Qwen3-8B")),
-    "mistral": ModelEntry("mistral", "llm", str(REPO_ROOT / "data/models/Mistral-7B-Instruct-v0.3")),
     "qwen25_vl": ModelEntry("qwen25_vl", "mllm", str(REPO_ROOT / "data/models/Qwen2.5-VL-7B-Instruct")),
     "qwen3_vl": ModelEntry("qwen3_vl", "mllm", str(REPO_ROOT / "data/models/Qwen3-VL-8B-Instruct")),
     "eagle25": ModelEntry("eagle25", "mllm", str(REPO_ROOT / "data/models/Eagle2.5-8B")),
@@ -28,21 +24,18 @@ MODEL_REGISTRY = {
         "vlm",
         "openai/clip-vit-large-patch14",
         family="clip",
-        feature_dim=768,
     ),
     "eva-clip-8b": ModelEntry(
         "eva-clip-8b",
         "vlm",
         "BAAI/EVA-CLIP-8B",
         family="eva",
-        feature_dim=1280,
     ),
     "longclip": ModelEntry(
         "longclip",
         "vlm",
         str(REPO_ROOT / "src/criteria/common/longclip/longclip-L.pt"),
         family="longclip",
-        feature_dim=768,
     ),
 }
 

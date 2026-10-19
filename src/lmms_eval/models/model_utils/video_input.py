@@ -1,3 +1,4 @@
+import math
 from dataclasses import dataclass
 from numbers import Real
 from typing import Any
@@ -15,7 +16,7 @@ class VideoSpec:
 
 
 def parse_video_input(value: Any) -> VideoSpec | None:
-    """Normalize a video path or an RTV-style (path, start, end) tuple."""
+    """Normalize a video path or a (path, start, end) tuple."""
     if isinstance(value, str):
         return VideoSpec(path=value)
 
@@ -36,10 +37,24 @@ def parse_video_input(value: Any) -> VideoSpec | None:
 
     start_time = float(start_time)
     end_time = float(end_time)
-    if start_time < 0 or start_time >= end_time:
+    if not math.isfinite(start_time) or not math.isfinite(end_time) or start_time < 0 or start_time >= end_time:
         raise ValueError(f"Invalid video time range: start_time={start_time}, end_time={end_time}")
 
     return VideoSpec(path=path, start_time=start_time, end_time=end_time)
+
+
+def validate_video_bounds(start_time, end_time, total_frames, fps):
+    """Check the requested interval before clamping frame indices."""
+    if total_frames <= 0 or not math.isfinite(fps) or fps <= 0:
+        raise ValueError(f"Invalid video metadata: {total_frames} frames @ {fps} fps")
+    duration = total_frames / fps
+    start = 0.0 if start_time is None else start_time
+    end = duration if end_time is None else end_time
+    if not math.isfinite(start) or not math.isfinite(end) or start < 0 or start >= end:
+        raise ValueError(f"Invalid video time range: [{start}, {end}], duration={duration:.6f}s")
+    # Allow at most one frame of rounding error at the video end.
+    if start >= duration or end > duration + 1 / fps + 1e-6:
+        raise ValueError(f"Video segment [{start}, {end}] exceeds duration={duration:.6f}s")
 
 
 def add_video_bounds(video_dict: dict, spec: VideoSpec) -> dict:

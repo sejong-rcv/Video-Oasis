@@ -1,0 +1,28 @@
+{
+    "video_id": "xiaoyuting.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/5.2/xiaoyuting.MP4",
+    "transcript": "拿起燒焙,拿起焦風罐,炸彈三下。換,再炸,拿起小盆子,離開它。火淋高一點,再往高一點。",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": "拿起燒焙,拿起焦風罐,炸彈三下。"
+        },
+        {
+            "timestamp": [
+                5.0,
+                10.0
+            ],
+            "text": "換,再炸,拿起小盆子,離開它。"
+        },
+        {
+            "timestamp": [
+                10.0,
+                15.0
+            ],
+            "text": "火淋高一點,再往高一點。"
+        }
+    ]
+}

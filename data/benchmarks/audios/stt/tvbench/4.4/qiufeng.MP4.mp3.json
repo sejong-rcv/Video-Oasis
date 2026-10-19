@@ -1,0 +1,14 @@
+{
+    "video_id": "qiufeng.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/4.4/qiufeng.MP4",
+    "transcript": " Thank you for watching.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                14.78
+            ],
+            "text": " Thank you for watching."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "video_id": "luoweixin.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/2.3/luoweixin.MP4",
+    "transcript": " Takk for att du så på!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                11.88
+            ],
+            "text": " Takk for att du så på!"
+        }
+    ]
+}

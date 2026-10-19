@@ -10,7 +10,7 @@ from typing import Literal
 from PIL import Image
 from tqdm import tqdm
 
-from criteria.common.annotations import Annotation, load_annotations
+from criteria.common.annotations import Annotation, load_annotations, video_interval
 from criteria.common.mllm import MediaType, generate_mllm, load_mllm
 from criteria.common.outputs import (
     has_saved_prediction,
@@ -102,7 +102,7 @@ def sample_frames(ann: Annotation, config: TemporalMLLMConfig) -> SampledFrames:
 
 def run_mllm_test(config: TemporalMLLMConfig) -> TemporalRunSummary:
     annotations = load_annotations(config.anno_path)
-    runtime = load_mllm(config.model, config.device)
+    runtime = None
 
     completed = 0
     skipped = 0
@@ -110,9 +110,12 @@ def run_mllm_test(config: TemporalMLLMConfig) -> TemporalRunSummary:
 
     for ann in tqdm(annotations, desc=f"{config.test}:{config.model}"):
         output_path = prediction_path(config.output_dir, config.model, ann)
-        if not config.overwrite and has_saved_prediction(output_path):
+        if not config.overwrite and has_saved_prediction(output_path, ann):
             skipped += 1
             continue
+
+        if runtime is None:
+            runtime = load_mllm(config.model, config.device)
 
         try:
             sampled = sample_frames(ann, config)
@@ -132,6 +135,7 @@ def run_mllm_test(config: TemporalMLLMConfig) -> TemporalRunSummary:
                     "axis": "temporal",
                     "test": config.test,
                     "model": config.model,
+                    "video_scope": "segment" if video_interval(ann) is not None else "full_video",
                     "frame_indices": list(sampled.indices),
                     "num_frames": len(sampled.indices),
                 },

@@ -1,0 +1,77 @@
+{
+    "video_id": "tianpengchao.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/4.5/tianpengchao.MP4",
+    "transcript": "先給你試試看這個比較好然後我就是再倒開一盤然後先把這個再倒進去倒進去然後再倒開一圈然後再倒開一圈然後再倒開一圈",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": "先給你試試看"
+        },
+        {
+            "timestamp": [
+                5.0,
+                6.0
+            ],
+            "text": "這個比較好"
+        },
+        {
+            "timestamp": [
+                6.0,
+                8.0
+            ],
+            "text": "然後我就是再"
+        },
+        {
+            "timestamp": [
+                8.0,
+                10.0
+            ],
+            "text": "倒開一盤"
+        },
+        {
+            "timestamp": [
+                10.0,
+                12.0
+            ],
+            "text": "然後先把這個"
+        },
+        {
+            "timestamp": [
+                12.0,
+                14.0
+            ],
+            "text": "再倒進去"
+        },
+        {
+            "timestamp": [
+                14.0,
+                16.0
+            ],
+            "text": "倒進去"
+        },
+        {
+            "timestamp": [
+                20.0,
+                22.0
+            ],
+            "text": "然後再倒開一圈"
+        },
+        {
+            "timestamp": [
+                22.0,
+                24.0
+            ],
+            "text": "然後再倒開一圈"
+        },
+        {
+            "timestamp": [
+                24.0,
+                26.0
+            ],
+            "text": "然後再倒開一圈"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "video_id": "quxiaojuan.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/1.2/quxiaojuan.MP4",
+    "transcript": " 1,5 kg gouda 1,5 kg gouda 1,5 kg gouda 1,5 kg gouda 1,5 kg gouda 1,5 kg gouda Thank you.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " 1,5 kg gouda"
+        },
+        {
+            "timestamp": [
+                5.0,
+                10.0
+            ],
+            "text": " 1,5 kg gouda"
+        },
+        {
+            "timestamp": [
+                10.0,
+                15.0
+            ],
+            "text": " 1,5 kg gouda"
+        },
+        {
+            "timestamp": [
+                15.0,
+                20.0
+            ],
+            "text": " 1,5 kg gouda"
+        },
+        {
+            "timestamp": [
+                20.0,
+                38.26
+            ],
+            "text": " 1,5 kg gouda 1,5 kg gouda Thank you."
+        }
+    ]
+}

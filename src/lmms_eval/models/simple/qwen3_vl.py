@@ -20,6 +20,13 @@ from lmms_eval.models.model_utils.video_input import add_video_bounds, parse_vid
 from lmms_eval.models.model_utils.qwen.modeling_qwen3_vl_patched import Qwen3VLForConditionalGeneration
 
 
+def _preserve_thinking_response(prompt: str, response: str) -> str:
+    response = response.strip()
+    if response and prompt.rstrip().endswith("<think>") and not response.startswith("<think>"):
+        return f"<think>\n{response}"
+    return response
+
+
 @register_model("qwen3_vl")
 class Qwen3_VL(lmms):
     """
@@ -388,7 +395,7 @@ class Qwen3_VL(lmms):
                     for term in until:
                         if len(term) > 0:
                             ans = ans.split(term)[0]
-                    answers[i] = ans.split('</think>')[-1].strip()
+                    answers[i] = _preserve_thinking_response(texts[i], ans)
 
                 for ans, context in zip(answers, contexts):
                     res.append(ans)

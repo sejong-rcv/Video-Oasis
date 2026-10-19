@@ -1,0 +1,42 @@
+{
+    "video_id": "congpeishan.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/1.5/congpeishan.MP4",
+    "transcript": " Hi everyone, welcome to my channel, today I am going to show you how to make a simple and delicious This is the first time I've ever eaten this dish, and it's really delicious. It's a little spicy, but it's really delicious. It's a little spicy, but it's really delicious. It's a little spicy, but it's really delicious. Thank you for watching and see you in the next video.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                10.0
+            ],
+            "text": " Hi everyone, welcome to my channel, today I am going to show you how to make a simple and delicious"
+        },
+        {
+            "timestamp": [
+                10.0,
+                16.0
+            ],
+            "text": " This is the first time I've ever eaten this dish, and it's really delicious."
+        },
+        {
+            "timestamp": [
+                17.0,
+                22.0
+            ],
+            "text": " It's a little spicy, but it's really delicious."
+        },
+        {
+            "timestamp": [
+                23.0,
+                29.0
+            ],
+            "text": " It's a little spicy, but it's really delicious."
+        },
+        {
+            "timestamp": [
+                30.0,
+                null
+            ],
+            "text": " It's a little spicy, but it's really delicious. Thank you for watching and see you in the next video."
+        }
+    ]
+}

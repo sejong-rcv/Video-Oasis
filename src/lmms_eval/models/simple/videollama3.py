@@ -18,7 +18,7 @@ from lmms_eval.api.instance import Instance
 from lmms_eval.api.model import lmms
 from lmms_eval.api.registry import register_model
 from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO_DECODE_ERROR
-from lmms_eval.models.model_utils.video_input import parse_video_input
+from lmms_eval.models.model_utils.video_input import parse_video_input, validate_video_bounds
 
 
 @register_model("videollama3")
@@ -243,11 +243,12 @@ class VideoLLaMA3(lmms):
 
 
 def read_video_custom(video_path, max_frames_num=128, fps=1, force_include_last_frame=False, bound=None):
-    vr = VideoReader(video_path, ctx=cpu(0))
+    vr = VideoReader(video_path, ctx=cpu(0), num_threads=1)
     duration = len(vr)
     vid_fps = vr.get_avg_fps()
     start_frame, end_frame = 0, duration - 1
     if bound is not None:
+        validate_video_bounds(bound[0], bound[1], duration, vid_fps)
         start_frame = max(0, min(math.ceil(bound[0] * vid_fps), duration - 1))
         end_frame = max(start_frame, min(math.floor(bound[1] * vid_fps), duration - 1))
     segment_duration = end_frame - start_frame + 1
@@ -274,7 +275,7 @@ def read_video_custom(video_path, max_frames_num=128, fps=1, force_include_last_
                     frame_ids.append(last_frame_id)
 
     for frame_id in frame_ids:
-        fps_list.append(frame_id / vid_fps)
+        fps_list.append((frame_id - start_frame) / vid_fps)
 
     frames = vr.get_batch(frame_ids).asnumpy()
 

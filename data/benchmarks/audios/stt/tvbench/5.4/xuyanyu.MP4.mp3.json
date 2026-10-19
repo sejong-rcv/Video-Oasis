@@ -1,0 +1,14 @@
+{
+    "video_id": "xuyanyu.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/5.4/xuyanyu.MP4",
+    "transcript": " Takk for att du så på!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                14.48
+            ],
+            "text": " Takk for att du så på!"
+        }
+    ]
+}

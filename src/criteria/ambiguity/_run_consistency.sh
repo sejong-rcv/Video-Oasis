@@ -1,6 +1,6 @@
 export PYTHONPATH="../..${PYTHONPATH:+:$PYTHONPATH}"
 
-PREDICTION_ROOT="../../../buffer/analysis/Ambiguity/consistency"
+PREDICTION_ROOT="../../../buffer/oasis/analysis/Ambiguity/consistency"
 
 python -m criteria.ambiguity.run consistency \
   --prediction "eagle25=${PREDICTION_ROOT}/eagle25.jsonl" \

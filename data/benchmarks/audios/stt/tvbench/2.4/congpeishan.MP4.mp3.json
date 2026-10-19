@@ -1,0 +1,14 @@
+{
+    "video_id": "congpeishan.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/2.4/congpeishan.MP4",
+    "transcript": " Takk for att du så på!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                7.02
+            ],
+            "text": " Takk for att du så på!"
+        }
+    ]
+}

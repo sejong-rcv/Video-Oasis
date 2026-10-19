@@ -19,7 +19,7 @@ from lmms_eval.api.instance import Instance
 from lmms_eval.api.model import lmms
 from lmms_eval.api.registry import register_model
 from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO_DECODE_ERROR
-from lmms_eval.models.model_utils.video_input import parse_video_input
+from lmms_eval.models.model_utils.video_input import parse_video_input, validate_video_bounds
 
 IMAGENET_MEAN = (0.485, 0.456, 0.406)
 IMAGENET_STD = (0.229, 0.224, 0.225)
@@ -208,6 +208,7 @@ def load_video(
     fps = float(vr.get_avg_fps())
     start_idx, end_idx = 0, max_frame
     if bound is not None:
+        validate_video_bounds(bound[0], bound[1], max_frame + 1, fps)
         start_idx = max(0, min(int(np.ceil(bound[0] * fps)), max_frame))
         end_idx = max(start_idx, min(int(np.floor(bound[1] * fps)), max_frame))
 

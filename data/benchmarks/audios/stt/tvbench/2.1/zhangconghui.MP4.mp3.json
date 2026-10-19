@@ -1,0 +1,21 @@
+{
+    "video_id": "zhangconghui.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/2.1/zhangconghui.MP4",
+    "transcript": " Storbritannien, Storbritannien Storbritannien, Storbritannien",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                15.0
+            ],
+            "text": " Storbritannien, Storbritannien"
+        },
+        {
+            "timestamp": [
+                15.0,
+                15.02
+            ],
+            "text": " Storbritannien, Storbritannien"
+        }
+    ]
+}

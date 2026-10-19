@@ -1,0 +1,14 @@
+{
+    "video_id": "quxiaojuan.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/3.4/quxiaojuan.MP4",
+    "transcript": " Takk for ating medietekst.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                13.44
+            ],
+            "text": " Takk for ating medietekst."
+        }
+    ]
+}

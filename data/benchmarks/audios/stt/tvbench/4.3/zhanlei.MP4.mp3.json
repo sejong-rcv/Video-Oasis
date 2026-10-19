@@ -1,0 +1,14 @@
+{
+    "video_id": "zhanlei.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/4.3/zhanlei.MP4",
+    "transcript": " Takk for at du har tittat på denne videon!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                20.14
+            ],
+            "text": " Takk for at du har tittat på denne videon!"
+        }
+    ]
+}

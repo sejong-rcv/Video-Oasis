@@ -1,0 +1,14 @@
+{
+    "video_id": "macong.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/2.5/macong.MP4",
+    "transcript": " Takk for att du så på!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                15.08
+            ],
+            "text": " Takk for att du så på!"
+        }
+    ]
+}

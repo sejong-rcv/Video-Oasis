@@ -1,0 +1,14 @@
+{
+    "video_id": "sunshuo.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/4.4/sunshuo.MP4",
+    "transcript": " 1.5 kg gouda",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                17.96
+            ],
+            "text": " 1.5 kg gouda"
+        }
+    ]
+}

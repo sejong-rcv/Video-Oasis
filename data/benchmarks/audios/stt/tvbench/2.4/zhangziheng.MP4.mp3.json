@@ -1,0 +1,14 @@
+{
+    "video_id": "zhangziheng.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/2.4/zhangziheng.MP4",
+    "transcript": " Hei!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                6.1
+            ],
+            "text": " Hei!"
+        }
+    ]
+}

@@ -27,3 +27,12 @@ if __name__ == '__main__':
     snapshot_download(repo_id="Qwen/Qwen3-VL-30B-A3B-Instruct", local_dir="./Qwen3-VL-30B-A3B-Instruct", local_dir_use_symlinks=False, resume_download=True)
     snapshot_download(repo_id="Qwen/Qwen3-VL-30B-A3B-Thinking", local_dir="./Qwen3-VL-30B-A3B-Thinking", local_dir_use_symlinks=False, resume_download=True)
     snapshot_download(repo_id="DAMO-NLP-SG/VideoLLaMA3-7B", local_dir="./VideoLLaMA3-7B", local_dir_use_symlinks=False, resume_download=True)
+    snapshot_download(repo_id="ziHoHe/VidLaDA-8B", local_dir="./VidLaDA-8B", local_dir_use_symlinks=False, resume_download=True)
+    snapshot_download(repo_id="google/gemma-4-12B", local_dir="./gemma-4-12B", local_dir_use_symlinks=False, resume_download=True)
+    snapshot_download(repo_id="google/gemma-4-12B-it", local_dir="./gemma-4-12B-it", local_dir_use_symlinks=False, resume_download=True)
+    snapshot_download(repo_id="Qwen/Qwen3.5-4B", local_dir="./Qwen3.5-4B", local_dir_use_symlinks=False, resume_download=True)
+
+    snapshot_download(repo_id="google/gemma-4-E4B", local_dir="./gemma-4-E4B", local_dir_use_symlinks=False, resume_download=True)
+    snapshot_download(repo_id="google/gemma-4-E4B-it", local_dir="./gemma-4-E4B-it", local_dir_use_symlinks=False, resume_download=True)
+
+    snapshot_download(repo_id="openai/whisper-large-v3", local_dir="./whisper-large-v3", local_dir_use_symlinks=False, resume_download=True, allow_patterns=["*.json", "*.txt", "*.tiktoken", "model.safetensors"])

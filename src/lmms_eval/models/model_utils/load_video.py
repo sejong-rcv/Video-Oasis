@@ -12,9 +12,9 @@ from PIL import Image
 
 def load_video_decord(video_path, max_frames_num):
     if type(video_path) == str:
-        vr = VideoReader(video_path, ctx=cpu(0))
+        vr = VideoReader(video_path, ctx=cpu(0), num_threads=1)
     else:
-        vr = VideoReader(video_path[0], ctx=cpu(0))
+        vr = VideoReader(video_path[0], ctx=cpu(0), num_threads=1)
     total_frame_num = len(vr)
     uniform_sampled_frames = np.linspace(0, total_frame_num - 1, max_frames_num, dtype=int)
     frame_idx = uniform_sampled_frames.tolist()

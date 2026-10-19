@@ -1,0 +1,14 @@
+{
+    "video_id": "liuyushuai.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/2.2/liuyushuai.MP4",
+    "transcript": " Takk for ating medietekst!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                12.96
+            ],
+            "text": " Takk for ating medietekst!"
+        }
+    ]
+}

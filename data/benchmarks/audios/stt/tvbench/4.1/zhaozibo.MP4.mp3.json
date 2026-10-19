@@ -1,0 +1,14 @@
+{
+    "video_id": "zhaozibo.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/4.1/zhaozibo.MP4",
+    "transcript": " Takk for at du så med!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                18.8
+            ],
+            "text": " Takk for at du så med!"
+        }
+    ]
+}

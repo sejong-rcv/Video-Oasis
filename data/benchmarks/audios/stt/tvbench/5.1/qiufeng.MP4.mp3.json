@@ -1,0 +1,14 @@
+{
+    "video_id": "qiufeng.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/5.1/qiufeng.MP4",
+    "transcript": "ご視聴ありがとうございました",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                13.46
+            ],
+            "text": "ご視聴ありがとうございました"
+        }
+    ]
+}

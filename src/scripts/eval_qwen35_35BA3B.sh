@@ -4,7 +4,7 @@ output_path=./experiments/Qwen3.5-35B-A3B/
 master_port=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
 
 # experiment configuration
-task=vqa_total
+task=v_oasis
 max_frames=128
 
 accelerate launch --num_processes=8 --main_process_port=$master_port -m lmms_eval.__main__ \

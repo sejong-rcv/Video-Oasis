@@ -1,0 +1,14 @@
+{
+    "video_id": "zhaoyouzu.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/4.2/zhaoyouzu.MP4",
+    "transcript": " Takk for ating medietekst!",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                16.36
+            ],
+            "text": " Takk for ating medietekst!"
+        }
+    ]
+}

@@ -263,7 +263,7 @@ class VLLM(lmms):
 
     # Function to encode the video
     def encode_video(self, video_path):
-        vr = VideoReader(video_path, ctx=cpu(0))
+        vr = VideoReader(video_path, ctx=cpu(0), num_threads=1)
         total_frame_num = len(vr)
         uniform_sampled_frames = np.linspace(0, total_frame_num - 1, self.max_frame_num, dtype=int)
 

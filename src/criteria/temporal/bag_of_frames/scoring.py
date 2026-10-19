@@ -47,6 +47,14 @@ def score_bag_of_frames(
     if option_features.ndim != 2 or len(option_features) == 0:
         raise ValueError("At least one option feature is required")
 
+    for name, features in (
+        ("question_features", question_features),
+        ("option_features", option_features),
+        ("video_features", video_features),
+    ):
+        if not torch.isfinite(features).all() or (features.float().norm(dim=-1) == 0).any():
+            raise ValueError(f"{name} must contain finite, nonzero vectors")
+
     device = question_features.device
     dtype = question_features.dtype
     question_features = F.normalize(question_features, dim=-1)
@@ -65,6 +73,9 @@ def score_bag_of_frames(
     else:
         frame_option_scores = selected_features @ option_features.T
         answer_scores = frame_option_scores.max(dim=0).values
+
+    if not torch.isfinite(answer_scores).all():
+        raise ValueError("Bag-of-Frames produced non-finite answer scores")
 
     return ScoringResult(
         answer_index=int(answer_scores.argmax().item()),

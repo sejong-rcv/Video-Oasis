@@ -6,14 +6,32 @@ import json
 from pathlib import Path
 from typing import Any
 
-from .annotations import Annotation, sample_id
+from .annotations import Annotation, sample_id, video_interval
 
 
 def prediction_path(output_dir: str | Path, model_name: str, ann: Annotation) -> Path:
     return Path(output_dir) / model_name / f"{sample_id(ann)}.json"
 
 
-def load_saved_prediction(path: str | Path) -> dict[str, Any] | None:
+def matches_video_input(payload: dict, ann: Annotation) -> bool:
+    if payload.get("video_path") != ann.get("video_path"):
+        return False
+    try:
+        interval = video_interval(ann)
+        if video_interval(payload) != interval:
+            return False
+    except (TypeError, ValueError):
+        return False
+    if interval is None:
+        return True
+    diagnostic = payload.get("diagnostic")
+    return isinstance(diagnostic, dict) and diagnostic.get("video_scope") == "segment"
+
+
+def load_saved_prediction(
+    path: str | Path,
+    ann: Annotation | None = None,
+) -> dict[str, Any] | None:
     path = Path(path)
     if not path.is_file():
         return None
@@ -22,11 +40,20 @@ def load_saved_prediction(path: str | Path) -> dict[str, Any] | None:
             data: dict[str, Any] = json.load(f)
     except Exception:
         return None
-    return data if data.get("pred") else None
+    if not isinstance(data, dict):
+        return None
+    prediction = data.get("pred")
+    if not isinstance(prediction, str) or not prediction.strip():
+        return None
+    if prediction.strip().lower().startswith("error::"):
+        return None
+    if ann is not None and not matches_video_input(data, ann):
+        return None
+    return data
 
 
-def has_saved_prediction(path: str | Path) -> bool:
-    return load_saved_prediction(path) is not None
+def has_saved_prediction(path: str | Path, ann: Annotation | None = None) -> bool:
+    return load_saved_prediction(path, ann) is not None
 
 
 def save_prediction(

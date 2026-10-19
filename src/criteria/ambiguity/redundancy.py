@@ -9,12 +9,18 @@ from pathlib import Path
 import numpy as np
 from tqdm import tqdm
 
-from criteria.common.annotations import Annotation, dump_json, load_annotations, sample_id
+from criteria.common.annotations import (
+    Annotation,
+    dump_json,
+    load_annotations,
+    sample_id,
+    video_interval,
+)
 from criteria.common.mllm import generate_mllm, load_mllm
-from criteria.common.outputs import prediction_path
+from criteria.common.outputs import matches_video_input, prediction_path
 from criteria.common.parsing import extract_answer_letter
 from criteria.common.prompts import build_mllm_video_prompt
-from criteria.common.video_io import frames_to_images, open_video, uniform_indices
+from criteria.common.video_io import frames_to_images, open_video, segment_bounds, uniform_indices
 
 
 @dataclass(frozen=True)
@@ -79,14 +85,18 @@ def load_state(path: Path) -> dict | None:
     return data if isinstance(data, dict) else None
 
 
-def state_matches_config(state: dict, config: RedundancyConfig) -> bool:
+def state_matches_config(state: dict, config: RedundancyConfig, ann: Annotation) -> bool:
     diagnostic = state.get("diagnostic", {})
+    if not isinstance(diagnostic, dict):
+        return False
+    if video_interval(ann) is None and diagnostic.get("video_scope") != "full_video":
+        return False
     return (
         diagnostic.get("test") == "redundancy"
         and diagnostic.get("model") == config.model
         and diagnostic.get("num_chunks") == config.num_chunks
         and diagnostic.get("frames_per_chunk") == config.frames_per_chunk
-        and diagnostic.get("video_scope") == "full_video"
+        and matches_video_input(state, ann)
     )
 
 
@@ -102,7 +112,7 @@ def new_state(ann: Annotation, config: RedundancyConfig) -> dict:
             "model": config.model,
             "num_chunks": config.num_chunks,
             "frames_per_chunk": config.frames_per_chunk,
-            "video_scope": "full_video",
+            "video_scope": "segment" if video_interval(ann) is not None else "full_video",
         },
     }
 
@@ -131,7 +141,7 @@ def process_annotation(
 ) -> bool:
     output_path = prediction_path(config.output_dir, config.model, ann)
     state = None if config.overwrite else load_state(output_path)
-    if state is not None and not state_matches_config(state, config):
+    if state is not None and not state_matches_config(state, config, ann):
         raise ValueError(f"Existing result uses a different configuration: {output_path}")
     if state is None:
         state = new_state(ann, config)
@@ -141,7 +151,7 @@ def process_annotation(
     reader = open_video(ann)
     if len(reader) == 0:
         raise ValueError(f"Video has no frames: {ann['video_path']}")
-    start, end = 0, len(reader) - 1
+    start, end = segment_bounds(ann, reader)
     chunks = chunk_frame_indices(start, end, config.num_chunks, config.frames_per_chunk)
     finished = completed_chunk_indices(state)
     prompt = build_mllm_video_prompt(ann)
@@ -192,7 +202,9 @@ def summarize_redundancy(
     for ann in annotations:
         path = prediction_path(config.output_dir, config.model, ann)
         state = load_state(path)
-        if state is None or not state_matches_config(state, config) or not state.get("complete"):
+        if state is None or not state.get("complete"):
+            continue
+        if not state_matches_config(state, config, ann):
             continue
         complete_results += 1
         if state.get("all_chunks_correct"):
@@ -233,10 +245,10 @@ def run_redundancy(config: RedundancyConfig) -> RedundancySummary:
         state = None if config.overwrite else load_state(
             prediction_path(config.output_dir, config.model, ann)
         )
-        if state is not None and not state_matches_config(state, config):
+        if state is not None and not state_matches_config(state, config, ann):
             raise ValueError(
                 "Existing Redundancy results use a different configuration. "
-                "Use --overwrite or restore the original chunk settings."
+                "Use --overwrite or restore the original video interval and chunk settings."
             )
         if state is not None and state.get("complete"):
             skipped += 1

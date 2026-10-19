@@ -34,7 +34,7 @@ from lmms_eval.api.instance import Instance
 from lmms_eval.api.model import lmms
 from lmms_eval.api.registry import register_model
 from lmms_eval.models.model_utils.error_sentinels import GENERATION_ERROR, VIDEO_DECODE_ERROR
-from lmms_eval.models.model_utils.video_input import parse_video_input
+from lmms_eval.models.model_utils.video_input import parse_video_input, validate_video_bounds
 
 AutoConfig.register("llava_llama", LlavaConfig)
 AutoConfig.register("llava_qwen", LlavaQwenConfig)
@@ -304,16 +304,17 @@ class LlavaVid(lmms):
         video_fps = float(vr.get_avg_fps())
         start_idx, end_idx = 0, total_frame_num - 1
         if bound is not None:
+            validate_video_bounds(bound[0], bound[1], total_frame_num, video_fps)
             start_idx = max(0, min(math.ceil(bound[0] * video_fps), total_frame_num - 1))
             end_idx = max(start_idx, min(math.floor(bound[1] * video_fps), total_frame_num - 1))
         video_time = (end_idx - start_idx + 1) / video_fps
         frame_step = max(1, round(video_fps / fps))
         frame_idx = list(range(start_idx, end_idx + 1, frame_step))
-        frame_time = [i / video_fps for i in frame_idx]
+        frame_time = [(i - start_idx) / video_fps for i in frame_idx]
         if len(frame_idx) > max_frames_num or force_sample:
             uniform_sampled_frames = np.linspace(start_idx, end_idx, max_frames_num, dtype=int)
             frame_idx = uniform_sampled_frames.tolist()
-            frame_time = [i / video_fps for i in frame_idx]
+            frame_time = [(i - start_idx) / video_fps for i in frame_idx]
         frame_time = ",".join([f"{i:.2f}s" for i in frame_time])
 
         spare_frames = vr.get_batch(frame_idx).asnumpy()
@@ -412,14 +413,6 @@ class LlavaVid(lmms):
         pbar = tqdm(total=len(requests), disable=(self.rank != 0), desc="Model Responding")
 
         for contexts, gen_kwargs, doc_to_visual, doc_id, task, split in [reg.args for reg in requests]:
-            # if self.task_dict[task][split][doc_id]["duration"] != "short":
-            # # if doc_id != 112:
-            #     # import pdb;pdb.set_trace()
-            #     res.append("A")
-            #     pbar.update(1)
-            #     continue
-            # encode, pad, and truncate contexts for this batch
-            # import pdb;pdb.set_trace()
             visuals = doc_to_visual(self.task_dict[task][split][doc_id])
             video_spec = parse_video_input(visuals[0]) if len(visuals) == 1 else None
             if video_spec is not None:
@@ -427,13 +420,10 @@ class LlavaVid(lmms):
                 video_bound = (video_spec.start_time, video_spec.end_time) if video_spec.has_time_bound else None
             else:
                 video_bound = None
-            # visuals = [visuals]
-            # visuals = self.flatten(visuals)
             if os.path.isdir(visuals[0]):
                 visuals = glob.glob(visuals[0] + "/*")
             videos = []
             try:
-                # for visual in visuals:
                 if len(visuals) == 1:
                     if self.video_decode_backend == "decord":
                         video, frame_time, video_time = self.load_video(
@@ -467,7 +457,6 @@ class LlavaVid(lmms):
                         frame_time = "1.00s"
                         video_time = 1
                     elif "mvbench" in task:
-                        # video = visuals
                         # Reference: https://github.com/jayleicn/TVQA/blob/dfb0e5fe4582efca574dfddfeafd1008db3b33ef/data/README.md?plain=1#L50C34-L50C60
                         fps = 3
                         video_time = len(visuals) / fps
@@ -475,7 +464,6 @@ class LlavaVid(lmms):
                         frame_idx = sampled_indices.tolist()
                         frame_time = [i / fps for i in frame_idx]
                         frame_time = ",".join([f"{i:.2f}s" for i in frame_time])
-                        # video = [visuals[i] for i in frame_idx]
                         video = np.stack(
                             [np.array(Image.open(visuals[i])) for i in frame_idx],
                             axis=0,
@@ -494,7 +482,6 @@ class LlavaVid(lmms):
                 continue
 
             qs = contexts
-            # import pdb;pdb.set_trace()
             if self.add_time_instruction:
                 time_instruciton = f"The video lasts for {video_time:.2f} seconds, and {len(video)} frames are uniformly sampled from it. These frames are located at {frame_time}.Please answer the following questions related to this video."
                 qs = f"{time_instruciton}\n{qs}"
@@ -535,7 +522,6 @@ class LlavaVid(lmms):
             if "num_beams" not in gen_kwargs:
                 gen_kwargs["num_beams"] = 1
 
-            # import pdb;pdb.set_trace()
             try:
                 with torch.inference_mode():
                     output_ids = self.model.generate(
@@ -558,7 +544,6 @@ class LlavaVid(lmms):
                 outputs = GENERATION_ERROR
             eval_logger.debug(f"Question: {cur_prompt}")
             eval_logger.debug(f"Answer: {outputs}")
-            # import pdb;pdb.set_trace()
             res.append(outputs)
             pbar.update(1)
         return res

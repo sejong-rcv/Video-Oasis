@@ -1,0 +1,14 @@
+{
+    "video_id": "xiangbo.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/3.4/xiangbo.MP4",
+    "transcript": " Teksting av Nicolai Winther",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                11.42
+            ],
+            "text": " Teksting av Nicolai Winther"
+        }
+    ]
+}

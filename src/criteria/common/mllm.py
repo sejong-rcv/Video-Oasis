@@ -117,6 +117,8 @@ def generate_mllm(
         "padding": True,
         "return_tensors": "pt",
     }
+    if runtime.name == "qwen3_vl" and media_type == "video":
+        processor_kwargs["do_sample_frames"] = False
     inputs = runtime.processor(**processor_kwargs).to(runtime.device)
 
     with torch.inference_mode():
@@ -137,3 +139,49 @@ def generate_mllm(
         skip_special_tokens=True,
         clean_up_tokenization_spaces=False,
     )[0]
+
+
+def generate_text(
+    runtime: MLLMRuntime,
+    prompt: str,
+    max_new_tokens: int = 1024,
+) -> str:
+    import torch
+
+    messages = [
+        {
+            "role": "user",
+            "content": [{"type": "text", "text": prompt}],
+        }
+    ]
+    text = runtime.processor.apply_chat_template(
+        messages,
+        tokenize=False,
+        add_generation_prompt=True,
+    )
+    inputs = runtime.processor(
+        text=[text],
+        images=None,
+        videos=None,
+        padding=True,
+        return_tensors="pt",
+    ).to(runtime.device)
+
+    with torch.inference_mode():
+        generated_ids = runtime.model.generate(
+            **inputs,
+            max_new_tokens=max_new_tokens,
+            do_sample=False,
+        )
+
+    if runtime.trim_input_tokens:
+        generated_ids = [
+            output_ids[len(input_ids) :]
+            for input_ids, output_ids in zip(inputs.input_ids, generated_ids)
+        ]
+
+    return runtime.processor.batch_decode(
+        generated_ids,
+        skip_special_tokens=True,
+        clean_up_tokenization_spaces=False,
+    )[0].strip()

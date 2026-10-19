@@ -52,19 +52,15 @@ def nested_score(payload: dict) -> dict:
     return {}
 
 
-def prediction_sample_id(
-    payload: dict,
-    annotations: list[Annotation],
-) -> str | None:
-    score = nested_score(payload)
-    db = score.get("task_type") or score.get("db") or payload.get("db")
-    qid = score.get("question_id") or score.get("qid") or payload.get("qid")
-    if db is not None and qid is not None:
-        return sample_id({"db": db, "qid": qid})
-
-    doc_id = payload.get("doc_id")
-    if isinstance(doc_id, int) and 0 <= doc_id < len(annotations):
-        return sample_id(annotations[doc_id])
+def prediction_sample_id(payload: dict) -> str | None:
+    # doc_id is positional and may refer to a different annotation list.
+    for source in (payload.get("doc"), nested_score(payload), payload):
+        if not isinstance(source, dict):
+            continue
+        db = source.get("db", source.get("task_type"))
+        qid = source.get("qid", source.get("question_id"))
+        if db is not None and qid is not None:
+            return sample_id({"db": db, "qid": qid})
     return None
 
 
@@ -89,8 +85,10 @@ def raw_prediction(payload: dict) -> object:
 def load_prediction_payloads(path: Path) -> tuple[list[tuple[int, dict]], list[dict]]:
     payloads = []
     errors = []
-    with path.open("r", encoding="utf-8") as f:
+    with path.open("r", encoding="utf-8-sig") as f:
         first_character = f.read(1)
+        while first_character and first_character.isspace():
+            first_character = f.read(1)
         f.seek(0)
         if first_character == "[":
             data = json.load(f)
@@ -113,7 +111,6 @@ def load_prediction_payloads(path: Path) -> tuple[list[tuple[int, dict]], list[d
 
 def load_model_predictions(
     source: PredictionSource,
-    annotations: list[Annotation],
     option_counts: dict[str, int],
 ) -> tuple[dict[str, str], list[dict]]:
     predictions: dict[str, str] = {}
@@ -121,7 +118,10 @@ def load_model_predictions(
     conflicting_ids = set()
 
     for line_number, payload in payloads:
-        sid = prediction_sample_id(payload, annotations)
+        if not isinstance(payload, dict):
+            errors.append({"line": line_number, "status": "invalid_record"})
+            continue
+        sid = prediction_sample_id(payload)
         if sid is None or sid not in option_counts:
             errors.append({"line": line_number, "status": "unknown_sample"})
             continue
@@ -165,7 +165,7 @@ def run_consistency(
     predictions_by_model = {}
     source_errors = {}
     for source in sources:
-        predictions, errors = load_model_predictions(source, annotations, option_counts)
+        predictions, errors = load_model_predictions(source, option_counts)
         predictions_by_model[source.model] = predictions
         source_errors[source.model] = errors
 

@@ -1,0 +1,14 @@
+{
+    "video_id": "liuwen.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/2.1/liuwen.MP4",
+    "transcript": " Hello everyone, today I will be showing you how to make a simple and delicious",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                14.98
+            ],
+            "text": " Hello everyone, today I will be showing you how to make a simple and delicious"
+        }
+    ]
+}

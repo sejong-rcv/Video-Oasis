@@ -9,8 +9,8 @@ import numpy as np
 import torch
 from tqdm import tqdm
 
-from criteria.common.annotations import Annotation
-from criteria.common.video_io import frames_to_images, open_video
+from criteria.common.annotations import Annotation, video_interval
+from criteria.common.video_io import frames_to_images, open_video, segment_bounds
 from criteria.common.vlm import encode_images
 
 
@@ -30,7 +30,12 @@ def video_name(ann: Annotation) -> str:
 
 
 def feature_path(feature_dir: str | Path, ann: Annotation) -> Path:
-    return Path(feature_dir) / f"{ann['db']}**@@**{video_name(ann)}.pt"
+    name = video_name(ann)
+    interval = video_interval(ann)
+    if interval is not None:
+        start, end = interval
+        name = f"{name}__{start}_{end}s"
+    return Path(feature_dir) / f"{ann['db']}**@@**{name}.pt"
 
 
 def model_feature_dir(feature_root: str | Path, model_family: str) -> Path:
@@ -45,25 +50,18 @@ def feature_candidates(
     ann: Annotation,
     model_family: str | None,
 ) -> list[Path]:
-    roots = (
-        [model_feature_dir(feature_dir, model_family)]
-        if model_family
-        else [feature_dir]
-    )
+    root = model_feature_dir(feature_dir, model_family) if model_family else feature_dir
+    if video_interval(ann) is not None:
+        return [feature_path(root, ann)]
 
     db = str(ann["db"])
     name = video_name(ann)
-    candidates = []
-    for root in roots:
-        candidates.extend(
-            [
-                feature_path(root, ann),
-                root / f"{db}_@@_{name}.pt",
-                root / f"{db.lower()}_@@_{name}.pt",
-                root / f"{name}.pt",
-            ]
-        )
-    return candidates
+    return [
+        feature_path(root, ann),
+        root / f"{db}_@@_{name}.pt",
+        root / f"{db.lower()}_@@_{name}.pt",
+        root / f"{name}.pt",
+    ]
 
 
 def resolve_feature_path(
@@ -95,22 +93,28 @@ def load_feature_tensor(path: Path) -> torch.Tensor:
 
 
 def unique_videos(annotations: list[Annotation]) -> list[Annotation]:
-    videos: dict[tuple[str, str], Annotation] = {}
+    videos = {}
     for ann in annotations:
-        key = (str(ann["db"]), str(ann["video_path"]))
+        key = (str(ann["db"]), str(ann["video_path"]), video_interval(ann))
         videos.setdefault(key, ann)
     return list(videos.values())
 
 
-def sampled_video_indices(reader, max_frames: int) -> list[int]:
+def sampled_video_indices(
+    reader,
+    max_frames: int,
+    start: int = 0,
+    end: int | None = None,
+) -> list[int]:
     if len(reader) == 0:
         raise ValueError("Video has no frames.")
 
+    end = len(reader) - 1 if end is None else end
     frame_step = max(1, int(reader.get_avg_fps()))
-    indices = np.arange(0, len(reader), frame_step, dtype=int)
+    indices = np.arange(start, end + 1, frame_step, dtype=int)
     if len(indices) > max_frames:
-        indices = np.linspace(0, len(reader) - 1, max_frames, dtype=int)
-    return np.clip(indices, 0, len(reader) - 1).tolist()
+        indices = np.linspace(start, end, max_frames, dtype=int)
+    return np.clip(indices, start, end).tolist()
 
 
 def extract_video_features(
@@ -120,7 +124,8 @@ def extract_video_features(
     max_frames: int,
 ):
     reader = open_video(ann)
-    indices = sampled_video_indices(reader, max_frames)
+    frame_start, frame_end = segment_bounds(ann, reader)
+    indices = sampled_video_indices(reader, max_frames, frame_start, frame_end)
     batches = []
 
     for start in range(0, len(indices), batch_size):

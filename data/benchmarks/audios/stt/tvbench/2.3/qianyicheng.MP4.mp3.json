@@ -1,0 +1,14 @@
+{
+    "video_id": "qianyicheng.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/2.3/qianyicheng.MP4",
+    "transcript": " Teksting av Nicolai Winther",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                8.38
+            ],
+            "text": " Teksting av Nicolai Winther"
+        }
+    ]
+}

@@ -7,7 +7,7 @@ from pathlib import Path
 
 from tqdm import tqdm
 
-from criteria.common.annotations import Annotation, load_annotations
+from criteria.common.annotations import Annotation, load_annotations, video_interval
 from criteria.common.outputs import (
     load_saved_prediction,
     prediction_path,
@@ -95,7 +95,7 @@ def evaluate_bag_of_frames(
 
     for ann in tqdm(annotations, desc=f"bof:{run_name}"):
         output_path = prediction_path(config.output_dir, run_name, ann)
-        saved = None if config.overwrite else load_saved_prediction(output_path)
+        saved = None if config.overwrite else load_saved_prediction(output_path, ann)
         if saved is not None:
             skipped += 1
             if saved["pred"] == ann.get("answer"):
@@ -136,6 +136,7 @@ def evaluate_bag_of_frames(
                     "axis": "temporal",
                     "test": "bag_of_frames",
                     "model": config.model,
+                    "video_scope": "segment" if video_interval(ann) is not None else "full_video",
                     "top_k": config.top_k,
                     "aggregation": config.aggregation,
                     "selected_feature_indices": result.selected_indices,

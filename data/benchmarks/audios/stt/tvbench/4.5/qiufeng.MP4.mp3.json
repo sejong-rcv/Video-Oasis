@@ -1,0 +1,70 @@
+{
+    "video_id": "qiufeng.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/4.5/qiufeng.MP4",
+    "transcript": "先淋四碗燉飯然後炒一個薑粉然後七球形燉飯把它開了然後給它停一下開始把它放上去然後往裡倒一點水然後把它蓋進去蓋住了",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": "先淋四碗燉飯"
+        },
+        {
+            "timestamp": [
+                4.0,
+                6.0
+            ],
+            "text": "然後炒一個薑粉"
+        },
+        {
+            "timestamp": [
+                8.0,
+                10.0
+            ],
+            "text": "然後七球形燉飯"
+        },
+        {
+            "timestamp": [
+                10.0,
+                12.0
+            ],
+            "text": "把它開了"
+        },
+        {
+            "timestamp": [
+                12.0,
+                14.0
+            ],
+            "text": "然後給它停一下"
+        },
+        {
+            "timestamp": [
+                14.0,
+                16.0
+            ],
+            "text": "開始把它放上去"
+        },
+        {
+            "timestamp": [
+                16.0,
+                18.0
+            ],
+            "text": "然後往裡倒一點水"
+        },
+        {
+            "timestamp": [
+                18.0,
+                20.0
+            ],
+            "text": "然後把它蓋進去"
+        },
+        {
+            "timestamp": [
+                26.0,
+                28.0
+            ],
+            "text": "蓋住了"
+        }
+    ]
+}

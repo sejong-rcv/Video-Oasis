@@ -1,0 +1,105 @@
+{
+    "video_id": "zhangyining.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/1.3/zhangyining.MP4",
+    "transcript": " 1.5 kg gouda 1.5 kg gouda 1.5 kg gouda 1.5 kg gouda 1.5 kg gouda 1.5 kg gouda 1.5 kg gouda 1.5 kg gouda 1.5 kg gouda 1.5 kg gouda 1.5 kg gouda 1.5 kg gouda 1.5 kg gouda 1.5 kg gouda",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                4.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                4.0,
+                6.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                6.0,
+                8.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                8.0,
+                10.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                10.0,
+                12.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                12.0,
+                14.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                14.0,
+                16.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                16.0,
+                18.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                18.0,
+                20.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                20.0,
+                22.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                22.0,
+                24.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                24.0,
+                26.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                26.0,
+                28.0
+            ],
+            "text": " 1.5 kg gouda"
+        },
+        {
+            "timestamp": [
+                28.0,
+                29.32
+            ],
+            "text": " 1.5 kg gouda"
+        }
+    ]
+}

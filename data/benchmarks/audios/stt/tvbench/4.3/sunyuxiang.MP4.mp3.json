@@ -1,0 +1,14 @@
+{
+    "video_id": "sunyuxiang.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/4.3/sunyuxiang.MP4",
+    "transcript": " Takk for ating medietekst.",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                22.68
+            ],
+            "text": " Takk for ating medietekst."
+        }
+    ]
+}

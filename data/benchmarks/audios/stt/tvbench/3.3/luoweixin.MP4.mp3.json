@@ -1,0 +1,14 @@
+{
+    "video_id": "luoweixin.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/3.3/luoweixin.MP4",
+    "transcript": " Teksting av Nicolai Winther",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                16.46
+            ],
+            "text": " Teksting av Nicolai Winther"
+        }
+    ]
+}

@@ -1,18 +1,6 @@
-import datetime
-import json
-import os
-import sys
-from collections import defaultdict
-from pathlib import Path
-from typing import Dict, List, Optional, Union
-
-import cv2
-import numpy as np
-import yaml
 from loguru import logger as eval_logger
 
 from lmms_eval.tasks._task_utils.eval_utils import extract_answer_letter
-from lmms_eval.tasks._task_utils.file_utils import generate_submission_file
 
 TASK_CATEGORIES = ['egoschema', 'ImplicitQA','LongVideoBench','LVBench','MINERVA','MLVU_Test','MMR-V','MVBench','RTV-Bench','TVBench','VCR-Bench','Video-Holmes','Video-MME','VSI-Bench']
 OASIS_CATEGORIES = [
@@ -23,24 +11,11 @@ OASIS_CATEGORIES = [
     "E. Fine-Grained Perception",
 ]
 
-replace_prompt = " Please answer yes or no."
-
-with open(Path(__file__).parent / "v_oasis.yaml", "r") as f:
-    raw_data = f.readlines()
-    safe_data = []
-    for i, line in enumerate(raw_data):
-        # remove function definition since yaml load cannot handle it
-        if "!function" not in line:
-            safe_data.append(line)
-cache_name = yaml.safe_load("".join(safe_data))["dataset_kwargs"]["cache_dir"]
-
 def v_oasis_doc_to_visual(doc):
-    if doc['db']=='RTV-Bench':
-        video_path = doc["video_path"]
-        return [(video_path, doc["start_time"], doc["end_time"])]
-    else:
-        video_path = doc["video_path"]
-        return [video_path]
+    video_path = doc["video_path"]
+    if doc.get("start_time") is not None or doc.get("end_time") is not None:
+        return [(video_path, doc.get("start_time"), doc.get("end_time"))]
+    return [video_path]
 
 def v_oasis_doc_to_text(doc, lmms_eval_specific_kwargs=None):
     cand = '('

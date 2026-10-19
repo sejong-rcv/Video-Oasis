@@ -1,0 +1,91 @@
+{
+    "video_id": "zhangyining.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/4.2/zhangyining.MP4",
+    "transcript": " Hjulmål Hjulmål Hjulmål Hjulmål Hjulmål Hjulmål Hjulmål Hjulmål Hjulmål Hjulmål Hjulmål Hjulmål",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                2.0
+            ],
+            "text": " Hjulmål"
+        },
+        {
+            "timestamp": [
+                2.0,
+                4.0
+            ],
+            "text": " Hjulmål"
+        },
+        {
+            "timestamp": [
+                4.0,
+                6.0
+            ],
+            "text": " Hjulmål"
+        },
+        {
+            "timestamp": [
+                6.0,
+                8.0
+            ],
+            "text": " Hjulmål"
+        },
+        {
+            "timestamp": [
+                8.0,
+                10.0
+            ],
+            "text": " Hjulmål"
+        },
+        {
+            "timestamp": [
+                10.0,
+                12.0
+            ],
+            "text": " Hjulmål"
+        },
+        {
+            "timestamp": [
+                12.0,
+                14.0
+            ],
+            "text": " Hjulmål"
+        },
+        {
+            "timestamp": [
+                14.0,
+                16.0
+            ],
+            "text": " Hjulmål"
+        },
+        {
+            "timestamp": [
+                16.0,
+                18.0
+            ],
+            "text": " Hjulmål"
+        },
+        {
+            "timestamp": [
+                18.0,
+                20.0
+            ],
+            "text": " Hjulmål"
+        },
+        {
+            "timestamp": [
+                20.0,
+                22.0
+            ],
+            "text": " Hjulmål"
+        },
+        {
+            "timestamp": [
+                22.0,
+                23.16
+            ],
+            "text": " Hjulmål"
+        }
+    ]
+}

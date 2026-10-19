@@ -1,0 +1,14 @@
+{
+    "video_id": "lixuyang.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/3.4/lixuyang.MP4",
+    "transcript": " 1 tsk vaniljensk rødgrød",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                12.2
+            ],
+            "text": " 1 tsk vaniljensk rødgrød"
+        }
+    ]
+}

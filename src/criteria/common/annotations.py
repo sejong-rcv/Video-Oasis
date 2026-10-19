@@ -32,6 +32,13 @@ def sample_id(ann: Annotation) -> str:
     return f"{ann['db']}**@@**{str(ann['qid']).replace('/', '_')}"
 
 
+def video_interval(ann: Annotation) -> tuple[float, float] | None:
+    start, end = ann.get("start_time"), ann.get("end_time")
+    if start is None and end is None:
+        return None
+    return float(start), float(end)
+
+
 def resolve_video_path(video_path: str) -> Path:
     if video_path.startswith("../data/benchmarks"):
         rel_path = video_path.removeprefix("../data/benchmarks").lstrip("/")

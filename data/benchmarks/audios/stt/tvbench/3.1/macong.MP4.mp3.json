@@ -1,0 +1,14 @@
+{
+    "video_id": "macong.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/3.1/macong.MP4",
+    "transcript": " Teksting av Nicolai Winther",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                14.3
+            ],
+            "text": " Teksting av Nicolai Winther"
+        }
+    ]
+}

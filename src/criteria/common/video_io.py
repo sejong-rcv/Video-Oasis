@@ -8,7 +8,7 @@ import numpy as np
 from decord import VideoReader, cpu
 from PIL import Image
 
-from .annotations import Annotation, resolve_video_path
+from .annotations import Annotation, resolve_video_path, video_interval
 
 
 def open_video(ann: Annotation) -> VideoReader:
@@ -20,10 +20,11 @@ def segment_bounds(ann: Annotation, reader: VideoReader) -> tuple[int, int]:
     if total_frames == 0:
         raise ValueError(f"Video has no frames: {ann['video_path']}")
 
-    if ann.get("db") == "RTV-Bench":
+    interval = video_interval(ann)
+    if interval is not None:
         fps = float(reader.get_avg_fps())
-        start = round(float(ann["start_time"]) * fps)
-        end = round(float(ann["end_time"]) * fps)
+        start = round(interval[0] * fps)
+        end = round(interval[1] * fps)
     else:
         start = 0
         end = total_frames - 1

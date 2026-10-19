@@ -1,0 +1,14 @@
+{
+    "video_id": "sunyuxiang.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/2.2/sunyuxiang.MP4",
+    "transcript": " 1 tbs vanilj",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                8.32
+            ],
+            "text": " 1 tbs vanilj"
+        }
+    ]
+}

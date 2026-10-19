@@ -1,0 +1,49 @@
+{
+    "video_id": "songjiahe.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/3.5/songjiahe.MP4",
+    "transcript": " Kanskje er det noe som kvarstår i denne filmen? Kanskje er det noe som kvarstår i denne filmen? Kanskje er det noe som kvarstår i denne filmen? Kanskje er det noe som kvarstår i denne filmen? Kanskje er det noe som kvarstår i denne filmen? Kanskje er det noe som kvarstår i denne filmen?",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                5.0
+            ],
+            "text": " Kanskje er det noe som kvarstår i denne filmen?"
+        },
+        {
+            "timestamp": [
+                5.0,
+                9.0
+            ],
+            "text": " Kanskje er det noe som kvarstår i denne filmen?"
+        },
+        {
+            "timestamp": [
+                9.0,
+                13.0
+            ],
+            "text": " Kanskje er det noe som kvarstår i denne filmen?"
+        },
+        {
+            "timestamp": [
+                13.0,
+                17.0
+            ],
+            "text": " Kanskje er det noe som kvarstår i denne filmen?"
+        },
+        {
+            "timestamp": [
+                17.0,
+                21.0
+            ],
+            "text": " Kanskje er det noe som kvarstår i denne filmen?"
+        },
+        {
+            "timestamp": [
+                21.0,
+                23.0
+            ],
+            "text": " Kanskje er det noe som kvarstår i denne filmen?"
+        }
+    ]
+}

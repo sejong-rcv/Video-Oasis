@@ -1,0 +1,14 @@
+{
+    "video_id": "zhoukang.MP4.mp3",
+    "video_path": "../data/benchmarks/videos/tvbench/videos/5.4/zhoukang.MP4",
+    "transcript": "拿起来,开,放进锅里,放进锅里,放进烧杯,放进蒸包,放进烧杯,放进蒸包。",
+    "timestamps": [
+        {
+            "timestamp": [
+                0.0,
+                13.82
+            ],
+            "text": "拿起来,开,放进锅里,放进锅里,放进烧杯,放进蒸包,放进烧杯,放进蒸包。"
+        }
+    ]
+}
