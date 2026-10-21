@@ -18,6 +18,7 @@ class ModelEntry:
 MODEL_REGISTRY = {
     "qwen25_vl": ModelEntry("qwen25_vl", "mllm", str(REPO_ROOT / "data/models/Qwen2.5-VL-7B-Instruct")),
     "qwen3_vl": ModelEntry("qwen3_vl", "mllm", str(REPO_ROOT / "data/models/Qwen3-VL-8B-Instruct")),
+    "videoauto_r1_qwen3": ModelEntry("videoauto_r1_qwen3", "mllm", str(REPO_ROOT / "data/models/VideoAuto-R1-Qwen3-VL-8B")),
     "eagle25": ModelEntry("eagle25", "mllm", str(REPO_ROOT / "data/models/Eagle2.5-8B")),
     "clip-vit-l-14": ModelEntry(
         "clip-vit-l-14",

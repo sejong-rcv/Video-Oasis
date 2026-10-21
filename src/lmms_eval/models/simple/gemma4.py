@@ -1,11 +1,9 @@
 import base64
-import json
 import math
 import os
 import re
 import warnings
 from io import BytesIO
-from pathlib import Path
 from typing import List, Optional, Tuple, Union
 
 import numpy as np
@@ -81,7 +79,6 @@ class Gemma4(lmms):
         system_prompt: Optional[str] = "You are a helpful assistant.",
         enable_thinking: bool = False,
         reasoning_prompt: Optional[str] = None,
-        prediction_output_dir: Optional[str] = None,
         **kwargs,
     ) -> None:
         super().__init__()
@@ -127,10 +124,6 @@ class Gemma4(lmms):
         self.system_prompt = system_prompt
         self.interleave_visuals = interleave_visuals
         self.enable_thinking = enable_thinking
-        self.prediction_output_dir = Path(prediction_output_dir).expanduser() if prediction_output_dir else None
-        if self.prediction_output_dir is not None:
-            self.prediction_output_dir.mkdir(parents=True, exist_ok=True)
-            eval_logger.info(f"Saving per-sample predictions to {self.prediction_output_dir}")
 
         self.max_soft_tokens = max_soft_tokens
         self.video_max_soft_tokens = video_max_soft_tokens
@@ -210,65 +203,6 @@ class Gemma4(lmms):
         encoded = base64.b64encode(buffer.getvalue()).decode("ascii")
         return f"data:image/jpeg;base64,{encoded}"
 
-    @staticmethod
-    def _sanitize_prediction_component(value) -> str:
-        return str(value).replace("/", "_").replace("\\", "_")
-
-    def _prediction_path(self, task: str, split: str, doc_id: int) -> Optional[Path]:
-        if self.prediction_output_dir is None:
-            return None
-        doc = self.task_dict[task][split][doc_id]
-        db = self._sanitize_prediction_component(doc.get("db", task))
-        qid = self._sanitize_prediction_component(doc.get("qid", doc_id))
-        return self.prediction_output_dir / f"{db}**@@**{qid}.json"
-
-    def _load_chunk_predictions(self, task: str, split: str, doc_ids) -> Optional[List[str]]:
-        if self.prediction_output_dir is None:
-            return None
-
-        predictions = []
-        for doc_id in doc_ids:
-            path = self._prediction_path(task, split, doc_id)
-            try:
-                with path.open("r", encoding="utf-8") as file:
-                    saved = json.load(file)
-                prediction = saved.get("pred")
-                raw_prediction = saved.get("raw_pred")
-                if (
-                    not isinstance(prediction, str)
-                    or prediction.startswith("error::")
-                    or not isinstance(raw_prediction, str)
-                ):
-                    return None
-                predictions.append(prediction)
-            except (FileNotFoundError, json.JSONDecodeError, OSError, AttributeError):
-                return None
-        return predictions
-
-    def _save_prediction(
-        self,
-        task: str,
-        split: str,
-        doc_id: int,
-        prediction: str,
-        raw_prediction: Optional[str] = None,
-    ) -> None:
-        path = self._prediction_path(task, split, doc_id)
-        if path is None:
-            return
-
-        output = dict(self.task_dict[task][split][doc_id])
-        output["pred"] = prediction
-        output["raw_pred"] = raw_prediction if raw_prediction is not None else prediction
-        tmp_path = path.with_name(f".{path.name}.{os.getpid()}.tmp")
-        try:
-            with tmp_path.open("w", encoding="utf-8") as file:
-                json.dump(output, file, ensure_ascii=False, indent=4, default=str)
-            os.replace(tmp_path, path)
-        except Exception:
-            tmp_path.unlink(missing_ok=True)
-            eval_logger.exception(f"Failed to save prediction: {path}")
-
     def _decode_video(
         self,
         video_path: str,
@@ -321,14 +255,6 @@ class Gemma4(lmms):
             task = task[0]
             split = split[0]
             gen_kwargs = all_gen_kwargs[0]
-
-            cached_answers = self._load_chunk_predictions(task, split, doc_id)
-            if cached_answers is not None:
-                for ans, context in zip(cached_answers, contexts):
-                    res.append(ans)
-                    self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
-                    pbar.update(1)
-                continue
 
             visual_list = [doc_to_visual[0](self.task_dict[task][split][ids]) for ids in doc_id]
 
@@ -454,11 +380,9 @@ class Gemma4(lmms):
                     clean_up_tokenization_spaces=False,
                 )
                 answers = []
-                raw_predictions = []
                 for raw_answer, input_ids, context in zip(raw_answers, inputs.input_ids, contexts):
                     parsed = self.processor.parse_response(raw_answer, prefix=input_ids)
                     content = (parsed.get("content") or "").strip()
-                    raw_predictions.append(raw_answer.strip())
                     final_answer = _extract_unambiguous_answer(content, context)
                     answers.append(final_answer or content)
                 for i, ans in enumerate(answers):
@@ -469,10 +393,8 @@ class Gemma4(lmms):
             except Exception as e:
                 eval_logger.exception(f"{failure_sentinel}: {e}")
                 answers = [failure_sentinel] * len(contexts)
-                raw_predictions = list(answers)
 
-            for ans, raw_prediction, context, current_doc_id in zip(answers, raw_predictions, contexts, doc_id):
-                self._save_prediction(task, split, current_doc_id, ans, raw_prediction)
+            for ans, context in zip(answers, contexts):
                 res.append(ans)
                 self.cache_hook.add_partial("generate_until", (context, gen_kwargs), ans)
                 pbar.update(1)

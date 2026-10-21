@@ -19,3 +19,5 @@ assets/main.tex
 assets/sup.tex
 src/criteria/common/longclip/longclip-L.pt
 /rtv_eval/
+/src/r1_eval/
+/src/lmms_eval/video_total_retry.json

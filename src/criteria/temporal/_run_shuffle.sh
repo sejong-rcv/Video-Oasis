@@ -9,5 +9,5 @@ CUDA_VISIBLE_DEVICES=0 python -m criteria.temporal.run frame-shuffle \
   --num-frames 128
 
 CUDA_VISIBLE_DEVICES=0 python -m criteria.temporal.run frame-shuffle \
-  --model qwen25_vl \
+  --model videoauto_r1_qwen3 \
   --num-frames 128

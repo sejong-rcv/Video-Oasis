@@ -40,6 +40,7 @@ def build_test_configs(
     aggregation: str,
 ) -> tuple[TestConfig, ...]:
     mllms = {name: name for name in ("qwen25_vl", "qwen3_vl", "eagle25")}
+    temporal_mllms = {name: name for name in ("videoauto_r1_qwen3", "qwen3_vl", "eagle25")}
     vlms = {
         name: f"{name}_k{top_k}_{aggregation}"
         for name in ("clip-vit-l-14", "eva-clip-8b", "longclip")
@@ -48,8 +49,8 @@ def build_test_configs(
         TestConfig("blind", visual_root / "blind", mllms),
         TestConfig("audio", visual_root / "audio", mllms, requires_audio=True),
         TestConfig("summary", visual_root / "summary", mllms),
-        TestConfig("center_frame", temporal_root / "center_frame", mllms),
-        TestConfig("frame_shuffle", temporal_root / "frame_shuffle", mllms),
+        TestConfig("center_frame", temporal_root / "center_frame", temporal_mllms),
+        TestConfig("frame_shuffle", temporal_root / "frame_shuffle", temporal_mllms),
         TestConfig("bag_of_frames", temporal_root / "bag_of_frames", vlms),
     )
 
